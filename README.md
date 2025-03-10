@@ -38,6 +38,8 @@ Index the Body of Knowledge:
 slm-index-faiss --txt-folder ./data/BodyOfKnowledge --faiss-dir ./XP/bok_store --recurse 
 ```
 
+# run the query to align our cursus to BOK
+
 Check config.bok to adjust parameter. Run the query (quite long):
 ```
 slm-run --load data/courses.ttl --config config.bok --format=turtle -f queries/bok-graph.sparql --debug -o ./XP/bok.result --keep-store ./XP/bok.nq 
