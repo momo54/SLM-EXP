@@ -50,4 +50,4 @@ Faiss relies on  FlatIP to index with  normalisation. Score close to 1 is good, 
 
 
 # Some notes
-- File name of BOK with ' ' and ',' !! -> scripts/sanitize.py
+- File name of BOK with ' ' and ',' !! -> `scripts/sanitize.py`
