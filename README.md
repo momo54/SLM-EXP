@@ -23,6 +23,15 @@ source xp-venv/bin/activate
 pip install -r requirements.txt
 ```
 
+Need Ollama installed, For Linux, MacOS:
+```
+curl -fsSL https://ollama.com/install.sh | sh
+ollama serve &
+ollama pull llama3.1:latest
+ollama pull nomic-embed-text
+```
+
+
 
 Index the Body of Knowledge:
 ```
