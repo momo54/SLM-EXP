@@ -1,0 +1,19 @@
+Code,Knowledge Area,# Knowledge Units,CS Core Hours,KA Core Hours
+AI,Artificial Intelligence,12,12,18.0
+AL,Algorithmic Foundations,5,32,32.0
+AR,Architecture and Organization,11,9,16.0
+DM,Data Management,13,10,26.0
+FPL,Foundations of Programming Languages,22,21,19.0
+GIT,Graphics and Interactive Techniques,12,4,70.0
+HCI,Human-Computer Interaction,6,8,16.0
+MSF,Mathematical and Statistical Foundations,5,55,145.0
+NC,Networking and Communication,8,7,24.0
+OS,Operating Systems,14,8,13.0
+PDC,Parallel and Distributed Computing,5,9,26.0
+SDF,Software Development Fundamentals,5,43,
+SE,Software Engineering,9,6,21.0
+SEC,Security,7,6,35.0
+SEP,"Society, Ethics, and the Profession",11,18,14.0
+SF,Systems Fundamentals,9,18,8.0
+SPD,Specialized Platform Development,8,4,
+Total,Total,162,270,

@@ -1,0 +1,8 @@
+SELECT ?filePath 
+       (REPLACE(?filePath, "file://.*/([^/]+)/[^/]+\\.txt$", "$1") AS ?ka) 
+       (REPLACE(?filePath, "file://.*/([^/]+)/([^/]+)\\.txt$", "$2") AS ?ku)
+WHERE {
+  VALUES ?filePath { 
+    "file:///Users/molli-p/BodyOfKnowledge/Specialized_Platform_Development_SPD/SPD-Common Aspects.txt"
+  }
+}
