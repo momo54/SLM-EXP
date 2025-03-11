@@ -1,11 +1,21 @@
 
 # Input
 
-```
-./data/BodyOfKnowledge
-```
+* `./data/BodyOfKnowledge` (BOK) is the extraction of Knowledge Units (KU) from [https://csed.acm.org/], aggregated per Knowledge AREA (KA). Knowledge Unit as TXT file in Knowledge Are directories.
 
-Knowledge Unit as TXT file in Knowledge Are directories.
+* `./data/courses.ttl` is a knowledge graph representation of the our Curricula in Nantes (may not a public document)
+
+The objective is to align the UE of the Nantes curricula (NC) to the KU of BOK to see:
+* is all KU covered by our UEs ?
+* Does some UEs not aligned to any KU ?
+* estimation of Hours/ECTS dedicated to KU/KA 
+
+SPARQLLM is used to implement a pipeline that:
+- enumerate UEs from NC
+- Find 3 KU candidates with Vector Search
+- Ask LLM to confirm if really the UE is aligned to KU and why. 
+
+The ouput is a alignement of UE to KU. As UEs have Ects, it should be possible to output a Radar view of NC.
 
 # Index the Body Of Knowledge 
 
