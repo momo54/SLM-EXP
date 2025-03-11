@@ -17,6 +17,8 @@ SPARQLLM is used to implement a pipeline that:
 
 The ouput is a alignement of UE to KU. As UEs have Ects, it should be possible to output a Radar view of NC.
 
+![BOK Radar](scripts/BOK-Radar.png)
+
 # Index the Body Of Knowledge 
 
 Install SPARQLLM Globally 
