@@ -1,0 +1,5 @@
+## slm-run --load data/courses.ttl --config config.bok --format=turtle -f queries/master_stat.sparql 
+SELECT DISTINCT ?s 
+WHERE {
+  ?s ?p ?o .
+}
