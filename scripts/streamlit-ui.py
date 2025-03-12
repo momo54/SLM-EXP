@@ -23,9 +23,11 @@ except Exception as e:
 
 # 📝 Zone de saisie pour la requête SPARQL
 default_query = """
-SELECT ?s ?p ?o WHERE {
-  ?s ?p ?o .
-} LIMIT 10
+SELECT ?s ?score ?ku WHERE {
+   ?s <http://align.org/to> ?bn .
+  ?bn <http://example.org/course/ku> ?ku .
+  ?bn <http://align.org/score> ?score
+} LIMIT 100
 """
 query = st.text_area("📝 Entrez votre requête SPARQL :", default_query, height=200)
 
