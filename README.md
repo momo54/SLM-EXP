@@ -26,7 +26,8 @@ Install SPARQLLM Globally
 ```
 pip install git+https://github.com/momo54/SPARQLLM.git
 ```
-You can update SPARQLLM with `pip install --upgrade git+https://github.com/momo54/SPARQLLM.git`
+You can update SPARQLLM with `pip install --upgrade git+https://github.com/momo54/SPARQLLM.git`.
+Sometimes, i need "pip install --no-cache-dir --force-reinstall git+https://github.com/momo54/SPARQLLM.git"
 
 install with virtualenv (recommended):
 ```
@@ -57,9 +58,22 @@ Check config.bok to adjust parameter. Run the query (quite long):
 slm-run --load data/courses.ttl --config config.bok --format=turtle -f queries/bok-graph.sparql --debug -o ./XP/bok.result --keep-store ./XP/bok.nq 
 ```
 
+The same query with Constuct instead of select:
+```
+slm-run --load data/courses.ttl --config config.bok --format=turtle -f queries/bok-graph-construct.sparql --debug -o ./XP/bokc.ttl --keep-store ./XP/bokc.nq
+```
+
 Notes: 
 Faiss relies on  FlatIP to index with  normalisation. Score close to 1 is good, 0 or minus -> not similar
 
+# run the UI to explore the results
+
+Need improv...
+
+```
+streamlit run scripts/streamlit-ui.py
+```
 
 # Some notes
 - File name of BOK with ' ' and ',' !! -> `scripts/sanitize.py`
+- grr, pendant la sauvegarde nq, j'ai une `Exception: "http://schema.org/Métaheuristiques multiobjectif" does not look like a valid URI, I cannot serialize this as N3/Turtle. Perhaps you wanted to urlencode it?` mais visiblement, le .nq est quand même propduit...
