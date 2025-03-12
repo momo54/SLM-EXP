@@ -2,10 +2,11 @@ import streamlit as st
 import rdflib
 import pandas as pd
 import networkx as nx
-import matplotlib.pyplot as plt
+from pyvis.network import Network
+import tempfile
 
-# 📂 Chemin de ton fichier RDF (à modifier si besoin)
-RDF_FILE_PATH = "./XP/bokc.ttl"  # Mets ici le chemin de ton fichier RDF
+# 📂 Chemin du fichier RDF (modifie si besoin)
+RDF_FILE_PATH = "./XP/bokc.ttl"  
 
 # 🏗️ Charger le Knowledge Graph avec RDFLib
 st.title("🔎 SPARQL Query Interface for Local Knowledge Graph")
@@ -15,8 +16,8 @@ st.sidebar.write(f"✅ Fichier utilisé : `{RDF_FILE_PATH}`")
 
 g = rdflib.Graph()
 try:
-    g.parse(RDF_FILE_PATH, format="turtle")  # Change le format si besoin (xml, json-ld, nt...)
-    st.sidebar.success("Graph chargé avec succès ! 🟢")
+    g.parse(RDF_FILE_PATH, format="turtle")  
+    st.sidebar.success("✅ Graph chargé avec succès !")
 except Exception as e:
     st.sidebar.error(f"Erreur lors du chargement du fichier RDF : {e}")
     st.stop()
@@ -45,22 +46,31 @@ if st.button("Exécuter la requête"):
         st.write("### 🔍 Résultats de la requête :")
         st.dataframe(df)
 
-        # 📊 Affichage sous forme de graphe si on a des relations (triplets)
-        if len(df.columns) == 2 or len(df.columns) == 3:
-            st.write("### 🕸️ Visualisation sous forme de graphe")
+        # 🕸️ Création du graphe interactif avec Pyvis
+        if len(df.columns) == 3:
+            st.write("### 🕸️ Visualisation interactive du graphe")
+
+            # Création du graphe avec NetworkX
             G = nx.DiGraph()
             for _, row in df.iterrows():
-                G.add_edge(row[df.columns[0]], row[df.columns[-1]], label=row[df.columns[1]] if len(df.columns) == 3 else None)
+                source, score, ku = row
+                G.add_edge(source, ku, weight=score, label=f"Score: {score}")
 
-            plt.figure(figsize=(8, 5))
-            pos = nx.spring_layout(G)
-            nx.draw(G, pos, with_labels=True, node_color="lightblue", edge_color="gray", font_size=10)
-            
-            # Ajout des labels sur les arêtes
-            edge_labels = nx.get_edge_attributes(G, 'label')
-            nx.draw_networkx_edge_labels(G, pos, edge_labels=edge_labels, font_size=8)
+            # 📌 Création du graphe interactif Pyvis
+            net = Network(height="600px", width="100%", directed=True, notebook=False)
 
-            st.pyplot(plt)
+            # Ajout des nœuds et arêtes
+            for node in G.nodes():
+                net.add_node(node, label=node, title=node)
+
+            for edge in G.edges(data=True):
+                source, target, data = edge
+                net.add_edge(source, target, label=data["label"])
+
+            # 📂 Sauvegarde temporaire du graphe en HTML
+            with tempfile.NamedTemporaryFile(delete=False, suffix=".html") as tmpfile:
+                net.save_graph(tmpfile.name)
+                st.components.v1.html(open(tmpfile.name, "r").read(), height=650, scrolling=True)
 
     except Exception as e:
         st.error(f"Erreur lors de l'exécution de la requête : {e}")
