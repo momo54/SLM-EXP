@@ -9,11 +9,29 @@ import time
 # 📂 Chemin du fichier RDF (modifie si besoin)
 RDF_FILE_PATH = "./XP/bokc.ttl"
 
-# 🏗️ Charger le Knowledge Graph avec RDFLib
-st.title("🔎 Visualisation Interactive du Knowledge Graph (Bi-Partite)")
+st.set_page_config(
+    page_title="SLM-EXPE home",
+    page_icon="👋",
+)
 
-st.sidebar.header("📂 Fichier RDF chargé")
-st.sidebar.write(f"✅ Fichier utilisé : `{RDF_FILE_PATH}`")
+# with st.sidebar:
+# st.page_link("streamlit-ui.py", label="SLM-EXPE", icon="🔥")
+# st.page_link("pages/page_1.py", label="Demo 1", icon="🛡️")
+
+st.title("🔎 SLM-EXPE home")
+# st.sidebar.header("📂 Fichier RDF chargé")
+# st.sidebar.write(f"✅ Fichier utilisé : `{RDF_FILE_PATH}`")
+
+# # Bouton pour ouvrir une nouvelle page Streamlit dans la barre latérale
+# if st.sidebar.button("Ouvrir une nouvelle page"):
+#     st.experimental_set_query_params(page="new_page")
+
+# # Gestion de la navigation entre les pages
+# query_params = st.experimental_get_query_params()
+# if query_params.get("page") == ["new_page"]:
+#     st.title("Nouvelle Page")
+#     st.write("Bienvenue sur la nouvelle page !")
+#     st.stop()
 
 # Chargement du fichier RDF
 g = rdflib.Graph()
@@ -25,16 +43,29 @@ except Exception as e:
     st.stop()
 
 # 📝 Zone de saisie pour la requête SPARQL
-default_query = """
-PREFIX align: <http://align.org/>
+# default_query = """
+# PREFIX align: <http://align.org/>
+# PREFIX course: <http://example.org/course/>
+
+# SELECT ?s ?score ?ku WHERE {
+#    ?s align:to ?bn .
+#    ?bn course:ku ?ku .
+#    ?bn align:score ?score
+# } LIMIT 100
+# """
+
+aligned_courses = """
 PREFIX course: <http://example.org/course/>
 
-SELECT ?s ?score ?ku WHERE {
+SELECT ?s ?ans ?score ?ku WHERE {
    ?s align:to ?bn .
-   ?bn course:ku ?ku .
-   ?bn align:score ?score
-} LIMIT 100
+   ?bn course:ku ?ku ;
+            align:score ?score ; 
+            course:answer ?ans .
+   FILTER (?ans = "1" && ?score > 0.7)
+} 
 """
+
 query = st.text_area("📝 Entrez votre requête SPARQL :", default_query, height=200)
 
 # 🎯 Exécution de la requête SPARQL
@@ -46,7 +77,7 @@ if st.button("Exécuter la requête"):
         data = []
         for row in results:
             data.append([str(value) for value in row])
-        
+
         df = pd.DataFrame(data, columns=[str(var) for var in results.vars])
         st.write("### 🔍 Résultats de la requête :")
         st.dataframe(df)
@@ -75,7 +106,9 @@ if st.button("Exécuter la requête"):
             layout_fixed = st.sidebar.checkbox("Disposition statique", False)
 
             # 🎨 Choix des couleurs pour les types de nœuds (source et ku)
-            source_color = st.sidebar.color_picker("Couleur des nœuds Source", "#1f78b4")
+            source_color = st.sidebar.color_picker(
+                "Couleur des nœuds Source", "#1f78b4"
+            )
             ku_color = st.sidebar.color_picker("Couleur des nœuds KU", "#33a02c")
 
             # 📌 Création du graphe interactif Pyvis
@@ -88,7 +121,13 @@ if st.button("Exécuter la requête"):
 
                 node_type = "source" if node in df["s"].values else "ku"
                 color = source_color if node_type == "source" else ku_color
-                net.add_node(str(node), label=str(node) if show_labels else "", title=str(node), color=color, size=node_size)
+                net.add_node(
+                    str(node),
+                    label=str(node) if show_labels else "",
+                    title=str(node),
+                    color=color,
+                    size=node_size,
+                )
 
             # Ajout des arêtes en évitant les valeurs `None`
             for edge in G.edges(data=True):
@@ -97,7 +136,12 @@ if st.button("Exécuter la requête"):
                 if source is None or target is None:
                     continue
 
-                net.add_edge(str(source), str(target), label=data["label"] if show_score else "", width=edge_width)
+                net.add_edge(
+                    str(source),
+                    str(target),
+                    label=data["label"] if show_score else "",
+                    width=edge_width,
+                )
 
             # 📂 Sauvegarde du graphe dans un fichier HTML temporaire
             tmpfile_path = "graph.html"  # Nouveau fichier temporaire local
@@ -115,7 +159,9 @@ if st.button("Exécuter la requête"):
 
             # Sauvegarde du graphe
             net.save_graph(tmpfile_path)
-            time.sleep(1)  # 🛠️ Éviter que Streamlit tente de lire le fichier avant qu'il ne soit écrit complètement
+            time.sleep(
+                1
+            )  # 🛠️ Éviter que Streamlit tente de lire le fichier avant qu'il ne soit écrit complètement
 
             # 📌 Lire et afficher le fichier dans Streamlit
             with open(tmpfile_path, "r", encoding="utf-8") as f:
