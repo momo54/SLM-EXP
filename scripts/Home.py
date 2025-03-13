@@ -43,16 +43,16 @@ except Exception as e:
     st.stop()
 
 # 📝 Zone de saisie pour la requête SPARQL
-# default_query = """
-# PREFIX align: <http://align.org/>
-# PREFIX course: <http://example.org/course/>
+default_query = """
+PREFIX align: <http://align.org/>
+PREFIX course: <http://example.org/course/>
 
-# SELECT ?s ?score ?ku WHERE {
-#    ?s align:to ?bn .
-#    ?bn course:ku ?ku .
-#    ?bn align:score ?score
-# } LIMIT 100
-# """
+SELECT ?s ?score ?ku WHERE {
+   ?s align:to ?bn .
+   ?bn course:ku ?ku .
+   ?bn align:score ?score
+} LIMIT 100
+"""
 
 aligned_courses = """
 PREFIX course: <http://example.org/course/>
