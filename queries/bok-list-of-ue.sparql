@@ -1,0 +1,23 @@
+# slm-run --config config.bok -f queries/bok-list-of-ue.sparql --debug
+PREFIX ns1: <http://example.org/course/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX ex: <http://example.org/>
+
+SELECT * 
+WHERE {
+    BIND(ex:SLM-FILE("./data/courses.ttl") AS ?input)
+    BIND(ex:SLM-RDF(?input,"turtle") AS ?ginput)
+    GRAPH ?ginput {
+        {
+        SELECT ?s ?label ?objective ?parcours ?level WHERE {
+            ?s ns1:content ?content .
+            ?s rdfs:label ?label .
+            ?s ns1:objective ?objective .
+            ?s ns1:parcours ?parcours .
+            ?s ns1:level ?level .
+#            FILTER(CONTAINS(?parcours, "ALMA")) .
+#            FILTER(CONTAINS(?level, "M1"))
+        } limit 3}
+    }
+    
+}

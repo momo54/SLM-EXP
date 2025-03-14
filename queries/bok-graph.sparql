@@ -1,14 +1,20 @@
-## slm-run --load data/courses.ttl --config config.bok --format=turtle -f queries/bok-graph.sparql --debug
+## slm-run  --config config.bok  -f queries/bok-graph.sparql --debug
 PREFIX ns1: <http://example.org/course/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX ex: <http://example.org/>
 
 SELECT DISTINCT ?s ?label ?ku_source ?score ?parcours ?ka ?ku ?answer ?explain WHERE {
-    ?s ns1:content ?content .
-    ?s rdfs:label ?label .
-    ?s ns1:objective ?objective .
-    ?s ns1:parcours ?parcours .
-#    FILTER(CONTAINS(?parcours, "ALMA"))
+    BIND(ex:SLM-FILE("./data/courses.ttl") AS ?input)
+    BIND(ex:SLM-RDF(?input,"turtle") AS ?ginput)
+    graph ?ginput {
+#        select ?s ?label {
+            ?s ns1:content ?content .
+            ?s rdfs:label ?label .
+            ?s ns1:objective ?objective .
+            ?s ns1:parcours ?parcours .
+            FILTER(CONTAINS(?parcours, "ALMA"))
+#        }
+    }
     BIND(CONCAT("Label: ",STR(?label)," Objectif: ",STR(?objective),
                 " Course content: ", STR(?content)," Course name: ",STR(?s)) AS ?UE)
     BIND(ex:SLM-SEARCH-FAISS(?UE,?s,3) AS ?retrieval_graph)

@@ -7,10 +7,10 @@ import os
 import time
 
 # 📂 Chemin du fichier RDF (modifie si besoin)
-RDF_FILE_PATH = "./XP/bokc.ttl"
+#RDF_FILE_PATH = "./XP/bokc.ttl"
 
 # 🏗️ Charger le Knowledge Graph avec RDFLib
-st.title("🔎 Visualisation Interactive du Knowledge Graph (Bi-Partite)")
+st.title("🔎 SPARQLLM on Body of Knowledge Computer Science")
 
 st.sidebar.header("📂 Fichier RDF chargé")
 st.sidebar.write(f"✅ Fichier utilisé : `{RDF_FILE_PATH}`")

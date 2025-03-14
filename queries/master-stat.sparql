@@ -1,5 +1,11 @@
-## slm-run --load data/courses.ttl --config config.bok --format=turtle -f queries/master_stat.sparql 
+## slm-run --config config.bok  -f queries/master_stat.sparql 
+PREFIX ex: <http://example.org/>
+
 SELECT DISTINCT ?s 
 WHERE {
-  ?s ?p ?o .
+    BIND(ex:SLM-FILE("./data/courses.ttl") AS ?input)
+    BIND(ex:SLM-RDF(?input,"turtle") AS ?ginput)
+    graph ?ginput {
+        ?s ?p ?o .
+    }
 }
