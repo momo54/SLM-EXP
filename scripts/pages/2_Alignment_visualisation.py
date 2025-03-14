@@ -45,6 +45,22 @@ def handle_course_selection():
     matched_courses = st.session_state["matched_courses"]
     colors = px.colors.qualitative.Set1
 
+    courses = matched_courses
+    ka_count = courses.groupby("ka")["s"].nunique()
+    ka_count = ka_count.reset_index()
+    ka_count.columns = ["ka", "count"]
+    ka_count = ka_count.sort_values(by="ka")
+    css_color = "#d3d3d3"
+    trace = px.line_polar(
+        r=list(ka_count["count"]),
+        theta=list(ka_count["ka"]),
+        line_close=True,
+        # line_shape="spline",
+    ).data[0]
+    trace.line.color = css_color
+    trace.name = "all courses"
+    fig.add_trace(trace)
+
     for path in learning_path:
         courses = matched_courses[matched_courses["path"].str.contains(path)]
         ka_count = courses.groupby("ka")["s"].nunique()
