@@ -13,8 +13,8 @@ st.set_page_config(
     page_icon="🚀",
 )
 
-if "figure" not in st.session_state:
-    st.session_state.figure = None
+if not "selected_course" in st.session_state:
+    st.session_state["selected_course"] = []
 
 
 def create_figure(data):
@@ -36,10 +36,86 @@ def create_figure(data):
 
 
 def handle_course_selection():
+    with st.sidebar:
+        st.multiselect(
+            "Choose your course",
+            st.session_state["learning_path"],
+            key="selected_course",
+            on_change=handle_course_selection,
+        )
 
-    st.write("### Handling course selection")
-    # st.write(st.session_state["selected_course"])
 
+# set the title of the streamlit page in the side bar
+st.title("🔎 Courses aligned to reference Computer Science knowledge areas.")
+st.write(
+    "This page displays the courses aligned to the reference Computer Science knowledge areas as defined in the Computer Science body of knowledge book."
+)
+st.sidebar.header("🔍 Requête SPARQL")
+st.sidebar.slider("Alignment confidence", 0.5, 1.0, 0.7, key="threshold")
+
+# Chargement du fichier RDF
+g = rdflib.Graph()
+try:
+    g.parse(ALIGNMENT_RDF_FILE_PATH, format="turtle")
+    g.parse(COURSES_RDF_FILE_PATH, format="turtle")
+    st.sidebar.success("RDF graph loaded successfully!")
+except Exception as e:
+    st.sidebar.error(f"Erreur lors du chargement du fichier RDF : {e}")
+    st.stop()
+
+aligned_courses = f"""PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
+PREFIX align: <http://align.org/>
+PREFIX course: <http://example.org/course/>
+SELECT ?s ?label ?path ?ans ?score ?ka WHERE {{
+   ?s rdfs:label ?label ;
+        course:parcours ?path ;
+        align:to ?bn .
+   ?bn course:ka ?ka ;
+        align:score ?score ; 
+        course:answer ?ans .
+   FILTER (?ans = "1" && ?score > {st.session_state["threshold"]})  
+}}"""
+
+# a text area to display the query with 30 lines
+# query = st.text_area("Retrieving aligned courses:", aligned_courses, height=200)
+query = st.text_area("Retrieving aligned courses:", aligned_courses, height=200)
+if st.button("Run query"):
+    try:
+        results = g.query(query)
+
+        # Transformation en DataFrame
+        data = []
+        for row in results:
+            data.append([str(value) for value in row])
+
+        df = pd.DataFrame(data, columns=[str(var) for var in results.vars])
+        st.session_state["matched_courses"] = df
+
+        st.write("### Query results:")
+        st.dataframe(df)
+
+        learning_path = set()
+        for p in df["path"].unique():
+            p = p.split(",")
+            learning_path.update(p)
+
+        st.session_state["learning_path"] = sorted(learning_path)
+
+        with st.sidebar:
+            course = st.multiselect(
+                "Choose your course",
+                st.session_state["learning_path"],
+                key="selected_course",
+                on_change=handle_course_selection,
+            )
+
+        f = create_figure(df)
+        st.plotly_chart(f)
+
+    except Exception as e:
+        st.sidebar.error(f"Error while executing the SPARQL query: {e}")
+
+if len(st.session_state["selected_course"]) > 0:
     fig = px.line_polar()
     learning_path = st.session_state["selected_course"]
     matched_courses = st.session_state["matched_courses"]
@@ -82,87 +158,12 @@ def handle_course_selection():
         fig.add_trace(trace)
 
     fig.update_traces(showlegend=True)
-    st.plotly_chart(fig)
+
+    # st.session_state.figure = fig
+
+    # st.plotly_chart(fig)
 
     # st.session_state.figure = fig
 
     # if st.session_state.figure:
-    #     fig = st.session_state.figure
-    #     radar_plots.plotly_chart(fig, use_container_width=True)
-
-    with st.sidebar:
-        course = st.multiselect(
-            "Choose your course",
-            st.session_state["learning_path"],
-            key="selected_course",
-            on_change=handle_course_selection,
-        )
-
-
-# set the title of the streamlit page in the side bar
-st.title("🔎 ")
-st.sidebar.header("🔍 Requête SPARQL")
-
-# Chargement du fichier RDF
-g = rdflib.Graph()
-try:
-    g.parse(ALIGNMENT_RDF_FILE_PATH, format="turtle")
-    g.parse(COURSES_RDF_FILE_PATH, format="turtle")
-    st.sidebar.success("RDF graph loaded successfully!")
-except Exception as e:
-    st.sidebar.error(f"Erreur lors du chargement du fichier RDF : {e}")
-    st.stop()
-
-aligned_courses = """PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
-PREFIX align: <http://align.org/>
-PREFIX course: <http://example.org/course/>
-SELECT ?s ?label ?path ?ans ?score ?ka WHERE {
-   ?s rdfs:label ?label ;
-        course:parcours ?path ;
-        align:to ?bn .
-   ?bn course:ka ?ka ;
-        align:score ?score ; 
-        course:answer ?ans .
-   FILTER (?ans = "1" && ?score > 0.7)
-} """
-
-# a text area to display the query with 30 lines
-# query = st.text_area("Retrieving aligned courses:", aligned_courses, height=200)
-query = st.text_area("Retrieving aligned courses:", aligned_courses, height=200)
-if st.button("Run query"):
-    try:
-        results = g.query(query)
-
-        # Transformation en DataFrame
-        data = []
-        for row in results:
-            data.append([str(value) for value in row])
-
-        df = pd.DataFrame(data, columns=[str(var) for var in results.vars])
-        st.session_state["matched_courses"] = df
-
-        st.write("### Query results:")
-        st.dataframe(df)
-
-        learning_path = set()
-        for p in df["path"].unique():
-            p = p.split(",")
-            learning_path.update(p)
-
-        st.session_state["learning_path"] = learning_path
-
-        with st.sidebar:
-            course = st.multiselect(
-                "Choose your course",
-                st.session_state["learning_path"],
-                key="selected_course",
-                on_change=handle_course_selection,
-            )
-
-        f = create_figure(df)
-        st.plotly_chart(f)
-
-        radar_plots = st.container()
-
-    except Exception as e:
-        st.sidebar.error(f"Error while executing the SPARQL query: {e}")
+    st.plotly_chart(fig, use_container_width=True)
