@@ -75,4 +75,11 @@ st.write(
 
 st.write("## Acknowledgment")
 
-st.write("- Students of Master Info of Nantes University")
+st.write(
+    """- Students of Master Info of Nantes University
+    - denez guery
+    - corentin guillemot
+    - malo le-gallic
+    - wiame.taii,
+    - mohammed.ouedrhiri
+    """)
