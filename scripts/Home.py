@@ -41,6 +41,23 @@ st.write(
     """
 )
 
+st.write("## The process")
+
+st.write(
+    """
+    - The Knowledge Graph of our Master in Computer Science in Nantes is just a Turtle File.   
+
+    - We extracted Knowledge Units from the PDF of CS2023 as Text files.
+
+    - We indexed it with FAISS using LLM Model
+
+    - We wrote the SPARQLLLM query that perform alignements as a CONSTUCT query that augment the origin Knowledge Graph
+
+    - We wrote a UI allowing to see the profiles of the different track of Master in Nantes.
+    """
+)
+
+
 st.write("## Contact")
 
 st.write("""
