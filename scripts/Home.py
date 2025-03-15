@@ -19,11 +19,9 @@ st.title("🔎 Demo SPARQLLM")
 
 st.write(
     """
-    SPARQLLM enable Retrieval-Augmented SPARQL Query Processing. 
-    It is built on top of RDFLIB and is available on [GitHub](https://github.com/momo54/SPARQLLM)
+    SPARQLLM is a Retrieval-Augmented SPARQL Query engine. In this approach, external sources can be discovered during SPARQL query execution, allowing for the dynamic creation of a Knowledge Graph.
+SPARQLLM is built on top of RDFLIB and is available at [https://github.com/momo54/SPARQLLM](https://github.com/momo54/SPARQLLM)
 
-    This web application show case how SPARQLLM can be used
-    to pilot, with SPARQL queries, the integration of knowledge graph, documents indexed with a vector database, and LLMs agents for KG completion and verification. 
     """
 )
 
@@ -31,11 +29,11 @@ st.write("## Use-Case")
 
 st.write(
     """
-    - We have the Knowledge Graph of our curricula in Computer Science in Nantes. It describes the lectures with their description, their level, their objective etc.
+    - We have the Knowledge Graph of our curricula in Computer Science in Nantes. It describes the lectures with their description, their level, their objective etc. But we don't know how the lectures of the master covers expected knowledge of a master in computer science. 
 
     - ACM/IEEE/AAAI released the 2023 curriculum for Computer Science [CS2023](https://csed.acm.org/) as a PDF. It describes knowledge units and knowledge areas of in Computer Science
 
-    - The problem is to align the lectures of our curricula with 0 or many knowledge units of CS2023
+    - The problem is to align the lectures of our curricula with 0 or many knowledge units of the ACM CS Curricula.
     """)
 st.image("./scripts/slide1.png", caption="CS2023 Curriculum")
 
