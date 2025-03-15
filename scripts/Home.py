@@ -29,7 +29,7 @@ st.write("## Use-Case")
 
 st.write(
     """
-    - We have the Knowledge Graph of our curricula in Computer Science in Nantes. It describes the lectures with their description, their level, their objective etc. But we don't know how the lectures of the master covers expected knowledge of a master in computer science. 
+    - We have the Knowledge Graph representing curricula of the various Master's programs in Computer Science at Nantes University. It describes the lectures with their description, their level, their objective etc. But we don't know how the lectures of the master covers expected knowledge of a master in computer science. 
 
     - ACM/IEEE/AAAI released the 2023 curriculum for Computer Science [CS2023](https://csed.acm.org/) as a PDF. It describes knowledge units and knowledge areas of in Computer Science
 
@@ -48,11 +48,11 @@ st.write(
     """
     - The Knowledge Graph of our Master in Computer Science in Nantes is just a Turtle File.   
 
-    - We extracted Knowledge Units from the PDF of CS2023 as Text files.
+    - We extracted Knowledge Units from the PDF of ACM CS2023 as Text files.
 
-    - We indexed it with FAISS using LLM Model
+    - We indexed it with FAISS, avec vector database, using LLM Model (nomic-embed-text)
 
-    - We wrote a Retreival-Augmented SPARQLLLM query that perform alignments as a CONSTRUCT query that augment the origin Knowledge Graph
+    - We wrote a Retreival-Augmented SPARQLLLM query to augment our KG with alignment to ACM CS2023.
 
     - We wrote a UI allowing to see the profiles of the different track of Master in Nantes.
     """)

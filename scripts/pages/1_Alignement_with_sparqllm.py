@@ -52,7 +52,7 @@ st.write("""
         The Query below follows the pipeline:
         - Read the local KG of a Master in Computer Science.
         - For each lecture it retreives 3 Knowledge Unit canditates  from the ACM Curricula with a score.
-        - For each candidate, it asks an LLM if the lecture cover the Knowledge Unit (1) or not (0).
+        - For each candidate, it asks an LLM (llama3.1:latest) if the lecture covers the Knowledge Unit (1) or not (0).
         - The output of the query includes all lectures with its 3 best candidates knowledge units and the score of the LLM.       
         """)
 
