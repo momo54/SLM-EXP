@@ -64,7 +64,7 @@ st.write("""
             - Pascal Molli (Nantes Université)
             - Hala Skaf-Molli (Nantes Université)
             - Sebastien Ferré (University of Rennes)
-            - Alban Gaignard (INSERM je travaille un - IHU Nantes)
+            - Alban Gaignard (CNRS)
             - Peggy Cellier (University of Rennes)         
          """)
 
