@@ -10,7 +10,7 @@ import time
 RDF_FILE_PATH = "./XP/bokc.ttl"
 
 st.set_page_config(
-    page_title="SLM-EXPE home",
+    page_title="SLM-EXP home",
     page_icon="👋",
 )
 

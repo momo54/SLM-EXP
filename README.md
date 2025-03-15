@@ -70,17 +70,7 @@ Faiss relies on  FlatIP to index with  normalisation. Score close to 1 is good, 
 
 User Interface to see SPARQLLM in action on the BOK Use-Case:
 ```
-streamlit run scripts/bok_select_ui_en.py
-```
-
-use MistralAI instead of OLLAMA (require a MISTRAL_API_KEY)
-```
-streamlit run scripts/bok_select_ui_en.py -- --config ./config.mistral
-```
-
-UI exploration of  bokc.tll:
-```
-streamlit run scripts/streamlit-ui.py
+streamlit run scripts/HOME.py
 ```
 
 # Some notes
