@@ -19,7 +19,8 @@ SLM-SEARCH-FAISS = SPARQLLM.udf.search_faiss.search_faiss
 
 ;llm default OLLAMA
 SLM-LLM = SPARQLLM.udf.llmollama_text.llmollama_text
-SLM-LLMGRAPH = SPARQLLM.udf.llmgraph_ollama.LLMGRAPH_OLLAMA
+;SLM-LLMGRAPH = SPARQLLM.udf.llmgraph_ollama.LLMGRAPH_OLLAMA
+SLM-LLMGRAPH = SPARQLLM.udf.llmgraph_mistral.llm_graph_mistral
 SLM-LLMGRAPH_OLLA = SPARQLLM.udf.llmgraph_ollama.LLMGRAPH_OLLAMA
 ;SLM-LLMGRAPH_MISTRAL = SPARQLLM.udf.llmgraph_mistral.llm_graph_mistral
 ;SLM-LLMGRAPH_OPENAI = SPARQLLM.udf.llmgraph_openai.llm_graph_openai

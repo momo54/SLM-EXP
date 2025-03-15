@@ -1,33 +1,17 @@
-## slm-run  --config config.bok  -f queries/bok-graph.sparql --debug
+## slm-run  --config config.bok  -f queries/read-bok-graph.sparql --debug
 PREFIX ns1: <http://example.org/course/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX ex: <http://example.org/>
-PREFIX align: <http://align.org/>
 
-
-CONSTRUCT {
-    ?s align:to [
-        align:ku_source ?ku_source ;
-        align:score ?score ;
-        ns1:ka ?ka ;
-        ns1:ku ?ku ;
-        ns1:answer ?answer ;
-        ns1:explain ?explain 
-    ]
-} 
-#SELECT DISTINCT ?s ?label ?ku_source ?score ?parcours ?ka ?ku ?answer ?explain 
-WHERE {
+SELECT DISTINCT ?s ?label ?ku_source ?score ?parcours ?ka ?ku ?answer ?explain WHERE {
     BIND(ex:SLM-FILE("./data/courses.ttl") AS ?input)
     BIND(ex:SLM-RDF(?input,"turtle") AS ?ginput)
-    graph ?ginput { 
-        { select * where {
-            ?s ns1:content ?content .
-            ?s rdfs:label ?label .
-            ?s ns1:objective ?objective .
-            ?s ns1:parcours ?parcours .
-#            FILTER(CONTAINS(?parcours, "ALMA"))
-        } 
-       }
+    graph ?ginput {
+        ?s ns1:content ?content .
+        ?s rdfs:label ?label .
+        ?s ns1:objective ?objective .
+        ?s ns1:parcours ?parcours .
+    #    FILTER(CONTAINS(?parcours, "ALMA"))
     }
     BIND(CONCAT("Label: ",STR(?label)," Objectif: ",STR(?objective),
                 " Course content: ", STR(?content)," Course name: ",STR(?s)) AS ?UE)
@@ -64,4 +48,4 @@ WHERE {
             ?root <http://schema.org/explain> ?explain .    
         }
 #    }
-} 
+} limit 2

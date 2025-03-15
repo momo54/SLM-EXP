@@ -55,12 +55,12 @@ slm-index-faiss --txt-folder ./data/BodyOfKnowledge --faiss-dir ./XP/bok_store -
 
 Check config.bok to adjust parameter. Run the query (quite long):
 ```
-slm-run --load data/courses.ttl --config config.bok --format=turtle -f queries/bok-graph.sparql --debug -o ./XP/bok.result --keep-store ./XP/bok.nq 
+slm-run  --config config.bok  -f queries/bok-graph.sparql --debug -o ./XP/bok.result --keep-store ./XP/bok.nq 
 ```
 
 The same query with Constuct instead of select:
 ```
-slm-run --load data/courses.ttl --config config.bok --format=turtle -f queries/bok-graph-construct.sparql --debug -o ./XP/bokc.ttl --keep-store ./XP/bokc.nq
+slm-run --config config.bok  -f queries/bok-graph-construct.sparql --debug -o ./XP/bokc.ttl --keep-store ./XP/bokc.nq
 ```
 
 Notes: 
@@ -68,8 +68,17 @@ Faiss relies on  FlatIP to index with  normalisation. Score close to 1 is good, 
 
 # run the UI to explore the results
 
-Need improv...
+User Interface to see SPARQLLM in action on the BOK Use-Case:
+```
+streamlit run scripts/bok_select_ui_en.py
+```
 
+use MistralAI instead of OLLAMA (require a MISTRAL_API_KEY)
+```
+streamlit run scripts/bok_select_ui_en.py -- --config ./config.mistral
+```
+
+UI exploration of  bokc.tll:
 ```
 streamlit run scripts/streamlit-ui.py
 ```
