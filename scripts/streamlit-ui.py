@@ -5,12 +5,13 @@ import networkx as nx
 from pyvis.network import Network
 import os
 import time
+import sys
 
 # 📂 Chemin du fichier RDF (modifie si besoin)
-#RDF_FILE_PATH = "./XP/bokc.ttl"
+RDF_FILE_PATH = "./XP/bokc.ttl"
 
 # 🏗️ Charger le Knowledge Graph avec RDFLib
-st.title("🔎 SPARQLLM on Body of Knowledge Computer Science")
+st.title("🔎 Visualisation Interactive du Knowledge Graph (Bi-Partite)")
 
 st.sidebar.header("📂 Fichier RDF chargé")
 st.sidebar.write(f"✅ Fichier utilisé : `{RDF_FILE_PATH}`")

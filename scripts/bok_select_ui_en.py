@@ -1,5 +1,6 @@
 import logging
 import re
+import sys
 import tempfile
 import streamlit as st
 import rdflib
@@ -20,7 +21,14 @@ logger.setLevel(logging.DEBUG)
 logging.getLogger("urllib3").setLevel(logging.WARNING)
 
 # Config file is required
-CONFIG = "./config.bok" 
+CONFIG = "./config.bok"
+args = sys.argv
+if "--config" in args:
+    index = args.index("--config")
+    if index + 1 < len(args):  
+        CONFIG = args[index + 1]
+
+st.write(f"Config is : {CONFIG}")
 
 if "config_singleton" not in st.session_state:
     st.session_state.config_singleton = ConfigSingleton(config_file=CONFIG)
