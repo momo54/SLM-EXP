@@ -19,7 +19,7 @@ st.title("🔎 Demo SPARQLLM")
 
 st.write(
     """
-    SPARQLLM enable Retreival-Augmented SPARQL Query Processing. 
+    SPARQLLM enable Retrieval-Augmented SPARQL Query Processing. 
     It is built on top of RDFLIB and is available on [GitHub](https://github.com/momo54/SPARQLLM)
 
     This web application show case how SPARQLLM can be used
@@ -51,7 +51,7 @@ st.write(
 
     - We indexed it with FAISS using LLM Model
 
-    - We wrote the SPARQLLLM query that perform alignements as a CONSTUCT query that augment the origin Knowledge Graph
+    - We wrote the SPARQLLLM query that perform alignments as a CONSTUCT query that augment the origin Knowledge Graph
 
     - We wrote a UI allowing to see the profiles of the different track of Master in Nantes.
     """
@@ -60,13 +60,15 @@ st.write(
 
 st.write("## Contact")
 
-st.write("""
+st.write(
+    """
             - Pascal Molli (Nantes Université)
             - Hala Skaf-Molli (Nantes Université)
             - Sebastien Ferré (University of Rennes)
             - Alban Gaignard (CNRS)
             - Peggy Cellier (University of Rennes)         
-         """)
+         """
+)
 
 
 st.write("## Acknowledgment")
