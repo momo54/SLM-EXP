@@ -76,7 +76,7 @@ st.write(
 st.write("## Acknowledgment")
 
 st.write(
-    """- Students of Master Info of Nantes University
+    """- Master Students of Nantes Université in Computer Science
     - denez guery
     - corentin guillemot
     - malo le-gallic
