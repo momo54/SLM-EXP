@@ -28,7 +28,7 @@ if "--config" in args:
     if index + 1 < len(args):  
         CONFIG = args[index + 1]
 
-st.write(f"Config is : {CONFIG}")
+#st.write(f"Config is : {CONFIG}")
 
 if "config_singleton" not in st.session_state:
     st.session_state.config_singleton = ConfigSingleton(config_file=CONFIG)
@@ -47,7 +47,16 @@ st.write(f"ℹ️ Current offset: {st.session_state.offset}")
 with open("scripts/bok-graph-select-limit.sparql", "r", encoding="utf-8") as file:
     query_template = file.read()
 query = query_template.replace("{OFFSET}", str(st.session_state.offset))
-st.text_area("📝 Enter your SPARQL query:", query, height=400)
+
+st.write("""
+        The Query below follow the pipeline:
+        - Read the local KG of a Master in Computer Science.
+        - For each lecture it retreive 3 canditates from the CS2023 Knowledge Units with a score
+        - For each candidate, it ask an LLM if the candidate is a good match with the lecture
+        - The output of the query includes all lectures with its 3 best candidates knowledge units and the score of the LLM.       
+        """)
+
+st.text_area("📝 SPARQLLM query:", query, height=400)
 
 
 def display_named_graph(store):
