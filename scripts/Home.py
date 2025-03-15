@@ -33,13 +33,16 @@ st.write(
     """
     - We have the Knowledge Graph of our curricula in Computer Science in Nantes. It describes the lectures with their description, their level, their objective etc.
 
-    - ACM/IEEE/AAAI released the 2023 curriculum for Computer Science (CS2023) as a PDF. It describes knowledge units and knowledge areas of in Computer Science
+    - ACM/IEEE/AAAI released the 2023 curriculum for Computer Science [CS2023](https://csed.acm.org/) as a PDF. It describes knowledge units and knowledge areas of in Computer Science
 
-    - The problem is to align the lectures of our curricula to the knowledge units of CS2023
+    - The problem is to align the lectures of our curricula with 0 or many knowledge units of CS2023
+    """)
+st.image("./scripts/slide1.png", caption="CS2023 Curriculum")
 
-    - We write the alignment process as a Retrieval-Augmented SPARQL query.
-    """
-)
+st.write("- Lectures are described with text, and metadata (level, objective, etc.), Knowledge Units are described with text and metadata.")
+st.image("./scripts/slide2.png", caption="Matching image")
+
+
 
 st.write("## The process")
 
@@ -51,12 +54,11 @@ st.write(
 
     - We indexed it with FAISS using LLM Model
 
-    - We wrote the SPARQLLLM query that perform alignments as a CONSTUCT query that augment the origin Knowledge Graph
+    - We wrote a Retreival-Augmented SPARQLLLM query that perform alignments as a CONSTRUCT query that augment the origin Knowledge Graph
 
     - We wrote a UI allowing to see the profiles of the different track of Master in Nantes.
-    """
-)
-
+    """)
+st.image("./scripts/radar.png", caption="Radar image")
 
 st.write("## Contact")
 
