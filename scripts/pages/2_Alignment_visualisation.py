@@ -1,56 +1,114 @@
 import streamlit as st
 import pandas as pd
-import plotly.express as px
+import plotly.graph_objs as go
 import rdflib
 
+# Chemins des fichiers RDF
 ALIGNMENT_RDF_FILE_PATH = "./XP/bokc.ttl"
 COURSES_RDF_FILE_PATH = "./data/courses.ttl"
 
-radar_plots = None
-
+# Configuration de la page Streamlit
 st.set_page_config(
-    page_title="Demo 1",
+    page_title="Course Alignment Visualization",
     page_icon="🚀",
 )
 
-if not "selected_course" in st.session_state:
-    st.session_state["selected_course"] = []
+def create_figure(matched_courses):
+    # Données de base (tous les cours)
+    ka_count_all = matched_courses.groupby("ka")["s"].nunique().reset_index()
+    ka_count_all.columns = ["ka", "count"]
+    ka_count_all = ka_count_all.sort_values(by="ka")
 
+    # Simuler les données CS et KA (à remplacer par vos vraies données)
+    ka_count_cs = ka_count_all.copy()
+    ka_count_cs["count"] = ka_count_cs["count"] * 1.5  # Exemple de transformation
 
-def create_figure(data):
-    # distinct count of s for each ka in the matched_courses dataframe
-    ka_count = data.groupby("ka")["s"].nunique()
-    ka_count = ka_count.reset_index()
-    ka_count.columns = ["ka", "count"]
+    ka_count_ka = ka_count_all.copy()
+    ka_count_ka["count"] = ka_count_ka["count"] * 2  # Exemple de transformation
 
-    # sort the ka_count dataframe by ka label
-    ka_count = ka_count.sort_values(by="ka")
+    # Création du graphique
+    fig = go.Figure()
+    
+    # Ajouter les traces de fond (CS et KA)
+    fig.add_trace(go.Scatterpolar(
+        r=ka_count_cs["count"],
+        theta=ka_count_cs["ka"],
+        fill='toself',
+        name='CS Core Hours',
+        line_color='lightblue',
+        opacity=0.3
+    ))
 
-    fig = px.line_polar(
-        r=list(ka_count["count"]),
-        theta=list(ka_count["ka"]),
-        line_close=True,
+    fig.add_trace(go.Scatterpolar(
+        r=ka_count_ka["count"],
+        theta=ka_count_ka["ka"],
+        fill='toself',
+        name='KA Core Hours',
+        line_color='lightpink',
+        opacity=0.3
+    ))
+    
+    # Ajouter la trace pour tous les cours
+    fig.add_trace(go.Scatterpolar(
+        r=ka_count_all["count"],
+        theta=ka_count_all["ka"],
+        fill='toself',
+        name='All Courses',
+        line_color='darkgray',
+        opacity=0.5
+    ))
+    
+    # Extraire tous les parcours uniques
+    all_paths = matched_courses["path"].str.split(",").explode().unique()
+    colors = ['red', 'blue', 'green', 'purple', 'orange', 'brown', 'cyan']
+    
+    # Afficher chaque parcours sur le radar
+    for i, path in enumerate(all_paths):
+        courses = matched_courses[matched_courses["path"].str.contains(path)]
+        ka_count = courses.groupby("ka")["s"].nunique().reset_index()
+        ka_count.columns = ["ka", "count"]
+        ka_count = ka_count.sort_values(by="ka")
+
+        fig.add_trace(go.Scatterpolar(
+            r=ka_count["count"],
+            theta=ka_count["ka"],
+            fill='toself',
+            name=path,
+            line_color=colors[i % len(colors)]
+        ))
+
+    # Mise en page du graphique
+    fig.update_layout(
+        polar=dict(
+            radialaxis=dict(
+                color='black',
+                tickfont=dict(color='black', size=12)
+            ),
+            angularaxis=dict(
+                color='black',
+                tickfont=dict(size=12)
+            )
+        ),
+        paper_bgcolor='white',
+        plot_bgcolor='white',
+        legend=dict(
+            font=dict(size=14, color="black"),
+            bgcolor="rgba(255,255,255,0.8)",
+            bordercolor="black",
+            borderwidth=1,
+            x=1.05,
+            y=0.95
+        )
     )
 
     return fig
 
+# Titre et description
+st.title("🔎 Courses aligned to reference Computer Science knowledge areas")
+st.write("This page displays the courses aligned to the reference Computer Science knowledge areas as defined in the Computer Science body of knowledge book.")
 
-def handle_course_selection():
-    with st.sidebar:
-        st.multiselect(
-            "Choose your course",
-            st.session_state["learning_path"],
-            key="selected_course",
-            on_change=handle_course_selection,
-        )
-
-
-# set the title of the streamlit page in the side bar
-st.title("🔎 Courses aligned to reference Computer Science knowledge areas.")
-st.write(
-    "This page displays the courses aligned to the reference Computer Science knowledge areas as defined in the Computer Science body of knowledge book."
-)
-st.sidebar.header("🔍 Requête SPARQL")
+# Configuration de la barre latérale
+st.sidebar.header("🔍 SPARQL Query")
 st.sidebar.slider("Alignment confidence", 0.5, 1.0, 0.7, key="threshold")
 
 # Chargement du fichier RDF
@@ -60,9 +118,10 @@ try:
     g.parse(COURSES_RDF_FILE_PATH, format="turtle")
     st.sidebar.success("RDF graph loaded successfully!")
 except Exception as e:
-    st.sidebar.error(f"Erreur lors du chargement du fichier RDF : {e}")
+    st.sidebar.error(f"Error loading RDF file: {e}")
     st.stop()
 
+# Requête SPARQL
 aligned_courses = f"""PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
 PREFIX align: <http://align.org/>
 PREFIX course: <http://example.org/course/>
@@ -76,94 +135,26 @@ SELECT ?s ?label ?path ?ans ?score ?ka WHERE {{
    FILTER (?ans = "1" && ?score > {st.session_state["threshold"]})  
 }}"""
 
-# a text area to display the query with 30 lines
-# query = st.text_area("Retrieving aligned courses:", aligned_courses, height=200)
+# Zone de requête
 query = st.text_area("Retrieving aligned courses:", aligned_courses, height=200)
+
+# Bouton d'exécution de la requête
 if st.button("Run query"):
     try:
+        # Exécution de la requête
         results = g.query(query)
 
         # Transformation en DataFrame
-        data = []
-        for row in results:
-            data.append([str(value) for value in row])
-
+        data = [[str(value) for value in row] for row in results]
         df = pd.DataFrame(data, columns=[str(var) for var in results.vars])
         st.session_state["matched_courses"] = df
 
         st.write("### Query results:")
         st.dataframe(df)
 
-        learning_path = set()
-        for p in df["path"].unique():
-            p = p.split(",")
-            learning_path.update(p)
-
-        st.session_state["learning_path"] = sorted(learning_path)
-
-        with st.sidebar:
-            course = st.multiselect(
-                "Choose your course",
-                st.session_state["learning_path"],
-                key="selected_course",
-                on_change=handle_course_selection,
-            )
-
+        # Création et affichage du graphique avec tous les parcours
         f = create_figure(df)
         st.plotly_chart(f)
 
     except Exception as e:
         st.sidebar.error(f"Error while executing the SPARQL query: {e}")
-
-if len(st.session_state["selected_course"]) > 0:
-    fig = px.line_polar()
-    learning_path = st.session_state["selected_course"]
-    matched_courses = st.session_state["matched_courses"]
-    colors = px.colors.qualitative.Set1
-
-    courses = matched_courses
-    ka_count = courses.groupby("ka")["s"].nunique()
-    ka_count = ka_count.reset_index()
-    ka_count.columns = ["ka", "count"]
-    ka_count = ka_count.sort_values(by="ka")
-    css_color = "#d3d3d3"
-    trace = px.line_polar(
-        r=list(ka_count["count"]),
-        theta=list(ka_count["ka"]),
-        line_close=True,
-        # line_shape="spline",
-    ).data[0]
-    trace.line.color = css_color
-    trace.name = "all courses"
-    fig.add_trace(trace)
-
-    for path in learning_path:
-        courses = matched_courses[matched_courses["path"].str.contains(path)]
-        ka_count = courses.groupby("ka")["s"].nunique()
-        ka_count = ka_count.reset_index()
-        ka_count.columns = ["ka", "count"]
-        ka_count = ka_count.sort_values(by="ka")
-
-        c = learning_path.index(path)
-        css_color = colors[c]
-
-        trace = px.line_polar(
-            r=list(ka_count["count"]),
-            theta=list(ka_count["ka"]),
-            line_close=True,
-            # line_shape="spline",
-        ).data[0]
-        trace.line.color = css_color
-        trace.name = path
-        fig.add_trace(trace)
-
-    fig.update_traces(showlegend=True)
-
-    # st.session_state.figure = fig
-
-    # st.plotly_chart(fig)
-
-    # st.session_state.figure = fig
-
-    # if st.session_state.figure:
-    st.plotly_chart(fig, use_container_width=True)
