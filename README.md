@@ -32,7 +32,7 @@ Sometimes, i need "pip install --no-cache-dir --force-reinstall git+https://gith
 install with virtualenv (recommended):
 ```
 virtualenv xp-env
-source xp-venv/bin/activate
+source xp-env/bin/activate
 pip install -r requirements.txt
 ```
 
@@ -41,6 +41,7 @@ Need Ollama installed, For Linux, MacOS:
 curl -fsSL https://ollama.com/install.sh | sh
 ollama serve &
 ollama pull llama3.1:latest
+ollama pull llama3.2:latest
 ollama pull nomic-embed-text
 ```
 
@@ -70,7 +71,7 @@ Faiss relies on  FlatIP to index with  normalisation. Score close to 1 is good, 
 
 User Interface to see SPARQLLM in action on the BOK Use-Case:
 ```
-streamlit run scripts/HOME.py
+streamlit run scripts/Home.py
 ```
 
 # Some notes
