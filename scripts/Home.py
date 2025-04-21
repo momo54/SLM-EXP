@@ -19,40 +19,78 @@ st.title("🔎 Demo SPARQLLM")
 
 st.write(
     """
-    SPARQLLM is a Retrieval-Augmented SPARQL Query engine. In this approach, external sources can be discovered during SPARQL query execution, allowing for the dynamic creation of a Knowledge Graph.
-SPARQLLM is built on top of RDFLIB and is available at [https://github.com/momo54/SPARQLLM](https://github.com/momo54/SPARQLLM)
+    - SPARQLLM is a Retrieval-Augmented SPARQL Query engine. 
+      - Many times, information is not available in the Knowledge Graph but in external sources.
+      - SPARQLLM can search and extract knowledge from external sources  during query processing
+    - The key idea is to have User-Defined Functions (UDFs) to dynamically generate named graphs by retrieving relevant information from external sources.
+    """)
 
+st.markdown(
     """
-)
+    ```
+      BIND(ex:SLM-SEARCH(?course_desc,?course,3) AS ?search_graph)
+      GRAPH ?search_graph {
+        ?course ex:is_aligned_with ?bn .
+        ?bn ex:has_score ?score .
+        ?bn ex:has_source ?ku_source .
+        ?bn ex:has_chunk ?chunk .
+    }
+    ```
+    """)
 
-st.write("## Use-Case")
+st.markdown(
+    """
+    ```
+    BIND(CONCAT(" some prompt returning a schema.org type report with answer and explain property",?) AS ?prompt)
+    BIND(ex:SLM-LLMGRAPH(?prompt,?course) AS ?llm_graph)
+    GRAPH ?llm_graph {
+        ?course ex:has_schema_type ?root .
+        ?root a <http://schema.org/Report>  .
+        ?root <http://schema.org/answer> ?answer .
+        ?root <http://schema.org/explain> ?explain .    
+    }
+    ```
+    """)
+
+
+
+
+st.write(
+     """
+    - We mainly implemented 2 series of UDFs:
+      - we implemented `SLM-SEARCH` for local keyword search (Whoosh), local vector database (FAISS) and web search (Google)
+      - we implemented `SLM-LLM` for Language Model (LLM) with local OLLAMA models, MistralAI models, and OPenAI models.
+    """)
+
+
+
+st.write("## Use-Case for a Computer Science Program")
 
 st.write(
     """
-    - We have the Knowledge Graph representing curricula of the various Master's programs in Computer Science at Nantes University. It describes the lectures with their description, their level, their objective etc. But we don't know how the lectures of the master covers expected knowledge of a master in computer science. 
+    - We have a Knowledge Graph representing a Master Computer Science program. It describes the courses with their tracks, their description, their level, their objective etc. But we don't know how the tracks  cover the body of knowledge in computer science. 
 
-    - ACM/IEEE/AAAI released the 2023 curriculum for Computer Science [CS2023](https://csed.acm.org/) as a PDF. It describes knowledge units and knowledge areas of in Computer Science
+    - ACM/IEEE/AAAI released Computer Science curricula [CS2023](https://csed.acm.org/) as a PDF document of 459 pages. It includes description of knowledge units and knowledge areas of in Computer Science
 
-    - The problem is to align the lectures of our curricula with 0 or many knowledge units of the ACM CS Curricula.
+    - The problem is to align the courses of the tracks of the computer science program with  knowledge units of the ACM CS Curricula.
     """)
 st.image("./scripts/slide1.png", caption="CS2023 Curriculum")
 
-st.write("- Lectures are described with text, and metadata (level, objective, etc.), Knowledge Units are described with text and metadata.")
+st.write("- Courses are described with text, and metadata (track, level, objective, etc.), Knowledge Units are described with text and metadata.")
 st.image("./scripts/slide2.png", caption="Matching image")
 
 
-
-st.write("## The process")
+st.write("## SPARQLLM Master Program use-Case setup")
 
 st.write(
     """
-    - The Knowledge Graph of our Master in Computer Science in Nantes is just a Turtle File.   
+    - The Knowledge Graph of a Master Computer Science Program  is just a Turtle File.   
 
-    - We extracted Knowledge Units from the PDF of ACM CS2023 as Text files.
+    - We extracted the 162 Knowledge Units from the PDF of the ACM Computer Science Curricula CS2023 as Text files. Knowledge Units are linked to 17 Knowledge Areas.
 
-    - We indexed it with FAISS, avec vector database, using LLM Model (nomic-embed-text)
+    - We indexed it with `FAISS`, a vector database, using a LLM Model (`nomic-embed-text`)
 
-    - We wrote a Retreival-Augmented SPARQLLLM query to augment our KG with alignment to ACM CS2023.
+    - We wrote a Retreival-Augmented SPARQLLLM query that search over for knowledge units and check for alignement.
 
     - We wrote a UI allowing to see the profiles of the different track of Master in Nantes.
     """)

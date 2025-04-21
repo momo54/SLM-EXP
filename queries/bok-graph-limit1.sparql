@@ -4,7 +4,7 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX ex: <http://example.org/>
 
 SELECT DISTINCT ?s ?label ?ku_source ?score ?parcours ?ka ?ku ?answer ?explain WHERE {
-    BIND(ex:SLM-FILE("./data/courses.ttl") AS ?input)
+    BIND(ex:SLM-FILE("./data/courses-anon.ttl") AS ?input)
     BIND(ex:SLM-RDF(?input,"turtle") AS ?ginput)
     graph ?ginput {
         {select * where    {
@@ -13,7 +13,7 @@ SELECT DISTINCT ?s ?label ?ku_source ?score ?parcours ?ka ?ku ?answer ?explain W
             ?s ns1:objective ?objective .
             ?s ns1:parcours ?parcours .
 #            FILTER(CONTAINS(?parcours, "ALMA"))
-        } limit 1}
+        } limit 2}
     }
     BIND(CONCAT("Label: ",STR(?label)," Objectif: ",STR(?objective),
                 " Course content: ", STR(?content)," Course name: ",STR(?s)) AS ?UE)
