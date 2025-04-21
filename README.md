@@ -1,21 +1,18 @@
 
+This is a demo scenario for [SPARQLLM](https://github.com/momo54/SPARQLLM), a Retrieval-Augmented SPARQL Query engine. A video of the demo is available on [YouTube](https://www.youtube.com/watch?v=Oob2ci2TsGE). The demo has been accepted to [ESWC2025](https://2025.eswc-conferences.org/).
+
+
 # Input
 
 * `./data/BodyOfKnowledge` (BOK) is the extraction of Knowledge Units (KU) from [https://csed.acm.org/], aggregated per Knowledge AREA (KA). Knowledge Unit as TXT file in Knowledge Are directories.
 
-* `./data/courses.ttl` is a knowledge graph representation of the our Curricula in Nantes (may not a public document)
-
-The objective is to align the UE of the Nantes curricula (NC) to the KU of BOK to see:
-* is all KU covered by our UEs ?
-* Does some UEs not aligned to any KU ?
-* estimation of Hours/ECTS dedicated to KU/KA 
-
+* `./data/courses.ttl` is a knowledge graph representation of an (old) Master Program in Computer Science at University of Nantes. The objective is to align the UE of the Nantes curricula (NC) to the KU of BOK.
 SPARQLLM is used to implement a pipeline that:
 - enumerate UEs from NC
 - Find 3 KU candidates with Vector Search
 - Ask LLM to confirm if really the UE is aligned to KU and why. 
 
-The ouput is a alignement of UE to KU. As UEs have Ects, it should be possible to output a Radar view of NC.
+The ouput is a alignement of UE to KU that can be displayed on a radar view.
 
 ![BOK Radar](scripts/BOK-Radar.png)
 
@@ -44,8 +41,6 @@ ollama pull llama3.1:latest
 ollama pull nomic-embed-text
 ```
 
-
-
 Index the Body of Knowledge:
 ```
 slm-index-faiss --txt-folder ./data/BodyOfKnowledge --faiss-dir ./XP/bok_store --recurse 
@@ -73,6 +68,3 @@ User Interface to see SPARQLLM in action on the BOK Use-Case:
 streamlit run scripts/HOME.py
 ```
 
-# Some notes
-- File name of BOK with ' ' and ',' !! -> `scripts/sanitize.py`
-- grr, pendant la sauvegarde nq, j'ai une `Exception: "http://schema.org/Métaheuristiques multiobjectif" does not look like a valid URI, I cannot serialize this as N3/Turtle. Perhaps you wanted to urlencode it?` mais visiblement, le .nq est quand même propduit...
