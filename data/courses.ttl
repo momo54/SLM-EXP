@@ -32,8 +32,7 @@ ns1:X1I1010 rdfs:label "Analyse, conception et mise en oeuvre de logiciels" ;
 • To know the main architectural principles: pipe-and-filter, transaction-centered, client-server, peer-to-peer, services, publish-subscribe, event-based, etc
 • To know the main design patterns.
 • To know the main design principles: Decomposition, Abstraction, Information concealment, Cohesion, Decoupling, Reusability, Reuse, Obsolescence anticipation, Portability, Testability, and Simplicity""" ;
-    ns1:parcours "ALMA" ;
-    ns1:responsible "SUNYE GERSON" .
+    ns1:parcours "ALMA" .
 
 ns1:X1I1020 rdfs:label "Test logiciel" ;
     ns1:content """• Functional and structural testing techniques to generate test data
@@ -53,8 +52,7 @@ ns1:X1I1020 rdfs:label "Test logiciel" ;
 • To know different open-source tools for testing and quality assurance.
 • To know techniques for code instrumentation.
 • To know test driven development.""" ;
-    ns1:parcours "ALMA" ;
-    ns1:responsible "BOUSSE ERWAN" .
+    ns1:parcours "ALMA" .
 
 ns1:X1I1030 rdfs:label "Web des données, web sémantique" ;
     ns1:content """• Modèle de données RDF (Ressources Description Framework)
@@ -70,8 +68,7 @@ ns1:X1I1030 rdfs:label "Web des données, web sémantique" ;
 - Comprendre le langage de requêtes SPARQL (M)
 - Etre capable d’utiliser les données liées ouvertes et de faire des requêtes SPARQL sur ces données(M)
 - Etre capable de transformer les données ouvertes en données liées et être capable de publier ces données liées (A)""" ;
-    ns1:parcours "ATAL,DS,ALMA,VICO" ;
-    ns1:responsible "MOLLI HALA" .
+    ns1:parcours "ATAL,DS,ALMA,VICO" .
 
 ns1:X1I1040 rdfs:label "Web & Cloud and Datastores" ;
     ns1:content """• L’infrastructure de type cloud
@@ -89,8 +86,7 @@ ns1:X1I1040 rdfs:label "Web & Cloud and Datastores" ;
 • To be able to design and deploy a REST API on the cloud
 • To be able to use datastore, memcache and others services offered by cloud providers
 • To be able to compute the cost of the web application per month.""" ;
-    ns1:parcours "ATAL,DS,ALMA,VICO" ;
-    ns1:responsible "MOLLI PASCAL" .
+    ns1:parcours "ATAL,DS,ALMA,VICO" .
 
 ns1:X1I1060 rdfs:label "Algorithmes distribués avancés" ;
     ns1:content """• Les problèmes qui découlent de la distribution et de la concurrence
@@ -109,8 +105,7 @@ ns1:X1I1060 rdfs:label "Algorithmes distribués avancés" ;
 • Etre capable d'écrire des algorithmes distribués dans un modèle donné
 • Etre capable de développer une petite application distribuée
 • Etre capable d'analyser la complexité d'un algorithme distribué""" ;
-    ns1:parcours "ALMA" ;
-    ns1:responsible "MOSTEFAOUI ACHOUR" .
+    ns1:parcours "ALMA" .
 
 ns1:X1I1080 rdfs:label "Preuves et Constructions Formelles" ;
     ns1:content """Partie 1 : Logique et Preuves de Programmes
@@ -119,16 +114,13 @@ Partie 2 : Modélisation et construction correcte par raffinement
 Cette partie couvre la modéliation formelle à l'aide d'invariants, la construction correcte de systèmes par raffinements et les preuves de correction (avec B/Event B).""" ;
     ns1:level "M1" ;
     ns1:objective "nan" ;
-    ns1:parcours "ALMA" ;
-    ns1:responsible "JABER GUILHEM" .
+    ns1:parcours "ALMA" .
 
 ns1:X1I2010 rdfs:label "Optimisation discrète et combinatoire" ;
     ns1:content "nan" ;
     ns1:level "M1" ;
     ns1:objective "contrainte (Rappel - Remise à niveau) [A]" ;
-    ns1:parcours "ORO,CMI" ;
-    ns1:responsible "GANDIBLEUX XAVIER",
-        "PRZYBYLSKI ANTHONY" .
+    ns1:parcours "ORO,CMI" .
 
 ns1:X1I2020 rdfs:label "Graphes II et Réseaux" ;
     ns1:content """•
@@ -145,8 +137,7 @@ Distanciel : les réseaux petit-monde""" ;
 3. mettre en place quelques techniques pour aborder des problèmes classiques dans un contexte dynamique
 4. mener à bien un projet de résolution de problème à l'aide de graphes, en binôme, depuis la prise en main du sujet et jusqu'à l'évaluation des solutions/implémentations proposées
 5. produire un rapport écrit clair, concis, complet et convaincant.""" ;
-    ns1:parcours "ATAL,ORO,DS,CMI,VICO" ;
-    ns1:responsible "RUSU Irena" .
+    ns1:parcours "ATAL,ORO,DS,CMI,VICO" .
 
 ns1:X1I2030 rdfs:label "Métaheuristiques" ;
     ns1:content "nan" ;
@@ -167,8 +158,7 @@ ns1:X1I2030 rdfs:label "Métaheuristiques" ;
 •     d'avoir recours à un environnement générique de résolution, d'y intégrer les éléments du problème à résoudre et d'obtenir des solutions argumentées [I]
 •     de juger du bien-fondé de la mise en oeuvre spécifique dans un environnement ad-hoc [A]
 •     de traiter un cas d'étude complet allant de l'énoncé d'une situation jusqu'aux recommandations en terme de solutions et de paramètres [M]""" ;
-    ns1:parcours "ORO,CMI" ;
-    ns1:responsible "GANDIBLEUX XAVIER" .
+    ns1:parcours "ORO,CMI" .
 
 ns1:X1II010 rdfs:label "Graphes" ;
     ns1:content """•
@@ -184,8 +174,7 @@ Problèmes de couplage""" ;
 2. choisir la représentation d'un graphe la plus adaptée à chaque problème, en visant l'efficacité
 3. prendre en compte la complexité intrinsèque des graphes pour calculer précisément la complexité algorithmique d'une solution et évaluer son efficacité
 4. mettre en œuvre les principales solutions algorithmiques pour les problèmes classiques de théorie des graphes : parcours de graphes, plus courts chemins, couplages""" ;
-    ns1:parcours "ATAL,ORO,DS,CMI,ALMA,VICO" ;
-    ns1:responsible "RUSU Irena" .
+    ns1:parcours "ATAL,ORO,DS,CMI,ALMA,VICO" .
 
 ns1:X1II020 rdfs:label "Langages de programmation de haut-niveau" ;
     ns1:content """Après avoir vu différentes caractéristiques des langages de programmation en général (interprétation/compilation, typage des variables/des données, typage statique/dynamique, paradigmes impératif/fonctionnel/objet), l’étudiant sera amené à créer des structures de données ou à utiliser des structures de données déjà implémentées dans des bibliothèques, avec un regard critique sur leurs qualités (temps d’exécution, empreinte mémoire).
@@ -200,8 +189,7 @@ Ces structures de données seront utilisées pour des algorithmes d’algèbre l
 • Implémenter des algorithmes standards de calcul probabiliste (suites pseudo-aléatoire, générateurs selon une loi), éventuellement étudiés dans d'autres UE.
 • Implémenter des algorithmes standards de calcul numérique (par exemple polynômes d'interpolation, courbes de Béziers, splines), éventuellement étudiés dans d'autres UE.
 • Implémenter des algorithmes standards de théorie des graphes (par exemple arbre couvrant, plus court chemin, diamètre), éventuellement étudiés dans d'autres UE.""" ;
-    ns1:parcours "ATAL,ORO,DS,CMI,VICO" ;
-    ns1:responsible "GANDIBLEUX XAVIER" .
+    ns1:parcours "ATAL,ORO,DS,CMI,VICO" .
 
 ns1:X1II030 rdfs:label "Complexité et algorithmes" ;
     ns1:content "nan" ;
@@ -222,8 +210,7 @@ dans de grands volumes de données
 • Etre capable démontrer qu'un problème est approximable à ratio constant
 • Connaître les techniques classiques permettant de prouver qu'un problème est FPT (Fixed- Parameter Tractable)
 • Etre capable de démontrer qu'un problème est FPT""" ;
-    ns1:parcours "ATAL,ORO,DS,CMI,ALMA,VICO" ;
-    ns1:responsible "FERTIN GUILLAUME" .
+    ns1:parcours "ATAL,ORO,DS,CMI,ALMA,VICO" .
 
 ns1:X1II040 rdfs:label "Anglais scientifique" ;
     ns1:content """Anglais de spécialité informatique.
@@ -232,9 +219,7 @@ Techniques de communication scientifique appliquées au domaine de spécialité.
     ns1:objective """Au terme de cette UE, les étudiant-e-s auront acquis du vocabulaire lié à leur domaine de spécialité et seront capables de présenter et d’expliquer du contenu scientifique et informatique, ainsi que d’argumenter lors d’une discussion scientifique.
 Au terme de cette UE, les étudiant-e-s devront présenter à l’oral une innovation ou l’état de la recherche dans un domaine précis de leur spécialité. Les présentations seront faites libres de notes et dans un anglais clair et phonologiquement correct.
 Au terme de cette UE, les étudiant-e-s seront capables d’interagir lors d’une conversation, échanger des informations ou négocier en utilisant les codes de ce type de communication.""" ;
-    ns1:parcours "ATAL,ORO,DS,CMI,ALMA,VICO" ;
-    ns1:responsible "KERVISION SYLVIE",
-        "LABARBE LAURIE" .
+    ns1:parcours "ATAL,ORO,DS,CMI,ALMA,VICO" .
 
 ns1:X1II050 rdfs:label "Communication, connaissance de l'entreprise" ;
     ns1:content "nan" ;
@@ -281,9 +266,7 @@ ns1:X1LA010 rdfs:label "Anglais Préparation TOEIC" ;
 • Reconnaitre et anticiper les formats de certifications d’anglais.
 • Compléter les réponses exigées par les tests de certifications.
 • Pouvoir optimiser leurs résultats aux certifications grâce à une méthodologie de travail appliquée lors des séances d’entrainement.""" ;
-    ns1:parcours "ATAL,ORO,DS,CMI,ALMA,VICO" ;
-    ns1:responsible "KERVISION SYLVIE",
-        "LABARBE LAURIE" .
+    ns1:parcours "ATAL,ORO,DS,CMI,ALMA,VICO" .
 
 ns1:X1LI010 rdfs:label "Management à Visée Innovante et Entrepreunariale" ;
     ns1:content """Autour d’une formation de 25 heures et d’un accompagnement spécifique   par projet, l’étudiant aura la possibilité d’identifier une thématique ou un projet de recherche pouvant s’inscrire dans une démarche de valorisation économique. Selon un programme de formation reprenant 49 actions pour entreprendre   en lien avec l’innovation,   l’étudiant   bénéficiera d’un accompagnement spécifique en fonction des besoins rencontrés.   Les livrables attendus sont un Business Model, un business Plan et un elevator pitch de 10 minutes présentés devant un jury composé de 2 membres universitaires et d’un membre extérieur reconnu pour son expertise.
@@ -299,8 +282,7 @@ A la suite du concours, un prix annuel sera décerné   aux trois meilleurs proj
 • avoir des compétences transversales telles que manager un projet, s'exprimer en public lors de la présentation du projet devant un jury
 • communiquer à l'écrit selon les règles normalisées de l'entreprise, être en mesure d'identifier les besoins des entreprises en lien avec son projet, être force de proposition dans ses futures fonctions professionnelles.""",
         "nan" ;
-    ns1:parcours "ATAL,DS,ALMA,VICO,ORO,CMI" ;
-    ns1:responsible "GODARD OLIVIER" .
+    ns1:parcours "ATAL,DS,ALMA,VICO,ORO,CMI" .
 
 ns1:X1MC060 rdfs:label "Méthodes numériques déterministes" ;
     ns1:content """Approximation
@@ -320,12 +302,7 @@ Algèbre linéaire numérique avancée
 Concernant l’algèbre linéaire numérique, l’étudiant doit
 • Programmer la factorisation QR pour résoudre des systèmes linéaires surdéterminés par exemple dans une approximation au sens des moindres carrés
 • Réduire une matrice sous forme diagonale par la décomposition en valeurs singulières""" ;
-    ns1:parcours "CMI" ;
-    ns1:responsible "BADSI MEHDI",
-        "CARMONA PHILIPPE",
-        "CRESTETTO ANAIS",
-        "JAUBERTEAU FRANCOIS",
-        "MATHIS HELENE" .
+    ns1:parcours "CMI" .
 
 ns1:X1MS010 rdfs:label "Analyse des données" ;
     ns1:content """• Outils de description d’un échantillon
@@ -337,8 +314,7 @@ Méthodes exploratoires associées à plusieurs tableaux de données
 Compléments : Analyse des corrélations canoniques (ACC) ; méthodes de type k-tableaux Td/TP avec le logiciel libre R et initiation en distanciel à la PROC PRINCOMP du logiciel SAS""" ;
     ns1:level "M1" ;
     ns1:objective "A l’issue de ce cours, les étudiants pourront mettre en pratique, grâce au logiciel libre R, des outils statistiques d’analyse des données tels que l’Analyse en Composantes Principales, l’Analyse Factorielle des Correspondances ou l’Analyse Factorielle Discriminante, pour synthétiser l’information contenue dans des jeux de données de grande dimension à l’aide de cartes." ;
-    ns1:parcours "ATAL,ORO,DS,CMI,VICO" ;
-    ns1:responsible "BELLANGER LISE" .
+    ns1:parcours "ATAL,ORO,DS,CMI,VICO" .
 
 ns1:X2CI010 rdfs:label "Communication CMI S8" ;
     ns1:content "nan" ;
@@ -363,8 +339,7 @@ ns1:X2I1010 rdfs:label "Bases de données évoluées" ;
 • Comprendre les limitations de l’approche relationnel face aux nouvelles applications.
 • Connaître les nouvelles approches orientées données, NoSQL et NewSQL.
 • Savoir appliquer la bonne approche de données pour une application donnée.""" ;
-    ns1:parcours "ATAL,DS,ALMA,VICO" ;
-    ns1:responsible "SERRANO-ALVARADO PATRICIA" .
+    ns1:parcours "ATAL,DS,ALMA,VICO" .
 
 ns1:X2I2010 rdfs:label "Programmation par Contraintes" ;
     ns1:content "nan" ;
@@ -375,9 +350,7 @@ ns1:X2I2010 rdfs:label "Programmation par Contraintes" ;
 - Comprendre les principes basiques d'une recherche locale (voisinage, coût d'une contrainte, ...).
 - Savoir implémenter un algorithme basique (de recherche arborescente ou de recherche locale) pour résoudre un problème de satisfaction de contraintes.
 - Savoir modéliser une instance simple de problème de satisfaction de contraintes à travers un langage adapté (comme minizinc).""" ;
-    ns1:parcours "ORO,CMI" ;
-    ns1:responsible "MONFROY ERIC",
-        "RICHOUX FLORIAN" .
+    ns1:parcours "ORO,CMI" .
 
 ns1:X2I3010 rdfs:label "Programmation multi-coeurs" ;
     ns1:content "nan" ;
@@ -388,8 +361,7 @@ ns1:X2I3010 rdfs:label "Programmation multi-coeurs" ;
 • spécifier précisément le problème qu'il doit résoudre, en identifiant notamment les propriétés de sûreté et de vivacité à vérifier;
 • évaluer la difficulté de son problème en le reliant à des classes de calculabilité du calcul réparti, notamment en utilisant la notion de "consensus number";
 • choisir les outils nécessaires et suffisants (verrous, instructions spéciales, barrières de mémoire...) pour résoudre son problème.""" ;
-    ns1:parcours "ATAL,ORO,DS,CMI,ALMA,VICO" ;
-    ns1:responsible "PERRIN MATTHIEU" .
+    ns1:parcours "ATAL,ORO,DS,CMI,ALMA,VICO" .
 
 ns1:X2I3020 rdfs:label "Decision Engineering" ;
     ns1:content "nan" ;
@@ -407,8 +379,7 @@ ns1:X2I3020 rdfs:label "Decision Engineering" ;
 - Être capable de tracer l'arbre de décision décrivant la situation pratique de la décision sous risque
 - Connaître les principaux concepts de l'aide à la décision multi-critère comme attribut, critère, dominance, efficience, espace de décisions, espace des critères ainsi que la somme pondérée des critères et ses limites
 - Être capable d'intégrer les préférences de décideur dans le modèle de l'aide à la décision multi- critère et de pouvoir appliquer les méthodes de surclassement comme ELECTRE ou PROMETHEE""" ;
-    ns1:parcours "ATAL,ORO,DS,CMI,ALMA,VICO" ;
-    ns1:responsible "GUREVSKY EVGENY" .
+    ns1:parcours "ATAL,ORO,DS,CMI,ALMA,VICO" .
 
 ns1:X2I4010 rdfs:label "Systèmes temps réel embarqués" ;
     ns1:content "nan" ;
@@ -422,8 +393,7 @@ ns1:X2I4010 rdfs:label "Systèmes temps réel embarqués" ;
 • Etre capable d'établir l'analyse temporelle hors-ligne d'une application temps réel : ordonnançabilité d'un ensemble de tâches périodiques et/ou apériodiques (Application) ;
 • Comprendre les enjeux liés aux systèmes embarqués : ressources matérielles limitées, faible empreinte mémoire, contraintes d'encombrement (Initiation) ;
 • Etre capable de mettre en œuvre une application temps réel (Maîtrise).""" ;
-    ns1:parcours "ATAL,ORO,DS,CMI,ALMA,VICO" ;
-    ns1:responsible "QUEUDET AUDREY" .
+    ns1:parcours "ATAL,ORO,DS,CMI,ALMA,VICO" .
 
 ns1:X2I4020 rdfs:label "Ingénierie des réseaux" ;
     ns1:content """Adressage et routage IP (v4, v6)
@@ -443,8 +413,7 @@ Pratique et projets : mise en oeuvre de routage (Packet Tracer), plateforme IoT"
 • Configurer des services réseaux sur une infrastructure locale (A)
 • Comprendre les architectures réseaux à qualité de service (QoS) et celles permettant l'ingénierie de trafic (I)
 • Comprendre les problèmes de la cybercriminalité et appréhender les solutions préventives à ce risque (I)""" ;
-    ns1:parcours "ATAL,ORO,DS,CMI,ALMA,VICO" ;
-    ns1:responsible "HAMMA SALIMA" .
+    ns1:parcours "ATAL,ORO,DS,CMI,ALMA,VICO" .
 
 ns1:X2I5010 rdfs:label "Probabilistic models" ;
     ns1:content "nan" ;
@@ -469,9 +438,7 @@ ns1:X2I5020 rdfs:label "Interaction and applications" ;
 - Identifier les différentes modalités d’Interaction et leurs propriétés
 - Identifier les outils théorique et pratiques à mettre en œuvre pour développer un système d'interaction
 - Comprendre comment évaluer la pertinence d’une interaction et des solution techniques permettant de la mettre en oeuvre""" ;
-    ns1:parcours "ATAL,ORO,DS,CMI,ALMA,VICO" ;
-    ns1:responsible "PEIRRERA DA",
-        "SILVA MATTHIEU" .
+    ns1:parcours "ATAL,ORO,DS,CMI,ALMA,VICO" .
 
 ns1:X2II010 rdfs:label "Machine Learning" ;
     ns1:content "nan" ;
@@ -487,9 +454,7 @@ ns1:X2II010 rdfs:label "Machine Learning" ;
 - Réseaux de neurones
 - Méthodes à noyau
 - Clustering""" ;
-    ns1:parcours "ATAL,ORO,DS,CMI,ALMA,VICO" ;
-    ns1:responsible "DE LA",
-        "HIGUERA COLIN" .
+    ns1:parcours "ATAL,ORO,DS,CMI,ALMA,VICO" .
 
 ns1:X2II020 rdfs:label "Data Mining" ;
     ns1:content """Le Data Mining est l'application des techniques de statistique, d'analyse de données et d'intelligence artificielle pour l'exploration et l'analyse des grandes bases de données d'un système d'information. Cette UE traite donc :
@@ -509,8 +474,7 @@ A l'issue de ce cours, l'étudiant est capable de mener les calculs pour estimer
 A l'issue de ce cours, l'étudiant est capable de mettre en oeuvre les méthodes linéaires de modélisation et prévision statistique à l'aide du langage R.
 (Maîtrise)
 A l'issue de ce cours, l'étudiant est capable d'évaluer et d'optimiser un modèle de scoring. (Maîtrise)""" ;
-    ns1:parcours "ATAL,ORO,DS,CMI,ALMA,VICO" ;
-    ns1:responsible "BLANCHARD JULIEN" .
+    ns1:parcours "ATAL,ORO,DS,CMI,ALMA,VICO" .
 
 ns1:X2II030 rdfs:label "Compilation" ;
     ns1:content """Rappels sur la classification des grammaires et des automates.
@@ -526,16 +490,14 @@ Génération de code : Génération de code machine ; Génération de code inter
 -             être capable de comprendre les analyseurs ascendants et descendants (M)
 -             être capable de distinguer la partie Analyse de la partie Synthèse d’un compilateur (M)
 -             connaître les techniques de génération et d’optimisation de code (M)""" ;
-    ns1:parcours "ATAL,ORO,DS,CMI,ALMA,VICO" ;
-    ns1:responsible "OUSSALAH CHABANE" .
+    ns1:parcours "ATAL,ORO,DS,CMI,ALMA,VICO" .
 
 ns1:X2II040 rdfs:label "Ethique et numérique" ;
     ns1:content """Concepts fondamentaux : différence entre éthique, déontologie et droit).
 Ethique de la recherche : intégrité, plagiat, fraude, conflit d'intérêt, tensions, biais, publications. Questions spécifiques au numérique : dématérialisation, robotique, vie privée, informations personnelles impact sur le médecine, risques (sanitaires, environnementaux, technologiques), confirance, démocratie, informations versus connaissance""" ;
     ns1:level "M1" ;
     ns1:objective "nan" ;
-    ns1:parcours "ATAL,ORO,DS,CMI,ALMA,VICO" ;
-    ns1:responsible "ENGUEHARD CHANTAL" .
+    ns1:parcours "ATAL,ORO,DS,CMI,ALMA,VICO" .
 
 ns1:X2II060 rdfs:label "Anglais pour la communication scientifique" ;
     ns1:content """• Articles et publications de recherche
@@ -548,9 +510,7 @@ ns1:X2II060 rdfs:label "Anglais pour la communication scientifique" ;
 • S’être familiarisés avec des situations linguistiques courantes en recherche : traduction, rédaction
 d’abstracts et d’articles, peer-reviewing, présentation orale
 Communiquer efficacement à l’écrit comme à l’oral dans un contexte scientifique et institutionnel""" ;
-    ns1:parcours "ATAL,ORO,DS,CMI,ALMA,VICO" ;
-    ns1:responsible "KERVISION SYLVIE",
-        "TOWNEND ALICE" .
+    ns1:parcours "ATAL,ORO,DS,CMI,ALMA,VICO" .
 
 ns1:X2II090 rdfs:label "Stage" ;
     ns1:content "nan" ;
@@ -571,8 +531,7 @@ ns1:X2II110 rdfs:label "Research Project" ;
     ns1:objective """- Mettre en oeuvre sa capacité d'analyse sur un sujet de recherche, et être force de proposition.
 - Synthétiser le travail effectué dans un compte rendu de manière concise, correcte, et complète.
 - Préparer des supports puis présenter oralement le travail effectué de manière dynamique et convaincante.""" ;
-    ns1:parcours "ATAL,ORO,DS,CMI,ALMA,VICO" ;
-    ns1:responsible "MOLLI PASCAL" .
+    ns1:parcours "ATAL,ORO,DS,CMI,ALMA,VICO" .
 
 ns1:X2MC050 rdfs:label "Optimisation déterministe et stochastique" ;
     ns1:content """Optimisation déterministe :
@@ -593,26 +552,19 @@ L’implémentation des méthodes d’optimisation vues en cours sera faite en l
 • Implémente sous Python les méthodes d’optimisation de Newton, de descente par gradient et par gradient stochastique, de recherche aveugle et de recuit simulé
 • Explique le principe de l’algorithme EM et cite des exemples de problèmes d’optimisation pour lequel il est adapté
 • Compare les avantages et les inconvénients de chacune des méthodes d’optimisation précédentes.""" ;
-    ns1:parcours "ORO,CMI" ;
-    ns1:responsible "CARMONA PHILIPPE",
-        "CRESTETTO ANAIS",
-        "JAUBERTEAU FRANCOIS",
-        "LAVANCIER FREDERIC",
-        "MATHIS HELENE" .
+    ns1:parcours "ORO,CMI" .
 
 ns1:X3CI020 rdfs:label "Rapport et Soutenance en anglais" ;
     ns1:content "nan" ;
     ns1:level "M2" ;
     ns1:objective "nan" ;
-    ns1:parcours "CMI" ;
-    ns1:responsible "LAVANCIER FREDERIC" .
+    ns1:parcours "CMI" .
 
 ns1:X3CI030 rdfs:label "Management, Gestion de projet, Entrepreunariat" ;
     ns1:content "nan" ;
     ns1:level "M2" ;
     ns1:objective "nan" ;
-    ns1:parcours "CMI" ;
-    ns1:responsible "GODARD OLIVIER" .
+    ns1:parcours "CMI" .
 
 ns1:X3IA010 rdfs:label "Middleware" ;
     ns1:content "nan" ;
@@ -626,8 +578,7 @@ ns1:X3IA010 rdfs:label "Middleware" ;
 - Etre capable de créer un web service en utilisant le framework Spring
 - Comprendre les concepts d'authentification et de sécurité
 - Comprendre les concepts de services basés composants et de micro services""" ;
-    ns1:parcours "ALMA" ;
-    ns1:responsible "MOSTEFAOUI ACHOUR" .
+    ns1:parcours "ALMA" .
 
 ns1:X3IA020 rdfs:label "Gestion des données distribuées à large échelle" ;
     ns1:content "nan" ;
@@ -641,8 +592,7 @@ ns1:X3IA020 rdfs:label "Gestion des données distribuées à large échelle" ;
 • To know multi-version concurrency control and consistency issues in large scale datastore
 • To be able to understand how current datastore are built, what they can do and what are their limitations.
 • To be able to use large scale datastore for OLTP, OLAP and stream processing.""" ;
-    ns1:parcours "ATAL,ALMA" ;
-    ns1:responsible "MOLLI PASCAL" .
+    ns1:parcours "ATAL,ALMA" .
 
 ns1:X3IA030 rdfs:label "Distributed Architectures" ;
     ns1:content "nan" ;
@@ -653,9 +603,7 @@ ns1:X3IA030 rdfs:label "Distributed Architectures" ;
 • To know personal information systems and small data ie. Solid
 • To know federated query processing over semantic web: FedX, Anapsid To know
 • To be able to solve data integration problems on the web""" ;
-    ns1:parcours "ALMA" ;
-    ns1:responsible "MOLLI HALA",
-        "MOLLI PASCAL" .
+    ns1:parcours "ALMA" .
 
 ns1:X3IA040 rdfs:label "Ingénierie dirigée par les modèles" ;
     ns1:content "nan" ;
@@ -668,8 +616,7 @@ ns1:X3IA040 rdfs:label "Ingénierie dirigée par les modèles" ;
 6. Être capable d'intégrer l'ingénierie basée sur les modèles dans le processus de développement logiciel.
 7. Être capable de réaliser des transformations de modèle à modèle.
 8. Être capable de réaliser effectuer des transformations de modèle à texte (génération de code).""" ;
-    ns1:parcours "ALMA" ;
-    ns1:responsible "SUNYE GERSON" .
+    ns1:parcours "ALMA" .
 
 ns1:X3IA050 rdfs:label "Gestion de Projet" ;
     ns1:content "nan" ;
@@ -678,8 +625,7 @@ ns1:X3IA050 rdfs:label "Gestion de Projet" ;
 - Etre capable d'identifier les différentes étapes de gestion d'un projet   (M)
 - Etre capable d'estimer les couts et durées d'un projet (M)
 - Comprendre les outils et l'organisation d'un travail collaboratif   (M).""" ;
-    ns1:parcours "ALMA" ;
-    ns1:responsible "OUSSALAH CHABANE" .
+    ns1:parcours "ALMA" .
 
 ns1:X3IA060 rdfs:label "Services" ;
     ns1:content "nan" ;
@@ -691,8 +637,7 @@ ns1:X3IA060 rdfs:label "Services" ;
 - Etre capable de développer un service dans une architecture monolithique simple
 - Etre capable d'utiliser un Domain Drived Design (DDD) pour implémenter une architecture orientée services
 - Comprendre les paradigmes nés de l’expansion du cloud et de l’exploitation des services (e.g. SaaS, Xaas)""" ;
-    ns1:parcours "ALMA" ;
-    ns1:responsible "MOSTEFAOUI ACHOUR" .
+    ns1:parcours "ALMA" .
 
 ns1:X3IA080 rdfs:label "Architectures et Styles d''Architectures" ;
     ns1:content """- Introduction aux paradigmes objet, composant,agent, service et modèle dans les Architectures logicielles
@@ -708,8 +653,7 @@ ns1:X3IA080 rdfs:label "Architectures et Styles d''Architectures" ;
 - Comprendre les principales difficultés qui interviennent lors du passage à l'echelle(A)
 - Etre capable de maitriser la complexité des architectures logicielles à un haut niveau d'abstraction   (M)
 - Comprendre et distinguer les différents styles architecturaux orientés agents, objets, composants et modèles.(M)""" ;
-    ns1:parcours "ALMA" ;
-    ns1:responsible "OUSSALAH CHABANE" .
+    ns1:parcours "ALMA" .
 
 ns1:X3IA090 rdfs:label "ANGLAIS" ;
     ns1:content "nan" ;
@@ -727,8 +671,7 @@ ns1:X3IA110 rdfs:label "Modélisation et Vérification des Systèmes Concurrents
     ns1:content "Le cours est consacré à la modélisation et à la vérification par model-checking de systèmes concurrents" ;
     ns1:level "M2" ;
     ns1:objective "nan" ;
-    ns1:parcours "ALMA" ;
-    ns1:responsible "JARD CLAUDE" .
+    ns1:parcours "ALMA" .
 
 ns1:X3IAIMT rdfs:label "Composition et gestion avancées de systèmes répartis(EMN)" ;
     ns1:content "nan" ;
@@ -774,8 +717,7 @@ d'avoir recours à un environnement générique de résolution, d'y intégrer le
 de juger du bien-fondé de la mise en oeuvre spécifique dans un environnement ad-hoc [A].
 •
 de traiter un cas d'étude complet allant de l'énoncé d'une situation jusqu'aux recommandations en terme de solutions et de paramètres [M].""" ;
-    ns1:parcours "ORO,CMI" ;
-    ns1:responsible "GANDIBLEUX XAVIER" .
+    ns1:parcours "ORO,CMI" .
 
 ns1:X3IO020 rdfs:label "Programmation par contraintes avancée" ;
     ns1:content "nan" ;
@@ -783,9 +725,7 @@ ns1:X3IO020 rdfs:label "Programmation par contraintes avancée" ;
     ns1:objective """- Maîtriser différentes techniques (approche complète et incomplète) de résolution de problème de contraintes.
 - Connaître différentes approches de modélisation de problème de contraintes
 - Comprendre les mécanismes avancés de résolution de problème de contraintes, comme par exemple les méthodes parallèles, la recherche autonome, l'hybridation de méthode.""" ;
-    ns1:parcours "ORO,CMI" ;
-    ns1:responsible "MONFROY ERIC",
-        "RICHOUX FLORIAN" .
+    ns1:parcours "ORO,CMI" .
 
 ns1:X3IO030 rdfs:label "Optimisation Globale" ;
     ns1:content "nan" ;
@@ -793,8 +733,7 @@ ns1:X3IO030 rdfs:label "Optimisation Globale" ;
     ns1:objective """• explain the pros&cons of interval computations and their usage for solving nonlinear optimization problems (Understanding)
 • choose and apply the classical interval operators adapted to a global optimization problem (Analysis)
 • explain the role of the components of a branch-and-prune/bound algorithm, and choose the appropriate components for a given global optimization problem (Synthesis)""" ;
-    ns1:parcours "ORO,CMI" ;
-    ns1:responsible "GRANVILLIERS LAURENT" .
+    ns1:parcours "ORO,CMI" .
 
 ns1:X3IO040 rdfs:label "Optimisation en robotique" ;
     ns1:content "nan" ;
@@ -803,9 +742,7 @@ ns1:X3IO040 rdfs:label "Optimisation en robotique" ;
 * understand the kinematic models of various serial and parallel robotic manipulators (Understanding) ;
 * describe a variety of optimization problems in robotics and identify the corresponding classes of numerical constrained optimization problem (Analysis) ;
 * model a variety of robotic problems as numerical constrained optimization problems and solve them using an appropriate method (Synthesis) ;""" ;
-    ns1:parcours "ORO,CMI" ;
-    ns1:responsible "GOLDSZTEJN ALEXANDRE",
-        "JERMANN CHRISTOPHE" .
+    ns1:parcours "ORO,CMI" .
 
 ns1:X3IO050 rdfs:label "Large Scale Optimization" ;
     ns1:content "nan" ;
@@ -824,9 +761,7 @@ ns1:X3IO050 rdfs:label "Large Scale Optimization" ;
 -To know Branch-and-Price and the different ways to make it efficient (A)
 -To know the Benders decomposition and its relation with Dantzig-Wolfe decomposition (A)
 -To know how matheuristics work for both exact methods using approximate methods, and heuristics taking advantage of exact approaches (M)""" ;
-    ns1:parcours "ORO,CMI" ;
-    ns1:responsible "ROSSI ANDRE",
-        "SEVAUX MARC" .
+    ns1:parcours "ORO,CMI" .
 
 ns1:X3IO060 rdfs:label "Algorithmics in Genomics" ;
     ns1:content """•
@@ -850,9 +785,7 @@ ns1:X3IO060 rdfs:label "Algorithmics in Genomics" ;
 10. confiner l'explosion combinatoire, due à la taille des données, d'une solution en utilisant les principales techniques d'algorithmique FPT
 11. lire, comprendre, présenter, discuter un article de recherche, en binôme
 12. effectuer la synthèse écrite (en anglais) d'un papier de recherche, de manière claire, concise , complète et convaincante.""" ;
-    ns1:parcours "ORO,CMI" ;
-    ns1:responsible """RUSU Irena
-FERTIN""" .
+    ns1:parcours "ORO,CMI" .
 
 ns1:X3IO070 rdfs:label "Conferences" ;
     ns1:content "Les conférences seront assurées à 100% par des intervenants du monde de l'entreprise. Cette UE prépare les étudants à leur insertion dans le milieu professionnel." ;
@@ -879,8 +812,7 @@ ns1:X3IO080 rdfs:label "Optimisation multi-objectif" ;
 - To know the notion of bound sets (M)
 - To be able to apply a branch and bound algorithm to solve a bi-objective combinatorial optimization problem (A)
 - To be able to apply a dynamic programming algorithm for multi-objective combinatorial optimization problem, application to the shortest path problem (A)""" ;
-    ns1:parcours "ORO,CMI" ;
-    ns1:responsible "PRZYBYLSKI ANTHONY" .
+    ns1:parcours "ORO,CMI" .
 
 ns1:X3IOM10 rdfs:label "Contraintes Globales" ;
     ns1:content "nan" ;
@@ -973,8 +905,7 @@ Connaissances des principaux algorithmes d’alignement bilingue à partir de co
 • Alignement en corpus comparable""" ;
     ns1:level "M2" ;
     ns1:objective "nan" ;
-    ns1:parcours "ATAL" ;
-    ns1:responsible "FERTIN GUILLAUME" .
+    ns1:parcours "ATAL" .
 
 ns1:X3IT040 rdfs:label "Statistical and symbolic language modeling" ;
     ns1:content """Savoir mettre en oeuvre et maîtriser différents modèles de langages tant du point de vue de sa définition (puissance d’un modèle), de son utilisation effective (prédiction, lissage) que de son acquisition (apprentissage).
@@ -987,9 +918,7 @@ ns1:X3IT040 rdfs:label "Statistical and symbolic language modeling" ;
 • Apprentissage des modèles :   techniques d'inférence grammaticale, méthodes spectrales, méthodes d'estimation, et réseaux de neurones récurrents.""" ;
     ns1:level "M2" ;
     ns1:objective "nan" ;
-    ns1:parcours "ATAL" ;
-    ns1:responsible "DE LA",
-        "HIGUERA COLIN" .
+    ns1:parcours "ATAL" .
 
 ns1:X3IT060 rdfs:label "Corpus" ;
     ns1:content """Constitution d’un corpus : 1) metadonnées, 2) critères de sélection des textes et 3) normes linguistiques d'annotation.
@@ -1033,16 +962,13 @@ ns1:X4II010 rdfs:label "Stage" ;
     ns1:objective """- S'intégrer dans le milieu professionel de son stage, mettre en oeuvre sa capacité d'analyse sur le sujet proposé, et être force de proposition.
 - Synthétiser le travail effectué dans un compte rendu de manière concise, correcte, et complète.
 - Préparer des supports puis présenter oralement le travail effectué de manière dynamique et convaincante.""" ;
-    ns1:parcours "ATAL,ORO,CMI,ALMA" ;
-    ns1:responsible "MOLLI HALA" .
+    ns1:parcours "ATAL,ORO,CMI,ALMA" .
 
 ns1:X4II020 rdfs:label "rapports de stage en anglais" ;
     ns1:content "nan" ;
     ns1:level "M2" ;
     ns1:objective "nan" ;
-    ns1:parcours "CMI" ;
-    ns1:responsible "GANDIBLEUX XAVIER",
-        "ROBBES DIDIER" .
+    ns1:parcours "CMI" .
 
 ns1:X4II030 rdfs:label "Période de suivi en formation par alternance" ;
     ns1:content "nan" ;
@@ -1067,8 +993,7 @@ ns1:YG9U15- rdfs:label "Machine learning for computer vision" ;
 - train, optimize and use classical machine learning tools (GMM, MLP, SVM, deeplearning)
 - evaluate the spatial relations between objects
 - understand a grammar based system to parse complex objects""" ;
-    ns1:parcours "ATAL,VICO" ;
-    ns1:responsible "MOUCHERE HAROLD" .
+    ns1:parcours "ATAL,VICO" .
 
 ns1:YG9U17- rdfs:label "Perceptual computing" ;
     ns1:content """1. Visual perception: physiology and theories
@@ -1083,9 +1008,7 @@ ns1:YG9U17- rdfs:label "Perceptual computing" ;
 • 3D, stereo and autostereo applications""" ;
     ns1:level "M2" ;
     ns1:objective "At the end of this course, the student will be able to design an experiment that allows him to measure some properties of the human visual system. He should be able to analyse these measure in order to create some theoretical or computational models. He / she will also be able to reuse the theoretical and practical knowledge acquired during this course in order to design and evaluate image and video processing algorithms that take into account the properties of the human visual system." ;
-    ns1:parcours "ATAL,VICO" ;
-    ns1:responsible "PEIRRERA DA",
-        "SILVA MATTHIEU" .
+    ns1:parcours "ATAL,VICO" .
 
 ns1:ZZ3CG rdfs:label "3D Computer Graphics" ;
     ns1:content """1.   Realtime 3D general concepts
@@ -1103,8 +1026,7 @@ ns1:ZZ3CG rdfs:label "3D Computer Graphics" ;
 • Augmented Reality with dedicated peripherals""" ;
     ns1:level "M2" ;
     ns1:objective "At the end of this course, the student must know the visual human mechanisms involved in the depth perception. He will be able to use basic lightning algorithms and basic shaders programming. The student will also be able to take a critical look to 3D application and their use: he will be able to choose the interaction devices adapted to the type of rendering used and he will be able to choose a visual representation mode adapted to the a defined task with defined interaction device." ;
-    ns1:parcours "VICO" ;
-    ns1:responsible "PICAROUGNE FABIEN" .
+    ns1:parcours "VICO" .
 
 ns1:ZZAIAVP rdfs:label "Advanced image and video processing" ;
     ns1:content """Discrete geometry topics :
@@ -1121,8 +1043,7 @@ Image analysis applications topics:
     ns1:objective """At the end of this course, the students will be able to:
 • Understand the digital objects that constitutes the basis for computation in any image field. Discrete topology theorems, algorithms for line drawing, convex shape or distance maps, morphological tools and discrete reconstruction are presented in order to be able to manage an image problem via these tools
 • Manipulate the discrete geometry concepts in a real applicative environment either for medical imaging (image acquisition, tomography, quantizing image information) or for image analysis (medical, materials, ...). A large set of examples is available from the teams projects and are applied with the previous concepts in real time constraints environments""" ;
-    ns1:parcours "VICO" ;
-    ns1:responsible "GUEDON JEAN-PIERRE" .
+    ns1:parcours "VICO" .
 
 ns1:ZZCAAI rdfs:label "Cluster analysis and indexing" ;
     ns1:content """Advanced clustering, co-clustering, semi-supervised classification. Probabilistic mixture models, topic models
@@ -1135,8 +1056,7 @@ Typical applications and experiments.""" ;
 - design, carry out and criticize experiments on real data sets
 - develop software using relevant libraries for carrying out new classification problems and experiments
 - start exploiting scientific resources such as scientific papers""" ;
-    ns1:parcours "DS" ;
-    ns1:responsible "GELGON MARC" .
+    ns1:parcours "DS" .
 
 ns1:ZZCAICD rdfs:label "Conferences and invited courses (DS)" ;
     ns1:content "This course is defined with regular short conferences with researcher or industrialist. The program is defined every year in accordance with the topical issues." ;
@@ -1220,8 +1140,7 @@ ns1:ZZHCI rdfs:label "Human-Computer Interaction" ;
 Each project will imply 2 or 3 students designing an experimental setting and running à small evaluation to answer an HCI related question""" ;
     ns1:level "M2" ;
     ns1:objective "At the end of this course, the student will be able to design an interactive system using adequate design methods. He will we able to choose an evaluation method and to carry out the evaluation of the system. He will be able to reuse the theoretical (HCI discipline, its history, its main concepts, principles and methods) and practical knowledge acquired during this course in order to write a paper in HCI." ;
-    ns1:parcours "VICO" ;
-    ns1:responsible "PRIE YANNICK" .
+    ns1:parcours "VICO" .
 
 ns1:ZZID rdfs:label "Internship (DS)" ;
     ns1:content "During the internship, the student will conduct a research work either in a university lab or in the R&D department of a private company." ;
@@ -1267,8 +1186,7 @@ In the image and video coding domain:
 • To know the fundamental principles, methods and technics of image and video compression
 • To describe the caracteristics of the main image/video compression standards (JPEG, JPEG2000, H26X, MPEG-X video)
 • To implement a complete video coding/decoding chain""" ;
-    ns1:parcours "VICO" ;
-    ns1:responsible "RICORDEL VINCENT" .
+    ns1:parcours "VICO" .
 
 ns1:ZZPGMASRL rdfs:label "Probabilistic Graphical Models and statistical relational learning" ;
     ns1:content """Probabilistic graphical models (PGMs) are an interesting framework for encoding probability distributions over complex domains. These representations sit at the intersection of statistics and computer science, relying on concepts from probability theory, graph algorithms, machine learning, and more.
@@ -1346,3 +1264,4 @@ Written examination at the end.""" ;
 - carry out the evaluation of an interactive visualisation system, choosing from various evaluation means
 - engage in discussions on the latest theoretical research topics and challenges""" ;
     ns1:parcours "DS" .
+
