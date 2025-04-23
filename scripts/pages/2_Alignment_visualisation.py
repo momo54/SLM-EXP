@@ -36,7 +36,7 @@ def create_figure(matched_courses):
         fill='toself',
         name='CS Core Hours',
         line_color='lightblue',
-        opacity=0.3
+        opacity=0.5
     ))
 
     fig.add_trace(go.Scatterpolar(
@@ -45,7 +45,7 @@ def create_figure(matched_courses):
         fill='toself',
         name='KA Core Hours',
         line_color='lightpink',
-        opacity=0.3
+        opacity=0.5
     ))
     
     # Ajouter la trace pour tous les cours
