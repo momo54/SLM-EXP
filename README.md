@@ -1,5 +1,5 @@
 
-This is a demo scenario for [SPARQLLM](https://github.com/momo54/SPARQLLM), a Retrieval-Augmented SPARQL Query engine. A video of the demo is available on [YouTube](https://www.youtube.com/watch?v=Oob2ci2TsGE). The demo has been accepted to [ESWC2025](https://2025.eswc-conferences.org/).
+This is a demo scenario for [SPARQLLM](https://github.com/GDD-Nantes/SPARQLLM), a Retrieval-Augmented SPARQL Query engine. A video of the demo is available on [YouTube](https://www.youtube.com/watch?v=Oob2ci2TsGE). The demo has been accepted to [ESWC2025](https://2025.eswc-conferences.org/).
 
 
 # Input
@@ -21,10 +21,10 @@ The ouput is a alignement of UE to KU that can be displayed on a radar view.
 Install SPARQLLM Globally 
 
 ```
-pip install git+https://github.com/momo54/SPARQLLM.git
+pip install git+https://github.com/GDD-Nantes/SPARQLLM.git
 ```
-You can update SPARQLLM with `pip install --upgrade git+https://github.com/momo54/SPARQLLM.git`.
-Sometimes, i need "pip install --no-cache-dir --force-reinstall git+https://github.com/momo54/SPARQLLM.git"
+You can update SPARQLLM with `pip install --upgrade git+https://github.com/GDD-Nantes/SPARQLLM.git`.
+Sometimes, i need "pip install --no-cache-dir --force-reinstall git+https://github.com/GDD-Nantes/SPARQLLM.git"
 
 install with virtualenv (recommended):
 ```
