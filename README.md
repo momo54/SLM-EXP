@@ -29,7 +29,7 @@ Sometimes, i need "pip install --no-cache-dir --force-reinstall git+https://gith
 install with virtualenv (recommended):
 ```
 virtualenv xp-env
-source xp-venv/bin/activate
+source xp-env/bin/activate
 pip install -r requirements.txt
 ```
 
