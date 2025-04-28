@@ -13,19 +13,25 @@ ns1:XMS1IU010 rdfs:label "Graphes et Complexité" ;
 2. choisir la représentation d'un graphe la plus adaptée à chaque problème, en visant l'efficacité.
 3. prendre en compte la complexité intrinsèque des graphes pour calculer précisément la complexité algorithmique d'une solution et évaluer son efficacité.
 4. mettre en œuvre les principales solutions algorithmiques pour les problèmes classiques de théorie des graphes : parcours, connexité, plus courts chemins, recherche de cycles.""" ;
-    ns1:parcours "ATAL, ALMA, ORO, DS, VICO" .
+    ns1:parcours "ATAL, ALMA, ORO, DS, VICO" ;
+    ns1:ects 3 ;
+    ns1:hours 24 .
 
 ns1:XMS1AU010 rdfs:label "Anglais scientifique" ;
     ns1:content "" ;
     ns1:level "M1" ;
     ns1:objective "" ;
-    ns1:parcours "CMI-OPTIM, ALMA, ORO, VICO, DS, ATAL, Smart Computing" .
+    ns1:parcours "CMI-OPTIM, ALMA, ORO, VICO, DS, ATAL, Smart Computing" ;
+    ns1:ects 3 ;
+    ns1:hours 16 .
 
 ns1:XMS1IU080 rdfs:label "Développement et exploitation" ;
     ns1:content "" ;
     ns1:level "M1" ;
     ns1:objective "" ;
-    ns1:parcours "ALMA, ORO, VICO, DS, ATAL, CMI-OPTIM, Smart Computing" .
+    ns1:parcours "ALMA, ORO, VICO, DS, ATAL, CMI-OPTIM, Smart Computing" ;
+    ns1:ects 3 ;
+    ns1:hours 24 .
 
 ns1:XMS1IE071 rdfs:label "Données massives et cloud" ;
     ns1:content """• Indentifier les services fournis pour une infrastructure de type cloud
@@ -37,7 +43,9 @@ ns1:XMS1IE071 rdfs:label "Données massives et cloud" ;
 • Calculer le coût d'une application web dans le cloud""" ;
     ns1:level "M1" ;
     ns1:objective "" ;
-    ns1:parcours "ALMA, VICO, DS, ATAL, Smart Computing" .
+    ns1:parcours "ALMA, VICO, DS, ATAL, Smart Computing" ;
+    ns1:ects 3 ;
+    ns1:hours 24 .
 
 ns1:XMS1IE072 rdfs:label "Web sémantique - Web des données" ;
     ns1:content """Contenu:
@@ -54,13 +62,17 @@ ns1:XMS1IE072 rdfs:label "Web sémantique - Web des données" ;
 - Comprendre le langage de requêtes SPARQL
 - Etre capable d'utiliser les données liées ouvertes et de faire des requêtes SPARQL sur ces données
 - Etre capable de de transformer les données ouvertes en données liées et être capable de publier ces données liées .""" ;
-    ns1:parcours "ALMA, VICO, DS, ATAL, Smart Computing" .
+    ns1:parcours "ALMA, VICO, DS, ATAL, Smart Computing" ;
+    ns1:ects 3 ;
+    ns1:hours 24.65 .
 
 ns1:XMS1IE302 rdfs:label "Conception de logiciels" ;
     ns1:content "" ;
     ns1:level "M1" ;
     ns1:objective "" ;
-    ns1:parcours "ALMA, Smart Computing" .
+    ns1:parcours "ALMA, Smart Computing" ;
+    ns1:ects 3 ;
+    ns1:hours 24 .
 
 ns1:XMS1IE301 rdfs:label "Test logiciel" ;
     ns1:content """• Notions de besoins, d'exigences, de vérification, de validation
@@ -96,7 +108,9 @@ ns1:XMS1IE301 rdfs:label "Test logiciel" ;
 - savoir appliquer des opérateurs de mutation,
 - savoir utiliser un outil de mutation et interpréter les résultats,
 - savoir utiliser un outil de couverture et interpréter les résultats.""" ;
-    ns1:parcours "ALMA, Smart Computing" .
+    ns1:parcours "ALMA, Smart Computing" ;
+    ns1:ects 3 ;
+    ns1:hours 24 .
 
 ns1:XMS1IE313 rdfs:label "Preuves et Constructions Formelles" ;
     ns1:content """Une préoccupation de l'Informaticien, quel que soit son domaine, est de comprendre les besoins et les exigences d'un projet, de les analyser, de les modéliser, de les structurer, de les stocker, de les programmer. Ce module donne des bases sur ces aspects Logiciel ; ces bases sont nécessaires dans le socle de connaissances de tout étudiant du secteur Logiciel, qui va forcément se confronter au "logiciel". On retrouve ces bases dans les curricula de l'ACM ou de l'IEEE (Software engineering body of knowledge) pour le niveau Master.
@@ -125,67 +139,89 @@ Découvrir techniques et outils d'aide au passage des modèles aux logiciels""" 
     ns1:objective """1. Maîtriser et savoir manipuler les formalismes théoriques pour la modélisation de problèmes logiciels à base d'automates et logiques.
 2. Comprendre le concept de vérification formelle et être capable d'utiliser des techniques adaptées telles que le model checking ou le theorem proving.
 3. Etre capable de mettre en oeuvre les techniques de modélisation et de vérification formelle à l'aide d'outils adaptés, par ex. Uppaal et CoQ.""" ;
-    ns1:parcours "ALMA, Smart Computing" .
+    ns1:parcours "ALMA, Smart Computing" ;
+    ns1:ects 3 ;
+    ns1:hours 24 .
 
 ns1:XMS1IE312 rdfs:label "Programmation concurrente en multi-threads" ;
     ns1:content "" ;
     ns1:level "M1" ;
     ns1:objective "" ;
-    ns1:parcours "ALMA, Smart Computing" .
+    ns1:parcours "ALMA, Smart Computing" ;
+    ns1:ects 3 ;
+    ns1:hours 24 .
 
 ns1:XMS1IU320 rdfs:label "Projet transversal" ;
     ns1:content "" ;
     ns1:level "M1" ;
     ns1:objective "" ;
-    ns1:parcours "ALMA, Smart Computing" .
+    ns1:parcours "ALMA, Smart Computing" ;
+    ns1:ects 3 ;
+    ns1:hours 24 .
 
 ns1:XMS2IU030 rdfs:label "Compilation" ; 
     ns1:content "" ; 
     ns1:level "M1" ;
     ns1:objective "" ;
-    ns1:parcours "DS, ORO, CMI-OPTIM, VICO, ATAL, ALMA, Smart Computing" .
+    ns1:parcours "DS, ORO, CMI-OPTIM, VICO, ATAL, ALMA, Smart Computing" ;
+    ns1:ects 3 ;
+    ns1:hours 24 .
 
 ns1:XMS2IU020 rdfs:label "Apprentissage automatique" ; 
     ns1:content "" ; 
     ns1:level "M1" ;
     ns1:objective "" ;
-    ns1:parcours "DS, VICO, ORO, ATAL, ALMA, CMI-OPTIM, Smart Computing" .
+    ns1:parcours "DS, VICO, ORO, ATAL, ALMA, CMI-OPTIM, Smart Computing" ;
+    ns1:ects 3 ;
+    ns1:hours 24 .
 
 ns1:XMS2IU040 rdfs:label "Projet de recherche" ; 
     ns1:content """Le projet de recherche est une mise en situation d'apprentissage de compétences liées à la recherche. Il s'agit de travailler sur une sujet de recherche fourni par une équipe de recherche de LS2N, supervisé par un chercheur professionnel. L'objectif est de construire une contribution scientifique sur un problème scientifique identifié.""" ; 
     ns1:level "M1" ;
     ns1:objective "" ;
-    ns1:parcours "DS, VICO, ORO, ATAL, ALMA, CMI-OPTIM, Smart Computing" .
+    ns1:parcours "DS, VICO, ORO, ATAL, ALMA, CMI-OPTIM, Smart Computing" ;
+    ns1:ects 9 ;
+    ns1:hours 16 .
 
 ns1:XMS2IE011 rdfs:label "Professionnalisation" ; 
     ns1:content "" ; 
     ns1:level "M1" ;
     ns1:objective "" ;
-    ns1:parcours "DS, VICO, ORO, ATAL, ALMA, CMI-OPTIM, Smart Computing" .
+    ns1:parcours "DS, VICO, ORO, ATAL, ALMA, CMI-OPTIM, Smart Computing" ;
+    ns1:ects 1.5 ;
+    ns1:hours 12 .
 
 ns1:XMS2IE012 rdfs:label "Ethique" ; 
     ns1:content "" ; 
     ns1:level "M1" ;
     ns1:objective "" ;
-    ns1:parcours "DS, VICO, ORO, ATAL, ALMA, CMI-OPTIM, Smart Computing" .
+    ns1:parcours "DS, VICO, ORO, ATAL, ALMA, CMI-OPTIM, Smart Computing" ;
+    ns1:ects 1.5 ;
+    ns1:hours 12 .
 
 ns1:XMS2IU320 rdfs:label "Conception pilotée par le domaine" ; 
     ns1:content "" ; 
     ns1:level "M1" ;
     ns1:objective "" ;
-    ns1:parcours "ALMA" .
+    ns1:parcours "ALMA" ;
+    ns1:ects 3 ;
+    ns1:hours 24 .
 
 ns1:XMS2IU310 rdfs:label "Programmation distribuée" ; 
     ns1:content "" ; 
     ns1:level "M1" ;
     ns1:objective "" ;
-    ns1:parcours "ALMA" .
+    ns1:parcours "ALMA" ;
+    ns1:ects 3 ;
+    ns1:hours 24 .
 
 ns1:XMS2IU080 rdfs:label "Ingénierie de la décision" ; 
     ns1:content "" ; 
     ns1:level "M1" ;
     ns1:objective "" ;
-    ns1:parcours "ORO, VICO, ATAL, ALMA, DS, CMI-OPTIM" .
+    ns1:parcours "ORO, VICO, ATAL, ALMA, DS, CMI-OPTIM" ;
+    ns1:ects 3 ;
+    ns1:hours 24 .
 
 ns1:XMS2IU070 rdfs:label "Introduction au traitement d'image" ; 
     ns1:content """Cette matière permettra de découvrir les bases du traitement d'image :
@@ -198,19 +234,25 @@ ns1:XMS2IU070 rdfs:label "Introduction au traitement d'image" ;
     • Extraction de caractéristiques et classification basique""" ; 
     ns1:level "M1" ;
     ns1:objective "" ;
-    ns1:parcours "ATAL, VICO, ORO, ALMA, DS, CMI-OPTIM" .
+    ns1:parcours "ATAL, VICO, ORO, ALMA, DS, CMI-OPTIM" ;
+    ns1:ects 3 ;
+    ns1:hours 24 .
 
 ns1:XMS2IU090 rdfs:label "Informatique temps réel et embarquée" ; 
     ns1:content "" ; 
     ns1:level "M1" ;
     ns1:objective "" ;
-    ns1:parcours "ATAL, VICO, ORO, ALMA, DS, CMI-OPTIM" .
+    ns1:parcours "ATAL, VICO, ORO, ALMA, DS, CMI-OPTIM" ;
+    ns1:ects 3 ;
+    ns1:hours 24 .
 
 ns1:XMS2IU110 rdfs:label "Ingénierie des réseaux" ; 
     ns1:content "" ; 
     ns1:level "M1" ;
     ns1:objective "" ;
-    ns1:parcours "VICO, ATAL, ORO, ALMA, DS, CMI-OPTIM" .
+    ns1:parcours "VICO, ATAL, ORO, ALMA, DS, CMI-OPTIM" ;
+    ns1:ects 3 ;
+    ns1:hours 24 .
 
 ns1:XMS2IU120 rdfs:label "Conception et Analyse d'Algorithmes Efficaces" ; 
     ns1:content """Dans ce module, on cherche à concevoir des algorithmes efficaces (en temps) pour résoudre des problèmes, typiquement des problèmes d'optimisation. On y abordera trois grandes parties:
@@ -219,19 +261,25 @@ ns1:XMS2IU120 rdfs:label "Conception et Analyse d'Algorithmes Efficaces" ;
     • en cas de problème difficile (NP-dur), étude de deux stratégies de résolution: algorithmes d'approximation et complexité paramétrée (à exponentielle faible)""" ; 
     ns1:level "M1" ;
     ns1:objective "" ;
-    ns1:parcours "ORO, VICO, ATAL, ALMA, DS, CMI-OPTIM" .
+    ns1:parcours "ORO, VICO, ATAL, ALMA, DS, CMI-OPTIM" ;
+    ns1:ects 3 ;
+    ns1:hours 24 .
 
 ns1:XMS2IU100 rdfs:label "Introduction au Traitement Automatique des Langues" ; 
     ns1:content """L'objectif de cette UE est proposer un premier panorama du domaine du traitement automatique du langage. Un bref historique permettra de contextualiser ce domaine dont les recherches y sont très actives actuellement. Des premiers modèles simples de représentation des mots seront étudiés puis des modèles plus complexes à l'état-de-l'art, en particulier s'appuyant sur les réseaux de neurones  et l'apprentissage profond, seront présentés. Les enjeux sociétaux et les limites des modèles de langue actuels seront également abordés. Enfin, une part importante de l'UE intègrera des travaux sur machine sous forme de travaux pratiques : il s'agira de manipuler les concepts du traitement du langage au travers d'exercice ciblé ainsi que d'un petit projet permettant de résoudre un problème ciblé grâce au techniques actuels d'intelligence artificielle adaptées au langage.""" ; 
     ns1:level "M1" ;
     ns1:objective "" ;
-    ns1:parcours "VICO, ORO, ATAL, ALMA, DS, CMI-OPTIM" .
+    ns1:parcours "VICO, ORO, ATAL, ALMA, DS, CMI-OPTIM" ;
+    ns1:ects 3 ;
+    ns1:hours 24 .
 
 ns1:XMS2IU130 rdfs:label "Stage volontaire en informatique" ; 
     ns1:content "" ; 
     ns1:level "M1" ;
     ns1:objective "" ;
-    ns1:parcours "ORO, VICO, ATAL, ALMA, DS, CMI-OPTIM" .
+    ns1:parcours "ORO, VICO, ATAL, ALMA, DS, CMI-OPTIM" ;
+    ns1:ects 0 ;
+    ns1:hours 0 .
 
 ns1:XMS2AU000 rdfs:label "Préparation au TOEIC" ; 
     ns1:content """Se préparer pour obtenir une certification en anglais (objectif B2 et +)
@@ -243,31 +291,41 @@ ns1:XMS2AU000 rdfs:label "Préparation au TOEIC" ;
     • Reconnaitre et anticiper les formats de certifications d'anglais.
     • Compléter les réponses exigées par les tests de certifications.
     • Pouvoir optimiser leurs résultats aux certifications grâce à une méthodologie de travail appliquée lors des séances d'entrainement.""" ;
-    ns1:parcours "ORO, VICO, ATAL, ALMA, DS" .
+    ns1:parcours "ORO, VICO, ATAL, ALMA, DS" ;
+    ns1:ects 0 ;
+    ns1:hours 0 .
 
 ns1:XMS1IU050 rdfs:label "Métaheuristiques" ;
     ns1:content "" ;
     ns1:level "M1" ;
     ns1:objective "" ;
-    ns1:parcours "CMI-IS, IS, DS, VICO, ORO, ATAL, CMI-OPTIM, Smart Computing" .
+    ns1:parcours "CMI-IS, IS, DS, VICO, ORO, ATAL, CMI-OPTIM, Smart Computing" ;
+    ns1:ects 3 ;
+    ns1:hours 24 .
 
 ns1:XMS1IU060 rdfs:label "Analyse exploratoire de données" ;
     ns1:content "" ;
     ns1:level "M1" ;
     ns1:objective "" ;
-    ns1:parcours "VICO, DS, ORO, ATAL, CMI-OPTIM, Smart Computing" .
+    ns1:parcours "VICO, DS, ORO, ATAL, CMI-OPTIM, Smart Computing" ;
+    ns1:ects 3 ;
+    ns1:hours 24 .
 
 ns1:XMS2IU050 rdfs:label "Bases de données avancées" ;
     ns1:content "" ;
     ns1:level "M1" ;
     ns1:objective "" ;
-    ns1:parcours "ATAL, VICO, DS" .
+    ns1:parcours "ATAL, VICO, DS" ;
+    ns1:ects 3 ;
+    ns1:hours 24 .
 
 ns1:XMS2IU060 rdfs:label "Modèles probabilistes" ;
     ns1:content "" ;
     ns1:level "M1" ;
     ns1:objective "" ;
-    ns1:parcours "ORO, VICO, DS, ATAL, CMI-OPTIM" .
+    ns1:parcours "ORO, VICO, DS, ATAL, CMI-OPTIM" ;
+    ns1:ects 3 ;
+    ns1:hours 24 .
 
 ns1:XMS1IU030 rdfs:label "Interactions Humain-Machine" ;
     ns1:content """- Introduction à l'interaction humain-machine
@@ -281,13 +339,17 @@ ns1:XMS1IU030 rdfs:label "Interactions Humain-Machine" ;
 - Concevoir une interaction et une interface humain-machine
 - Evaluer l'expérience utilisateur liée à un outil numérique
 - Concevoir une visualisation de données""" ;
-    ns1:parcours "ATAL, DS, VICO, Smart Computing" .
+    ns1:parcours "ATAL, DS, VICO, Smart Computing" ;
+    ns1:ects 3 ;
+    ns1:hours 24 .
 
 ns1:XMS1IE041 rdfs:label "Structures et stratégies pour la résolution de problèmes" ;
     ns1:content """Etude d'algorithmes de résolution d'une classe de problèmes de recherche dont l'exploration de l'espace de recherche correspond à un parcours d'arbre (notamment d'arbre de jeux) tels que recherche en largeur d'abord, en profondeur d'abord, avec heuristiques, recherche gloutonne, algorithme A*, algorithme minimax, élagage alpha-bêta, recherche arborescente Monte-Carlo.""" ;
     ns1:level "M1" ;
     ns1:objective "" ;
-    ns1:parcours "ATAL, DS, VICO, Smart Computing" .
+    ns1:parcours "ATAL, DS, VICO, Smart Computing" ;
+    ns1:ects 3 ;
+    ns1:hours 24 .
 
 ns1:XMS1IE042 rdfs:label "Projet d'intelligence artificielle" ;
     ns1:content """• Analyse et modélisation d'un problème de recherche type jeu à deux joueurs
@@ -299,13 +361,17 @@ ns1:XMS1IE042 rdfs:label "Projet d'intelligence artificielle" ;
     • (Optionnel) Modèles d'apprentissage""" ;
     ns1:level "M1" ;
     ns1:objective "" ;
-    ns1:parcours "ATAL, DS, VICO, Smart Computing" .
+    ns1:parcours "ATAL, DS, VICO, Smart Computing" ;
+    ns1:ects 2.1 ;
+    ns1:hours 18.68 .
 
 ns1:XMS1IE043 rdfs:label "Applications industrielles sur les données" ;
     ns1:content """L'objectif de cet enseignement est de proposer une présentation globale du contexte actuel de l'Intelligence Artificielle (IA) en milieu industrielle de même qu'un état des lieux sur les principaux cas d'usages et des frameworks associés. Trois domaines au centre du secteur IA et données sont plus particulièrement visés, à savoir : l'analyse ou la génération de textes (données langagières), d'images, de données. L'EC se décomposera en 2 demi-journées à chaque fois sur le site d'un partenaire industriel.""" ;
     ns1:level "M1" ;
     ns1:objective "" ;
-    ns1:parcours "ATAL, DS, VICO, Smart Computing" .
+    ns1:parcours "ATAL, DS, VICO, Smart Computing" ;
+    ns1:ects 0.9 ;
+    ns1:hours 5.33 .
 
 ns1:XMS1IU220 rdfs:label "Introduction à l'optimisation non-linéaire différentiable" ; 
     ns1:content """* Optimisation sans contrainte
@@ -326,7 +392,9 @@ ns1:XMS1IU220 rdfs:label "Introduction à l'optimisation non-linéaire différen
     ns1:objective """* connaître les concepts fondamentaux et les conditions d'optimalité en programmation non-linéaire (Connaissance)
 * savoir interpréter le comportement d'algorithmes d'optimisation (Compréhension) ;
 * développer une méthode d'optimisation pour la résolution d'un problème non-linéaire avec contraintes (Application) """ ;
-    ns1:parcours "ORO, CMI-OPTIM, Smart Computing" .
+    ns1:parcours "ORO, CMI-OPTIM, Smart Computing" ;
+    ns1:ects 3 ;
+    ns1:hours 24 .
 
 ns1:XMS1IU200 rdfs:label "Dualité et optimisation linéaire continue" ; 
     ns1:content """1) Rappels : résolution graphique de programmes linéaires, algorithme primal simplexe
@@ -346,7 +414,9 @@ ns1:XMS1IU200 rdfs:label "Dualité et optimisation linéaire continue" ;
 * Réoptimiser un programme linéaire auquel des contraintes/des variables ont été ajoutées après la résolution initiale (A)
 * Reconnaître une matrice totalement unimodulaire, et décrire ses propriétés (A)
 * Résoudre le problème d'affectation par la méthode hongroise (A)""" ;
-    ns1:parcours "ORO, CMI-OPTIM, Smart Computing" .
+    ns1:parcours "ORO, CMI-OPTIM, Smart Computing" ;
+    ns1:ects 3 ;
+    ns1:hours 24 .
 
 ns1:XMS1IU210 rdfs:label "Graphes II et Réseaux" ; 
     ns1:content """Ce cours concerne divers problèmes de transports dans les réseaux, leurs algorithmes et leurs applications:
@@ -358,19 +428,25 @@ ns1:XMS1IU210 rdfs:label "Graphes II et Réseaux" ;
 2. reconnaître, modéliser et résoudre un problème de transport à l'aide de l'algorithme du simplexe réseau.
 3. comprendre l'étendue des applications, mais aussi des limites de chacune des problématiques/méthodes.
 4. mener à bien un projet de résolution de problème à l'aide de graphes, en binôme, depuis la prise en main du sujet et jusqu'à l'évaluation des solutions/implémentations proposées""" ;
-    ns1:parcours "ORO, CMI-OPTIM, Smart Computing" .
+    ns1:parcours "ORO, CMI-OPTIM, Smart Computing" ;
+    ns1:ects 3 ;
+    ns1:hours 24 .
 
 ns1:XMS1IU230 rdfs:label "Optimisation discrète et combinatoire" ; 
     ns1:content "" ; 
     ns1:level "M1" ;
     ns1:objective "" ;
-    ns1:parcours "ORO, CMI-OPTIM, Smart Computing" .
+    ns1:parcours "ORO, CMI-OPTIM, Smart Computing" ;
+    ns1:ects 6 ;
+    ns1:hours 48 .
 
 ns1:XMS2IU200 rdfs:label "Optimiser sous incertitude" ; 
     ns1:content "" ; 
     ns1:level "M1" ;
     ns1:objective "" ;
-    ns1:parcours "ORO, CMI-OPTIM" .
+    ns1:parcours "ORO, CMI-OPTIM" ;
+    ns1:ects 3 ;
+    ns1:hours 24 .
 
 ns1:XMS3IU010 rdfs:label "Middleware" ; 
     ns1:content "" ; 
@@ -384,7 +460,9 @@ ns1:XMS3IU010 rdfs:label "Middleware" ;
 - Etre capable de créer un web service en utilisant le framework Spring
 - Comprendre les concepts d'authentification et de sécurité
 - Comprendre les concepts de services basés composants et de micro services""" ;
-    ns1:parcours "ALMA" .
+    ns1:parcours "ALMA" ;
+    ns1:ects 3 ;
+    ns1:hours 24 .
 
 ns1:XMS3IU020 rdfs:label "Gestion des données distribuées à large échelle" ; 
     ns1:content "" ; 
@@ -398,13 +476,17 @@ ns1:XMS3IU020 rdfs:label "Gestion des données distribuées à large échelle" ;
 • To know multi-version concurrency control and consistency issues in large scale datastore
 • To be able to understand how current datastore are built, what they can do and what are their limitations.
 • To be able to use large scale datastore for OLTP, OLAP and stream processing.""" ;
-    ns1:parcours "ATAL, ALMA" .
+    ns1:parcours "ATAL, ALMA" ;
+    ns1:ects 3 ;
+    ns1:hours 24 .
 
 ns1:XMS3IU030 rdfs:label "Deep Learning and Intensive Software Systems (EMN)" ; 
     ns1:content "" ; 
     ns1:level "M2" ;
     ns1:objective "" ;
-    ns1:parcours "ALMA" .
+    ns1:parcours "ALMA" ;
+    ns1:ects 3 ;
+    ns1:hours 24 .
 
 ns1:XMS3IU040 rdfs:label "Architectures réparties" ; 
     ns1:content "" ; 
@@ -415,7 +497,9 @@ ns1:XMS3IU040 rdfs:label "Architectures réparties" ;
 • To know personal information systems and small data ie. Solid
 • To know federated query processing over semantic web: FedX, Anapsid To know
 • To be able to solve data integration problems on the web""" ;
-    ns1:parcours "ALMA" .
+    ns1:parcours "ALMA" ;
+    ns1:ects 3 ;
+    ns1:hours 24 .
 
 ns1:XMS3IU050 rdfs:label "Ingénierie dirigée par les modèles" ; 
     ns1:content "" ; 
@@ -428,7 +512,9 @@ ns1:XMS3IU050 rdfs:label "Ingénierie dirigée par les modèles" ;
 6. Être capable d'intégrer l'ingénierie basée sur les modèles dans le processus de développement logiciel.
 7. Être capable de réaliser des transformations de modèle à modèle.
 8. Être capable de réaliser effectuer des transformations de modèle à texte (génération de code).""" ;
-    ns1:parcours "ALMA" .
+    ns1:parcours "ALMA" ;
+    ns1:ects 3 ;
+    ns1:hours 24 .
 
 ns1:XMS3IU060 rdfs:label "Gestion des logiciels" ; 
     ns1:content "" ; 
@@ -437,7 +523,9 @@ ns1:XMS3IU060 rdfs:label "Gestion des logiciels" ;
 - Etre capable d'identifier les différentes étapes de gestion d'un projet (M)
 - Etre capable d'estimer les couts et durées d'un projet (M)
 - Comprendre les outils et l'organisation d'un travail collaboratif (M).""" ;
-    ns1:parcours "ALMA" .
+    ns1:parcours "ALMA" ;
+    ns1:ects 5 ;
+    ns1:hours 45 .
 
 ns1:XMS3IU070 rdfs:label "Services de communication et systèmes distribués" ; 
     ns1:content "" ; 
@@ -449,19 +537,25 @@ ns1:XMS3IU070 rdfs:label "Services de communication et systèmes distribués" ;
 - Etre capable de développer un service dans une architecture monolithique simple
 - Etre capable d'utiliser un Domain Drived Design (DDD) pour implémenter une architecture orientée services
 - Comprendre les paradigmes nés de l'expansion du cloud et de l'exploitation des services (e.g. SaaS, Xaas)""" ;
-    ns1:parcours "ALMA" .
+    ns1:parcours "ALMA" ;
+    ns1:ects 3 ;
+    ns1:hours 24 .
 
 ns1:XMS3IU080 rdfs:label "Modélisation et vérification des systèmes concurrents" ; 
     ns1:content """Le cours est consacré à la modélisation et à la vérification par model-checking de systèmes concurrents""" ; 
     ns1:level "M2" ;
     ns1:objective "" ;
-    ns1:parcours "ALMA" .
+    ns1:parcours "ALMA" ;
+    ns1:ects 3 ;
+    ns1:hours 24 .
 
 ns1:XMS3IU100 rdfs:label "Conferences" ; 
     ns1:content "" ; 
     ns1:level "M2" ;
     ns1:objective "" ;
-    ns1:parcours "ALMA" .
+    ns1:parcours "ALMA" ;
+    ns1:ects 1 ;
+    ns1:hours 24 .
 
 ns1:XMS3IU090 rdfs:label "Architectures et styles d'architectures" ; 
     ns1:content """- Introduction aux paradigmes objet, composant,agent, service et modèle dans les Architectures logicielles
@@ -477,7 +571,9 @@ ns1:XMS3IU090 rdfs:label "Architectures et styles d'architectures" ;
 - Comprendre les principales difficultés qui interviennent lors du passage à l'echelle(A)
 - Etre capable de maitriser la complexité des architectures logicielles à un haut niveau d'abstraction   (M)
 - Comprendre et distinguer les différents styles architecturaux orientés agents, objets, composants et modèles.(M)""" ;
-    ns1:parcours "ALMA" .
+    ns1:parcours "ALMA" ;
+    ns1:ects 3 ;
+    ns1:hours 24 .
 
 ns1:XMS4IU010 rdfs:label "Stage" ; 
     ns1:content "" ; 
@@ -485,25 +581,33 @@ ns1:XMS4IU010 rdfs:label "Stage" ;
     ns1:objective """- S'intégrer dans le milieu professionel de son stage, mettre en oeuvre sa capacité d'analyse sur le sujet proposé, et être force de proposition.
 - Synthétiser le travail effectué dans un compte rendu de manière concise, correcte, et complète.
 - Préparer des supports puis présenter oralement le travail effectué de manière dynamique et convaincante.""" ;
-    ns1:parcours "ORO, ATAL, ALMA, CMI-OPTIM" .
+    ns1:parcours "ORO, ATAL, ALMA, CMI-OPTIM" ;
+    ns1:ects 30 ;
+    ns1:hours 0 .
 
 ns1:XEATTENTE11 rdfs:label "Initiation to scientific research" ; 
     ns1:content """The first block of the Research Methodology teaching unit is dedicated to understanding what scientific knowledge production means, how scientific knowledge develops with scientific publishing, what scientific disciplines are and to discuss the relations between science and society. Then we focus on the content of scientific documents, how to read them, and how to write scientific material, before addressing the topic of how to search for scientific material with the tools at hand and organize them in a bibliography.""" ; 
     ns1:level "M2" ;
     ns1:objective "" ;
-    ns1:parcours "VICO, ATAL" .
+    ns1:parcours "VICO, ATAL" ;
+    ns1:ects 1.05 ;
+    ns1:hours 9 .
 
 ns1:XEATTENTE12 rdfs:label "Open science sustainability and ethics" ; 
     ns1:content """The second block of the Research Methodology teaching unit deals with open science, sustainability and general ethics.""" ; 
     ns1:level "M2" ;
     ns1:objective "" ;
-    ns1:parcours "VICO, ATAL" .
+    ns1:parcours "VICO, ATAL" ;
+    ns1:ects 0.6 ;
+    ns1:hours 4.5 .
 
 ns1:XEATTENTE13 rdfs:label "Experimental methodology and statistics" ; 
     ns1:content """The third block of the Research Methodology teaching unit offers a comprehensive exploration of experimental methodologies, starting with the hypothetico-deductive method and extending to exploratory science and data collection aimed at modeling and prediction. Students will gain an understanding of both qualitative and quantitative variables, as well as dependent variables (VD) and factors influencing experiments. The curriculum delves into experimental design plans, covering both between-subjects and within-subjects designs. Additionally, the course provides a solid foundation in descriptive statistics, including the examination of various distributions such as Poisson and Bernoulli. To equip students with the tools for rigorous data analysis, the course also covers inferential statistics tailored for experimental data.""" ; 
     ns1:level "M2" ;
     ns1:objective "" ;
-    ns1:parcours "VICO, ATAL" .
+    ns1:parcours "VICO, ATAL" ;
+    ns1:ects 1.35 ;
+    ns1:hours 10.5 .
 
 ns1:XUATTENTE20 rdfs:label "Deep learning" ; 
     ns1:content """• Cours : MLP, CNN, RNN
@@ -511,7 +615,9 @@ ns1:XUATTENTE20 rdfs:label "Deep learning" ;
 • TP : IRIS, MINST, Seq""" ; 
     ns1:level "M2" ;
     ns1:objective "" ;
-    ns1:parcours "DS, VICO, ATAL" .
+    ns1:parcours "DS, VICO, ATAL" ;
+    ns1:ects 3 ;
+    ns1:hours 24 .
 
 ns1:XMS3IU200 rdfs:label "Modélisation des langues" ; 
     ns1:content """• Architectures et modèles (statique, contextuel, mécanisme d'attention, transformer, encodeur et génératif, multimodalité, compression)
@@ -521,7 +627,9 @@ ns1:XMS3IU200 rdfs:label "Modélisation des langues" ;
 • Analyse et interprétabilité (biais)""" ; 
     ns1:level "M2" ;
     ns1:objective "" ;
-    ns1:parcours "ATAL" .
+    ns1:parcours "ATAL" ;
+    ns1:ects 3 ;
+    ns1:hours 24 .
 
 ns1:XMS3IU210 rdfs:label "Traitement automatique des langues" ; 
     ns1:content """• Paradigmes de résolution des problématiques de TAL
@@ -532,7 +640,9 @@ ns1:XMS3IU210 rdfs:label "Traitement automatique des langues" ;
 • Exploitation de GPU/supercalcultateur""" ; 
     ns1:level "M2" ;
     ns1:objective "" ;
-    ns1:parcours "ATAL" .
+    ns1:parcours "ATAL" ;
+    ns1:ects 3 ;
+    ns1:hours 24 .
 
 ns1:XMS3IU220 rdfs:label "Ressources linguistiques" ; 
     ns1:content """• Construction de corpus (typologie, constitution, méta-données, codage, corpus et jeux de données de références...) et de lexiques
@@ -543,14 +653,18 @@ ns1:XMS3IU220 rdfs:label "Ressources linguistiques" ;
 • Retrieval Augmented Generation (RAG)""" ; 
     ns1:level "M2" ;
     ns1:objective "" ;
-    ns1:parcours "ATAL" .
+    ns1:parcours "ATAL" ;
+    ns1:ects 3 ;
+    ns1:hours 24 .
 
 ns1:XMS3IU230 rdfs:label "Développement logiciel et IA dans les entreprises" ; 
     ns1:content """* Agilité et gestion de projets
 * Processus en amont et aval de la construction de modèles (recueil besoins, trajectoire client, acculturation, chiffrage, planification, industrialisation, packaging, performance)""" ; 
     ns1:level "M2" ;
     ns1:objective "" ;
-    ns1:parcours "ATAL" .
+    ns1:parcours "ATAL" ;
+    ns1:ects 3 ;
+    ns1:hours 24 .
 
 ns1:XMS3IU240 rdfs:label "Algorithmique du texte et inférence grammaticale" ; 
     ns1:content """Partie Algorithmique du Texte
@@ -565,7 +679,9 @@ Contenu de la partie Algorithmique du Texte:
 Ces techniques seront illustrées d'exemples d'applications au traitement des séquences d'ADN.""" ; 
     ns1:level "M2" ;
     ns1:objective "" ;
-    ns1:parcours "ATAL" .
+    ns1:parcours "ATAL" ;
+    ns1:ects 3 ;
+    ns1:hours 24 .
 
 ns1:XMS3IU250 rdfs:label "Communication scientifique" ; 
     ns1:content """* Réalisation d'étude bibliographique et de présentation d'articles dans le domaine
@@ -573,25 +689,33 @@ ns1:XMS3IU250 rdfs:label "Communication scientifique" ;
 * Construction de poster, rédaction en latex, gestion bibliographique""" ; 
     ns1:level "M2" ;
     ns1:objective "" ;
-    ns1:parcours "ATAL" .
+    ns1:parcours "ATAL" ;
+    ns1:ects 3 ;
+    ns1:hours 24 .
 
 ns1:XMS3IU260 rdfs:label "Projet (M2 ATAL)" ; 
     ns1:content "" ; 
     ns1:level "M2" ;
     ns1:objective "" ;
-    ns1:parcours "ATAL" .
+    ns1:parcours "ATAL" ;
+    ns1:ects 3 ;
+    ns1:hours 24 .
 
 ns1:XMS3IU270 rdfs:label "Périodes de formation alternées en milieu professionnel (M2 ATAL)" ; 
     ns1:content "" ; 
     ns1:level "M2" ;
     ns1:objective "" ;
-    ns1:parcours "ATAL" .
+    ns1:parcours "ATAL" ;
+    ns1:ects 3 ;
+    ns1:hours 0 .
 
 ns1:XMS4IU200 rdfs:label "Période de suivi en formation par alternance (M2 ATAL)" ; 
     ns1:content "" ; 
     ns1:level "M2" ;
     ns1:objective "" ;
-    ns1:parcours "ATAL" .
+    ns1:parcours "ATAL" ;
+    ns1:ects 30 ;
+    ns1:hours 0 .
 
 ns1:XXVICO1 rdfs:label "Advanced image and video processing" ; 
     ns1:content """Discrete geometry topics :
@@ -608,7 +732,9 @@ Image analysis applications topics:
     ns1:objective """At the end of this course, the students will be able to:
 • Understand the digital objects that constitutes the basis for computation in any image field. Discrete topology theorems, algorithms for line drawing, convex shape or distance maps, morphological tools and discrete reconstruction are presented in order to be able to manage an image problem via these tools
 • Manipulate the discrete geometry concepts in a real applicative environment either for medical imaging (image acquisition, tomography, quantizing image information) or for image analysis (medical, materials, ...). A large set of examples is available from the teams projects and are applied with the previous concepts in real time constraints environments""" ;
-    ns1:parcours "VICO" .
+    ns1:parcours "VICO" ;
+    ns1:ects 6 ;
+    ns1:hours 48 .
 
 ns1:YG9U17 rdfs:label "Perceptual computing" ; 
     ns1:content """1. Visual perception: physiology and theories
@@ -623,7 +749,9 @@ ns1:YG9U17 rdfs:label "Perceptual computing" ;
 • 3D, stereo and autostereo applications""" ; 
     ns1:level "M2" ;
     ns1:objective """At the end of this course, the student will be able to design an experiment that allows him to measure some properties of the human visual system. He should be able to analyse these measure in order to create some theoretical or computational models. He / she will also be able to reuse the theoretical and practical knowledge acquired during this course in order to design and evaluate image and video processing algorithms that take into account the properties of the human visual system.""" ;
-    ns1:parcours "VICO, ATAL" .
+    ns1:parcours "VICO, ATAL" ;
+    ns1:ects 6 ;
+    ns1:hours 48 .
 
 ns1:YG9U15 rdfs:label "Machine learning for computer vision" ; 
     ns1:content """• Data preprocessing (normalization), Feature extraction
@@ -642,7 +770,9 @@ ns1:YG9U15 rdfs:label "Machine learning for computer vision" ;
 - train, optimize and use classical machine learning tools (GMM, MLP, SVM, deeplearning)
 - evaluate the spatial relations between objects
 - understand a grammar based system to parse complex objects""" ;
-    ns1:parcours "VICO, ATAL" .
+    ns1:parcours "VICO, ATAL" ;
+    ns1:ects 6 ;
+    ns1:hours 48 .
 
 ns1:XXVICO2 rdfs:label "3D Computer Graphics" ; 
     ns1:content """1. Realtime 3D general concepts
@@ -660,7 +790,9 @@ ns1:XXVICO2 rdfs:label "3D Computer Graphics" ;
 • Augmented Reality with dedicated peripherals""" ; 
     ns1:level "M2" ;
     ns1:objective """At the end of this course, the student must know the visual human mechanisms involved in the  depth perception. He will be able to use basic lightning algorithms and basic shaders programming. The student will also be able to take a critical look to 3D application and their use: he will be able to choose the interaction devices adapted to the type of rendering used and he will be able to choose a visual representation mode adapted to the a defined task with defined interaction device.""" ;
-    ns1:parcours "VICO" .
+    ns1:parcours "VICO" ;
+    ns1:ects 6 ;
+    ns1:hours 48 .
 
 ns1:XXVICO3 rdfs:label "Multimedia Communication" ; 
     ns1:content """Cryptography:
@@ -684,7 +816,9 @@ In the image and video coding domain:
 • To know the fundamental principles, methods and technics of image and video compression
 • To describe the caracteristics of the main image/video compression standards (JPEG, JPEG2000, H26X, MPEG-X video)
 • To implement a complete video coding/decoding chain""" ;
-    ns1:parcours "VICO" .
+    ns1:parcours "VICO" ;
+    ns1:ects 2 ;
+    ns1:hours 24 .
 
 ns1:XXVICO4 rdfs:label "Human-Computer Interaction" ; 
     ns1:content """1- Human Computer Interaction: from intervention to UX to interaction to interfaces
@@ -696,7 +830,9 @@ ns1:XXVICO4 rdfs:label "Human-Computer Interaction" ;
 Each project will imply 2 or 3 students designing an experimental setting and running à small evaluation to answer an HCI related question""" ; 
     ns1:level "M2" ;
     ns1:objective """At the end of this course, the student will be able to design an interactive system using adequate design methods. He will we able to choose an evaluation method and to carry out the evaluation of the system. He will be able to reuse the theoretical (HCI discipline, its history, its main concepts, principles and methods) and practical knowledge acquired during this course in order to write a paper in HCI.""" ;
-    ns1:parcours "VICO" .
+    ns1:parcours "VICO" ;
+    ns1:ects 2 ;
+    ns1:hours 24 .
 
 ns1:XXVICO5 rdfs:label "French langage and European culture" ; 
     ns1:content """Grammar
@@ -716,7 +852,9 @@ Culture and civilization
 • greet native speakers in an appropriate way
 • interact with native speakers in routine basic tasks (shopping, ordering at a restaurant)
 • fill in registration forms""" ;
-    ns1:parcours "DS, VICO" .
+    ns1:parcours "DS, VICO" ;
+    ns1:ects 0 ;
+    ns1:hours 48 .
 
 ns1:XXVICO6 rdfs:label "Internship (VICO)" ; 
     ns1:content """During the internship, the student will conduct a research work either in a university lab or in a private companie's R&D department.""" ; 
@@ -727,7 +865,9 @@ ns1:XXVICO6 rdfs:label "Internship (VICO)" ;
 3. Develop a time-line for the research project and manage work to that time-line
 4. Communicate research results, both orally and in writing, in a style consistent with scientific standards
 5. Work as part of a research team""" ;
-    ns1:parcours "VICO" .
+    ns1:parcours "VICO" ;
+    ns1:ects 30 ;
+    ns1:hours 0 .
 
 ns1:XXDS01 rdfs:label "Research methodology and case study" ; 
     ns1:content """Professional insertion: research & development processes in company processes. Goals and organisation of the scientific research community
@@ -736,14 +876,18 @@ Designing and interpreting experimental work Ethics of research
 The student will also carry out a project (miniature internship) in the field of data science (various topics will be proposed by the faculty teaching in the master), with emphasis on problem formalisation and bibliography, and light experimentation.""" ; 
     ns1:level "M2" ;
     ns1:objective """Upon completion, the student will have gained experience in semi-autonomous research work, yet with a guided methodology. They will get personalised tutoring on how to apply the general guidelines of the teaching unit to their work.""" ;
-    ns1:parcours "DS" .
+    ns1:parcours "DS" ;
+    ns1:ects 2 ;
+    ns1:hours 17.5 .
 
 ns1:XXDS02 rdfs:label "Semantic knowledge representation" ; 
     ns1:content """In the frame of web 3.0, semantic knowledge representation is concerned with   logic modeling of knowledge with ontologies (vocabulary for concepts and properties), model instantiation on entities (data annotation), and performing logic computation and inference (reasonings) depending on a goal.
 The course introduce the principles and models and tools to model, annotate and make reasonings. These concepts are applied on linked data in order to process the data and knowledge stored into the web.""" ; 
     ns1:level "M2" ;
     ns1:objective "" ;
-    ns1:parcours "DS" .
+    ns1:parcours "DS" ;
+    ns1:ects 3 ;
+    ns1:hours 24 .
 
 ns1:XXDS03 rdfs:label "Probabilistic Graphical Models and statistical relational learning" ; 
     ns1:content """Probabilistic graphical models (PGMs) are an interesting framework for encoding probability distributions over complex domains. These representations sit at the intersection of statistics and computer science, relying on concepts from probability theory, graph algorithms, machine learning, and more.
@@ -753,7 +897,9 @@ This course describes two basic PGM representations: Bayesian Networks, which re
 - be able to model simple problems with simple probabilistic graphical models such as Bayesian networks or Markov networks
 - understand probabilistic inference and parameter/Structure learning algorithm dedicated to such models
 - understand extensions of PGMs dealing with time problems or relational data""" ;
-    ns1:parcours "DS" .
+    ns1:parcours "DS" ;
+    ns1:ects 3 ;
+    ns1:hours 24 .
 
 ns1:XXDS04 rdfs:label "Classification, representation learning and dimensionality reduction" ; 
     ns1:content """Prerequisites : linear algebra, probability, statistics
@@ -771,14 +917,18 @@ Grading will be based on a project assignment (50%) and a final exam (50%).""" ;
 - understand cutting edge representation learning algorithms applied in data science
 - know how to use representation learning methods that scale well on a variety of (un)labeled, (multi)-modal, relational and heterogeneous data.
 - be able to tackle a new data given by an application or a new problem described in a scientific paper, and apply the aforementionned methods on it""" ;
-    ns1:parcours "DS" .
+    ns1:parcours "DS" ;
+    ns1:ects 3 ;
+    ns1:hours 24 .
 
 ns1:XXDS05 rdfs:label "Conferences and invited courses (DS)" ; 
     ns1:content """This course is defined with regular short conferences with researcher or industrialist. The program is defined every year in accordance with the topical issues.""" ; 
     ns1:level "M2" ;
     ns1:objective """This series of presentations and discussions will open their mind of students to new topics, applications and speakers,
 and stimulate them for chosing their way into the field of data science.""" ;
-    ns1:parcours "DS" .
+    ns1:parcours "DS" ;
+    ns1:ects 1 ;
+    ns1:hours 24 .
 
 ns1:XXDS06 rdfs:label "Cluster analysis and indexing" ; 
     ns1:content """Advanced clustering, co-clustering, semi-supervised classification. Probabilistic mixture models, topic models
@@ -791,7 +941,9 @@ Typical applications and experiments.""" ;
 - design, carry out and criticize experiments on real data sets
 - develop software using relevant libraries for carrying out new classification problems and experiments
 - start exploiting scientific resources such as scientific papers""" ;
-    ns1:parcours "DS" .
+    ns1:parcours "DS" ;
+    ns1:ects 3 ;
+    ns1:hours 24 .
 
 ns1:XXDS07 rdfs:label "Text and sequential pattern mining" ; 
     ns1:content """This teaching unit explores techniques for discovering and assessing patterns and structures from sequential data (temporal event sequences, texts, biological sequences, etc.). It focuses on applications for text mining and process mining.
@@ -812,13 +964,17 @@ Sequential pattern mining
 - run through the main algorithms for mining sequential patterns, episodes and processes from a small dataset.
 - choose interestingness measures appropriate to the data and to the analyst' goals.
 - preprocess text corpuses and characterize them with patterns.""" ;
-    ns1:parcours "DS" .
+    ns1:parcours "DS" ;
+    ns1:ects 3 ;
+    ns1:hours 24 .
 
 ns1:XXDS08 rdfs:label "Pattern mining and social network analysis" ; 
     ns1:content "" ; 
     ns1:level "M2" ;
     ns1:objective "" ;
-    ns1:parcours "DS" .
+    ns1:parcours "DS" ;
+    ns1:ects 3 ;
+    ns1:hours 24 .
 
 ns1:XXDS09 rdfs:label "Visual analytics" ; 
     ns1:content """1- Introduction to data visualization
@@ -837,7 +993,9 @@ Written examination at the end.""" ;
 - design an interactive visual analytics system, combining analytical techniques and data representation for the various tasks a domain analyst needs to carry
 - carry out the evaluation of an interactive visualisation system, choosing from various evaluation means
 - engage in discussions on the latest theoretical research topics and challenges.""" ;
-    ns1:parcours "DS" .
+    ns1:parcours "DS" ;
+    ns1:ects 3 ;
+    ns1:hours 24 .
 
 ns1:XXDS10 rdfs:label "Data dependencies and data integration" ; 
     ns1:content """- Part I:
@@ -853,7 +1011,9 @@ ns1:XXDS10 rdfs:label "Data dependencies and data integration" ;
 * Query-Answering Using Views""" ; 
     ns1:level "M2" ;
     ns1:objective "" ;
-    ns1:parcours "DS" .
+    ns1:parcours "DS" ;
+    ns1:ects 3 ;
+    ns1:hours 21.5 .
 
 ns1:XXDS11 rdfs:label "Data economics, law and ethics" ; 
     ns1:content """Economics of data Open data
@@ -864,7 +1024,9 @@ Anonymization techniques for privacy-preserving data publishing Detecting and pr
 - relate data analysis tasks and economic motivations and models in the digital economy
 - relate the legal and privacy and algorithmics of privacy-preserving and discrimination-preserving technologies
 - take advantage of mathematical models and software tools that exploit personal data to create economic value (recommendation, crowdsourcing)""" ;
-    ns1:parcours "DS" .
+    ns1:parcours "DS" ;
+    ns1:ects 3 ;
+    ns1:hours 24 .
 
 ns1:XXDS12 rdfs:label "Internship (DS)" ; 
     ns1:content """During the internship, the student will conduct a research work either in a university lab or in the R&D department of a private company.""" ; 
@@ -875,7 +1037,9 @@ ns1:XXDS12 rdfs:label "Internship (DS)" ;
 3. Develop a time-line for the research project and manage work to that time-line
 4. Communicate research results, both orally and in writing, in a style consistent with scientific standards
 5. Work as part of a research team""" ;
-    ns1:parcours "DS" .
+    ns1:parcours "DS" ;
+    ns1:ects 30 ;
+    ns1:hours 0 .
 
 ns1:XMS3IU300 rdfs:label "Optimisation multi-objectif" ; 
     ns1:content """This course is composed of 5 chapters.
@@ -901,7 +1065,9 @@ ns1:XMS3IU300 rdfs:label "Optimisation multi-objectif" ;
 - To know the notion of bound sets (M)
 - To be able to apply a branch and bound algorithm to solve a bi-objective combinatorial optimization problem (A)
 - To be able to apply a dynamic programming algorithm for multi-objective combinatorial optimization problem, application to the shortest path problem (A)""" ;
-    ns1:parcours "ORO, CMI-OPTIM" .
+    ns1:parcours "ORO, CMI-OPTIM" ;
+    ns1:ects 3 ;
+    ns1:hours 24 .
 
 ns1:XMS3IU310 rdfs:label "Programmation mathématique" ; 
     ns1:content """""" ; 
@@ -920,7 +1086,9 @@ ns1:XMS3IU310 rdfs:label "Programmation mathématique" ;
 -To know Branch-and-Price and the different ways to make it efficient (A)
 -To know the Benders decomposition and its relation with Dantzig-Wolfe decomposition (A)
 -To know how matheuristics work for both exact methods using approximate methods, and heuristics taking advantage of exact approaches (M)""" ;
-    ns1:parcours "ORO, CMI-OPTIM" .
+    ns1:parcours "ORO, CMI-OPTIM" ;
+    ns1:ects 3 ;
+    ns1:hours 24 .
 
 ns1:XMS3IU320 rdfs:label "Optimisation globale" ; 
     ns1:content """Ce cours présente des algorithmes de recherche déterministes pour résoudre des problèmes de satisfaction et d'optimisation non linéaires de manière rigoureuse.
@@ -934,7 +1102,9 @@ ns1:XMS3IU320 rdfs:label "Optimisation globale" ;
 • Savoir linéariser un problème non linéaire
 • Connaître les stratégies de recherche usuelles
 • Mettre en oeuvre un solveur de problèmes d'optimisation non linéaires""" ;
-    ns1:parcours "ORO, CMI-OPTIM" .
+    ns1:parcours "ORO, CMI-OPTIM" ;
+    ns1:ects 3 ;
+    ns1:hours 24 .
 
 ns1:XMS3IU330 rdfs:label "Algorithmique du génome" ; 
     ns1:content """Introduction à l'algorithmique du génome
@@ -943,7 +1113,9 @@ Applications""" ;
     ns1:level "M2" ;
     ns1:objective """Comprendre les enjeux de la génomique comparative et les défis algorithmiques associés Comprendre, reproduire et adapter les algorithmes de recherche de motifs
 Comprendre, reproduire et adapter les algorithmes d'alignement de séquences""" ;
-    ns1:parcours "ORO, CMI-OPTIM" .
+    ns1:parcours "ORO, CMI-OPTIM" ;
+    ns1:ects 3 ;
+    ns1:hours 24 .
 
 ns1:XMS3IU340 rdfs:label "Optimisation en robotique" ; 
     ns1:content """Optimization in Robotics presents a number of optimization problems arising in robotics and demonstrates how the optimization techniques learnt throughout the Master allow solving them.""" ; 
@@ -951,13 +1123,17 @@ ns1:XMS3IU340 rdfs:label "Optimisation en robotique" ;
     ns1:objective """* understand the kinematic models of various serial and parallel robotic manipulators (Understanding) ;
 * describe a variety of optimization problems in robotics and identify the corresponding classes of optimization problems (Analysis) ;
 * model a variety of robotic problems as numerical constrained optimization problems and solve them using an appropriate method (Synthesis)""" ;
-    ns1:parcours "ORO, CMI-OPTIM" .
+    ns1:parcours "ORO, CMI-OPTIM" ;
+    ns1:ects 3 ;
+    ns1:hours 24 .
 
 ns1:XMS3IU350 rdfs:label "Conférences et projet intégrateur" ; 
     ns1:content """""" ; 
     ns1:level "M2" ;
     ns1:objective "" ;
-    ns1:parcours "ORO, CMI-OPTIM" .
+    ns1:parcours "ORO, CMI-OPTIM" ;
+    ns1:ects 3 ;
+    ns1:hours 24 .
 
 ns1:XMS3IU360 rdfs:label "Solveurs multi-objectifs" ; 
     ns1:content """Optimisation multi-objectif (MOO)
@@ -981,13 +1157,17 @@ Projet""" ;
     ns1:objective """• Comprendre, mettre en oeuvre, contributer aux fonctionnalités d'un solveur multi-objectif.
 • Apporter une réponse algorithmique et une solution logicielle mettant en oeuvre une métaheuristique multiobjectif.
 • Appréhender et conduire des cas d'étude.""" ;
-    ns1:parcours "ORO, CMI-OPTIM" .
+    ns1:parcours "ORO, CMI-OPTIM" ;
+    ns1:ects 3 ;
+    ns1:hours 24 .
 
 ns1:XMS3WU370 rdfs:label "Ordonnancement et planification" ; 
     ns1:content """""" ; 
     ns1:level "M2" ;
     ns1:objective "" ;
-    ns1:parcours "ORO, CMI-OPTIM" .
+    ns1:parcours "ORO, CMI-OPTIM" ;
+    ns1:ects 3 ;
+    ns1:hours 24 .
 
 ns1:XMS3WU380 rdfs:label "Transport et logistique" ; 
     ns1:content """At the end of this course, the student will be able to:
@@ -1003,10 +1183,14 @@ ns1:XMS3WU380 rdfs:label "Transport et logistique" ;
 + Meta heuristics for vehicle routing problems A
 + Solving vehicle routing problems with time windows A
 + Advanced exact methods for facility location and vehicle routing (Branch and cut, Lagrangean relaxation, column generation) I.""" ;
-    ns1:parcours "ORO, CMI-OPTIM" .
+    ns1:parcours "ORO, CMI-OPTIM" ;
+    ns1:ects 3 ;
+    ns1:hours 24 .
 
 ns1:XMS3WU390 rdfs:label "Contraintes globales" ; 
     ns1:content """""" ; 
     ns1:level "M2" ;
     ns1:objective "" ;
-    ns1:parcours "ORO, CMI-OPTIM" .
+    ns1:parcours "ORO, CMI-OPTIM" ;
+    ns1:ects 3 ;
+    ns1:hours 24 .
