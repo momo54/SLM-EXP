@@ -50,7 +50,7 @@ slm-index-faiss --txt-folder ./data/BodyOfKnowledge --faiss-dir ./XP/bok_store -
 
 Check config.bok to adjust parameter. Run the query (quite long):
 ```
-slm-run  --config config.bok  -f queries/bok-graph.sparql --debug -o ./XP/bok.result --keep-store ./XP/bok.nq 
+slm-run  --config config.bok  -f queries/bok-graph-limit1.sparql --debug -o ./XP/bok.result --keep-store ./XP/bok.nq 
 ```
 
 The same query with Constuct instead of select:
@@ -65,6 +65,6 @@ Faiss relies on  FlatIP to index with  normalisation. Score close to 1 is good, 
 
 User Interface to see SPARQLLM in action on the BOK Use-Case:
 ```
-streamlit run scripts/HOME.py
+streamlit run scripts/Home.py
 ```
 
