@@ -48,12 +48,12 @@ slm-index-faiss --txt-folder ./data/BodyOfKnowledge --faiss-dir ./XP/bok_store -
 
 # run the query to align our cursus to BOK
 
-Check config.bok to adjust parameter. Run the query (quite long):
+Check config.bok to adjust parameter. Run the query (quite fast but limit 1):
 ```
-slm-run  --config config.bok  -f queries/bok-graph.sparql --debug -o ./XP/bok.result --keep-store ./XP/bok.nq 
+slm-run  --config config.bok  -f queries/bok-graph-limit1.sparql --debug -o ./XP/bok.result --keep-store ./XP/bok.nq 
 ```
 
-The same query with Constuct instead of select:
+The same query with Constuct instead of select (long):
 ```
 slm-run --config config.bok  -f queries/bok-graph-construct.sparql --debug -o ./XP/bokc.ttl --keep-store ./XP/bokc.nq
 ```
