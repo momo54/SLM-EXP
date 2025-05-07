@@ -32,11 +32,11 @@ WHERE {
     BIND(ex:SLM-READFILE(?ku_source) AS ?ku_content)
 
     BIND(CONCAT("""
-        This first page describes the content of a lecture,
+        This first page describes the content of a course,
         the second page describes the content of a Knowledge Unit in Computer Science:
         <page1>""",STR(?course_desc), " </page1> <page2> ",STR(?ku_content),
         """</page2> 
-        Does the lecture cover a large subset of the knowledge Unit. Answer in JSN-LD only with a type  Report",
+        Does the course cover a large subset of the knowledge Unit. Answer in JSN-LD only with a type  Report",
                 "@context": "https://schema.org/",
                 "@type": "Report",
                 "http://schema.org/answer": "A",

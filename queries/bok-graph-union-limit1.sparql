@@ -1,0 +1,65 @@
+## slm-run  --config config.bok  -f queries/bok-graph.sparql --debug
+PREFIX ns1: <http://example.org/course/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX ex: <http://example.org/>
+
+SELECT DISTINCT ?s ?label ?ku_source ?score ?parcours ?ka ?ku ?answer ?explain ?answer2 ?explain2 WHERE {
+    BIND(ex:SLM-FILE("./data/courses-anon.ttl") AS ?input)
+    BIND(ex:SLM-RDF(?input,"turtle") AS ?ginput)
+    graph ?ginput {
+        {select * where    {
+            ?s ns1:content ?content .
+            ?s rdfs:label ?label .
+            ?s ns1:objective ?objective .
+            ?s ns1:parcours ?parcours .
+#            FILTER(CONTAINS(?parcours, "ALMA"))
+        } limit 1}
+    }
+    BIND(CONCAT("Label: ",STR(?label)," Objectif: ",STR(?objective),
+                " Course content: ", STR(?content)," Course name: ",STR(?s)) AS ?UE)
+    BIND(ex:SLM-SEARCH-FAISS(?UE,?s,3) AS ?retrieval_graph)
+    GRAPH ?retrieval_graph {
+        ?s ex:is_aligned_with ?bn .
+        ?bn ex:has_score ?score .
+        ?bn ex:has_source ?ku_source .
+        ?bn ex:has_chunk ?chunk .
+    }
+#    OPTIONAL {
+#        FILTER(xsd:float(?score) < 0.7)
+        BIND (REPLACE(str(?ku_source), "file://.*/([^/]+)/[^/]+\\.txt$", "$1") AS ?ka) 
+        BIND (REPLACE(str(?ku_source), "file://.*/([^/]+)/([^/]+)\\.txt$", "$2") AS ?ku)
+        BIND(ex:SLM-READFILE(?ku_source) AS ?ku_content)
+
+        BIND(CONCAT("""
+            This first page describe the content of a lecture,
+            the second page describe the content of a Knowledge Unit in Computer Science:
+            <page1>""",STR(?UE), " </page1> <page2> ",STR(?ku_content),
+            """</page2> 
+            Does the lecture cover a large subset of the knowledge Unit. Answer in JSN-LD only with a type Report",
+                 "@context": "https://schema.org/",
+                 "@type": "Report",
+                 "http://schema.org/answer": "A",
+                 "http://schema.org/explain": "B",
+            Replace A by 0 it does not cover, 1 if it cover.
+            Replace B by a very short explanation""") AS ?prompt)
+        BIND(ex:SLM-LLMGRAPH(?prompt,?s) AS ?llm_graph)
+        BIND(ex:SLM-LLMGRAPH(?prompt,?s) AS ?llm_graph2)
+
+        {
+            GRAPH ?llm_graph {
+                ?s ex:has_schema_type ?root .
+                ?root a <http://schema.org/Report>  .
+                ?root <http://schema.org/answer> ?answer .
+                ?root <http://schema.org/explain> ?explain .    
+            }
+        }
+        UNION{
+            GRAPH ?llm_graph2 {
+                ?s ex:has_schema_type ?root .
+                ?root a <http://schema.org/Report>  .
+                ?root <http://schema.org/answer> ?answer2 .
+                ?root <http://schema.org/explain> ?explain2 .    
+            }
+       }
+#    }
+} 
