@@ -24,6 +24,12 @@ virtualenv xp-env
 source xp-env/bin/activate
 pip install -r requirements.txt
 ```
+## Cloner mon répertoire Converter Notebook
+
+Pour récupérer mon outil de conversion, exécutez :
+```bash
+git clone https://github.com/Ilef-mhabrech/converter_notebook.git
+
 
 To follow SPARQLLM updates, you can update SPARQLLM with `pip install --upgrade git+https://github.com/GDD-Nantes/SPARQLLM.git` (@branch_name for a branch) 
 Sometimes, i need "pip install --no-cache-dir --force-reinstall git+https://github.com/GDD-Nantes/SPARQLLM.git"
