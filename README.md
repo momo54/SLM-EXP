@@ -32,6 +32,12 @@ virtualenv xp-env
 source xp-env/bin/activate
 pip install -r requirements.txt
 ```
+## Cloner mon répertoire Converter Notebook
+
+Pour récupérer mon outil de conversion, exécutez :
+```bash
+git clone https://github.com/Ilef-mhabrech/converter_notebook.git
+
 
 Need Ollama installed, For Linux, MacOS:
 ```
