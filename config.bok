@@ -26,6 +26,7 @@ SLM-LLMGRAPH_OLLA = SPARQLLM.udf.llmgraph_ollama.LLMGRAPH_OLLAMA
 ;SLM-LLMGRAPH_MISTRAL = SPARQLLM.udf.llmgraph_mistral.llm_graph_mistral
 ;SLM-LLMGRAPH_OPENAI = SPARQLLM.udf.llmgraph_openai.llm_graph_openai
 SLM-LLMGRAPH_GROQ = SPARQLLM.udf.llmgraph_groq.llm_graph_groq
+SLM-LLMGRAPH_GROQM = SPARQLLM.udf.llmgraph_groq.llm_graph_groq_model
 
 
 ; Parameters from User Defined Functions
@@ -52,3 +53,5 @@ SLM-OPENAI-MODEL=gpt-3.5-turbo-0125
 SLM-MISTRALAI-MODEL=ministral-8b-latest
 SLM-LLM-TEMPERATURE=0.0
 SLM-GROQ-MODEL=llama3-8b-8192
+;SLM-GROQ-MODEL=qwen-qwq-32b 
+;SLM-GROQ-MODEL=deepseek-r1-distill-llama-70b 

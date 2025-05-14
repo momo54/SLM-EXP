@@ -73,6 +73,7 @@ SELECT ?s ?label ?path ?ans ?score ?ka WHERE {{
    ?bn course:ka ?ka ;
         align:score ?score ; 
         course:answer ?ans .
+        course:ku ?ku .
    FILTER (?ans = "1" && ?score > {st.session_state["threshold"]})  
 }}"""
 

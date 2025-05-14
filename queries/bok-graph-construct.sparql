@@ -3,7 +3,7 @@ PREFIX ns1: <http://example.org/course/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX ex: <http://example.org/>
 PREFIX align: <http://align.org/>
-
+PREFIX prov: <http://provo.org/>
 
 CONSTRUCT {
     ?s align:to [
@@ -12,7 +12,10 @@ CONSTRUCT {
         ns1:ka ?ka ;
         ns1:ku ?ku ;
         ns1:answer ?answer ;
-        ns1:explain ?explain 
+        ns1:explain ?explain ;
+        prov:wasGeneratedBy [
+            prov:used ?model ;
+      ]
     ]
 } 
 #SELECT DISTINCT ?s ?label ?ku_source ?score ?parcours ?ka ?ku ?answer ?explain 
@@ -45,18 +48,29 @@ WHERE {
         BIND(ex:SLM-READFILE(?ku_source) AS ?ku_content)
 
         BIND(CONCAT("""
-            This first page describe the content of a lecture,
-            the second page describe the content of a Knowledge Unit in Computer Science:
-            <page1>""",STR(?UE), " </page1> <page2> ",STR(?ku_content),
-            """</page2> 
-            Does the lecture cover a large subset of the knowledge Unit. Answer in JSN-LD only with a type Report",
-                 "@context": "https://schema.org/",
-                 "@type": "Report",
-                 "http://schema.org/answer": "A",
-                 "http://schema.org/explain": "B",
-            Replace A by 0 it does not cover, 1 if it cover.
-            Replace B by a very short explanation""") AS ?prompt)
-        BIND(ex:SLM-LLMGRAPH(?prompt,?s) AS ?llm_graph)
+        You are a JSON-LD API. Always respond only with a valid JSON-LD object, without explanation or formatting.
+
+        The following describes the content of a lecture and a Knowledge Unit (KU) in Computer Science.
+
+        <page1>""",STR(?UE),"""</page1>
+        <page2>""",STR(?ku_content),"""</page2>
+
+        Determine whether the lecture (page1) substantially covers the knowledge described in the KU (page2).
+
+        Respond only using JSON-LD, with the following structure:
+        {
+        "@context": "http://schema.org/",
+        "@type": "Report",
+        "http://schema.org/answer": "A",
+        "http://schema.org/explain": "B"
+        }
+
+        Replace A with "1" if the lecture covers a large subset of the KU, or "0" if it does not.
+        Replace B with a **very short explanation** of your decision.
+        """) AS ?prompt)
+        BIND("qwen-qwq-32b" as ?model)
+        BIND(ex:SLM-LLMGRAPH_GROQM(?prompt,?s,?model) AS ?llm_graph)
+
         GRAPH ?llm_graph {
             ?s ex:has_schema_type ?root .
             ?root a <http://schema.org/Report>  .
