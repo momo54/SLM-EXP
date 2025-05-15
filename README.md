@@ -17,8 +17,9 @@ Index the Body of Knowledge
 
 Install SPARQLLM Globally
 
-pip install git+https://github.com/GDD-Nantes/SPARQLLM.git
-You can update SPARQLLM with pip install --upgrade git+https://github.com/GDD-Nantes/SPARQLLM.git. Sometimes, i need "pip install --no-cache-dir --force-reinstall git+https://github.com/GDD-Nantes/SPARQLLM.git"
+# Index the Body Of Knowledge 
+
+
 
 install with virtualenv (recommended):
 

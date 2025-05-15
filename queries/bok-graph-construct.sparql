@@ -29,7 +29,7 @@ WHERE {
             ?s ns1:objective ?objective .
             ?s ns1:parcours ?parcours .
 #            FILTER(CONTAINS(?parcours, "ALMA"))
-        } 
+        } # LIMIT  1 
        }
     }
     BIND(CONCAT("Label: ",STR(?label)," Objectif: ",STR(?objective),
@@ -68,7 +68,11 @@ WHERE {
         Replace A with "1" if the lecture covers a large subset of the KU, or "0" if it does not.
         Replace B with a **very short explanation** of your decision.
         """) AS ?prompt)
-        BIND("qwen-qwq-32b" as ?model)
+        VALUES ?model {
+            "llama3-8b-8192"
+            "qwen-qwq-32b" 
+            "deepseek-r1-distill-llama-70b"
+        }
         BIND(ex:SLM-LLMGRAPH_GROQM(?prompt,?s,?model) AS ?llm_graph)
 
         GRAPH ?llm_graph {
