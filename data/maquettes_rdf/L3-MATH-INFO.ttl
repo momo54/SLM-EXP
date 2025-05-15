@@ -1,0 +1,477 @@
+@prefix ns1: <http://example.org/course/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ns1:X31A060 rdfs:label "Anglais pour la communication scientifique (info)" ;
+    ns1:content """1. Développement du vocabulaire scientifique général
+2. Développement du vocabulaire scientifique de spécialité
+3. Analyse de textes scientifiques
+4. Développement de la capacité à adapter son discours à différentes situations de communication scientifique
+4. Analyse de documents audio ou vidéo
+5. Pratique de l’oral en contexte
+6. Sensibilisation au système phonologique de l’anglais pour améliorer la prise de parole des étudiant-e-s"""^^xsd:string ;
+    ns1:hours "17.0"^^xsd:float ;
+    ns1:level "Licence"^^xsd:string ;
+    ns1:objective """À l’issue de cet enseignement, l’étudiant-e sera capable de :
+1. répondre à des questions de compréhension sur un texte rédigé en anglais universitaire, que ce soit dans son domaine de spécialité ou dans un autre domaine, dans un esprit similaire à ce qui est proposé à l’épreuve de compréhension écrite de la certification IELTS Academic English.
+2. présenter à l’oral un texte issu de la presse scientifique générale dans son domaine de spécialité, replacer l’article dans son contexte et expliquer les enjeux de la recherche ou de la thématique abordée dans cet article.
+3. présenter son travail dans un anglais clair et phonologiquement approprié, en utilisant des outils de présentation adaptés et en communiquant avec un degré d’aisance et de spontanéité qui rende possible une interaction normale avec un locuteur natif, sans recours excessif aux notes."""^^xsd:string ;
+    ns1:semester "5"^^xsd:int .
+
+ns1:X31I010 rdfs:label "Etude des algorithmes" ;
+    ns1:content """Analyse de problèmes de décision : présentation des notions de décidabilité, introduction des classes de complexité P, NP et Pspace. Présentation la Karp-réduction et de problèmes NP-Dur et NP-Complets.
+Vérification de programme
+• Vérification dynamiques : aléatoire ; fonctionnelle ; structurelle
+• Vérification statique : informelle ; formelle (Hoare et Dijkstra) : correction, terminaison. Preuve et analyse en complexité temporelle de programmes itératifs et récursifs"""^^xsd:string ;
+    ns1:hours "46.0"^^xsd:float ;
+    ns1:level "Licence"^^xsd:string ;
+    ns1:objective """A l'issue du module, l'étudiant sera initié à
+- Savoir choisir choisir des techniques de réduction adaptées aux propriétés à préserver
+- Savoir classer des problèmes de décision
+- Savoir choisir les types vérifications à réaliser en fonction des programmes Il saura appliquer les concepts suivants:
+- Être capable d'écrire formellement des réductions, simples, de NP-complétude
+- Savoir choisir des propriétés à vérifier pour prouver un algorithme et pour établir sa complexité temporelle
+- Savoir écrire, pour des algorithmes simples, des preuves de correction et des preuves de complexité temporelle
+- Être capable de travailler en groupe"""^^xsd:string ;
+    ns1:semester "5"^^xsd:int .
+
+ns1:X31I020 rdfs:label "Algorithmique et Structures de données 3" ;
+    ns1:content """Programme :
+Ce module présente les structures de données   arborescentes fondamentales pour la mise en place d’une algorithmique efficace, et fait une introduction à la théorie des graphes. Les compétences acquises se situent donc au niveau de la représentation de données, de leur analyse et de la mise en place d’algorithmes.
+Contenu :
+Structures de données arborescentes
+o    monodimensionnelles : arbres binaires, arbres AVL, classes-union etc.
+o    multidimensionnelles : arbres quadtratiques (quadtrees), arbres k-d etc.
+o    analyse comparative, efficacité, limites Algorithmes gloutons
+o    principes, avantages et limites
+o    applications Algorithmique des graphes
+o    structure, propriétés, implémentations
+o    pondération, arbres recouvrants
+o    analyse temporelle et spatiale"""^^xsd:string ;
+    ns1:ects "3.0"^^xsd:float ;
+    ns1:hours "46.0"^^xsd:float ;
+    ns1:level "Licence"^^xsd:string ;
+    ns1:objective """A l’issue de cette UE, l’étudiant saura :
+•
+définir une structure de données arborescente ou de type graphe en décrivant ses propriétés (Connaissance) ;
+•
+concevoir des structures de données arborescentes ou de type graphe au moyen de structures linéaires et associatives (Analyse) ;
+•
+implémenter des algorithmes de parcours et de manipulation d’arbres (Application) ;
+•
+résoudre des problèmes simples de la théorie des graphes en employant une approche gloutonne lorsqu’elle est appropriée (Analyse) ;
+•
+calculer la complexité d'un algorithme en fonction des structures de données choisies (Synthèse) ;
+• choisir la structure de données la plus efficace pour la résolution d'un problème (Synthèse) ;"""^^xsd:string ;
+    ns1:semester "5"^^xsd:int .
+
+ns1:X31I030 rdfs:label "Langage et automates" ;
+    ns1:content """Automates finis et analyse lexicale : langages et opérations, langages rationnels, automates finis, automates finis déterministes. Équivalence des expressions rationnelles et des automates finis. Analyse lexicale, expressions rationnelles étendues.
+Grammaires formelles : classification, grammaires hors contexte, arbre de dérivation, ambiguïté, formes normales. Automates à pile et transducteurs finis.
+Analyse syntaxique : analyse ascendante et descendante avec rebroussement, méthodes tabulaires, analyse sans rebroussement : grammaires de précédence, grammaires LL(k).
+Travaux Pratiques : Lex et Yacc"""^^xsd:string ;
+    ns1:hours "46.0"^^xsd:float ;
+    ns1:level "Licence"^^xsd:string ;
+    ns1:objective """A l'issue du module, l'étudiant sera initié à
+- Savoir utiliser les logiciels flex et bison Il maîtrisera les concepts:
+- Savoir raisonner sur les langages formels
+- Savoir écrire une expression rationnelle
+- Savoir résoudre un système d'équations linéaires droites
+- Savoir si un mot correspond à une expression rationnelle
+- Savoir déterminer la classe d'une grammaire formelle dans la hiérarchie de Chomsky
+- Savoir si un mot est engendré par une grammaire rationnelle, algébrique ou contextuelle
+- Connaître les propriétés d'un automate fini
+- Savoir rendre déterministe un automate fini
+- Savoir minimaliser le nombre d'états d'un automate fini déterministe
+- Savoir si un mot est accepté par un automate fini
+- Savoir transformer une grammaire rationnelle en une expression rationnelle ou en un automate fini et inversement"""^^xsd:string ;
+    ns1:semester "5"^^xsd:int .
+
+ns1:X31M060 rdfs:label "Systèmes dynamiques" ;
+    ns1:content """Généralités sur les équations différentielles : problème de Cauchy ; théorème de Cauchy-Lipschitz (admis) ; lemme de Gronwall ; cas où la solution maximale est globale
+Partie I : systèmes différentiels linéaires
+Résolution pour tous les systèmes 2x2 homogènes à coefficients constants Partie II : systèmes différentiels autonomes
+A. système linéarisé au voisinage d’un équilibre
+B. Théorème de Lyapounov : définition ; cas d’un flot de gradient ; cas d’un système hamiltonien
+C. exemples classiques : modèle prédateurs/proies ; pendule."""^^xsd:string ;
+    ns1:hours "0.0"^^xsd:float ;
+    ns1:level "Licence"^^xsd:string ;
+    ns1:objective """Au terme de cette unité d'enseignement, l'étudiant devra :
+- appliquer le théorème de Cauchy-Lipschitz et en déduire des propriétés de la solution maximale
+- résoudre tout système différentiel linéaire homogène 2 x2 avec allure de la trajectoire et comportement en temps grand ; établir lien avec les équations différentielles linéaires scalaires d’ordre 2.
+- déterminer la nature d’un équilibre (stable asymptotiquement stable) pour un système différentiel autonome."""^^xsd:string ;
+    ns1:semester "5"^^xsd:int .
+
+ns1:X31M070 rdfs:label "Probabilités numériques" ;
+    ns1:content """Variables aléatoires discrètes :
+•
+Rappels concernant les lois classiques : uniforme, de Bernoulli, Binomiales, de Poisson, géométriques et sur les calculs d'espérances et de variances.
+•
+Couples de variables aléatoires discrètes, indépendance.
+Variables aléatoires absolument continues :
+•
+Fonction de répartition et densité.
+•
+Lois classiques : uniforme, exponentielle, Gaussienne,
+de Cauchy, Gamma (cas particulier de la loi du chi-deux).
+•
+Calculs d'espérance et de variance. Théorème de transfert.
+•
+Méthode de la fonction muette.
+•
+Couple de variables aléatoires à densité, indépendance. Convergences de variables aléatoires :
+•
+Convergence presque sure, en probabilité et en loi : définitions et implications.
+•
+Loi forte des grands nombres : énoncé et applications.
+•
+Théorème centrale limite : énoncé et applications.
+•
+Lemme de Slutsky et Delta-méthode."""^^xsd:string ;
+    ns1:hours "44.0"^^xsd:float ;
+    ns1:level "Licence"^^xsd:string ;
+    ns1:objective """Au terme de cette unité d'enseignement l'étudiant devra, en matière de variables aléatoires discrètes et continues, de vecteurs Gaussiens et de convergences :
+•
+être capable de calculer la loi, l'espérance et la variances d'une variables aléatoires discrète, potentiellement construite à l'aide d'une famille de variables aléatoires i.i.d. de loi classique.
+•
+Calculer à l'aide de la méthode de la fonction muette,
+ou bien de la fonction de répartition la loi d'une variable aléatoire absolument continue.
+•
+Utiliser la densité d'une variable aléatoire absolument continue pour calculer la probabilité d'un événement impliquant cette variable aléatoire.
+•
+Appliquer la loi forte/faible des grands nombres
+pour prouver une convergence presque sure/en probabilité
+•
+Appliquer le TCL pour prouver une convergence en loi.
+•
+Mettre en œuvre le Lemme de Slutsky pour obtenir, le cas échéant, la convergence en loi d'une suite de variables aléatoires construites en appliquant une fonction continue à une suite de couples de variables aléatoires dont la première coordonnée converge en loi et la seconde en probabilité vers une constante.
+•
+A l'aide de la Delta-méthode, prouver, le cas échéant, un TCL pour une suite de variables aléatoires obtenues en appliquant une fonction à une autre suite de variables aléatoires."""^^xsd:string ;
+    ns1:semester "5"^^xsd:int .
+
+ns1:X31T060 rdfs:label "Ouverture professionnelle - Informatique" ;
+    ns1:content """L’enseignement de cette UE est réparti comme suit :
+1. Des séances de TD permettant de travailler en mode projet sur la recherche de stage et la communication orale : méthodologie, CV, lettre de motivation, utilisation du réseau professionnel LinkedIn, de l’outil CareerCenter et certains réseaux pour les scientifiques tels que Researchgate.
+2. Des séances de TD permettant de vivre et de comprendre le fonctionnement d’une structure professionnelle. Ces séances permettront également à l’étudiant de réfléchir à son positionnement en tant que stagiaire dans un environnement professionnel.
+2h40 : TD 1 : Méthodologie de recherche de stage : réflexion sur les objectifs pour ce stage, construction des différentes étapes de la recherche, décryptage d’une offre, mise à jour des compétences, du CV et personnalisation de la lettre de motivation.
+1h20 : TD 2 : Outils de recherche de stage : CareerCenter, LinkedIn : présentation et temps pour remplir son profil.
+2h40 : TD 3 : Communication orale : les fondamentaux de la communication, le non verbal, comment construire une présentation professionnelle pour se présenter à un recruteur (pitch), adopter une posture professionnelle.
+4h00 : TD 4 : Simulations d’entretiens en sous-groupes autonomes et présentation du pitch
+(évaluation).
+4h00 : TD 5 : Les différentes structures et organisations possibles dans le monde du travail / Droits et devoirs du stagiaire.
+1h20 : TD 6 : L’après licence : en sous-groupes, argumentation de ses perspectives post-licence.
+Enseignement en distanciel
+Avant certaines séances de TD (TD1, TD2, TD3, TD5), un enseignement en distanciel sera proposé aux étudiants :
+Outils de mise en réflexion sur les objectifs du stage recherchés ;
+Documents à lire de façon à pouvoir les mettre en œuvre autour de la méthodologie de recherche de stage ;
+Power points à visionner sur les outils Career Center et LinkedIn ;
+Vidéos à visionner sur les différentes organisations et types de métiers exercés dans une organisation ;
+Quizz à réaliser sur les droits et devoirs du stagiaire."""^^xsd:string ;
+    ns1:hours "17.0"^^xsd:float ;
+    ns1:level "Licence"^^xsd:string ;
+    ns1:objective """Projet Professionnel : recherche de stage et poursuite d’études A l’issue de cette UE, l’étudiant saura :
+- optimiser sa méthodologie de recherche de stage
+- décrypter une offre de stage
+- réactualiser ses compétences et remettre son CV à jour
+- le fonctionnement des réseaux sociaux professionnels et créer son profil
+- utiliser les services de l’université pour ses recherches de stage ou d’emploi. Découverte et connaissance du monde du travail
+A l’issue de cette UE, l’étudiant aura :
+- travaillé en équipe sur les différentes structures et organisations possibles rencontrées dans le monde du travail (statut juridique, services, organigramme, taille, valeurs, partenaires..)
+- étudié une structure en particulier, en lien avec son projet professionnel
+- par le biais d’un jeu de rôle, pris conscience du rôle des différents services (RH, marketing, commercial,…) d’une structure dans le développement et le déploiement d’un projet
+- connaissance de ses droits et devoirs en tant que stagiaire et aura travaillé sur sa manière de s’intégrer et de s’adapter dans un nouveau milieu professionnel
+- connaissance de ce qu’est l’entreprenariat et des dispositifs en lien à l’université Communication
+Au terme de l’UE ‘Ouverture Professionnelle’, l’étudiant connaitra :
+- les principes fondamentaux de la communication systémique et interpersonnelle, utiles pour communiquer en milieu professionnel
+- la manière d'exprimer un message clair, précis, bienveillant, à la reformulation et à l’expression d’un feedback"""^^xsd:string ;
+    ns1:semester "5"^^xsd:int .
+
+ns1:X32A060 rdfs:label "Anglais Professionnel Informatique" ;
+    ns1:content """1. Développement du vocabulaire utilisé en anglais professionnel (vocabulaire susceptible d’être utilisé dans les tests TOEIC)
+2. Discussion des spécificités des CV aux États-Unis et en Grande-Bretagne
+3. Contenu d’une lettre de motivation
+4. Déroulement d’un entretien d’embauche
+5. Vocabulaire utilisé lors des communications téléphoniques
+6. Pratique de l’oral en contexte
+7. Sensibilisation au système phonologique de l’anglais pour améliorer la prise de parole des étudiant-e-s"""^^xsd:string ;
+    ns1:hours "17.0"^^xsd:float ;
+    ns1:level "Licence"^^xsd:string ;
+    ns1:objective """À l’issue de cet enseignement, l’étudiant-e sera capable de :
+1. réaliser un rapport dans le cadre d’un projet de groupe impliquant une mise en situation dans un contexte professionnel simulé
+2. rédiger un texte dans un anglais clair et grammaticalement approprié au contexte, dans le cadre d’un projet de groupe
+3. faire une présentation orale s’appuyant sur le travail de groupe préparé dans le rapport écrit, en s’exprimant dans un anglais clair et phonologiquement approprié et en communiquant avec un  degré d’aisance et de spontanéité qui rende possible une interaction normale avec un locuteur natif, sans recours excessif aux notes
+4. utiliser des outils de présentation adaptés à la situation de communication
+5. répondre à des questions de compréhension sur des documents audio authentiques"""^^xsd:string ;
+    ns1:semester "6"^^xsd:int .
+
+ns1:X32I010 rdfs:label "Informatique Fondamentale 2" ;
+    ns1:content """Cadres généraux de calcul
+Systèmes de transitions et automates formels : automates et transducteurs finis, automates à piles et à compteurs, machines de Turing.
+Conception formelle relationnelle des automates et des calculs. Machines d'Eilenberg. Simulation des automates.
+Calculs récursifs. Les principaux cas : langages hors contexte, sémantique des programmes logiques définis. Opérateurs continus sur les domaines partiellement ordonnés. Point fixe. Calculabilité et décidabilité
+Énumérations de Godel. Fonctions récursives.
+Problèmes non décidables. Réductions entre les problèmes. Calculs symboliques
+Lambda calcul. Sémantique opérationnelle par réduction de termes. Propriété de Church-Rosser. Sémantique fonctionnelle. Liens avec les langages fonctionnels.
+Systèmes équationnels. Sémantiques algébrique et opérationnelle. Problème de résolution. Systèmes de réécriture de termes. Problèmes de terminaison et de confluence. Ordres de calculabilité."""^^xsd:string ;
+    ns1:ects "2.0"^^xsd:float ;
+    ns1:hours "46.0"^^xsd:float ;
+    ns1:level "Licence"^^xsd:string ;
+    ns1:objective """A l'issue de ce module, l'étudiant saura:
+- connaître les propriétés des langages algébriques
+- concevoir un automate à pile à partir d'une grammaire algébrique
+- savoir démontrer qu'un langage n'est pas algébrique à l'aide du lemme d'itération
+- savoir démontrer qu'un ensemble est dénombrable / indénombrable
+- concevoir une machine de Turing qui accepte / décide un langage
+- distinguer un problème décidable d'un problème indécidable
+- comprendre la résolution de problèmes par réduction
+- comprendre la construction des fonctions et prédicats récursifs primitifs
+- savoir faire une preuve par induction
+- savoir construire des objets inductivement
+- savoir construire des termes, les manipuler, et les transformer
+- comprendre le mécanisme d'unification
+- savoir ordonner des termes"""^^xsd:string ;
+    ns1:semester "6"^^xsd:int .
+
+ns1:X32I020 rdfs:label "Programmation fonctionnelle" ;
+    ns1:content """Programme :
+•
+Les paradigmes de programmation déjà étudiés et celui de la programmation fonctionnelle
+•
+Programmation fonctionnelle pure
+•
+Expression, valeur et type
+•
+Valeur fonctionnelle (en bref : fonction)
+•
+Fonction d'ordre supérieur
+•
+Application d'une fonction (y compris application partielle)
+•
+Évaluation stricte, évaluation paresseuse
+•
+Inférence de type
+• Polymorphisme
+•
+Définition (ou liaison) : locale ou globale
+•
+Fonction anonyme
+•
+Définition inductive d'ensembles
+•
+Preuve par récurrence, preuve par induction structurelle
+•
+Définition récursive de fonctions (y compris mutuelle)
+•
+Définition de types (dont définition récursive, y compris mutuelle)
+•
+Programmation par filtrage de motifs
+•
+Preuve de terminaison et de correction d'un programme fonctionnel
+•
+Récursivité terminale
+•
+Effet de bord
+•
+Programmer en combinant paradigmes fonctionnel et impératif
+• Apprentissage d'un langage fonctionnel avec inférence de types, permettant de programmer par filtrage et de combiner ces paradigmes"""^^xsd:string ;
+    ns1:hours "46.0"^^xsd:float ;
+    ns1:level "Licence"^^xsd:string ;
+    ns1:objective """A l’issue de cette UE, l’étudiant saura :
+•
+implémenter des algorithmes, y compris de traitement de structures de données linéaires, associatives et arborescentes, selon le paradigme fonctionnel (Application) ;
+•
+concevoir et employer des fonctions d’ordre supérieure (Application) ;
+•
+employer la programmation par filtrage de motifs pour les traitements symboliques (Application) ;
+• expliquer et savoir simuler le mécanisme d’inférence de type (Compréhension) ;"""^^xsd:string ;
+    ns1:semester "6"^^xsd:int .
+
+ns1:X32I030 rdfs:label "Recherche opérationnelle" ;
+    ns1:content """Ce cours d'introduction à la Recherche Opérationnelle (RO) est composé de deux parties :
+•
+La partie dite « fondamentale » introduit les notions minimales que tout informaticien se doit de connaître : Comprendre un problème posé, le modéliser (c'est-à-dire en donner une description non- ambigüe), connaître les propriétés de ce modèle pour ensuite le résoudre à l'aide d'un solveur approprié, et enfin interpréter la solution numérique obtenue en termes concrets. Le formalisme choisi pour cette partie est la Programmation Linéaire.
+•
+La partie dite de « découverte » complète la partie fondamentale en introduisant d'autres formalismes de modélisation, d'autres problématiques, et d'autres méthodes de résolution. Cette seconde partie permet en particulier d'avoir une meilleure idée de ce qu'est la Recherche Opérationnelle.
+•
+Contenu fondamental :
+-
+Introduction à la modélisation par la programmation linéaire
+-
+Utilisation de variables continues, entières et binaires
+-
+Modélisation avancée : linéarisation de modèles en utilisant des variables binaires
+-
+Propriétés géométriques, caractérisation des solutions optimales, et résolution graphique de programmes linéaires
+-
+Résolution de programmes linéaires par l'algorithme du simplexe
+-
+Interprétation des solutions et analyse de sensibilité
+-
+Utilisation de langages de modélisation et de solveurs de programmation linéaires
+-
+Instanciation et application sur des études de cas (industrie minière, transports et logistique, ordonnancement, gestion de l'énergie, santé, planification de la production, économie et finance, télécommunication, emploi du temps...)
+•
+Contenu de découverte :
+-
+Introduction à la modélisation de problèmes d'optimisation par la théorie des graphes
+-
+Introduction à l'ordonnancement simple
+-
+Introduction à la programmation dynamique
+-
+Introduction à l'optimisation multiobjectif
+-
+Introduction aux métaheuristiques"""^^xsd:string ;
+    ns1:hours "46.0"^^xsd:float ;
+    ns1:level "Licence"^^xsd:string ;
+    ns1:objective """A l'issue de cette UE, l'étudiant devra
+- Etre capable de modéliser des programmes linéaires (variables continues et entières), et de reconnaître les principales structures de problème (structure de recette, structure de couverture, structure de mélange, structure multi-période) (A - M)
+- Etre capable d'utiliser des variables binaires pour modéliser des problèmes d'optimisation combinatoire, et de reconnaître certaines structures combinatoires (A - M)
+- Etre capable d'utiliser les principales astuces de modélisation basées sur l'utilisation de variables binaires (A - M)
+- Connaître les propriétés géométriques des programmes linéaires en variables continues, caractérisation des solutions optimales (M)
+- Etre capable de résoudre graphiquement un programme linéaire (M)
+- Connaître les notions de base, solution de base, et coût réduit en programmation linéaire en variables continues (M)
+- Etre capable d'utiliser l'algorithme du simplexe pour la résolution de programme linéaires en variables continues (A)
+- Connaître les différences entre le cas continu et le cas discret en programmation linéaire (I)
+- Introduction des principales méthodes de résolution pour la programmation linéaire en variables entières, intérêt pour d'autres formalismes de modélisation dans ce contexte (I)
+- Connaître les notions de coût dual associé à une contrainte, d'intervalle de sensibilité d'un coefficient de la fonction objectif ou d'un second membre d'une contrainte, être capable d'interpréter leur signification (I)
+- Etre capable de déterminer l'intervalle de sensibilité d'un coefficient de la fonction objectif ou d'un second membre d'une contrainte (A)
+- Etre capable de modéliser un problème d'ordonnancement simple par un graphe potentiel-tâche (A-M)
+- Connaître les notions de calendrier au plus tôt, calendrier au plus tard pour un ensemble de tâche, et la notion de marge d'une tâche dans le contexte d'un problème d'ordonnancement simple (M)
+- Etre capable de déterminer un calendrier au plus tôt, un calendrier au plus tard et les marges des tâches, dans le contexte d'un problème d'ordonnancement simple (A)
+- Introduction à la problématique de l'optimisation multi-objectif : connaissance de la notion de solution efficace, limite de l'utilisation de la somme pondérée (I)
+- Utilisation d'un langage de modélisation algébrique : comprendre la différence entre un modèle explicite et un modèle implicite (I)
+- Utilisation d'un langage de modélisation algébrique : être capable d'écrire un modèle implicite (A)
+- Utilisation d'un langage de modélisation algébrique : comprendre l'utilisation d'une structure de matrice creuse pour décrire des contraintes (I)
+- Utilisation d'un langage de modélisation algébrique : être capable d'utiliser une structure de matrice creuse pour décrire des contraintes (A)
+- Utilisation d'un langage de modélisation algébrique : être capable de détermine si le choix d'une matrice creuse est pertinent ou pas pour décrire des contraintes (A)
+- Utilisation d'un solveur MIP : comprendre l'utilisation d'un solveur MIP en tant que bibliothèque de fonction et être capable de l'utiliser pour résoudre un unique problème de programmation linéaire en variables mixtes (A)
+- Utilisation d'un solveur MIP : être capable d'implémenter un algorithme donné, en faisant des appels successifs à un solveur MIP pour résoudre un problème de programmation linéaire en variables mixtes (A)"""^^xsd:string ;
+    ns1:semester "6"^^xsd:int .
+
+ns1:X32I130 rdfs:label "Projet d'informatique scientifique" ;
+    ns1:content """Contenu du cours
+Le projet d'informatique scientifique consiste en une activité de conception et réalisation d’une solution logicielle open-source alliant mathématiques et informatique. Le thème proposé varie d'une année à l'autre et aborde un domaine de l'informatique scientifique. Les développements informatiques se feront de préférence avec le langage de programmation Julia. Le projet sera   réalisé individuellement et supervisé par un enseignant. Chaque étudiant réalisera une solution logicielle, présentera un exposé et rédigera un rapport scientifique.
+Objectifs (et/ou acquis d'apprentissages spécifiques)
+L'unité d'enseignement est composée d'un projet réalisé individuellement durant le second quadrimestre de la licence 3 sur une thématique scientifique donnée. L’objectif de ce projet est double : (1) conduire l’étudiant à utiliser un ensemble de connaissances acquises dans les diverses unités d’enseignement de licence (dont algèbre, analyse, probabilités, statistiques, analyse numérique, optimisation, recherche opérationnelle, algorithmes, programmation, logique, etc.) et
+(2) apprendre à l’étudiant à gérer un projet, surmonter les contraintes, s’attaquer à du concret.   En fonction du sujet du projet (qui varie d'une année à l'autre), ce travail couvre plusieurs activités, comme la revue des fondements théoriques (énoncé et démonstration de propriétés, théorèmes, etc., mis en œuvre), la spécification, la conception, l'implémentation, le testing, la rédaction d'une documentation. Les codes informatiques seront écrits dans le langage de programmation scientifique Julia. L’usage d’outils tel que Github sera attendu. Le projet représente un travail étudiant de 3ECTS/30h. Le travail réalisé sera présenté et fera l’objet d’un rapport.
+Pré-Requis
+Ce projet suppose acquises les notions d'algorithmique, de programmation, de mathématiques visées par les cours faisant partie du programme de licence informatique parcours maths- informatique.
+Méthodes d'enseignement
+Ce cours est donné sous forme de travaux dirigés (3 séances de 1h20 : une séance de lancement, une à mi-parcours, et une finale) et de l’encadrement du projet (30h étudiants).
+Acquis d'apprentissage spécifiques au cours
+Les compétences visées par le projet scientifique consistent d'une part en des compétences transversales et d'autre part en des compétences techniques disciplinaires spécifiques.
+Compétences transversales :
+Le projet vise à acquérir des compétences transversales proches de la pratique d’un scientifique dans un contexte disciplinaire varié :
+• analyser un système existant et le perfectionner ;
+• analyser avec sens critique des données expérimentales ;
+• faire la part des choses entre la réalité et les modèles utilisés pour la décrire ou la modifier ;
+• appréhender la notion d'incertitude dans la gestion du projet, dans sa réalisation, et dans les résultats obtenus.
+Le projet fera également la part belle au droit à l'erreur, composante caractéristique de début de carrière d'un junior confronté à une situation concrète.
+Compétences techniques disciplinaires spécifiques :
+Ce projet vise également à acquérir des compétences techniques en informatique. Au terme de ce projet, les étudiants seront capables de :
+• appliquer simultanément et de façon cohérente des connaissances et compétences acquises dans différents domaines de l'informatique et des mathématiques. Certaines de ces compétences seront acquises lors de ce projet ;
+• identifier et réaliser les différentes étapes de conception d'un logiciel ;
+• gérer le planning d'un projet informatique ;
+• comprendre l'architecture d'un logiciel pour faire des choix éclairés en vue de le modifier ou de le perfectionner ;
+• faire preuve d'esprit critique par rapport au projet ainsi qu'à ses livrables et en particulier sur la pertinence du logiciel, l'analyse et la conception du système, mais également par rapport à la gestion du planning ;
+• mettre en valeur le logiciel réalisé par une démonstration ainsi que sa distribution Open Source."""^^xsd:string ;
+    ns1:hours "4.0"^^xsd:float ;
+    ns1:level "Licence"^^xsd:string ;
+    ns1:semester "6"^^xsd:int .
+
+ns1:X32M060 rdfs:label "Optimisation" ;
+    ns1:content """•
+Rappel d'analyse vectorielle
+•
+Programmes avec contraintes
+• Lagrangien
+•
+Conditions KKT du premier ordre
+•
+Conditions du deuxième ordre (matrices bordantes)
+•
+Programmes dépendant d'un paramètre, théorème de l'enveloppe
+•
+Régularité des fonctions convexes
+•
+Programmation convexe, condition KKT
+•
+Fonctions quasi-convexes
+•
+Optima de Paretto"""^^xsd:string ;
+    ns1:hours "44.0"^^xsd:float ;
+    ns1:level "Licence"^^xsd:string ;
+    ns1:objective """Au terme de cette unité d'enseignement, l'étudiant devra :
+- analyser l'existence d'optima (compacité, coercivité)
+- définir le Lagrangien d'un problème avec contraintes
+- établir les conditions nécessaires du premier ordre
+- analyser les conditions du second ordre pour un programme sans contraintes
+- déterminer la convexité d'ensembles et de fonctions
+- résoudre des programmes convexes"""^^xsd:string ;
+    ns1:semester "6"^^xsd:int .
+
+ns1:X32M070 rdfs:label "Inférence statistique" ;
+    ns1:content """Rappels et compléments de probabilités :
+•
+Description de la loi Normale, de la loi Gamma, de la loi de Fisher, de la loi de Student, de la loi du Chi-deux.
+•
+Théorème de Fisher (admis) pour la moyenne empirique et la variance empirique modifiée d'un échantillon Gaussien.
+Estimation ponctuelle :
+•
+modèle statistique, définition d'un estimateur, de son biais, de son erreur en moyenne quadratique.
+•
+Estimateur des moments, exemples de calcul de l'estimateur des moments.
+•
+Estimateur du maximum de vraisemblance, méthode de calcul et exemples.
+•
+Comparaison sur certains exemples de l'estimateurs des moments et de l'estimateur du maximum de vraisemblance.
+•
+Modèles exponentiels : définitions et exemples. Efficacité d'un estimateur :
+•
+définition et calcul de l'information de Fisher
+•
+borne de Cramer Rao, définition d'un estimateur efficace, asymptotiquement efficace. Exemples.
+Estimation par intervalle de confiance :
+•
+définition, critère d'optimalité.
+•
+Fonction pivotale, asymptotiquement pivotale.
+•
+Construction à l'aide de la méthode du pivot d'intervalles de confiance et d'intervalles de confiance asymptotiques, exemples.
+Tests statistiques :
+•
+Hypothèses nulle et alternative, règle de décision.
+•
+Erreurs et risques de première et seconde espèce.
+•
+niveau d'un test, p-valeur.
+•
+Tests asymptotiques.
+•
+Construction d'un test statistique (asymptotique ou pas) à l'aide d'un estimateur.
+•
+Exemples de tests : sur les paramètres d'une loi normale, de comparaison des moyennes, d'indépendance, du Chi-deux."""^^xsd:string ;
+    ns1:hours "44.0"^^xsd:float ;
+    ns1:level "Licence"^^xsd:string ;
+    ns1:objective """Au terme de cette unité d'enseignement, l'étudiant devra, en matière d'estimateur, d'intervalle de confiance et de tests statistiques :
+•
+Reconnaître le modèle statistique sous-jacent à une problématique qui s'y prête. Reconnaître si ce modèle est exponentiel.
+•
+Calculer un estimateur pour un paramètre donné du modèle à l'aide de la méthode (moments ou maximum de vraisemblance) qui s'y prête le mieux. Déterminer les caractéristiques de cet estimateur et discuter son efficacité.
+•
+Déterminer un intervalle de confiance (asymptotique ou non) pour un paramètre donné du modèle, soit à l'aide d'une fonction pivotale en utilisant les connaissances acquises sur les lois classiques en probabilité, soit en reconnaissant la loi limite d'un estimateur à l'aide par exemple du TCL.
+•
+Construire un test statistique sur les paramètres du modèles et appliquer ce test numériquement."""^^xsd:string ;
+    ns1:semester "6"^^xsd:int .
+
+ns1:XLG5TU200 rdfs:label "Stage libre" ;
+    ns1:hours "0.0"^^xsd:float ;
+    ns1:level "Licence"^^xsd:string ;
+    ns1:semester "5"^^xsd:int .
+
+ns1:XLG6TU200 rdfs:label "Stage libre" ;
+    ns1:hours "0.0"^^xsd:float ;
+    ns1:level "Licence"^^xsd:string ;
+    ns1:semester "6"^^xsd:int .
+

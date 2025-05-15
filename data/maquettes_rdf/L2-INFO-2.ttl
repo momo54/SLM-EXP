@@ -1,0 +1,566 @@
+@prefix ns1: <http://example.org/course/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ns1:XLG3AU010 rdfs:label "2nd year English S3" ;
+    ns1:hours "16.0"^^xsd:float ;
+    ns1:level "Licence"^^xsd:string ;
+    ns1:semester "3"^^xsd:int .
+
+ns1:XLG3IU010 rdfs:label "Algorithmique et Structures de données 1" ;
+    ns1:content """Ce module d'algorithmique a pour objectif d'introduire les notions de de complexité et de correction pour des algorithmes itératifs ou récursifs. La notion de récursivité est abordée et mise en pratique dans l’approche de résolution de problèmes « Diviser pour régner ».
+Ces notions sont abordées dans le cadre des structures de données vues précédemment."""^^xsd:string ;
+    ns1:ects "1.0"^^xsd:float ;
+    ns1:hours "40.0"^^xsd:float ;
+    ns1:level "Licence"^^xsd:string ;
+    ns1:objective """A l’issue de cette UE, l’étudiant saura :
+•
+Comprendre l'importance d'une algorithmique efficace
+•
+Calculer le coût d’exécution en temps et en mémoire d’un algorithme (Analyse) et mesurer le coût d’exécution du programme correspondant (Application)
+•
+Utiliser les notations d'ordre de grandeur de complexité algorithmique (Analyse)
+•
+Identifier un meilleur cas et un pire cas de complexité d'un algorithme (Analyse)
+•
+Évaluer une implémentation de structure de données en temps et en place mémoire (coûts minimal, maximal, amorti)
+•
+Choisir les propriétés à vérifier pour prouver un algorithme et établir sa complexité temporelle (Analyse)
+•
+Concevoir des algorithmes récursifs
+•
+Concevoir des algorithmes utilisant le principe algorithmique « Diviser pour régner »."""^^xsd:string ;
+    ns1:semester "3"^^xsd:int .
+
+ns1:XLG3IU020 rdfs:label "Logique pour l'informatique" ;
+    ns1:content """1) Raisonnement algébrique booléen
+• Dualités des connecteurs logiques
+•   Formes normales conjonctive et disjonctive
+2) Systèmes de preuves
+•   Système d'inférence associé à une définition inductive
+• Preuve d'appartenance à un ensemble inductif par un arbre de preuves
+• Règles d'inférences de la déduction naturelle pour la logique propositionnelle
+• Distinguer logique classique et logique intuitionniste
+3) Donner du sens aux langages logique
+• Interprétation, modèle, satisfiabilité, validité
+• Correspondance avec le système de preuve: correction et complétude
+4) Calcul des prédicats
+• Manipulation des quantificateurs
+• Skolémisation, forme clausale
+• Théorie logique
+5) Raisonner automatiquement sur les formules logique
+• Algorithme d'unification
+• Algorithme de résolution"""^^xsd:string ;
+    ns1:hours "40.0"^^xsd:float ;
+    ns1:level "Licence"^^xsd:string ;
+    ns1:objective """1. Appliquer les lois de De Morgan à des expressions booléennes pour les transformer en formes normales conjonctives ou disjonctives.
+2. Manipuler des quantificateurs et transformer des expressions en formes clausales et de Skolem.
+3. Distinguer la logique classique de la logique intuitionniste et comprendre les notions de consistance et complétude d'un système de preuves.
+4. Représenter une preuve de la déduction naturelle sous forme d'arbre d'inférence.
+5. Utiliser les algorithmes d'unification et de résolution pour le raisonnement automatique sur les formules logiques."""^^xsd:string ;
+    ns1:semester "3"^^xsd:int .
+
+ns1:XLG3IU030 rdfs:label "Programmation à Objets" ;
+    ns1:content """Classe, objet, méthode, encapsulation Composition
+Héritage et polymorphisme Classes abstraites
+Gestion des erreurs et exceptions Généricité et collections"""^^xsd:string ;
+    ns1:hours "40.0"^^xsd:float ;
+    ns1:level "Licence"^^xsd:string ;
+    ns1:objective """Comprendre les principes d’abstraction et d’encapsulation Savoir instancier une classe et utiliser ses instances
+Comprendre les notions d’interface et d’implémentation d’une classe
+Être capable de mettre des classes en relation pour construire des objets complexes Connaître les mécanismes d’héritage et de polymorphisme
+Savoir gérer les erreurs au moyen d’exceptions
+Être capable de concevoir une petite application à partir d’un cahier des charges Être en mesure d’écrire du code lisible et réutilisable
+Connaître un langage de programmation à objets"""^^xsd:string ;
+    ns1:semester "3"^^xsd:int .
+
+ns1:XLG3IU040 rdfs:label "Bases de données 2" ;
+    ns1:content """1.
+Rappel conception EA et modèle relationnel 2.
+Contraintes d’intégrité et référentielles. 3.
+Requêtes complexes (différents types de jointures, opérateurs d’agrégation, requêtes imbriquées) 4.
+Vues et contrôle d’accès 5.
+Programmation de bases de données (procédures et fonctions) 6.
+Déclencheurs 7.
+Projet à développer en équipe"""^^xsd:string ;
+    ns1:ects "2.0"^^xsd:float ;
+    ns1:hours "40.0"^^xsd:float ;
+    ns1:level "Licence"^^xsd:string ;
+    ns1:objective """A l'issue du module l'étudiant saura :□
+•
+Concevoir des requêtes SQL avancées (jointures externes et semi-jointures, Group By, sous- requêtes, requêtes synchronisées).
+•
+Identifier et concevoir des contraintes d’intégrité complexes sur une base de données.
+•
+Programmer en un langage procédurale lié à une base de données, par exemple PL/SQL ou PL/pgSQL.
+•
+Concevoir et appliquer les déclencheurs.
+•
+Intégrer un contrôle d’accès basique à une base de données.□
+•
+Définir et concevoir des vues."""^^xsd:string ;
+    ns1:semester "3"^^xsd:int .
+
+ns1:XLG3MU050 rdfs:label "Introduction aux probabilités" ;
+    ns1:content """Notions de base en probabilités :
+•
+Définitions de probabilité, événements, espace échantillonnal
+•
+Opérations ensemblistes sur les événements
+•
+Probabilités discrètes :
+•
+Variables aléatoires discrètes
+•
+Distributions Uniforme et de Bernoulli
+•
+Fonction de masse
+•
+Espérance, variance et écart-type
+•
+Générateur pseudo-aléatoire uniforme et de Bernoulli Probabilités conditionnelles :
+•
+Indépendance d'événements
+•
+Définition et calcul de la probabilité conditionnelle
+•
+Théorème des probabilités totales
+•
+Formule de Bayes
+•
+Applications et illustrations de la formule de Bayes Algorithmes probabilistes :
+•
+Algorithmes de Monte-Carlo et distribution binomiale
+•
+Algorithmes de Las-Vegas et distribution géométrique Variables aléatoires continues et loi des grands nombres :
+•
+Densité de probabilité
+•
+Distribution normale
+•
+Convergence en probabilité.
+•
+Énoncé et signification du TCL."""^^xsd:string ;
+    ns1:hours "40.0"^^xsd:float ;
+    ns1:level "Licence"^^xsd:string ;
+    ns1:objective """À la fin de ce cours, un étudiant doit être capable de :
+•
+Manier les distributions de probabilité classiques.
+•
+Calculer la probabilité d'un événement en le décomposant suivant un système exhaustif d'événements.
+•
+Calculer la probabilité conditionnelle d'un événement en utilisant la formule de Bayes
+•
+Modéliser un algorithme probabiliste en utilisant les distributions de probabilité adaptées.
+•
+Calculer et évaluer des mesures de probabilité (espérance, variance, écart-type) dans le cadre de ce modèle.
+•
+Calculer des approximations de mesures de probabilité sur ce modèle en utilisant la loi des grands nombres."""^^xsd:string ;
+    ns1:semester "3"^^xsd:int .
+
+ns1:XLG3TU010 rdfs:label "Methodologie et insertion professionnelle S3" ;
+    ns1:hours "4.0"^^xsd:float ;
+    ns1:level "Licence"^^xsd:string ;
+    ns1:semester "3"^^xsd:int .
+
+ns1:XLG3TU020 rdfs:label "Enjeux de la transition écologique" ;
+    ns1:content """Les objectifs de l’UE, en accord avec les missions confiées au service public de l’Enseignement Supérieur pour "contribuer à la sensibilisation et à la formation aux enjeux de la transition écologique" (Plan Climat Biodiversité Transition Ecologique du MESR, novembre 2022) et en accord avec la vision de la nouvelle offre de formation de Nantes Université, seront pour l’étudiant de :
+• s'approprier les enjeux de la transition écologique en intégrant les problématiques de changement climatique et d'érosion de la biodiversité ;
+• identifier les leviers d'action de la transition écologique en tenant compte de sa complexité au travers d'une diversité de disciplines (droit, géologie, sciences de la terre, sciences de la vie...) Pour développer de réelles compétences interdisciplinaires sur les enjeux de la transition écologique, l’enseignement se déclinera autour de ressources en ligne et d’activités en présentiel. Programme des séances en présentiel :
+• TD introductif (1h20) : explicitation de l’organisation de l’UE + test d'autopositionnement
+• TD de fin de module (3*1h20) : programme de spécialisation, spécifique à la discipline de chaque parcours.
+Programme des 9 séances en ligne (d’environ 1h30 de travail chacune) :
+Partie I : Causes anthropiques des changements globaux
+• SEANCE 1 : La Terre, fragile berceau de l'humanité
+• SEANCE 2 : Organisation des sociétés humaines face au défi environnemental
+• SEANCE 3 : Consommation, production et pollutions Partie II : Erosion de la biodiversité
+• SEANCE 4 : La biodiversité : une histoire de relations mais aussi des menaces
+• SEANCE 5 : La biodiversité : son évolution face aux pressions Partie III : Le changement climatique
+• SEANCE 6 : Le système climatique et les moyens pour comprendre ses évolutions
+• SEANCE 7 : Le changement climatique et ses impacts Partie IV : Comment répondre aux changements globaux ?
+• SEANCE 8 : S’adapter au réchauffement climatique
+• SEANCE 9 : Agir contre le réchauffement climatique et l’érosion de la biodiversité"""^^xsd:string ;
+    ns1:hours "18.0"^^xsd:float ;
+    ns1:level "Licence"^^xsd:string ;
+    ns1:objective """A l’issue de l’UE, l’étudiant sera capable de tenir une discussion argumentée sur les enjeux de la Transition Ecologique.
+Plus précisément, partie par partie :
+Partie 1 - L'Anthropocène
+• Décrire l’histoire du climat terrestre et les changements globaux qu’ont causés nos sociétés.
+• Analyser les mécanismes économiques, juridiques et de consommation énergétique. Partie 2 - L’Érosion de la biodiversité
+• Distinguer toutes les facettes de la biodiversité, les services qu’elle rend et les menaces que nous faisons peser sur elle.
+• Identifier les méthodes d’analyse de l’érosion et son interaction avec le climat. Partie 3 - Le Changement climatique
+• Identifier les raisons pour lesquelles la Terre se réchauffe et comment le climat est modélisé.
+• Identifier certains scénarios pour l’avenir et les impacts qu’ils auront sur nos conditions de vie.
+• Décrire le fonctionnement du GIEC.
+Partie 4 - Répondre aux changements globaux
+• Identifier les pistes d’action pour induire les changements ;
+• Identifier la complexité des transformations de société et de gouvernance que suppose l’adaptation aux changements globaux.
+• Reconnaître la notion d’une « transition écologique juste » qui soit l’occasion de réduire les inégalités."""^^xsd:string ;
+    ns1:semester "3"^^xsd:int .
+
+ns1:XLG3TU030 rdfs:label "Stage libre" ;
+    ns1:hours "0.0"^^xsd:float ;
+    ns1:level "Licence"^^xsd:string ;
+    ns1:semester "3"^^xsd:int .
+
+ns1:XLG3TU040 rdfs:label "Connaissance de l'entreprise" ;
+    ns1:content """ntroduction
+Approche comptable et financière de l’entreprise Approche juridique de l’entreprise
+Approche économique de l’entreprise Pilotage stratégique de l’entreprise Conclusion"""^^xsd:string ;
+    ns1:hours "36.0"^^xsd:float ;
+    ns1:level "Licence"^^xsd:string ;
+    ns1:objective """Identifier et caractériser les statuts juridiques possibles pour une entreprise. Appréhender les différentes dimensions de la valeur et la problématique de sa mesure.
+Identifier les rôles des parties prenantes dans la création et le partage de la valeur ( profit, valeur ajoutée, valeur sociale =RSE, développement durable…) pour appréhender le dépassement de l'objectif de profit à court terme.
+Décoder l’environnement concurrentiel d’une entreprise
+Décrire les acteurs du système macro-économique (entreprises, ménages, administrations publiques, institutions financières, associations sans but lucratif…) et leurs relations (pour situer l’entreprise dans son environnement)
+Expliquer la signification et les limites des agrégats et des indices fondamentaux de l'économie (PIB, taux de chômage…).
+Décrire le rôle des pouvoirs publics dans le système économique national dans un contexte international, identification et caractérisation des grandes crises.
+Caractériser et identifier les stratégies génériques.
+Réaliser un diagnostic stratégique à l'aide des outils classiques. Caractériser une entreprise sur la base des typologies courantes."""^^xsd:string ;
+    ns1:semester "3"^^xsd:int .
+
+ns1:XLG4AU010 rdfs:label "2nd year English S4" ;
+    ns1:hours "16.0"^^xsd:float ;
+    ns1:level "Licence"^^xsd:string ;
+    ns1:semester "4"^^xsd:int .
+
+ns1:XLG4IU010 rdfs:label "Algorithmique et Structures de données 2" ;
+    ns1:content """Structures de données abstraites / concrètes Structures de données linéaires (listes, piles, files)
+Structures de données non-linéaires associatives (table associative, ensemble, classe-union) Structures arborescentes en lien avec des implémentations linéaires (file avec priorité, tas, classe- union)"""^^xsd:string ;
+    ns1:ects "2.0"^^xsd:float ;
+    ns1:hours "40.0"^^xsd:float ;
+    ns1:level "Licence"^^xsd:string ;
+    ns1:objective """Comprendre les notions de structures de données abstraites et concrètes
+Savoir utiliser et implémenter les structures de données linéaires classiques (liste, pile, file) Être capable de choisir une structure de données linéaire classique adaptée à un problème Être capable de concevoir et d'implémenter une structure de données linéaire ad-hoc pour un problème
+Connaître les algorithmes classiques de parcours, recherche et tri sur différentes structures de données (itératifs et récursifs)
+Savoir utiliser et implémenter les structures non-linéaires associatives simples (table associative, ensembles, structures classe-union par tableau)
+Etudier, compléter, utiliser une spécification formelle d’une structure de données ou d’une fonction Étudier de premières structures arborescentes en lien avec des implémentations linéaires (tas, classe-union)"""^^xsd:string ;
+    ns1:semester "4"^^xsd:int .
+
+ns1:XLG4IU020 rdfs:label "Langages et automates" ;
+    ns1:content """• Monoïde des mots
+• Langages rationnels
+- Expressions régulières
+- Automate fini
+- Langage reconnu par un automate fini
+- Déterminisation et minimisation d'un automate fini
+- Lemme d’Arden
+- Lemme de l’Étoile
+• Langages algébriques
+- Grammaire algébrique
+- Arbre de dérivation
+- Automates à pile
+• Hiérarchie de Chomsky
+- Classification des grammaires;
+- Algorithmes de reconnaissance pour les grammaires de type 1 et 2
+• Analyse lexicale et syntaxique
+- TP de flex et bison"""^^xsd:string ;
+    ns1:hours "40.0"^^xsd:float ;
+    ns1:level "Licence"^^xsd:string ;
+    ns1:objective """À la fin de ce cours, un étudiant doit être capable de :
+1.
+Utiliser les logiciels flex et bison 2.
+Écrire une expression rationnelle 3.
+Résoudre un système d'équations linéaires à droite 4.
+Déterminer si un mot donné est reconnu par un automate fini ou un automate à pile 5.
+Déterminer la classe d'une grammaire formelle dans la hiérarchie de Chomsky 6.
+Savoir si un mot est engendré par une grammaire rationnelle, algébrique ou contextuelle 7.
+Minimaliser et déterminiser un automate fini 8.
+Transformer une grammaire rationnelle en une expression rationnelle ou en un automate fini et inversement"""^^xsd:string ;
+    ns1:semester "4"^^xsd:int .
+
+ns1:XLG4IU030 rdfs:label "Systèmes d'exploitation" ;
+    ns1:content "Ce module présente les éléments fondamentaux qui composent un système d'exploitation (processus, entrées/sorties, mémoire, fichiers, etc.). Les problématiques de gestion de ces éléments par le système d'exploitation y sont exposées : comment les processus se partagent-ils l'accès au processeur ? Comment se synchronisent-ils et quels mécanismes leur permettent d'échanger des données ? Comment sont gérés la mémoire et les entrées/sorties ?"^^xsd:string ;
+    ns1:hours "40.0"^^xsd:float ;
+    ns1:level "Licence"^^xsd:string ;
+    ns1:objective """A l'issue de ce cours, l'étudiant doit:
+• Connaître parfaitement les concepts de base d'un système d'exploitation, leur principe de fonctionnement et leur organisation d'ensemble (Maîtrise)
+• Maîtriser les notions de processus et threads (Application)
+• Comprendre les enjeux liés à la programmation concurrente : mécanismes de base pour la synchronisation/communication (Application)
+• Etre capable d'utiliser les mécanismes de synchronisation usuels sous Linux (sémaphores, mutexes, signaux) (Application)
+• Comprendre le principe de mémoire virtuelle (Initiation)
+• Savoir gérer les entrées/sorties sous Linux (Initiation)"""^^xsd:string ;
+    ns1:semester "4"^^xsd:int .
+
+ns1:XLG4IU050 rdfs:label "Développement web client" ;
+    ns1:content """Présentation des principes du développement web, des technologies HTML, Javascript, CSS, ainsi que WebAssembler ;
+approfondir les connaissances dans le langage TypeScript, déjà vu en L1
+présenter un framework de développement web écrit en TypeScript, comme Angular ou Vue."""^^xsd:string ;
+    ns1:hours "40.0"^^xsd:float ;
+    ns1:level "Licence"^^xsd:string ;
+    ns1:semester "4"^^xsd:int .
+
+ns1:XLG4IU060 rdfs:label "Création numérique" ;
+    ns1:content """Les étudiants expérimenteront les principaux formats compris par les outils de création. Les différents paradigmes de programmation en liaison avec la création numérique (impératif, événementiel, émergeant à base de règles, etc.) seront expliqués et testés.
+Parmi les notions enseignées, se trouvent :
+- principaux supports de création numérique et limitations associées (bitmap,vectoriel, 2D, 3D, découpes, impressions, machine outils numériques,etc.);
+- principaux formats compris par les outils de création et les conséquences sur la création;
+- paradigmes de création numérique (impératif, événementiel, émergeant, etc.);"""^^xsd:string ;
+    ns1:hours "32.0"^^xsd:float ;
+    ns1:level "Licence"^^xsd:string ;
+    ns1:objective """L’objectif de cet enseignement   est de donner les notions de base liées aux processus de création numérique.
+Chaque étudiant pourra à l’issue de ce cours :
+- décrire les limitations et possibilités des différents supports de création numérique ZD et 3D (Connaissance) ;
+- lister les principaux formats compris par les outils de création (Connaissance) ;
+- estimer les conséquences de choix de format sur la création (Analyse) ;
+- décrire les principaux paradigmes de création numérique (connaissance) ;
+- programmer une application de création numérique répondant à un cahier des charges (Application) ;
+- concevoir un algorithme engendrant une création dans un format imposé (Application) ;"""^^xsd:string ;
+    ns1:semester "4"^^xsd:int .
+
+ns1:XLG4IU070 rdfs:label "Simulation de gestion" ;
+    ns1:content """Cours de marketing
+Simulation de la gestion ou jeu d’entreprise   sur plusieurs exercices d’une entreprise dans un milieu concurrentiel   avec un focus sur les décisions de marketing."""^^xsd:string ;
+    ns1:hours "32.0"^^xsd:float ;
+    ns1:level "Licence"^^xsd:string ;
+    ns1:objective """• Comprendre sans effort pratiquement tout ce qui est lu ou entendu
+• Pouvoir utiliser des faits et des arguments issus de diverses sources écrites et orales pour proposer à l’écrit comme à l’oral des réponses argumentées en mobilisation des chaînes de causes- conséquences.
+•   Pouvoir s’exprimer spontanément, très couramment, de façon précise et rendre distinctes de fines nuances de sens en rapport avec les sujets abordés.
+• Être capable de raisonner par soi-même."""^^xsd:string ;
+    ns1:semester "4"^^xsd:int .
+
+ns1:XLG4MU060 rdfs:label "Algèbre linéaire" ;
+    ns1:content """•
+Calcul matriciel
+•
+Résolution de système linéaire à l’aide de la factorisation LU ou Cholesky
+•
+Espace vectoriel,   sous-espace, bases, dimension, déterminant
+•
+Espace euclidien,   projection, symétrie, rotation (transformation orthogonale),   orthogonalisation (Gram-Schmidt), factorisation QR
+•
+Méthodes des moindres carrés
+•
+Décomposition en valeurs singulières, vecteur propre, valeur propre."""^^xsd:string ;
+    ns1:hours "40.0"^^xsd:float ;
+    ns1:level "Licence"^^xsd:string ;
+    ns1:objective """À l’issue de ce module l’étudiant saura :
+•
+Effectuer les opérations algébriques avec des matrices
+•
+Appliquer un algorithme adéquat pour résoudre un système linéaire
+•
+Trouver les vecteurs et valeurs propres d’une matrice 3x3
+•
+Résoudre un problème de moindres carrés"""^^xsd:string ;
+    ns1:semester "4"^^xsd:int .
+
+ns1:XLG4TE011 rdfs:label "Methodologie et insertion professionnelle : PPE 1" ;
+    ns1:content """Les différentes séances se déroulent comme suit sur les deux semestres : Sur le premier semestre :
+- 3 TD :
+- créer et animer son profil numérique professionnel
+- préparation à l'enquête métier (identifier son réseau, utiliser des outils de réseaux numériques professionnels, l'interview et les questions liées)
+- présentation orale de la restitution de l'enquête et des recherches sur le métier
+- équivalent de 8 TD + présentation orale des enquêtes:
+- identication de ses valeurs
+- indentification de ses compétences
+- consrtruction de son projet professionnel et personnel
+- présentation de son projet"""^^xsd:string ;
+    ns1:hours "10.0"^^xsd:float ;
+    ns1:objective """A l'issu du cours, l'étudiant sera capable :
+- d'identifier ses caractéristiques personnelles, ses valeurs et ses compétences (disciplinaires et soft skills)
+- de présenter son projet professionnel et personnel en argumentant de ses atouts (savoir, savoir- faire et savoir-être) et d'un plan d'actions sur les prochaines années : à l'écrit et à l'oral
+- d'identitier et d'animer son réseau (professionnel et élargi)
+- de créer et de faire vivre ses profils numériques professionnels
+- de mener une enquête métier auprès d'un professionnel et de la restituer"""^^xsd:string .
+
+ns1:XLG4TE012 rdfs:label "Methodologie et insertion professionnelle : PPE 2" ;
+    ns1:content """Les différentes séances se déroulent comme suit sur les deux semestres : Sur le premier semestre :
+- 3 TD :
+- créer et animer son profil numérique professionnel
+- préparation à l'enquête métier (identifier son réseau, utiliser des outils de réseaux numériques professionnels, l'interview et les questions liées)
+- présentation orale de la restitution de l'enquête et des recherches sur le métier
+- équivalent de 8 TD + présentation orale des enquêtes:
+- identication de ses valeurs
+- indentification de ses compétences
+- consrtruction de son projet professionnel et personnel
+- présentation de son projet"""^^xsd:string ;
+    ns1:hours "0.0"^^xsd:float ;
+    ns1:objective """A l'issu du cours, l'étudiant sera capable :
+- d'identifier ses caractéristiques personnelles, ses valeurs et ses compétences (disciplinaires et soft skills)
+- de présenter son projet professionnel et personnel en argumentant de ses atouts (savoir, savoir- faire et savoir-être) et d'un plan d'actions sur les prochaines années : à l'écrit et à l'oral
+- d'identitier et d'animer son réseau (professionnel et élargi)
+- de créer et de faire vivre ses profils numériques professionnels
+- de mener une enquête métier auprès d'un professionnel et de la restituer"""^^xsd:string .
+
+ns1:XLG4TE020 rdfs:label "UED" ;
+    ns1:hours "16.0"^^xsd:float .
+
+ns1:XLG4TE101 rdfs:label "Sport" ;
+    ns1:content "8 séances de 2h. 8 activités proposées : Aviron, Badminton, Boxe française, Condition Physique, Escalade, Self défense, Volleyball,   VTT"^^xsd:string ;
+    ns1:hours "0.0"^^xsd:float ;
+    ns1:objective """Développer chez les étudiants (tes), au travers l’acquisition de compétences individuelles et collectives dans différentes activités sportives, leur capacité d’investissement et de progrès, leur capacité de travail en équipe. Les amener à prendre conscience de la nécessité de santé et de bien être au travers de pratiques sportives.
+Domaine de compétences identifiables par des industriels : Travail d’équipe, prise de responsabilité, tolérance, respect des règles, assiduité."""^^xsd:string .
+
+ns1:XLG4TE102 rdfs:label "Danse et maths" ;
+    ns1:content """Notre but, créer un lien entre deux mondes assez hermétiques l’un à l’autre d’habitude.  L’un des thèmes retenu pour orienter les travaux du groupe: comment la création nait de la contrainte (se fixer des règles précises n’empêche pas de voir surgir l’inattendu). Ou encore comment la contrainte peut être (ou même est) la source de la créativité.
+Une autre piste d’interaction : Rythme et quasi-périodicité deux façons différentes de parler de la même chose.
+L’idée est de rendre tout cela perceptible avec des mises en situation très concrètes et ludiques à base de mouvements simples (pas besoin d’être danseur!).
+Concrètement, l’UED se déroulera sous la forme de quatre ateliers de 4h encadrés par A. Arbeit et B. Grébert.
+Cette UED s’insère dans un projet plus général soutenu par la DCI (direction de la culture et des initiatives de Nantes Université), la MMO (Maison des Mathématiques de l’Ouest), le TU (Théatre Universitaire) et de la DRAC (Direction Régionale des Affaires Culturelles)."""^^xsd:string ;
+    ns1:hours "0.0"^^xsd:float ;
+    ns1:objective "Capacité à utiliser les mathématiques hors du cadre académique. Créativité et   expression corporelle."^^xsd:string .
+
+ns1:XLG4TE103 rdfs:label "L'environnement est ma santé" ;
+    ns1:content """12h de CM – autour des thématiques très actuelles suivante :
+•
+Le concept « one health », une seule santé
+•
+Les 1000 premiers jours de la vie
+•
+Microbiotes et santé
+•
+Chrononutrition et jeûne intermittent
+•
+Quand le cœur lâche
+•
+Dopage, sports extrêmes et risques en santé
+•
+Intelligence artificielle et santé du futur
+•
+Effets de l’environnement sur l’homme et la femme -
+•
+Perturbateurs endocriniens et fertilité
+4h de TP – activités de vulgarisation scientifique au choix :
+A partir de l’analyse critique de documents, de recherches bibliographiques, un travail de groupe sera demandé afin de créer un support médiatique tel que :
+•
+Un article de vulgarisation scientifique autour d’un sujet choisi (publication dans un média local),
+•
+Une affiche ou poster de prévention et/ou de sensibilisation sur un facteur de risque environnemental pour la santé
+•
+Une capsule vidéo de présentation/prévention d’un risque environnemental pour la santé"""^^xsd:string ;
+    ns1:hours "0.0"^^xsd:float ;
+    ns1:objective """Au terme de cette UE, l’étudiant(e) sera capable :
+•
+d’identifier et d’expliquer l’interconnexion entre la santé humaine, animale et les facteurs environnementaux,
+•
+de développer une compréhension approfondie des problèmes environnementaux contemporains et de leurs impacts sur la santé humaine,
+•
+d’intégrer des notions issues de différents champs disciplinaires au service d’un objectif, la santé humaine,
+•
+d’identifier et d’évaluer les risques environnementaux pour prévenir les maladies et préserver son capital santé et celui de sa communauté,
+•
+de mener des recherches bibliographiques sur les liens entre environnement et effets sur la santé, d’analyser des données de la littérature et de proposer des conclusions réfléchies,
+•
+d’imaginer des stratégies d'atténuation des risques environnementaux pour la prévention de la santé humaine et animale,
+•
+de travailler en équipe afin de produire un support de diffusion scientifique de vulgarisation auprès d’une large communauté (article de presse, vidéo, affiche de sensibilisation/prévention, flyer etc…) en analysant et en citant les sources."""^^xsd:string .
+
+ns1:XLG4TE104 rdfs:label "Science, culture, société" ;
+    ns1:content "Paradigmes scientifiques et images du monde. La TSF et ses techniques. L’émergence de la relativité. Einstein et la relativité générale. L’âge des machines : Taylorisme, Fordisme. Les  critiques de la société technologique. La mécanique quantique. La radiodiffusion. La science à grande échelle. Les techniques de la 2de guerre mondiale. La conquête spatiale et la Guerre Froide. La théorie des jeux et les modèles de la rationalité. La maîtrise des systèmes complexes. Les sciences du climat et le rechauffement climatique anthropogène."^^xsd:string ;
+    ns1:hours "0.0"^^xsd:float ;
+    ns1:objective """Développer les méthodes d’analyse qui permettent de comprendre le rôle des sciences et des techniques dans la construction de l’image du monde à l’époque contemporaine (XXe-XXIe siècle).
+Domaine de compétences identifiables par des industriels : Analyse critique de documents"""^^xsd:string .
+
+ns1:XLG4TE105 rdfs:label "Techniques d’imagerie de l’infiniment petit" ;
+    ns1:content """1. Ordres de grandeurs de la matière
+2. Les divers rayonnements, domaines d’énergie et interactions avec la matière
+3. Pourquoi regarder l’infiniment petit ? Que peut-on imager ? Quelles informations peut-on obtenir ?
+4. Microscopies optiques
+5. Microscopies électroniques (MEB, MET, tomographie et analyses EDX, EELS)
+6. Microscopies en champ proche (AFM)
+7. Préparation des échantillons pour l’observation
+8. Stockage et traitement informatique des données"""^^xsd:string ;
+    ns1:hours "0.0"^^xsd:float .
+
+ns1:XLG4TE106 rdfs:label "Présentation de l'UFR Sciences et Techniques" ;
+    ns1:content """Formation à la construction d’un bilan personnel de formation initiale Formation à l’élaboration d’un diaporama de présentation collectif
+Formation à la prise de parole en groupe et à l’animation d’une séance de présentation dans les lycées."""^^xsd:string ;
+    ns1:hours "0.0"^^xsd:float ;
+    ns1:objective """Permettre aux étudiants de participer aux actions de présentation de l’UFR sciences à destination des lycéens : séance de présentation de leur parcours post bac dans un lycée, Université à l’Essai, forums, JPO, …
+Domaine de compétences identifiables par des industriels : communication Prise de parole en public
+Construction d’un diaporama en groupe"""^^xsd:string .
+
+ns1:XLG4TE107 rdfs:label "Publication scientifique et mécaniques du livre" ;
+    ns1:hours "0.0"^^xsd:float .
+
+ns1:XLG4TE108 rdfs:label "Controverses scient. et techniques dans l’histoire" ;
+    ns1:content """Cette unité d’enseignement est centrée sur l’étude de controverses scientifiques et techniques. L’analyse des controverses est en effet un objet privilégié de l’histoire des sciences depuis les années 1980, leur étude étant vue comme une possibilité de saisir les processus de fabrication des sciences et des techniques. Elle permet d’historiciser des notions comme celles de progrès, de vérité, de preuve ou encore de rigueur et de révéler des acteurs, des arguments, des processus qui demeurent dissimulés dans les énoncés finaux. Voici quelques exemples qui pourront être analysés au cours de cet enseignement :
+-   Controverses énergétiques au cours de l’histoire □
+-   La formation des chaînes de montagne de l’Antiquité au XXe siècle □
+-   Controverses autour de questions de nombres au XVIIe siècle
+□- Inoculation et vaccination aux XVIIIe et XIXe siècles"""^^xsd:string ;
+    ns1:hours "0.0"^^xsd:float ;
+    ns1:objective """Initiation aux méthodes de l’histoire des sciences
+Réflexion sur les sciences, leurs méthodes et leur place de la société Domaine de compétences identifiables par des industriels :
+Analyse critique de documents"""^^xsd:string .
+
+ns1:XLG4TE109 rdfs:label "Noyaux, particules & interactions fondamentales" ;
+    ns1:content """Modèle Standard et constituants élémentaires, Noyaux, Interactions fondamentales Désintégrations nucléaires (alpha, cluster, 2p), modèle de la goutte liquide Barrières de potentiel, Fusion, fission, noyaux superlourds
+Radioactivités et neutrinos Oscillation de neutrinos Plasma de quarks et de gluons
+Physique médicale, Cyclotron Arronax Energie nucléaire, réacteurs"""^^xsd:string ;
+    ns1:hours "0.0"^^xsd:float ;
+    ns1:objective "Dans cette UE, l’objectif est d’aborder des premières connaissances du monde subatomique : les noyaux, les particules élémentaires, les interactions fondamentales. On en profitera pour présenter l’actualité des recherches dans le domaine subatomique."^^xsd:string .
+
+ns1:XLG4TE110 rdfs:label "Découverte de l'école primaire" ;
+    ns1:content """Programme - Contenu de l'UE :
+découverte de la spécificité de l’école primaire de la maternelle au cycle 3 initiation à la didactique des mathématiques
+initiation à la didactique du français (dire lire écrire du Cycle 1 au Cycle 3) initiation aux théories de l’enseignement apprentissage
+analyse de situations d’enseignement apprentissage"""^^xsd:string ;
+    ns1:hours "0.0"^^xsd:float ;
+    ns1:objective """A l’issue de cet enseignement, l’étudiant sera capable :
+- d’appréhender la différence entre faire apprendre et enseigner
+- de commencer à analyser une situation   de classe en tenant compte des apports de la recherche en didactique et du cadre institutionnel."""^^xsd:string .
+
+ns1:XLG4TE111 rdfs:label "Rédaction de doc. scientifiques avec LaTex" ;
+    ns1:content """Les logiciels de traitement de texte grand public présentent des défauts dès qu’on souhaite écrire des documents avec des formules scientifiques dans une présentation cohérente et esthétique. Le logiciel LaTeX remédie à ces problèmes mais sa prise en main semble un peu moins intuitive. Le but de cette UED sera d’apprendre à le connaître et l’utiliser pour concevoir des documents de  meilleure qualité et avec plus d’efficacité.
+On étudiera notamment, la mise en forme d’équations mathématiques, formules scientifiques et tableaux, la numérotation automatique et le référençage des paragraphes, formules, figures, tableaux, la bibliographie."""^^xsd:string ;
+    ns1:hours "0.0"^^xsd:float ;
+    ns1:objective """Apprendre à maitriser LaTeX afin d’être plus efficace lors de la rédaction de rapports scientifiques. Domaine de compétences identifiables par des industriels :
+Conception de documents scientifiques de bonne qualité avec LaTeX, pour donner des documents pdf imprimables ou visualisables en ligne ."""^^xsd:string .
+
+ns1:XLG4TE112 rdfs:label "Médiation scientifique : créez votre exposition !" ;
+    ns1:content """Une fois le thème de l’exposition choisi, un travail collectif sera mené sur le dimensionnement de l’exposition (choix des supports, des sous thèmes) ainsi que sur le choix de l’unité graphique.
+Des binômes d’étudiants seront réalisés pour travailler sur chaque sous-thème. Les séances de CI permettront d’acquérir les notions de médiation scientifique, de recherche bibliographique, de référencement des sources, ainsi que des bases d’infographie.
+Les étudiants seront accompagnés pour présenter les notions scientifiques de façon ludique ou imagée."""^^xsd:string ;
+    ns1:hours "0.0"^^xsd:float ;
+    ns1:objective "L’objectif de l’UE est de réaliser en groupe une exposition qui sera par la suite déployée dans des collèges. Le thème sera choisi collectivement parmi 2 ou 3 propositions. Les étudiants devront réaliser le dimensionnement de l’exposition (nombre de panneaux), trouver l’infographie, rédiger les textes ainsi qu’utiliser éventuellement d’autres supports (videos, interviews de chercheurs etc.) en fonction de leurs idées. Ils seront accompagnés par une chargée de communication, une enseignante-chercheuse et une infographiste."^^xsd:string .
+
+ns1:XLG4TE113 rdfs:label "Radioactivité : Santé - Industrie - Environnement" ;
+    ns1:content """Domaine médical et de santé :
+Diagnostic, thérapie, scanner X, traceurs radioactifs, scintigraphie, tomographie par émission de positon (TEP), …
+Domaine industriel :
+Analyseur d’alliages par fluorescence X, PIXE et PIGE, détecteur de plomb dans les peintures, mesure d’humidité, mesure de densité des sols, contrôle des conduite enterrés, radiographie des pièces de fonderie ou de soudure, …
+Dans l’environnement :
+-          Applications des traceurs pour l’étude de l’environnement
+• La datation au carbone 14
+• Suivre un sédiment ou un polluant dans l’environnement
+• ....
+Radioprotection :
+Dose absorbée, dose équivalente, dose efficace, principe d’ALARA, risques sanitaires"""^^xsd:string ;
+    ns1:hours "0.0"^^xsd:float ;
+    ns1:objective """Avec l’apparition de nouvelles techniques, l’utilisation de la radioactivité (naturelle ou artificielle) ne cesse de s’intensifier. Cette Unité de Découverte a pour but de faire découvrir les applications des rayonnements ionisants X, g, a, b et neutrons en médecine nucléaire, en industrie et dans l’environnement.   Les bases de la radioprotection sont abordées.
+Domaine de compétences identifiables par des industriels :
+·            Découvrir les applications de la radioactivité naturelle et artificielle dans le domaine de la santé, dans l’industrie et dans l’environnement.
+·            Travailler en équipe.
+Cette UED peut constituer une première étape dans la formation aux métiers en lien avec les rayonnements ionisants."""^^xsd:string .
+
+ns1:XLG4TE114 rdfs:label "Des anticancéreux aux revêtements antiadhésifs : le fruit de l'observation" ;
+    ns1:content "Montrer comment des produits de la vie de tous les jours ont été découverts à travers des observations fortuites. L’objectif de ce cours est, avec des exemples (taxol (anticancéreux), téflon (matériaux antiadhésifs)), de détailler la démarche scientifique qui a permis à   partir d’une observation, le développement industriel."^^xsd:string ;
+    ns1:hours "0.0"^^xsd:float ;
+    ns1:objective """Domaine de compétences identifiables par des industriels :
+« Le hasard ne favorise que les esprits préparés » comme l’a écrit Pasteur. Pour illustrer ce propos, des exemples représentatifs seront passés en revue : la pénicilline, le taxol, l’aspirine, le téflon, les insecticides « verts » de type pyréthroïde, des édulcorants comme la saccharine et l’aspartame, la quinine, les polymères comme la bakélite, le nylon et plus récemment le kevlar, etc… et même le viagra !"""^^xsd:string .
+
+ns1:XLG4TE115 rdfs:label "Les espèces végétales exotiques invasives" ;
+    ns1:content """Historiographie & ethnobotanique Mécanismes d’introduction des végétaux
+Conséquences et enjeux écologiques ou sociétaux"""^^xsd:string ;
+    ns1:hours "0.0"^^xsd:float ;
+    ns1:objective "Clefs de compréhension des interactions homme/plantes au cours des temps historiques"^^xsd:string .
+
+ns1:XLG4TU010 rdfs:label "Methodologie et insertion professionnelle S4" ;
+    ns1:ects "1.0"^^xsd:float ;
+    ns1:hours "10.0"^^xsd:float ;
+    ns1:level "Licence"^^xsd:string ;
+    ns1:semester "4"^^xsd:int .
+
+ns1:XLG4TU020 rdfs:label "Unité Enseignement de Découverte" ;
+    ns1:ects "0.0"^^xsd:float ;
+    ns1:hours "16.0"^^xsd:float ;
+    ns1:level "Licence"^^xsd:string ;
+    ns1:semester "4"^^xsd:int .
+
+ns1:XLG4TU030 rdfs:label "Stage libre" ;
+    ns1:hours "0.0"^^xsd:float ;
+    ns1:level "Licence"^^xsd:string ;
+    ns1:semester "4"^^xsd:int .
+

@@ -1,0 +1,136 @@
+@prefix ns1: <http://example.org/course/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ns1:XLG5AU010 rdfs:label "Anglais" ;
+    ns1:hours "16.0"^^xsd:float ;
+    ns1:level "Licence"^^xsd:string ;
+    ns1:semester "5"^^xsd:int .
+
+ns1:XLG5IU010 rdfs:label "Introduction à l'architecture des ordinateurs" ;
+    ns1:content """Le module se déclinera en 4 grandes parties:
+• Représentation de l'information
+• Logique et Circuits combinatoires
+• Circuits séquentiels
+• Assembleur MIPS"""^^xsd:string ;
+    ns1:hours "28.0"^^xsd:float ;
+    ns1:level "Licence"^^xsd:string ;
+    ns1:semester "5"^^xsd:int .
+
+ns1:XLG5IU020 rdfs:label "Ingénierie des exigences" ;
+    ns1:hours "44.0"^^xsd:float ;
+    ns1:level "Licence"^^xsd:string ;
+    ns1:semester "5"^^xsd:int .
+
+ns1:XLG5IU030 rdfs:label "Comptabilité financière" ;
+    ns1:hours "56.0"^^xsd:float ;
+    ns1:level "Licence"^^xsd:string ;
+    ns1:semester "5"^^xsd:int .
+
+ns1:XLG5IU040 rdfs:label "Optimisation & Automates finis" ;
+    ns1:content """Ce cours comporte deux parties, l'une sur sur les automates finis et l'autre sur l'optimisation.
+• La partie sur les automates finis porte sur les langages rationnels que l'on manipulent ou modélisent avec les expressions rationnelles et les automates finis.
+• La partie sur l'optimisation présentera plusieurs types de modélisation et de résolution de problèmes liés à la gestion (des ressources, des coûts et profits, des tâches, etc.).   Elle contiendra deux grandes parties: l'une concerne la programmation linéaire, l'autre l'ordonnancement."""^^xsd:string ;
+    ns1:hours "28.0"^^xsd:float ;
+    ns1:level "Licence"^^xsd:string ;
+    ns1:semester "5"^^xsd:int .
+
+ns1:XLG5IU050 rdfs:label "Structures Linéaires" ;
+    ns1:content """Ce module a pour objectifs :
+- de présenter les données dynamiques (listes chainées)
+- de présenter les structures linéraires abstraites et concrètes (liste / pile / file)
+afin d'être capable de choisir la(ou les) structure(s) les plus adaptée(s) pour répondre à un problème donné"""^^xsd:string ;
+    ns1:hours "44.0"^^xsd:float ;
+    ns1:level "Licence"^^xsd:string ;
+    ns1:objective """Comprendre la gestion de la mémoire (pointeurs, allocation dynamique) Comprendre les notions de structures de données abstraites et concrètes
+Savoir utiliser et implémenter les structures de données linéaires classiques (liste, pile et file) Etre capable de choisir une structure de données adaptée à un problème
+Comprendre la différence entre données structurées et dynamiques Être capable de bien documenter un programme
+Être capable de gérer un projet de programmation et de le documenter
+Être capable de concevoir et développer des applications de tailles moyennes"""^^xsd:string ;
+    ns1:semester "5"^^xsd:int .
+
+ns1:XLG5IU060 rdfs:label "BD & Web" ;
+    ns1:content """Ce module a pour objectifs à travers un projet de développement d'un site web :
+-   de revoir les notions de modélisation d'un problème, les notions de base de Données (BD) et de Système de Gestion de BD
+- de définir et manipuler des données en SQL répondant à un besoin
+- de réaliser un site web répondant à une demande client, en PHP"""^^xsd:string ;
+    ns1:hours "40.0"^^xsd:float ;
+    ns1:level "Licence"^^xsd:string ;
+    ns1:semester "5"^^xsd:int .
+
+ns1:XLG5IU070 rdfs:label "Professionalisation" ;
+    ns1:hours "16.0"^^xsd:float ;
+    ns1:level "Licence"^^xsd:string ;
+    ns1:semester "5"^^xsd:int .
+
+ns1:XLG5IU110 rdfs:label "Gestion de Projet" ;
+    ns1:hours "24.0"^^xsd:float ;
+    ns1:level "Licence"^^xsd:string ;
+    ns1:semester "5"^^xsd:int .
+
+ns1:XLG5TU200 rdfs:label "Stage libre" ;
+    ns1:hours "0.0"^^xsd:float ;
+    ns1:level "Licence"^^xsd:string ;
+    ns1:semester "5"^^xsd:int .
+
+ns1:XLG6AU010 rdfs:label "Anglais" ;
+    ns1:hours "16.0"^^xsd:float ;
+    ns1:level "Licence"^^xsd:string ;
+    ns1:semester "6"^^xsd:int .
+
+ns1:XLG6IE010 rdfs:label "Réseaux" ;
+    ns1:hours "30.0"^^xsd:float ;
+    ns1:level "Licence"^^xsd:string ;
+    ns1:semester "6"^^xsd:int .
+
+ns1:XLG6IU020 rdfs:label "Administration des BD" ;
+    ns1:hours "40.0"^^xsd:float ;
+    ns1:level "Licence"^^xsd:string ;
+    ns1:semester "6"^^xsd:int .
+
+ns1:XLG6IU030 rdfs:label "Controle de Gestion" ;
+    ns1:hours "44.0"^^xsd:float ;
+    ns1:level "Licence"^^xsd:string ;
+    ns1:semester "6"^^xsd:int .
+
+ns1:XLG6IU060 rdfs:label "Langage & Compilation" ;
+    ns1:content """Ce module a pour objectifs :
+- de présenter la notion de langages informatiques et des grammaires associées,
+- de présenter les outils d'analyses syntaxiques (bison/flex),
+- de présenter les liens entre les règles syntaxiques et le code interprété ou compilé"""^^xsd:string ;
+    ns1:hours "28.0"^^xsd:float ;
+    ns1:level "Licence"^^xsd:string ;
+    ns1:semester "6"^^xsd:int .
+
+ns1:XLG6IU080 rdfs:label "Stage" ;
+    ns1:hours "0.0"^^xsd:float ;
+    ns1:level "Licence"^^xsd:string ;
+    ns1:semester "6"^^xsd:int .
+
+ns1:XLG6IU120 rdfs:label "Digitalisation des organisations" ;
+    ns1:hours "24.0"^^xsd:float ;
+    ns1:level "Licence"^^xsd:string ;
+    ns1:semester "6"^^xsd:int .
+
+ns1:XLG6IU130 rdfs:label "Développement Web back-end" ;
+    ns1:hours "44.0"^^xsd:float ;
+    ns1:level "Licence"^^xsd:string ;
+    ns1:semester "6"^^xsd:int .
+
+ns1:XLG6IU140 rdfs:label "Conception et Analyse d'Algorithmes" ;
+    ns1:content """A l'issue de cet enseignement, on s'attend à ce que l'étudiant.e qui l'a suivi:
+• soit capable de concevoir des algorithmes répondant à un cahier des charges précis
+• soit capable de montrer qu’un algorithme est correct (càd qu’il répond toujours correctement à la question posée)
+• sache analyser la complexité en temps et en mémoire d’un algorithme
+• soit capable de comparer les performances (temps et mémoire) de deux algorithmes répondant au même cahier des charges
+• sache manipuler et exploiter les structures arborescentes et les tas binaires (parcours, insertion, suppression)
+• sache manipuler et exploiter les graphes et algorithmes de graphes"""^^xsd:string ;
+    ns1:hours "44.0"^^xsd:float ;
+    ns1:level "Licence"^^xsd:string ;
+    ns1:semester "6"^^xsd:int .
+
+ns1:XLG6TU200 rdfs:label "Stage libre" ;
+    ns1:hours "0.0"^^xsd:float ;
+    ns1:level "Licence"^^xsd:string ;
+    ns1:semester "6"^^xsd:int .
+

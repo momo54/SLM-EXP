@@ -1,0 +1,412 @@
+@prefix ns1: <http://example.org/course/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ns1:XLG1AE051 rdfs:label "1st year English: Lower Intermediate S1" ;
+    ns1:hours "0.0"^^xsd:float .
+
+ns1:XLG1AE052 rdfs:label "1st year English: intermediate S1" ;
+    ns1:hours "0.0"^^xsd:float .
+
+ns1:XLG1AE053 rdfs:label "1st year English: Upper Intermediate S1" ;
+    ns1:hours "0.0"^^xsd:float .
+
+ns1:XLG1AE054 rdfs:label "1st year English S1" ;
+    ns1:hours "16.0"^^xsd:float .
+
+ns1:XLG1AU050 rdfs:label "1st year English S1" ;
+    ns1:ects "0.0"^^xsd:float ;
+    ns1:hours "16.0"^^xsd:float ;
+    ns1:level "Licence"^^xsd:string ;
+    ns1:semester "1"^^xsd:int .
+
+ns1:XLG1IU010 rdfs:label "Informatique" ;
+    ns1:hours "80.0"^^xsd:float ;
+    ns1:level "Licence"^^xsd:string ;
+    ns1:semester "1"^^xsd:int .
+
+ns1:XLG1MU010 rdfs:label "Mathematiques generales" ;
+    ns1:content """1.
+Logique et raisonnement : Quantificateurs, opérateurs logiques élémentaires, conditions nécessaires et suffisantes, différents types de raisonnement (disjonction de cas, contraposée, absurde, analyse-synthèse, récurrence).
+2.
+Nombres réels : Résolution d’équations (second degré, trigonométriques,...) et d’inéquations, majorants et minorants, bornes supérieure et inférieure, valeur absolue, partie entière.
+3.
+Nombres complexes   : Forme algébrique, module et argument, rappels de trigonométrie, formes trigonométrique et exponentielle, racines carrés de nombre complexes et application à la résolution d’équations du second degré, racines n-ième. Applications des nombres complexes à la résolution d’EDO du second ordre à coefficients constants.
+4.
+Ensembles et applications : Généralités sur les ensembles (ensembles, sous-ensembles, opérations sur les ensembles). Lien avec le vocabulaire probabiliste. Applications entre ensembles, images directe et réciproque, injectivité, surjectivité, bijectivité. Application à la notion de cardinal.
+5.
+Étude de fonctions : Notions de limites (intuitive et introduction de la définition avec les quantificateurs), continuité (intuitive et avec quantificateurs), dérivabilité en un point, tangente à la courbe et fonction dérivée sur un intervalle. Étude de fonctions (domaine de définition, symétrie, étude des variations, tangentes et asymptotes, allure de la courbe). Fonctions de référence et introduction des fonc-tions trigonométriques réciproques.
+6.
+Intégration : Primitives, intégration par parties, changement de variable, intégration de fonctions trigonométrique, intégration de fractions rationnelles. Applications à la résolutions d’EDO linéaires du premier ordre."""^^xsd:string ;
+    ns1:hours "80.0"^^xsd:float ;
+    ns1:level "Licence"^^xsd:string ;
+    ns1:semester "1"^^xsd:int .
+
+ns1:XLG1PU020 rdfs:label "Electricité et outils mathématiques associés" ;
+    ns1:content """Le contenu de cet enseignement est le suivant :
+Chapitre 1 : Généralités et notions de base en électricité
+1. Notions de tension et de courant
+2. Différents régimes
+électriques                                                                                                                                                                3. Eléments
+d’un circuit électrique et définitions
+4. Lois de Kirchhoff
+5. Convention générateur et convention récepteur
+6. Puissance - Energie
+7. Appareils de mesure de courants et de tensions
+Chapitre 2 : Dipôles et circuits linéaires
+1. Les différents dipôles
+2. Les conducteurs ohmiques ou résistances
+3. Les générateurs
+4. Les récepteurs
+5. Méthodes de résolution de circuits électriques
+Chapitre 3 : Le régime sinusoïdal
+1. Caractéristiques d’un signal sinusoïdal
+2. Signaux et oscilloscope
+3. Représentation complexe
+4. Impédances complexes et loi d’Ohm en complexe
+5. Résolution des circuits en régime sinusoïdal
+6. Puissance en régime sinusoïdal
+7. Etude des phénomènes de résonance"""^^xsd:string ;
+    ns1:hours "40.0"^^xsd:float ;
+    ns1:level "Licence"^^xsd:string ;
+    ns1:objective """A l’issue   de cet enseignement, l’étudiant   :
+● exploitera, dans le cadre d’un exercice, la loi d’Ohm, la loi des nœuds et la loi des mailles pour déterminer les tensions et les intensités   dans les différentes branches d’un circuit électrique.
+●   saura utiliser, dans le cadre d’un exercice,   les lois de fonctionnement et les caractéristiques des dipôles de base (générateur, récepteur, résistance).
+● saura déterminer la résistance équivalente d'un groupement de résistances en série et/ou en parallèle
+● saura déterminer le générateur de Thévenin équivalent à plusieurs générateurs de Thévenin en série
+● saura déterminer le générateur de Norton équivalent à plusieurs générateurs de Norton en parallèle
+● connaîtra les représentations et les transformations Thévenin – Norton
+● reconnaîtra la topologie des circuits diviseurs de tension ou de courant
+● saura donner sans calcul la tension aux bornes d'une résistance d'un diviseur de tension ou le courant traversant une résistance d'un diviseur de courant
+● appliquera le principe de conservation de l’énergie pour effectuer un bilan énergétique dans un circuit électrique   mettant en jeu différentes formes d’énergie (énergie électrique, énergie chimique, énergie mécanique).
+● saura déterminer les caractéristiques d'un signal sinusoïdal à partir de son expression mathématique   : amplitude, valeur efficace, période, fréquence, pulsation, phase à l'origine
+● saura déterminer les caractéristiques d'un signal sinusoïdal à partir de son oscillogramme
+● saura déterminer les déphasages entre deux signaux synchrones à partir de leurs expressions mathématiques ou à partir de leurs oscillogrammes
+● saura déterminer l'impédance complexe équivalente d'un groupement d'impédances en série et/ou en parallèle
+● saura déterminer par la méthode des nombres complexes les tensions et les courants dans un circuit en régime sinusoïdal
+● saura effectuer un calcul de puissance active par une méthode directe ou à partir du théorème de Boucherot
+● saura expliquer le phénomène de résonance dans un circuit RLC
+● saura déterminer à partir d'une courbe de résonance, les fréquences de coupure et la bande passante du circuit
+● saura expliquer le phénomène de surtension aux bornes d'un condensateur"""^^xsd:string ;
+    ns1:semester "1"^^xsd:int .
+
+ns1:XLG1PU030 rdfs:label "Base de logique numérique" ;
+    ns1:content """Programme:
+I. Introduction
+II. Algèbre de Boole
+• Opérateurs élémentaires
+• Réalisation des opérateurs élémentaires avec des composants électroniques de base
+• Règles de priorités
+• Théorèmes fondamentaux
+• Réduction d’une fonction logique
+• Opérateurs complets
+• Opérateurs exclusifs
+III. Tables de vérité et chronogrammes
+• Tables de vérité et chronogrammes des opérateurs élémentaires, complets et exclusifs
+• Détermination de la table de vérité d’une fonction logique à partir de son expression booléenne
+• Identité de fonctions logiques par analyse de leur table de vérité
+• Détermination de l’expression booléenne d’une fonction logique à partir de sa table de vérité
+• Tables de Karnaugh
+IV. Portes et circuits logiques
+• Détermination d’un circuit associé à une fonction logique à partir de son expression booléenne
+• Détermination de l’expression booléenne d’une fonction logique à partir de son circuit
+V. Codage des nombres
+• Codage des nombres décimaux/binaires
+• Généralisation du codage dans une base b
+• Codages octal et hexadécimal
+VI. Applications de logique numérique combinatoire
+• Multiplexeur et démultiplexeur
+• Problèmes de logique combinatoire"""^^xsd:string ;
+    ns1:hours "20.0"^^xsd:float ;
+    ns1:level "Licence"^^xsd:string ;
+    ns1:objective """Au terme de cette UE, l’étudiant est capable de concevoir le schéma du circuit  électronique permettant de réaliser une fonction logique combinatoire. Pour cela, il est en mesure de :
+- Déterminer le nombre d’entrées et sorties nécessaires à la conception d’un circuit permettant la réalisation d’une fonction logique combinatoire désirée
+- écrire la table de vérité d’une sortie d’un circuit par analyse de la fonction logique combinatoire désirée
+- déterminer l’expression booléenne d’une sortie d’un circuit à partir de sa table de vérité
+- simplifier au maximum une expression booléenne en utilisant l’algèbre de Boole
+- simplifier au maximum une expression booléenne en utilisant la méthode de Karnaugh
+- dessiner un circuit à base de portes logiques élémentaires à partir des fonctions booléennes des sorties du circuit
+- redessiner un circuit composé de portes logiques élémentaires en n’utilisant qu’un seul type de porte logique (opérateur complet, porte synonyme)
+- faire une simulation d’un circuit avec le logiciel Quartus Prime
+- implanter un circuit dans une carte électronique à partir du logiciel Quartus Prime"""^^xsd:string ;
+    ns1:semester "1"^^xsd:int .
+
+ns1:XLG1TU050 rdfs:label "Stage libre" ;
+    ns1:hours "0.0"^^xsd:float ;
+    ns1:level "Licence"^^xsd:string ;
+    ns1:semester "1"^^xsd:int .
+
+ns1:XLG1TU060 rdfs:label "Méthodologie et insertion professionnelle S1" ;
+    ns1:content """Les différentes séances se déroulent comme suit sur les deux semestres : Sur le premier semestre :
+-   3CM sur le fonctionnement cérébral et la mérmoire
+- 6 TD :
+- outils numériques
+- prise et reprise de notes
+- attention focalisée
+- la gestion du temps et du stress
+- le travail de groupe et le travail en équipe
+- serious game à la BU
+sur le second semestre :
+- identifier ses préférences de fonctionnement avec ses compétences et points de vigilance
+- réaliser un CV complet et identifier les éléments constitutifs indispensables"""^^xsd:string ;
+    ns1:hours "12.0"^^xsd:float ;
+    ns1:level "Licence"^^xsd:string ;
+    ns1:objective """A l'issu du cours, l'étudiant sera capable :
+- de développer et utiliser des méthodes d'apprentissage : techniques de prises de notes et de mémorisation, de gestion du temps et du stress
+- d'utiliser des outils numériques de communication de l'université : messagerie, enseignement en distanciel, portfolio
+- d'utiliser les outils de la bibliothèque universitaire et d'en comprendre les apports et le fonctionnement
+- de comprendre le fonctionnement cérébral et les types de mémoire pour les exploiter au mieux
+- de collaborer dans le cadre d'un projet simple en communiquant avec ses collaborateurs"""^^xsd:string ;
+    ns1:semester "1"^^xsd:int .
+
+ns1:XLG2AE051 rdfs:label "1st year English: Lower Intermediate S2" ;
+    ns1:hours "0.0"^^xsd:float .
+
+ns1:XLG2AE052 rdfs:label "1st year English: intermediate S2" ;
+    ns1:hours "0.0"^^xsd:float .
+
+ns1:XLG2AE053 rdfs:label "1st year English: Upper Intermediate S2" ;
+    ns1:hours "0.0"^^xsd:float .
+
+ns1:XLG2AE054 rdfs:label "1st year English S2" ;
+    ns1:hours "16.0"^^xsd:float .
+
+ns1:XLG2AU050 rdfs:label "1st year English S2" ;
+    ns1:ects "0.0"^^xsd:float ;
+    ns1:hours "16.0"^^xsd:float ;
+    ns1:level "Licence"^^xsd:string ;
+    ns1:semester "2"^^xsd:int .
+
+ns1:XLG2HU010 rdfs:label "HST : Histoire des algorithmes" ;
+    ns1:content """Les algorithmes, vus comme des combinaisons structurées d’opérations élémentaires, ont existé dans toutes les cultures et dans différents domaines de savoirs. Ce cours abordera l’histoire des algorithmes sur le temps long. Des éléments sur la question de l’automatisation du calcul, sur des projets de machines (chez Leibniz et Babbage par exemple) jusqu’à l’avènement de l’ordinateur seront également apportés. Cela permettra également de réfléchir sur la place des sciences et des techniques dans la société.
+Histoire des algorithmes sur le temps long où sont abordées les thématiques suivantes :
+• Des algorithmes dans l’Antiquité ? Les cas de la Mésopotamie, l’Égypte et la Grèce
+• Algorithmes et mathématiques arabes
+• Algorithmes de calcul et numération du Moyen Âge au XIXe s.
+• Mécanisation du calcul du XVIIe s. au XIXe s.
+• Vers le concept d’algorithme
+• Des machines analytiques aux ordinateurs
+• Une histoire de la cryptologie du Moyen Âge au XXe s."""^^xsd:string ;
+    ns1:hours "20.0"^^xsd:float ;
+    ns1:level "Licence"^^xsd:string ;
+    ns1:objective """- Maîtriser des savoirs disciplinaires et interdisciplinaires complexes
+• Épistémologie, histoire des sciences et des techniques : réflexion épistémologique et historique sur des notions scientifiques enseignées
+• Introduction aux sciences humaines et sociales
+- Être autonome dans les apprentissages dans des contextes diversifiés
+- Communiquer de façon claire, précise, ouverte et efficace, à l’écrit
+- Être actif face aux changements et agir en acteur socialement responsable
+• Réfléchir à la fiabilité des sources d'information et à la diversité des interprétations possibles d'une même source en fonction du contexte
+• Comprendre l'historicité des objets et concepts, appréhender les changements des sociétés humaines et, par conséquence, s'y adapter
+• Analyser les paradigmes scientifiques et systèmes de pensée et saisir leur relation aux contextes sociaux, culturels et temporels de leur production"""^^xsd:string ;
+    ns1:semester "2"^^xsd:int .
+
+ns1:XLG2HU020 rdfs:label "HST : Matière et énergie" ;
+    ns1:content "Cette unité d’enseignement envisage l’histoire des sciences de la nature en Occident à partir des relations entre matière et énergie. Elle analyse l’histoire des sciences et des techniques sur le   temps long comme la succession de régimes de pensée changeants suivant les époques et les sociétés concernées. Chaque régime, depuis l’Antiquité grecque jusqu’à nos jours, emprunte aux régimes antérieurs de rationalité tout en les modifiant. Seront ainsi abordées et comparées diverses rationalités scientifiques de la matière : atomisme des Grecs, transmutations alchimiques, scolastique médiévale, sciences expérimentales à l’époque moderne, conceptions de la matière pour les naturalistes du XIXe siècle. Plusieurs séances développeront des aspects appliqués des \"techno- sciences\" à travers les techniques de l’énergie : machines à vapeur et révolution industrielle au   XIXe siècle, bombe atomique et énergie solaire au XXe siècle. La question du changement  climatique conclura l'enseignement en évoquant un problème de société actuel."^^xsd:string ;
+    ns1:hours "20.0"^^xsd:float ;
+    ns1:level "Licence"^^xsd:string ;
+    ns1:objective """- Maîtriser des savoirs disciplinaires et interdisciplinaires complexes
+• Épistémologie, histoire des sciences et des techniques : réflexion épistémologique et historique sur des notions scientifiques enseignées
+• Introduction aux sciences humaines et sociales
+- Être autonome dans les apprentissages dans des contextes diversifiés
+- Communiquer de façon claire, précise, ouverte et efficace, à l’écrit
+- Être actif face aux changements et agir en acteur socialement responsable
+• Réfléchir à la fiabilité des sources d'information et à la diversité des interprétations possibles d'une même source en fonction du contexte
+• Comprendre l'historicité des objets et concepts, appréhender les changements des sociétés humaines et, par conséquence, s'y adapter
+• Analyser les paradigmes scientifiques et systèmes de pensée et saisir leur relation aux contextes sociaux, culturels et temporels de leur production"""^^xsd:string ;
+    ns1:semester "2"^^xsd:int .
+
+ns1:XLG2HU030 rdfs:label "HST : Savoir-faire et innovation" ;
+    ns1:content """Cette UE a pour objectif de montrer, sur la longue durée de l’histoire, la complexité des processus à l’œuvre dans les savoir-faire et les innovations techniques.
+Les thèmes choisis, pour illustrer ces différents processus, seront mis en perspective dans le contexte de l’époque où les acteurs (savants ou ingénieurs) et les institutions jouent un rôle majeur. Ils mettront également en relief l’évolution des interactions entre sciences et techniques au cours  de l’histoire, en insistant aussi sur les notions d’usage."""^^xsd:string ;
+    ns1:hours "20.0"^^xsd:float ;
+    ns1:level "Licence"^^xsd:string ;
+    ns1:objective """- Maîtriser des savoirs disciplinaires et interdisciplinaires complexes
+• Épistémologie, histoire des sciences et des techniques : réflexion épistémologique et historique sur des notions scientifiques enseignées
+• Introduction aux sciences humaines et sociales
+- Être autonome dans les apprentissages dans des contextes diversifiés
+- Communiquer de façon claire, précise, ouverte et efficace, à l’écrit
+- Être actif face aux changements et agir en acteur socialement responsable
+• Réfléchir à la fiabilité des sources d'information et à la diversité des interprétations possibles d'une même source en fonction du contexte
+• Comprendre l'historicité des objets et concepts, appréhender les changements des sociétés humaines et, par conséquence, s'y adapter
+• Analyser les paradigmes scientifiques et systèmes de pensée et saisir leur relation aux contextes sociaux, culturels et temporels de leur production"""^^xsd:string ;
+    ns1:semester "2"^^xsd:int .
+
+ns1:XLG2HU040 rdfs:label "HST : Styles de raisonnement scientifiques" ;
+    ns1:content """- Histoire et philosophie des styles de raisonnement scientifiques.
+- Philosophie des sciences exactes.
+Le cours présente l'émergence des cadres d'objectivité, dont le calcul
+des probabilités, la modélisation et l'expérience, de l'Antiquité à nos jours."""^^xsd:string ;
+    ns1:hours "20.0"^^xsd:float ;
+    ns1:level "Licence"^^xsd:string ;
+    ns1:objective """- Maîtriser des savoirs disciplinaires et interdisciplinaires complexes
+• Épistémologie, histoire des sciences et des techniques : réflexion épistémologique et historique sur des notions scientifiques enseignées
+• Introduction aux sciences humaines et sociales
+- Être autonome dans les apprentissages dans des contextes diversifiés
+- Communiquer de façon claire, précise, ouverte et efficace, à l’écrit
+- Être actif face aux changements et agir en acteur socialement responsable
+• Réfléchir à la fiabilité des sources d'information et à la diversité des interprétations possibles d'une même source en fonction du contexte
+• Comprendre l'historicité des objets et concepts, appréhender les changements des sociétés humaines et, par conséquence, s'y adapter
+• Analyser les paradigmes scientifiques et systèmes de pensée et saisir leur relation aux contextes sociaux, culturels et temporels de leur production"""^^xsd:string ;
+    ns1:semester "2"^^xsd:int .
+
+ns1:XLG2HU060 rdfs:label "HST : Histoire des mathématiques" ;
+    ns1:content """Ce cours d’histoire des sciences et des techniques est une initiation à l’histoire des mathématiques sur le temps long, où les thématiques suivantes seront étudiées :
+- Pratiques « rationnelles » dans l’Antiquité : résolution de problèmes, démonstration et algorithmes
+- Numération et arithmétique de l’Antiquité au XIXe siècle
+- De la résolution de problèmes aux équations : quelques éléments d’histoire de l’algèbre
+- Mathématiques et société à la Renaissance : marchands, artistes et ingénieurs
+- « Révolution scientifique » et essor des sciences « modernes »
+- Probabilités et statistiques aux époques modernes et contemporaines : sciences de l’état, lois de la nature et lois de la société
+- Une histoire de la cryptologie, du Moyen Âge au XXe siècle
+Ces différents exemples permettront d’étudier la conception et la transformation des mathématiques et de leurs objets dans différentes cultures et périodes historiques, ainsi que leur place dans la société."""^^xsd:string ;
+    ns1:hours "20.0"^^xsd:float ;
+    ns1:level "Licence"^^xsd:string ;
+    ns1:objective """- Maîtriser des savoirs disciplinaires et interdisciplinaires complexes
+• Épistémologie, histoire des sciences et des techniques : réflexion épistémologique et historique sur des notions scientifiques enseignées
+• Introduction aux sciences humaines et sociales
+- Être autonome dans les apprentissages dans des contextes diversifiés
+- Communiquer de façon claire, précise, ouverte et efficace, à l’écrit
+- Être actif face aux changements et agir en acteur socialement responsable
+• Réfléchir à la fiabilité des sources d'information et à la diversité des interprétations possibles d'une même source en fonction du contexte
+• Comprendre l'historicité des objets et concepts, appréhender les changements des sociétés humaines et, par conséquence, s'y adapter
+• Analyser les paradigmes scientifiques et systèmes de pensée et saisir leur relation aux contextes sociaux, culturels et temporels de leur production"""^^xsd:string ;
+    ns1:semester "2"^^xsd:int .
+
+ns1:XLG2HU070 rdfs:label "HST : Hist. des classif. & théories de l’évolution" ;
+    ns1:content """- Histoire des méthodes de classifications et conceptions sur les êtres vivants de l’antiquité au XVIIIe siècle (Linné et Buffon).
+- Histoires des théories de l’évolution : Lamarck, Darwin, théorie synthétique… Le cours traite des aspects conceptuels et des implications sociales."""^^xsd:string ;
+    ns1:hours "20.0"^^xsd:float ;
+    ns1:level "Licence"^^xsd:string ;
+    ns1:objective """- Maîtriser des savoirs disciplinaires et interdisciplinaires complexes
+• Épistémologie, histoire des sciences et des techniques : réflexion épistémologique et historique sur des notions scientifiques enseignées
+• Introduction aux sciences humaines et sociales
+- Être autonome dans les apprentissages dans des contextes diversifiés
+- Communiquer de façon claire, précise, ouverte et efficace, à l’écrit
+- Être actif face aux changements et agir en acteur socialement responsable
+• Réfléchir à la fiabilité des sources d'information et à la diversité des interprétations possibles d'une même source en fonction du contexte
+• Comprendre l'historicité des objets et concepts, appréhender les changements des sociétés humaines et, par conséquence, s'y adapter
+• Analyser les paradigmes scientifiques et systèmes de pensée et saisir leur relation aux contextes sociaux, culturels et temporels de leur production"""^^xsd:string ;
+    ns1:semester "2"^^xsd:int .
+
+ns1:XLG2IE011 rdfs:label "Algorithmique" ;
+    ns1:hours "40.0"^^xsd:float .
+
+ns1:XLG2IE012 rdfs:label "Developpement logiciel" ;
+    ns1:hours "40.0"^^xsd:float .
+
+ns1:XLG2IU010 rdfs:label "Algorithmique et developpement" ;
+    ns1:ects "50.0"^^xsd:float ;
+    ns1:hours "80.0"^^xsd:float ;
+    ns1:level "Licence"^^xsd:string ;
+    ns1:semester "2"^^xsd:int .
+
+ns1:XLG2IU030 rdfs:label "Fonctionnement des ordinateurs" ;
+    ns1:hours "40.0"^^xsd:float ;
+    ns1:level "Licence"^^xsd:string ;
+    ns1:semester "2"^^xsd:int .
+
+ns1:XLG2IU040 rdfs:label "Bases theoriques de l'informatique" ;
+    ns1:hours "40.0"^^xsd:float ;
+    ns1:level "Licence"^^xsd:string ;
+    ns1:semester "2"^^xsd:int .
+
+ns1:XLG2MU050 rdfs:label "Fonctions variable reelle et courbes parametrees" ;
+    ns1:content """Programme : Le but de cette unité est de donner aux étudiant(e)s les outils de base de l'analyse : limites, dérivées, développements limités d'une fonction numérique
+et d’utiliser ensuite ces outils dans un contexte géométrique (courbes paramétrées).
+•
+Fonctions d’une variable réelle :
+Limites et continuité : définition de la limite avec les epsilons, propriétés algébriques usuelles des limites, continuité des fonctions, propriétés algébriques usuelles de la continuité, théorème des valeurs intermédiaires, théorème des bornes atteintes, théorème de la bijection continue.
+Dérivabilité : définition et rappels des propriétés usuelles, théorèmes de Rolle et des accroissements finis. Applications.
+Développements limités : définition, existence, unicité et propriétés algébriques usuelles, formule de Taylor. Applications au calcul des limites, à la recherche des extrema locaux et à la détermination de la position relative d'une courbe par rapport à son asymptote.
+•
+Courbes paramétrées :
+Courbe paramétrée : définition et exemples.
+Etude d’une courbe paramétrée : domaine d’étude, tableau de variation, étude des points stationnaires et des aymptotes, représentation."""^^xsd:string ;
+    ns1:hours "54.0"^^xsd:float ;
+    ns1:level "Licence"^^xsd:string ;
+    ns1:objective """Au terme de cette unité d'enseignement, l'étudiant(e) devra :
+•
+Savoir utiliser la définition quantifiée de limite pour une fonction numérique
+•
+Savoir utiliser les théorèmes des valeurs intermédiaires et des bornes atteintes pour prédire le comportement qualitatif d’une fonction continue
+•
+Savoir utiliser les théorèmes de Rolle et des accroissements finis pour étudier les variations d’une fonction dérivable
+•
+Calculer des développements limités et les utiliser pour étudier le comportement local ou asymptotique des fonctions numériques (position par rapport à la tangente, extrema locaux, asymptotes)
+•
+Savoir mener l’étude complète d’une courbe paramétrée plane en utilisant les développements limités pour prédire le comportement local ou asymptotique de la courbe.
+L'étudiant(e) utilisera tout au long de cette unité les techniques de base du calcul algébrique ainsi que les principes de base du raisonnement pour résoudre les problèmes demandés."""^^xsd:string ;
+    ns1:semester "2"^^xsd:int .
+
+ns1:XLG2MU060 rdfs:label "Algebre lineaire 1 et polynomes" ;
+    ns1:content """Programme : Le but de cette unité est d'initier les étudiants aux concepts de base de l'algèbre linéaire : espaces vectoriels, sous-espaces vectoriels, applications linéaires et matrices.
+•
+Résolution des systèmes linéaires par la méthode du pivot de Gauss.
+•
+Matrices : définition et calculs (somme, produit, transposition, trace, inversion, interprétation matricielle de la méthode du pivot de Gauss).
+•
+Espaces vectoriels et sous-espaces vectoriels: définition et exemples ; étude des sous-espaces vectoriels de R^n (présentation sous forme de vect, par système d'équations cartésiennes et passage d'une présentation à l'autre).
+•
+Base et dimension d’un espace vectoriel ou d’un sous-espace vectoriel, théorème sur la dimension d'une somme de sous-espaces vectoriels de R^n.
+•
+Applications linéaires, noyau, image, théorème du rang.
+•
+Représentation matricielle d'une application linéaire. Théorème du changement de base.
+•
+Déterminants des matrices 2x2 et 3x3.
+•
+Polynômes à coefficients réels et complexes :
+Définition, divisibilité, division euclidienne ;
+Racines et factorisations des polynômes : théorème de d'Alembert-Gauss, racines multiples, polynômes irréductibles sur R et C et factorisation des polynômes en produit de polynômes irréductibles."""^^xsd:string ;
+    ns1:ects "1.0"^^xsd:float ;
+    ns1:hours "54.0"^^xsd:float ;
+    ns1:level "Licence"^^xsd:string ;
+    ns1:objective """Au terme de cette unité d'enseignement, l'étudiant(e) devra :
+•
+Savoir résoudre un système linéaire par la méthode du pivot de Gauss
+•
+Savoir pratiquer les opérations matricielles usuelles (addition, multiplication, tranposition, inversion)
+•
+Savoir caractériser des sous-espaces vectoriels de R^n par la donnée d'une base ou d'équations
+•
+Savoir déterminer les caractéristiques d’une applications linéaire   (noyau, image et rang)
+•
+Déterminer la matrice d’une application linéaire dans une base donnée
+•
+Calculer des déterminants de matrices 2x2 et 3x3
+•
+Savoir trouver les racines d’un polynôme et décomposer le polynôme en produit de polynômes irréductibles .
+L'étudiant(e) utilisera tout au long de cette unité les techniques de base du calcul algébrique ainsi que les principes de base du raisonnement pour résoudre les problèmes demandés."""^^xsd:string ;
+    ns1:semester "2"^^xsd:int .
+
+ns1:XLG2TU060 rdfs:label "Stage libre" ;
+    ns1:hours "0.0"^^xsd:float ;
+    ns1:level "Licence"^^xsd:string ;
+    ns1:semester "2"^^xsd:int .
+
+ns1:XLG2TU090 rdfs:label "Méthodologie et insertion professionnelle S2" ;
+    ns1:content """Les différentes séances se déroulent comme suit sur les deux semestres : Sur le premier semestre :
+-   3CM sur le fonctionnement cérébral et la mérmoire
+- 6 TD :
+- outils numériques
+- prise et reprise de notes
+- prise de parole et éloquence
+- la gestion du temps (et du stress)
+- le travail de groupe et le travail en équipe
+- serious game à la BU
+sur le second semestre, 3 TD :
+- identifier ses préférences de fonctionnement avec ses compétences et points de vigilance
+- se projeter en prenant en compte ce que l'étudiant apprécie, sait faire et veut faire/vivre
+- réaliser un CV complet et identifier les éléments constitutifs indispensables"""^^xsd:string ;
+    ns1:hours "4.0"^^xsd:float ;
+    ns1:level "Licence"^^xsd:string ;
+    ns1:objective """A l'issu du cours, l'étudiant sera capable :
+- de développer et utiliser des méthodes d'apprentissage : techniques de prises de notes et de mémorisation, de gestion du temps (et du stress), prise de parole et éloquence
+- d'utiliser des outils numériques de communication de l'université : messagerie, enseignement en distanciel, portfolio
+- d'utiliser les outils de la bibliothèque universitaire et d'en comprendre les apports et le fonctionnement
+- de comprendre le fonctionnement cérébral et les types de mémoire pour les exploiter au mieux
+- de collaborer dans le cadre d'un projet simple en communiquant avec ses collaborateurs
+- d'expliquer ses principaux points forts et points de vigilance
+- de réaliser une première version de Curriculum Vitae pour chercher un job étudiant ou un premier stage"""^^xsd:string ;
+    ns1:semester "2"^^xsd:int .
+
