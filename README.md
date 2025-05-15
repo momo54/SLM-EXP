@@ -18,13 +18,7 @@ The ouput is a alignement of UE to KU that can be displayed on a radar view.
 
 # Index the Body Of Knowledge 
 
-Install SPARQLLM Globally 
 
-```
-pip install git+https://github.com/GDD-Nantes/SPARQLLM.git
-```
-You can update SPARQLLM with `pip install --upgrade git+https://github.com/GDD-Nantes/SPARQLLM.git`.
-Sometimes, i need "pip install --no-cache-dir --force-reinstall git+https://github.com/GDD-Nantes/SPARQLLM.git"
 
 install with virtualenv (recommended):
 ```
@@ -32,6 +26,10 @@ virtualenv xp-env
 source xp-env/bin/activate
 pip install -r requirements.txt
 ```
+
+To follow SPARQLLM updates, you can update SPARQLLM with `pip install --upgrade git+https://github.com/GDD-Nantes/SPARQLLM.git` (@branch_name for a branch) 
+Sometimes, i need "pip install --no-cache-dir --force-reinstall git+https://github.com/GDD-Nantes/SPARQLLM.git"
+
 
 Need Ollama installed, For Linux, MacOS:
 ```

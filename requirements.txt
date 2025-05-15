@@ -1,1 +1,3 @@
 SPARQLLM @ git+https://github.com/GDD-Nantes/SPARQLLM.git@recurse
+maplotlib
+rdflib
