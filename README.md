@@ -18,8 +18,6 @@ The ouput is a alignement of UE to KU that can be displayed on a radar view.
 
 # Index the Body Of Knowledge 
 
-
-
 install with virtualenv (recommended):
 ```
 virtualenv xp-env
@@ -43,6 +41,13 @@ Index the Body of Knowledge:
 ```
 slm-index-faiss --txt-folder ./data/BodyOfKnowledge --faiss-dir ./XP/bok_store --recurse 
 ```
+
+# get the KG of graduation
+
+* Master/Licence 2022: https://github.com/momo54/minfo2022 
+* Licence 2025 : https://github.com/nourrekik/licence-maquettes-rdf 
+* Master 2025 : https://github.com/Ilef-mhabrech/converter_notebook/tree/main 
+* 
 
 # run the query to align our cursus to BOK
 

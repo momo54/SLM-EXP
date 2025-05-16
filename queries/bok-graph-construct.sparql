@@ -20,7 +20,7 @@ CONSTRUCT {
 } 
 #SELECT DISTINCT ?s ?label ?ku_source ?score ?parcours ?ka ?ku ?answer ?explain 
 WHERE {
-    BIND(ex:SLM-FILE("./data/courses.ttl") AS ?input)
+    BIND(ex:SLM-FILE("/Users/molli-p/NUCS-KG/XP/licence2025/L3.ttl") AS ?input)
     BIND(ex:SLM-RDF(?input,"turtle") AS ?ginput)
     graph ?ginput { 
         { select * where {
