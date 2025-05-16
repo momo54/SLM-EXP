@@ -6,8 +6,10 @@ PREFIX align: <http://align.org/>
 PREFIX prov: <http://provo.org/>
 
 CONSTRUCT {
+    ?s align:uetext ?UE .
     ?s align:to [
         align:ku_source ?ku_source ;
+        align:ku_text ?ku_content ;
         align:score ?score ;
         ns1:ka ?ka ;
         ns1:ku ?ku ;
