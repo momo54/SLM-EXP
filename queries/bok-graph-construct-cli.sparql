@@ -1,4 +1,4 @@
-## slm-run  --config config.bok  -f queries/bok-graph.sparql --debug
+## slm-run  --config config.bok --load ./data/courses_splitted.ttl --format turtle  -f queries/bok-graph-construct-cli.sparql --debug
 PREFIX ns1: <http://example.org/course/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX ex: <http://example.org/>
@@ -20,17 +20,13 @@ CONSTRUCT {
 } 
 #SELECT DISTINCT ?s ?label ?ku_source ?score ?parcours ?ka ?ku ?answer ?explain 
 WHERE {
-    BIND(ex:SLM-FILE("/Users/molli-p/NUCS-KG/XP/licence2025/L3.ttl") AS ?input)
-    BIND(ex:SLM-RDF(?input,"turtle") AS ?ginput)
-    graph ?ginput { 
-        { select * where {
-            ?s ns1:content ?content .
-            ?s rdfs:label ?label .
-            ?s ns1:objective ?objective .
-            ?s ns1:parcours ?parcours .
+    { select * where {
+        ?s ns1:content ?content .
+        ?s rdfs:label ?label .
+        ?s ns1:objective ?objective .
+        ?s ns1:parcours ?parcours .
 #            FILTER(CONTAINS(?parcours, "ALMA"))
-        } # LIMIT  1 
-       }
+       }  LIMIT  1 
     }
     BIND(CONCAT("Label: ",STR(?label)," Objectif: ",STR(?objective),
                 " Course content: ", STR(?content)," Course name: ",STR(?s)) AS ?UE)
