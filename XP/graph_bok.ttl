@@ -2088,7 +2088,7 @@ mmWave, Visible Light Illustrative Learning Outcomes: KA Core: 1\\. Describe
 the value of advances in middleboxes in networks. 2\\. Describe the importance
 of Software Defined Networks. 3\\. Describe some of the added value achieved by
 using Quantum Networking."""^^xsd:string ;
-    ns1:cs_core_hours "201" ;
+    ns1:cs_core_hours "0" ;
     ns1:ka_core_hours "4" ;
     ns1:part_of "Networking_and_Communication_NC" ;
     ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Networking_and_Communication_NC/NC-Emerging_Emerging_Topics.txt> .
@@ -2122,7 +2122,7 @@ Describe some aspects of cellular communication such as registration 2\\.
 Describe how 802.11 supports mobile users 3\\. Describe practical uses of
 device-to-device communication, as well as multihop 4\\. Describe one type of
 mobile network such as ad hoc"""^^xsd:string ;
-    ns1:cs_core_hours "201" ;
+    ns1:cs_core_hours "0" ;
     ns1:ka_core_hours "4" ;
     ns1:part_of "Networking_and_Communication_NC" ;
     ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Networking_and_Communication_NC/NC-Mobility_Mobility.txt> .
@@ -2138,7 +2138,7 @@ Learning Outcomes: KA Core: 1\\. Describe the operation of reliable delivery
 protocols. 2\\. List the factors that affect the performance of reliable
 delivery protocols. 3\\. Describe some TCP reliability design issues. 4\\.
 Design and implement a simple reliable protocol."""^^xsd:string ;
-    ns1:cs_core_hours "199" ;
+    ns1:cs_core_hours "0" ;
     ns1:ka_core_hours "5.75" ;
     ns1:part_of "Networking_and_Communication_NC" ;
     ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Networking_and_Communication_NC/NC-Reliability_Reliability_Support.txt> .
@@ -2188,7 +2188,7 @@ Describe some basic aspects of modulation, bandwidth, and communication media.
 encoding and framing solution tradeoffs. 4\\. Describe details of the
 implementation of Ethernet. 5\\. Describe how switching works. 6\\. Describe one
 kind of a LAN topology."""^^xsd:string ;
-    ns1:cs_core_hours "200" ;
+    ns1:cs_core_hours "0" ;
     ns1:ka_core_hours "3" ;
     ns1:part_of "Networking_and_Communication_NC" ;
     ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Networking_and_Communication_NC/NC-SingleHop_Single_Hop_Communication.txt> .
