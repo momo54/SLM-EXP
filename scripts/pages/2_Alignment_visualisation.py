@@ -3,6 +3,7 @@ import pandas as pd
 import plotly.express as px
 import rdflib
 
+BOK_RDF_FILE_PATH = "./XP/graph_bok_nohours.ttl"
 ALIGNMENT_RDF_FILE_PATH = "./XP/bokc.ttl"
 COURSES_RDF_FILE_PATH = "./data/courses.ttl"
 
