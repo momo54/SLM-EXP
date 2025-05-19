@@ -1,0 +1,610 @@
+@prefix ex: <http://example.org/course/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+ex:UE_XLG1AU050 a ex:UE ;
+    rdfs:label "1st year English S1" ;
+    ex:bibliography "XLG1AE052 1st year English: intermediate S1" ;
+    ex:code "XLG1AU050" ;
+    ex:content "Méthodes d’enseignement" ;
+    ex:evaluation """1st year English: Upper Intermediate S1 0%
+1st year English S1 100%""" ;
+    ex:hours "TOTAL : 16h Répartition : CM : 0h TD : 16h CI : 0h TP : 0h EAD : 0h" ;
+    ex:language "Anglais" ;
+    ex:level "Licence" ;
+    ex:location "Niveau Licence" ;
+    ex:methods "Bibliographie" ;
+    ex:objective "(résultats d'apprentissage)" ;
+    ex:obtention """Programme
+- 1st year English: Lower Intermediate S1 (XLG1AE051)
+- 1st year English: intermediate S1 (XLG1AE052)""" ;
+    ex:parcours "L1 PEIP 1 - Parcours étudiant ingénieur Polytech",
+        "L1 Physique",
+        "Physique -",
+        "Renforcé" ;
+    ex:prerequisite "(s)" ;
+    ex:responsible "KERVISION SYLVIE" ;
+    ex:semester "1" .
+
+ex:UE_XLG1IU010 a ex:UE ;
+    rdfs:label "Informatique" ;
+    ex:bibliography "" ;
+    ex:code "XLG1IU010" ;
+    ex:content "Méthodes d’enseignement" ;
+    ex:evaluation "Informatique 100%" ;
+    ex:hours "TOTAL : 80h Répartition : CM : 16h TD : 36h CI : 0h TP : 28h EAD : 0h" ;
+    ex:language "Français" ;
+    ex:level "Licence" ;
+    ex:location "Niveau Licence" ;
+    ex:methods "Langue d’enseignement Français" ;
+    ex:objective "(résultats d'apprentissage)" ;
+    ex:obtention "Programme" ;
+    ex:parcours "Info-Maths",
+        "L1 INFO Informatique",
+        "L1 Info-Maths CMI OPT/IM",
+        "L1 Informatique" ;
+    ex:prerequisite "(s)" ;
+    ex:responsible "LANGUENOU ERIC" ;
+    ex:semester "1" .
+
+ex:UE_XLG1MU010 a ex:UE ;
+    rdfs:label "Mathematiques generales" ;
+    ex:bibliography "" ;
+    ex:code "XLG1MU010" ;
+    ex:content """Ensembles et applications : Généralités sur les ensembles (ensembles, sous-ensembles, opérations
+sur les ensembles). Lien avec le vocabulaire probabiliste. Applications entre ensembles, images
+directe et réciproque, injectivité, surjectivité, bijectivité. Application à la notion de cardinal.
+5.
+Étude de fonctions : Notions de limites (intuitive et introduction de la définition avec les
+quantificateurs), continuité (intuitive et avec quantificateurs), dérivabilité en un point, tangente à la
+courbe et fonction dérivée sur un intervalle. Étude de fonctions (domaine de définition, symétrie,
+étude des variations, tangentes et asymptotes, allure de la courbe). Fonctions de référence et
+introduction des fonc-tions trigonométriques réciproques.
+6.""" ;
+    ex:evaluation "Mathematiques generales 100%" ;
+    ex:hours "TOTAL : 80h Répartition : CM : 0h TD : 0h CI : 80h TP : 0h EAD : 0h" ;
+    ex:language "Français" ;
+    ex:level "Licence" ;
+    ex:location "UFR des Sciences et des Techniques" ;
+    ex:methods "Langue d’enseignement Français" ;
+    ex:objective """(résultats d'apprentissage)
+1.""" ;
+    ex:obtention "Programme" ;
+    ex:parcours "Ingénierie Statistique",
+        "L1 CMI Physique Mecanique",
+        "L1 LAS",
+        "L1 LAS Mathematiques option sante" ;
+    ex:prerequisite "(s)" ;
+    ex:responsible "GOBIN DAMIEN" ;
+    ex:semester "1" .
+
+ex:UE_XLG1PU020 a ex:UE ;
+    rdfs:label "Electricité et outils mathématiques associés" ;
+    ex:bibliography "" ;
+    ex:code "XLG1PU020" ;
+    ex:content """2. Les conducteurs ohmiques ou résistances
+3. Les générateurs
+4. Les récepteurs
+5. Méthodes de résolution de circuits électriques""" ;
+    ex:evaluation "Electricite et outils math associes 100%" ;
+    ex:hours "TOTAL : 40h Répartition : CM : 0h TD : 0h CI : 40h TP : 0h EAD : 0h" ;
+    ex:language "Français" ;
+    ex:level "Licence" ;
+    ex:location "Nantes" ;
+    ex:methods "Langue d’enseignement Français" ;
+    ex:objective """(résultats d'apprentissage)
+chimique, énergie mécanique).
+● saura déterminer les caractéristiques d'un signal sinusoïdal à partir de son expression
+mathématique : amplitude, valeur efficace, période, fréquence, pulsation, phase à l'origine
+● saura déterminer les caractéristiques d'un signal sinusoïdal à partir de son oscillogramme
+● saura déterminer les déphasages entre deux signaux synchrones à partir de leurs expressions
+mathématiques ou à partir de leurs oscillogrammes
+● saura déterminer l'impédance complexe équivalente d'un groupement d'impédances en série
+et/ou en parallèle
+● saura déterminer par la méthode des nombres complexes les tensions et les courants dans un
+circuit en régime sinusoïdal
+● saura effectuer un calcul de puissance active par une méthode directe ou à partir du théorème de""" ;
+    ex:obtention "Programme" ;
+    ex:parcours "L1",
+        "L1 INFO Informatique",
+        "L1 LAS Physique option Santé",
+        "L1 SPI - option santé",
+        "Mecanique" ;
+    ex:prerequisite "(s)" ;
+    ex:responsible "MORSLI SABER" ;
+    ex:semester "1" .
+
+ex:UE_XLG1PU030 a ex:UE ;
+    rdfs:label "Base de logique numérique" ;
+    ex:bibliography "" ;
+    ex:code "XLG1PU030" ;
+    ex:content """• Identité de fonctions logiques par analyse de leur table de vérité
+• Détermination de l’expression booléenne d’une fonction logique à partir de sa table de vérité
+• Tables de Karnaugh""" ;
+    ex:evaluation "Base de logique numérique 100%" ;
+    ex:hours "TOTAL : 20h Répartition : CM : 0h TD : 0h CI : 14.67h TP : 5.33h EAD : 0h" ;
+    ex:language "Français" ;
+    ex:level "Licence" ;
+    ex:location "UFR sciences et techniques" ;
+    ex:methods "bien préparer la séance et/ou la terminer plus tard si besoin." ;
+    ex:objective """(résultats d'apprentissage)
+- simplifier au maximum une expression booléenne en utilisant l’algèbre de Boole
+- simplifier au maximum une expression booléenne en utilisant la méthode de Karnaugh
+- dessiner un circuit à base de portes logiques élémentaires à partir des fonctions booléennes des
+sorties du circuit
+- redessiner un circuit composé de portes logiques élémentaires en n’utilisant qu’un seul type de
+porte logique (opérateur complet, porte synonyme)
+- faire une simulation d’un circuit avec le logiciel Quartus Prime
+- implanter un circuit dans une carte électronique à partir du logiciel Quartus Prime""" ;
+    ex:obtention "Programme" ;
+    ex:parcours "Info-Maths",
+        "Informatique",
+        "L1 INFO Info Maths - parcours accompagne",
+        """L1 INFO Informatique - parcours
+accompagne""",
+        "L1 Info-Maths CMI OPT/IM" ;
+    ex:prerequisite "(s) aucune UE n'est pré-requise" ;
+    ex:responsible "SEVENO Raynald" ;
+    ex:semester "1" .
+
+ex:UE_XLG1TU050 a ex:UE ;
+    rdfs:label "Stage libre" ;
+    ex:bibliography "" ;
+    ex:code "XLG1TU050" ;
+    ex:content "Méthodes d’enseignement" ;
+    ex:evaluation "Stage libre 100%" ;
+    ex:hours "TOTAL : 0h Répartition : CM : 0h TD : 0h CI : 0h TP : 0h EAD : 0h" ;
+    ex:language "Français" ;
+    ex:level "Licence" ;
+    ex:location "Niveau Licence" ;
+    ex:methods "Langue d’enseignement Français" ;
+    ex:objective "(résultats d'apprentissage)" ;
+    ex:obtention "Programme" ;
+    ex:parcours "L1",
+        "L1 INFO option sante",
+        "L1 LAS Chimie option Santé",
+        "L1 SVT Sciences de la Vie et de la Terre",
+        "santé" ;
+    ex:prerequisite "(s)" ;
+    ex:responsible "Volume horaire total TOTAL : 0h Répartition : CM : 0h TD : 0h CI : 0h TP : 0h EAD : 0h" ;
+    ex:semester "1" .
+
+ex:UE_XLG1TU060 a ex:UE ;
+    rdfs:label "Méthodologie et insertion professionnelle S1" ;
+    ex:bibliography "" ;
+    ex:code "XLG1TU060" ;
+    ex:content """- la gestion du temps et du stress
+- le travail de groupe et le travail en équipe
+- serious game à la BU
+sur le second semestre :
+- identifier ses préférences de fonctionnement avec ses compétences et points de vigilance
+- réaliser un CV complet et identifier les éléments constitutifs indispensables""" ;
+    ex:evaluation "Méthodologie et insertion professionnelle 100%" ;
+    ex:hours "TOTAL : 12h Répartition : CM : 4h TD : 8h CI : 0h TP : 0h EAD : 0h" ;
+    ex:language "Français" ;
+    ex:level "Licence" ;
+    ex:location "Niveau Licence" ;
+    ex:methods "ressources CARé)" ;
+    ex:objective """(résultats d'apprentissage) distanciel, portfolio
+- d'utiliser les outils de la bibliothèque universitaire et d'en comprendre les apports et le
+fonctionnement
+- de comprendre le fonctionnement cérébral et les types de mémoire pour les exploiter au mieux
+- de collaborer dans le cadre d'un projet simple en communiquant avec ses collaborateurs""" ;
+    ex:obtention "L'assiduité fait partie de l'évaluation (faite sur le second semestre)." ;
+    ex:parcours "",
+        "L1 PEIP 1 - Parcours étudiant ingénieur Polytech",
+        "L1 Physique",
+        "Scientifique Renforcé" ;
+    ex:prerequisite "(s)" ;
+    ex:responsible "SCHAFFHAUSER ALICE" ;
+    ex:semester "1" .
+
+ex:UE_XLG2AU050 a ex:UE ;
+    rdfs:label "1st year English S2" ;
+    ex:bibliography "XLG2AE052 1st year English: intermediate S2" ;
+    ex:code "XLG2AU050" ;
+    ex:content "Méthodes d’enseignement" ;
+    ex:evaluation """1st year English: Lower Intermediate S2 0%
+1st year English: Upper Intermediate S2 0%""" ;
+    ex:hours "TOTAL : 16h Répartition : CM : 0h TD : 16h CI : 0h TP : 0h EAD : 0h" ;
+    ex:language "Anglais" ;
+    ex:level "Licence" ;
+    ex:location "Niveau Licence" ;
+    ex:methods "Bibliographie" ;
+    ex:objective "(résultats d'apprentissage)" ;
+    ex:obtention """Programme
+- 1st year English S2 (XLG2AE054)
+- 1st year English: intermediate S2 (XLG2AE052)""" ;
+    ex:parcours "L1 PEIP 1 - Parcours étudiant ingénieur Polytech",
+        "L1 Physique",
+        "Physique -",
+        "Renforcé" ;
+    ex:prerequisite "(s)" ;
+    ex:responsible "KERVISION SYLVIE" ;
+    ex:semester "2" .
+
+ex:UE_XLG2HU010 a ex:UE ;
+    rdfs:label "HST : Histoire des algorithmes" ;
+    ex:bibliography "" ;
+    ex:code "XLG2HU010" ;
+    ex:content """Histoire des algorithmes sur le temps long où sont abordées les thématiques suivantes :
+• Des algorithmes dans l’Antiquité ? Les cas de la Mésopotamie, l’Égypte et la Grèce
+• Algorithmes et mathématiques arabes
+• Algorithmes de calcul et numération du Moyen Âge au XIXe s.
+• Mécanisation du calcul du XVIIe s. au XIXe s.
+• Vers le concept d’algorithme
+• Des machines analytiques aux ordinateurs
+• Une histoire de la cryptologie du Moyen Âge au XXe s.""" ;
+    ex:evaluation "HST : Histoire des algorithmes 100%" ;
+    ex:hours "TOTAL : 20h Répartition : CM : 20h TD : 0h CI : 0h TP : 0h EAD : 0h" ;
+    ex:language "Français" ;
+    ex:level "Licence" ;
+    ex:location "Niveau Licence" ;
+    ex:methods "Pédagogie inversée avec utilisation de supports en distanciel" ;
+    ex:objective """(résultats d'apprentissage)
+• Réfléchir à la fiabilité des sources d'information et à la diversité des interprétations possibles
+d'une même source en fonction du contexte
+• Comprendre l'historicité des objets et concepts, appréhender les changements des sociétés
+humaines et, par conséquence, s'y adapter
+• Analyser les paradigmes scientifiques et systèmes de pensée et saisir leur relation aux contextes
+sociaux, culturels et temporels de leur production""" ;
+    ex:obtention """Programme
+- Maîtriser des savoirs disciplinaires et interdisciplinaires complexes
+• Épistémologie, histoire des sciences et des techniques : réflexion épistémologique et historique
+sur des notions scientifiques enseignées
+• Introduction aux sciences humaines et sociales
+- Être autonome dans les apprentissages dans des contextes diversifiés
+- Communiquer de façon claire, précise, ouverte et efficace, à l’écrit
+- Être actif face aux changements et agir en acteur socialement responsable""" ;
+    ex:parcours "Info-",
+        "L1 INFO Informatique",
+        "L1 Informatique",
+        "L1 Maths CMI Ingénierie Statistique",
+        "Mecanique" ;
+    ex:prerequisite "(s) Aucune" ;
+    ex:responsible "BOUCARD JENNY" ;
+    ex:semester "2" .
+
+ex:UE_XLG2HU020 a ex:UE ;
+    rdfs:label "HST : Matière et énergie" ;
+    ex:bibliography "" ;
+    ex:code "XLG2HU020" ;
+    ex:content """scolastique médiévale, sciences expérimentales à l’époque moderne, conceptions de la matière pour
+les naturalistes du XIXe siècle. Plusieurs séances développeront des aspects appliqués des "techno-
+sciences" à travers les techniques de l’énergie : machines à vapeur et révolution industrielle au""" ;
+    ex:evaluation "HST : Matière et énergie 100%" ;
+    ex:hours "TOTAL : 20h Répartition : CM : 20h TD : 0h CI : 0h TP : 0h EAD : 0h" ;
+    ex:language "Français" ;
+    ex:level "Licence" ;
+    ex:location "Niveau Licence" ;
+    ex:methods "Pédagogie inversée avec support en distanciel" ;
+    ex:objective """(résultats d'apprentissage) - Être actif face aux changements et agir en acteur socialement responsable
+• Réfléchir à la fiabilité des sources d'information et à la diversité des interprétations possibles
+d'une même source en fonction du contexte
+• Comprendre l'historicité des objets et concepts, appréhender les changements des sociétés
+humaines et, par conséquence, s'y adapter
+• Analyser les paradigmes scientifiques et systèmes de pensée et saisir leur relation aux contextes
+sociaux, culturels et temporels de leur production""" ;
+    ex:obtention """Programme
+- Maîtriser des savoirs disciplinaires et interdisciplinaires complexes
+• Épistémologie, histoire des sciences et des techniques : réflexion épistémologique et historique
+sur des notions scientifiques enseignées
+• Introduction aux sciences humaines et sociales
+- Être autonome dans les apprentissages dans des contextes diversifiés
+- Communiquer de façon claire, précise, ouverte et efficace, à l’écrit""" ;
+    ex:parcours "L1 CMI Physique Mecanique",
+        "L1 INFO",
+        "L1 Maths CMI Ingénierie Statistique",
+        "de la Vie et de la Terre" ;
+    ex:prerequisite "(s)" ;
+    ex:responsible "TEISSIER PIERRE" ;
+    ex:semester "2" .
+
+ex:UE_XLG2HU030 a ex:UE ;
+    rdfs:label "HST : Savoir-faire et innovation" ;
+    ex:bibliography "acutalisation, 2015" ;
+    ex:code "XLG2HU030" ;
+    ex:content "contexte de l’époque où les acteurs (savants ou ingénieurs) et les institutions jouent un rôle majeur." ;
+    ex:evaluation "HST : savoir-faire et innovation 100%" ;
+    ex:hours "TOTAL : 20h Répartition : CM : 20h TD : 0h CI : 0h TP : 0h EAD : 0h" ;
+    ex:language "Français" ;
+    ex:level "Licence" ;
+    ex:location "Niveau Licence" ;
+    ex:methods "Langue d’enseignement Français" ;
+    ex:objective """(résultats d'apprentissage) - Être actif face aux changements et agir en acteur socialement responsable
+• Réfléchir à la fiabilité des sources d'information et à la diversité des interprétations possibles
+d'une même source en fonction du contexte
+• Comprendre l'historicité des objets et concepts, appréhender les changements des sociétés
+humaines et, par conséquence, s'y adapter
+• Analyser les paradigmes scientifiques et systèmes de pensée et saisir leur relation aux contextes
+sociaux, culturels et temporels de leur production""" ;
+    ex:obtention """Programme
+- Maîtriser des savoirs disciplinaires et interdisciplinaires complexes
+• Épistémologie, histoire des sciences et des techniques : réflexion épistémologique et historique
+sur des notions scientifiques enseignées
+• Introduction aux sciences humaines et sociales
+- Être autonome dans les apprentissages dans des contextes diversifiés
+- Communiquer de façon claire, précise, ouverte et efficace, à l’écrit""" ;
+    ex:parcours "Info-Maths",
+        "L1",
+        "L1 Chimie parcours accompagné",
+        "L1 INFO Informatique",
+        "L1 Informatique",
+        "Statistique" ;
+    ex:prerequisite "(s)" ;
+    ex:responsible "BOUCARD JENNY" ;
+    ex:semester "2" .
+
+ex:UE_XLG2HU040 a ex:UE ;
+    rdfs:label "HST : Styles de raisonnement scientifiques" ;
+    ex:bibliography "" ;
+    ex:code "XLG2HU040" ;
+    ex:content """Le cours présente l'émergence des cadres d'objectivité, dont le calcul
+des probabilités, la modélisation et l'expérience, de l'Antiquité à nos jours.""" ;
+    ex:evaluation "HST : Styles de raisonnement scientifique 100%" ;
+    ex:hours "TOTAL : 20h Répartition : CM : 20h TD : 0h CI : 0h TP : 0h EAD : 0h" ;
+    ex:language "Français" ;
+    ex:level "Licence" ;
+    ex:location "Niveau Licence" ;
+    ex:methods "Cours magistral" ;
+    ex:objective """(résultats d'apprentissage) - Être actif face aux changements et agir en acteur socialement responsable
+• Réfléchir à la fiabilité des sources d'information et à la diversité des interprétations possibles
+d'une même source en fonction du contexte
+• Comprendre l'historicité des objets et concepts, appréhender les changements des sociétés
+humaines et, par conséquence, s'y adapter
+• Analyser les paradigmes scientifiques et systèmes de pensée et saisir leur relation aux contextes
+sociaux, culturels et temporels de leur production
+- Histoire et philosophie des styles de raisonnement scientifiques.
+- Philosophie des sciences exactes.""" ;
+    ex:obtention """Programme
+- Maîtriser des savoirs disciplinaires et interdisciplinaires complexes
+• Épistémologie, histoire des sciences et des techniques : réflexion épistémologique et historique
+sur des notions scientifiques enseignées
+• Introduction aux sciences humaines et sociales
+- Être autonome dans les apprentissages dans des contextes diversifiés
+- Communiquer de façon claire, précise, ouverte et efficace, à l’écrit""" ;
+    ex:parcours "Info-",
+        "L1 INFO Informatique",
+        "L1 Informatique",
+        "L1 Maths CMI Ingénierie Statistique",
+        "Mecanique" ;
+    ex:prerequisite "(s)" ;
+    ex:responsible "BOUCARD JENNY" ;
+    ex:semester "2" .
+
+ex:UE_XLG2HU060 a ex:UE ;
+    rdfs:label "HST : Histoire des mathématiques" ;
+    ex:bibliography "" ;
+    ex:code "XLG2HU060" ;
+    ex:content """- « Révolution scientifique » et essor des sciences « modernes »
+- Probabilités et statistiques aux époques modernes et contemporaines : sciences de l’état, lois de la
+nature et lois de la société
+- Une histoire de la cryptologie, du Moyen Âge au XXe siècle""" ;
+    ex:evaluation "HST : Histoire des mathématiques 100%" ;
+    ex:hours "TOTAL : 20h Répartition : CM : 20h TD : 0h CI : 0h TP : 0h EAD : 0h" ;
+    ex:language "Français" ;
+    ex:level "Licence" ;
+    ex:location "Niveau Licence" ;
+    ex:methods "Pédagogie inversée avec support en distanciel" ;
+    ex:objective """(résultats d'apprentissage) - Être actif face aux changements et agir en acteur socialement responsable
+• Réfléchir à la fiabilité des sources d'information et à la diversité des interprétations possibles
+d'une même source en fonction du contexte
+• Comprendre l'historicité des objets et concepts, appréhender les changements des sociétés
+humaines et, par conséquence, s'y adapter
+• Analyser les paradigmes scientifiques et systèmes de pensée et saisir leur relation aux contextes
+sociaux, culturels et temporels de leur production""" ;
+    ex:obtention """Programme
+- Maîtriser des savoirs disciplinaires et interdisciplinaires complexes
+• Épistémologie, histoire des sciences et des techniques : réflexion épistémologique et historique
+sur des notions scientifiques enseignées
+• Introduction aux sciences humaines et sociales
+- Être autonome dans les apprentissages dans des contextes diversifiés
+- Communiquer de façon claire, précise, ouverte et efficace, à l’écrit""" ;
+    ex:parcours "L1 CMI Physique Mecanique",
+        "L1 LAS Mathematiques option sante",
+        "L1 Maths CMI Ingénierie",
+        "Terre" ;
+    ex:prerequisite "(s) Aucune" ;
+    ex:responsible "BOUCARD JENNY" ;
+    ex:semester "2" .
+
+ex:UE_XLG2HU070 a ex:UE ;
+    rdfs:label "HST : Hist. des classif. & théories de l’évolution" ;
+    ex:bibliography "" ;
+    ex:code "XLG2HU070" ;
+    ex:content "- Histoires des théories de l’évolution : Lamarck, Darwin, théorie synthétique…" ;
+    ex:evaluation "HST : Hist. des classif. & théories de l’évolution 100%" ;
+    ex:hours "TOTAL : 20h Répartition : CM : 20h TD : 0h CI : 0h TP : 0h EAD : 0h" ;
+    ex:language "Français" ;
+    ex:level "Licence" ;
+    ex:location "Niveau Licence" ;
+    ex:methods "Pédagogie inversée, avec support en distanciel" ;
+    ex:objective """(résultats d'apprentissage) - Être actif face aux changements et agir en acteur socialement responsable
+• Réfléchir à la fiabilité des sources d'information et à la diversité des interprétations possibles
+d'une même source en fonction du contexte
+• Comprendre l'historicité des objets et concepts, appréhender les changements des sociétés
+humaines et, par conséquence, s'y adapter
+• Analyser les paradigmes scientifiques et systèmes de pensée et saisir leur relation aux contextes
+sociaux, culturels et temporels de leur production
+- Histoire des méthodes de classifications et conceptions sur les êtres vivants de l’antiquité au""" ;
+    ex:obtention """Programme
+- Maîtriser des savoirs disciplinaires et interdisciplinaires complexes
+• Épistémologie, histoire des sciences et des techniques : réflexion épistémologique et historique
+sur des notions scientifiques enseignées
+• Introduction aux sciences humaines et sociales
+- Être autonome dans les apprentissages dans des contextes diversifiés
+- Communiquer de façon claire, précise, ouverte et efficace, à l’écrit""" ;
+    ex:parcours "Info-",
+        "L1 Informatique",
+        "L1 LAS Mathematiques option sante",
+        "L1 Sciences de la Vie",
+        "Vie et de la Terre" ;
+    ex:prerequisite "(s)" ;
+    ex:responsible "TIRARD STEPHANE" ;
+    ex:semester "2" .
+
+ex:UE_XLG2IU010 a ex:UE ;
+    rdfs:label "Algorithmique et developpement" ;
+    ex:bibliography "XLG2IE012 Developpement logiciel" ;
+    ex:code "XLG2IU010" ;
+    ex:content "Méthodes d’enseignement" ;
+    ex:evaluation "Developpement logiciel 50%" ;
+    ex:hours "TOTAL : 80h Répartition : CM : 16h TD : 36h CI : 0h TP : 28h EAD : 0h" ;
+    ex:language "Français" ;
+    ex:level "Licence" ;
+    ex:location "Niveau Licence" ;
+    ex:methods "Bibliographie" ;
+    ex:objective "(résultats d'apprentissage)" ;
+    ex:obtention """Programme
+- Algorithmique (XLG2IE011)""" ;
+    ex:parcours "L1 INFO Info Maths - parcours accompagne",
+        "L1 INFO Informatique - parcours accompagne",
+        "OPT/IM" ;
+    ex:prerequisite "(s)" ;
+    ex:responsible "SUNYE GERSON" ;
+    ex:semester "2" .
+
+ex:UE_XLG2IU030 a ex:UE ;
+    rdfs:label "Fonctionnement des ordinateurs" ;
+    ex:bibliography "" ;
+    ex:code "XLG2IU030" ;
+    ex:content "Méthodes d’enseignement" ;
+    ex:evaluation "Fonctionnement des ordinateurs 100%" ;
+    ex:hours "TOTAL : 40h Répartition : CM : 20h TD : 20h CI : 0h TP : 0h EAD : 0h" ;
+    ex:language "Français" ;
+    ex:level "Licence" ;
+    ex:location "Niveau Licence" ;
+    ex:methods "Langue d’enseignement Français" ;
+    ex:objective "(résultats d'apprentissage)" ;
+    ex:obtention "La note de CCE peut contenir une ou plusieurs composantes pratiques." ;
+    ex:parcours """L1 INFO Info Maths - parcours
+accompagne""",
+        "L1 INFO Informatique - parcours accompagne",
+        "Maths CMI OPT/IM" ;
+    ex:prerequisite "(s)" ;
+    ex:responsible "TANGUY ERIC" ;
+    ex:semester "2" .
+
+ex:UE_XLG2IU040 a ex:UE ;
+    rdfs:label "Bases theoriques de l'informatique" ;
+    ex:bibliography "" ;
+    ex:code "XLG2IU040" ;
+    ex:content "Méthodes d’enseignement" ;
+    ex:evaluation "Bases theoriques de l'informatique 100%" ;
+    ex:hours "TOTAL : 40h Répartition : CM : 12h TD : 28h CI : 0h TP : 0h EAD : 0h" ;
+    ex:language "Français" ;
+    ex:level "Licence" ;
+    ex:location "Niveau Licence" ;
+    ex:methods "Langue d’enseignement Français" ;
+    ex:objective "(résultats d'apprentissage)" ;
+    ex:obtention "Programme" ;
+    ex:parcours "Informatique - parcours accompagne",
+        "L1 INFO Info Maths - parcours accompagne" ;
+    ex:prerequisite "(s)" ;
+    ex:responsible "JEAN GERALDINE" ;
+    ex:semester "2" .
+
+ex:UE_XLG2MU050 a ex:UE ;
+    rdfs:label "Fonctions variable reelle et courbes parametrees" ;
+    ex:bibliography "F. Liret & D. Martinais : Analyse, 1ère année : Cours et exercices avec solutions (Dunod)" ;
+    ex:code "XLG2MU050" ;
+    ex:content """Dérivabilité : définition et rappels des propriétés usuelles, théorèmes de Rolle et des
+accroissements finis. Applications.""" ;
+    ex:evaluation "Fonctions variable reelle et courbes parametrees 100%" ;
+    ex:hours "TOTAL : 54h Répartition : CM : 18h TD : 36h CI : 0h TP : 0h EAD : 0h" ;
+    ex:language "Français" ;
+    ex:level "Licence" ;
+    ex:location "Nantes" ;
+    ex:methods "Langue d’enseignement Français" ;
+    ex:objective """(résultats d'apprentissage) fonction dérivable
+•""" ;
+    ex:obtention "Programme" ;
+    ex:parcours "Info-Maths",
+        """L1 INFO Info Maths - parcours
+accompagne""",
+        "L1 Info-Maths CMI OPT/IM",
+        "L1 Informatique",
+        "Mecanique" ;
+    ex:prerequisite "(s)" ;
+    ex:responsible "PETIT ROBERT" ;
+    ex:semester "2" .
+
+ex:UE_XLG2MU060 a ex:UE ;
+    rdfs:label "Algebre lineaire 1 et polynomes" ;
+    ex:bibliography "F. Liret & D. Martinais : Algèbre, 1ère année : Cours et exercices avec solutions (Dunod)" ;
+    ex:code "XLG2MU060" ;
+    ex:content """Base et dimension d’un espace vectoriel ou d’un sous-espace vectoriel, théorème sur la dimension
+d'une somme de sous-espaces vectoriels de R^n.
+•""" ;
+    ex:evaluation "Algebre lineaire 1 et polynomes 100%" ;
+    ex:hours "TOTAL : 54h Répartition : CM : 18h TD : 36h CI : 0h TP : 0h EAD : 0h" ;
+    ex:language "Français" ;
+    ex:level "Licence" ;
+    ex:location "Nantes" ;
+    ex:methods "Langue d’enseignement Français" ;
+    ex:objective """(résultats d'apprentissage) Savoir déterminer les caractéristiques d’une applications linéaire (noyau, image et rang)
+•""" ;
+    ex:obtention "Programme" ;
+    ex:parcours "Info-Maths",
+        """L1 INFO Info Maths - parcours
+accompagne""",
+        "L1 Info-Maths CMI OPT/IM",
+        "L1 Informatique",
+        "Mecanique" ;
+    ex:prerequisite "(s)" ;
+    ex:responsible "PETIT ROBERT" ;
+    ex:semester "2" .
+
+ex:UE_XLG2TU060 a ex:UE ;
+    rdfs:label "Stage libre" ;
+    ex:bibliography "Dernière modification par PATRICIA BERTONCINI, le 2024-05-14 19:39:34" ;
+    ex:code "XLG2TU060" ;
+    ex:content "Méthodes d’enseignement" ;
+    ex:evaluation "Stage libre 100%" ;
+    ex:hours "TOTAL : 0h Répartition : CM : 0h TD : 0h CI : 0h TP : 0h EAD : 0h" ;
+    ex:language "Français" ;
+    ex:level "Licence" ;
+    ex:location "Niveau Licence" ;
+    ex:methods "Langue d’enseignement Français" ;
+    ex:objective "(résultats d'apprentissage)" ;
+    ex:obtention "Programme" ;
+    ex:parcours "",
+        "Chimie option Santé",
+        "L1 INFO option sante",
+        "L1 Physique",
+        "L1 SVT Sciences de la Vie et de la Terre" ;
+    ex:prerequisite "(s)" ;
+    ex:responsible "Volume horaire total TOTAL : 0h Répartition : CM : 0h TD : 0h CI : 0h TP : 0h EAD : 0h" ;
+    ex:semester "2" .
+
+ex:UE_XLG2TU090 a ex:UE ;
+    rdfs:label "Méthodologie et insertion professionnelle S2" ;
+    ex:bibliography "" ;
+    ex:code "XLG2TU090" ;
+    ex:content """- le travail de groupe et le travail en équipe
+- serious game à la BU
+sur le second semestre, 3 TD :
+- identifier ses préférences de fonctionnement avec ses compétences et points de vigilance
+- se projeter en prenant en compte ce que l'étudiant apprécie, sait faire et veut faire/vivre
+- réaliser un CV complet et identifier les éléments constitutifs indispensables""" ;
+    ex:evaluation "Méthodologie et insertion professionnelle 100%" ;
+    ex:hours "TOTAL : 4h Répartition : CM : 0h TD : 4h CI : 0h TP : 0h EAD : 0h" ;
+    ex:language "Français" ;
+    ex:level "Licence" ;
+    ex:location "Niveau Licence" ;
+    ex:methods "Test simplifié sur la personnalité" ;
+    ex:objective """(résultats d'apprentissage)
+fonctionnement
+- de comprendre le fonctionnement cérébral et les types de mémoire pour les exploiter au mieux
+- de collaborer dans le cadre d'un projet simple en communiquant avec ses collaborateurs
+- d'expliquer ses principaux points forts et points de vigilance
+- de réaliser une première version de Curriculum Vitae pour chercher un job étudiant ou un
+premier stage""" ;
+    ex:obtention "Programme" ;
+    ex:parcours "L1 PEIP 1 - Parcours étudiant ingénieur",
+        "L1 Physique",
+        "Parcours Scientifique Renforcé",
+        "sante" ;
+    ex:prerequisite "(s)" ;
+    ex:responsible "SCHAFFHAUSER ALICE" ;
+    ex:semester "2" .
+

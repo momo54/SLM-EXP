@@ -1,0 +1,128 @@
+code,label,location,level,semester,responsible,hours,prerequisite,parcours,evaluation,obtention,objective,content,methods,language,bibliography
+X31A060,Anglais pour la communication scientifique (info),UFR Sciences,Licence,5,BOURDON JEREMIE,TOTAL : 17.6h Répartition : CM : 0h TD : 16h CI : 0h TP : 0h EAD : 1.6h,"(s) Anglais 3 et 4, ou équivalent.","Maths Info / mineure CMI OPTIM,L3 Info : Informatique / mineure Informatique LAS3",Anglais pour la communication scientifique (info) 100%,"• an in-class test
+• your project work","(résultats d'apprentissage)
+replacer l’article dans son contexte et expliquer les enjeux de la recherche ou de la thématique
+abordée dans cet article.
+3. présenter son travail dans un anglais clair et phonologiquement approprié, en utilisant des outils
+de présentation adaptés et en communiquant avec un degré d’aisance et de spontanéité qui rende
+possible une interaction normale avec un locuteur natif, sans recours excessif aux notes.
+1. Développement du vocabulaire scientifique général
+2. Développement du vocabulaire scientifique de spécialité
+3. Analyse de textes scientifiques
+4. Développement de la capacité à adapter son discours à différentes situations de communication","scientifique
+4. Analyse de documents audio ou vidéo
+5. Pratique de l’oral en contexte
+6. Sensibilisation au système phonologique de l’anglais pour améliorer la prise de parole des
+étudiant-e-s",Mixte,Anglais,Aucun ouvrage obligatoire.
+X31M060,Systèmes dynamiques,Niveau Licence,Licence,5,WANG XUE-PING,TOTAL : 0h Répartition : CM : 0h TD : 0h CI : 0h TP : 0h EAD : 0h,(s),mineure CMI OPTIM,,,"(résultats d'apprentissage) comportement en temps grand ; établir lien avec les équations différentielles linéaires scalaires
+d’ordre 2.
+- déterminer la nature d’un équilibre (stable asymptotiquement stable) pour un système différentiel
+autonome.",Partie II : systèmes différentiels autonomes,Langue d’enseignement Français,Français,"Systèmes dynamiques, Jean Louis Pac, Dunod"
+X31M070,Probabilités numériques,Faculté des Sciences et Techniques,Licence,5,PIRIOU LAURENT,TOTAL : 44h Répartition : CM : 16h TD : 24h CI : 0h TP : 0h EAD : 4h,"(s) Intégration 1, Séries numériques et probabilités discrètes, Probabilités appliquées et statistiques",mineure CMI OPTIM,Probabilités numériques 100%,Programme,(résultats d'apprentissage) •,"Méthode de la fonction muette.
+•",Langue d’enseignement Français,Français,
+X31I010,Etude des algorithmes,Lombarderie,Licence,5,RAMPON JEAN-XAVIER,TOTAL : 46.2h Répartition : CM : 18h TD : 24h CI : 0h TP : 0h EAD : 4.2h,(s),"Maths Info / mineure CMI OPTIM,L3 Info : Informatique / mineure Informatique LAS3",Etude des algorithmes 100%,La note de contrôle continu peut contenir éventuellement une composante distancielle.,"(résultats d'apprentissage) - Être capable d'écrire formellement des réductions, simples, de NP-complétude
+- Savoir choisir des propriétés à vérifier pour prouver un algorithme et pour établir sa complexité
+temporelle
+- Savoir écrire, pour des algorithmes simples, des preuves de correction et des preuves de
+complexité temporelle
+- Être capable de travailler en groupe","Vérification de programme
+• Vérification dynamiques : aléatoire ; fonctionnelle ; structurelle
+• Vérification statique : informelle ; formelle (Hoare et Dijkstra) : correction, terminaison.",Langue d’enseignement Français,Français,
+X31I020,Algorithmique et Structures de données 3,Lombarderie,Licence,5,RUSU Irena,TOTAL : 46.2h Répartition : CM : 14h TD : 16h CI : 0h TP : 12h EAD : 4.2h,"(s)
+• Logique pour l'informatique (913 17 LG 4 INF UE 819)","Maths Info / mineure CMI OPTIM,L3 Maths : Maths / mineure CMI Ingéniérie Statistique _ CMI-",Algorithmique et Structures de données 3 100%,éventuellement une composante distancielle.,"(résultats d'apprentissage) •
+implémenter des algorithmes de parcours et de manipulation d’arbres (Application) ;
+•
+résoudre des problèmes simples de la théorie des graphes en employant une approche gloutonne
+lorsqu’elle est appropriée (Analyse) ;
+•
+calculer la complexité d'un algorithme en fonction des structures de données choisies (Synthèse) ;
+• choisir la structure de données la plus efficace pour la résolution d'un problème (Synthèse) ;","Structures de données arborescentes
+o monodimensionnelles : arbres binaires, arbres AVL, classes-union etc.","Distanciel : une partie de l’enseignement aura lieu en ligne, à l’aide de contenus mélangeant
+documents, tests d’auto-évaluation et échanges, sous le tutorat des enseignants.",Français,2010)
+X31I030,Langage et automates,Lombarderie,Licence,5,PERRIN MATTHIEU,TOTAL : 46.2h Répartition : CM : 14h TD : 20h CI : 0h TP : 8h EAD : 4.2h,(s),"Maths Info / mineure CMI OPTIM,L3 Info : Informatique / mineure Informatique LAS3",Langages et automates 100%,éventuellement une composante distancielle.,"(résultats d'apprentissage)
+- Savoir si un mot est engendré par une grammaire rationnelle, algébrique ou contextuelle
+- Connaître les propriétés d'un automate fini
+- Savoir rendre déterministe un automate fini
+- Savoir minimaliser le nombre d'états d'un automate fini déterministe
+- Savoir si un mot est accepté par un automate fini
+- Savoir transformer une grammaire rationnelle en une expression rationnelle ou en un automate
+fini et inversement",formes normales. Automates à pile et transducteurs finis.,Langue d’enseignement Français,Français,
+X31T060,Ouverture professionnelle - Informatique,Niveau Licence,Licence,5,PERCEVAUX MARIE-CHRISTINE,TOTAL : 17.6h Répartition : CM : 0h TD : 16h CI : 0h TP : 0h EAD : 1.6h,(s),"Maths Info / mineure CMI OPTIM,L3 Info : Informatique / mineure Informatique LAS3",Ouverture professionnelle - Informatique 100%,Programme,"(résultats d'apprentissage) - étudié une structure en particulier, en lien avec son projet professionnel
+- par le biais d’un jeu de rôle, pris conscience du rôle des différents services (RH, marketing,
+commercial,…) d’une structure dans le développement et le déploiement d’un projet
+- connaissance de ses droits et devoirs en tant que stagiaire et aura travaillé sur sa manière de
+s’intégrer et de s’adapter dans un nouveau milieu professionnel
+- connaissance de ce qu’est l’entreprenariat et des dispositifs en lien à l’université","4h00 : TD 4 : Simulations d’entretiens en sous-groupes autonomes et présentation du pitch
+(évaluation).
+4h00 : TD 5 : Les différentes structures et organisations possibles dans le monde du travail / Droits
+et devoirs du stagiaire.
+1h20 : TD 6 : L’après licence : en sous-groupes, argumentation de ses perspectives post-licence.","• Pédagogie inversée : réflexion individuelle à partir de supports. de réflexion et restitution en
+groupe, présentations orales faites par les étudiants.",Français,Lien LinkedIn : https://fr.linkedin.com/
+XLG5TU200,Stage libre,Niveau Licence,Licence,5,Volume horaire total TOTAL : 0h Répartition : CM : 0h TD : 0h CI : 0h TP : 0h EAD : 0h,TOTAL : 0h Répartition : CM : 0h TD : 0h CI : 0h TP : 0h EAD : 0h,(s),"Environnement BGE / mineure Environnement,L3 SVT : Sciences de la Terre et de l'Univers STU,L3",Stage libre 100%,Programme,(résultats d'apprentissage),Méthodes d’enseignement,Langue d’enseignement Français,Français,
+X32A060,Anglais Professionnel Informatique,UFR Sciences,Licence,6,Volume horaire total TOTAL : 17.6h Répartition : CM : 0h TD : 16h CI : 0h TP : 0h EAD : 1.6h,TOTAL : 17.6h Répartition : CM : 0h TD : 16h CI : 0h TP : 0h EAD : 1.6h,"(s) Anglais 3 et 4, ou équivalent.","Maths Info / mineure CMI OPTIM,L3 Info : Informatique / mineure Informatique LAS3",Anglais Professionnel Informatique 100%,"• an in-class test (listening comprehension)
+• your project work","(résultats d'apprentissage) 3. faire une présentation orale s’appuyant sur le travail de groupe préparé dans le rapport écrit, en
+s’exprimant dans un anglais clair et phonologiquement approprié et en communiquant avec un
+degré d’aisance et de spontanéité qui rende possible une interaction normale avec un locuteur natif,
+sans recours excessif aux notes
+4. utiliser des outils de présentation adaptés à la situation de communication
+5. répondre à des questions de compréhension sur des documents audio authentiques
+1. Développement du vocabulaire utilisé en anglais professionnel (vocabulaire susceptible d’être
+utilisé dans les tests TOEIC)
+2. Discussion des spécificités des CV aux États-Unis et en Grande-Bretagne
+3. Contenu d’une lettre de motivation",d’une lettre de motivation,Mixte,Anglais,Aucun ouvrage obligatoire
+X32M070,Inférence statistique,Faculté des Sciences et Techniques,Licence,6,PATUREL ERIC,TOTAL : 44h Répartition : CM : 16h TD : 24h CI : 0h TP : 0h EAD : 4h,(s),mineure CMI OPTIM,Inférence statistique 100%,Programme,"(résultats d'apprentissage) maximum de vraisemblance) qui s'y prête le mieux. Déterminer les caractéristiques de cet
+estimateur et discuter son efficacité.
+•","•
+borne de Cramer Rao, définition d'un estimateur efficace,
+asymptotiquement efficace. Exemples.",Langue d’enseignement Français,Français,
+X32M060,Optimisation,Faculté des Sciences et Techniques,Licence,6,PETIT ROBERT,TOTAL : 44h Répartition : CM : 16h TD : 24h CI : 0h TP : 0h EAD : 4h,(s),mineure CMI OPTIM,Optimisation 100%,Programme,"(résultats d'apprentissage) - établir les conditions nécessaires du premier ordre
+- analyser les conditions du second ordre pour un programme sans contraintes
+- déterminer la convexité d'ensembles et de fonctions
+- résoudre des programmes convexes
+•","Conditions du deuxième ordre (matrices bordantes)
+•",Langue d’enseignement Français,Français,
+X32I020,Programmation fonctionnelle,Lombarderie,Licence,6,TRUCHET CHARLOTTE,TOTAL : 46.2h Répartition : CM : 10h TD : 20h CI : 0h TP : 12h EAD : 4.2h,"(s) • Etude des algorithmes (913 17 LG 5 INF UE 820)
+• Langage et automates (913 17 LG 5 INF UE 1165)","Maths Info / mineure CMI OPTIM,L3 Info : Informatique / mineure Informatique LAS3",Programmation fonctionnelle 100%,éventuellement une composante distancielle.,"(résultats d'apprentissage) •
+concevoir et employer des fonctions d’ordre supérieure (Application) ;
+•
+employer la programmation par filtrage de motifs pour les traitements symboliques (Application) ;
+• expliquer et savoir simuler le mécanisme d’inférence de type (Compréhension) ;",•,"Distanciel : Le travail concernera l'inférence de type. Il sera éventuellement complété par un travail
+de programmation et/ou par un travail de découverte d'autres langages fonctionnels (que celui
+utilisé dans l'UE) ainsi que d'aspects fonctionnels présents dans des langages non fonctionnels",Français,
+X32I010,Informatique Fondamentale 2,Lombarderie,Licence,6,ENGUEHARD CHANTAL,TOTAL : 46.2h Répartition : CM : 20h TD : 22h CI : 0h TP : 0h EAD : 4.2h,(s),"Maths Info / mineure CMI OPTIM,L3 Info : Informatique / mineure Informatique LAS3",Informatique Fondamentale 2 100%,éventuellement une composante distancielle.,"(résultats d'apprentissage) - distinguer un problème décidable d'un problème indécidable
+- comprendre la résolution de problèmes par réduction
+- comprendre la construction des fonctions et prédicats récursifs primitifs
+- savoir faire une preuve par induction
+- savoir construire des objets inductivement
+- savoir construire des termes, les manipuler, et les transformer
+- comprendre le mécanisme d'unification
+- savoir ordonner des termes",Énumérations de Godel. Fonctions récursives.,Langue d’enseignement Français,Français,
+X32I030,Recherche opérationnelle,Lombarderie,Licence,6,PRZYBYLSKI ANTHONY,TOTAL : 46.2h Répartition : CM : 13.33h TD : 20.67h CI : 0h TP : 8h EAD : 4.2h,(s),"Maths / mineure CMI Ingéniérie Statistique _ CMI-IS,L3 Info : Maths Info / mineure CMI OPTIM,L3",Recherche opérationnelle 100%,éventuellement une composante distancielle.,"(résultats d'apprentissage)
+(A-M)
+- Connaître les notions de calendrier au plus tôt, calendrier au plus tard pour un ensemble de
+tâche, et la notion de marge d'une tâche dans le contexte d'un problème d'ordonnancement simple
+(M)
+- Etre capable de déterminer un calendrier au plus tôt, un calendrier au plus tard et les marges
+des tâches, dans le contexte d'un problème d'ordonnancement simple (A)
+- Introduction à la problématique de l'optimisation multi-objectif : connaissance de la notion de
+solution efficace, limite de l'utilisation de la somme pondérée (I)
+- Utilisation d'un langage de modélisation algébrique : comprendre la différence entre un modèle
+explicite et un modèle implicite (I)
+- Utilisation d'un langage de modélisation algébrique : être capable d'écrire un modèle implicite
+(A)
+- Utilisation d'un langage de modélisation algébrique : comprendre l'utilisation d'une structure de
+matrice creuse pour décrire des contraintes (I)
+- Utilisation d'un langage de modélisation algébrique : être capable d'utiliser une structure de
+matrice creuse pour décrire des contraintes (A)
+- Utilisation d'un langage de modélisation algébrique : être capable de détermine si le choix d'une
+matrice creuse est pertinent ou pas pour décrire des contraintes (A)
+- Utilisation d'un solveur MIP : comprendre l'utilisation d'un solveur MIP en tant que bibliothèque
+de fonction et être capable de l'utiliser pour résoudre un unique problème de programmation
+linéaire en variables mixtes (A)
+- Utilisation d'un solveur MIP : être capable d'implémenter un algorithme donné, en faisant des
+appels successifs à un solveur MIP pour résoudre un problème de programmation linéaire en
+variables mixtes (A)","fondamental :
+-",Langue d’enseignement Français,Français,
+X32I130,Projet d'informatique scientifique,Niveau Licence,Licence,6,GANDIBLEUX XAVIER,TOTAL : 4h Répartition : CM : 0h TD : 4h CI : 0h TP : 0h EAD : 0h,(s),"L3 Info : Maths Info / mineure Maths Info,L3 Info : Maths Info / mineure CMI OPTIM",Projet d'informatique scientifique 100%,Programme,(résultats d'apprentissage),du cours,Langue d’enseignement Français,Français,
+XLG6TU200,Stage libre,Niveau Licence,Licence,6,Volume horaire total TOTAL : 0h Répartition : CM : 0h TD : 0h CI : 0h TP : 0h EAD : 0h,TOTAL : 0h Répartition : CM : 0h TD : 0h CI : 0h TP : 0h EAD : 0h,(s),"de la Terre et de l'Univers STU,L3 SV : Sciences du Végétal et de l'Aliment LAS3,L3 SVT : Biologie
+Écologie _BE LAS3, L3 Chimie : Chimie / mineure Chimie Avancée LAS3,L3 Physique : Physique",Stage libre 100%,Programme,(résultats d'apprentissage),Méthodes d’enseignement,Langue d’enseignement Français,Français,"Dernière modification par ISABELLE BEAUDET, le 2020-05-27 19:02:49"

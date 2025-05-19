@@ -1,0 +1,525 @@
+@prefix ex: <http://example.org/course/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+ex:UE_XLG3AU010 a ex:UE ;
+    rdfs:label "2nd year English S3" ;
+    ex:bibliography "" ;
+    ex:code "XLG3AU010" ;
+    ex:content "Méthodes d’enseignement" ;
+    ex:evaluation "2nd year English S3 100%" ;
+    ex:hours "TOTAL : 16h Répartition : CM : 0h TD : 16h CI : 0h TP : 0h EAD : 0h" ;
+    ex:language "Français" ;
+    ex:level "Licence" ;
+    ex:location "Niveau Licence" ;
+    ex:methods "Langue d’enseignement Français" ;
+    ex:objective "(résultats d'apprentissage)" ;
+    ex:obtention "Programme" ;
+    ex:parcours "L2",
+        "L2 LAS Physique option Santé",
+        "L2 Physique CMI Physique-Mécanique",
+        "Physique-Mathématiques" ;
+    ex:prerequisite "(s)" ;
+    ex:responsible "KERVISION SYLVIE" ;
+    ex:semester "3" .
+
+ex:UE_XLG3IU010 a ex:UE ;
+    rdfs:label "Algorithmique et Structures de données 1" ;
+    ex:bibliography "•" ;
+    ex:code "XLG3IU010" ;
+    ex:content "et mise en pratique dans l’approche de résolution de problèmes « Diviser pour régner »." ;
+    ex:evaluation "Algorithmique et Structures de données 1 100%" ;
+    ex:hours "TOTAL : 40h Répartition : CM : 10.67h TD : 16h CI : 0h TP : 13.33h EAD : 0h" ;
+    ex:language """Français
+•""" ;
+    ex:level "Licence" ;
+    ex:location "Lombarderie" ;
+    ex:methods """Langue d’enseignement Français
+•""" ;
+    ex:objective """(résultats d'apprentissage)
+•
+Évaluer une implémentation de structure de données en temps et en place mémoire (coûts minimal,
+maximal, amorti)
+•""" ;
+    ex:obtention "une ou plusieurs composantes orales." ;
+    ex:parcours "option santé" ;
+    ex:prerequisite """(s)
+• Fonctionnement des ordinateurs (913 17 LG 2 INF UE 1266)""" ;
+    ex:responsible "RUSU Irena" ;
+    ex:semester "3" .
+
+ex:UE_XLG3IU020 a ex:UE ;
+    rdfs:label "Logique pour l'informatique" ;
+    ex:bibliography "- David, R., Nour K., and Raffalli, (2001) C. Introduction à la Logique, Théorie de la démonstration." ;
+    ex:code "XLG3IU020" ;
+    ex:content """• Interprétation, modèle, satisfiabilité, validité
+• Correspondance avec le système de preuve: correction et complétude
+4) Calcul des prédicats
+• Manipulation des quantificateurs
+• Skolémisation, forme clausale
+• Théorie logique
+5) Raisonner automatiquement sur les formules logique
+• Algorithme d'unification
+• Algorithme de résolution""" ;
+    ex:evaluation "Logique pour l'informatique 100%" ;
+    ex:hours "TOTAL : 40h Répartition : CM : 16h TD : 24h CI : 0h TP : 0h EAD : 0h" ;
+    ex:language """Français
+- Jaume, M., Journault M., Lésot M.-J., Manoury P., Mounier I. (2020) Logique pour l'informatique.""" ;
+    ex:level "Licence" ;
+    ex:location "Lombarderie" ;
+    ex:methods "Enseignement en présentiel" ;
+    ex:objective """(résultats d'apprentissage)
+consistance et complétude d'un système de preuves.
+4. Représenter une preuve de la déduction naturelle sous forme d'arbre d'inférence.
+5. Utiliser les algorithmes d'unification et de résolution pour le raisonnement automatique sur les
+formules logiques.
+1) Raisonnement algébrique booléen
+• Dualités des connecteurs logiques
+• Formes normales conjonctive et disjonctive
+2) Systèmes de preuves
+• Système d'inférence associé à une définition inductive
+• Preuve d'appartenance à un ensemble inductif par un arbre de preuves
+• Règles d'inférences de la déduction naturelle pour la logique propositionnelle
+• Distinguer logique classique et logique intuitionniste
+3) Donner du sens aux langages logique""" ;
+    ex:obtention """La note de CCE peut contenir une ou plusieurs composantes pratiques et éventuellement une ou
+plusieurs composantes orales.""" ;
+    ex:parcours "L2 Maths CMI Ingénierie Statistique",
+        "option santé" ;
+    ex:prerequisite "(s)" ;
+    ex:responsible "JABER GUILHEM" ;
+    ex:semester "3" .
+
+ex:UE_XLG3IU030 a ex:UE ;
+    rdfs:label "Programmation à Objets" ;
+    ex:bibliography "Matt Weisfeld. The Object-Oriented Thought Process. Addison-Wesley, 5th edition, 2019." ;
+    ex:code "XLG3IU030" ;
+    ex:content "Classes abstraites" ;
+    ex:evaluation "Programmation à Objets 100%" ;
+    ex:hours "TOTAL : 40h Répartition : CM : 8h TD : 20h CI : 0h TP : 12h EAD : 0h" ;
+    ex:language "Français" ;
+    ex:level "Licence" ;
+    ex:location "Lombarderie" ;
+    ex:methods "Distanciel : Apprentissage en autonomie d'éléments complémentaires aux cours en présentiel." ;
+    ex:objective "(résultats d'apprentissage) Connaître les mécanismes d’héritage et de polymorphisme" ;
+    ex:obtention "une ou plusieurs composantes orales." ;
+    ex:parcours "OPT/IM" ;
+    ex:prerequisite """(s)
+• Introduction au développement logiciel (913 17 LG 2 INF UE 1495)""" ;
+    ex:responsible "GRANVILLIERS LAURENT" ;
+    ex:semester "3" .
+
+ex:UE_XLG3IU040 a ex:UE ;
+    rdfs:label "Bases de données 2" ;
+    ex:bibliography "•" ;
+    ex:code "XLG3IU040" ;
+    ex:content """Vues et contrôle d’accès
+5.""" ;
+    ex:evaluation "Bases de données 2 100%" ;
+    ex:hours "TOTAL : 40h Répartition : CM : 10.67h TD : 16h CI : 0h TP : 13.33h EAD : 0h" ;
+    ex:language """Français
+•""" ;
+    ex:level "Licence" ;
+    ex:location "Lombarderie" ;
+    ex:methods "L’enseignement se fait en CM, TD et TP en présentiel." ;
+    ex:objective "(résultats d'apprentissage) Programmer en un langage procédurale lié à une base de données, par exemple PL/SQL ou" ;
+    ex:obtention "une ou plusieurs composantes orales." ;
+    ex:parcours "L2 Informatique",
+        "L2 LAS Informatique option santé" ;
+    ex:prerequisite "(s)" ;
+    ex:responsible "MONTOYA Gabriela" ;
+    ex:semester "3" .
+
+ex:UE_XLG3MU050 a ex:UE ;
+    rdfs:label "Introduction aux probabilités" ;
+    ex:bibliography "•" ;
+    ex:code "XLG3MU050" ;
+    ex:content """Définition et calcul de la probabilité conditionnelle
+•""" ;
+    ex:evaluation "Introduction aux probabilités 100%" ;
+    ex:hours "TOTAL : 40h Répartition : CM : 16h TD : 24h CI : 0h TP : 0h EAD : 0h" ;
+    ex:language """Français
+•""" ;
+    ex:level "Licence" ;
+    ex:location "Lombarderie" ;
+    ex:methods "Enseignement en présentiel" ;
+    ex:objective """(résultats d'apprentissage)
+•""" ;
+    ex:obtention """La note de CCE peut contenir une ou plusieurs composantes pratiques et éventuellement une ou
+plusieurs composantes orales.""" ;
+    ex:parcours "L2 Informatique",
+        "L2 LAS Informatique option santé" ;
+    ex:prerequisite "(s)" ;
+    ex:responsible "PERRIN MATTHIEU" ;
+    ex:semester "3" .
+
+ex:UE_XLG3TU010 a ex:UE ;
+    rdfs:label "Methodologie et insertion professionnelle S3" ;
+    ex:bibliography "" ;
+    ex:code "XLG3TU010" ;
+    ex:content "Méthodes d’enseignement" ;
+    ex:evaluation "Methodologie et insertion professsionelle : PPE 100%" ;
+    ex:hours "TOTAL : 4h Répartition : CM : 0h TD : 4h CI : 0h TP : 0h EAD : 0h" ;
+    ex:language "Français" ;
+    ex:level "Licence" ;
+    ex:location "Niveau Licence" ;
+    ex:methods "Langue d’enseignement Français" ;
+    ex:objective "(résultats d'apprentissage)" ;
+    ex:obtention "Programme" ;
+    ex:parcours "Chimie",
+        "Economie",
+        "L2 Informatique",
+        "L2 MIASHS",
+        "L2 Physique",
+        "Physique-" ;
+    ex:prerequisite "(s)" ;
+    ex:responsible "LABBE LUCILE" ;
+    ex:semester "3" .
+
+ex:UE_XLG3TU020 a ex:UE ;
+    rdfs:label "Enjeux de la transition écologique" ;
+    ex:bibliography "Cf page Madoc du module" ;
+    ex:code "XLG3TU020" ;
+    ex:content "Programme des 9 séances en ligne (d’environ 1h30 de travail chacune) :" ;
+    ex:evaluation "Enjeux de la transition écologique 100%" ;
+    ex:hours "TOTAL : 18h Répartition : CM : 12.667h TD : 5.333h CI : 0h TP : 0h EAD : 0h" ;
+    ex:language "Français" ;
+    ex:level "Licence" ;
+    ex:location "Niveau Licence" ;
+    ex:methods """- 9 séances de cours en ligne
+- 3 séances de TD en fin de module, spécifiques à chaque parcours""" ;
+    ex:objective "(résultats d'apprentissage)" ;
+    ex:obtention "Programme" ;
+    ex:parcours "Chimie",
+        "Economie",
+        "L2 Informatique",
+        "L2 MIASHS",
+        "L2 Physique",
+        "Physique-" ;
+    ex:prerequisite "(s)" ;
+    ex:responsible "DUMAY JUSTINE" ;
+    ex:semester "3" .
+
+ex:UE_XLG3TU030 a ex:UE ;
+    rdfs:label "Stage libre" ;
+    ex:bibliography "" ;
+    ex:code "XLG3TU030" ;
+    ex:content "Méthodes d’enseignement" ;
+    ex:evaluation "Stage libre 100%" ;
+    ex:hours "TOTAL : 0h Répartition : CM : 0h TD : 0h CI : 0h TP : 0h EAD : 0h" ;
+    ex:language "Français" ;
+    ex:level "Licence" ;
+    ex:location "Niveau Licence" ;
+    ex:methods "Langue d’enseignement Français" ;
+    ex:objective "(résultats d'apprentissage)" ;
+    ex:obtention "Programme" ;
+    ex:parcours "",
+        "Info-Maths",
+        "L2 Info-Maths CMI OPT/IM",
+        "L2 Informatique",
+        """L2 LAS Informatique
+option santé""",
+        "L2 LAS Mathématiques option Santé",
+        "L2 MIASHS",
+        "L2 Maths CMI Ingénierie Statistique",
+        "option Santé" ;
+    ex:prerequisite "(s)" ;
+    ex:responsible "Volume horaire total TOTAL : 0h Répartition : CM : 0h TD : 0h CI : 0h TP : 0h EAD : 0h" ;
+    ex:semester "3" .
+
+ex:UE_XLG3TU040 a ex:UE ;
+    rdfs:label "Connaissance de l'entreprise" ;
+    ex:bibliography "" ;
+    ex:code "XLG3TU040" ;
+    ex:content "Approche économique de l’entreprise" ;
+    ex:evaluation "Connaissance de l'entreprise 100%" ;
+    ex:hours "TOTAL : 36h Répartition : CM : 0h TD : 0h CI : 36h TP : 0h EAD : 0h" ;
+    ex:language "Français" ;
+    ex:level "Licence" ;
+    ex:location "Lombarderie" ;
+    ex:methods "cours au travers d’activités et de situations pédagogiques variées." ;
+    ex:objective """(résultats d'apprentissage)
+l’entreprise dans son environnement)""" ;
+    ex:obtention "une ou plusieurs composantes orales." ;
+    ex:parcours "L2 Informatique",
+        "L2 LAS Informatique option santé" ;
+    ex:prerequisite "(s)" ;
+    ex:responsible "CATALO MARIE" ;
+    ex:semester "3" .
+
+ex:UE_XLG4AU010 a ex:UE ;
+    rdfs:label "2nd year English S4" ;
+    ex:bibliography "" ;
+    ex:code "XLG4AU010" ;
+    ex:content "Méthodes d’enseignement" ;
+    ex:evaluation "2nd year English S4 100%" ;
+    ex:hours "TOTAL : 16h Répartition : CM : 0h TD : 16h CI : 0h TP : 0h EAD : 0h" ;
+    ex:language "Français" ;
+    ex:level "Licence" ;
+    ex:location "Niveau Licence" ;
+    ex:methods "Langue d’enseignement Français" ;
+    ex:objective "(résultats d'apprentissage)" ;
+    ex:obtention "Programme" ;
+    ex:parcours "",
+        "L2 SVT",
+        "LAS SVT Biologie Ecologie option Santé",
+        "Sciences de l'environnement" ;
+    ex:prerequisite "(s)" ;
+    ex:responsible "KERVISION SYLVIE" ;
+    ex:semester "4" .
+
+ex:UE_XLG4IU010 a ex:UE ;
+    rdfs:label "Algorithmique et Structures de données 2" ;
+    ex:bibliography """Donald E. Knuth. The Art of Programming - Volume 1: Fundamental Algorithms. Addison-Wesley,
+1997.""" ;
+    ex:code "XLG4IU010" ;
+    ex:content "Structures de données non-linéaires associatives (table associative, ensemble, classe-union)" ;
+    ex:evaluation "Algorithmique et Structures de données 2 100%" ;
+    ex:hours "TOTAL : 40h Répartition : CM : 8h TD : 20h CI : 0h TP : 12h EAD : 0h" ;
+    ex:language "Français" ;
+    ex:level "Licence" ;
+    ex:location "Lombarderie" ;
+    ex:methods "Enseignement en présentiel" ;
+    ex:objective """(résultats d'apprentissage)
+données (itératifs et récursifs)""" ;
+    ex:obtention "une ou plusieurs composantes orales." ;
+    ex:parcours "OPT/IM" ;
+    ex:prerequisite """(s) • Informatique fondamentale 1 (913 17 LG 3 INF UE 814)
+• Programmation orientée objets (913 17 LG 3 INF UE 1160)""" ;
+    ex:responsible "GRANVILLIERS LAURENT" ;
+    ex:semester "4" .
+
+ex:UE_XLG4IU020 a ex:UE ;
+    rdfs:label "Langages et automates" ;
+    ex:bibliography "and Tools) de Alfred V. Aho, Ravi Sethi, Jeffrey D. Ullman et Monica S. Lam (2ème édition)" ;
+    ex:code "XLG4IU020" ;
+    ex:content """• Langages algébriques
+- Grammaire algébrique
+- Arbre de dérivation
+- Automates à pile
+• Hiérarchie de Chomsky
+- Classification des grammaires;
+- Algorithmes de reconnaissance pour les grammaires de type 1 et 2
+• Analyse lexicale et syntaxique
+- TP de flex et bison""" ;
+    ex:evaluation "Langages et automates 100%" ;
+    ex:hours "TOTAL : 40h Répartition : CM : 13.33h TD : 18.67h CI : 0h TP : 8h EAD : 0h" ;
+    ex:language "Français" ;
+    ex:level "Licence" ;
+    ex:location "Lombarderie" ;
+    ex:methods "Enseignement en présentiel" ;
+    ex:objective """(résultats d'apprentissage)
+5.""" ;
+    ex:obtention """La note de CCE peut contenir une ou plusieurs composantes pratiques et éventuellement une ou
+plusieurs composantes orales.""" ;
+    ex:parcours "OPT/IM" ;
+    ex:prerequisite "(s)" ;
+    ex:responsible "BECHET Denis" ;
+    ex:semester "4" .
+
+ex:UE_XLG4IU030 a ex:UE ;
+    rdfs:label "Systèmes d'exploitation" ;
+    ex:bibliography "Collection Sciences Sup, janvier 2016, 384 pages." ;
+    ex:code "XLG4IU030" ;
+    ex:content """par le système d'exploitation y sont exposées : comment les processus se partagent-ils l'accès au
+processeur ? Comment se synchronisent-ils et quels mécanismes leur permettent d'échanger des
+données ? Comment sont gérés la mémoire et les entrées/sorties ?""" ;
+    ex:evaluation "Systèmes d'exploitation 100%" ;
+    ex:hours "TOTAL : 40h Répartition : CM : 9.33h TD : 14.67h CI : 0h TP : 16h EAD : 0h" ;
+    ex:language "Français" ;
+    ex:level "Licence" ;
+    ex:location "Lombarderie" ;
+    ex:methods "Langue d’enseignement Français" ;
+    ex:objective """(résultats d'apprentissage)
+synchronisation/communication (Application)
+• Etre capable d'utiliser les mécanismes de synchronisation usuels sous Linux (sémaphores,
+mutexes, signaux) (Application)
+• Comprendre le principe de mémoire virtuelle (Initiation)
+• Savoir gérer les entrées/sorties sous Linux (Initiation)""" ;
+    ex:obtention "Programme" ;
+    ex:parcours "OPT/IM" ;
+    ex:prerequisite "(s) Fonctionnement des ordinateurs (X12I020)" ;
+    ex:responsible "PERRIN MATTHIEU" ;
+    ex:semester "4" .
+
+ex:UE_XLG4IU050 a ex:UE ;
+    rdfs:label "Développement web client" ;
+    ex:bibliography "" ;
+    ex:code "XLG4IU050" ;
+    ex:content """approfondir les connaissances dans le langage TypeScript, déjà vu en L1
+présenter un framework de développement web écrit en TypeScript, comme Angular ou Vue.""" ;
+    ex:evaluation "Développement web client 100%" ;
+    ex:hours "TOTAL : 40h Répartition : CM : 13.34h TD : 13.33h CI : 0h TP : 13.33h EAD : 0h" ;
+    ex:language "Français" ;
+    ex:level "Licence" ;
+    ex:location "Lombarderie" ;
+    ex:methods "Langue d’enseignement Français" ;
+    ex:objective "(résultats d'apprentissage)" ;
+    ex:obtention "Programme" ;
+    ex:parcours "L2 Informatique",
+        "L2 LAS Informatique option santé" ;
+    ex:prerequisite "(s)" ;
+    ex:responsible "Volume horaire total TOTAL : 40h Répartition : CM : 13.34h TD : 13.33h CI : 0h TP : 13.33h EAD : 0h" ;
+    ex:semester "4" .
+
+ex:UE_XLG4IU060 a ex:UE ;
+    rdfs:label "Création numérique" ;
+    ex:bibliography "" ;
+    ex:code "XLG4IU060" ;
+    ex:content """- principaux supports de création numérique et limitations associées (bitmap,vectoriel, 2D, 3D,
+découpes, impressions, machine outils numériques,etc.);
+- principaux formats compris par les outils de création et les conséquences sur la création;
+- paradigmes de création numérique (impératif, événementiel, émergeant, etc.);""" ;
+    ex:evaluation "Création numérique 100%" ;
+    ex:hours "TOTAL : 32h Répartition : CM : 5.34h TD : 13.33h CI : 0h TP : 13.33h EAD : 0h" ;
+    ex:language "Français" ;
+    ex:level "Licence" ;
+    ex:location "Lombarderie" ;
+    ex:methods "Travaux Pratiques sur machine" ;
+    ex:objective """(résultats d'apprentissage)
+- lister les principaux formats compris par les outils de création (Connaissance) ;
+- estimer les conséquences de choix de format sur la création (Analyse) ;
+- décrire les principaux paradigmes de création numérique (connaissance) ;
+- programmer une application de création numérique répondant à un cahier des
+charges (Application) ;
+- concevoir un algorithme engendrant une création dans un format imposé (Application) ;""" ;
+    ex:obtention "une ou plusieurs composantes orales." ;
+    ex:parcours "L2 Informatique",
+        "L2 LAS Informatique option santé" ;
+    ex:prerequisite """(s) • Mathématiques pour l'informatique 1 (913 17 LG 3 MA UE 919)
+• Logique, dénombrement et suites numériques (913 17 LG 2 MA UE 725)
+• Algèbre linéaire pour info (913 17 LG 2 MA UE 731)""" ;
+    ex:responsible "ENGUEHARD CHANTAL" ;
+    ex:semester "4" .
+
+ex:UE_XLG4IU070 a ex:UE ;
+    rdfs:label "Simulation de gestion" ;
+    ex:bibliography "" ;
+    ex:code "XLG4IU070" ;
+    ex:content """Simulation de la gestion ou jeu d’entreprise sur plusieurs exercices d’une entreprise dans un milieu
+concurrentiel avec un focus sur les décisions de marketing.""" ;
+    ex:evaluation "Simulation de gestion 100%" ;
+    ex:hours "TOTAL : 32h Répartition : CM : 0h TD : 0h CI : 12h TP : 20h EAD : 0h" ;
+    ex:language "Français" ;
+    ex:level "Licence" ;
+    ex:location "Lombarderie" ;
+    ex:methods """décisions et faire le tri dans toutes les informations disponibles. La méthode d’enseignement
+consiste à exploiter cette situation qui génère une demande de la part des étudiants soit dans le
+cadre d’échanges avec chaque groupe-entreprise soit d’échanges avec l’ensemble des entreprises.""" ;
+    ex:objective """(résultats d'apprentissage) conséquences.
+• Pouvoir s’exprimer spontanément, très couramment, de façon précise et rendre distinctes de
+fines nuances de sens en rapport avec les sujets abordés.
+• Être capable de raisonner par soi-même.""" ;
+    ex:obtention """des pratiques fera l’objet d’un rapport écrit et d’une soutenance orale expliquant le pourquoi et le
+comment du niveau de performance atteint par leur entreprise.""" ;
+    ex:parcours "L2 Informatique",
+        "L2 LAS Informatique option santé" ;
+    ex:prerequisite "(s) Module « connaissance d’entreprise »" ;
+    ex:responsible "CATALO MARIE" ;
+    ex:semester "4" .
+
+ex:UE_XLG4MU060 a ex:UE ;
+    rdfs:label "Algèbre linéaire" ;
+    ex:bibliography "Boyd, Vandenberghe : Introduction to Applied Linear Algebra." ;
+    ex:code "XLG4MU060" ;
+    ex:content "•" ;
+    ex:evaluation "Algèbre linéaire 100%" ;
+    ex:hours "TOTAL : 40h Répartition : CM : 16h TD : 24h CI : 0h TP : 0h EAD : 0h" ;
+    ex:language "Français" ;
+    ex:level "Licence" ;
+    ex:location "Lombarderie" ;
+    ex:methods "Présentiel : Cours, TD." ;
+    ex:objective """(résultats d'apprentissage) Appliquer un algorithme adéquat pour résoudre un système linéaire
+•""" ;
+    ex:obtention """La note de CCE peut contenir une ou plusieurs composantes pratiques et éventuellement une ou
+plusieurs composantes orales.""" ;
+    ex:parcours "L2 Informatique",
+        "L2 LAS Informatique option santé" ;
+    ex:prerequisite "(s)" ;
+    ex:responsible "CANTIN GUILLAUME" ;
+    ex:semester "4" .
+
+ex:UE_XLG4TU010 a ex:UE ;
+    rdfs:label "Methodologie et insertion professionnelle S4" ;
+    ex:bibliography "XLG4TE012 Methodologie et insertion professionnelle : PPE 2" ;
+    ex:code "XLG4TU010" ;
+    ex:content """- présentation orale de la restitution de l'enquête et des recherches sur le métier
+- équivalent de 8 TD + présentation orale des enquêtes:
+- identication de ses valeurs
+- indentification de ses compétences
+- consrtruction de son projet professionnel et personnel
+- présentation de son projet""" ;
+    ex:evaluation "Methodologie et insertion professionnelle : PPE 2 0%" ;
+    ex:hours "TOTAL : 10.67h Répartition : CM : 0h TD : 10.67h CI : 0h TP : 0h EAD : 0h" ;
+    ex:language "Français" ;
+    ex:level "Licence" ;
+    ex:location "Niveau Licence" ;
+    ex:methods "skills)" ;
+    ex:objective """(résultats d'apprentissage)
+faire et savoir-être) et d'un plan d'actions sur les prochaines années : à l'écrit et à l'oral
+- d'identitier et d'animer son réseau (professionnel et élargi)
+- de créer et de faire vivre ses profils numériques professionnels
+- de mener une enquête métier auprès d'un professionnel et de la restituer""" ;
+    ex:obtention """• une évaluation de la restitution de leur poster métier (suite à un entretien avec un professionnel,
+les étudiants, en groupe de 3 à 4, doivent en faire une restitution avec support et présentation
+orale).""" ;
+    ex:parcours "Info-Maths",
+        "Informatique",
+        "L2 LAS Informatique option santé",
+        "L2 LAS SVT Biologie Ecologie option" ;
+    ex:prerequisite "(s)" ;
+    ex:responsible "LABBE LUCILE" ;
+    ex:semester "4" .
+
+ex:UE_XLG4TU020 a ex:UE ;
+    rdfs:label "Unité Enseignement de Découverte" ;
+    ex:bibliography "XLG4TE101 Sport" ;
+    ex:code "XLG4TU020" ;
+    ex:content "Méthodes d’enseignement" ;
+    ex:evaluation "Controverses scient. et techniques dans l’histoire 0%" ;
+    ex:hours "TOTAL : 16h Répartition : CM : 0h TD : 0h CI : 16h TP : 0h EAD : 0h" ;
+    ex:language "Français" ;
+    ex:level "Licence" ;
+    ex:location "Niveau Licence" ;
+    ex:methods "Bibliographie" ;
+    ex:objective "(résultats d'apprentissage)" ;
+    ex:obtention """Programme
+- UED (XLG4TE020)
+- Sport (XLG4TE101)
+- Danse et maths (XLG4TE102)
+- L'environnement est ma santé (XLG4TE103)
+- Science, culture, société (XLG4TE104)
+- Techniques d’imagerie de l’infiniment petit (XLG4TE105)
+- Présentation de l'UFR Sciences et Techniques (XLG4TE106)
+- Publication scientifique et mécaniques du livre (XLG4TE107)""" ;
+    ex:parcours "Chimie-Biologie",
+        "Economie",
+        "L2",
+        "L2 Chimie",
+        "L2 LAS Chimie option Santé",
+        "MIASHS" ;
+    ex:prerequisite "(s)" ;
+    ex:responsible "Volume horaire total TOTAL : 16h Répartition : CM : 0h TD : 0h CI : 16h TP : 0h EAD : 0h" ;
+    ex:semester "4" .
+
+ex:UE_XLG4TU030 a ex:UE ;
+    rdfs:label "Stage libre" ;
+    ex:bibliography "Dernière modification par PATRICIA BERTONCINI, le 2024-08-23 12:41:45" ;
+    ex:code "XLG4TU030" ;
+    ex:content "Méthodes d’enseignement" ;
+    ex:evaluation "Stage libre 100%" ;
+    ex:hours "TOTAL : 0h Répartition : CM : 0h TD : 0h CI : 0h TP : 0h EAD : 0h" ;
+    ex:language "Français" ;
+    ex:level "Licence" ;
+    ex:location "Niveau Licence" ;
+    ex:methods "Langue d’enseignement Français" ;
+    ex:objective "(résultats d'apprentissage)" ;
+    ex:obtention "Programme" ;
+    ex:parcours "Info-Maths",
+        "L2 Info-Maths CMI",
+        "L2 Informatique",
+        "L2 LAS Informatique option santé",
+        "option Santé" ;
+    ex:prerequisite "(s)" ;
+    ex:responsible "Volume horaire total TOTAL : 0h Répartition : CM : 0h TD : 0h CI : 0h TP : 0h EAD : 0h" ;
+    ex:semester "4" .
+
