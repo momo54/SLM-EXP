@@ -1,0 +1,70 @@
+@prefix ns1: <http://align.org/> .
+@prefix ns2: <http://example.org/course/> .
+@prefix ns3: <http://provo.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ns2:UE_Inconnu ns1:to [ ns1:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Society_Ethics_and_the_Profession_SEP/SEP-Methods_for_Ethical_Analysis.txt> ;
+            ns1:score "0.6924315"^^xsd:float ;
+            ns2:answer "0" ;
+            ns2:explain "Lecture focuses narrowly on research ethics, while KU requires broader coverage of multiple ethical frameworks, cultural contexts, and analytical methods not explicitly mentioned." ;
+            ns2:ka "Society_Ethics_and_the_Profession_SEP" ;
+            ns2:ku "SEP-Methods_for_Ethical_Analysis" ;
+            ns3:wasGeneratedBy [ ns3:used "qwen-qwq-32b" ] ],
+        [ ns1:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Human_Computer_Interaction_HCI/HCI-Evaluation_Evaluating_the_Design.txt> ;
+            ns1:score "0.7026297"^^xsd:float ;
+            ns2:answer "0" ;
+            ns2:explain "The lecture covers ethics and research guidelines, which are part of the KU, but does not address the broader evaluation methods, study planning, and statistical techniques detailed in the KU." ;
+            ns2:ka "Human_Computer_Interaction_HCI" ;
+            ns2:ku "HCI-Evaluation_Evaluating_the_Design" ;
+            ns3:wasGeneratedBy [ ns3:used "deepseek-r1-distill-llama-70b" ] ],
+        [ ns1:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Human_Computer_Interaction_HCI/HCI-Evaluation_Evaluating_the_Design.txt> ;
+            ns1:score "0.7026297"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "The lecture covers the core topics of research methodology and case study, including ethics of research, evaluation methods, and study planning, which aligns with the majority of the Knowledge Unit's content." ;
+            ns2:ka "Human_Computer_Interaction_HCI" ;
+            ns2:ku "HCI-Evaluation_Evaluating_the_Design" ;
+            ns3:wasGeneratedBy [ ns3:used "llama3-8b-8192" ] ],
+        [ ns1:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Artificial_Intelligence_AI/AI-ML_Machine_Learning.txt> ;
+            ns1:score "0.6832884"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "The lecture covers a significant portion of the KU, including topics such as machine learning, supervised and unsupervised learning, neural networks, and ethics." ;
+            ns2:ka "Artificial_Intelligence_AI" ;
+            ns2:ku "AI-ML_Machine_Learning" ;
+            ns3:wasGeneratedBy [ ns3:used "llama3-8b-8192" ] ],
+        [ ns1:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Society_Ethics_and_the_Profession_SEP/SEP-Methods_for_Ethical_Analysis.txt> ;
+            ns1:score "0.6924315"^^xsd:float ;
+            ns2:answer "0" ;
+            ns2:explain "The lecture focuses on research ethics but does not cover the full scope of ethical theories, frameworks, and cultural considerations outlined in the KU." ;
+            ns2:ka "Society_Ethics_and_the_Profession_SEP" ;
+            ns2:ku "SEP-Methods_for_Ethical_Analysis" ;
+            ns3:wasGeneratedBy [ ns3:used "deepseek-r1-distill-llama-70b" ] ],
+        [ ns1:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Artificial_Intelligence_AI/AI-ML_Machine_Learning.txt> ;
+            ns1:score "0.6832884"^^xsd:float ;
+            ns2:answer "0" ;
+            ns2:explain "Lecture covers core concepts but lacks depth on algorithms, math, and advanced topics like specific models, learning theory, and detailed evaluation metrics." ;
+            ns2:ka "Artificial_Intelligence_AI" ;
+            ns2:ku "AI-ML_Machine_Learning" ;
+            ns3:wasGeneratedBy [ ns3:used "qwen-qwq-32b" ] ],
+        [ ns1:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Artificial_Intelligence_AI/AI-ML_Machine_Learning.txt> ;
+            ns1:score "0.6832884"^^xsd:float ;
+            ns2:answer "0" ;
+            ns2:explain "The lecture focuses on research ethics, which is only a small part of the comprehensive KU covering various machine learning topics." ;
+            ns2:ka "Artificial_Intelligence_AI" ;
+            ns2:ku "AI-ML_Machine_Learning" ;
+            ns3:wasGeneratedBy [ ns3:used "deepseek-r1-distill-llama-70b" ] ],
+        [ ns1:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Human_Computer_Interaction_HCI/HCI-Evaluation_Evaluating_the_Design.txt> ;
+            ns1:score "0.7026297"^^xsd:float ;
+            ns2:answer "0" ;
+            ns2:explain "Lecture focuses on research ethics, while KU covers broader evaluation methods, study design, and statistical analysis not fully addressed." ;
+            ns2:ka "Human_Computer_Interaction_HCI" ;
+            ns2:ku "HCI-Evaluation_Evaluating_the_Design" ;
+            ns3:wasGeneratedBy [ ns3:used "qwen-qwq-32b" ] ],
+        [ ns1:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Society_Ethics_and_the_Profession_SEP/SEP-Methods_for_Ethical_Analysis.txt> ;
+            ns1:score "0.6924315"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "The lecture covers the core concepts of ethics in research, including ethical theories, principles, and frameworks, as well as the importance of cultural context and critical thinking." ;
+            ns2:ka "Society_Ethics_and_the_Profession_SEP" ;
+            ns2:ku "SEP-Methods_for_Ethical_Analysis" ;
+            ns3:wasGeneratedBy [ ns3:used "llama3-8b-8192" ] ] .
+
+

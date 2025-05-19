@@ -1,0 +1,298 @@
+@prefix ex: <http://example.org/course/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+ex:UE_XMS3IU020 a ex:UE ;
+    rdfs:label "Gestion des données distribuées à large échelle" ;
+    ex:bibliography "" ;
+    ex:code "XMS3IU020" ;
+    ex:content "Méthodes d’enseignement" ;
+    ex:evaluation "Gestion des données distribuées à large échelle 100%" ;
+    ex:hours "TOTAL : 24h Répartition : CM : 12h TD : 12h CI : 0h TP : 0h EAD : 0h" ;
+    ex:language "Français" ;
+    ex:level "Master" ;
+    ex:location "Niveau Master" ;
+    ex:methods "Langue d’enseignement Français" ;
+    ex:objective "(résultats d'apprentissage)" ;
+    ex:obtention """Programme
+• To understand how big are big data and how distributed infrastructures are able to handle them
+• To understand why traditional databases cannot handle big data
+• To know online transaction processing, online analytical processing and streaming processing on
+big data.
+• To know representative distributed datastore for big data OLTP ie. CouchBase, Google BigTable...
+• To know how to program with Map-Reduce, resilient data structures, and stream processing ie.""" ;
+    ex:parcours "(ATAL)" ;
+    ex:prerequisite "(s)" ;
+    ex:responsible "MOLLI PASCAL" ;
+    ex:semester "3" .
+
+ex:UE_XMS3IU200 a ex:UE ;
+    rdfs:label "Modélisation des langues" ;
+    ex:bibliography """Linguistics. Synthesis Lectures on Human Language Technologies, Morgan & Claypool Publishers
+2015""" ;
+    ex:code "XMS3IU200" ;
+    ex:content """adversarial, adaptation au domaine, Parameter-Efficient Fine-Tuning)
+• Représentation profonde des mots, des phrases, des séquences longues
+• Injection de connaissances, augmentation de données
+• Analyse et interprétabilité (biais)""" ;
+    ex:evaluation "Modélisation des langues 100%" ;
+    ex:hours "TOTAL : 24h Répartition : CM : 16h TD : 8h CI : 0h TP : 0h EAD : 0h" ;
+    ex:language "Français" ;
+    ex:level "Master" ;
+    ex:location "Nantes" ;
+    ex:methods "Cours magistraux, travaux tirigés et mini projets" ;
+    ex:objective """(résultats d'apprentissage)
+• Architectures et modèles (statique, contextuel, mécanisme d'attention, transformer, encodeur et
+génératif, multimodalité, compression)
+• Apprentissage (pré-entrainement, entraînement, renforcement, fine-tuning, continuous learning,""" ;
+    ex:obtention "Programme" ;
+    ex:parcours "M2 Apprentissage et Traitement Automatique de la Langue (ATAL)" ;
+    ex:prerequisite "(s)" ;
+    ex:responsible "HERNANDEZ NICOLAS" ;
+    ex:semester "3" .
+
+ex:UE_XMS3IU210 a ex:UE ;
+    rdfs:label "Traitement automatique des langues" ;
+    ex:bibliography "• Jimmy Lin and Chris Dyer. Data-Intensive Text Processing with MapReduce. Morgan & Claypool" ;
+    ex:code "XMS3IU210" ;
+    ex:content """conversationnel/chatbot) - protocole, données, approches état de l'art et évaluation
+• Recherche d'information
+• Domaine de spécialités : problématiques et approches (médical et santé, légal, scientifique,
+éducation)
+• Exploitation de GPU/supercalcultateur""" ;
+    ex:evaluation "Traitement automatique des langues 100%" ;
+    ex:hours "TOTAL : 24h Répartition : CM : 8h TD : 16h CI : 0h TP : 0h EAD : 0h" ;
+    ex:language """Français
+• Tika a content analysis toolkit https://tika.apache.org/
+• Hadoop, a distributed computing platform http://hadoop.apache.org/
+• Storm a distributed realtime computation system http://storm.apache.org/
+• Mahout an environment for quickly creating scalable performant machine learning applications
+https://mahout.apache.org/
+• Elasticsearch is a distributed, open source search and analytics engine, designed for horizontal
+scalability, reliability, and easy management. https://www.elastic.co/fr/downloads/elasticsearch
+• “Unstructured Information Management Architecture (UIMA)”, Version 1.0, OASIS Standard, 2""" ;
+    ex:level "Master" ;
+    ex:location "Nantes" ;
+    ex:methods """Langue d’enseignement Français
+• Tika a content analysis toolkit https://tika.apache.org/
+• Hadoop, a distributed computing platform http://hadoop.apache.org/
+• Storm a distributed realtime computation system http://storm.apache.org/
+• Mahout an environment for quickly creating scalable performant machine learning applications
+https://mahout.apache.org/
+• Elasticsearch is a distributed, open source search and analytics engine, designed for horizontal
+scalability, reliability, and easy management. https://www.elastic.co/fr/downloads/elasticsearch
+• “Unstructured Information Management Architecture (UIMA)”, Version 1.0, OASIS Standard, 2""" ;
+    ex:objective """(résultats d'apprentissage)
+• Paradigmes de résolution des problématiques de TAL
+• Applications/tâches d'analyse (extraction d'information e.g. NE/relations, résolution de la co-
+référence, classification d'énoncés, alignement)
+• Applications/tâches génératives (résumé, question/réponse, traduction, génération de code, agent""" ;
+    ex:obtention "Programme" ;
+    ex:parcours "M2 Apprentissage et Traitement Automatique de la Langue (ATAL)" ;
+    ex:prerequisite "(s)" ;
+    ex:responsible "DUFOUR RICHARD" ;
+    ex:semester "3" .
+
+ex:UE_XMS3IU220 a ex:UE ;
+    rdfs:label "Ressources linguistiques" ;
+    ex:bibliography "" ;
+    ex:code "XMS3IU220" ;
+    ex:content """• Valorisation (diffusion de jeux de données/modèles, licence)
+• Evaluation, métriques, campagnes
+• Prompting for LLM application development
+• Retrieval Augmented Generation (RAG)""" ;
+    ex:evaluation "Ressources linguistiques 100%" ;
+    ex:hours "TOTAL : 24h Répartition : CM : 12h TD : 12h CI : 0h TP : 0h EAD : 0h" ;
+    ex:language "Français" ;
+    ex:level "Master" ;
+    ex:location "Nantes" ;
+    ex:methods "Langue d’enseignement Français" ;
+    ex:objective """(résultats d'apprentissage)
+• Construction de corpus (typologie, constitution, méta-données, codage, corpus et jeux de données
+de références...) et de lexiques
+• Annotation (procédure, guide d'annotation, outils, mesure d'accord)""" ;
+    ex:obtention "Programme" ;
+    ex:parcours "M2 Apprentissage et Traitement Automatique de la Langue (ATAL)" ;
+    ex:prerequisite "(s)" ;
+    ex:responsible "DAILLE BEATRICE" ;
+    ex:semester "3" .
+
+ex:UE_XMS3IU230 a ex:UE ;
+    rdfs:label "Développement logiciel et IA dans les entreprises" ;
+    ex:bibliography "" ;
+    ex:code "XMS3IU230" ;
+    ex:content """* Processus en amont et aval de la construction de modèles (recueil besoins, trajectoire client,
+acculturation, chiffrage, planification, industrialisation, packaging, performance)""" ;
+    ex:evaluation "Développement logiciel et IA dans les entreprises 100%" ;
+    ex:hours "TOTAL : 24h Répartition : CM : 12h TD : 12h CI : 0h TP : 0h EAD : 0h" ;
+    ex:language "Français" ;
+    ex:level "Master" ;
+    ex:location "Nantes" ;
+    ex:methods "Langue d’enseignement Français" ;
+    ex:objective """(résultats d'apprentissage)
+* Agilité et gestion de projets""" ;
+    ex:obtention "Programme" ;
+    ex:parcours "M2 Apprentissage et Traitement Automatique de la Langue (ATAL)" ;
+    ex:prerequisite "(s)" ;
+    ex:responsible "HERNANDEZ NICOLAS" ;
+    ex:semester "3" .
+
+ex:UE_XMS3IU240 a ex:UE ;
+    rdfs:label "Algorithmique du texte et inférence grammaticale" ;
+    ex:bibliography """Pierre Zweigenbaum et Benoit Habert (2006). Faire se rencontrer les parallèles : regards croisés
+sur l’acquisition lexicale monolingue et multilingue. GLOTTOPOL :8, 22-44.""" ;
+    ex:code "XMS3IU240" ;
+    ex:content """Contenu de la partie "Algorithmique du Texte":
+1. Automate déterministe de reconnaissance du motif
+2. Arbre des Suffixes
+3. Tableau des Suffixes
+4. Transformée de Burrows-Wheeler et FM-index""" ;
+    ex:evaluation "Algorithmique du texte et inférence grammaticale 100%" ;
+    ex:hours "TOTAL : 24h Répartition : CM : 12h TD : 12h CI : 0h TP : 0h EAD : 0h" ;
+    ex:language "Français" ;
+    ex:level "Master" ;
+    ex:location "Nantes" ;
+    ex:methods "Méthodes d'enseignement" ;
+    ex:objective "(résultats d'apprentissage)" ;
+    ex:obtention "Programme" ;
+    ex:parcours "M2 Apprentissage et Traitement Automatique de la Langue (ATAL)" ;
+    ex:prerequisite "(s)" ;
+    ex:responsible "DE LA HIGUERA COLIN" ;
+    ex:semester "3" .
+
+ex:UE_XMS3IU250 a ex:UE ;
+    rdfs:label "Communication scientifique" ;
+    ex:bibliography "" ;
+    ex:code "XMS3IU250" ;
+    ex:content "* Construction de poster, rédaction en latex, gestion bibliographique" ;
+    ex:evaluation "Communication scientifique 100%" ;
+    ex:hours "TOTAL : 24h Répartition : CM : 4h TD : 20h CI : 0h TP : 0h EAD : 0h" ;
+    ex:language "Français" ;
+    ex:level "Master" ;
+    ex:location "Nantes" ;
+    ex:methods "Langue d’enseignement Français" ;
+    ex:objective """(résultats d'apprentissage)
+* Réalisation d'étude bibliographique et de présentation d'articles dans le domaine
+* Participation à séminaires "Petit Séminaires ATAL\"""" ;
+    ex:obtention "Les étudiants doivent obligatoirement assister aux conférences pour valider l'UE." ;
+    ex:parcours "M2 Apprentissage et Traitement Automatique de la Langue (ATAL)" ;
+    ex:prerequisite "(s)" ;
+    ex:responsible "QUINIOU SOLEN" ;
+    ex:semester "3" .
+
+ex:UE_XMS3IU260 a ex:UE ;
+    rdfs:label "Projet (M2 ATAL)" ;
+    ex:bibliography "" ;
+    ex:code "XMS3IU260" ;
+    ex:content "Méthodes d’enseignement" ;
+    ex:evaluation "Projet (M2 ATAL) 100%" ;
+    ex:hours "TOTAL : 24h Répartition : CM : 0h TD : 24h CI : 0h TP : 0h EAD : 0h" ;
+    ex:language "Français" ;
+    ex:level "Master" ;
+    ex:location "Niveau Master" ;
+    ex:methods "Langue d’enseignement Français" ;
+    ex:objective "(résultats d'apprentissage)" ;
+    ex:obtention "Programme" ;
+    ex:parcours "M2 Apprentissage et Traitement Automatique de la Langue (ATAL)" ;
+    ex:prerequisite "(s)" ;
+    ex:responsible "HERNANDEZ NICOLAS" ;
+    ex:semester "3" .
+
+ex:UE_XMS3IU270 a ex:UE ;
+    rdfs:label "Périodes de formation alternées en milieu professionnel (M2 ATAL)" ;
+    ex:bibliography "" ;
+    ex:code "XMS3IU270" ;
+    ex:content "Méthodes d’enseignement" ;
+    ex:evaluation "Périodes de formation alternées en milieu professionnel (M2 ATAL) 100%" ;
+    ex:hours "TOTAL : 0h Répartition : CM : 0h TD : 0h CI : 0h TP : 0h EAD : 0h" ;
+    ex:language "Français" ;
+    ex:level "Master" ;
+    ex:location "Niveau Master" ;
+    ex:methods "Langue d’enseignement Français" ;
+    ex:objective "(résultats d'apprentissage)" ;
+    ex:obtention "Programme" ;
+    ex:parcours "M2 Apprentissage et Traitement Automatique de la Langue (ATAL)" ;
+    ex:prerequisite "(s)" ;
+    ex:responsible "HERNANDEZ NICOLAS" ;
+    ex:semester "3" .
+
+ex:UE_XMS4IU010 a ex:UE ;
+    rdfs:label "Stage" ;
+    ex:bibliography "" ;
+    ex:code "XMS4IU010" ;
+    ex:content "Méthodes d’enseignement" ;
+    ex:evaluation "Stage 100%" ;
+    ex:hours "TOTAL : 0h Répartition : CM : 0h TD : 0h CI : 0h TP : 0h EAD : 0h" ;
+    ex:language "Mixte" ;
+    ex:level "Master" ;
+    ex:location "Soutenance à la faculté des sciences et techniques" ;
+    ex:methods "Langue d’enseignement Mixte" ;
+    ex:objective """(résultats d'apprentissage) - Synthétiser le travail effectué dans un compte rendu de manière concise, correcte, et complète.
+- Préparer des supports puis présenter oralement le travail effectué de manière dynamique et
+convaincante.""" ;
+    ex:obtention "Les dispenses d'assiduité ne sont pas autorisées." ;
+    ex:parcours "Apprentissage et Traitement Automatique de la Langue (ATAL)",
+        "M2 CMI-OPTIM" ;
+    ex:prerequisite "(s)" ;
+    ex:responsible "PERRIN MATTHIEU" ;
+    ex:semester "4" .
+
+ex:UE_XMS4IU200 a ex:UE ;
+    rdfs:label "Période de suivi en formation par alternance (M2 ATAL)" ;
+    ex:bibliography "Dernière modification par SOLEN QUINIOU, le 2024-06-18 18:19:34" ;
+    ex:code "XMS4IU200" ;
+    ex:content "Méthodes d’enseignement" ;
+    ex:evaluation "Période de suivi en formation par alternance (M2 ATAL) 100%" ;
+    ex:hours "TOTAL : 0h Répartition : CM : 0h TD : 0h CI : 0h TP : 0h EAD : 0h" ;
+    ex:language "Français" ;
+    ex:level "Master" ;
+    ex:location "Niveau Master" ;
+    ex:methods "Langue d’enseignement Français" ;
+    ex:objective "(résultats d'apprentissage)" ;
+    ex:obtention "Programme" ;
+    ex:parcours "M2 Apprentissage et Traitement Automatique de la Langue (ATAL)" ;
+    ex:prerequisite "(s)" ;
+    ex:responsible "QUINIOU SOLEN" ;
+    ex:semester "4" .
+
+ex:UE_XUATTENTE10 a ex:UE ;
+    rdfs:label "Research methodology" ;
+    ex:bibliography "XEATTENTE12 Open science sustainability and ethics" ;
+    ex:code "XUATTENTE10" ;
+    ex:content """Then we focus on the content of scientific documents, how to read them, and how to write scientific
+material, before addressing the topic of how to search for scientific material with the tools at hand
+and organize them in a bibliography.""" ;
+    ex:evaluation "Open science sustainability and ethics 20%" ;
+    ex:hours "TOTAL : 24h Répartition : CM : 9.5h TD : 4.5h CI : 10h TP : 0h EAD : 0h" ;
+    ex:language "Anglais" ;
+    ex:level "Master" ;
+    ex:location "Polytech Nantes" ;
+    ex:methods "Bibliographie" ;
+    ex:objective "(résultats d'apprentissage)" ;
+    ex:obtention """Programme
+- Initiation to scientific research (XEATTENTE11)""" ;
+    ex:parcours "M2 Apprentissage et Traitement Automatique de la Langue (ATAL)",
+        "M2 Visual Computing (VICO)" ;
+    ex:prerequisite "(s)" ;
+    ex:responsible "HERNANDEZ NICOLAS" ;
+    ex:semester "3" .
+
+ex:UE_XUATTENTE20 a ex:UE ;
+    rdfs:label "Deep learning" ;
+    ex:bibliography "" ;
+    ex:code "XUATTENTE20" ;
+    ex:content """• TD : Nombre de poids, tailles des CNN, étude d'architechtures classiques, CTC
+• TP : IRIS, MINST, Seq""" ;
+    ex:evaluation "Deep learning 100%" ;
+    ex:hours "TOTAL : 24h Répartition : CM : 5h TD : 7.5h CI : 0h TP : 11.5h EAD : 0h" ;
+    ex:language "Anglais" ;
+    ex:level "Master" ;
+    ex:location "Polytech Nantes" ;
+    ex:methods "Langue d’enseignement Anglais" ;
+    ex:objective """(résultats d'apprentissage)
+• Cours : MLP, CNN, RNN""" ;
+    ex:obtention "Programme" ;
+    ex:parcours "de la Langue (ATAL)" ;
+    ex:prerequisite "(s)" ;
+    ex:responsible "MOUCHERE HAROLD" ;
+    ex:semester "3" .
+

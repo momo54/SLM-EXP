@@ -1,0 +1,70 @@
+@prefix ns1: <http://align.org/> .
+@prefix ns2: <http://example.org/course/> .
+@prefix ns3: <http://provo.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ns2:UE_XMS3IU010 ns1:to [ ns1:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Networking_and_Communication_NC/NC-Applications_Networked_Applications.txt> ;
+            ns1:score "0.6892117"^^xsd:float ;
+            ns2:answer "0" ;
+            ns2:explain "Lecture covers HTTP/REST/Spring but lacks DNS, socket implementation, and analysis of network demands" ;
+            ns2:ka "Networking_and_Communication_NC" ;
+            ns2:ku "NC-Applications_Networked_Applications" ;
+            ns3:wasGeneratedBy [ ns3:used "qwen-qwq-32b" ] ],
+        [ ns1:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Specialized_Platform_Development_SPD/SPD-Common_Aspects.txt> ;
+            ns1:score "0.7310431"^^xsd:float ;
+            ns2:answer "0" ;
+            ns2:explain "Lecture focuses on web services/APIs/security but lacks coverage of mobile/embedded platforms, scripting languages, and three-tier model" ;
+            ns2:ka "Specialized_Platform_Development_SPD" ;
+            ns2:ku "SPD-Common_Aspects" ;
+            ns3:wasGeneratedBy [ ns3:used "qwen-qwq-32b" ] ],
+        [ ns1:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Networking_and_Communication_NC/NC-Fundamentals_Fundamentals.txt> ;
+            ns1:score "0.68969023"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "The lecture covers the fundamental principles of HTTP and Websocket, which aligns with the KU's focus on networking fundamentals." ;
+            ns2:ka "Networking_and_Communication_NC" ;
+            ns2:ku "NC-Fundamentals_Fundamentals" ;
+            ns3:wasGeneratedBy [ ns3:used "llama3-8b-8192" ] ],
+        [ ns1:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Networking_and_Communication_NC/NC-Fundamentals_Fundamentals.txt> ;
+            ns1:score "0.68969023"^^xsd:float ;
+            ns2:answer "0" ;
+            ns2:explain "Lecture focuses on HTTP/REST/Spring APIs, while KU covers networking fundamentals (layers, internet organization, queuing). No substantial overlap." ;
+            ns2:ka "Networking_and_Communication_NC" ;
+            ns2:ku "NC-Fundamentals_Fundamentals" ;
+            ns3:wasGeneratedBy [ ns3:used "qwen-qwq-32b" ] ],
+        [ ns1:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Networking_and_Communication_NC/NC-Applications_Networked_Applications.txt> ;
+            ns1:score "0.6892117"^^xsd:float ;
+            ns2:answer "0" ;
+            ns2:explain "The lecture covers some aspects like HTTP and client-server, but misses key KU topics such as naming schemes, distributed paradigms, and socket implementation." ;
+            ns2:ka "Networking_and_Communication_NC" ;
+            ns2:ku "NC-Applications_Networked_Applications" ;
+            ns3:wasGeneratedBy [ ns3:used "deepseek-r1-distill-llama-70b" ] ],
+        [ ns1:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Specialized_Platform_Development_SPD/SPD-Common_Aspects.txt> ;
+            ns1:score "0.7310431"^^xsd:float ;
+            ns2:answer "0" ;
+            ns2:explain "The lecture covers some web-related aspects but misses most of the KU's broader topics." ;
+            ns2:ka "Specialized_Platform_Development_SPD" ;
+            ns2:ku "SPD-Common_Aspects" ;
+            ns3:wasGeneratedBy [ ns3:used "deepseek-r1-distill-llama-70b" ] ],
+        [ ns1:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Specialized_Platform_Development_SPD/SPD-Common_Aspects.txt> ;
+            ns1:score "0.7310431"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "The lecture covers the principles of HTTP and Websocket, API design, and security, which are relevant to the KU's topics on development platforms, programming languages, and constraints." ;
+            ns2:ka "Specialized_Platform_Development_SPD" ;
+            ns2:ku "SPD-Common_Aspects" ;
+            ns3:wasGeneratedBy [ ns3:used "llama3-8b-8192" ] ],
+        [ ns1:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Networking_and_Communication_NC/NC-Applications_Networked_Applications.txt> ;
+            ns1:score "0.6892117"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "The lecture covers the principles of HTTP, Websocket, REST, Spring framework, authentication, and security, which aligns with the KU's topics on networked applications, naming and address schemes, distributed application paradigms, and application-layer protocols." ;
+            ns2:ka "Networking_and_Communication_NC" ;
+            ns2:ku "NC-Applications_Networked_Applications" ;
+            ns3:wasGeneratedBy [ ns3:used "llama3-8b-8192" ] ],
+        [ ns1:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Networking_and_Communication_NC/NC-Fundamentals_Fundamentals.txt> ;
+            ns1:score "0.68969023"^^xsd:float ;
+            ns2:answer "0" ;
+            ns2:explain "The lecture focuses on middleware, REST APIs, and web services, not covering the networking fundamentals outlined in the KU." ;
+            ns2:ka "Networking_and_Communication_NC" ;
+            ns2:ku "NC-Fundamentals_Fundamentals" ;
+            ns3:wasGeneratedBy [ ns3:used "deepseek-r1-distill-llama-70b" ] ] .
+
+

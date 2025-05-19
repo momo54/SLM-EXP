@@ -1,0 +1,262 @@
+@prefix ex: <http://example.org/course/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+ex:UE_XMS3IU010 a ex:UE ;
+    rdfs:label "Middleware" ;
+    ex:bibliography "" ;
+    ex:code "XMS3IU010" ;
+    ex:content "Méthodes d’enseignement" ;
+    ex:evaluation "Middleware 100%" ;
+    ex:hours "TOTAL : 24h Répartition : CM : 12h TD : 6h CI : 0h TP : 6h EAD : 0h" ;
+    ex:language "Français" ;
+    ex:level "Master" ;
+    ex:location "Niveau Master" ;
+    ex:methods "Langue d’enseignement Français" ;
+    ex:objective """(résultats d'apprentissage) - Comprendre les principe de HTTP et Websocket
+- Etre capable de concevoir une API fondée sur REST
+- Etre capable de créer un web service en utilisant le framework Spring
+- Comprendre les concepts d'authentification et de sécurité
+- Comprendre les concepts de services basés composants et de micro services""" ;
+    ex:obtention """Programme
+- Comprendre les fondements de la synchronisation liés à la concurrence
+- Comprendre les architecture n-tiers (e.g. J2E) et les technologies associées
+- Connaître les limites théoriques des applications distribuées
+- Etre capable de mettre en place une architecture client/serveur utilisant des objets distants""" ;
+    ex:parcours "M2 Architectures Logicielles (ALMA)" ;
+    ex:prerequisite "(s)" ;
+    ex:responsible "MOSTEFAOUI ACHOUR" ;
+    ex:semester "3" .
+
+ex:UE_XMS3IU020 a ex:UE ;
+    rdfs:label "Gestion des données distribuées à large échelle" ;
+    ex:bibliography "" ;
+    ex:code "XMS3IU020" ;
+    ex:content "Méthodes d’enseignement" ;
+    ex:evaluation "Gestion des données distribuées à large échelle 100%" ;
+    ex:hours "TOTAL : 24h Répartition : CM : 12h TD : 12h CI : 0h TP : 0h EAD : 0h" ;
+    ex:language "Français" ;
+    ex:level "Master" ;
+    ex:location "Niveau Master" ;
+    ex:methods "Langue d’enseignement Français" ;
+    ex:objective "(résultats d'apprentissage)" ;
+    ex:obtention """Programme
+• To understand how big are big data and how distributed infrastructures are able to handle them
+• To understand why traditional databases cannot handle big data
+• To know online transaction processing, online analytical processing and streaming processing on
+big data.
+• To know representative distributed datastore for big data OLTP ie. CouchBase, Google BigTable...
+• To know how to program with Map-Reduce, resilient data structures, and stream processing ie.""" ;
+    ex:parcours "(ATAL)" ;
+    ex:prerequisite "(s)" ;
+    ex:responsible "MOLLI PASCAL" ;
+    ex:semester "3" .
+
+ex:UE_XMS3IU030 a ex:UE ;
+    rdfs:label "Deep Learning and Intensive Software Systems (EMN)" ;
+    ex:bibliography "" ;
+    ex:code "XMS3IU030" ;
+    ex:content "Méthodes d’enseignement" ;
+    ex:evaluation "Deep Learning and Intensive Software Systems (EMN) 100%" ;
+    ex:hours "TOTAL : 24h Répartition : CM : 12h TD : 0h CI : 0h TP : 12h EAD : 0h" ;
+    ex:language "Anglais" ;
+    ex:level "Master" ;
+    ex:location "Niveau Master" ;
+    ex:methods "Langue d’enseignement Anglais" ;
+    ex:objective "(résultats d'apprentissage)" ;
+    ex:obtention "Programme" ;
+    ex:parcours "M2 Architectures Logicielles (ALMA)" ;
+    ex:prerequisite "(s)" ;
+    ex:responsible "Volume horaire total TOTAL : 24h Répartition : CM : 12h TD : 0h CI : 0h TP : 12h EAD : 0h" ;
+    ex:semester "3" .
+
+ex:UE_XMS3IU040 a ex:UE ;
+    rdfs:label "Architectures réparties" ;
+    ex:bibliography "" ;
+    ex:code "XMS3IU040" ;
+    ex:content "Méthodes d’enseignement" ;
+    ex:evaluation "Architectures réparties 100%" ;
+    ex:hours "TOTAL : 24h Répartition : CM : 12h TD : 12h CI : 0h TP : 0h EAD : 0h" ;
+    ex:language "Français" ;
+    ex:level "Master" ;
+    ex:location "Niveau Master" ;
+    ex:methods "Langue d’enseignement Français" ;
+    ex:objective """(résultats d'apprentissage) and distributed query processing
+• To know personal information systems and small data ie. Solid
+• To know federated query processing over semantic web: FedX, Anapsid To know
+• To be able to solve data integration problems on the web""" ;
+    ex:obtention """Programme
+• To understand the vision of the decentralized web
+• To understand data integration problems
+• To know how to build distributed data integration systems with GAV (Global as View), LAV, GLAV""" ;
+    ex:parcours "M2 Architectures Logicielles (ALMA)" ;
+    ex:prerequisite "(s)" ;
+    ex:responsible "SKAF-MOLLI HALA" ;
+    ex:semester "3" .
+
+ex:UE_XMS3IU050 a ex:UE ;
+    rdfs:label "Ingénierie dirigée par les modèles" ;
+    ex:bibliography "" ;
+    ex:code "XMS3IU050" ;
+    ex:content "Méthodes d’enseignement" ;
+    ex:evaluation "Ingénierie dirigée par les modèles 100%" ;
+    ex:hours "TOTAL : 24h Répartition : CM : 12h TD : 12h CI : 0h TP : 0h EAD : 0h" ;
+    ex:language "Français" ;
+    ex:level "Master" ;
+    ex:location "Niveau Master" ;
+    ex:methods "Langue d’enseignement Français" ;
+    ex:objective """(résultats d'apprentissage)
+langage.
+5. Être capable de concevoir un langage spécifique au domaine.
+6. Être capable d'intégrer l'ingénierie basée sur les modèles dans le processus de développement
+logiciel.
+7. Être capable de réaliser des transformations de modèle à modèle.
+8. Être capable de réaliser effectuer des transformations de modèle à texte (génération de code).""" ;
+    ex:obtention """Programme
+1. Comprendre les principes et les objectifs de l'ingénierie dirigée par sur les modèles.
+2. Comprendre les différences entre la modélisation et la méta-modélisation.
+3. Comprendre les différences entre les langages spécifiques au domaine et les langages
+génériques.
+4. Connaître les différences entre la syntaxe abstraite , la syntaxe concrète et la sémantique d'un""" ;
+    ex:parcours "M2 Architectures Logicielles (ALMA)" ;
+    ex:prerequisite "(s)" ;
+    ex:responsible "SUNYE GERSON" ;
+    ex:semester "3" .
+
+ex:UE_XMS3IU060 a ex:UE ;
+    rdfs:label "Gestion des logiciels" ;
+    ex:bibliography "" ;
+    ex:code "XMS3IU060" ;
+    ex:content "Méthodes d’enseignement" ;
+    ex:evaluation "Gestion des logiciels 100%" ;
+    ex:hours "TOTAL : 45h Répartition : CM : 33h TD : 12h CI : 0h TP : 0h EAD : 0h" ;
+    ex:language "Français" ;
+    ex:level "Master" ;
+    ex:location "Niveau Master" ;
+    ex:methods "Langue d’enseignement Français" ;
+    ex:objective """(résultats d'apprentissage)
+- Etre capable d'estimer les couts et durées d'un projet (M)
+- Comprendre les outils et l'organisation d'un travail collaboratif (M).""" ;
+    ex:obtention """Programme
+- Etre capable d'appliquer les méthodes et outils pour développer un "Senior Capstone Project" t (A)
+- Etre capable d'identifier les différentes étapes de gestion d'un projet (M)""" ;
+    ex:parcours "M2 Architectures Logicielles (ALMA)" ;
+    ex:prerequisite "(s)" ;
+    ex:responsible "SKAF-MOLLI HALA" ;
+    ex:semester "3" .
+
+ex:UE_XMS3IU070 a ex:UE ;
+    rdfs:label "Services de communication et systèmes distribués" ;
+    ex:bibliography "" ;
+    ex:code "XMS3IU070" ;
+    ex:content "Méthodes d’enseignement" ;
+    ex:evaluation "Services de communication et systèmes distribués 100%" ;
+    ex:hours "TOTAL : 24h Répartition : CM : 12h TD : 12h CI : 0h TP : 0h EAD : 0h" ;
+    ex:language "Français" ;
+    ex:level "Master" ;
+    ex:location "Niveau Master" ;
+    ex:methods "Langue d’enseignement Français" ;
+    ex:objective """(résultats d'apprentissage) - Etre capable de développer un service dans une architecture monolithique simple
+- Etre capable d'utiliser un Domain Drived Design (DDD) pour implémenter une architecture
+orientée services
+- Comprendre les paradigmes nés de l’expansion du cloud et de l’exploitation des services (e.g.""" ;
+    ex:obtention """Programme
+- Comprendre la notion de service ainsi que ses différents paradigmes
+- Connaître les principes SOA et son implémentation modulaire via les web-services
+- Connaître les technologies relatives aux web-services (e.g. SOAP, WSDL, UDI)
+- Connaître les changements induits par la notion de service à tous les niveaux""" ;
+    ex:parcours "M2 Architectures Logicielles (ALMA)" ;
+    ex:prerequisite "(s)" ;
+    ex:responsible "MOSTEFAOUI ACHOUR" ;
+    ex:semester "3" .
+
+ex:UE_XMS3IU080 a ex:UE ;
+    rdfs:label "Modélisation et vérification des systèmes concurrents" ;
+    ex:bibliography "" ;
+    ex:code "XMS3IU080" ;
+    ex:content "concurrents" ;
+    ex:evaluation "Modélisation et vérification des systèmes concurrents 100%" ;
+    ex:hours "TOTAL : 24h Répartition : CM : 12h TD : 12h CI : 0h TP : 0h EAD : 0h" ;
+    ex:language "Français" ;
+    ex:level "Master" ;
+    ex:location "Niveau Master" ;
+    ex:methods "Langue d’enseignement Français" ;
+    ex:objective "(résultats d'apprentissage)" ;
+    ex:obtention "Programme" ;
+    ex:parcours "M2 Architectures Logicielles (ALMA)" ;
+    ex:prerequisite "(s)" ;
+    ex:responsible "JABER GUILHEM" ;
+    ex:semester "3" .
+
+ex:UE_XMS3IU090 a ex:UE ;
+    rdfs:label "Architectures et styles d'architectures" ;
+    ex:bibliography "" ;
+    ex:code "XMS3IU090" ;
+    ex:content """- Dimensions quantitative et qualitative d'une architecture
+- Usage des styles d'architectures
+- Modèle d'évolution d'une architecture""" ;
+    ex:evaluation "Architectures et styles d'architectures 100%" ;
+    ex:hours "TOTAL : 24h Répartition : CM : 16h TD : 8h CI : 0h TP : 0h EAD : 0h" ;
+    ex:language "Français" ;
+    ex:level "Master" ;
+    ex:location "Niveau Master" ;
+    ex:methods "Langue d’enseignement Français" ;
+    ex:objective """(résultats d'apprentissage)
+- Comprendre les principales difficultés qui interviennent lors du passage à l'echelle(A)
+- Etre capable de maitriser la complexité des architectures logicielles à un haut niveau
+d'abstraction (M)
+- Comprendre et distinguer les différents styles architecturaux orientés agents, objets, composants
+et modèles.(M)
+- Introduction aux paradigmes objet, composant,agent, service et modèle dans les Architectures
+logicielles
+- Introduction aux styles Architecturaux
+- Un Modèle de style d'architecture""" ;
+    ex:obtention """Programme
+- Comprendre les concepts clés des Architectures Logicielles (I)
+- Comprendre et savoir classifier les langages de modèlisation d'architectures en soulignant leurs
+différents modes de représentation, leurs supports de conception et leurs mécanismes
+d'adaptation (M)
+- Etre capable d'identifier et de développer différents styles architecturaux (A)""" ;
+    ex:parcours "M2 Architectures Logicielles (ALMA)" ;
+    ex:prerequisite "(s)" ;
+    ex:responsible "OUSSALAH MOURAD" ;
+    ex:semester "3" .
+
+ex:UE_XMS3IU100 a ex:UE ;
+    rdfs:label "Conferences" ;
+    ex:bibliography "" ;
+    ex:code "XMS3IU100" ;
+    ex:content "Méthodes d’enseignement" ;
+    ex:evaluation "Conferences 100%" ;
+    ex:hours "TOTAL : 24h Répartition : CM : 0h TD : 24h CI : 0h TP : 0h EAD : 0h" ;
+    ex:language "Anglais" ;
+    ex:level "Master" ;
+    ex:location "UFR des Sciences et des Techniques" ;
+    ex:methods "Langue d’enseignement Anglais" ;
+    ex:objective "(résultats d'apprentissage)" ;
+    ex:obtention "Les étudiants doivent obligatoirement assister aux conférences pour valider l'UE." ;
+    ex:parcours "M2 Architectures Logicielles (ALMA)" ;
+    ex:prerequisite "(s)" ;
+    ex:responsible "SKAF-MOLLI HALA" ;
+    ex:semester "3" .
+
+ex:UE_XMS4IU010 a ex:UE ;
+    rdfs:label "Stage" ;
+    ex:bibliography "Dernière modification par VIRGINIE BLOT, le 2024-08-27 18:34:32" ;
+    ex:code "XMS4IU010" ;
+    ex:content "Méthodes d’enseignement" ;
+    ex:evaluation "Stage 100%" ;
+    ex:hours "TOTAL : 0h Répartition : CM : 0h TD : 0h CI : 0h TP : 0h EAD : 0h" ;
+    ex:language "Mixte" ;
+    ex:level "Master" ;
+    ex:location "Soutenance à la faculté des sciences et techniques" ;
+    ex:methods "Langue d’enseignement Mixte" ;
+    ex:objective """(résultats d'apprentissage) - Synthétiser le travail effectué dans un compte rendu de manière concise, correcte, et complète.
+- Préparer des supports puis présenter oralement le travail effectué de manière dynamique et
+convaincante.""" ;
+    ex:obtention "Les dispenses d'assiduité ne sont pas autorisées." ;
+    ex:parcours "Apprentissage et Traitement Automatique de la Langue (ATAL)",
+        "M2 CMI-OPTIM" ;
+    ex:prerequisite "(s)" ;
+    ex:responsible "PERRIN MATTHIEU" ;
+    ex:semester "4" .
+
