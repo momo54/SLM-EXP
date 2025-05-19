@@ -1,0 +1,23 @@
+@prefix ex: <http://example.org/course/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+ex:UE_Inconnu a ex:UE ;
+    rdfs:label "Research methodology and case study" ;
+    ex:bibliography "Semantic knowledge representation" ;
+    ex:code "Inconnu" ;
+    ex:content "Ethics of research" ;
+    ex:evaluation "Research methodology and case study 100%" ;
+    ex:hours "TOTAL : 17.5h Répartition : CM : 0h TD : 0h CI : 15h TP : 0h EAD : 2.5h" ;
+    ex:language "Anglais" ;
+    ex:level "Master" ;
+    ex:location "Polytech Nantes" ;
+    ex:methods "Langue d’enseignement Anglais" ;
+    ex:objective """(résultats d'apprentissage)
+guidelines
+of the teaching unit to their work.""" ;
+    ex:obtention "Programme" ;
+    ex:parcours "M2 Data Science (DS)" ;
+    ex:prerequisite "(s)" ;
+    ex:responsible "Volume horaire total TOTAL : 17.5h Répartition : CM : 0h TD : 0h CI : 15h TP : 0h EAD : 2.5h" ;
+    ex:semester "3" .
+

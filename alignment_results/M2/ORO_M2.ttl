@@ -1,0 +1,70 @@
+@prefix ns1: <http://example.org/course/> .
+@prefix ns2: <http://align.org/> .
+@prefix ns3: <http://provo.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ns1:UE_XMS3IU300 ns2:to [ ns2:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Foundations_of_Programming_Languages_FPL/FPL-Code_Code_Generation.txt> ;
+            ns2:score "0.70367074"^^xsd:float ;
+            ns1:answer "0" ;
+            ns1:explain "Lecture focuses on multi-objective optimization algorithms, while KU covers code generation/compiler topics." ;
+            ns1:ka "Foundations_of_Programming_Languages_FPL" ;
+            ns1:ku "FPL-Code_Code_Generation" ;
+            ns3:wasGeneratedBy [ ns3:used "qwen-qwq-32b" ] ],
+        [ ns2:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Artificial_Intelligence_AI/AI-ML_Machine_Learning.txt> ;
+            ns2:score "0.7046993"^^xsd:float ;
+            ns1:answer "1" ;
+            ns1:explain "The lecture covers a significant portion of the KU, including topics such as multi-objective combinatorial optimization, machine learning, and neural networks." ;
+            ns1:ka "Artificial_Intelligence_AI" ;
+            ns1:ku "AI-ML_Machine_Learning" ;
+            ns3:wasGeneratedBy [ ns3:used "llama3-8b-8192" ] ],
+        [ ns2:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Artificial_Intelligence_AI/AI_Search_Search.txt> ;
+            ns2:score "0.72083175"^^xsd:float ;
+            ns1:answer "0" ;
+            ns1:explain "Lecture focuses on multi-objective optimization algorithms (e.g., e-constraint, branch and bound), while KU covers broader search methods (A*, minimax, genetic algorithms) not substantially addressed." ;
+            ns1:ka "Artificial_Intelligence_AI" ;
+            ns1:ku "AI_Search_Search" ;
+            ns3:wasGeneratedBy [ ns3:used "qwen-qwq-32b" ] ],
+        [ ns2:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Foundations_of_Programming_Languages_FPL/FPL-Code_Code_Generation.txt> ;
+            ns2:score "0.70367074"^^xsd:float ;
+            ns1:answer "0" ;
+            ns1:explain "The lecture focuses on multi-objective optimization algorithms, while the KU covers code generation and optimization, with no overlap in content." ;
+            ns1:ka "Foundations_of_Programming_Languages_FPL" ;
+            ns1:ku "FPL-Code_Code_Generation" ;
+            ns3:wasGeneratedBy [ ns3:used "deepseek-r1-distill-llama-70b" ] ],
+        [ ns2:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Artificial_Intelligence_AI/AI-ML_Machine_Learning.txt> ;
+            ns2:score "0.7046993"^^xsd:float ;
+            ns1:answer "0" ;
+            ns1:explain "Lecture focuses on multi-objective optimization algorithms, while KU covers machine learning fundamentals, evaluation, and ethics—no substantial overlap." ;
+            ns1:ka "Artificial_Intelligence_AI" ;
+            ns1:ku "AI-ML_Machine_Learning" ;
+            ns3:wasGeneratedBy [ ns3:used "qwen-qwq-32b" ] ],
+        [ ns2:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Foundations_of_Programming_Languages_FPL/FPL-Code_Code_Generation.txt> ;
+            ns2:score "0.70367074"^^xsd:float ;
+            ns1:answer "1" ;
+            ns1:explain "The lecture covers topics related to multi-objective combinatorial optimization, which is a subset of the knowledge described in the KU, which focuses on code generation and low-level programming." ;
+            ns1:ka "Foundations_of_Programming_Languages_FPL" ;
+            ns1:ku "FPL-Code_Code_Generation" ;
+            ns3:wasGeneratedBy [ ns3:used "llama3-8b-8192" ] ],
+        [ ns2:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Artificial_Intelligence_AI/AI-ML_Machine_Learning.txt> ;
+            ns2:score "0.7046993"^^xsd:float ;
+            ns1:answer "0" ;
+            ns1:explain "The lecture focuses on multi-objective combinatorial optimization, which is a specific area within machine learning. However, the KU covers a broader range of machine learning topics, including supervised learning, reinforcement learning, neural networks, ethics, and applications. The lecture does not substantially cover the wide array of topics outlined in the KU." ;
+            ns1:ka "Artificial_Intelligence_AI" ;
+            ns1:ku "AI-ML_Machine_Learning" ;
+            ns3:wasGeneratedBy [ ns3:used "deepseek-r1-distill-llama-70b" ] ],
+        [ ns2:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Artificial_Intelligence_AI/AI_Search_Search.txt> ;
+            ns2:score "0.72083175"^^xsd:float ;
+            ns1:answer "0" ;
+            ns1:explain "The lecture focuses on multi-objective optimization methods, while the KU covers a broader range of search algorithms and techniques." ;
+            ns1:ka "Artificial_Intelligence_AI" ;
+            ns1:ku "AI_Search_Search" ;
+            ns3:wasGeneratedBy [ ns3:used "deepseek-r1-distill-llama-70b" ] ],
+        [ ns2:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Artificial_Intelligence_AI/AI_Search_Search.txt> ;
+            ns2:score "0.72083175"^^xsd:float ;
+            ns1:answer "1" ;
+            ns1:explain "The lecture covers topics in multi-objective combinatorial optimization, including e-constraint algorithm, weighted sum scalarization, and branch and bound algorithm, which aligns with the KU's focus on search algorithms and problem solving." ;
+            ns1:ka "Artificial_Intelligence_AI" ;
+            ns1:ku "AI_Search_Search" ;
+            ns3:wasGeneratedBy [ ns3:used "llama3-8b-8192" ] ] .
+
+

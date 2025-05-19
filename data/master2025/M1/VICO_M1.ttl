@@ -1,0 +1,516 @@
+@prefix ex: <http://example.org/course/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+ex:UE_XMS1AU010 a ex:UE ;
+    rdfs:label "Anglais scientifique" ;
+    ex:bibliography "" ;
+    ex:code "XMS1AU010" ;
+    ex:content "Méthodes d’enseignement" ;
+    ex:evaluation "Anglais scientifique 100%" ;
+    ex:hours "TOTAL : 16h Répartition : CM : 0h TD : 16h CI : 0h TP : 0h EAD : 0h" ;
+    ex:language "Anglais" ;
+    ex:level "Master" ;
+    ex:location "UFR Sciences et techniques" ;
+    ex:methods "Langue d’enseignement Anglais" ;
+    ex:objective "(résultats d'apprentissage)" ;
+    ex:obtention "Programme" ;
+    ex:parcours "(ORO)",
+        "M1 Apprentissage et Traitement",
+        "M1 Data Science (DS) ",
+        "M1 Visual Computing (VICO)" ;
+    ex:prerequisite "(s)" ;
+    ex:responsible "MOLLI PASCAL" ;
+    ex:semester "1" .
+
+ex:UE_XMS1IU010 a ex:UE ;
+    rdfs:label "Graphes et Complexité" ;
+    ex:bibliography "C. Froidevaux, M.C. Gaudel, M. Soria - Types de données et algorithmes" ;
+    ex:code "XMS1IU010" ;
+    ex:content """4. Connexité, forte connexité: algorithmes et applications.
+5. Graphes particuliers II (graphes bipartis, graphes orientés sans circuits): algorithmes et
+applications.
+6. Plus courts chemins: algorithmes et applications""" ;
+    ex:evaluation "Graphes et Complexité 100%" ;
+    ex:hours "TOTAL : 23.99h Répartition : CM : 10.66h TD : 9.33h CI : 0h TP : 4h EAD : 0h" ;
+    ex:language "Français" ;
+    ex:level "Master" ;
+    ex:location "UFR Sciences et techniques" ;
+    ex:methods "Présentiel." ;
+    ex:objective """(résultats d'apprentissage) complexité algorithmique d'une solution et évaluer son efficacité.
+4. mettre en œuvre les principales solutions algorithmiques pour les problèmes classiques de
+théorie des graphes : parcours, connexité, plus courts chemins, recherche de cycles.
+1. Introduction, rappels, exemples et applications.
+2. Efficacité des algorithmes et calcul de la complexité: cas particulier des algorithmes portant sur
+les graphes
+3. Graphes particuliers I (arbres, arborescences): algorithmes et applications.""" ;
+    ex:obtention "La note de CCE pourra contenir une part de pratique." ;
+    ex:parcours "(ALMA)",
+        "M1 CMI-OPTIM",
+        """M1 Data Science
+(DS) """,
+        "M1 Optimisation en Recherche Opérationnelle (ORO)",
+        "M1 Smart Computing",
+        "M1 Visual Computing (VICO)" ;
+    ex:prerequisite "(s)" ;
+    ex:responsible "SUNYE GERSON" ;
+    ex:semester "1" .
+
+ex:UE_XMS1IU030 a ex:UE ;
+    rdfs:label "Interactions Humain-Machine" ;
+    ex:bibliography """(Lallemand, Gronier)
+- Visualization Analysis and Design (Munzner)""" ;
+    ex:code "XMS1IU030" ;
+    ex:content """- Evaluation d’interactions et d’interfaces
+- Programmation d’interfaces / pattern MVC
+- Visualisation de données
+- Cours""" ;
+    ex:evaluation "Interaction Humain-Machine 100%" ;
+    ex:hours "TOTAL : 24h Répartition : CM : 12h TD : 12h CI : 0h TP : 0h EAD : 0h" ;
+    ex:language """Français
+- Designing the User Interface: Strategies for Effective Human-Computer Interaction (Shneiderman,""" ;
+    ex:level "Master" ;
+    ex:location "UFR des sciences et des techniques" ;
+    ex:methods "- Plusieurs ateliers (conception, évaluation, développement, visualisation de données)" ;
+    ex:objective """(résultats d'apprentissage)
+- Evaluer l’expérience utilisateur liée à un outil numérique
+- Concevoir une visualisation de données
+- Introduction à l’interaction humain-machine
+- Du côté de l'humain
+- Conception d’interactions et d’interfaces""" ;
+    ex:obtention """Programme
+- Analyser le contexte métier et humain d’une intervention numérique
+- Concevoir une interaction et une interface humain-machine""" ;
+    ex:parcours "M1 Smart Computing",
+        "Visual Computing (VICO)" ;
+    ex:prerequisite "(s)" ;
+    ex:responsible "PRIE YANNICK" ;
+    ex:semester "1" .
+
+ex:UE_XMS1IU040 a ex:UE ;
+    rdfs:label "Intelligence Artificielle et Applications" ;
+    ex:bibliography "XMS1IE042 Projet d'intelligence artificielle" ;
+    ex:code "XMS1IU040" ;
+    ex:content """recherche en largeur d'abord, en profondeur d'abord, avec heuristiques, recherche gloutonne,
+algorithme A*, algorithme minimax, élagage alpha-bêta, recherche arborescente Monte-Carlo.""" ;
+    ex:evaluation "Projet d'intelligence artificielle 35%" ;
+    ex:hours "TOTAL : 48.01h Répartition : CM : 5.33h TD : 42.68h CI : 0h TP : 0h EAD : 0h" ;
+    ex:language "Français" ;
+    ex:level "Master" ;
+    ex:location "UFR des Sciences et des Techniques,Nantes" ;
+    ex:methods "Bibliographie" ;
+    ex:objective "(résultats d'apprentissage)" ;
+    ex:obtention """Programme
+- Structures et stratégies pour la résolution de problèmes (XMS1IE041)""" ;
+    ex:parcours "M1 Smart Computing",
+        "de la Langue (ATAL)" ;
+    ex:prerequisite "(s)" ;
+    ex:responsible "QUINIOU SOLEN" ;
+    ex:semester "1" .
+
+ex:UE_XMS1IU050 a ex:UE ;
+    rdfs:label "Métaheuristiques" ;
+    ex:bibliography "" ;
+    ex:code "XMS1IU050" ;
+    ex:content "Méthodes d’enseignement" ;
+    ex:evaluation "Métaheuristiques 100%" ;
+    ex:hours "TOTAL : 24h Répartition : CM : 12h TD : 12h CI : 0h TP : 0h EAD : 0h" ;
+    ex:language "Français" ;
+    ex:level "Master" ;
+    ex:location "UFR des Sciences et des Techniques" ;
+    ex:methods "Langue d’enseignement Français" ;
+    ex:objective "(résultats d'apprentissage)" ;
+    ex:obtention "L'examen pourra être écrit ou oral." ;
+    ex:parcours """M1 Apprentissage et Traitement Automatique de
+la Langue (ATAL)""",
+        "M1 CMI-OPTIM",
+        "M1 Smart Computing",
+        "Optimisation en Recherche Opérationnelle (ORO)" ;
+    ex:prerequisite "(s)" ;
+    ex:responsible "PRZYBYLSKI ANTHONY" ;
+    ex:semester "1" .
+
+ex:UE_XMS1IU060 a ex:UE ;
+    rdfs:label "Analyse exploratoire de données" ;
+    ex:bibliography "" ;
+    ex:code "XMS1IU060" ;
+    ex:content "Méthodes d’enseignement" ;
+    ex:evaluation "Analyse exploratoire de données 100%" ;
+    ex:hours "TOTAL : 23.99h Répartition : CM : 10.66h TD : 5.33h CI : 0h TP : 8h EAD : 0h" ;
+    ex:language "Français" ;
+    ex:level "Master" ;
+    ex:location "Niveau Master" ;
+    ex:methods "Langue d’enseignement Français" ;
+    ex:objective "(résultats d'apprentissage)" ;
+    ex:obtention "Programme" ;
+    ex:parcours "(ORO)",
+        "M1",
+        "M1 Apprentissage et Traitement Automatique de la Langue (ATAL)",
+        "M1 CMI-OPTIM" ;
+    ex:prerequisite "(s)" ;
+    ex:responsible "LE CAPITAINE HOEL" ;
+    ex:semester "1" .
+
+ex:UE_XMS1IU070 a ex:UE ;
+    rdfs:label "Données massives et web sémantique" ;
+    ex:bibliography "XMS1IE072 Web sémantique - Web des données" ;
+    ex:code "XMS1IU070" ;
+    ex:content """• Conception et déploiement des applications à large échelle dans un cloud
+• REST API dans le contexte de cloud
+• Stocker et accéder des données massives dans le cloud
+• Calculer le coût d’une application web dans le cloud""" ;
+    ex:evaluation "Web sémantique - Web des données 50%" ;
+    ex:hours "TOTAL : 48.65h Répartition : CM : 17.33h TD : 14.66h CI : 0h TP : 16.66h EAD : 0h" ;
+    ex:language "Français" ;
+    ex:level "Master" ;
+    ex:location "UFR Sciences" ;
+    ex:methods "Bibliographie" ;
+    ex:objective """(résultats d'apprentissage)
+• Indentifier les services fournis pour une infrastructure de type cloud
+• Evaluer sur une applciation passe à l’échelle dans le cloud,
+• Evaluer la fiabilité d'une appllication dans le contexte de cloud""" ;
+    ex:obtention """Programme
+- Données massives et cloud (XMS1IE071)""" ;
+    ex:parcours "(ATAL)",
+        "M1 Architecture Logicielle (ALMA)",
+        "M1 Data Science (DS) ",
+        "M1 Smart Computing" ;
+    ex:prerequisite "(s)" ;
+    ex:responsible "SUNYE GERSON" ;
+    ex:semester "1" .
+
+ex:UE_XMS1IU080 a ex:UE ;
+    rdfs:label "Développement et exploitation" ;
+    ex:bibliography "" ;
+    ex:code "XMS1IU080" ;
+    ex:content "Méthodes d’enseignement" ;
+    ex:evaluation "Développement et exploitation 100%" ;
+    ex:hours "TOTAL : 23.99h Répartition : CM : 10.66h TD : 0h CI : 0h TP : 13.33h EAD : 0h" ;
+    ex:language "Français" ;
+    ex:level "Master" ;
+    ex:location "UFR Sciences et techniques" ;
+    ex:methods "Langue d’enseignement Français" ;
+    ex:objective "(résultats d'apprentissage)" ;
+    ex:obtention "Programme" ;
+    ex:parcours "Computing (VICO)",
+        "M1 Apprentissage et Traitement Automatique de la",
+        "M1 Data Science (DS) " ;
+    ex:prerequisite "(s)" ;
+    ex:responsible "MOLLI PASCAL" ;
+    ex:semester "1" .
+
+ex:UE_XMS2AU000 a ex:UE ;
+    rdfs:label "Préparation au TOEIC" ;
+    ex:bibliography """• Tactics for TOEIC® Listening and Reading Test (13 septembre 2007, de Grant Trew)
+• Cambridge Grammar and Vocabulary for the TOEIC Test (11 novembre 2010, de Jolene Gear et""" ;
+    ex:code "XMS2AU000" ;
+    ex:content """• Exercices d’entrainement
+• Conseils pour optimiser son score""" ;
+    ex:evaluation "Anglais Préparation TOEIC %" ;
+    ex:hours "TOTAL : 0h Répartition : CM : 0h TD : 0h CI : 0h TP : 0h EAD : 0h" ;
+    ex:language """Français
+• 200% TOEIC 2017 Listening & Reading (2 août 2016, de Michael Byrne et Michelle Dickinson)
+• TOEIC® La Méthode Réussite (20 janvier 2011, de David Mayer et Serena Murdoch Stern)""" ;
+    ex:level "Master" ;
+    ex:location "Nantes" ;
+    ex:methods """Langue d’enseignement Français
+• 200% TOEIC 2017 Listening & Reading (2 août 2016, de Michael Byrne et Michelle Dickinson)
+• TOEIC® La Méthode Réussite (20 janvier 2011, de David Mayer et Serena Murdoch Stern)""" ;
+    ex:objective """(résultats d'apprentissage) • Compléter les réponses exigées par les tests de certifications.
+• Pouvoir optimiser leurs résultats aux certifications grâce à une méthodologie de travail appliquée
+lors des séances d’entrainement.""" ;
+    ex:obtention "Programme" ;
+    ex:parcours "Automatique de la Langue (ATAL)",
+        "M1",
+        "M1 Architecture Logicielle (ALMA)",
+        "M1 Data Science (DS) " ;
+    ex:prerequisite "(s)" ;
+    ex:responsible "MOLLI PASCAL" ;
+    ex:semester "2" .
+
+ex:UE_XMS2IU010 a ex:UE ;
+    rdfs:label "Professionnalisation et éthique" ;
+    ex:bibliography "XMS2IE012 Ethique" ;
+    ex:code "XMS2IU010" ;
+    ex:content "Méthodes d’enseignement" ;
+    ex:evaluation "Ethique 50%" ;
+    ex:hours "TOTAL : 23.99h Répartition : CM : 13.33h TD : 10.66h CI : 0h TP : 0h EAD : 0h" ;
+    ex:language "Français" ;
+    ex:level "Master" ;
+    ex:location "UFR Sciences et techniques" ;
+    ex:methods "Bibliographie" ;
+    ex:objective "(résultats d'apprentissage)" ;
+    ex:obtention """Programme
+- Professionnalisation (XMS2IE011)""" ;
+    ex:parcours "M1 Architecture Logicielle (ALMA)",
+        "M1 Data",
+        "M1 Visual Computing (VICO)",
+        "Opérationnelle (ORO)" ;
+    ex:prerequisite "(s)" ;
+    ex:responsible "SUNYE GERSON" ;
+    ex:semester "2" .
+
+ex:UE_XMS2IU020 a ex:UE ;
+    rdfs:label "Apprentissage automatique" ;
+    ex:bibliography "" ;
+    ex:code "XMS2IU020" ;
+    ex:content "Méthodes d’enseignement" ;
+    ex:evaluation "Machine Learning 100%" ;
+    ex:hours "TOTAL : 23.99h Répartition : CM : 12h TD : 5.33h CI : 0h TP : 6.66h EAD : 0h" ;
+    ex:language "Français" ;
+    ex:level "Master" ;
+    ex:location "Niveau Master" ;
+    ex:methods "Langue d’enseignement Français" ;
+    ex:objective "(résultats d'apprentissage)" ;
+    ex:obtention "Programme" ;
+    ex:parcours """M1 Apprentissage et Traitement Automatique de
+la Langue (ATAL)""",
+        "M1 Architecture Logicielle (ALMA)",
+        "M1 CMI-OPTIM",
+        "M1 Smart Computing",
+        "Optimisation en Recherche Opérationnelle (ORO)" ;
+    ex:prerequisite "(s)" ;
+    ex:responsible "DE LA HIGUERA COLIN" ;
+    ex:semester "2" .
+
+ex:UE_XMS2IU030 a ex:UE ;
+    rdfs:label "Compilation" ;
+    ex:bibliography "" ;
+    ex:code "XMS2IU030" ;
+    ex:content "Méthodes d’enseignement" ;
+    ex:evaluation "Compilation 100%" ;
+    ex:hours "TOTAL : 24h Répartition : CM : 16h TD : 8h CI : 0h TP : 0h EAD : 0h" ;
+    ex:language "Français" ;
+    ex:level "Master" ;
+    ex:location "UFR des Sciences et des Techniques" ;
+    ex:methods "Langue d’enseignement Français" ;
+    ex:objective "(résultats d'apprentissage)" ;
+    ex:obtention "Programme" ;
+    ex:parcours "M1",
+        "M1 Apprentissage et Traitement Automatique de la Langue (ATAL)",
+        "Visual Computing (VICO)" ;
+    ex:prerequisite "(s)" ;
+    ex:responsible "SUNYE GERSON" ;
+    ex:semester "2" .
+
+ex:UE_XMS2IU040 a ex:UE ;
+    rdfs:label "Projet de recherche" ;
+    ex:bibliography "" ;
+    ex:code "XMS2IU040" ;
+    ex:content """Les activités visées
+- Conception et élaboration d’une démarche de recherche et développement, d’études et
+prospective
+- Mise en oeuvre d’une démarche de recherche et développement, d’études et prospective""" ;
+    ex:evaluation "Projet de recherche 100%" ;
+    ex:hours "TOTAL : 16h Répartition : CM : 16h TD : 0h CI : 0h TP : 0h EAD : 0h" ;
+    ex:language "Français" ;
+    ex:level "Master" ;
+    ex:location "Nantes" ;
+    ex:methods "Langue d’enseignement Français" ;
+    ex:objective "(résultats d'apprentissage)" ;
+    ex:obtention "Programme" ;
+    ex:parcours "(ORO)",
+        "M1 Apprentissage et Traitement Automatique de la Langue (ATAL)",
+        "M1 Architecture" ;
+    ex:prerequisite "(s)" ;
+    ex:responsible "SUNYE GERSON" ;
+    ex:semester "2" .
+
+ex:UE_XMS2IU050 a ex:UE ;
+    rdfs:label "Bases de données avancées" ;
+    ex:bibliography "" ;
+    ex:code "XMS2IU050" ;
+    ex:content "Méthodes d’enseignement" ;
+    ex:evaluation "Bases de données avancées 100%" ;
+    ex:hours "TOTAL : 24h Répartition : CM : 0h TD : 24h CI : 0h TP : 0h EAD : 0h" ;
+    ex:language "Français" ;
+    ex:level "Master" ;
+    ex:location "UFR des sciences et des techniques" ;
+    ex:methods "Langue d’enseignement Français" ;
+    ex:objective "(résultats d'apprentissage)" ;
+    ex:obtention "Programme" ;
+    ex:parcours "(VICO)",
+        "M1 Data Science (DS)" ;
+    ex:prerequisite "(s)" ;
+    ex:responsible "HERNANDEZ NICOLAS" ;
+    ex:semester "2" .
+
+ex:UE_XMS2IU060 a ex:UE ;
+    rdfs:label "Modèles probabilistes" ;
+    ex:bibliography "" ;
+    ex:code "XMS2IU060" ;
+    ex:content "Méthodes d’enseignement" ;
+    ex:evaluation "Modèles probabilistes 100%" ;
+    ex:hours "TOTAL : 24h Répartition : CM : 16h TD : 8h CI : 0h TP : 0h EAD : 0h" ;
+    ex:language "Français" ;
+    ex:level "Master" ;
+    ex:location "UFR des Sciences et des Techniques" ;
+    ex:methods "Langue d’enseignement Français" ;
+    ex:objective "(résultats d'apprentissage)" ;
+    ex:obtention "Programme" ;
+    ex:parcours "M1 Apprentissage et Traitement Automatique de la Langue (ATAL)",
+        "M1 CMI-OPTIM",
+        "Science (DS) " ;
+    ex:prerequisite "(s)" ;
+    ex:responsible "DE LA HIGUERA COLIN" ;
+    ex:semester "2" .
+
+ex:UE_XMS2IU070 a ex:UE ;
+    rdfs:label "Introduction au traitement d'image" ;
+    ex:bibliography "Press, Boca Raton, FL, 2015, 1053 pp. ISBN: 978-1498740265. Microscopy and" ;
+    ex:code "XMS2IU070" ;
+    ex:content "•" ;
+    ex:evaluation "Introduction au traitement d'image 100%" ;
+    ex:hours "TOTAL : 24h Répartition : CM : 0h TD : 16h CI : 8h TP : 0h EAD : 0h" ;
+    ex:language """Français
+• Gonzalez, R. C., Woods, R. E. (2018). Digital image processing. Upper Saddle River, N.J.: Prentice""" ;
+    ex:level "Master" ;
+    ex:location "UFR des sciences et des techniques" ;
+    ex:methods """(2h40) qui permettent de traiter différente thématiques. La dernière séquence (3 TDs) concerne
+l'étude d'un cas pratique au travers d'un mini projet.""" ;
+    ex:objective "(résultats d'apprentissage)" ;
+    ex:obtention "Programme" ;
+    ex:parcours "(VICO)",
+        "M1",
+        "M1 Architecture Logicielle (ALMA)",
+        "M1 Optimisation en Recherche Opérationnelle (ORO)" ;
+    ex:prerequisite "(s)" ;
+    ex:responsible "PERREIRA DA SILVA MATTHIEU" ;
+    ex:semester "2" .
+
+ex:UE_XMS2IU080 a ex:UE ;
+    rdfs:label "Ingénierie de la décision" ;
+    ex:bibliography "" ;
+    ex:code "XMS2IU080" ;
+    ex:content "Méthodes d’enseignement" ;
+    ex:evaluation "Ingénierie de la décision 100%" ;
+    ex:hours "TOTAL : 24h Répartition : CM : 12h TD : 12h CI : 0h TP : 0h EAD : 0h" ;
+    ex:language "Français" ;
+    ex:level "Master" ;
+    ex:location "UFR des Sciences et des Techniques" ;
+    ex:methods "Langue d’enseignement Français" ;
+    ex:objective "(résultats d'apprentissage)" ;
+    ex:obtention "La note de CCE pourra contenir une part de pratique et d'oral." ;
+    ex:parcours "Apprentissage et Traitement Automatique de la Langue (ATAL)",
+        """M1 Architecture Logicielle
+(ALMA)""",
+        "M1 CMI-OPTIM",
+        "M1 Data Science (DS) " ;
+    ex:prerequisite "(s)" ;
+    ex:responsible "GUREVSKY EVGENY" ;
+    ex:semester "2" .
+
+ex:UE_XMS2IU090 a ex:UE ;
+    rdfs:label "Informatique temps réel et embarquée" ;
+    ex:bibliography "" ;
+    ex:code "XMS2IU090" ;
+    ex:content "Méthodes d’enseignement" ;
+    ex:evaluation "Informatique temps réel et embarquée 100%" ;
+    ex:hours "TOTAL : 24h Répartition : CM : 12h TD : 5.33h CI : 0h TP : 6.67h EAD : 0h" ;
+    ex:language "Français" ;
+    ex:level "Master" ;
+    ex:location "UFR Sciences et techniques" ;
+    ex:methods "Langue d’enseignement Français" ;
+    ex:objective "(résultats d'apprentissage)" ;
+    ex:obtention "Programme" ;
+    ex:parcours "(VICO)",
+        "M1",
+        "M1 Architecture Logicielle (ALMA)",
+        "M1 Optimisation en Recherche Opérationnelle (ORO)" ;
+    ex:prerequisite "(s)" ;
+    ex:responsible "SKAF-MOLLI HALA" ;
+    ex:semester "2" .
+
+ex:UE_XMS2IU100 a ex:UE ;
+    rdfs:label "Introduction au Traitement Automatique des Langues" ;
+    ex:bibliography "" ;
+    ex:code "XMS2IU100" ;
+    ex:content """et l'apprentissage profond, seront présentés. Les enjeux sociétaux et les limites des modèles de
+langue actuels seront également abordés. Enfin, une part importante de l'UE intègrera des travaux
+sur machine sous forme de travaux pratiques : il s'agira de manipuler les concepts du traitement du
+langage au travers d'exercice ciblé ainsi que d'un petit projet permettant de résoudre un problème
+ciblé grâce au techniques actuels d'intelligence artificielle adaptées au langage.""" ;
+    ex:evaluation "Introduction au Traitement Automatique des Langues 100%" ;
+    ex:hours "TOTAL : 24h Répartition : CM : 8h TD : 16h CI : 0h TP : 0h EAD : 0h" ;
+    ex:language "Français" ;
+    ex:level "Master" ;
+    ex:location "UFR des Sciences et des Techniques" ;
+    ex:methods "Langue d’enseignement Français" ;
+    ex:objective "(résultats d'apprentissage)" ;
+    ex:obtention "Programme" ;
+    ex:parcours "Apprentissage et Traitement Automatique de la Langue (ATAL)",
+        """M1 Architecture Logicielle
+(ALMA)""",
+        "M1 CMI-OPTIM",
+        "M1 Data Science (DS) " ;
+    ex:prerequisite "(s)" ;
+    ex:responsible "DUFOUR RICHARD" ;
+    ex:semester "2" .
+
+ex:UE_XMS2IU110 a ex:UE ;
+    rdfs:label "Ingéniérie des réseaux" ;
+    ex:bibliography "" ;
+    ex:code "XMS2IU110" ;
+    ex:content "Méthodes d’enseignement" ;
+    ex:evaluation "Ingénierie des réseaux 100%" ;
+    ex:hours "TOTAL : 24h Répartition : CM : 12h TD : 8h CI : 0h TP : 4h EAD : 0h" ;
+    ex:language "Français" ;
+    ex:level "Master" ;
+    ex:location "UFR Sciences et techniques" ;
+    ex:methods "Langue d’enseignement Français" ;
+    ex:objective "(résultats d'apprentissage)" ;
+    ex:obtention "Programme" ;
+    ex:parcours "(ATAL)",
+        "M1",
+        "M1 Architecture Logicielle (ALMA)",
+        "M1 Optimisation en Recherche Opérationnelle (ORO)" ;
+    ex:prerequisite "(s)" ;
+    ex:responsible "HAMMA SALIMA" ;
+    ex:semester "2" .
+
+ex:UE_XMS2IU120 a ex:UE ;
+    rdfs:label "Conception et Analyse d'Algorithmes Efficaces" ;
+    ex:bibliography "" ;
+    ex:code "XMS2IU120" ;
+    ex:content """plusieurs algorithmes entre eux
+• évaluation de la complexité d'un problème (Polynomial vs NP-dur)
+• en cas de problème "difficile" (NP-dur), étude de deux stratégies de résolution: algorithmes
+d'approximation et complexité paramétrée (à exponentielle faible)""" ;
+    ex:evaluation "Conception et Analyse d'Algorithmes Efficaces 100%" ;
+    ex:hours "TOTAL : 24h Répartition : CM : 12h TD : 8h CI : 0h TP : 4h EAD : 0h" ;
+    ex:language "Français" ;
+    ex:level "Master" ;
+    ex:location "UFR des Sciences et des Technqiues" ;
+    ex:methods "Langue d’enseignement Français" ;
+    ex:objective "(résultats d'apprentissage)" ;
+    ex:obtention "Programme" ;
+    ex:parcours "Apprentissage et Traitement Automatique de la Langue (ATAL)",
+        """M1 Architecture Logicielle
+(ALMA)""",
+        "M1 CMI-OPTIM",
+        "M1 Data Science (DS) " ;
+    ex:prerequisite "(s)" ;
+    ex:responsible "FERTIN GUILLAUME" ;
+    ex:semester "2" .
+
+ex:UE_XMS2IU130 a ex:UE ;
+    rdfs:label "stage volontaire en informatique" ;
+    ex:bibliography "" ;
+    ex:code "XMS2IU130" ;
+    ex:content "Méthodes d’enseignement" ;
+    ex:evaluation "Stage volontaire en informatique 100%" ;
+    ex:hours "TOTAL : 0h Répartition : CM : 0h TD : 0h CI : 0h TP : 0h EAD : 0h" ;
+    ex:language "Français" ;
+    ex:level "Master" ;
+    ex:location "Niveau Master" ;
+    ex:methods "Langue d’enseignement Français" ;
+    ex:objective "(résultats d'apprentissage)" ;
+    ex:obtention "Programme" ;
+    ex:parcours "Apprentissage et Traitement Automatique de la Langue (ATAL)",
+        """M1 Architecture Logicielle
+(ALMA)""",
+        "M1 CMI-OPTIM",
+        "M1 Data Science (DS) " ;
+    ex:prerequisite "(s)" ;
+    ex:responsible "SUNYE GERSON" ;
+    ex:semester "2" .
+

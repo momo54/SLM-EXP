@@ -1,0 +1,73 @@
+code,label,location,level,semester,responsible,hours,prerequisite,parcours,evaluation,obtention,objective,content,methods,language,bibliography
+XUATTENTE10,Research methodology,Polytech Nantes,Master,3,HERNANDEZ NICOLAS,TOTAL : 24h Répartition : CM : 9.5h TD : 4.5h CI : 10h TP : 0h EAD : 0h,(s),"M2 Apprentissage et Traitement Automatique de la Langue (ATAL),M2 Visual Computing (VICO)",Open science sustainability and ethics 20%,"Programme
+- Initiation to scientific research (XEATTENTE11)",(résultats d'apprentissage),"Then we focus on the content of scientific documents, how to read them, and how to write scientific
+material, before addressing the topic of how to search for scientific material with the tools at hand
+and organize them in a bibliography.",Bibliographie,Anglais,XEATTENTE12 Open science sustainability and ethics
+XUATTENTE20,Deep learning,Polytech Nantes,Master,3,MOUCHERE HAROLD,TOTAL : 24h Répartition : CM : 5h TD : 7.5h CI : 0h TP : 11.5h EAD : 0h,(s),de la Langue (ATAL),Deep learning 100%,Programme,"(résultats d'apprentissage)
+• Cours : MLP, CNN, RNN","• TD : Nombre de poids, tailles des CNN, étude d'architechtures classiques, CTC
+• TP : IRIS, MINST, Seq",Langue d’enseignement Anglais,Anglais,
+XMS3IU200,Modélisation des langues,Nantes,Master,3,HERNANDEZ NICOLAS,TOTAL : 24h Répartition : CM : 16h TD : 8h CI : 0h TP : 0h EAD : 0h,(s),M2 Apprentissage et Traitement Automatique de la Langue (ATAL),Modélisation des langues 100%,Programme,"(résultats d'apprentissage)
+• Architectures et modèles (statique, contextuel, mécanisme d'attention, transformer, encodeur et
+génératif, multimodalité, compression)
+• Apprentissage (pré-entrainement, entraînement, renforcement, fine-tuning, continuous learning,","adversarial, adaptation au domaine, Parameter-Efficient Fine-Tuning)
+• Représentation profonde des mots, des phrases, des séquences longues
+• Injection de connaissances, augmentation de données
+• Analyse et interprétabilité (biais)","Cours magistraux, travaux tirigés et mini projets",Français,"Linguistics. Synthesis Lectures on Human Language Technologies, Morgan & Claypool Publishers
+2015"
+XMS3IU210,Traitement automatique des langues,Nantes,Master,3,DUFOUR RICHARD,TOTAL : 24h Répartition : CM : 8h TD : 16h CI : 0h TP : 0h EAD : 0h,(s),M2 Apprentissage et Traitement Automatique de la Langue (ATAL),Traitement automatique des langues 100%,Programme,"(résultats d'apprentissage)
+• Paradigmes de résolution des problématiques de TAL
+• Applications/tâches d'analyse (extraction d'information e.g. NE/relations, résolution de la co-
+référence, classification d'énoncés, alignement)
+• Applications/tâches génératives (résumé, question/réponse, traduction, génération de code, agent","conversationnel/chatbot) - protocole, données, approches état de l'art et évaluation
+• Recherche d'information
+• Domaine de spécialités : problématiques et approches (médical et santé, légal, scientifique,
+éducation)
+• Exploitation de GPU/supercalcultateur","Langue d’enseignement Français
+• Tika a content analysis toolkit https://tika.apache.org/
+• Hadoop, a distributed computing platform http://hadoop.apache.org/
+• Storm a distributed realtime computation system http://storm.apache.org/
+• Mahout an environment for quickly creating scalable performant machine learning applications
+https://mahout.apache.org/
+• Elasticsearch is a distributed, open source search and analytics engine, designed for horizontal
+scalability, reliability, and easy management. https://www.elastic.co/fr/downloads/elasticsearch
+• “Unstructured Information Management Architecture (UIMA)”, Version 1.0, OASIS Standard, 2","Français
+• Tika a content analysis toolkit https://tika.apache.org/
+• Hadoop, a distributed computing platform http://hadoop.apache.org/
+• Storm a distributed realtime computation system http://storm.apache.org/
+• Mahout an environment for quickly creating scalable performant machine learning applications
+https://mahout.apache.org/
+• Elasticsearch is a distributed, open source search and analytics engine, designed for horizontal
+scalability, reliability, and easy management. https://www.elastic.co/fr/downloads/elasticsearch
+• “Unstructured Information Management Architecture (UIMA)”, Version 1.0, OASIS Standard, 2",• Jimmy Lin and Chris Dyer. Data-Intensive Text Processing with MapReduce. Morgan & Claypool
+XMS3IU220,Ressources linguistiques,Nantes,Master,3,DAILLE BEATRICE,TOTAL : 24h Répartition : CM : 12h TD : 12h CI : 0h TP : 0h EAD : 0h,(s),M2 Apprentissage et Traitement Automatique de la Langue (ATAL),Ressources linguistiques 100%,Programme,"(résultats d'apprentissage)
+• Construction de corpus (typologie, constitution, méta-données, codage, corpus et jeux de données
+de références...) et de lexiques
+• Annotation (procédure, guide d'annotation, outils, mesure d'accord)","• Valorisation (diffusion de jeux de données/modèles, licence)
+• Evaluation, métriques, campagnes
+• Prompting for LLM application development
+• Retrieval Augmented Generation (RAG)",Langue d’enseignement Français,Français,
+XMS3IU230,Développement logiciel et IA dans les entreprises,Nantes,Master,3,HERNANDEZ NICOLAS,TOTAL : 24h Répartition : CM : 12h TD : 12h CI : 0h TP : 0h EAD : 0h,(s),M2 Apprentissage et Traitement Automatique de la Langue (ATAL),Développement logiciel et IA dans les entreprises 100%,Programme,"(résultats d'apprentissage)
+* Agilité et gestion de projets","* Processus en amont et aval de la construction de modèles (recueil besoins, trajectoire client,
+acculturation, chiffrage, planification, industrialisation, packaging, performance)",Langue d’enseignement Français,Français,
+XMS3IU240,Algorithmique du texte et inférence grammaticale,Nantes,Master,3,DE LA HIGUERA COLIN,TOTAL : 24h Répartition : CM : 12h TD : 12h CI : 0h TP : 0h EAD : 0h,(s),M2 Apprentissage et Traitement Automatique de la Langue (ATAL),Algorithmique du texte et inférence grammaticale 100%,Programme,(résultats d'apprentissage),"Contenu de la partie ""Algorithmique du Texte"":
+1. Automate déterministe de reconnaissance du motif
+2. Arbre des Suffixes
+3. Tableau des Suffixes
+4. Transformée de Burrows-Wheeler et FM-index",Méthodes d'enseignement,Français,"Pierre Zweigenbaum et Benoit Habert (2006). Faire se rencontrer les parallèles : regards croisés
+sur l’acquisition lexicale monolingue et multilingue. GLOTTOPOL :8, 22-44."
+XMS3IU250,Communication scientifique,Nantes,Master,3,QUINIOU SOLEN,TOTAL : 24h Répartition : CM : 4h TD : 20h CI : 0h TP : 0h EAD : 0h,(s),M2 Apprentissage et Traitement Automatique de la Langue (ATAL),Communication scientifique 100%,Les étudiants doivent obligatoirement assister aux conférences pour valider l'UE.,"(résultats d'apprentissage)
+* Réalisation d'étude bibliographique et de présentation d'articles dans le domaine
+* Participation à séminaires ""Petit Séminaires ATAL""","* Construction de poster, rédaction en latex, gestion bibliographique",Langue d’enseignement Français,Français,
+XMS3IU020,Gestion des données distribuées à large échelle,Niveau Master,Master,3,MOLLI PASCAL,TOTAL : 24h Répartition : CM : 12h TD : 12h CI : 0h TP : 0h EAD : 0h,(s),(ATAL),Gestion des données distribuées à large échelle 100%,"Programme
+• To understand how big are big data and how distributed infrastructures are able to handle them
+• To understand why traditional databases cannot handle big data
+• To know online transaction processing, online analytical processing and streaming processing on
+big data.
+• To know representative distributed datastore for big data OLTP ie. CouchBase, Google BigTable...
+• To know how to program with Map-Reduce, resilient data structures, and stream processing ie.",(résultats d'apprentissage),Méthodes d’enseignement,Langue d’enseignement Français,Français,
+XMS3IU260,Projet (M2 ATAL),Niveau Master,Master,3,HERNANDEZ NICOLAS,TOTAL : 24h Répartition : CM : 0h TD : 24h CI : 0h TP : 0h EAD : 0h,(s),M2 Apprentissage et Traitement Automatique de la Langue (ATAL),Projet (M2 ATAL) 100%,Programme,(résultats d'apprentissage),Méthodes d’enseignement,Langue d’enseignement Français,Français,
+XMS3IU270,Périodes de formation alternées en milieu professionnel (M2 ATAL),Niveau Master,Master,3,HERNANDEZ NICOLAS,TOTAL : 0h Répartition : CM : 0h TD : 0h CI : 0h TP : 0h EAD : 0h,(s),M2 Apprentissage et Traitement Automatique de la Langue (ATAL),Périodes de formation alternées en milieu professionnel (M2 ATAL) 100%,Programme,(résultats d'apprentissage),Méthodes d’enseignement,Langue d’enseignement Français,Français,
+XMS4IU010,Stage,Soutenance à la faculté des sciences et techniques,Master,4,PERRIN MATTHIEU,TOTAL : 0h Répartition : CM : 0h TD : 0h CI : 0h TP : 0h EAD : 0h,(s),"Apprentissage et Traitement Automatique de la Langue (ATAL),M2 CMI-OPTIM",Stage 100%,Les dispenses d'assiduité ne sont pas autorisées.,"(résultats d'apprentissage) - Synthétiser le travail effectué dans un compte rendu de manière concise, correcte, et complète.
+- Préparer des supports puis présenter oralement le travail effectué de manière dynamique et
+convaincante.",Méthodes d’enseignement,Langue d’enseignement Mixte,Mixte,
+XMS4IU200,Période de suivi en formation par alternance (M2 ATAL),Niveau Master,Master,4,QUINIOU SOLEN,TOTAL : 0h Répartition : CM : 0h TD : 0h CI : 0h TP : 0h EAD : 0h,(s),M2 Apprentissage et Traitement Automatique de la Langue (ATAL),Période de suivi en formation par alternance (M2 ATAL) 100%,Programme,(résultats d'apprentissage),Méthodes d’enseignement,Langue d’enseignement Français,Français,"Dernière modification par SOLEN QUINIOU, le 2024-06-18 18:19:34"
