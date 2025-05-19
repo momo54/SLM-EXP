@@ -1,0 +1,70 @@
+@prefix ns1: <http://example.org/course/> .
+@prefix ns2: <http://provo.org/> .
+@prefix ns3: <http://align.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ns1:UE_XMS1AU010 ns3:to [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Software_Engineering_SE/SE-Formal_Methods.txt> ;
+            ns3:score "0.6374775"^^xsd:float ;
+            ns1:answer "0" ;
+            ns1:explain "Lecture focuses on teaching methods for scientific English, while KU covers formal methods in software engineering—no substantial overlap." ;
+            ns1:ka "Software_Engineering_SE" ;
+            ns1:ku "SE-Formal_Methods" ;
+            ns2:wasGeneratedBy [ ns2:used "qwen-qwq-32b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Specialized_Platform_Development_SPD/SPD-Common_Aspects.txt> ;
+            ns3:score "0.6468371"^^xsd:float ;
+            ns1:answer "1" ;
+            ns1:explain "The lecture covers the overview of development platforms, programming via platform-specific API, and platform languages, which aligns with the KU's content." ;
+            ns1:ka "Specialized_Platform_Development_SPD" ;
+            ns1:ku "SPD-Common_Aspects" ;
+            ns2:wasGeneratedBy [ ns2:used "llama3-8b-8192" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Specialized_Platform_Development_SPD/SPD-Common_Aspects.txt> ;
+            ns3:score "0.6468371"^^xsd:float ;
+            ns1:answer "0" ;
+            ns1:explain "Lecture focuses on teaching methods in scientific English, not CS platforms/programming topics." ;
+            ns1:ka "Specialized_Platform_Development_SPD" ;
+            ns1:ku "SPD-Common_Aspects" ;
+            ns2:wasGeneratedBy [ ns2:used "qwen-qwq-32b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Software_Engineering_SE/SE-Formal_Methods.txt> ;
+            ns3:score "0.6374775"^^xsd:float ;
+            ns1:answer "1" ;
+            ns1:explain "The lecture covers key concepts of SE-Formal Methods, applies principles in practical scenarios, and analyzes the importance of this topic in computing, aligning with the KU's learning outcomes." ;
+            ns1:ka "Software_Engineering_SE" ;
+            ns1:ku "SE-Formal_Methods" ;
+            ns2:wasGeneratedBy [ ns2:used "llama3-8b-8192" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Software_Engineering_SE/SE-Formal_Methods.txt> ;
+            ns3:score "0.6374775"^^xsd:float ;
+            ns1:answer "0" ;
+            ns1:explain "The lecture covers scientific English and teaching methods, not formal methods in CS." ;
+            ns1:ka "Software_Engineering_SE" ;
+            ns1:ku "SE-Formal_Methods" ;
+            ns2:wasGeneratedBy [ ns2:used "deepseek-r1-distill-llama-70b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Artificial_Intelligence_AI/AI-NLP_Natural_Language_Processing.txt> ;
+            ns3:score "0.63415897"^^xsd:float ;
+            ns1:answer "0" ;
+            ns1:explain "The lecture focuses on teaching methods for scientific English, not NLP technical content." ;
+            ns1:ka "Artificial_Intelligence_AI" ;
+            ns1:ku "AI-NLP_Natural_Language_Processing" ;
+            ns2:wasGeneratedBy [ ns2:used "qwen-qwq-32b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Specialized_Platform_Development_SPD/SPD-Common_Aspects.txt> ;
+            ns3:score "0.6468371"^^xsd:float ;
+            ns1:answer "0" ;
+            ns1:explain "The lecture focuses on scientific English and teaching methods, while the KU covers technical programming topics." ;
+            ns1:ka "Specialized_Platform_Development_SPD" ;
+            ns1:ku "SPD-Common_Aspects" ;
+            ns2:wasGeneratedBy [ ns2:used "deepseek-r1-distill-llama-70b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Artificial_Intelligence_AI/AI-NLP_Natural_Language_Processing.txt> ;
+            ns3:score "0.63415897"^^xsd:float ;
+            ns1:answer "1" ;
+            ns1:explain "The lecture covers a significant portion of the KU, including topics such as deterministic and stochastic grammars, parsing algorithms, and natural language processing." ;
+            ns1:ka "Artificial_Intelligence_AI" ;
+            ns1:ku "AI-NLP_Natural_Language_Processing" ;
+            ns2:wasGeneratedBy [ ns2:used "llama3-8b-8192" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Artificial_Intelligence_AI/AI-NLP_Natural_Language_Processing.txt> ;
+            ns3:score "0.63415897"^^xsd:float ;
+            ns1:answer "0" ;
+            ns1:explain "The lecture focuses on scientific English and teaching methods, not the technical NLP topics covered in the KU." ;
+            ns1:ka "Artificial_Intelligence_AI" ;
+            ns1:ku "AI-NLP_Natural_Language_Processing" ;
+            ns2:wasGeneratedBy [ ns2:used "deepseek-r1-distill-llama-70b" ] ] .
+
+
