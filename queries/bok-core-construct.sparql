@@ -1,5 +1,5 @@
 # run with slm-run --config config.bok -f queries/bok-core-construct.sparql --debug
-
+# Carefull, if nb_hours is not found -> the join will remove the result... -> optional??
 
 PREFIX bok: <http://example.org/bok/>
 PREFIX ex: <http://example.org/>
@@ -56,6 +56,9 @@ WHERE {
         BIND (REPLACE(str(?p2), "file://.*/([^/]+)/[^/]+\\.txt$", "$1") AS ?ka) 
         BIND (REPLACE(str(?p2), "file://.*/([^/]+)/([^/]+)\\.txt$", "$2") AS ?ku)
          BIND(ex:SLM-READFILE(?p2) AS ?ku_content)
+         ###
+         ### Extracting hours is not reliable... ...
+         ###
         BIND(CONCAT("""
         You are a JSON-LD API. Always respond only with a valid JSON-LD object, without explanation or formatting.
 

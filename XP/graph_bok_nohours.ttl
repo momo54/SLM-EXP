@@ -1,0 +1,488 @@
+@prefix ns1: <http://example.org/bok/> .
+
+"AI-Agents_Agents_and_Cognitive_Systems" ns1:part_of "Artificial_Intelligence_AI" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Artificial_Intelligence_AI/AI-Agents_Agents_and_Cognitive_Systems.txt> .
+
+"AI-Introduction_Fundamental_Issues" ns1:part_of "Artificial_Intelligence_AI" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Artificial_Intelligence_AI/AI-Introduction_Fundamental_Issues.txt> .
+
+"AI-KRR_Fundamental_Knowledge_Representation_and_Reasoning" ns1:part_of "Artificial_Intelligence_AI" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Artificial_Intelligence_AI/AI-KRR_Fundamental_Knowledge_Representation_and_Reasoning.txt> .
+
+"AI-LRR_Logical_Representation_and_Reasoning" ns1:part_of "Artificial_Intelligence_AI" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Artificial_Intelligence_AI/AI-LRR_Logical_Representation_and_Reasoning.txt> .
+
+"AI-ML_Machine_Learning" ns1:part_of "Artificial_Intelligence_AI" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Artificial_Intelligence_AI/AI-ML_Machine_Learning.txt> .
+
+"AI-NLP_Natural_Language_Processing" ns1:part_of "Artificial_Intelligence_AI" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Artificial_Intelligence_AI/AI-NLP_Natural_Language_Processing.txt> .
+
+"AI-Planning_Planning" ns1:part_of "Artificial_Intelligence_AI" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Artificial_Intelligence_AI/AI-Planning_Planning.txt> .
+
+"AI-Probability_Probabilistic_Representation_and_Reasoning" ns1:part_of "Artificial_Intelligence_AI" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Artificial_Intelligence_AI/AI-Probability_Probabilistic_Representation_and_Reasoning.txt> .
+
+"AI-Robotics_Robotics" ns1:part_of "Artificial_Intelligence_AI" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Artificial_Intelligence_AI/AI-Robotics_Robotics.txt> .
+
+"AI-Vision_Perception_and_Computer_Vision" ns1:part_of "Artificial_Intelligence_AI" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Artificial_Intelligence_AI/AI-Vision_Perception_and_Computer_Vision.txt> .
+
+"AI_SEP_Applications_and_Societal_Impact" ns1:part_of "Artificial_Intelligence_AI" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Artificial_Intelligence_AI/AI_SEP_Applications_and_Societal_Impact.txt> .
+
+"AI_Search_Search" ns1:part_of "Artificial_Intelligence_AI" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Artificial_Intelligence_AI/AI_Search_Search.txt> .
+
+"AL-Complexity_Complexity" ns1:part_of "Algorithmic_Foundations_AL" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Algorithmic_Foundations_AL/AL-Complexity_Complexity.txt> .
+
+"AL-Foundational_Foundational_Data_Structures_and_Algorithms" ns1:part_of "Algorithmic_Foundations_AL" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Algorithmic_Foundations_AL/AL-Foundational_Foundational_Data_Structures_and_Algorithms.txt> .
+
+"AL-Models_Computational_Models_and_Formal_Languages" ns1:part_of "Algorithmic_Foundations_AL" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Algorithmic_Foundations_AL/AL-Models_Computational_Models_and_Formal_Languages.txt> .
+
+"AL-SEP_Society_Ethics_and_the_Profession" ns1:part_of "Algorithmic_Foundations_AL" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Algorithmic_Foundations_AL/AL-SEP_Society_Ethics_and_the_Profession.txt> .
+
+"AL-Strategies_Algorithmic_Strategies" ns1:part_of "Algorithmic_Foundations_AL" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Algorithmic_Foundations_AL/AL-Strategies_Algorithmic_Strategies.txt> .
+
+"AR-Assembly_Assembly_Level_Machine_Organization" ns1:part_of "Architecture_and_Organization_AR" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Architecture_and_Organization_AR/AR-Assembly_Assembly_Level_Machine_Organization.txt> .
+
+"AR-Heterogeneity_Heterogeneous_Architectures" ns1:part_of "Architecture_and_Organization_AR" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Architecture_and_Organization_AR/AR-Heterogeneity_Heterogeneous_Architectures.txt> .
+
+"AR-IO_Interfacing_and_Communication" ns1:part_of "Architecture_and_Organization_AR" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Architecture_and_Organization_AR/AR-IO_Interfacing_and_Communication.txt> .
+
+"AR-Logic_Digital_Logic_and_Digital_Systems" ns1:part_of "Architecture_and_Organization_AR" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Architecture_and_Organization_AR/AR-Logic_Digital_Logic_and_Digital_Systems.txt> .
+
+"AR-Memory_Memory_Hierarchy" ns1:part_of "Architecture_and_Organization_AR" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Architecture_and_Organization_AR/AR-Memory_Memory_Hierarchy.txt> .
+
+"AR-Organization_Functional_Organization" ns1:part_of "Architecture_and_Organization_AR" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Architecture_and_Organization_AR/AR-Organization_Functional_Organization.txt> .
+
+"AR-Performance-Energy_Performance_and_Energy_Efficiency" ns1:part_of "Architecture_and_Organization_AR" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Architecture_and_Organization_AR/AR-Performance-Energy_Performance_and_Energy_Efficiency.txt> .
+
+"AR-Quantum_Quantum_Architectures" ns1:part_of "Architecture_and_Organization_AR" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Architecture_and_Organization_AR/AR-Quantum_Quantum_Architectures.txt> .
+
+"AR-Representation_Machine-Level_Data_Representation" ns1:part_of "Architecture_and_Organization_AR" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Architecture_and_Organization_AR/AR-Representation_Machine-Level_Data_Representation.txt> .
+
+"AR-SEP_Sustainability_Issues" ns1:part_of "Architecture_and_Organization_AR" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Architecture_and_Organization_AR/AR-SEP_Sustainability_Issues.txt> .
+
+"AR-Security_Secure_Processor_Architectures" ns1:part_of "Architecture_and_Organization_AR" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Architecture_and_Organization_AR/AR-Security_Secure_Processor_Architectures.txt> .
+
+"DM-Analytics_Data_Analytics" ns1:part_of "Date_Management_DM" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Date_Management_DM/DM-Analytics_Data_Analytics.txt> .
+
+"DM-Core_Core_Database_System_Concepts" ns1:part_of "Date_Management_DM" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Date_Management_DM/DM-Core_Core_Database_System_Concepts.txt> .
+
+"DM-Data_The_Role_of_Data_and_the_Data_Life_Cycle" ns1:part_of "Date_Management_DM" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Date_Management_DM/DM-Data_The_Role_of_Data_and_the_Data_Life_Cycle.txt> .
+
+"DM-Distributed_Distributed_DatabasesCloud_Computing" ns1:part_of "Date_Management_DM" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Date_Management_DM/DM-Distributed_Distributed_DatabasesCloud_Computing.txt> .
+
+"DM-Internals_DBMS_Internals" ns1:part_of "Date_Management_DM" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Date_Management_DM/DM-Internals_DBMS_Internals.txt> .
+
+"DM-Modeling_Data_Modeling" ns1:part_of "Date_Management_DM" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Date_Management_DM/DM-Modeling_Data_Modeling.txt> .
+
+"DM-NoSQL_NoSQL_Systems" ns1:part_of "Date_Management_DM" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Date_Management_DM/DM-NoSQL_NoSQL_Systems.txt> .
+
+"DM-Processing_Query_Processing" ns1:part_of "Date_Management_DM" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Date_Management_DM/DM-Processing_Query_Processing.txt> .
+
+"DM-Querying_Query_Construction" ns1:part_of "Date_Management_DM" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Date_Management_DM/DM-Querying_Query_Construction.txt> .
+
+"DM-Relational_Relational_Databases" ns1:part_of "Date_Management_DM" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Date_Management_DM/DM-Relational_Relational_Databases.txt> .
+
+"DM-SEP_Society_Ethics_and_the_Profession" ns1:part_of "Date_Management_DM" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Date_Management_DM/DM-SEP_Society_Ethics_and_the_Profession.txt> .
+
+"DM-Security_Data_Security_and_Privacy" ns1:part_of "Date_Management_DM" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Date_Management_DM/DM-Security_Data_Security_and_Privacy.txt> .
+
+"DM-Unstructured_Semi-structured_and_Unstructured_Databases" ns1:part_of "Date_Management_DM" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Date_Management_DM/DM-Unstructured_Semi-structured_and_Unstructured_Databases.txt> .
+
+"FPL-Abstraction_Program_Abstraction_and_Representation" ns1:part_of "Foundations_of_Programming_Languages_FPL" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Foundations_of_Programming_Languages_FPL/FPL-Abstraction_Program_Abstraction_and_Representation.txt> .
+
+"FPL-Analysis_Program_Analysis_and_Analyzers" ns1:part_of "Foundations_of_Programming_Languages_FPL" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Foundations_of_Programming_Languages_FPL/FPL-Analysis_Program_Analysis_and_Analyzers.txt> .
+
+"FPL-Aspect_Aspect-Oriented_Programming" ns1:part_of "Foundations_of_Programming_Languages_FPL" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Foundations_of_Programming_Languages_FPL/FPL-Aspect_Aspect-Oriented_Programming.txt> .
+
+"FPL-Code_Code_Generation" ns1:part_of "Foundations_of_Programming_Languages_FPL" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Foundations_of_Programming_Languages_FPL/FPL-Code_Code_Generation.txt> .
+
+"FPL-Constructs_Advanced_Programming_Constructs" ns1:part_of "Foundations_of_Programming_Languages_FPL" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Foundations_of_Programming_Languages_FPL/FPL-Constructs_Advanced_Programming_Constructs.txt> .
+
+"FPL-Design_Design_Principles_of_Programming_Languages" ns1:part_of "Foundations_of_Programming_Languages_FPL" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Foundations_of_Programming_Languages_FPL/FPL-Design_Design_Principles_of_Programming_Languages.txt> .
+
+"FPL-Event-Driven_Event-Driven_and_Reactive_Programming" ns1:part_of "Foundations_of_Programming_Languages_FPL" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Foundations_of_Programming_Languages_FPL/FPL-Event-Driven_Event-Driven_and_Reactive_Programming.txt> .
+
+"FPL-Formalism_Formal_Semantics" ns1:part_of "Foundations_of_Programming_Languages_FPL" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Foundations_of_Programming_Languages_FPL/FPL-Formalism_Formal_Semantics.txt> .
+
+"FPL-Functional_Functional_Programming" ns1:part_of "Foundations_of_Programming_Languages_FPL" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Foundations_of_Programming_Languages_FPL/FPL-Functional_Functional_Programming.txt> .
+
+"FPL-Logic_Logic_Programming" ns1:part_of "Foundations_of_Programming_Languages_FPL" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Foundations_of_Programming_Languages_FPL/FPL-Logic_Logic_Programming.txt> .
+
+"FPL-Methodologies_Formal_Development_Methodologies" ns1:part_of "Foundations_of_Programming_Languages_FPL" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Foundations_of_Programming_Languages_FPL/FPL-Methodologies_Formal_Development_Methodologies.txt> .
+
+"FPL-OOP_Object-Oriented_Programming" ns1:part_of "Foundations_of_Programming_Languages_FPL" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Foundations_of_Programming_Languages_FPL/FPL-OOP_Object-Oriented_Programming.txt> .
+
+"FPL-Parallel_Parallel_and_Distributed_Computing" ns1:part_of "Foundations_of_Programming_Languages_FPL" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Foundations_of_Programming_Languages_FPL/FPL-Parallel_Parallel_and_Distributed_Computing.txt> .
+
+"FPL-Pragmatics_Language_Pragmatics" ns1:part_of "Foundations_of_Programming_Languages_FPL" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Foundations_of_Programming_Languages_FPL/FPL-Pragmatics_Language_Pragmatics.txt> .
+
+"FPL-Run-Time_Run-time_Behavior_and_Systems" ns1:part_of "Foundations_of_Programming_Languages_FPL" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Foundations_of_Programming_Languages_FPL/FPL-Run-Time_Run-time_Behavior_and_Systems.txt> .
+
+"FPL-SEP_Society_Ethics_and_the_Profession" ns1:part_of "Foundations_of_Programming_Languages_FPL" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Foundations_of_Programming_Languages_FPL/FPL-SEP_Society_Ethics_and_the_Profession.txt> .
+
+"FPL-Scripting_Shell_Scripting" ns1:part_of "Foundations_of_Programming_Languages_FPL" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Foundations_of_Programming_Languages_FPL/FPL-Scripting_Shell_Scripting.txt> .
+
+"FPL-Semantics_Compiler_Semantic_Analysis" ns1:part_of "Foundations_of_Programming_Languages_FPL" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Foundations_of_Programming_Languages_FPL/FPL-Semantics_Compiler_Semantic_Analysis.txt> .
+
+"FPL-Syntax_Syntax_Analysis" ns1:part_of "Foundations_of_Programming_Languages_FPL" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Foundations_of_Programming_Languages_FPL/FPL-Syntax_Syntax_Analysis.txt> .
+
+"FPL-Systems_Systems_Execution_and_Memory_Model" ns1:part_of "Foundations_of_Programming_Languages_FPL" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Foundations_of_Programming_Languages_FPL/FPL-Systems_Systems_Execution_and_Memory_Model.txt> .
+
+"FPL-Translation_Language_Translation_and_Execution" ns1:part_of "Foundations_of_Programming_Languages_FPL" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Foundations_of_Programming_Languages_FPL/FPL-Translation_Language_Translation_and_Execution.txt> .
+
+"FPL-Types_Type_Systems" ns1:part_of "Foundations_of_Programming_Languages_FPL" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Foundations_of_Programming_Languages_FPL/FPL-Types_Type_Systems.txt> .
+
+"GIT-3D_Modeling" ns1:part_of "Graphics_and_Interactive_Techniques_GIT" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Graphics_and_Interactive_Techniques_GIT/GIT-3D_Modeling.txt> .
+
+"GIT-Animation_and_Simulation" ns1:part_of "Graphics_and_Interactive_Techniques_GIT" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Graphics_and_Interactive_Techniques_GIT/GIT-Animation_and_Simulation.txt> .
+
+"GIT-Augmented_Reality" ns1:part_of "Graphics_and_Interactive_Techniques_GIT" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Graphics_and_Interactive_Techniques_GIT/GIT-Augmented_Reality.txt> .
+
+"GIT-Fundamentals" ns1:part_of "Graphics_and_Interactive_Techniques_GIT" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Graphics_and_Interactive_Techniques_GIT/GIT-Fundamentals.txt> .
+
+"GIT-Game_Design" ns1:part_of "Graphics_and_Interactive_Techniques_GIT" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Graphics_and_Interactive_Techniques_GIT/GIT-Game_Design.txt> .
+
+"GIT-Interaction_Design" ns1:part_of "Graphics_and_Interactive_Techniques_GIT" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Graphics_and_Interactive_Techniques_GIT/GIT-Interaction_Design.txt> .
+
+"GIT-Rendering_and_Shaders" ns1:part_of "Graphics_and_Interactive_Techniques_GIT" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Graphics_and_Interactive_Techniques_GIT/GIT-Rendering_and_Shaders.txt> .
+
+"GIT-Virtual_Reality" ns1:part_of "Graphics_and_Interactive_Techniques_GIT" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Graphics_and_Interactive_Techniques_GIT/GIT-Virtual_Reality.txt> .
+
+"HCI-Accessibility_Accessibility_and_Inclusive_Design" ns1:part_of "Human_Computer_Interaction_HCI" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Human_Computer_Interaction_HCI/HCI-Accessibility_Accessibility_and_Inclusive_Design.txt> .
+
+"HCI-Accountability_Accountability_and_Responsibility_in_Design" ns1:part_of "Human_Computer_Interaction_HCI" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Human_Computer_Interaction_HCI/HCI-Accountability_Accountability_and_Responsibility_in_Design.txt> .
+
+"HCI-Design_System_Design" ns1:part_of "Human_Computer_Interaction_HCI" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Human_Computer_Interaction_HCI/HCI-Design_System_Design.txt> .
+
+"HCI-Evaluation_Evaluating_the_Design" ns1:part_of "Human_Computer_Interaction_HCI" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Human_Computer_Interaction_HCI/HCI-Evaluation_Evaluating_the_Design.txt> .
+
+"HCI-SEP_Society_Ethics_and_the_Profession" ns1:part_of "Human_Computer_Interaction_HCI" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Human_Computer_Interaction_HCI/HCI-SEP_Society_Ethics_and_the_Profession.txt> .
+
+"HCI-User_Understanding_the_User_Individual_goals_and_interactions_with_others" ns1:part_of "Human_Computer_Interaction_HCI" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Human_Computer_Interaction_HCI/HCI-User_Understanding_the_User_Individual_goals_and_interactions_with_others.txt> .
+
+"MSF-Calculus" ns1:part_of "Mathematical_and_Statistical_Foundations_MSF" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Mathematical_and_Statistical_Foundations_MSF/MSF-Calculus.txt> .
+
+"MSF-Discrete_Discrete_Mathematics" ns1:part_of "Mathematical_and_Statistical_Foundations_MSF" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Mathematical_and_Statistical_Foundations_MSF/MSF-Discrete_Discrete_Mathematics.txt> .
+
+"MSF-Linear_Linear_Algebra" ns1:part_of "Mathematical_and_Statistical_Foundations_MSF" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Mathematical_and_Statistical_Foundations_MSF/MSF-Linear_Linear_Algebra.txt> .
+
+"MSF-Probability_Probability" ns1:part_of "Mathematical_and_Statistical_Foundations_MSF" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Mathematical_and_Statistical_Foundations_MSF/MSF-Probability_Probability.txt> .
+
+"MSF-Statistics_Statistics" ns1:part_of "Mathematical_and_Statistical_Foundations_MSF" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Mathematical_and_Statistical_Foundations_MSF/MSF-Statistics_Statistics.txt> .
+
+"NC-Applications_Networked_Applications" ns1:part_of "Networking_and_Communication_NC" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Networking_and_Communication_NC/NC-Applications_Networked_Applications.txt> .
+
+"NC-Emerging_Emerging_Topics" ns1:part_of "Networking_and_Communication_NC" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Networking_and_Communication_NC/NC-Emerging_Emerging_Topics.txt> .
+
+"NC-Fundamentals_Fundamentals" ns1:part_of "Networking_and_Communication_NC" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Networking_and_Communication_NC/NC-Fundamentals_Fundamentals.txt> .
+
+"NC-Mobility_Mobility" ns1:part_of "Networking_and_Communication_NC" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Networking_and_Communication_NC/NC-Mobility_Mobility.txt> .
+
+"NC-Reliability_Reliability_Support" ns1:part_of "Networking_and_Communication_NC" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Networking_and_Communication_NC/NC-Reliability_Reliability_Support.txt> .
+
+"NC-Routing_Routing_and_Forwarding" ns1:part_of "Networking_and_Communication_NC" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Networking_and_Communication_NC/NC-Routing_Routing_and_Forwarding.txt> .
+
+"NC-Security_Network_Security" ns1:part_of "Networking_and_Communication_NC" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Networking_and_Communication_NC/NC-Security_Network_Security.txt> .
+
+"NC-SingleHop_Single_Hop_Communication" ns1:part_of "Networking_and_Communication_NC" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Networking_and_Communication_NC/NC-SingleHop_Single_Hop_Communication.txt> .
+
+"OS-Advanced-Files_Advanced_File_systems" ns1:part_of "Operating_Systems_OS" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Operating_Systems_OS/OS-Advanced-Files_Advanced_File_systems.txt> .
+
+"OS-Concurrency_Concurrency" ns1:part_of "Operating_Systems_OS" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Operating_Systems_OS/OS-Concurrency_Concurrency.txt> .
+
+"OS-Devices_Device_management" ns1:part_of "Operating_Systems_OS" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Operating_Systems_OS/OS-Devices_Device_management.txt> .
+
+"OS-Faults_Fault_tolerance" ns1:part_of "Operating_Systems_OS" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Operating_Systems_OS/OS-Faults_Fault_tolerance.txt> .
+
+"OS-Files_File_Systems_API_and_Implementation" ns1:part_of "Operating_Systems_OS" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Operating_Systems_OS/OS-Files_File_Systems_API_and_Implementation.txt> .
+
+"OS-Memory_Memory_Management" ns1:part_of "Operating_Systems_OS" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Operating_Systems_OS/OS-Memory_Memory_Management.txt> .
+
+"OS-Principles_Principles_of_Operating_System" ns1:part_of "Operating_Systems_OS" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Operating_Systems_OS/OS-Principles_Principles_of_Operating_System.txt> .
+
+"OS-Process_Process_Model" ns1:part_of "Operating_Systems_OS" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Operating_Systems_OS/OS-Process_Process_Model.txt> .
+
+"OS-Protection_Protection_and_Safety" ns1:part_of "Operating_Systems_OS" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Operating_Systems_OS/OS-Protection_Protection_and_Safety.txt> .
+
+"OS-Purpose_Role_and_Purpose_of_Operating_Systems" ns1:part_of "Operating_Systems_OS" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Operating_Systems_OS/OS-Purpose_Role_and_Purpose_of_Operating_Systems.txt> .
+
+"OS-Real-time_Real-time_and_Embedded_Systems" ns1:part_of "Operating_Systems_OS" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Operating_Systems_OS/OS-Real-time_Real-time_and_Embedded_Systems.txt> .
+
+"OS-SEP_Society_Ethics_and_the_Profession" ns1:part_of "Operating_Systems_OS" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Operating_Systems_OS/OS-SEP_Society_Ethics_and_the_Profession.txt> .
+
+"OS-Scheduling_Scheduling" ns1:part_of "Operating_Systems_OS" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Operating_Systems_OS/OS-Scheduling_Scheduling.txt> .
+
+"OS-Virtualization_Virtualization" ns1:part_of "Operating_Systems_OS" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Operating_Systems_OS/OS-Virtualization_Virtualization.txt> .
+
+"PDC-Cloud_and_HPC" ns1:part_of "Parallel_and_Distributed_Computing_PDC" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Parallel_and_Distributed_Computing_PDC/PDC-Cloud_and_HPC.txt> .
+
+"PDC-Concepts" ns1:part_of "Parallel_and_Distributed_Computing_PDC" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Parallel_and_Distributed_Computing_PDC/PDC-Concepts.txt> .
+
+"PDC-Distributed_Systems" ns1:part_of "Parallel_and_Distributed_Computing_PDC" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Parallel_and_Distributed_Computing_PDC/PDC-Distributed_Systems.txt> .
+
+"PDC-Fault_Tolerance" ns1:part_of "Parallel_and_Distributed_Computing_PDC" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Parallel_and_Distributed_Computing_PDC/PDC-Fault_Tolerance.txt> .
+
+"PDC-Grid_Computing" ns1:part_of "Parallel_and_Distributed_Computing_PDC" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Parallel_and_Distributed_Computing_PDC/PDC-Grid_Computing.txt> .
+
+"PDC-Parallel_Algorithms" ns1:part_of "Parallel_and_Distributed_Computing_PDC" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Parallel_and_Distributed_Computing_PDC/PDC-Parallel_Algorithms.txt> .
+
+"PDC-Performance_Evaluation" ns1:part_of "Parallel_and_Distributed_Computing_PDC" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Parallel_and_Distributed_Computing_PDC/PDC-Performance_Evaluation.txt> .
+
+"PDC-Synchronization_and_Concurrency" ns1:part_of "Parallel_and_Distributed_Computing_PDC" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Parallel_and_Distributed_Computing_PDC/PDC-Synchronization_and_Concurrency.txt> .
+
+"SDF-Algorithms" ns1:part_of "Software_Development_Fundamentals_SDF" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Software_Development_Fundamentals_SDF/SDF-Algorithms.txt> .
+
+"SDF-Fundamental_Data_Structures" ns1:part_of "Software_Development_Fundamentals_SDF" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Software_Development_Fundamentals_SDF/SDF-Fundamental_Data_Structures.txt> .
+
+"SDF-Fundamental_Programming_Concepts_and_Practices" ns1:part_of "Software_Development_Fundamentals_SDF" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Software_Development_Fundamentals_SDF/SDF-Fundamental_Programming_Concepts_and_Practices.txt> .
+
+"SDF-Society_Ethics_and_the_Profession" ns1:part_of "Software_Development_Fundamentals_SDF" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Software_Development_Fundamentals_SDF/SDF-Society_Ethics_and_the_Profession.txt> .
+
+"SDF-Software_Development_Practices" ns1:part_of "Software_Development_Fundamentals_SDF" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Software_Development_Fundamentals_SDF/SDF-Software_Development_Practices.txt> .
+
+"SE-Agile_and_DevOps" ns1:part_of "Software_Engineering_SE" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Software_Engineering_SE/SE-Agile_and_DevOps.txt> .
+
+"SE-Formal_Methods" ns1:part_of "Software_Engineering_SE" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Software_Engineering_SE/SE-Formal_Methods.txt> .
+
+"SE-Maintenance_and_Evolution" ns1:part_of "Software_Engineering_SE" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Software_Engineering_SE/SE-Maintenance_and_Evolution.txt> .
+
+"SE-Project_Management" ns1:part_of "Software_Engineering_SE" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Software_Engineering_SE/SE-Project_Management.txt> .
+
+"SE-Requirements_Engineering" ns1:part_of "Software_Engineering_SE" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Software_Engineering_SE/SE-Requirements_Engineering.txt> .
+
+"SE-Software_Architecture" ns1:part_of "Software_Engineering_SE" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Software_Engineering_SE/SE-Software_Architecture.txt> .
+
+"SE-Software_Development" ns1:part_of "Software_Engineering_SE" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Software_Engineering_SE/SE-Software_Development.txt> .
+
+"SE-Testing_and_Quality_Assurance" ns1:part_of "Software_Engineering_SE" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Software_Engineering_SE/SE-Testing_and_Quality_Assurance.txt> .
+
+"SE-Usability_and_Human_Factors" ns1:part_of "Software_Engineering_SE" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Software_Engineering_SE/SE-Usability_and_Human_Factors.txt> .
+
+"SEC-Access_Control" ns1:part_of "Security_SEC" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Security_SEC/SEC-Access_Control.txt> .
+
+"SEC-Cryptography" ns1:part_of "Security_SEC" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Security_SEC/SEC-Cryptography.txt> .
+
+"SEC-Ethical_Hacking" ns1:part_of "Security_SEC" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Security_SEC/SEC-Ethical_Hacking.txt> .
+
+"SEC-Incident_Response" ns1:part_of "Security_SEC" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Security_SEC/SEC-Incident_Response.txt> .
+
+"SEC-Malware_Analysis" ns1:part_of "Security_SEC" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Security_SEC/SEC-Malware_Analysis.txt> .
+
+"SEC-Network_Security" ns1:part_of "Security_SEC" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Security_SEC/SEC-Network_Security.txt> .
+
+"SEC-Security_Foundations" ns1:part_of "Security_SEC" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Security_SEC/SEC-Security_Foundations.txt> .
+
+"SEC-Threat_Modeling" ns1:part_of "Security_SEC" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Security_SEC/SEC-Threat_Modeling.txt> .
+
+"SEP-Communication" ns1:part_of "Society_Ethics_and_the_Profession_SEP" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Society_Ethics_and_the_Profession_SEP/SEP-Communication.txt> .
+
+"SEP-Diversity_Equity_Inclusion_and_Accessibility" ns1:part_of "Society_Ethics_and_the_Profession_SEP" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Society_Ethics_and_the_Profession_SEP/SEP-Diversity_Equity_Inclusion_and_Accessibility.txt> .
+
+"SEP-Economies_of_Computing" ns1:part_of "Society_Ethics_and_the_Profession_SEP" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Society_Ethics_and_the_Profession_SEP/SEP-Economies_of_Computing.txt> .
+
+"SEP-History" ns1:part_of "Society_Ethics_and_the_Profession_SEP" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Society_Ethics_and_the_Profession_SEP/SEP-History.txt> .
+
+"SEP-Intellectual_Property" ns1:part_of "Society_Ethics_and_the_Profession_SEP" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Society_Ethics_and_the_Profession_SEP/SEP-Intellectual_Property.txt> .
+
+"SEP-Methods_for_Ethical_Analysis" ns1:part_of "Society_Ethics_and_the_Profession_SEP" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Society_Ethics_and_the_Profession_SEP/SEP-Methods_for_Ethical_Analysis.txt> .
+
+"SEP-Privacy_and_Civil_Liberties" ns1:part_of "Society_Ethics_and_the_Profession_SEP" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Society_Ethics_and_the_Profession_SEP/SEP-Privacy_and_Civil_Liberties.txt> .
+
+"SEP-Professional_Ethics" ns1:part_of "Society_Ethics_and_the_Profession_SEP" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Society_Ethics_and_the_Profession_SEP/SEP-Professional_Ethics.txt> .
+
+"SEP-Security_Policies_Laws_and_Computer_Crimes" ns1:part_of "Society_Ethics_and_the_Profession_SEP" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Society_Ethics_and_the_Profession_SEP/SEP-Security_Policies_Laws_and_Computer_Crimes.txt> .
+
+"SEP-Social_Context" ns1:part_of "Society_Ethics_and_the_Profession_SEP" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Society_Ethics_and_the_Profession_SEP/SEP-Social_Context.txt> .
+
+"SEP-Sustainability" ns1:part_of "Society_Ethics_and_the_Profession_SEP" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Society_Ethics_and_the_Profession_SEP/SEP-Sustainability.txt> .
+
+"SF-Basic_Concepts" ns1:part_of "System_Fundamentals_SF" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/System_Fundamentals_SF/SF-Basic_Concepts.txt> .
+
+"SF-Overview_of_Computer_Systems" ns1:part_of "System_Fundamentals_SF" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/System_Fundamentals_SF/SF-Overview_of_Computer_Systems.txt> .
+
+"SF-Performance_Evaluation" ns1:part_of "System_Fundamentals_SF" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/System_Fundamentals_SF/SF-Performance_Evaluation.txt> .
+
+"SF-Ressource_Management" ns1:part_of "System_Fundamentals_SF" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/System_Fundamentals_SF/SF-Ressource_Management.txt> .
+
+"SF-Society_Ethics_and_Profession" ns1:part_of "System_Fundamentals_SF" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/System_Fundamentals_SF/SF-Society_Ethics_and_Profession.txt> .
+
+"SF-System_Design" ns1:part_of "System_Fundamentals_SF" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/System_Fundamentals_SF/SF-System_Design.txt> .
+
+"SF-System_Performance" ns1:part_of "System_Fundamentals_SF" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/System_Fundamentals_SF/SF-System_Performance.txt> .
+
+"SF-System_Reliability" ns1:part_of "System_Fundamentals_SF" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/System_Fundamentals_SF/SF-System_Reliability.txt> .
+
+"SF-System_Security" ns1:part_of "System_Fundamentals_SF" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/System_Fundamentals_SF/SF-System_Security.txt> .
+
+"SPD-Common_Aspects" ns1:part_of "Specialized_Platform_Development_SPD" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Specialized_Platform_Development_SPD/SPD-Common_Aspects.txt> .
+
+"SPD-Embedded_Platforms" ns1:part_of "Specialized_Platform_Development_SPD" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Specialized_Platform_Development_SPD/SPD-Embedded_Platforms.txt> .
+
+"SPD-Game_Platforms" ns1:part_of "Specialized_Platform_Development_SPD" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Specialized_Platform_Development_SPD/SPD-Game_Platforms.txt> .
+
+"SPD-Interactive_Computing_Platforms" ns1:part_of "Specialized_Platform_Development_SPD" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Specialized_Platform_Development_SPD/SPD-Interactive_Computing_Platforms.txt> .
+
+"SPD-Mobile_Platforms" ns1:part_of "Specialized_Platform_Development_SPD" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Specialized_Platform_Development_SPD/SPD-Mobile_Platforms.txt> .
+
+"SPD-Robot_Platforms" ns1:part_of "Specialized_Platform_Development_SPD" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Specialized_Platform_Development_SPD/SPD-Robot_Platforms.txt> .
+
+"SPD-Society_Ethics_and_the_Profession" ns1:part_of "Specialized_Platform_Development_SPD" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Specialized_Platform_Development_SPD/SPD-Society_Ethics_and_the_Profession.txt> .
+
+"SPD-Web_Platforms" ns1:part_of "Specialized_Platform_Development_SPD" ;
+    ns1:path <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Specialized_Platform_Development_SPD/SPD-Web_Platforms.txt> .
+
