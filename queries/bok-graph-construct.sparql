@@ -6,8 +6,10 @@ PREFIX align: <http://align.org/>
 PREFIX prov: <http://provo.org/>
 
 CONSTRUCT {
+    ?s align:uetext ?UE .
     ?s align:to [
         align:ku_source ?ku_source ;
+        align:ku_text ?ku_content ;
         align:score ?score ;
         ns1:ka ?ka ;
         ns1:ku ?ku ;
@@ -20,8 +22,9 @@ CONSTRUCT {
 } 
 #SELECT DISTINCT ?s ?label ?ku_source ?score ?parcours ?ka ?ku ?answer ?explain 
 WHERE {
-    BIND(ex:SLM-FILE("./data/courses.ttl") AS ?input)
-    BIND(ex:SLM-RDF(?input,"turtle") AS ?ginput)
+    BIND(ex:SLM-FILE("./data/licence2025/L1-MATH-INFO.ttl") AS ?input)
+
+BIND(ex:SLM-RDF(?input,"turtle") AS ?ginput)
     graph ?ginput { 
         { select * where {
             ?s ns1:content ?content .
@@ -83,3 +86,6 @@ WHERE {
         }
 #    }
 } 
+
+
+
