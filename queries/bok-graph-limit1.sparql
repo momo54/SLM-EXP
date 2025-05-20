@@ -11,7 +11,7 @@ SELECT DISTINCT ?s ?label ?ku_source ?score ?parcours ?ka ?ku ?answer ?explain W
             ?s ns1:content ?content .
             ?s rdfs:label ?label .
             ?s ns1:objective ?objective .
-            ?s ns1:parcours ?parcours .
+#            ?s ns1:parcours ?parcours .
 #            FILTER(CONTAINS(?parcours, "ALMA"))
         } limit 2}
     }
