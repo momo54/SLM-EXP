@@ -18,7 +18,7 @@ CONSTRUCT {
       ]
     ]
 } 
-#SELECT DISTINCT ?s ?label ?ku_source ?score ?parcours ?ka ?ku ?answer ?explain 
+#SELECT DISTINCT ?s ?label ?ku_source ?score  ?ka ?ku ?answer ?explain 
 WHERE {
     BIND(ex:SLM-FILE("/Users/molli-p/NUCS-KG/XP/licence2025/L3.ttl") AS ?input)
     BIND(ex:SLM-RDF(?input,"turtle") AS ?ginput)
@@ -27,7 +27,8 @@ WHERE {
             ?s ns1:content ?content .
             ?s rdfs:label ?label .
             ?s ns1:objective ?objective .
-            ?s ns1:parcours ?parcours .
+# dont put the track for alignment... !!
+#            ?s ns1:parcours ?parcours .
 #            FILTER(CONTAINS(?parcours, "ALMA"))
         } # LIMIT  1 
        }
