@@ -1,0 +1,21 @@
+## slm-run  --config config.bok --load ./data/master2025/M1/VICO_M1.ttl --format turtle  -f queries/simple-course.sparql 
+
+PREFIX ns1: <http://example.org/course/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX ex: <http://example.org/>
+PREFIX align: <http://align.org/>
+PREFIX prov: <http://provo.org/>
+
+SELECT * 
+WHERE {
+    { select * where {
+        ?s ns1:content ?content .
+        ?s rdfs:label ?label .
+        ?s ns1:objective ?objective .
+#        ?s ns1:parcours ?parcours .
+#            FILTER(CONTAINS(?parcours, "ALMA"))
+       }
+    }
+    BIND(CONCAT("Label: ",STR(?label)," Objectif: ",STR(?objective),
+                " Course content: ", STR(?content)," Course name: ",STR(?s)) AS ?UE)
+} 

@@ -4,17 +4,10 @@ This is a demo scenario for [SPARQLLM](https://github.com/GDD-Nantes/SPARQLLM), 
 
 # Input
 
-* `./data/BodyOfKnowledge` (BOK) is the extraction of Knowledge Units (KU) from [https://csed.acm.org/], aggregated per Knowledge AREA (KA). Knowledge Unit as TXT file in Knowledge Are directories.
-
-* `./data/courses.ttl` is a knowledge graph representation of an (old) Master Program in Computer Science at University of Nantes. The objective is to align the UE of the Nantes curricula (NC) to the KU of BOK.
-SPARQLLM is used to implement a pipeline that:
-- enumerate UEs from NC
-- Find 3 KU candidates with Vector Search
-- Ask LLM to confirm if really the UE is aligned to KU and why. 
-
-The ouput is a alignement of UE to KU that can be displayed on a radar view.
-
-![BOK Radar](scripts/BOK-Radar.png)
+* get the data:
+```
+ wget https://raw.githubusercontent.com/momo54/NUCS-KG/master/XP/all.ttl -O all.ttl
+```
 
 # Index the Body Of Knowledge 
 

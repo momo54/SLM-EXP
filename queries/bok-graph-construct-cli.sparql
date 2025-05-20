@@ -24,10 +24,7 @@ WHERE {
         ?s ns1:content ?content .
         ?s rdfs:label ?label .
         ?s ns1:objective ?objective .
-# Dont put the track for alignment... !!
-#        ?s ns1:parcours ?parcours .
-#            FILTER(CONTAINS(?parcours, "ALMA"))
-       }  # LIMIT  1 
+       }  order by ?s limit 100 offset 300
     }
     BIND(CONCAT("Label: ",STR(?label)," Objectif: ",STR(?objective),
                 " Course content: ", STR(?content)," Course name: ",STR(?s)) AS ?UE)
