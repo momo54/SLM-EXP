@@ -1,10 +1,10 @@
-## slm-run  --config config.bok  -f queries/bok-graph.sparql --debug
+## slm-run  --config config.bok  -f queries/bok-graph.sparql --debug  >XP/alignment_results/M1/bok-groq-ATAL_M1.nq 
 PREFIX ns1: <http://example.org/course/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX ex: <http://example.org/>
 
 SELECT DISTINCT ?s ?label ?ku_source ?score ?parcours ?ka ?ku ?answer ?explain WHERE {
-    BIND(ex:SLM-FILE("./data/courses-anon.ttl") AS ?input)
+    BIND(ex:SLM-FILE("./data/master2025/M1/CMI_M1.ttl") AS ?input)
     BIND(ex:SLM-RDF(?input,"turtle") AS ?ginput)
     graph ?ginput {
         {select * where    {

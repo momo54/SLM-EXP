@@ -1,0 +1,510 @@
+<http://example.org/course/UE_XMS1AU010> <http://example.org/has_schema_type> _:N7b9e6078d9f04588bf20270f2796594a <http://groq.org/8e4245b0b30003bed44eef68a5697f72cefdba2093d84ea22578da6211c3d73a> .
+_:N7b9e6078d9f04588bf20270f2796594a <http://schema.org/explain> "Lecture focuses on scientific English teaching methods, while KU covers programming platforms/technical constraints." <http://groq.org/8e4245b0b30003bed44eef68a5697f72cefdba2093d84ea22578da6211c3d73a> .
+_:N7b9e6078d9f04588bf20270f2796594a <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Report> <http://groq.org/8e4245b0b30003bed44eef68a5697f72cefdba2093d84ea22578da6211c3d73a> .
+<http://example.org/GROK> <http://example.org/param_prompt> "\n        You are a JSON-LD API. Always respond only with a valid JSON-LD object, without explanation or formatting.\n\n        The following describes the content of a lecture and a Knowledge Unit (KU) in Computer Science.\n\n        <page1>Label: Anglais scientifique Objectif: (résultats d'apprentissage) Course content: Méthodes d’enseignement Course name: http://example.org/course/UE_XMS1AU010</page1>\n        <page2>Pages : 240-241 CS Core : 4, KA Core : 2 CS Core: 1\\. Overview of development\nplatforms (i.e., web, mobile, game, robotics, embedded, and interactive). a.\nInput/sensors/control devices/haptic devices b. Resource constraints i.\nComputational ii. Data storage iii. Memory iv. Communication c. Requirements -\nsecurity, uptime availability, fault tolerance (See also: SE-Reliability, SEC-\nEngineering) d. Output/actuators/haptic devices 2\\. Programming via platform-\nspecific Application Programming Interface (API) vs traditional application\nconstruction 3\\. Overview of platform Languages (e.g., Python, Swift, Lua,\nKotlin) 4\\. Programming under platform constraints and requirements (e.g.,\navailable development tools, development, security considerations) (See also:\nSEC-Foundations) 5\\. Techniques for learning and mastering a platform-specific\nprogramming language Illustrative Learning Outcomes: CS Core: 1\\. List the\nconstraints of mobile programming. 2\\. List the characteristics of scripting\nlanguages. 3\\. Describe the three-tier model of web programming. 4\\. Describe\nhow the state is maintained in web programming.</page2>\n\n        Determine whether the lecture (page1) substantially covers the knowledge described in the KU (page2).\n\n        Respond only using JSON-LD, with the following structure:\n        {\n        \"@context\": \"http://schema.org/\",\n        \"@type\": \"Report\",\n        \"http://schema.org/answer\": \"A\",\n        \"http://schema.org/explain\": \"B\"\n        }\n\n        Replace A with \"1\" if the lecture covers a large subset of the KU, or \"0\" if it does not.\n        Replace B with a **very short explanation** of your decision.\n        " <http://groq.org/8e4245b0b30003bed44eef68a5697f72cefdba2093d84ea22578da6211c3d73a> .
+<http://example.org/GROK> <http://example.org/param_model> "qwen-qwq-32b" <http://groq.org/8e4245b0b30003bed44eef68a5697f72cefdba2093d84ea22578da6211c3d73a> .
+<http://example.org/GROK> <http://example.org/param_uri> "http://example.org/course/UE_XMS1AU010" <http://groq.org/8e4245b0b30003bed44eef68a5697f72cefdba2093d84ea22578da6211c3d73a> .
+_:N7b9e6078d9f04588bf20270f2796594a <http://schema.org/answer> "0" <http://groq.org/8e4245b0b30003bed44eef68a5697f72cefdba2093d84ea22578da6211c3d73a> .
+<http://example.org/GROK> <http://example.org/param_model> "llama3-8b-8192" <http://groq.org/231c6ff1098649a05fad53daf8978c326ce49579066747782bb9615fc01f2011> .
+_:N321bfc8ad0e64a64a2669a87a23c7d40 <http://schema.org/explain> "The lecture covers a significant portion of the KU, including topics such as deterministic and stochastic grammars, parsing algorithms, and natural language processing." <http://groq.org/231c6ff1098649a05fad53daf8978c326ce49579066747782bb9615fc01f2011> .
+_:N321bfc8ad0e64a64a2669a87a23c7d40 <http://schema.org/answer> "1" <http://groq.org/231c6ff1098649a05fad53daf8978c326ce49579066747782bb9615fc01f2011> .
+<http://example.org/GROK> <http://example.org/param_uri> "http://example.org/course/UE_XMS1AU010" <http://groq.org/231c6ff1098649a05fad53daf8978c326ce49579066747782bb9615fc01f2011> .
+<http://example.org/course/UE_XMS1AU010> <http://example.org/has_schema_type> _:N321bfc8ad0e64a64a2669a87a23c7d40 <http://groq.org/231c6ff1098649a05fad53daf8978c326ce49579066747782bb9615fc01f2011> .
+<http://example.org/GROK> <http://example.org/param_prompt> "\n        You are a JSON-LD API. Always respond only with a valid JSON-LD object, without explanation or formatting.\n\n        The following describes the content of a lecture and a Knowledge Unit (KU) in Computer Science.\n\n        <page1>Label: Anglais scientifique Objectif: (résultats d'apprentissage) Course content: Méthodes d’enseignement Course name: http://example.org/course/UE_XMS1AU010</page1>\n        <page2>Pages:79-80 HOURS CS Core = 0 KA Core = 0 AI-NLP: Natural Language Processing\nNon-core: 1\\. Deterministic and stochastic grammars 2\\. Parsing algorithms a.\nCFGs and chart parsers (e.g., CYK) b. Probabilistic CFGs and weighted CYK 3\\.\nRepresenting meaning/Semantics a. Logic-based knowledge representations b.\nSemantic roles c. Temporal representations d. Beliefs, desires, and intentions\n4\\. Corpus-based methods 5\\. N-grams and HMMs 6\\. Smoothing and backoff 7\\.\nExamples of use: POS tagging and morphology 8\\. Information retrieval (See\nalso: DM-Unstructured) a. Vector space model i. TF & IDF b. Precision and\nrecall 9\\. Information extraction 10\\. Language translation 11\\. Text\nclassification, categorization a. Bag of words model 12\\. Deep learning for\nNLP (See also: AI-ML) a. RNNs b. Transformers c. Multi-modal embeddings (e.g.,\nimages + text) d. Generative language models Illustrative Learning Outcomes:\n1\\. Define and contrast deterministic and stochastic grammars, providing\nexamples to show the adequacy of each. 2\\. Simulate, apply, or implement\nclassic and stochastic algorithms for parsing natural language. 3\\. Identify\nthe challenges of representing meaning. 4\\. List the advantages of using\nstandard corpora. Identify examples of current corpora for a variety of NLP\ntasks. 5\\. Identify techniques for information retrieval, language\ntranslation, and text classification. 6\\. Implement a TF/IDF transform, use it\nto extract features from a corpus, and train an off-the-shelf machine learning\nalgorithm using those features to do text classification.</page2>\n\n        Determine whether the lecture (page1) substantially covers the knowledge described in the KU (page2).\n\n        Respond only using JSON-LD, with the following structure:\n        {\n        \"@context\": \"http://schema.org/\",\n        \"@type\": \"Report\",\n        \"http://schema.org/answer\": \"A\",\n        \"http://schema.org/explain\": \"B\"\n        }\n\n        Replace A with \"1\" if the lecture covers a large subset of the KU, or \"0\" if it does not.\n        Replace B with a **very short explanation** of your decision.\n        " <http://groq.org/231c6ff1098649a05fad53daf8978c326ce49579066747782bb9615fc01f2011> .
+_:N321bfc8ad0e64a64a2669a87a23c7d40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Report> <http://groq.org/231c6ff1098649a05fad53daf8978c326ce49579066747782bb9615fc01f2011> .
+<http://example.org/course/UE_XMS1AU010> <http://example.org/has_schema_type> _:N8cc795e3c39243de8c86e225cf6d3946 <http://groq.org/38dde612b067ecae858c80bd3801e8c3884c57fd520abd2f58040fda216b4d2b> .
+_:N8cc795e3c39243de8c86e225cf6d3946 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Report> <http://groq.org/38dde612b067ecae858c80bd3801e8c3884c57fd520abd2f58040fda216b4d2b> .
+<http://example.org/GROK> <http://example.org/param_uri> "http://example.org/course/UE_XMS1AU010" <http://groq.org/38dde612b067ecae858c80bd3801e8c3884c57fd520abd2f58040fda216b4d2b> .
+<http://example.org/GROK> <http://example.org/param_prompt> "\n        You are a JSON-LD API. Always respond only with a valid JSON-LD object, without explanation or formatting.\n\n        The following describes the content of a lecture and a Knowledge Unit (KU) in Computer Science.\n\n        <page1>Label: Anglais scientifique Objectif: (résultats d'apprentissage) Course content: Méthodes d’enseignement Course name: http://example.org/course/UE_XMS1AU010</page1>\n        <page2>Pages:79-80 HOURS CS Core = 0 KA Core = 0 AI-NLP: Natural Language Processing\nNon-core: 1\\. Deterministic and stochastic grammars 2\\. Parsing algorithms a.\nCFGs and chart parsers (e.g., CYK) b. Probabilistic CFGs and weighted CYK 3\\.\nRepresenting meaning/Semantics a. Logic-based knowledge representations b.\nSemantic roles c. Temporal representations d. Beliefs, desires, and intentions\n4\\. Corpus-based methods 5\\. N-grams and HMMs 6\\. Smoothing and backoff 7\\.\nExamples of use: POS tagging and morphology 8\\. Information retrieval (See\nalso: DM-Unstructured) a. Vector space model i. TF & IDF b. Precision and\nrecall 9\\. Information extraction 10\\. Language translation 11\\. Text\nclassification, categorization a. Bag of words model 12\\. Deep learning for\nNLP (See also: AI-ML) a. RNNs b. Transformers c. Multi-modal embeddings (e.g.,\nimages + text) d. Generative language models Illustrative Learning Outcomes:\n1\\. Define and contrast deterministic and stochastic grammars, providing\nexamples to show the adequacy of each. 2\\. Simulate, apply, or implement\nclassic and stochastic algorithms for parsing natural language. 3\\. Identify\nthe challenges of representing meaning. 4\\. List the advantages of using\nstandard corpora. Identify examples of current corpora for a variety of NLP\ntasks. 5\\. Identify techniques for information retrieval, language\ntranslation, and text classification. 6\\. Implement a TF/IDF transform, use it\nto extract features from a corpus, and train an off-the-shelf machine learning\nalgorithm using those features to do text classification.</page2>\n\n        Determine whether the lecture (page1) substantially covers the knowledge described in the KU (page2).\n\n        Respond only using JSON-LD, with the following structure:\n        {\n        \"@context\": \"http://schema.org/\",\n        \"@type\": \"Report\",\n        \"http://schema.org/answer\": \"A\",\n        \"http://schema.org/explain\": \"B\"\n        }\n\n        Replace A with \"1\" if the lecture covers a large subset of the KU, or \"0\" if it does not.\n        Replace B with a **very short explanation** of your decision.\n        " <http://groq.org/38dde612b067ecae858c80bd3801e8c3884c57fd520abd2f58040fda216b4d2b> .
+_:N8cc795e3c39243de8c86e225cf6d3946 <http://schema.org/explain> "The lecture focuses on scientific English and teaching methods, while the KU covers technical NLP topics." <http://groq.org/38dde612b067ecae858c80bd3801e8c3884c57fd520abd2f58040fda216b4d2b> .
+<http://example.org/GROK> <http://example.org/param_model> "deepseek-r1-distill-llama-70b" <http://groq.org/38dde612b067ecae858c80bd3801e8c3884c57fd520abd2f58040fda216b4d2b> .
+_:N8cc795e3c39243de8c86e225cf6d3946 <http://schema.org/answer> "0" <http://groq.org/38dde612b067ecae858c80bd3801e8c3884c57fd520abd2f58040fda216b4d2b> .
+<http://example.org/GROK> <http://example.org/param_model> "llama3-8b-8192" <http://groq.org/aa772a5b1a3c2cbd4c62c2f28033e807a5a6a863cffda10ab8b0f3c47165b4bc> .
+<http://example.org/GROK> <http://example.org/param_prompt> "\n        You are a JSON-LD API. Always respond only with a valid JSON-LD object, without explanation or formatting.\n\n        The following describes the content of a lecture and a Knowledge Unit (KU) in Computer Science.\n\n        <page1>Label: Anglais scientifique Objectif: (résultats d'apprentissage) Course content: Méthodes d’enseignement Course name: http://example.org/course/UE_XMS1AU010</page1>\n        <page2>Pages : 240-241 CS Core : 4, KA Core : 2 CS Core: 1\\. Overview of development\nplatforms (i.e., web, mobile, game, robotics, embedded, and interactive). a.\nInput/sensors/control devices/haptic devices b. Resource constraints i.\nComputational ii. Data storage iii. Memory iv. Communication c. Requirements -\nsecurity, uptime availability, fault tolerance (See also: SE-Reliability, SEC-\nEngineering) d. Output/actuators/haptic devices 2\\. Programming via platform-\nspecific Application Programming Interface (API) vs traditional application\nconstruction 3\\. Overview of platform Languages (e.g., Python, Swift, Lua,\nKotlin) 4\\. Programming under platform constraints and requirements (e.g.,\navailable development tools, development, security considerations) (See also:\nSEC-Foundations) 5\\. Techniques for learning and mastering a platform-specific\nprogramming language Illustrative Learning Outcomes: CS Core: 1\\. List the\nconstraints of mobile programming. 2\\. List the characteristics of scripting\nlanguages. 3\\. Describe the three-tier model of web programming. 4\\. Describe\nhow the state is maintained in web programming.</page2>\n\n        Determine whether the lecture (page1) substantially covers the knowledge described in the KU (page2).\n\n        Respond only using JSON-LD, with the following structure:\n        {\n        \"@context\": \"http://schema.org/\",\n        \"@type\": \"Report\",\n        \"http://schema.org/answer\": \"A\",\n        \"http://schema.org/explain\": \"B\"\n        }\n\n        Replace A with \"1\" if the lecture covers a large subset of the KU, or \"0\" if it does not.\n        Replace B with a **very short explanation** of your decision.\n        " <http://groq.org/aa772a5b1a3c2cbd4c62c2f28033e807a5a6a863cffda10ab8b0f3c47165b4bc> .
+_:N484edbfa694e40f6b6f8fcc660eb47f3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Report> <http://groq.org/aa772a5b1a3c2cbd4c62c2f28033e807a5a6a863cffda10ab8b0f3c47165b4bc> .
+_:N484edbfa694e40f6b6f8fcc660eb47f3 <http://schema.org/answer> "1" <http://groq.org/aa772a5b1a3c2cbd4c62c2f28033e807a5a6a863cffda10ab8b0f3c47165b4bc> .
+<http://example.org/GROK> <http://example.org/param_uri> "http://example.org/course/UE_XMS1AU010" <http://groq.org/aa772a5b1a3c2cbd4c62c2f28033e807a5a6a863cffda10ab8b0f3c47165b4bc> .
+_:N484edbfa694e40f6b6f8fcc660eb47f3 <http://schema.org/explain> "The lecture covers the overview of development platforms, programming via platform-specific API, and platform languages, which aligns with the KU's content." <http://groq.org/aa772a5b1a3c2cbd4c62c2f28033e807a5a6a863cffda10ab8b0f3c47165b4bc> .
+<http://example.org/course/UE_XMS1AU010> <http://example.org/has_schema_type> _:N484edbfa694e40f6b6f8fcc660eb47f3 <http://groq.org/aa772a5b1a3c2cbd4c62c2f28033e807a5a6a863cffda10ab8b0f3c47165b4bc> .
+<http://example.org/course/UE_XMS2IU040> <http://example.org/course/parcours> "M1 Architecture" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU080> <http://example.org/course/evaluation> "Développement et exploitation 100%" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU020> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/course/UE> <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2AU000> <http://example.org/course/hours> "TOTAL : 0h Répartition : CM : 0h TD : 0h CI : 0h TP : 0h EAD : 0h" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU100> <http://www.w3.org/2000/01/rdf-schema#label> "Introduction au Traitement Automatique des Langues" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU120> <http://example.org/course/parcours> "M1 CMI-OPTIM" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU080> <http://example.org/course/content> "Méthodes d’enseignement" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1AU010> <http://example.org/course/location> "UFR Sciences et techniques" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU030> <http://www.w3.org/2000/01/rdf-schema#label> "Interactions Humain-Machine" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU090> <http://example.org/course/bibliography> "" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU080> <http://example.org/course/level> "Master" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU070> <http://example.org/course/semester> "1" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU090> <http://example.org/course/objective> "(résultats d'apprentissage)" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU100> <http://example.org/course/content> "et l'apprentissage profond, seront présentés. Les enjeux sociétaux et les limites des modèles de\nlangue actuels seront également abordés. Enfin, une part importante de l'UE intègrera des travaux\nsur machine sous forme de travaux pratiques : il s'agira de manipuler les concepts du traitement du\nlangage au travers d'exercice ciblé ainsi que d'un petit projet permettant de résoudre un problème\nciblé grâce au techniques actuels d'intelligence artificielle adaptées au langage." <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU070> <http://example.org/course/parcours> "M1" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU100> <http://example.org/course/location> "UFR des Sciences et des Techniques" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU070> <http://example.org/course/level> "Master" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU050> <http://example.org/course/level> "Master" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU130> <http://example.org/course/hours> "TOTAL : 0h Répartition : CM : 0h TD : 0h CI : 0h TP : 0h EAD : 0h" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU050> <http://example.org/course/methods> "Langue d’enseignement Français" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU030> <http://example.org/course/level> "Master" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU060> <http://example.org/course/code> "XMS2IU060" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU030> <http://example.org/course/methods> "Langue d’enseignement Français" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU020> <http://www.w3.org/2000/01/rdf-schema#label> "Apprentissage automatique" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU040> <http://example.org/course/parcours> "M1 Apprentissage et Traitement Automatique de la Langue (ATAL)" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU070> <http://example.org/course/methods> "(2h40) qui permettent de traiter différente thématiques. La dernière séquence (3 TDs) concerne\nl'étude d'un cas pratique au travers d'un mini projet." <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU040> <http://example.org/course/semester> "1" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU060> <http://example.org/course/language> "Français" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU080> <http://example.org/course/semester> "2" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU130> <http://example.org/course/methods> "Langue d’enseignement Français" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU090> <http://www.w3.org/2000/01/rdf-schema#label> "Informatique temps réel et embarquée" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU040> <http://example.org/course/responsible> "SUNYE GERSON" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU030> <http://example.org/course/parcours> "M1" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU050> <http://example.org/course/bibliography> "" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU130> <http://example.org/course/content> "Méthodes d’enseignement" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU050> <http://example.org/course/hours> "TOTAL : 24h Répartition : CM : 0h TD : 24h CI : 0h TP : 0h EAD : 0h" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU040> <http://example.org/course/code> "XMS1IU040" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU100> <http://example.org/course/evaluation> "Introduction au Traitement Automatique des Langues 100%" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU080> <http://example.org/course/language> "Français" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU110> <http://example.org/course/content> "Méthodes d’enseignement" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU080> <http://example.org/course/location> "UFR des Sciences et des Techniques" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU100> <http://example.org/course/prerequisite> "(s)" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1AU010> <http://example.org/course/objective> "(résultats d'apprentissage)" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU010> <http://example.org/course/content> "4. Connexité, forte connexité: algorithmes et applications.\n5. Graphes particuliers II (graphes bipartis, graphes orientés sans circuits): algorithmes et\napplications.\n6. Plus courts chemins: algorithmes et applications" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU020> <http://example.org/course/level> "Master" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU040> <http://example.org/course/obtention> "Programme" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU030> <http://example.org/course/language> "Français" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2AU000> <http://example.org/course/objective> "(résultats d'apprentissage) • Compléter les réponses exigées par les tests de certifications.\n• Pouvoir optimiser leurs résultats aux certifications grâce à une méthodologie de travail appliquée\nlors des séances d’entrainement." <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU050> <http://example.org/course/evaluation> "Métaheuristiques 100%" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU050> <http://www.w3.org/2000/01/rdf-schema#label> "Bases de données avancées" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU070> <http://example.org/course/location> "UFR des sciences et des techniques" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU060> <http://example.org/course/location> "Niveau Master" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU050> <http://example.org/course/semester> "1" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU070> <http://example.org/course/parcours> "M1 Architecture Logicielle (ALMA)" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU080> <http://example.org/course/level> "Master" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU070> <http://example.org/course/evaluation> "Web sémantique - Web des données 50%" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU070> <http://example.org/course/content> "• Conception et déploiement des applications à large échelle dans un cloud\n• REST API dans le contexte de cloud\n• Stocker et accéder des données massives dans le cloud\n• Calculer le coût d’une application web dans le cloud" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2AU000> <http://example.org/course/parcours> "M1 Data Science (DS) " <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU010> <http://example.org/course/parcours> "Opérationnelle (ORO)" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU080> <http://example.org/course/location> "UFR Sciences et techniques" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU010> <http://example.org/course/responsible> "SUNYE GERSON" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1AU010> <http://example.org/course/parcours> "M1 Apprentissage et Traitement" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU040> <http://example.org/course/responsible> "QUINIOU SOLEN" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU070> <http://example.org/course/hours> "TOTAL : 48.65h Répartition : CM : 17.33h TD : 14.66h CI : 0h TP : 16.66h EAD : 0h" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU090> <http://example.org/course/hours> "TOTAL : 24h Répartition : CM : 12h TD : 5.33h CI : 0h TP : 6.67h EAD : 0h" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU090> <http://example.org/course/code> "XMS2IU090" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU080> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/course/UE> <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU070> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/course/UE> <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU020> <http://example.org/course/semester> "2" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU050> <http://example.org/course/parcours> "M1 Apprentissage et Traitement Automatique de\nla Langue (ATAL)" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU090> <http://example.org/course/responsible> "SKAF-MOLLI HALA" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1AU010> <http://www.w3.org/2000/01/rdf-schema#label> "Anglais scientifique" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU060> <http://example.org/course/bibliography> "" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU090> <http://example.org/course/semester> "2" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU130> <http://example.org/course/level> "Master" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU060> <http://example.org/course/objective> "(résultats d'apprentissage)" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU080> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/course/UE> <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU080> <http://example.org/course/language> "Français" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU050> <http://example.org/course/bibliography> "" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU040> <http://example.org/course/level> "Master" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU070> <http://example.org/course/semester> "2" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU050> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/course/UE> <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU070> <http://example.org/course/objective> "(résultats d'apprentissage)" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU070> <http://www.w3.org/2000/01/rdf-schema#label> "Introduction au traitement d'image" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU010> <http://example.org/course/hours> "TOTAL : 23.99h Répartition : CM : 13.33h TD : 10.66h CI : 0h TP : 0h EAD : 0h" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU030> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/course/UE> <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU010> <http://example.org/course/parcours> "M1 Data" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU120> <http://example.org/course/parcours> "M1 Architecture Logicielle\n(ALMA)" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU010> <http://example.org/course/language> "Français" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU080> <http://example.org/course/bibliography> "" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU080> <http://example.org/course/objective> "(résultats d'apprentissage)" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU050> <http://example.org/course/parcours> "M1 Smart Computing" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU120> <http://example.org/course/bibliography> "" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU120> <http://example.org/course/semester> "2" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU130> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/course/UE> <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU100> <http://example.org/course/parcours> "Apprentissage et Traitement Automatique de la Langue (ATAL)" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU040> <http://example.org/course/bibliography> "XMS1IE042 Projet d'intelligence artificielle" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU060> <http://example.org/course/code> "XMS1IU060" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU010> <http://example.org/course/parcours> "M1 Smart Computing" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU050> <http://example.org/course/objective> "(résultats d'apprentissage)" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU030> <http://example.org/course/objective> "(résultats d'apprentissage)" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU030> <http://example.org/course/content> "- Evaluation d’interactions et d’interfaces\n- Programmation d’interfaces / pattern MVC\n- Visualisation de données\n- Cours" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU010> <http://example.org/course/parcours> "M1 Optimisation en Recherche Opérationnelle (ORO)" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU060> <http://example.org/course/parcours> "Science (DS) " <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1AU010> <http://example.org/course/obtention> "Programme" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU090> <http://example.org/course/methods> "Langue d’enseignement Français" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU050> <http://example.org/course/code> "XMS2IU050" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU060> <http://example.org/course/parcours> "M1 Apprentissage et Traitement Automatique de la Langue (ATAL)" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU130> <http://example.org/course/language> "Français" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU090> <http://example.org/course/level> "Master" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU100> <http://example.org/course/obtention> "Programme" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU130> <http://www.w3.org/2000/01/rdf-schema#label> "stage volontaire en informatique" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU030> <http://example.org/course/evaluation> "Compilation 100%" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU030> <http://example.org/course/parcours> "M1 Smart Computing" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU120> <http://example.org/course/code> "XMS2IU120" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU040> <http://example.org/course/language> "Français" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU050> <http://example.org/course/hours> "TOTAL : 24h Répartition : CM : 12h TD : 12h CI : 0h TP : 0h EAD : 0h" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2AU000> <http://example.org/course/language> "Français\n• 200% TOEIC 2017 Listening & Reading (2 août 2016, de Michael Byrne et Michelle Dickinson)\n• TOEIC® La Méthode Réussite (20 janvier 2011, de David Mayer et Serena Murdoch Stern)" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU070> <http://example.org/course/location> "UFR Sciences" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU070> <http://example.org/course/code> "XMS2IU070" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU050> <http://example.org/course/location> "UFR des sciences et des techniques" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU100> <http://example.org/course/hours> "TOTAL : 24h Répartition : CM : 8h TD : 16h CI : 0h TP : 0h EAD : 0h" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU070> <http://example.org/course/parcours> "M1 Architecture Logicielle (ALMA)" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU030> <http://example.org/course/bibliography> "(Lallemand, Gronier)\n- Visualization Analysis and Design (Munzner)" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU030> <http://example.org/course/hours> "TOTAL : 24h Répartition : CM : 12h TD : 12h CI : 0h TP : 0h EAD : 0h" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU060> <http://example.org/course/parcours> "M1 CMI-OPTIM" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU010> <http://example.org/course/prerequisite> "(s)" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU010> <http://example.org/course/obtention> "La note de CCE pourra contenir une part de pratique." <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU050> <http://example.org/course/methods> "Langue d’enseignement Français" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU110> <http://example.org/course/parcours> "M1 Optimisation en Recherche Opérationnelle (ORO)" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU010> <http://example.org/course/level> "Master" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU030> <http://example.org/course/responsible> "PRIE YANNICK" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU010> <http://example.org/course/methods> "Bibliographie" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU050> <http://example.org/course/content> "Méthodes d’enseignement" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU060> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/course/UE> <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU080> <http://example.org/course/objective> "(résultats d'apprentissage)" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU120> <http://example.org/course/methods> "Langue d’enseignement Français" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU060> <http://example.org/course/bibliography> "" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU040> <http://example.org/course/location> "Nantes" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU100> <http://example.org/course/parcours> "M1 Data Science (DS) " <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU060> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/course/UE> <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU080> <http://example.org/course/responsible> "GUREVSKY EVGENY" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU010> <http://example.org/course/bibliography> "C. Froidevaux, M.C. Gaudel, M. Soria - Types de données et algorithmes" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU100> <http://example.org/course/code> "XMS2IU100" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU060> <http://example.org/course/semester> "2" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU020> <http://example.org/course/parcours> "M1 Architecture Logicielle (ALMA)" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU100> <http://example.org/course/parcours> "M1 CMI-OPTIM" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2AU000> <http://example.org/course/semester> "2" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU040> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/course/UE> <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU070> <http://example.org/course/objective> "(résultats d'apprentissage)\n• Indentifier les services fournis pour une infrastructure de type cloud\n• Evaluer sur une applciation passe à l’échelle dans le cloud,\n• Evaluer la fiabilité d'une appllication dans le contexte de cloud" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU040> <http://example.org/course/methods> "Langue d’enseignement Français" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU040> <http://example.org/course/content> "Les activités visées\n- Conception et élaboration d’une démarche de recherche et développement, d’études et\nprospective\n- Mise en oeuvre d’une démarche de recherche et développement, d’études et prospective" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU080> <http://example.org/course/obtention> "Programme" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU010> <http://example.org/course/parcours> "M1 Architecture Logicielle (ALMA)" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU070> <http://example.org/course/methods> "Bibliographie" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU130> <http://example.org/course/semester> "2" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU130> <http://example.org/course/objective> "(résultats d'apprentissage)" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU030> <http://example.org/course/parcours> "Visual Computing (VICO)" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2AU000> <http://www.w3.org/2000/01/rdf-schema#label> "Préparation au TOEIC" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU040> <http://example.org/course/objective> "(résultats d'apprentissage)" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU050> <http://example.org/course/location> "UFR des Sciences et des Techniques" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2AU000> <http://example.org/course/location> "Nantes" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU090> <http://example.org/course/parcours> "M1" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU110> <http://example.org/course/bibliography> "" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU010> <http://example.org/course/evaluation> "Ethique 50%" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU110> <http://example.org/course/objective> "(résultats d'apprentissage)" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU060> <http://example.org/course/hours> "TOTAL : 23.99h Répartition : CM : 10.66h TD : 5.33h CI : 0h TP : 8h EAD : 0h" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU010> <http://example.org/course/responsible> "SUNYE GERSON" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU090> <http://example.org/course/prerequisite> "(s)" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU060> <http://example.org/course/level> "Master" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU050> <http://example.org/course/level> "Master" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU060> <http://example.org/course/semester> "1" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU040> <http://example.org/course/language> "Français" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU050> <http://example.org/course/responsible> "HERNANDEZ NICOLAS" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU100> <http://example.org/course/bibliography> "" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU010> <http://example.org/course/hours> "TOTAL : 23.99h Répartition : CM : 10.66h TD : 9.33h CI : 0h TP : 4h EAD : 0h" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU060> <http://example.org/course/methods> "Langue d’enseignement Français" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU110> <http://example.org/course/parcours> "(ATAL)" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU120> <http://example.org/course/level> "Master" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU070> <http://example.org/course/bibliography> "XMS1IE072 Web sémantique - Web des données" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU030> <http://example.org/course/level> "Master" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1AU010> <http://example.org/course/parcours> "(ORO)" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU060> <http://example.org/course/content> "Méthodes d’enseignement" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU050> <http://example.org/course/parcours> "Optimisation en Recherche Opérationnelle (ORO)" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU050> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/course/UE> <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU010> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/course/UE> <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU030> <http://example.org/course/responsible> "SUNYE GERSON" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU070> <http://example.org/course/language> "Français\n• Gonzalez, R. C., Woods, R. E. (2018). Digital image processing. Upper Saddle River, N.J.: Prentice" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1AU010> <http://example.org/course/prerequisite> "(s)" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU130> <http://example.org/course/code> "XMS2IU130" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU050> <http://example.org/course/language> "Français" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU090> <http://example.org/course/location> "UFR Sciences et techniques" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU110> <http://www.w3.org/2000/01/rdf-schema#label> "Ingéniérie des réseaux" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU120> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/course/UE> <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU030> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/course/UE> <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU090> <http://example.org/course/parcours> "M1 Architecture Logicielle (ALMA)" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU100> <http://example.org/course/responsible> "DUFOUR RICHARD" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU040> <http://www.w3.org/2000/01/rdf-schema#label> "Intelligence Artificielle et Applications" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU010> <http://example.org/course/parcours> "M1 Visual Computing (VICO)" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU070> <http://example.org/course/obtention> "Programme\n- Données massives et cloud (XMS1IE071)" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU030> <http://example.org/course/obtention> "Programme" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU120> <http://example.org/course/language> "Français" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2AU000> <http://example.org/course/content> "• Exercices d’entrainement\n• Conseils pour optimiser son score" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU070> <http://example.org/course/parcours> "(VICO)" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU080> <http://example.org/course/parcours> "Computing (VICO)" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU040> <http://example.org/course/level> "Master" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU080> <http://www.w3.org/2000/01/rdf-schema#label> "Ingénierie de la décision" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU110> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/course/UE> <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU010> <http://example.org/course/evaluation> "Graphes et Complexité 100%" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2AU000> <http://example.org/course/responsible> "MOLLI PASCAL" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2AU000> <http://example.org/course/evaluation> "Anglais Préparation TOEIC %" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU070> <http://example.org/course/parcours> "M1 Optimisation en Recherche Opérationnelle (ORO)" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU100> <http://example.org/course/parcours> "M1 Architecture Logicielle\n(ALMA)" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU060> <http://example.org/course/location> "UFR des Sciences et des Techniques" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU070> <http://example.org/course/responsible> "PERREIRA DA SILVA MATTHIEU" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU010> <http://example.org/course/location> "UFR Sciences et techniques" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU050> <http://example.org/course/parcours> "(VICO)" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU040> <http://example.org/course/bibliography> "" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU010> <http://example.org/course/semester> "1" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU020> <http://example.org/course/prerequisite> "(s)" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU090> <http://example.org/course/obtention> "Programme" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU040> <http://example.org/course/objective> "(résultats d'apprentissage)" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU110> <http://example.org/course/semester> "2" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU030> <http://example.org/course/location> "UFR des Sciences et des Techniques" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU030> <http://example.org/course/location> "UFR des sciences et des techniques" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU030> <http://example.org/course/semester> "1" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU060> <http://example.org/course/evaluation> "Analyse exploratoire de données 100%" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU020> <http://example.org/course/obtention> "Programme" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2AU000> <http://example.org/course/level> "Master" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU010> <http://example.org/course/parcours> "M1 Data Science\n(DS) " <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU070> <http://example.org/course/prerequisite> "(s)" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU060> <http://example.org/course/hours> "TOTAL : 24h Répartition : CM : 16h TD : 8h CI : 0h TP : 0h EAD : 0h" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU010> <http://example.org/course/content> "Méthodes d’enseignement" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU030> <http://example.org/course/evaluation> "Interaction Humain-Machine 100%" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU070> <http://example.org/course/responsible> "SUNYE GERSON" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1AU010> <http://example.org/course/parcours> "M1 Data Science (DS) " <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU100> <http://example.org/course/semester> "2" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU080> <http://example.org/course/code> "XMS1IU080" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU020> <http://example.org/course/hours> "TOTAL : 23.99h Répartition : CM : 12h TD : 5.33h CI : 0h TP : 6.66h EAD : 0h" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU080> <http://example.org/course/prerequisite> "(s)" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2AU000> <http://example.org/course/parcours> "M1" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU110> <http://example.org/course/location> "UFR Sciences et techniques" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU040> <http://example.org/course/evaluation> "Projet d'intelligence artificielle 35%" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU070> <http://example.org/course/obtention> "Programme" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU020> <http://example.org/course/evaluation> "Machine Learning 100%" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU130> <http://example.org/course/responsible> "SUNYE GERSON" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU050> <http://example.org/course/objective> "(résultats d'apprentissage)" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU050> <http://example.org/course/prerequisite> "(s)" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU110> <http://example.org/course/level> "Master" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2AU000> <http://example.org/course/code> "XMS2AU000" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU030> <http://example.org/course/prerequisite> "(s)" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU110> <http://example.org/course/methods> "Langue d’enseignement Français" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU120> <http://example.org/course/content> "plusieurs algorithmes entre eux\n• évaluation de la complexité d'un problème (Polynomial vs NP-dur)\n• en cas de problème \"difficile\" (NP-dur), étude de deux stratégies de résolution: algorithmes\nd'approximation et complexité paramétrée (à exponentielle faible)" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU060> <http://example.org/course/language> "Français" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU010> <http://example.org/course/bibliography> "XMS2IE012 Ethique" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1AU010> <http://example.org/course/methods> "Langue d’enseignement Anglais" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU030> <http://example.org/course/hours> "TOTAL : 24h Répartition : CM : 16h TD : 8h CI : 0h TP : 0h EAD : 0h" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU010> <http://www.w3.org/2000/01/rdf-schema#label> "Graphes et Complexité" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1AU010> <http://example.org/course/code> "XMS1AU010" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU050> <http://example.org/course/evaluation> "Bases de données avancées 100%" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU120> <http://example.org/course/objective> "(résultats d'apprentissage)" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU100> <http://example.org/course/level> "Master" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU100> <http://example.org/course/methods> "Langue d’enseignement Français" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU120> <http://www.w3.org/2000/01/rdf-schema#label> "Conception et Analyse d'Algorithmes Efficaces" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1AU010> <http://example.org/course/language> "Anglais" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU030> <http://example.org/course/code> "XMS2IU030" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU090> <http://example.org/course/evaluation> "Informatique temps réel et embarquée 100%" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU040> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/course/UE> <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU070> <http://example.org/course/parcours> "M1 Smart Computing" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU080> <http://example.org/course/code> "XMS2IU080" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU110> <http://example.org/course/language> "Français" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU070> <http://example.org/course/evaluation> "Introduction au traitement d'image 100%" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU050> <http://example.org/course/obtention> "L'examen pourra être écrit ou oral." <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2AU000> <http://example.org/course/parcours> "M1 Architecture Logicielle (ALMA)" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU060> <http://example.org/course/parcours> "M1 CMI-OPTIM" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU120> <http://example.org/course/responsible> "FERTIN GUILLAUME" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU080> <http://example.org/course/prerequisite> "(s)" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU030> <http://example.org/course/language> "Français\n- Designing the User Interface: Strategies for Effective Human-Computer Interaction (Shneiderman," <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU040> <http://example.org/course/content> "recherche en largeur d'abord, en profondeur d'abord, avec heuristiques, recherche gloutonne,\nalgorithme A*, algorithme minimax, élagage alpha-bêta, recherche arborescente Monte-Carlo." <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU020> <http://example.org/course/parcours> "M1 Apprentissage et Traitement Automatique de\nla Langue (ATAL)" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU080> <http://example.org/course/parcours> "Apprentissage et Traitement Automatique de la Langue (ATAL)" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU030> <http://example.org/course/parcours> "M1 Apprentissage et Traitement Automatique de la Langue (ATAL)" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU040> <http://example.org/course/semester> "2" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU080> <http://example.org/course/parcours> "M1 Data Science (DS) " <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU020> <http://example.org/course/content> "Méthodes d’enseignement" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU060> <http://example.org/course/level> "Master" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU100> <http://example.org/course/language> "Français" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU060> <http://example.org/course/prerequisite> "(s)" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2AU000> <http://example.org/course/prerequisite> "(s)" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU070> <http://example.org/course/prerequisite> "(s)" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2AU000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/course/UE> <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU050> <http://example.org/course/responsible> "PRZYBYLSKI ANTHONY" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU010> <http://example.org/course/code> "XMS2IU010" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU060> <http://example.org/course/parcours> "M1" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU030> <http://example.org/course/obtention> "Programme\n- Analyser le contexte métier et humain d’une intervention numérique\n- Concevoir une interaction et une interface humain-machine" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU040> <http://example.org/course/hours> "TOTAL : 16h Répartition : CM : 16h TD : 0h CI : 0h TP : 0h EAD : 0h" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU020> <http://example.org/course/parcours> "M1 Smart Computing" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU060> <http://example.org/course/objective> "(résultats d'apprentissage)" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU010> <http://example.org/course/language> "Français" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU130> <http://example.org/course/prerequisite> "(s)" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU050> <http://example.org/course/obtention> "Programme" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU130> <http://example.org/course/parcours> "Apprentissage et Traitement Automatique de la Langue (ATAL)" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU040> <http://www.w3.org/2000/01/rdf-schema#label> "Projet de recherche" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU130> <http://example.org/course/obtention> "Programme" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU130> <http://example.org/course/evaluation> "Stage volontaire en informatique 100%" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU050> <http://example.org/course/code> "XMS1IU050" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1AU010> <http://example.org/course/evaluation> "Anglais scientifique 100%" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1AU010> <http://example.org/course/bibliography> "" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU080> <http://example.org/course/parcours> "M1 Data Science (DS) " <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1AU010> <http://example.org/course/hours> "TOTAL : 16h Répartition : CM : 0h TD : 16h CI : 0h TP : 0h EAD : 0h" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU010> <http://example.org/course/methods> "Présentiel." <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU100> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/course/UE> <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU070> <http://example.org/course/language> "Français" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU020> <http://example.org/course/methods> "Langue d’enseignement Français" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU040> <http://example.org/course/evaluation> "Projet de recherche 100%" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU070> <http://example.org/course/hours> "TOTAL : 24h Répartition : CM : 0h TD : 16h CI : 8h TP : 0h EAD : 0h" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU080> <http://example.org/course/parcours> "M1 CMI-OPTIM" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU070> <http://example.org/course/parcours> "(ATAL)" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU060> <http://example.org/course/responsible> "DE LA HIGUERA COLIN" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU060> <http://example.org/course/parcours> "(ORO)" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU070> <http://example.org/course/parcours> "M1 Data Science (DS) " <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU100> <http://example.org/course/objective> "(résultats d'apprentissage)" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU010> <http://example.org/course/level> "Master" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU010> <http://example.org/course/code> "XMS1IU010" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU090> <http://example.org/course/content> "Méthodes d’enseignement" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU060> <http://example.org/course/evaluation> "Modèles probabilistes 100%" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU040> <http://example.org/course/code> "XMS2IU040" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU090> <http://example.org/course/parcours> "(VICO)" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU130> <http://example.org/course/parcours> "M1 Data Science (DS) " <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU060> <http://example.org/course/obtention> "Programme" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU060> <http://example.org/course/prerequisite> "(s)" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2AU000> <http://example.org/course/methods> "Langue d’enseignement Français\n• 200% TOEIC 2017 Listening & Reading (2 août 2016, de Michael Byrne et Michelle Dickinson)\n• TOEIC® La Méthode Réussite (20 janvier 2011, de David Mayer et Serena Murdoch Stern)" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2AU000> <http://example.org/course/obtention> "Programme" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU080> <http://example.org/course/evaluation> "Ingénierie de la décision 100%" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU010> <http://example.org/course/objective> "(résultats d'apprentissage)" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU110> <http://example.org/course/hours> "TOTAL : 24h Répartition : CM : 12h TD : 8h CI : 0h TP : 4h EAD : 0h" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU130> <http://example.org/course/parcours> "M1 CMI-OPTIM" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU020> <http://example.org/course/language> "Français" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU030> <http://example.org/course/code> "XMS1IU030" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU070> <http://example.org/course/content> "•" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU070> <http://www.w3.org/2000/01/rdf-schema#label> "Données massives et web sémantique" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU120> <http://example.org/course/evaluation> "Conception et Analyse d'Algorithmes Efficaces 100%" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1AU010> <http://example.org/course/semester> "1" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU060> <http://example.org/course/obtention> "Programme" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU030> <http://www.w3.org/2000/01/rdf-schema#label> "Compilation" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU090> <http://example.org/course/parcours> "M1 Optimisation en Recherche Opérationnelle (ORO)" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU050> <http://example.org/course/content> "Méthodes d’enseignement" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU110> <http://example.org/course/responsible> "HAMMA SALIMA" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU070> <http://example.org/course/bibliography> "Press, Boca Raton, FL, 2015, 1053 pp. ISBN: 978-1498740265. Microscopy and" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU110> <http://example.org/course/evaluation> "Ingénierie des réseaux 100%" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU070> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/course/UE> <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU020> <http://example.org/course/location> "Niveau Master" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU110> <http://example.org/course/parcours> "M1" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1AU010> <http://example.org/course/content> "Méthodes d’enseignement" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU040> <http://example.org/course/prerequisite> "(s)" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU020> <http://example.org/course/parcours> "M1 CMI-OPTIM" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU110> <http://example.org/course/prerequisite> "(s)" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU080> <http://example.org/course/parcours> "M1 Apprentissage et Traitement Automatique de la" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU050> <http://www.w3.org/2000/01/rdf-schema#label> "Métaheuristiques" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU080> <http://example.org/course/obtention> "La note de CCE pourra contenir une part de pratique et d'oral." <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU040> <http://example.org/course/methods> "Bibliographie" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU050> <http://example.org/course/semester> "2" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU030> <http://example.org/course/bibliography> "" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU010> <http://example.org/course/parcours> "(ALMA)" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU060> <http://www.w3.org/2000/01/rdf-schema#label> "Analyse exploratoire de données" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU040> <http://example.org/course/location> "UFR des Sciences et des Techniques,Nantes" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU080> <http://www.w3.org/2000/01/rdf-schema#label> "Développement et exploitation" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU010> <http://example.org/course/objective> "(résultats d'apprentissage) complexité algorithmique d'une solution et évaluer son efficacité.\n4. mettre en œuvre les principales solutions algorithmiques pour les problèmes classiques de\nthéorie des graphes : parcours, connexité, plus courts chemins, recherche de cycles.\n1. Introduction, rappels, exemples et applications.\n2. Efficacité des algorithmes et calcul de la complexité: cas particulier des algorithmes portant sur\nles graphes\n3. Graphes particuliers I (arbres, arborescences): algorithmes et applications." <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU120> <http://example.org/course/hours> "TOTAL : 24h Répartition : CM : 12h TD : 8h CI : 0h TP : 4h EAD : 0h" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU020> <http://example.org/course/parcours> "Optimisation en Recherche Opérationnelle (ORO)" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1AU010> <http://example.org/course/responsible> "MOLLI PASCAL" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU050> <http://example.org/course/prerequisite> "(s)" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU120> <http://example.org/course/location> "UFR des Sciences et des Technqiues" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU010> <http://example.org/course/prerequisite> "(s)" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU070> <http://example.org/course/code> "XMS1IU070" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU030> <http://example.org/course/methods> "- Plusieurs ateliers (conception, évaluation, développement, visualisation de données)" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU010> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/course/UE> <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU020> <http://example.org/course/bibliography> "" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU030> <http://example.org/course/objective> "(résultats d'apprentissage)\n- Evaluer l’expérience utilisateur liée à un outil numérique\n- Concevoir une visualisation de données\n- Introduction à l’interaction humain-machine\n- Du côté de l'humain\n- Conception d’interactions et d’interfaces" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU020> <http://example.org/course/objective> "(résultats d'apprentissage)" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU060> <http://example.org/course/content> "Méthodes d’enseignement" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU080> <http://example.org/course/semester> "1" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU080> <http://example.org/course/parcours> "M1 Architecture Logicielle\n(ALMA)" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU110> <http://example.org/course/parcours> "M1 Architecture Logicielle (ALMA)" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU120> <http://example.org/course/prerequisite> "(s)" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU030> <http://example.org/course/prerequisite> "(s)" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU090> <http://example.org/course/language> "Français" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU120> <http://example.org/course/parcours> "Apprentissage et Traitement Automatique de la Langue (ATAL)" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU080> <http://example.org/course/bibliography> "" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU060> <http://example.org/course/responsible> "LE CAPITAINE HOEL" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1AU010> <http://example.org/course/level> "Master" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU080> <http://example.org/course/methods> "Langue d’enseignement Français" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU080> <http://example.org/course/hours> "TOTAL : 23.99h Répartition : CM : 10.66h TD : 0h CI : 0h TP : 13.33h EAD : 0h" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU010> <http://example.org/course/semester> "2" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU010> <http://example.org/course/obtention> "Programme\n- Professionnalisation (XMS2IE011)" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU120> <http://example.org/course/obtention> "Programme" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU010> <http://example.org/course/parcours> "M1 Visual Computing (VICO)" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU080> <http://example.org/course/content> "Méthodes d’enseignement" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2AU000> <http://example.org/course/bibliography> "• Tactics for TOEIC® Listening and Reading Test (13 septembre 2007, de Grant Trew)\n• Cambridge Grammar and Vocabulary for the TOEIC Test (11 novembre 2010, de Jolene Gear et" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU040> <http://example.org/course/parcours> "(ORO)" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU040> <http://example.org/course/parcours> "de la Langue (ATAL)" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU030> <http://example.org/course/content> "Méthodes d’enseignement" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU020> <http://example.org/course/responsible> "DE LA HIGUERA COLIN" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU040> <http://example.org/course/obtention> "Programme\n- Structures et stratégies pour la résolution de problèmes (XMS1IE041)" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU060> <http://example.org/course/parcours> "M1 Apprentissage et Traitement Automatique de la Langue (ATAL)" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1AU010> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/course/UE> <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU050> <http://example.org/course/language> "Français" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU130> <http://example.org/course/parcours> "M1 Architecture Logicielle\n(ALMA)" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2AU000> <http://example.org/course/parcours> "Automatique de la Langue (ATAL)" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU110> <http://example.org/course/obtention> "Programme" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU010> <http://example.org/course/location> "UFR Sciences et techniques" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU020> <http://example.org/course/code> "XMS2IU020" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU130> <http://example.org/course/bibliography> "" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU040> <http://example.org/course/prerequisite> "(s)" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU080> <http://example.org/course/hours> "TOTAL : 24h Répartition : CM : 12h TD : 12h CI : 0h TP : 0h EAD : 0h" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU040> <http://example.org/course/hours> "TOTAL : 48.01h Répartition : CM : 5.33h TD : 42.68h CI : 0h TP : 0h EAD : 0h" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU030> <http://example.org/course/parcours> "Visual Computing (VICO)" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU080> <http://example.org/course/responsible> "MOLLI PASCAL" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU060> <http://www.w3.org/2000/01/rdf-schema#label> "Modèles probabilistes" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1AU010> <http://example.org/course/parcours> "M1 Visual Computing (VICO)" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU030> <http://example.org/course/semester> "2" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU050> <http://example.org/course/parcours> "M1 Data Science (DS)" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU110> <http://example.org/course/code> "XMS2IU110" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU050> <http://example.org/course/parcours> "M1 CMI-OPTIM" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU010> <http://www.w3.org/2000/01/rdf-schema#label> "Professionnalisation et éthique" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU090> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/course/UE> <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU060> <http://example.org/course/methods> "Langue d’enseignement Français" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU040> <http://example.org/course/parcours> "M1 Smart Computing" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS1IU010> <http://example.org/course/parcours> "M1 CMI-OPTIM" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU120> <http://example.org/course/parcours> "M1 Data Science (DS) " <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU130> <http://example.org/course/location> "Niveau Master" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU080> <http://example.org/course/methods> "Langue d’enseignement Français" <urn:x-rdflib:default> .
+<http://example.org/course/UE_XMS2IU070> <http://example.org/course/level> "Master" <urn:x-rdflib:default> .
+<http://example.org/GROK> <http://example.org/param_prompt> "\n        You are a JSON-LD API. Always respond only with a valid JSON-LD object, without explanation or formatting.\n\n        The following describes the content of a lecture and a Knowledge Unit (KU) in Computer Science.\n\n        <page1>Label: Anglais scientifique Objectif: (résultats d'apprentissage) Course content: Méthodes d’enseignement Course name: http://example.org/course/UE_XMS1AU010</page1>\n        <page2>Pages: TBD HOURS CS Core = TBD KA Core = TBD SE-Formal Methods: Core Concepts\nCS Core: 1\\. Placeholder topic 1 2\\. Placeholder topic 2 3\\. Placeholder topic\n3 KA Core: 4\\. Placeholder advanced topic 1 5\\. Placeholder advanced topic 2\nIllustrative Learning Outcomes: 1\\. Explain key concepts of SE-Formal Methods.\n2\\. Apply principles in practical scenarios. 3\\. Analyze the importance of\nthis topic in computing.</page2>\n\n        Determine whether the lecture (page1) substantially covers the knowledge described in the KU (page2).\n\n        Respond only using JSON-LD, with the following structure:\n        {\n        \"@context\": \"http://schema.org/\",\n        \"@type\": \"Report\",\n        \"http://schema.org/answer\": \"A\",\n        \"http://schema.org/explain\": \"B\"\n        }\n\n        Replace A with \"1\" if the lecture covers a large subset of the KU, or \"0\" if it does not.\n        Replace B with a **very short explanation** of your decision.\n        " <http://groq.org/cfd200a4f6a53c9315cd2172d8b964aa89907d0917df25be56520b87c36b5a71> .
+<http://example.org/GROK> <http://example.org/param_model> "llama3-8b-8192" <http://groq.org/cfd200a4f6a53c9315cd2172d8b964aa89907d0917df25be56520b87c36b5a71> .
+<http://example.org/GROK> <http://example.org/param_uri> "http://example.org/course/UE_XMS1AU010" <http://groq.org/cfd200a4f6a53c9315cd2172d8b964aa89907d0917df25be56520b87c36b5a71> .
+<http://example.org/course/UE_XMS1AU010> <http://example.org/has_schema_type> _:N78d626e036984f13969813cd510b2292 <http://groq.org/cfd200a4f6a53c9315cd2172d8b964aa89907d0917df25be56520b87c36b5a71> .
+_:N78d626e036984f13969813cd510b2292 <http://schema.org/answer> "1" <http://groq.org/cfd200a4f6a53c9315cd2172d8b964aa89907d0917df25be56520b87c36b5a71> .
+_:N78d626e036984f13969813cd510b2292 <http://schema.org/explain> "The lecture covers key concepts of SE-Formal Methods, applies principles in practical scenarios, and analyzes the importance of this topic in computing, aligning with the KU's learning outcomes." <http://groq.org/cfd200a4f6a53c9315cd2172d8b964aa89907d0917df25be56520b87c36b5a71> .
+_:N78d626e036984f13969813cd510b2292 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Report> <http://groq.org/cfd200a4f6a53c9315cd2172d8b964aa89907d0917df25be56520b87c36b5a71> .
+<http://example.org/GROK> <http://example.org/param_prompt> "\n        You are a JSON-LD API. Always respond only with a valid JSON-LD object, without explanation or formatting.\n\n        The following describes the content of a lecture and a Knowledge Unit (KU) in Computer Science.\n\n        <page1>Label: Anglais scientifique Objectif: (résultats d'apprentissage) Course content: Méthodes d’enseignement Course name: http://example.org/course/UE_XMS1AU010</page1>\n        <page2>Pages: TBD HOURS CS Core = TBD KA Core = TBD SE-Formal Methods: Core Concepts\nCS Core: 1\\. Placeholder topic 1 2\\. Placeholder topic 2 3\\. Placeholder topic\n3 KA Core: 4\\. Placeholder advanced topic 1 5\\. Placeholder advanced topic 2\nIllustrative Learning Outcomes: 1\\. Explain key concepts of SE-Formal Methods.\n2\\. Apply principles in practical scenarios. 3\\. Analyze the importance of\nthis topic in computing.</page2>\n\n        Determine whether the lecture (page1) substantially covers the knowledge described in the KU (page2).\n\n        Respond only using JSON-LD, with the following structure:\n        {\n        \"@context\": \"http://schema.org/\",\n        \"@type\": \"Report\",\n        \"http://schema.org/answer\": \"A\",\n        \"http://schema.org/explain\": \"B\"\n        }\n\n        Replace A with \"1\" if the lecture covers a large subset of the KU, or \"0\" if it does not.\n        Replace B with a **very short explanation** of your decision.\n        " <http://groq.org/47bcc804eff50637b42d12d3284899ce4835d22368b49858514a455cb3692b11> .
+_:N7073f8475fc848929a6c818268cd4449 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Report> <http://groq.org/47bcc804eff50637b42d12d3284899ce4835d22368b49858514a455cb3692b11> .
+_:N7073f8475fc848929a6c818268cd4449 <http://schema.org/answer> "0" <http://groq.org/47bcc804eff50637b42d12d3284899ce4835d22368b49858514a455cb3692b11> .
+<http://example.org/course/UE_XMS1AU010> <http://example.org/has_schema_type> _:N7073f8475fc848929a6c818268cd4449 <http://groq.org/47bcc804eff50637b42d12d3284899ce4835d22368b49858514a455cb3692b11> .
+<http://example.org/GROK> <http://example.org/param_model> "qwen-qwq-32b" <http://groq.org/47bcc804eff50637b42d12d3284899ce4835d22368b49858514a455cb3692b11> .
+<http://example.org/GROK> <http://example.org/param_uri> "http://example.org/course/UE_XMS1AU010" <http://groq.org/47bcc804eff50637b42d12d3284899ce4835d22368b49858514a455cb3692b11> .
+_:N7073f8475fc848929a6c818268cd4449 <http://schema.org/explain> "The lecture focuses on teaching scientific English and methods, not formal methods in SE." <http://groq.org/47bcc804eff50637b42d12d3284899ce4835d22368b49858514a455cb3692b11> .
+<http://example.org/faiss> <http://example.org/input> "Label: Anglais scientifique Objectif: (résultats d'apprentissage) Course content: Méthodes d’enseignement Course name: http://example.org/course/UE_XMS1AU010" <http://faiss.org/a1968131bc41f8cd1c4b8f0dfe30ba5a2db385e7b2282a2e19c28c51517061ac> .
+_:N5ac24feea2dd4aff9e9252fb2d738b83 <http://example.org/has_chunk> ". Techniques for learning and mastering a platform-specific programming language \n \nIllustrative Learning Outcomes: \nCS Core: \n1. List the constraints of mobile programming. \n2. List the characteristics of scripting languages. \n3. Describe the three-tier model of web programming.  \n4. Describe how the state is maintained in web programming." <http://faiss.org/a1968131bc41f8cd1c4b8f0dfe30ba5a2db385e7b2282a2e19c28c51517061ac> .
+_:N4e1ed66c383a4fdea0c5f741166ba74f <http://example.org/has_score> "0.6374775"^^<http://www.w3.org/2001/XMLSchema#float> <http://faiss.org/a1968131bc41f8cd1c4b8f0dfe30ba5a2db385e7b2282a2e19c28c51517061ac> .
+_:N6d5e27ab09254509bda1d4b7566c0114 <http://example.org/has_source> <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Artificial_Intelligence_AI/AI-NLP_Natural_Language_Processing.txt> <http://faiss.org/a1968131bc41f8cd1c4b8f0dfe30ba5a2db385e7b2282a2e19c28c51517061ac> .
+<http://example.org/course/UE_XMS1AU010> <http://example.org/is_aligned_with> _:N6d5e27ab09254509bda1d4b7566c0114 <http://faiss.org/a1968131bc41f8cd1c4b8f0dfe30ba5a2db385e7b2282a2e19c28c51517061ac> .
+_:N5ac24feea2dd4aff9e9252fb2d738b83 <http://example.org/has_score> "0.6468371"^^<http://www.w3.org/2001/XMLSchema#float> <http://faiss.org/a1968131bc41f8cd1c4b8f0dfe30ba5a2db385e7b2282a2e19c28c51517061ac> .
+_:N5ac24feea2dd4aff9e9252fb2d738b83 <http://example.org/has_source> <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Specialized_Platform_Development_SPD/SPD-Common_Aspects.txt> <http://faiss.org/a1968131bc41f8cd1c4b8f0dfe30ba5a2db385e7b2282a2e19c28c51517061ac> .
+<http://example.org/course/UE_XMS1AU010> <http://example.org/is_aligned_with> _:N4e1ed66c383a4fdea0c5f741166ba74f <http://faiss.org/a1968131bc41f8cd1c4b8f0dfe30ba5a2db385e7b2282a2e19c28c51517061ac> .
+_:N6d5e27ab09254509bda1d4b7566c0114 <http://example.org/has_chunk> ". Examples of use: POS tagging and morphology\n8. Information retrieval (See also: DM-Unstructured)\na. Vector space model\ni. TF & IDF\nb. Precision and recall\n9. Information extraction\n10. Language translation\n11. Text classification, categorization\na. Bag of words model\n12. Deep learning for NLP (See also: AI-ML)\na. RNNs\nb. Transformers\nc. Multi-modal embeddings (e.g., images + text)\nd. Generative language models\nIllustrative Learning Outcomes:\n1" <http://faiss.org/a1968131bc41f8cd1c4b8f0dfe30ba5a2db385e7b2282a2e19c28c51517061ac> .
+_:N4e1ed66c383a4fdea0c5f741166ba74f <http://example.org/has_source> <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Software_Engineering_SE/SE-Formal_Methods.txt> <http://faiss.org/a1968131bc41f8cd1c4b8f0dfe30ba5a2db385e7b2282a2e19c28c51517061ac> .
+_:N4e1ed66c383a4fdea0c5f741166ba74f <http://example.org/has_chunk> "Pages: TBD\nHOURS\n    CS Core = TBD\n    KA Core = TBD\n\nSE-Formal Methods: Core Concepts\nCS Core:\n1. Placeholder topic 1\n2. Placeholder topic 2\n3. Placeholder topic 3\n\nKA Core:\n4. Placeholder advanced topic 1\n5. Placeholder advanced topic 2\n\nIllustrative Learning Outcomes:\n1. Explain key concepts of SE-Formal Methods.\n2. Apply principles in practical scenarios.\n3. Analyze the importance of this topic in computing." <http://faiss.org/a1968131bc41f8cd1c4b8f0dfe30ba5a2db385e7b2282a2e19c28c51517061ac> .
+_:N6d5e27ab09254509bda1d4b7566c0114 <http://example.org/has_score> "0.63415897"^^<http://www.w3.org/2001/XMLSchema#float> <http://faiss.org/a1968131bc41f8cd1c4b8f0dfe30ba5a2db385e7b2282a2e19c28c51517061ac> .
+<http://example.org/course/UE_XMS1AU010> <http://example.org/is_aligned_with> _:N5ac24feea2dd4aff9e9252fb2d738b83 <http://faiss.org/a1968131bc41f8cd1c4b8f0dfe30ba5a2db385e7b2282a2e19c28c51517061ac> .
+<http://example.org/GROK> <http://example.org/param_prompt> "\n        You are a JSON-LD API. Always respond only with a valid JSON-LD object, without explanation or formatting.\n\n        The following describes the content of a lecture and a Knowledge Unit (KU) in Computer Science.\n\n        <page1>Label: Anglais scientifique Objectif: (résultats d'apprentissage) Course content: Méthodes d’enseignement Course name: http://example.org/course/UE_XMS1AU010</page1>\n        <page2>Pages: TBD HOURS CS Core = TBD KA Core = TBD SE-Formal Methods: Core Concepts\nCS Core: 1\\. Placeholder topic 1 2\\. Placeholder topic 2 3\\. Placeholder topic\n3 KA Core: 4\\. Placeholder advanced topic 1 5\\. Placeholder advanced topic 2\nIllustrative Learning Outcomes: 1\\. Explain key concepts of SE-Formal Methods.\n2\\. Apply principles in practical scenarios. 3\\. Analyze the importance of\nthis topic in computing.</page2>\n\n        Determine whether the lecture (page1) substantially covers the knowledge described in the KU (page2).\n\n        Respond only using JSON-LD, with the following structure:\n        {\n        \"@context\": \"http://schema.org/\",\n        \"@type\": \"Report\",\n        \"http://schema.org/answer\": \"A\",\n        \"http://schema.org/explain\": \"B\"\n        }\n\n        Replace A with \"1\" if the lecture covers a large subset of the KU, or \"0\" if it does not.\n        Replace B with a **very short explanation** of your decision.\n        " <http://groq.org/603265d0d6cebdcbf7bc7d9c237b32c3e83b90ee13b50be940be9dfb393d87d2> .
+<http://example.org/course/UE_XMS1AU010> <http://example.org/has_schema_type> _:Nef0d747ad4274edfaee297272eb611ae <http://groq.org/603265d0d6cebdcbf7bc7d9c237b32c3e83b90ee13b50be940be9dfb393d87d2> .
+_:Nef0d747ad4274edfaee297272eb611ae <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Report> <http://groq.org/603265d0d6cebdcbf7bc7d9c237b32c3e83b90ee13b50be940be9dfb393d87d2> .
+<http://example.org/GROK> <http://example.org/param_uri> "http://example.org/course/UE_XMS1AU010" <http://groq.org/603265d0d6cebdcbf7bc7d9c237b32c3e83b90ee13b50be940be9dfb393d87d2> .
+_:Nef0d747ad4274edfaee297272eb611ae <http://schema.org/explain> "The lecture on scientific English does not cover the technical content of the KU on formal methods in software engineering." <http://groq.org/603265d0d6cebdcbf7bc7d9c237b32c3e83b90ee13b50be940be9dfb393d87d2> .
+<http://example.org/GROK> <http://example.org/param_model> "deepseek-r1-distill-llama-70b" <http://groq.org/603265d0d6cebdcbf7bc7d9c237b32c3e83b90ee13b50be940be9dfb393d87d2> .
+_:Nef0d747ad4274edfaee297272eb611ae <http://schema.org/answer> "0" <http://groq.org/603265d0d6cebdcbf7bc7d9c237b32c3e83b90ee13b50be940be9dfb393d87d2> .
+_:N38ac3d4451ca4253abd8659a9de487c8 <http://schema.org/answer> "0" <http://groq.org/38060d75a91d06d7b100f446c71acb1b86d842c9a26e6ce7e6c1e0e197c3569d> .
+_:N38ac3d4451ca4253abd8659a9de487c8 <http://schema.org/explain> "Lecture focuses on teaching methods for scientific English, while KU covers technical NLP concepts like parsing algorithms and TF/IDF." <http://groq.org/38060d75a91d06d7b100f446c71acb1b86d842c9a26e6ce7e6c1e0e197c3569d> .
+<http://example.org/GROK> <http://example.org/param_model> "qwen-qwq-32b" <http://groq.org/38060d75a91d06d7b100f446c71acb1b86d842c9a26e6ce7e6c1e0e197c3569d> .
+<http://example.org/GROK> <http://example.org/param_prompt> "\n        You are a JSON-LD API. Always respond only with a valid JSON-LD object, without explanation or formatting.\n\n        The following describes the content of a lecture and a Knowledge Unit (KU) in Computer Science.\n\n        <page1>Label: Anglais scientifique Objectif: (résultats d'apprentissage) Course content: Méthodes d’enseignement Course name: http://example.org/course/UE_XMS1AU010</page1>\n        <page2>Pages:79-80 HOURS CS Core = 0 KA Core = 0 AI-NLP: Natural Language Processing\nNon-core: 1\\. Deterministic and stochastic grammars 2\\. Parsing algorithms a.\nCFGs and chart parsers (e.g., CYK) b. Probabilistic CFGs and weighted CYK 3\\.\nRepresenting meaning/Semantics a. Logic-based knowledge representations b.\nSemantic roles c. Temporal representations d. Beliefs, desires, and intentions\n4\\. Corpus-based methods 5\\. N-grams and HMMs 6\\. Smoothing and backoff 7\\.\nExamples of use: POS tagging and morphology 8\\. Information retrieval (See\nalso: DM-Unstructured) a. Vector space model i. TF & IDF b. Precision and\nrecall 9\\. Information extraction 10\\. Language translation 11\\. Text\nclassification, categorization a. Bag of words model 12\\. Deep learning for\nNLP (See also: AI-ML) a. RNNs b. Transformers c. Multi-modal embeddings (e.g.,\nimages + text) d. Generative language models Illustrative Learning Outcomes:\n1\\. Define and contrast deterministic and stochastic grammars, providing\nexamples to show the adequacy of each. 2\\. Simulate, apply, or implement\nclassic and stochastic algorithms for parsing natural language. 3\\. Identify\nthe challenges of representing meaning. 4\\. List the advantages of using\nstandard corpora. Identify examples of current corpora for a variety of NLP\ntasks. 5\\. Identify techniques for information retrieval, language\ntranslation, and text classification. 6\\. Implement a TF/IDF transform, use it\nto extract features from a corpus, and train an off-the-shelf machine learning\nalgorithm using those features to do text classification.</page2>\n\n        Determine whether the lecture (page1) substantially covers the knowledge described in the KU (page2).\n\n        Respond only using JSON-LD, with the following structure:\n        {\n        \"@context\": \"http://schema.org/\",\n        \"@type\": \"Report\",\n        \"http://schema.org/answer\": \"A\",\n        \"http://schema.org/explain\": \"B\"\n        }\n\n        Replace A with \"1\" if the lecture covers a large subset of the KU, or \"0\" if it does not.\n        Replace B with a **very short explanation** of your decision.\n        " <http://groq.org/38060d75a91d06d7b100f446c71acb1b86d842c9a26e6ce7e6c1e0e197c3569d> .
+<http://example.org/GROK> <http://example.org/param_uri> "http://example.org/course/UE_XMS1AU010" <http://groq.org/38060d75a91d06d7b100f446c71acb1b86d842c9a26e6ce7e6c1e0e197c3569d> .
+<http://example.org/course/UE_XMS1AU010> <http://example.org/has_schema_type> _:N38ac3d4451ca4253abd8659a9de487c8 <http://groq.org/38060d75a91d06d7b100f446c71acb1b86d842c9a26e6ce7e6c1e0e197c3569d> .
+_:N38ac3d4451ca4253abd8659a9de487c8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Report> <http://groq.org/38060d75a91d06d7b100f446c71acb1b86d842c9a26e6ce7e6c1e0e197c3569d> .
+<http://example.org/course/UE_XMS1AU010> <http://example.org/has_schema_type> _:N117db807edee44e49751d59356d3cde9 <http://groq.org/97faf1fb1545db50fa33c2f9346f99030202f050a87ee5bf98eba8a674a6ff79> .
+<http://example.org/GROK> <http://example.org/param_prompt> "\n        You are a JSON-LD API. Always respond only with a valid JSON-LD object, without explanation or formatting.\n\n        The following describes the content of a lecture and a Knowledge Unit (KU) in Computer Science.\n\n        <page1>Label: Anglais scientifique Objectif: (résultats d'apprentissage) Course content: Méthodes d’enseignement Course name: http://example.org/course/UE_XMS1AU010</page1>\n        <page2>Pages : 240-241 CS Core : 4, KA Core : 2 CS Core: 1\\. Overview of development\nplatforms (i.e., web, mobile, game, robotics, embedded, and interactive). a.\nInput/sensors/control devices/haptic devices b. Resource constraints i.\nComputational ii. Data storage iii. Memory iv. Communication c. Requirements -\nsecurity, uptime availability, fault tolerance (See also: SE-Reliability, SEC-\nEngineering) d. Output/actuators/haptic devices 2\\. Programming via platform-\nspecific Application Programming Interface (API) vs traditional application\nconstruction 3\\. Overview of platform Languages (e.g., Python, Swift, Lua,\nKotlin) 4\\. Programming under platform constraints and requirements (e.g.,\navailable development tools, development, security considerations) (See also:\nSEC-Foundations) 5\\. Techniques for learning and mastering a platform-specific\nprogramming language Illustrative Learning Outcomes: CS Core: 1\\. List the\nconstraints of mobile programming. 2\\. List the characteristics of scripting\nlanguages. 3\\. Describe the three-tier model of web programming. 4\\. Describe\nhow the state is maintained in web programming.</page2>\n\n        Determine whether the lecture (page1) substantially covers the knowledge described in the KU (page2).\n\n        Respond only using JSON-LD, with the following structure:\n        {\n        \"@context\": \"http://schema.org/\",\n        \"@type\": \"Report\",\n        \"http://schema.org/answer\": \"A\",\n        \"http://schema.org/explain\": \"B\"\n        }\n\n        Replace A with \"1\" if the lecture covers a large subset of the KU, or \"0\" if it does not.\n        Replace B with a **very short explanation** of your decision.\n        " <http://groq.org/97faf1fb1545db50fa33c2f9346f99030202f050a87ee5bf98eba8a674a6ff79> .
+_:N117db807edee44e49751d59356d3cde9 <http://schema.org/answer> "0" <http://groq.org/97faf1fb1545db50fa33c2f9346f99030202f050a87ee5bf98eba8a674a6ff79> .
+<http://example.org/GROK> <http://example.org/param_uri> "http://example.org/course/UE_XMS1AU010" <http://groq.org/97faf1fb1545db50fa33c2f9346f99030202f050a87ee5bf98eba8a674a6ff79> .
+<http://example.org/GROK> <http://example.org/param_model> "deepseek-r1-distill-llama-70b" <http://groq.org/97faf1fb1545db50fa33c2f9346f99030202f050a87ee5bf98eba8a674a6ff79> .
+_:N117db807edee44e49751d59356d3cde9 <http://schema.org/explain> "The lecture does not cover the technical content of the Knowledge Unit." <http://groq.org/97faf1fb1545db50fa33c2f9346f99030202f050a87ee5bf98eba8a674a6ff79> .
+_:N117db807edee44e49751d59356d3cde9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Report> <http://groq.org/97faf1fb1545db50fa33c2f9346f99030202f050a87ee5bf98eba8a674a6ff79> .
+

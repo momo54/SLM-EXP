@@ -1,4 +1,4 @@
-## slm-run  --config config.bok --load ./data/courses_splitted.ttl --format turtle  -f queries/bok-graph-construct-cli.sparql -- >alignment_results/out_put.ttl
+## slm-run  --config config.bok --load ./data/courses_splitted.ttl --format turtle  -f queries/bok-graph-construct-cli.sparql -- >XP/alignment_results/out_put.nq
 PREFIX ns1: <http://example.org/course/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX ex: <http://example.org/>
