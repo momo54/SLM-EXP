@@ -1,0 +1,69 @@
+@prefix ns1: <http://example.org/course/> .
+@prefix ns2: <http://align.org/> .
+@prefix ns3: <http://provo.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ns1:UE_XMS3IU020 ns2:to [ ns2:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Graphics_and_Interactive_Techniques_GIT/GIT-3D_Modeling.txt> ;
+            ns2:score "0.6546917"^^xsd:float ;
+            ns1:answer "1" ;
+            ns1:explain "The lecture covers the core concepts of GIT-3D Modeling, which aligns with the key concepts and principles mentioned in the KU." ;
+            ns1:ka "Graphics_and_Interactive_Techniques_GIT" ;
+            ns1:ku "GIT-3D_Modeling" ;
+            ns3:wasGeneratedBy [ ns3:used "llama3-8b-8192" ] ],
+        [ ns2:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Software_Engineering_SE/SE-Formal_Methods.txt> ;
+            ns2:score "0.6433587"^^xsd:float ;
+            ns1:answer "1" ;
+            ns1:explain "The lecture covers the course content, including key concepts, practical applications, and importance of SE-Formal Methods, which aligns with the KU's learning outcomes." ;
+            ns1:ka "Software_Engineering_SE" ;
+            ns1:ku "SE-Formal_Methods" ;
+            ns3:wasGeneratedBy [ ns3:used "llama3-8b-8192" ] ],
+        [ ns2:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Graphics_and_Interactive_Techniques_GIT/GIT-Augmented_Reality.txt> ;
+            ns2:score "0.64460135"^^xsd:float ;
+            ns1:answer "1" ;
+            ns1:explain "The lecture covers key concepts of GIT-Augmented Reality, applies principles in practical scenarios, and analyzes its importance in computing, aligning with the KU's learning outcomes." ;
+            ns1:ka "Graphics_and_Interactive_Techniques_GIT" ;
+            ns1:ku "GIT-Augmented_Reality" ;
+            ns3:wasGeneratedBy [ ns3:used "llama3-8b-8192" ] ],
+        [ ns2:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Graphics_and_Interactive_Techniques_GIT/GIT-Augmented_Reality.txt> ;
+            ns2:score "0.64460135"^^xsd:float ;
+            ns1:answer "0" ;
+            ns1:explain "The lecture focuses on distributed data management, while the KU covers GIT-Augmented Reality, indicating no substantial overlap." ;
+            ns1:ka "Graphics_and_Interactive_Techniques_GIT" ;
+            ns1:ku "GIT-Augmented_Reality" ;
+            ns3:wasGeneratedBy [ ns3:used "deepseek-r1-distill-llama-70b" ] ],
+        [ ns2:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Software_Engineering_SE/SE-Formal_Methods.txt> ;
+            ns2:score "0.6433587"^^xsd:float ;
+            ns1:answer "0" ;
+            ns1:explain "No overlap in subject matter; lecture focuses on distributed data, KU on formal methods." ;
+            ns1:ka "Software_Engineering_SE" ;
+            ns1:ku "SE-Formal_Methods" ;
+            ns3:wasGeneratedBy [ ns3:used "qwen-qwq-32b" ] ],
+        [ ns2:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Software_Engineering_SE/SE-Formal_Methods.txt> ;
+            ns2:score "0.6433587"^^xsd:float ;
+            ns1:answer "0" ;
+            ns1:explain "The lecture focuses on distributed data management, while the KU covers formal methods in software engineering, indicating no substantial overlap." ;
+            ns1:ka "Software_Engineering_SE" ;
+            ns1:ku "SE-Formal_Methods" ;
+            ns3:wasGeneratedBy [ ns3:used "deepseek-r1-distill-llama-70b" ] ],
+        [ ns2:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Graphics_and_Interactive_Techniques_GIT/GIT-3D_Modeling.txt> ;
+            ns2:score "0.6546917"^^xsd:float ;
+            ns1:answer "0" ;
+            ns1:explain "No overlap in core topics (distributed data management vs. 3D modeling)" ;
+            ns1:ka "Graphics_and_Interactive_Techniques_GIT" ;
+            ns1:ku "GIT-3D_Modeling" ;
+            ns3:wasGeneratedBy [ ns3:used "qwen-qwq-32b" ] ],
+        [ ns2:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Graphics_and_Interactive_Techniques_GIT/GIT-Augmented_Reality.txt> ;
+            ns2:score "0.64460135"^^xsd:float ;
+            ns1:answer "0" ;
+            ns1:explain "No overlap in topics: lecture focuses on distributed data management, while KU covers GIT-Augmented Reality concepts." ;
+            ns1:ka "Graphics_and_Interactive_Techniques_GIT" ;
+            ns1:ku "GIT-Augmented_Reality" ;
+            ns3:wasGeneratedBy [ ns3:used "qwen-qwq-32b" ] ],
+        [ ns2:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Graphics_and_Interactive_Techniques_GIT/GIT-3D_Modeling.txt> ;
+            ns2:score "0.6546917"^^xsd:float ;
+            ns1:answer "0" ;
+            ns1:explain "The lecture focuses on distributed data management, while the KU covers GIT-3D modeling, which are distinct topics." ;
+            ns1:ka "Graphics_and_Interactive_Techniques_GIT" ;
+            ns1:ku "GIT-3D_Modeling" ;
+            ns3:wasGeneratedBy [ ns3:used "deepseek-r1-distill-llama-70b" ] ] .
+
