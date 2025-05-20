@@ -1,0 +1,69 @@
+@prefix ns1: <http://example.org/course/> .
+@prefix ns2: <http://provo.org/> .
+@prefix ns3: <http://align.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ns1:UE_XMS1AU000 ns3:to [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Foundations_of_Programming_Languages_FPL/FPL-Scripting_Shell_Scripting.txt> ;
+            ns3:score "0.6757103"^^xsd:float ;
+            ns1:answer "0" ;
+            ns1:explain "The lecture focuses on TOEIC preparation, while the KU covers shell scripting in Computer Science." ;
+            ns1:ka "Foundations_of_Programming_Languages_FPL" ;
+            ns1:ku "FPL-Scripting_Shell_Scripting" ;
+            ns2:wasGeneratedBy [ ns2:used "deepseek-r1-distill-llama-70b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Foundations_of_Programming_Languages_FPL/FPL-Scripting_Shell_Scripting.txt> ;
+            ns3:score "0.6757103"^^xsd:float ;
+            ns1:answer "1" ;
+            ns1:explain "The lecture covers topics such as error/exception handling, piping, system commands, environment variables, file abstraction, and data structures, which are all part of the KU." ;
+            ns1:ka "Foundations_of_Programming_Languages_FPL" ;
+            ns1:ku "FPL-Scripting_Shell_Scripting" ;
+            ns2:wasGeneratedBy [ ns2:used "llama3-8b-8192" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Specialized_Platform_Development_SPD/SPD-Common_Aspects.txt> ;
+            ns3:score "0.69343364"^^xsd:float ;
+            ns1:answer "0" ;
+            ns1:explain "The lecture focuses on TOEIC preparation, while the KU covers computer science topics." ;
+            ns1:ka "Specialized_Platform_Development_SPD" ;
+            ns1:ku "SPD-Common_Aspects" ;
+            ns2:wasGeneratedBy [ ns2:used "deepseek-r1-distill-llama-70b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Foundations_of_Programming_Languages_FPL/FPL-Scripting_Shell_Scripting.txt> ;
+            ns3:score "0.6757103"^^xsd:float ;
+            ns1:answer "0" ;
+            ns1:explain "No overlap; lecture focuses on TOEIC exam prep, KU covers CS scripting topics" ;
+            ns1:ka "Foundations_of_Programming_Languages_FPL" ;
+            ns1:ku "FPL-Scripting_Shell_Scripting" ;
+            ns2:wasGeneratedBy [ ns2:used "qwen-qwq-32b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Software_Development_Fundamentals_SDF/SDF-Software_Development_Practices.txt> ;
+            ns3:score "0.67228055"^^xsd:float ;
+            ns1:answer "0" ;
+            ns1:explain "Lecture focuses on TOEIC exam preparation, while KU addresses computer science testing, programming, and IDE use—no overlap." ;
+            ns1:ka "Software_Development_Fundamentals_SDF" ;
+            ns1:ku "SDF-Software_Development_Practices" ;
+            ns2:wasGeneratedBy [ ns2:used "qwen-qwq-32b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Software_Development_Fundamentals_SDF/SDF-Software_Development_Practices.txt> ;
+            ns3:score "0.67228055"^^xsd:float ;
+            ns1:answer "1" ;
+            ns1:explain "The lecture covers topics such as test case design, programming style, and debugging, which are all part of the KU's CS Core." ;
+            ns1:ka "Software_Development_Fundamentals_SDF" ;
+            ns1:ku "SDF-Software_Development_Practices" ;
+            ns2:wasGeneratedBy [ ns2:used "llama3-8b-8192" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Software_Development_Fundamentals_SDF/SDF-Software_Development_Practices.txt> ;
+            ns3:score "0.67228055"^^xsd:float ;
+            ns1:answer "0" ;
+            ns1:explain "The lecture focuses on English preparation for TOEIC, while the KU covers software testing and programming concepts, with no overlap." ;
+            ns1:ka "Software_Development_Fundamentals_SDF" ;
+            ns1:ku "SDF-Software_Development_Practices" ;
+            ns2:wasGeneratedBy [ ns2:used "deepseek-r1-distill-llama-70b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Specialized_Platform_Development_SPD/SPD-Common_Aspects.txt> ;
+            ns3:score "0.69343364"^^xsd:float ;
+            ns1:answer "0" ;
+            ns1:explain "The lecture does not cover the specific topics mentioned in the KU, such as development platforms, programming languages, and platform constraints." ;
+            ns1:ka "Specialized_Platform_Development_SPD" ;
+            ns1:ku "SPD-Common_Aspects" ;
+            ns2:wasGeneratedBy [ ns2:used "llama3-8b-8192" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Specialized_Platform_Development_SPD/SPD-Common_Aspects.txt> ;
+            ns3:score "0.69343364"^^xsd:float ;
+            ns1:answer "0" ;
+            ns1:explain "Lecture focuses on TOEIC exam preparation, while KU covers CS platform/programming concepts." ;
+            ns1:ka "Specialized_Platform_Development_SPD" ;
+            ns1:ku "SPD-Common_Aspects" ;
+            ns2:wasGeneratedBy [ ns2:used "qwen-qwq-32b" ] ] .
+
