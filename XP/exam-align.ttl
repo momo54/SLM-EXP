@@ -1,0 +1,325 @@
+@prefix ns1: <http://align.org/> .
+@prefix ns2: <http://provo.org/> .
+@prefix ns3: <http://example.org/course/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ns3:X3I010 ns1:to [ ns1:ku_source <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Algorithmic_Foundations_AL/AL-Models_Computational_Models_and_Formal_Languages.txt> ;
+            ns1:score "0.79884785"^^xsd:float ;
+            ns3:answer "1" ;
+            ns3:explain "The lecture covers key topics like complexity theory, formal languages, automata, and Turing machines, which are central to the KU, but lacks depth on certain advanced aspects." ;
+            ns3:ka "Algorithmic_Foundations_AL" ;
+            ns3:ku "AL-Models_Computational_Models_and_Formal_Languages" ;
+            ns2:wasGeneratedBy [ ns2:used "deepseek-r1-distill-llama-70b" ] ],
+        [ ns1:ku_source <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Algorithmic_Foundations_AL/AL-Models_Computational_Models_and_Formal_Languages.txt> ;
+            ns1:score "0.7534516"^^xsd:float ;
+            ns3:answer "1" ;
+            ns3:explain "The lecture covers key topics like complexity theory, formal languages, automata, and Turing machines, which are central to the KU, but lacks depth on certain advanced aspects." ;
+            ns3:ka "Algorithmic_Foundations_AL" ;
+            ns3:ku "AL-Models_Computational_Models_and_Formal_Languages" ;
+            ns2:wasGeneratedBy [ ns2:used "deepseek-r1-distill-llama-70b" ] ],
+        [ ns1:ku_source <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Algorithmic_Foundations_AL/AL-Models_Computational_Models_and_Formal_Languages.txt> ;
+            ns1:score "0.77183974"^^xsd:float ;
+            ns3:answer "1" ;
+            ns3:explain "The lecture covers key topics like complexity theory, formal languages, automata, and Turing machines, which are central to the KU, but lacks depth on certain advanced aspects." ;
+            ns3:ka "Algorithmic_Foundations_AL" ;
+            ns3:ku "AL-Models_Computational_Models_and_Formal_Languages" ;
+            ns2:wasGeneratedBy [ ns2:used "deepseek-r1-distill-llama-70b" ] ],
+        [ ns1:ku_source <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Algorithmic_Foundations_AL/AL-Models_Computational_Models_and_Formal_Languages.txt> ;
+            ns1:score "0.77183974"^^xsd:float ;
+            ns3:answer "1" ;
+            ns3:explain "The lecture covers a significant portion of the KU, including topics such as complexity theory, formal languages, automata theory, and Turing machines, which are all fundamental concepts in computer science." ;
+            ns3:ka "Algorithmic_Foundations_AL" ;
+            ns3:ku "AL-Models_Computational_Models_and_Formal_Languages" ;
+            ns2:wasGeneratedBy [ ns2:used "llama3-8b-8192" ] ],
+        [ ns1:ku_source <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Algorithmic_Foundations_AL/AL-Models_Computational_Models_and_Formal_Languages.txt> ;
+            ns1:score "0.79884785"^^xsd:float ;
+            ns3:answer "1" ;
+            ns3:explain "The lecture covers a significant portion of the KU, including topics such as complexity theory, formal languages, automata theory, and Turing machines, which are all fundamental concepts in computer science." ;
+            ns3:ka "Algorithmic_Foundations_AL" ;
+            ns3:ku "AL-Models_Computational_Models_and_Formal_Languages" ;
+            ns2:wasGeneratedBy [ ns2:used "llama3-8b-8192" ] ],
+        [ ns1:ku_source <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Algorithmic_Foundations_AL/AL-Models_Computational_Models_and_Formal_Languages.txt> ;
+            ns1:score "0.79884785"^^xsd:float ;
+            ns3:answer "1" ;
+            ns3:explain "Lecture covers core topics like automata, Turing machines, and NP-completeness, aligning with KU's CS Core foundations." ;
+            ns3:ka "Algorithmic_Foundations_AL" ;
+            ns3:ku "AL-Models_Computational_Models_and_Formal_Languages" ;
+            ns2:wasGeneratedBy [ ns2:used "qwen-qwq-32b" ] ],
+        [ ns1:ku_source <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Algorithmic_Foundations_AL/AL-Models_Computational_Models_and_Formal_Languages.txt> ;
+            ns1:score "0.77183974"^^xsd:float ;
+            ns3:answer "1" ;
+            ns3:explain "Lecture covers core topics like automata, Turing machines, and NP-completeness, aligning with KU's CS Core foundations." ;
+            ns3:ka "Algorithmic_Foundations_AL" ;
+            ns3:ku "AL-Models_Computational_Models_and_Formal_Languages" ;
+            ns2:wasGeneratedBy [ ns2:used "qwen-qwq-32b" ] ],
+        [ ns1:ku_source <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Algorithmic_Foundations_AL/AL-Models_Computational_Models_and_Formal_Languages.txt> ;
+            ns1:score "0.7534516"^^xsd:float ;
+            ns3:answer "1" ;
+            ns3:explain "Lecture covers core topics like automata, Turing machines, and NP-completeness, aligning with KU's CS Core foundations." ;
+            ns3:ka "Algorithmic_Foundations_AL" ;
+            ns3:ku "AL-Models_Computational_Models_and_Formal_Languages" ;
+            ns2:wasGeneratedBy [ ns2:used "qwen-qwq-32b" ] ],
+        [ ns1:ku_source <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Algorithmic_Foundations_AL/AL-Models_Computational_Models_and_Formal_Languages.txt> ;
+            ns1:score "0.7534516"^^xsd:float ;
+            ns3:answer "1" ;
+            ns3:explain "The lecture covers a significant portion of the KU, including topics such as complexity theory, formal languages, automata theory, and Turing machines, which are all fundamental concepts in computer science." ;
+            ns3:ka "Algorithmic_Foundations_AL" ;
+            ns3:ku "AL-Models_Computational_Models_and_Formal_Languages" ;
+            ns2:wasGeneratedBy [ ns2:used "llama3-8b-8192" ] ] .
+
+ns3:XLG4IU020 ns1:to [ ns1:ku_source <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Algorithmic_Foundations_AL/AL-Models_Computational_Models_and_Formal_Languages.txt> ;
+            ns1:score "0.7233886"^^xsd:float ;
+            ns3:answer "1" ;
+            ns3:explain "The lecture covers a significant portion of the KU, including formal language theory, automata, and grammars, with a focus on problem-solving and rigorous justification of answers." ;
+            ns3:ka "Algorithmic_Foundations_AL" ;
+            ns3:ku "AL-Models_Computational_Models_and_Formal_Languages" ;
+            ns2:wasGeneratedBy [ ns2:used "llama3-8b-8192" ] ],
+        [ ns1:ku_source <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Algorithmic_Foundations_AL/AL-Models_Computational_Models_and_Formal_Languages.txt> ;
+            ns1:score "0.72539926"^^xsd:float ;
+            ns3:answer "1" ;
+            ns3:explain "The lecture covers key topics like finite automata, regular languages, and formal language theory, which are central to the KU, but lacks coverage of advanced topics such as Turing machines and decidability." ;
+            ns3:ka "Algorithmic_Foundations_AL" ;
+            ns3:ku "AL-Models_Computational_Models_and_Formal_Languages" ;
+            ns2:wasGeneratedBy [ ns2:used "deepseek-r1-distill-llama-70b" ] ],
+        [ ns1:ku_source <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Algorithmic_Foundations_AL/AL-Models_Computational_Models_and_Formal_Languages.txt> ;
+            ns1:score "0.77212524"^^xsd:float ;
+            ns3:answer "1" ;
+            ns3:explain "The lecture covers key topics like finite automata, regular languages, and formal language theory, which are central to the KU, but lacks coverage of advanced topics such as Turing machines and decidability." ;
+            ns3:ka "Algorithmic_Foundations_AL" ;
+            ns3:ku "AL-Models_Computational_Models_and_Formal_Languages" ;
+            ns2:wasGeneratedBy [ ns2:used "deepseek-r1-distill-llama-70b" ] ],
+        [ ns1:ku_source <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Algorithmic_Foundations_AL/AL-Models_Computational_Models_and_Formal_Languages.txt> ;
+            ns1:score "0.72539926"^^xsd:float ;
+            ns3:answer "1" ;
+            ns3:explain "The lecture covers a significant portion of the KU, including formal language theory, automata, and grammars, with a focus on problem-solving and rigorous justification of answers." ;
+            ns3:ka "Algorithmic_Foundations_AL" ;
+            ns3:ku "AL-Models_Computational_Models_and_Formal_Languages" ;
+            ns2:wasGeneratedBy [ ns2:used "llama3-8b-8192" ] ],
+        [ ns1:ku_source <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Algorithmic_Foundations_AL/AL-Models_Computational_Models_and_Formal_Languages.txt> ;
+            ns1:score "0.72539926"^^xsd:float ;
+            ns3:answer "1" ;
+            ns3:explain "Lecture covers core topics like automata, regular languages, and decidability, aligning with KU's core areas." ;
+            ns3:ka "Algorithmic_Foundations_AL" ;
+            ns3:ku "AL-Models_Computational_Models_and_Formal_Languages" ;
+            ns2:wasGeneratedBy [ ns2:used "qwen-qwq-32b" ] ],
+        [ ns1:ku_source <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Algorithmic_Foundations_AL/AL-Models_Computational_Models_and_Formal_Languages.txt> ;
+            ns1:score "0.77212524"^^xsd:float ;
+            ns3:answer "1" ;
+            ns3:explain "The lecture covers a significant portion of the KU, including formal language theory, automata, and grammars, with a focus on problem-solving and rigorous justification of answers." ;
+            ns3:ka "Algorithmic_Foundations_AL" ;
+            ns3:ku "AL-Models_Computational_Models_and_Formal_Languages" ;
+            ns2:wasGeneratedBy [ ns2:used "llama3-8b-8192" ] ],
+        [ ns1:ku_source <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Algorithmic_Foundations_AL/AL-Models_Computational_Models_and_Formal_Languages.txt> ;
+            ns1:score "0.7233886"^^xsd:float ;
+            ns3:answer "1" ;
+            ns3:explain "The lecture covers key topics like finite automata, regular languages, and formal language theory, which are central to the KU, but lacks coverage of advanced topics such as Turing machines and decidability." ;
+            ns3:ka "Algorithmic_Foundations_AL" ;
+            ns3:ku "AL-Models_Computational_Models_and_Formal_Languages" ;
+            ns2:wasGeneratedBy [ ns2:used "deepseek-r1-distill-llama-70b" ] ],
+        [ ns1:ku_source <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Algorithmic_Foundations_AL/AL-Models_Computational_Models_and_Formal_Languages.txt> ;
+            ns1:score "0.7233886"^^xsd:float ;
+            ns3:answer "1" ;
+            ns3:explain "Lecture covers core topics like automata, regular languages, and decidability, aligning with KU's core areas." ;
+            ns3:ka "Algorithmic_Foundations_AL" ;
+            ns3:ku "AL-Models_Computational_Models_and_Formal_Languages" ;
+            ns2:wasGeneratedBy [ ns2:used "qwen-qwq-32b" ] ],
+        [ ns1:ku_source <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Algorithmic_Foundations_AL/AL-Models_Computational_Models_and_Formal_Languages.txt> ;
+            ns1:score "0.77212524"^^xsd:float ;
+            ns3:answer "1" ;
+            ns3:explain "Lecture covers core topics like automata, regular languages, and decidability, aligning with KU's core areas." ;
+            ns3:ka "Algorithmic_Foundations_AL" ;
+            ns3:ku "AL-Models_Computational_Models_and_Formal_Languages" ;
+            ns2:wasGeneratedBy [ ns2:used "qwen-qwq-32b" ] ] .
+
+ns3:XLG4IU050 ns1:to [ ns1:ku_source <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Specialized_Platform_Development_SPD/SPD-Web_Platforms.txt> ;
+            ns1:score "0.6669953"^^xsd:float ;
+            ns3:answer "1" ;
+            ns3:explain "Covers REST/Spring Boot, OAuth2, JPA, and web standards (Core 1-5,8). Lacks explicit focus on microservices/architecture comparisons." ;
+            ns3:ka "Specialized_Platform_Development_SPD" ;
+            ns3:ku "SPD-Web_Platforms" ;
+            ns2:wasGeneratedBy [ ns2:used "qwen-qwq-32b" ] ],
+        [ ns1:ku_source <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Specialized_Platform_Development_SPD/SPD-Web_Platforms.txt> ;
+            ns1:score "0.6554815"^^xsd:float ;
+            ns3:answer "1" ;
+            ns3:explain "The lecture covers a significant portion of the KU, including web development frameworks, RESTful API design, web security principles, and database management using JPA and Spring Data JPA." ;
+            ns3:ka "Specialized_Platform_Development_SPD" ;
+            ns3:ku "SPD-Web_Platforms" ;
+            ns2:wasGeneratedBy [ ns2:used "llama3-8b-8192" ] ],
+        [ ns1:ku_source <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Specialized_Platform_Development_SPD/SPD-Web_Platforms.txt> ;
+            ns1:score "0.6554815"^^xsd:float ;
+            ns3:answer "1" ;
+            ns3:explain "The lecture covers most core KU topics like web programming, RESTful APIs, security, and databases, but misses some areas like microservices and comparative analysis." ;
+            ns3:ka "Specialized_Platform_Development_SPD" ;
+            ns3:ku "SPD-Web_Platforms" ;
+            ns2:wasGeneratedBy [ ns2:used "deepseek-r1-distill-llama-70b" ] ],
+        [ ns1:ku_source <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Specialized_Platform_Development_SPD/SPD-Web_Platforms.txt> ;
+            ns1:score "0.6669953"^^xsd:float ;
+            ns3:answer "1" ;
+            ns3:explain "The lecture covers most core KU topics like web programming, RESTful APIs, security, and databases, but misses some areas like microservices and comparative analysis." ;
+            ns3:ka "Specialized_Platform_Development_SPD" ;
+            ns3:ku "SPD-Web_Platforms" ;
+            ns2:wasGeneratedBy [ ns2:used "deepseek-r1-distill-llama-70b" ] ],
+        [ ns1:ku_source <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Specialized_Platform_Development_SPD/SPD-Common_Aspects.txt> ;
+            ns1:score "0.65420175"^^xsd:float ;
+            ns3:answer "0" ;
+            ns3:explain "The lecture focuses on web development and related technologies, but does not cover the broader range of development platforms and topics outlined in the KU." ;
+            ns3:ka "Specialized_Platform_Development_SPD" ;
+            ns3:ku "SPD-Common_Aspects" ;
+            ns2:wasGeneratedBy [ ns2:used "deepseek-r1-distill-llama-70b" ] ],
+        [ ns1:ku_source <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Specialized_Platform_Development_SPD/SPD-Web_Platforms.txt> ;
+            ns1:score "0.6554815"^^xsd:float ;
+            ns3:answer "1" ;
+            ns3:explain "Covers REST/Spring Boot, OAuth2, JPA, and web standards (Core 1-5,8). Lacks explicit focus on microservices/architecture comparisons." ;
+            ns3:ka "Specialized_Platform_Development_SPD" ;
+            ns3:ku "SPD-Web_Platforms" ;
+            ns2:wasGeneratedBy [ ns2:used "qwen-qwq-32b" ] ],
+        [ ns1:ku_source <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Specialized_Platform_Development_SPD/SPD-Web_Platforms.txt> ;
+            ns1:score "0.6669953"^^xsd:float ;
+            ns3:answer "1" ;
+            ns3:explain "The lecture covers a significant portion of the KU, including web development frameworks, RESTful API design, web security principles, and database management using JPA and Spring Data JPA." ;
+            ns3:ka "Specialized_Platform_Development_SPD" ;
+            ns3:ku "SPD-Web_Platforms" ;
+            ns2:wasGeneratedBy [ ns2:used "llama3-8b-8192" ] ],
+        [ ns1:ku_source <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Specialized_Platform_Development_SPD/SPD-Common_Aspects.txt> ;
+            ns1:score "0.65420175"^^xsd:float ;
+            ns3:answer "1" ;
+            ns3:explain "The lecture covers a significant portion of the KU, including topics such as web development, RESTful APIs, web security, and database management, which align with the KU's focus on programming under platform constraints and requirements." ;
+            ns3:ka "Specialized_Platform_Development_SPD" ;
+            ns3:ku "SPD-Common_Aspects" ;
+            ns2:wasGeneratedBy [ ns2:used "llama3-8b-8192" ] ],
+        [ ns1:ku_source <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Specialized_Platform_Development_SPD/SPD-Common_Aspects.txt> ;
+            ns1:score "0.65420175"^^xsd:float ;
+            ns3:answer "0" ;
+            ns3:explain "Lecture focuses on Spring Boot/OAuth2/JPA, while KU covers platform constraints, scripting languages, and general web architecture not emphasized" ;
+            ns3:ka "Specialized_Platform_Development_SPD" ;
+            ns3:ku "SPD-Common_Aspects" ;
+            ns2:wasGeneratedBy [ ns2:used "qwen-qwq-32b" ] ] .
+
+ns3:XMS1IE071 ns1:to [ ns1:ku_source <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Specialized_Platform_Development_SPD/SPD-Web_Platforms.txt> ;
+            ns1:score "0.7618234"^^xsd:float ;
+            ns3:answer "0" ;
+            ns3:explain "The lecture covers some aspects like scalability and cloud models but misses key areas such as web programming languages and security." ;
+            ns3:ka "Specialized_Platform_Development_SPD" ;
+            ns3:ku "SPD-Web_Platforms" ;
+            ns2:wasGeneratedBy [ ns2:used "deepseek-r1-distill-llama-70b" ] ],
+        [ ns1:ku_source <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Specialized_Platform_Development_SPD/SPD-Web_Platforms.txt> ;
+            ns1:score "0.7183956"^^xsd:float ;
+            ns3:answer "0" ;
+            ns3:explain "Covers cloud models and scalability but misses web programming, security, and specific architectures like microservices." ;
+            ns3:ka "Specialized_Platform_Development_SPD" ;
+            ns3:ku "SPD-Web_Platforms" ;
+            ns2:wasGeneratedBy [ ns2:used "qwen-qwq-32b" ] ],
+        [ ns1:ku_source <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Specialized_Platform_Development_SPD/SPD-Web_Platforms.txt> ;
+            ns1:score "0.776819"^^xsd:float ;
+            ns3:answer "0" ;
+            ns3:explain "The lecture covers some aspects like scalability and cloud models but misses key areas such as web programming languages and security." ;
+            ns3:ka "Specialized_Platform_Development_SPD" ;
+            ns3:ku "SPD-Web_Platforms" ;
+            ns2:wasGeneratedBy [ ns2:used "deepseek-r1-distill-llama-70b" ] ],
+        [ ns1:ku_source <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Specialized_Platform_Development_SPD/SPD-Web_Platforms.txt> ;
+            ns1:score "0.7183956"^^xsd:float ;
+            ns3:answer "1" ;
+            ns3:explain "The lecture covers topics such as cloud computing models, data storage and retrieval, performance optimization, and stateless architectures, which align with the Knowledge Unit's core topics." ;
+            ns3:ka "Specialized_Platform_Development_SPD" ;
+            ns3:ku "SPD-Web_Platforms" ;
+            ns2:wasGeneratedBy [ ns2:used "llama3-8b-8192" ] ],
+        [ ns1:ku_source <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Specialized_Platform_Development_SPD/SPD-Web_Platforms.txt> ;
+            ns1:score "0.7618234"^^xsd:float ;
+            ns3:answer "0" ;
+            ns3:explain "Covers cloud models and scalability but misses web programming, security, and specific architectures like microservices." ;
+            ns3:ka "Specialized_Platform_Development_SPD" ;
+            ns3:ku "SPD-Web_Platforms" ;
+            ns2:wasGeneratedBy [ ns2:used "qwen-qwq-32b" ] ],
+        [ ns1:ku_source <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Specialized_Platform_Development_SPD/SPD-Web_Platforms.txt> ;
+            ns1:score "0.7618234"^^xsd:float ;
+            ns3:answer "1" ;
+            ns3:explain "The lecture covers topics such as cloud computing models, data storage and retrieval, performance optimization, and stateless architectures, which align with the Knowledge Unit's core topics." ;
+            ns3:ka "Specialized_Platform_Development_SPD" ;
+            ns3:ku "SPD-Web_Platforms" ;
+            ns2:wasGeneratedBy [ ns2:used "llama3-8b-8192" ] ],
+        [ ns1:ku_source <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Specialized_Platform_Development_SPD/SPD-Web_Platforms.txt> ;
+            ns1:score "0.776819"^^xsd:float ;
+            ns3:answer "0" ;
+            ns3:explain "Covers cloud models and scalability but misses web programming, security, and specific architectures like microservices." ;
+            ns3:ka "Specialized_Platform_Development_SPD" ;
+            ns3:ku "SPD-Web_Platforms" ;
+            ns2:wasGeneratedBy [ ns2:used "qwen-qwq-32b" ] ],
+        [ ns1:ku_source <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Specialized_Platform_Development_SPD/SPD-Web_Platforms.txt> ;
+            ns1:score "0.7183956"^^xsd:float ;
+            ns3:answer "0" ;
+            ns3:explain "The lecture covers some aspects like scalability and cloud models but misses key areas such as web programming languages and security." ;
+            ns3:ka "Specialized_Platform_Development_SPD" ;
+            ns3:ku "SPD-Web_Platforms" ;
+            ns2:wasGeneratedBy [ ns2:used "deepseek-r1-distill-llama-70b" ] ],
+        [ ns1:ku_source <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Specialized_Platform_Development_SPD/SPD-Web_Platforms.txt> ;
+            ns1:score "0.776819"^^xsd:float ;
+            ns3:answer "1" ;
+            ns3:explain "The lecture covers topics such as cloud computing models, data storage and retrieval, performance optimization, and stateless architectures, which align with the Knowledge Unit's core topics." ;
+            ns3:ka "Specialized_Platform_Development_SPD" ;
+            ns3:ku "SPD-Web_Platforms" ;
+            ns2:wasGeneratedBy [ ns2:used "llama3-8b-8192" ] ] .
+
+ns3:XMS2IE310 ns1:to [ ns1:ku_source <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Foundations_of_Programming_Languages_FPL/FPL-Parallel_Parallel_and_Distributed_Computing.txt> ;
+            ns1:score "0.7477963"^^xsd:float ;
+            ns3:answer "0" ;
+            ns3:explain "The lecture covers some aspects of concurrent data structures and safety properties but does not address all KU topics like programming models, execution control, and communication methods." ;
+            ns3:ka "Foundations_of_Programming_Languages_FPL" ;
+            ns3:ku "FPL-Parallel_Parallel_and_Distributed_Computing" ;
+            ns2:wasGeneratedBy [ ns2:used "deepseek-r1-distill-llama-70b" ] ],
+        [ ns1:ku_source <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Foundations_of_Programming_Languages_FPL/FPL-Parallel_Parallel_and_Distributed_Computing.txt> ;
+            ns1:score "0.7477963"^^xsd:float ;
+            ns3:answer "0" ;
+            ns3:explain "Lecture focuses on concurrent data structures and consensus numbers but lacks coverage of many KU topics like actor models, REST APIs, and distributed computing challenges." ;
+            ns3:ka "Foundations_of_Programming_Languages_FPL" ;
+            ns3:ku "FPL-Parallel_Parallel_and_Distributed_Computing" ;
+            ns2:wasGeneratedBy [ ns2:used "qwen-qwq-32b" ] ],
+        [ ns1:ku_source <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Operating_Systems_OS/OS-Concurrency_Concurrency.txt> ;
+            ns1:score "0.7302476"^^xsd:float ;
+            ns3:answer "1" ;
+            ns3:explain "Lecture covers concurrency, data structures, safety/liveness, and consensus numbers, aligning with KU's core topics on concurrency, synchronization, and race conditions." ;
+            ns3:ka "Operating_Systems_OS" ;
+            ns3:ku "OS-Concurrency_Concurrency" ;
+            ns2:wasGeneratedBy [ ns2:used "qwen-qwq-32b" ] ],
+        [ ns1:ku_source <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Foundations_of_Programming_Languages_FPL/FPL-Parallel_Parallel_and_Distributed_Computing.txt> ;
+            ns1:score "0.73610723"^^xsd:float ;
+            ns3:answer "1" ;
+            ns3:explain "The lecture covers the fundamental concepts of concurrent data structures, algorithms, and distributed systems, aligning with the Knowledge Unit's topics." ;
+            ns3:ka "Foundations_of_Programming_Languages_FPL" ;
+            ns3:ku "FPL-Parallel_Parallel_and_Distributed_Computing" ;
+            ns2:wasGeneratedBy [ ns2:used "llama3-8b-8192" ] ],
+        [ ns1:ku_source <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Foundations_of_Programming_Languages_FPL/FPL-Parallel_Parallel_and_Distributed_Computing.txt> ;
+            ns1:score "0.7477963"^^xsd:float ;
+            ns3:answer "1" ;
+            ns3:explain "The lecture covers the fundamental concepts of concurrent data structures, algorithms, and distributed systems, aligning with the Knowledge Unit's topics." ;
+            ns3:ka "Foundations_of_Programming_Languages_FPL" ;
+            ns3:ku "FPL-Parallel_Parallel_and_Distributed_Computing" ;
+            ns2:wasGeneratedBy [ ns2:used "llama3-8b-8192" ] ],
+        [ ns1:ku_source <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Operating_Systems_OS/OS-Concurrency_Concurrency.txt> ;
+            ns1:score "0.7302476"^^xsd:float ;
+            ns3:answer "0" ;
+            ns3:explain "The lecture covers some aspects of concurrency and race conditions but lacks depth on thread management and OS-specific mechanisms." ;
+            ns3:ka "Operating_Systems_OS" ;
+            ns3:ku "OS-Concurrency_Concurrency" ;
+            ns2:wasGeneratedBy [ ns2:used "deepseek-r1-distill-llama-70b" ] ],
+        [ ns1:ku_source <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Operating_Systems_OS/OS-Concurrency_Concurrency.txt> ;
+            ns1:score "0.7302476"^^xsd:float ;
+            ns3:answer "1" ;
+            ns3:explain "The lecture covers the fundamental concepts of concurrent data structures, consensus numbers, and safety and liveness properties, which aligns with the Knowledge Unit's topics." ;
+            ns3:ka "Operating_Systems_OS" ;
+            ns3:ku "OS-Concurrency_Concurrency" ;
+            ns2:wasGeneratedBy [ ns2:used "llama3-8b-8192" ] ],
+        [ ns1:ku_source <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Foundations_of_Programming_Languages_FPL/FPL-Parallel_Parallel_and_Distributed_Computing.txt> ;
+            ns1:score "0.73610723"^^xsd:float ;
+            ns3:answer "0" ;
+            ns3:explain "The lecture covers some aspects of concurrent data structures and safety properties but does not address all KU topics like programming models, execution control, and communication methods." ;
+            ns3:ka "Foundations_of_Programming_Languages_FPL" ;
+            ns3:ku "FPL-Parallel_Parallel_and_Distributed_Computing" ;
+            ns2:wasGeneratedBy [ ns2:used "deepseek-r1-distill-llama-70b" ] ],
+        [ ns1:ku_source <file:///Users/molli-p/slm-exp/data/BodyOfKnowledge/Foundations_of_Programming_Languages_FPL/FPL-Parallel_Parallel_and_Distributed_Computing.txt> ;
+            ns1:score "0.73610723"^^xsd:float ;
+            ns3:answer "0" ;
+            ns3:explain "Lecture focuses on concurrent data structures and consensus numbers but lacks coverage of many KU topics like actor models, REST APIs, and distributed computing challenges." ;
+            ns3:ka "Foundations_of_Programming_Languages_FPL" ;
+            ns3:ku "FPL-Parallel_Parallel_and_Distributed_Computing" ;
+            ns2:wasGeneratedBy [ ns2:used "qwen-qwq-32b" ] ] .
+
