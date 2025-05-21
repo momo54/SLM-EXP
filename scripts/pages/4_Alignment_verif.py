@@ -2,10 +2,11 @@ import streamlit as st
 import rdflib
 from pathlib import Path
 import pandas as pd
+from string import Template
 
 # === Constantes fichiers ===
-ALIGNMENT_RDF_FILE_PATH = "./XP/bok-groq.ttl"
-COURSES_RDF_FILE_PATH = "./data/courses_splitted.ttl"
+ALIGNMENT_RDF_FILE_PATH = "./XP/all2025-aligned.ttl"
+COURSES_RDF_FILE_PATH = "./data/all2025.ttl"
 
 
 # === Chargement du graphe RDF fusionné ===
@@ -19,7 +20,39 @@ except Exception as e:
     st.stop()
 
 # === Requête SPARQL ===
-query = """
+# === Requête SPARQL pour récupérer les couples (level, code) ===
+query_parcours = """
+PREFIX ex: <http://example.org/course/>
+SELECT ?level ?code
+WHERE {
+    ?ue ex:parcours_level ?level ;
+        ex:parcours_code ?code .
+}
+GROUP BY ?level ?code
+ORDER BY ?level 
+"""
+
+results_parcours = g.query(query_parcours)
+
+# Formatage en liste (label + valeur)
+parcours_options = [(str(r.level), str(r.code)) for r in results_parcours]
+parcours_labels = [f"{level} — {code}" for level, code in parcours_options]
+
+# Affichage dans la sidebar
+selection_label = st.sidebar.selectbox("🎓 Choisissez un parcours (niveau + code)", parcours_labels)
+
+# Extraction des valeurs sélectionnées
+selected_level, selected_code = parcours_options[parcours_labels.index(selection_label)]
+
+if ("last_level" not in st.session_state
+        or "last_code" not in st.session_state
+        or st.session_state.last_level != selected_level
+        or st.session_state.last_code != selected_code):
+    st.session_state.index = 0
+    st.session_state.last_level = selected_level
+    st.session_state.last_code = selected_code
+
+template_query = Template("""
 PREFIX provo: <http://provo.org/> 
 PREFIX course: <http://example.org/course/> 
 PREFIX align: <http://align.org/>
@@ -28,6 +61,8 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
 SELECT DISTINCT ?ue ?ue_text ?ku ?ku_source (GROUP_CONCAT(CONCAT(?answer,':',?model);separator=",") as ?rep)
 WHERE {
+  ?ue course:parcours_level "${LEVEL}" ;
+      course:parcours_code "${CODE}" .
   ?ue course:content ?content .
   ?ue rdfs:label ?label .
   ?ue course:objective ?objective .
@@ -41,7 +76,13 @@ WHERE {
     provo:wasGeneratedBy [ provo:used ?model ]
   ] .
 } GROUP BY ?ue ?ku
-"""
+""")
+
+# Requête adaptée au parcours sélectionné
+query = template_query.substitute(
+    LEVEL=selected_level,
+    CODE=selected_code,
+)
 
 # === Exécution de la requête ===
 results = g.query(query)
