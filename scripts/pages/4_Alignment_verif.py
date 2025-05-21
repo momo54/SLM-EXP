@@ -78,6 +78,9 @@ WHERE {
 } GROUP BY ?ue ?ku
 """)
 
+
+print(f"=== Requête SPARQL ===\n{template_query.substitute(LEVEL=selected_level, CODE=selected_code)}")
+
 # Requête adaptée au parcours sélectionné
 query = template_query.substitute(
     LEVEL=selected_level,
@@ -89,8 +92,8 @@ results = g.query(query)
 st.text(f"### Query results: {len(results)} alignments found")
 
 # === Conversion vers liste Python ===
-@st.cache_data
-@st.cache_data
+#@st.cache_data
+#@st.cache_data
 
 def extract_alignments(_results):
     data = []
