@@ -5,7 +5,7 @@ import pandas as pd
 from string import Template
 
 # === Constantes fichiers ===
-ALIGNMENT_RDF_FILE_PATH = "./XP/all2025-aligned.ttl"
+ALIGNMENT_RDF_FILE_PATH = "./XP/align2025/all2025-aligned-again.ttl"
 COURSES_RDF_FILE_PATH = "./data/all2025.ttl"
 
 
@@ -61,13 +61,20 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
 SELECT DISTINCT ?ue ?ue_text ?ku ?ku_source (GROUP_CONCAT(CONCAT(?answer,':',?model);separator=",") as ?rep)
 WHERE {
-  ?ue course:parcours_level "${LEVEL}" ;
-      course:parcours_code "${CODE}" .
-  ?ue course:content ?content .
-  ?ue rdfs:label ?label .
-  ?ue course:objective ?objective .
-  BIND(CONCAT("Label: ",STR(?label)," Objectif: ",STR(?objective),
-                " Course content: ", STR(?content)," Course name: ",STR(?ue)) AS ?ue_text)
+    { select ?ue (group_concat(distinct ?label) as ?labels)
+              (group_concat(distinct ?content) as ?contents)
+              (group_concat(distinct ?objective) as ?objectives)
+        WHERE {
+            ?ue course:parcours_level "${LEVEL}" ;
+                course:parcours_code "${CODE}" .
+            ?ue rdfs:label ?label .
+            ?ue course:content ?content .
+            ?ue course:objective ?objective .
+        } group by ?ue 
+    }
+    BIND(CONCAT("Course name: ",STR(?labels),
+                "Objective: ",STR(?objectives),
+                "Course content: ",STR(?contents)) AS ?ue_text)                          
   ?ue align:to [
     course:ku ?ku ;
     align:ku_source ?ku_source ;
