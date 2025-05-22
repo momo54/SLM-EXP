@@ -1,0 +1,22 @@
+## slm-run  --config config.bok --load ./data/exam2desc.ttl --format turtle  -f queries/bok-graph-construct-cli-exam.sparql 
+
+PREFIX ns1: <http://example.org/course/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX ex: <http://example.org/>
+PREFIX align: <http://align.org/>
+PREFIX prov: <http://provo.org/>
+
+SELECT DISTINCT * 
+WHERE {
+    { select ?s ( group_concat(?objective) as ?objectives) 
+                     ( group_concat(?content) as ?contents)
+                     ( group_concat(?topic) as ?topics)
+    WHERE {
+        ?s ns1:description ?content .
+        ?s ns1:hasObjective ?objective .
+        ?s ns1:hasTopic ?topic .
+       } group by ?s #  order by ?s limit 100 offset 300
+    }
+    BIND(CONCAT(" Objective: ",STR(?objectives),
+                " Course content: ", STR(?contents)," Course topic: ",STR(?topics)) AS ?UE)
+} 

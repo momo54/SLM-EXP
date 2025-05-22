@@ -1,0 +1,62 @@
+@prefix ex: <http://example.org/course/> .
+
+ex:X3I010 ex:description "This course covers fundamental concepts in computer science, focusing on theoretical foundations of computer science, including complexity theory, automata theory, and formal languages. The course is designed to help students develop a deep understanding of the principles underlying computer science and their applications." ;
+    ex:hasObjective "Analyze and design algorithms for solving complex problems",
+        "Apply formal language theory to solve problems in computer science",
+        "Design and analyze Turing machines for solving specific problems",
+        "Understand the concept of NP-completeness and its implications" ;
+    ex:hasTopic "Complexity theory (NP-completeness)",
+        "Formal languages and automata theory",
+        "Intersection of algebraic languages",
+        "Turing machines" ;
+    ex:level "L3" ;
+    ex:track "Informatique & Math-Info Nantes Université" .
+
+ex:XLG4IU020 ex:description "This course covers the fundamental concepts of automata and formal languages. Students will learn to design and analyze finite automata, regular languages, and algebraic grammars. The course emphasizes the theoretical foundations of computer science, with a focus on problem-solving and rigorous justification of answers." ;
+    ex:hasObjective "Apply formal language theory to solve problems",
+        "Construct and analyze algebraic grammars and languages",
+        "Design and analyze finite automata for regular languages",
+        "Justify and prove the correctness of solutions using formal language theory" ;
+    ex:hasTopic "Algebraic grammars and languages",
+        "Finite automata and regular languages",
+        "Formal language theory and its applications",
+        "Non-deterministic and deterministic automata" ;
+    ex:level "L2**" ;
+    ex:track "Informatique Nantes Université - XLG4IU020" .
+
+ex:XLG4IU050 ex:description "This course covers the fundamental concepts and technologies of web development, including web standards, front-end and back-end development, web security, and RESTful APIs. Students will learn how to design and implement web applications using HTML, CSS, JavaScript, and Spring Boot. The course also covers web security principles, OAuth2, and database management using JPA and Spring Data JPA." ;
+    ex:hasObjective "Design and implement RESTful APIs using Spring Boot",
+        "Design and implement web applications using Spring Boot and JavaScript",
+        "Implement web security principles and OAuth2 in web applications",
+        "Manage databases using JPA and Spring Data JPA",
+        "Understand the fundamental concepts of web development and web standards" ;
+    ex:hasTopic "Database management using JPA and Spring Data JPA",
+        "RESTful API design and implementation",
+        "Web development frameworks (Spring Boot)",
+        "Web security principles and OAuth2",
+        "Web standards and protocols (HTTP, HTML, CSS, JavaScript)" ;
+    ex:level "L2" ;
+    ex:track "Développement Web" .
+
+ex:XMS1IE071 ex:description "" ;
+    ex:hasObjective "Design and implement scalable applications in a cloud environment",
+        "Optimize data storage and retrieval for better performance",
+        "Understand the differences between IaaS, PaaS, and SaaS models" ;
+    ex:hasTopic "Cloud computing models (IaaS, PaaS, SaaS)",
+        "Data storage and retrieval",
+        "Performance optimization strategies",
+        "Stateless architectures" ;
+    ex:level "M1" ;
+    ex:track "ALMA (Architecture, Logiciel, Mathématiques et Applications)" .
+
+ex:XMS2IE310 ex:description "This course covers the fundamentals of distributed programming, focusing on the design and implementation of concurrent data structures and algorithms. The course emphasizes the importance of safety and liveness properties, such as linearizability, wait-freedom, and deadlock-freedom. Students will learn to analyze and implement concurrent data structures, including sorted lists and atomic variables, and to reason about their correctness." ;
+    ex:hasObjective "Analyze and implement concurrent data structures, ensuring safety and liveness properties",
+        "Apply consensus numbers to distributed system design",
+        "Reason about the correctness of algorithms and data structures" ;
+    ex:hasTopic "Concurrent data structures (sorted lists, atomic variables)",
+        "Consensus numbers and their implications for distributed systems",
+        "Implementation of concurrent algorithms (insert, delete, getAndApply)",
+        "Safety and liveness properties (linearizability, wait-freedom, starvation-freedom)" ;
+    ex:level "M1" ;
+    ex:track "ALMA - XMS2IE310" .
+

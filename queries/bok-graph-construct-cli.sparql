@@ -5,6 +5,7 @@ PREFIX ex: <http://example.org/>
 PREFIX align: <http://align.org/>
 PREFIX prov: <http://provo.org/>
 
+
 CONSTRUCT {
     ?s align:to [
         align:ku_source ?ku_source ;
@@ -20,14 +21,19 @@ CONSTRUCT {
 } 
 #SELECT DISTINCT ?s ?label ?ku_source ?score ?parcours ?ka ?ku ?answer ?explain 
 WHERE {
-    { select * where {
-        ?s ns1:content ?content .
-        ?s rdfs:label ?label .
-        ?s ns1:objective ?objective .
-       }  order by ?s limit 100 offset 300
+    { select ?s (group_concat(distinct ?label) as ?labels)
+              (group_concat(distinct ?content) as ?contents)
+              (group_concat(distinct ?objective) as ?objectives)
+        WHERE {
+            ?s rdfs:label ?label .
+            ?s ns1:content ?content .
+            ?s ns1:objective ?objective .
+        } group by ?s 
     }
-    BIND(CONCAT("Label: ",STR(?label)," Objectif: ",STR(?objective),
-                " Course content: ", STR(?content)," Course name: ",STR(?s)) AS ?UE)
+    BIND(CONCAT("Course name: ",STR(?labels),
+                "Objective: ",STR(?objectives),
+                "Course content: ",STR(?contents)) AS ?UE)
+
     BIND(ex:SLM-SEARCH-FAISS(?UE,?s,3) AS ?retrieval_graph)
     GRAPH ?retrieval_graph {
         ?s ex:is_aligned_with ?bn .
