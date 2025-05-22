@@ -51,13 +51,13 @@ st.title("Radar View des KA par parcours et LLM")
 
 col1, col2, col3 = st.columns(3)
 with col1:
-    L1_code = st.selectbox("Choisir le parcours L1", parcours_dict.get("L1", [""]), index=0)
-    L2_code = st.selectbox("Choisir le parcours L2", parcours_dict.get("L2", [""]), index=0)
+    L1_code = st.selectbox("Choisir le parcours L1", ["NONE"] + parcours_dict.get("L1", [""]), index=0)
+    L2_code = st.selectbox("Choisir le parcours L2", ["NONE"] + parcours_dict.get("L2", [""]), index=0)
 with col2:
-    L3_code = st.selectbox("Choisir le parcours L3", parcours_dict.get("L3", [""]), index=0)
-    M1_code = st.selectbox("Choisir le parcours M1", parcours_dict.get("M1", [""]), index=0)
+    L3_code = st.selectbox("Choisir le parcours L3", ["NONE"] + parcours_dict.get("L3", [""]), index=0)
+    M1_code = st.selectbox("Choisir le parcours M1", ["NONE"] + parcours_dict.get("M1", [""]), index=0)
 with col3:
-    M2_code = st.selectbox("Choisir le parcours M2", parcours_dict.get("M2", [""]), index=0)
+    M2_code = st.selectbox("Choisir le parcours M2", ["NONE"] + parcours_dict.get("M2", [""]), index=0)
     LLM_model = st.selectbox("Choisir le modèle LLM", ["llama3-8b-8192", "qwen-qwq-32b", "deepseek-r1-distill-llama-70b"])
 
 # === Requête principale KA x KU ===
