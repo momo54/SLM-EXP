@@ -53,7 +53,17 @@ st.title("🕵️ Rapport de minorité : Réponses des modèles")
 
 # === Affichage sous forme de pivot avec boutons "Voir" ===
 if not df.empty:
-    pivot_df = df.pivot_table(index=['UE', 'KU'], columns='Model', values='Answer', aggfunc='first').fillna("0")
+    # Pivot des réponses
+    answer_pivot = df.pivot_table(index=['UE', 'KU'], columns='Model', values='Answer', aggfunc='first')
+    # Pivot des scores
+    score_pivot = df.pivot_table(index=['UE', 'KU'], columns='Model', values='Score', aggfunc='first')
+
+    # Renommer les colonnes pour clarté
+    answer_pivot.columns = [f"{model} - Réponse" for model in answer_pivot.columns]
+    score_pivot.columns = [f"{model} - Score" for model in score_pivot.columns]
+
+    # Fusionner les deux
+    pivot_df = pd.concat([answer_pivot, score_pivot], axis=1).fillna("—")
 
     # Ajout d'une colonne cliquable dans le tableau d'origine
     display_df = df.drop_duplicates(subset=['UE', 'KU'])[['UE', 'KU']].copy()
