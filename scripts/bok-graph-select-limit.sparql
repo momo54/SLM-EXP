@@ -4,22 +4,24 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX ex: <http://example.org/>
 PREFIX align: <http://align.org/>
 
-SELECT DISTINCT ?course ?label ?ku_source ?score ?track ?ka ?ku ?answer ?explain 
+SELECT DISTINCT ?course  ?score ?ku ?ka ?answer ?explain 
 WHERE {
-    BIND(ex:SLM-FILE("./data/courses-anon.ttl") AS ?input)
+    BIND(ex:SLM-FILE("data/exam2desc.ttl") AS ?input)
     BIND(ex:SLM-RDF(?input,"turtle") AS ?ginput)
     graph ?ginput { 
-        { select * where {
-            ?course ns1:content ?content .
-            ?course rdfs:label ?label .
-            ?course ns1:objective ?objective .
-            ?course ns1:parcours ?track .
-        } limit 1 offset {OFFSET}
-#        } limit 2 
+        { 
+            SELECT ?course ( group_concat(?objective) as ?objectives) 
+                ( group_concat(?content) as ?contents)
+                ( group_concat(?topic) as ?topics)
+            WHERE {
+                ?course ns1:description ?content .
+                ?course ns1:hasObjective ?objective .
+                ?course ns1:hasTopic ?topic .
+            } group by ?s limit 1 offset {OFFSET}
+        }           
        }
-    }
-    BIND(CONCAT("Label: ",STR(?label)," Objectif: ",STR(?objective),
-                " Course content: ", STR(?content)," Course name: ",STR(?course)) AS ?course_desc)
+    BIND(CONCAT(" Objective: ",STR(?objectives),
+                " Course content: ", STR(?contents)," Course topic: ",STR(?topics)) AS ?course_desc)
     BIND(ex:SLM-SEARCH-FAISS(?course_desc,?course,3) AS ?search_graph)
     GRAPH ?search_graph {
         ?course ex:is_aligned_with ?bn .

@@ -28,7 +28,7 @@ WHERE {
             ?s rdfs:label ?label .
             ?s ns1:content ?content .
             ?s ns1:objective ?objective .
-        } group by ?s 
+        } group by ?s limit 3 
     }
     BIND(CONCAT("Course name: ",STR(?labels),
                 "Objective: ",STR(?objectives),
@@ -41,45 +41,42 @@ WHERE {
         ?bn ex:has_source ?ku_source .
         ?bn ex:has_chunk ?chunk .
     }
-#    OPTIONAL {
-#        FILTER(xsd:float(?score) < 0.7)
-        BIND (REPLACE(str(?ku_source), "file://.*/([^/]+)/[^/]+\\.txt$", "$1") AS ?ka) 
-        BIND (REPLACE(str(?ku_source), "file://.*/([^/]+)/([^/]+)\\.txt$", "$2") AS ?ku)
-        BIND(ex:SLM-READFILE(?ku_source) AS ?ku_content)
+    BIND (REPLACE(str(?ku_source), "file://.*/([^/]+)/[^/]+\\.txt$", "$1") AS ?ka) 
+    BIND (REPLACE(str(?ku_source), "file://.*/([^/]+)/([^/]+)\\.txt$", "$2") AS ?ku)
+    BIND(ex:SLM-READFILE(?ku_source) AS ?ku_content)
 
-        BIND(CONCAT("""
-        You are a JSON-LD API. Always respond only with a valid JSON-LD object, without explanation or formatting.
+    BIND(CONCAT("""
+    You are a JSON-LD API. Always respond only with a valid JSON-LD object, without explanation or formatting.
 
-        The following describes the content of a lecture and a Knowledge Unit (KU) in Computer Science.
+    The following describes the content of a lecture and a Knowledge Unit (KU) in Computer Science.
 
-        <page1>""",STR(?UE),"""</page1>
-        <page2>""",STR(?ku_content),"""</page2>
+    <page1>""",STR(?UE),"""</page1>
+    <page2>""",STR(?ku_content),"""</page2>
 
-        Determine whether the lecture (page1) substantially covers the knowledge described in the KU (page2).
+    Determine whether the lecture (page1) substantially covers the knowledge described in the KU (page2).
 
-        Respond only using JSON-LD, with the following structure:
-        {
-        "@context": "http://schema.org/",
-        "@type": "Report",
-        "http://schema.org/answer": "A",
-        "http://schema.org/explain": "B"
-        }
+    Respond only using JSON-LD, with the following structure:
+    {
+    "@context": "http://schema.org/",
+    "@type": "Report",
+    "http://schema.org/answer": "A",
+    "http://schema.org/explain": "B"
+    }
 
-        Replace A with "1" if the lecture covers a large subset of the KU, or "0" if it does not.
-        Replace B with a **very short explanation** of your decision.
-        """) AS ?prompt)
-        VALUES ?model {
-            "llama3-8b-8192"
-            "qwen-qwq-32b" 
-            "deepseek-r1-distill-llama-70b"
-        }
-        BIND(ex:SLM-LLMGRAPH_GROQM(?prompt,?s,?model) AS ?llm_graph)
+    Replace A with "1" if the lecture covers a large subset of the KU, or "0" if it does not.
+    Replace B with a **very short explanation** of your decision.
+    """) AS ?prompt)
+    VALUES ?model {
+        "llama3-8b-8192"
+        "qwen-qwq-32b" 
+        "deepseek-r1-distill-llama-70b"
+    }
+    BIND(ex:SLM-LLMGRAPH_GROQM(?prompt,?s,?model) AS ?llm_graph)
 
-        GRAPH ?llm_graph {
-            ?s ex:has_schema_type ?root .
-            ?root a <http://schema.org/Report>  .
-            ?root <http://schema.org/answer> ?answer .
-            ?root <http://schema.org/explain> ?explain .    
-        }
-#    }
+    GRAPH ?llm_graph {
+        ?s ex:has_schema_type ?root .
+        ?root a <http://schema.org/Report>  .
+        ?root <http://schema.org/answer> ?answer .
+        ?root <http://schema.org/explain> ?explain .    
+    }
 } 

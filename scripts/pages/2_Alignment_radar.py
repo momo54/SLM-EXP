@@ -4,29 +4,29 @@ import plotly.express as px
 import rdflib
 from string import Template
 
-# === Chemins RDF ===
+# === RDF Paths ===
 BOK_RDF_FILE_PATH = "./XP/graph_bok_nohours.ttl"
 TTLS = ["./XP/align2025/all2025-aligned-again.ttl", "./data/all2025.ttl"]
 
-# === Chargement du graphe de référence (BOK) ===
+# === Load reference graph (BOK) ===
 gbok_ref = rdflib.Graph()
 try:
     gbok_ref.parse(BOK_RDF_FILE_PATH, format="turtle")
 except Exception as e:
-    st.sidebar.error(f"❌ Erreur chargement BOK : {e}")
+    st.sidebar.error(f"❌ Error loading BOK: {e}")
     st.stop()
 
-# === Chargement des graphes alignés et cours ===
+# === Load aligned and course graphs ===
 g = rdflib.Graph()
 for ttl in TTLS:
     try:
         g.parse(ttl, format="turtle")
     except Exception as e:
-        st.sidebar.error(f"❌ Erreur chargement {ttl} : {e}")
+        st.sidebar.error(f"❌ Error loading {ttl}: {e}")
         st.stop()
 st.sidebar.success("✅ RDF graph loaded")
 
-# === Query pour codes de parcours ===
+# === Query for track codes ===
 query_parcours = """
 PREFIX ex: <http://example.org/course/>
 SELECT ?level ?code
@@ -46,21 +46,21 @@ for row in results_parcours:
     code = str(row.code)
     parcours_dict.setdefault(level, []).append(code)
 
-# === Widgets de sélection ===
-st.title("Radar View des KA par parcours et LLM")
+# === Selection widgets ===
+st.title("Radar View of KAs by Track and LLM")
 
 col1, col2, col3 = st.columns(3)
 with col1:
-    L1_code = st.selectbox("Choisir le parcours L1", ["NONE"] + parcours_dict.get("L1", [""]), index=0)
-    L2_code = st.selectbox("Choisir le parcours L2", ["NONE"] + parcours_dict.get("L2", [""]), index=0)
+    L1_code = st.selectbox("Select L1 track", ["NONE"] + parcours_dict.get("L1", [""]), index=0)
+    L2_code = st.selectbox("Select L2 track", ["NONE"] + parcours_dict.get("L2", [""]), index=0)
 with col2:
-    L3_code = st.selectbox("Choisir le parcours L3", ["NONE"] + parcours_dict.get("L3", [""]), index=0)
-    M1_code = st.selectbox("Choisir le parcours M1", ["NONE"] + parcours_dict.get("M1", [""]), index=0)
+    L3_code = st.selectbox("Select L3 track", ["NONE"] + parcours_dict.get("L3", [""]), index=0)
+    M1_code = st.selectbox("Select M1 track", ["NONE"] + parcours_dict.get("M1", [""]), index=0)
 with col3:
-    M2_code = st.selectbox("Choisir le parcours M2", ["NONE"] + parcours_dict.get("M2", [""]), index=0)
-    LLM_model = st.selectbox("Choisir le modèle LLM", ["llama3-8b-8192", "qwen-qwq-32b", "deepseek-r1-distill-llama-70b"])
+    M2_code = st.selectbox("Select M2 track", ["NONE"] + parcours_dict.get("M2", [""]), index=0)
+    LLM_model = st.selectbox("Select LLM model", ["llama3-8b-8192", "qwen-qwq-32b", "deepseek-r1-distill-llama-70b"])
 
-# === Requête principale KA x KU ===
+# === Main query: KA x KU ===
 def get_ka_data(graph, L1_code,L2_code, L3_code, M1_code, M2_code, LLM_model):
     template_query = Template("""
         PREFIX ex: <http://example.org/course/>
@@ -113,7 +113,7 @@ def get_ka_data(graph, L1_code,L2_code, L3_code, M1_code, M2_code, LLM_model):
     )
     return graph.query(query)
 
-# === Requête de référence : toutes les KUs par KA ===
+# === Reference query: all KUs per KA ===
 def get_reference_data(graph):
     distinct_ku = """
     PREFIX bok: <http://example.org/bok/> 
@@ -128,33 +128,41 @@ def get_reference_data(graph):
     """
     return graph.query(distinct_ku)
 
-# === Affichage radar ===
-if st.button("📊 Générer la radar view avec référence"):
+# === Radar plot display ===
+if st.button("📊 Generate radar view with reference"):
     results = get_ka_data(g, L1_code,L2_code, L3_code, M1_code, M2_code, LLM_model)
     ref_results = get_reference_data(gbok_ref)
 
-    # Extraire les KAs de référence dans l'ordre
+    # Extract reference KAs in order
     ka_order = []
     ref_data = []
     for row in ref_results:
         ka = str(row.ka)
         ka_order.append(ka)
-        ref_data.append({"KA": ka, "nb_KU": int(row.nb_ku), "Source": "Référence"})
+        ref_data.append({"KA": ka, "nb_KU": int(row.nb_ku), "Source": "Reference"})
 
-    # Résultats LLM
+    # LLM results
     llm_data = []
     for row in results:
-        llm_data.append({"KA": str(row.ka), "nb_KU": int(row.nb_ku), "Source": f"{LLM_model}"})
+        llm_data.append({"KA": str(row.ka), "nb_KU": int(row.nb_ku), "Source": "Selection"})
 
-    # Fusionner et ordonner
+    # Merge and sort
     df = pd.DataFrame(ref_data + llm_data)
     df["KA"] = pd.Categorical(df["KA"], categories=ka_order, ordered=True)
     df = df.sort_values("KA")
 
     if df.empty:
-        st.warning("Aucune donnée trouvée.")
+        st.warning("No data found.")
     else:
-        fig = px.line_polar(df, r="nb_KU", theta="KA", color="Source", line_close=True)
+        custom_colors = ["skyblue", "red"]
+        fig = px.line_polar(
+            df,
+            r="nb_KU",
+            theta="KA",
+            color="Source",
+            line_close=True,
+            color_discrete_sequence=custom_colors
+        )
         fig.update_traces(fill='toself')
-        fig.update_layout(title=f"Radar View : {LLM_model} vs Référence globale")
+        fig.update_layout(title=f"Radar View: Reference (skyblue) vs Selection (red) according to {LLM_model}")
         st.plotly_chart(fig, use_container_width=True)
