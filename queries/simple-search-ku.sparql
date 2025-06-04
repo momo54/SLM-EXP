@@ -1,0 +1,22 @@
+## slm-run  --config config.bok --load ./data/exam2desc.ttl --format turtle  -f queries/bok-graph-construct-cli-exam.sparql 
+
+PREFIX ns1: <http://example.org/course/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX ex: <http://example.org/>
+PREFIX align: <http://align.org/>
+PREFIX prov: <http://provo.org/>
+
+SELECT (STRAFTER(STR(?ku_source), "/BodyOfKnowledge") AS ?ku_source_last) ?score
+WHERE {
+    BIND("""
+      i have a lecture on semantic web. I'm speaking about RDF, SPARQL, ontologies, and knowledge graphs.
+    """ as ?search_text) 
+    BIND(<http://example.org/course/XMS1010> AS ?uri)
+    BIND(ex:SLM-SEARCH-FAISS(?search_text, ?uri, 3) AS ?retrieval_graph)
+    GRAPH ?retrieval_graph {
+        ?course ex:is_aligned_with ?bn .
+        ?bn ex:has_score ?score .
+        ?bn ex:has_source ?ku_source .
+        ?bn ex:has_chunk ?chunk .
+    }
+} order by desc(?score)
