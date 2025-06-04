@@ -17,7 +17,7 @@ WHERE {
                 ?course ns1:description ?content .
                 ?course ns1:hasObjective ?objective .
                 ?course ns1:hasTopic ?topic .
-            } group by ?s limit 1 offset {OFFSET}
+            } group by ?course limit 1 offset {OFFSET}
         }           
        }
     BIND(CONCAT(" Objective: ",STR(?objectives),

@@ -19,47 +19,37 @@ st.title("🔎 Demo SPARQLLM")
 
 st.write(
     """
-    - SPARQLLM is a Retrieval-Augmented SPARQL Query engine. 
-      - Many times, information is not available in the Knowledge Graph but in external sources.
-      - SPARQLLM can search and extract knowledge from external sources  during query processing
-    - The key idea is to have User-Defined Functions (UDFs) to dynamically generate named graphs by retrieving relevant information from external sources.
+    - SPARQLLM is a Neuro-Symbolic SPARQL Engine. 
+    - It allows to execute neuro-symbolic queries mixing  neural processing and SPARQL processing.
+    - SPARQLLM return neuro-symbolic results.  
     """)
 
 st.markdown(
     """
     ```
-      BIND(ex:SLM-SEARCH(?course_desc,?course,3) AS ?search_graph)
-      GRAPH ?search_graph {
-        ?course ex:is_aligned_with ?bn .
-        ?bn ex:has_score ?score .
-        ?bn ex:has_source ?ku_source .
-        ?bn ex:has_chunk ?chunk .
+    SELECT ?msg {
+    BIND('''Say Hello to the neuro-symbolic world:
+    Return *ONLY* a JSON-LD object of type `Event` in the following format:
+    {
+      "@context": "http://schema.org/",
+      "@type": "Event",
+      "message": "text",
+    }
+    ''' AS ?prompt)
+    BIND(<http://example.org/hello> AS ?uri)
+    BIND(ex:SLM-LLMGRAPH_GROQ(?prompt,?uri) AS ?g)
+     GRAPH ?g {
+        ?uri ex:has_schema_type ?bn . 
+        ?root a schema:Event. 
+        ?root schema:message ?msg .
+     }
     }
     ```
     """)
-
-st.markdown(
-    """
-    ```
-    BIND(CONCAT(" some prompt returning a schema.org type report with answer and explain property",?) AS ?prompt)
-    BIND(ex:SLM-LLMGRAPH(?prompt,?course) AS ?llm_graph)
-    GRAPH ?llm_graph {
-        ?course ex:has_schema_type ?root .
-        ?root a <http://schema.org/Report>  .
-        ?root <http://schema.org/answer> ?answer .
-        ?root <http://schema.org/explain> ?explain .    
-    }
-    ```
-    """)
-
-
-
 
 st.write(
      """
-    - We mainly implemented 2 series of UDFs:
-      - we implemented `SLM-SEARCH` for local keyword search (Whoosh), local vector database (FAISS) and web search (Google)
-      - we implemented `SLM-LLM` for Language Model (LLM) with local OLLAMA models, MistralAI models, and OPenAI models.
+    - If we run this query, we get a JSON-LD object of type `Event` with a message saying "Hello to the neuro-symbolic world".
     """)
 
 
@@ -73,6 +63,7 @@ st.write(
     - ACM/IEEE/AAAI released Computer Science curricula [CS2023](https://csed.acm.org/) as a PDF document of 459 pages. It includes description of knowledge units and knowledge areas of in Computer Science
 
     - The problem is to align the courses of the tracks of the computer science program with  knowledge units of the ACM CS Curricula.
+    - **PROBLEM : Can we write a SPARQLLM query to align the courses of the program with the knowledge units of the ACM CS Curricula ?**
     """)
 st.image("./scripts/slide1.png", caption="CS2023 Curriculum")
 

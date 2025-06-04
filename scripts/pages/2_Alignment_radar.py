@@ -17,14 +17,24 @@ except Exception as e:
     st.stop()
 
 # === Load aligned and course graphs ===
-g = rdflib.Graph()
-for ttl in TTLS:
-    try:
+# galign = rdflib.Graph()
+# for ttl in TTLS:
+#     try:
+#         galign.parse(ttl, format="turtle")
+#     except Exception as e:
+#         st.sidebar.error(f"❌ Error loading {ttl}: {e}")
+#         st.stop()
+# st.sidebar.success("✅ RDF graph loaded")
+
+@st.cache_resource
+def load_galign():
+    g = rdflib.Graph()
+    for ttl in TTLS:
         g.parse(ttl, format="turtle")
-    except Exception as e:
-        st.sidebar.error(f"❌ Error loading {ttl}: {e}")
-        st.stop()
-st.sidebar.success("✅ RDF graph loaded")
+    return g
+
+galign = load_galign()
+
 
 # === Query for track codes ===
 query_parcours = """
@@ -38,7 +48,7 @@ GROUP BY ?level ?code
 ORDER BY ?level 
 """
 
-results_parcours = g.query(query_parcours)
+results_parcours = galign.query(query_parcours)
 
 parcours_dict = {}
 for row in results_parcours:
@@ -130,7 +140,7 @@ def get_reference_data(graph):
 
 # === Radar plot display ===
 if st.button("📊 Generate radar view with reference"):
-    results = get_ka_data(g, L1_code,L2_code, L3_code, M1_code, M2_code, LLM_model)
+    results = get_ka_data(galign, L1_code,L2_code, L3_code, M1_code, M2_code, LLM_model)
     ref_results = get_reference_data(gbok_ref)
 
     # Extract reference KAs in order

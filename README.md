@@ -61,7 +61,13 @@ Faiss relies on  FlatIP to index with  normalisation. Score close to 1 is good, 
 User Interface to see SPARQLLM in action on the BOK Use-Case:
 ```
 streamlit run scripts/HOME.py
+streamlit run scripts/HOME.py --server.port 8502
+streamlit run scripts/HOME.py --server.port 8501
+streamlit run scripts/pages/2_Alignment_radar.py --server.port 8503
 ```
+
+hmm... seems that having loaded SPARQLLM in one page impact RDFLIB in other pages.
+Maybe better to isolate with multiple server... It seems tha lazy-join forced for radar queries slow-down its processing.
 
 Check `./scripts/pages`to adjust inputs files if changed it.
 
