@@ -1,0 +1,12 @@
+Title: FPL-Parallel: Parallel and Distributed Computing
+
+CS Core:
+1. Explain why programming languages do not guarantee sequential consistency in the presence of
+data races and what programmers must do as a result.
+2. Implement correct concurrent programs using multiple programming models, such as shared
+memory, actors, futures, synchronization constructs, and data-parallelism primitives.
+3. Use a message-passing model to analyze a communication protocol.
+4. Use synchronization constructions such as monitor/synchronized methods in a simple program.
+5. Modeling data dependency using simple programming constructs involving variables, read and
+write.
+6. Modeling control dependency using simple constructs such as selection and iteration.

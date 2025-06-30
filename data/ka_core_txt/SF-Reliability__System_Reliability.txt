@@ -1,0 +1,4 @@
+Title: SF-Reliability: System Reliability
+
+KA Core:
+4. Other approaches to reliability (e.g., journaling) (See also: OS-Faults, NC-Reliability, SE-Reliability)

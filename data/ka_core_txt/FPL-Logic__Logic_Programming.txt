@@ -1,0 +1,13 @@
+Title: FPL-Logic: Logic Programming
+
+KA Core:
+1. Use a logic language to implement a conventional algorithm.
+2. Use a logic language to implement an algorithm employing implicit search using clauses, relations,
+and cuts.
+3. Use a simple illustrative example to show correspondence between First Order Predicate Logic
+(FOPL) and logic programs using Horn clauses.
+4. Use examples to illustrate the unification algorithm and its role of parameter-passing in query
+reduction.
+5. Use simple logic programs interleaving relations, functions, and recursive programming such as
+factorial and Fibonacci numbers and simple complex relationships between entities and illustrate
+execution and parameter-passing using unification and backtracking.

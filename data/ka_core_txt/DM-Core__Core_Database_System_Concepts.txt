@@ -1,0 +1,4 @@
+Title: DM-Core: Core Database System Concepts
+
+KA Core:
+12. Systems supporting structured and/or stream content

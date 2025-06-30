@@ -1,0 +1,37 @@
+Title: HCI-User: Understanding the User: Individual goals and interactions with others
+
+KA Core:
+2. User-centered design methodology. (See also: SE-Tools)
+a. Personas/persona spectrum
+b. User stories/storytelling and techniques for gathering stories
+c. Empathy maps
+d. Needs assessment (techniques for uncovering needs and gathering requirements - e.g.,
+interviews, surveys, ethnographic and contextual enquiry) (See also: SE-Requirements)
+e. Journey maps
+f. Evaluating the design (See also: HCI-Evaluation)
+g. Interfacing with stakeholders, as a team
+h. Risks associated with physical, distributed, hybrid and virtual teams
+3. Physical and cognitive characteristics of the user
+a. Physical capabilities that inform interaction design (e.g., color perception, ergonomics)
+174
+b. Cognitive models that inform interaction design (e.g., attention, perception and recognition,
+movement, memory)
+c. Topics in social/behavioral psychology (e.g., cognitive biases, change blindness)
+4. Designing for diverse user populations. (See also: SEP-DEIA, HCI-Accessibility)
+a. How differences (e.g., in race, ability, age, gender, culture, experience, and education)
+impact user experiences and needs
+b. Internationalization
+c. Designing for users from other cultures
+d. Cross-cultural design
+e. Challenges to effective design evaluation. (e.g., sampling, generalization; disability and
+disabled experiences)
+f. Universal design
+5. Collaboration and communication (See also: AI-SEP, SE-Teamwork, SEP-Communication, SPD-
+Game)
+a. Understanding the user in a multi-user context
+b. Synchronous group communication (e.g., chat rooms, conferencing, online games)
+c. Asynchronous group communication (e.g., email, forums, social networks)
+d. Social media, social computing, and social network analysis
+e. Online collaboration
+f. Social coordination and online communities
+g. Avatars, characters, and virtual worlds

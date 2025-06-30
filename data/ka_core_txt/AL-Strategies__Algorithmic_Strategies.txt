@@ -1,0 +1,7 @@
+Title: AL-Strategies: Algorithmic Strategies
+
+KA Core:
+4. Paradigms
+a. Approximation algorithms
+b. Iterative improvement (e.g., Ford-Fulkerson, simplex)
+c. Randomized/Stochastic algorithms (e.g., max-cut, balls and bins)

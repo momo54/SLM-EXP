@@ -1,0 +1,21 @@
+Title: MSF-Calculus
+
+KA Core:
+1. Sequences, series, limits
+192
+2. Single-variable derivatives: definition, computation rules (chain rule etc.), derivatives of important
+functions, applications
+3. Single-variable integration: definition, computation rules, integrals of important functions,
+fundamental theorem of calculus, definite vs indefinite, applications (including in probability)
+4. Parametric and polar representations
+5. Taylor series
+6. Multivariate calculus: partial derivatives, gradient, chain-rule, vector valued functions,
+7. Optimization: convexity, global vs local minima, gradient descent, constrained optimization, and
+Lagrange multipliers.
+8. Ordinary Differential Equations (ODEs): definition, Euler method, applications to simulation, Monte
+Carlo integration
+9. CS applications: gradient descent for machine learning, forward and inverse kinematics,
+applications of calculus to probability
+Note: the calculus topics listed above are aligned with computer science goals rather than with
+traditional calculus courses. For example, multivariate calculus is often a course by itself, but computer
+science undergraduates only need parts of it for machine learning.

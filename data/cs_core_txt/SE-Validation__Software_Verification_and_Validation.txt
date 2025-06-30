@@ -1,0 +1,21 @@
+Title: SE-Validation: Software Verification and Validation
+
+CS Core:
+1. Verification and validation concepts
+a. Verification: Are we building the thing right?
+b. Validation: Did we build the right thing?
+2. Why testing matters: Does the component remain functional as the code evolves?
+3. Testing objectives
+a. Usability
+b. Reliability
+c. Conformance to specification
+246
+d. Performance
+e. Security
+4. Test kinds
+a. Unit
+b. Integration
+c. Validation
+d. System
+5. Stylistic differences between tests and production code: DAMP vs DRY – more duplication is
+warranted in test code.

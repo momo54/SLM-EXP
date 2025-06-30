@@ -1,0 +1,6 @@
+Title: FPL-Event-Driven: Event-Driven and Reactive Programming
+
+KA Core:
+3. Define and use a reactive framework.
+134
+4. Describe an interactive system in terms of a model, a view, and a controller.

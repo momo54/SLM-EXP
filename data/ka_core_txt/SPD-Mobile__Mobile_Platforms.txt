@@ -1,0 +1,14 @@
+Title: SPD-Mobile: Mobile Platforms
+
+KA Core:
+1. Development with
+a. Mobile programming languages
+303
+b. Mobile programming environments
+2. Mobile platform constraints
+a. User interface design (See also: HCI-User)
+b. Security
+3. Access
+a. Accessing data through APIs (See also: DM-Querying)
+b. Designing API endpoints for mobile apps: pitfalls and design considerations
+c. Network and web interfaces (See also: NC-Fundamentals, DM-Modeling)

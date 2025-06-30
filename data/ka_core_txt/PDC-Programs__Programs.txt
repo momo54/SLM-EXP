@@ -1,0 +1,7 @@
+Title: PDC-Programs: Programs
+
+KA Core:
+3. Write a function that efficiently counts events such as networking packet receptions.
+4. Write a filter/map/reduce program in multiple styles.
+5. Write a service that creates a thread (or other procedural form of activation) to return a requested
+web page to each new client.

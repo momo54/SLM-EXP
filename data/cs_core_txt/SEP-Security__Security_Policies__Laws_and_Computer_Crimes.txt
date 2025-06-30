@@ -1,0 +1,9 @@
+Title: SEP-Security: Security Policies, Laws and Computer Crimes
+
+CS Core:
+1. Computer crimes, legal redress for computer criminals and impact on victims and society
+2. Social engineering, computing-enabled fraud, identity theft and recovery from these
+3. Cyber terrorism, criminal hacking, and hacktivism
+4. Malware, viruses, worms
+5. Attacks on critical infrastructure such as electrical grids and pipelines
+6. Non-technical fundamentals of security (e.g., human engineering, policy, confidentiality)

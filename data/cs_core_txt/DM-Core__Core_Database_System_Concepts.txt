@@ -1,0 +1,17 @@
+Title: DM-Core: Core Database System Concepts
+
+CS Core:
+1. Purpose and advantages of database systems
+2. Components of database systems
+115
+3. Design of core DBMS functions (e.g., query mechanisms, transaction management, buffer
+management, access methods)
+4. Database architecture, data independence, and data abstraction
+5. Transaction management
+6. Normalization
+7. Approaches for managing large volumes of data (e.g., NoSQL database systems, use of
+MapReduce) (See also: PDC-Algorithms)
+8. How to support CRUD-only applications
+9. Distributed databases/cloud-based systems
+10. Structured, semi-structured, and unstructured data
+11. Use of a declarative query language

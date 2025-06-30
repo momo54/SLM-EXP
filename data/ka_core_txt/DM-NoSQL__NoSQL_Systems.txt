@@ -1,0 +1,5 @@
+Title: DM-NoSQL: NoSQL Systems
+
+KA Core:
+1. Why NoSQL? (e.g., Impedance mismatch between Application [CRUD] and RDBMS)
+2. Key-Value and Document data model

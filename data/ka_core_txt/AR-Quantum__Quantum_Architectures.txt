@@ -1,0 +1,27 @@
+Title: AR-Quantum: Quantum Architectures
+
+KA Core:
+1. Principles (See also: AL-Models: 8)
+a. The wave-particle duality principle
+b. The uncertainty principle in the double-slit experiment
+c. What is a Qubit? Superposition, interference, and measurement. Photons as qubits
+d. Systems of two qubits, Entanglement, Bell states, The No-Signaling theorem
+2. Axioms of QM: superposition principle, measurement axiom, unitary evolution
+3. Single qubit gates for the circuit model of quantum computation: X, Z, H
+4. Two qubit gates and tensor products, working with matrices
+5. The No-Cloning Theorem. The Quantum Teleportation protocol
+6. Algorithms (See also: AL-Foundational)
+a. Simple quantum algorithms: Bernstein-Vazirani, Simon’s algorithm
+b. Implementing Deutsch-Josza with Mach-Zehnder Interferometers
+c. Quantum factoring (Shor’s Algorithm)
+d. Quantum search (Grover’s Algorithm)
+7. Implementation aspects (See also: SPD-Interactive)
+a. The physical implementation of qubits
+b. Classical control of a Quantum Processing Unit (QPU)
+c. Error mitigation and control, NISQ and beyond
+108
+d. Measurement approaches
+8. Emerging Applications
+a. Post-quantum encryption
+b. The Quantum Internet
+c. Adiabatic quantum computation (AQC) and quantum annealing

@@ -1,0 +1,22 @@
+Title: FPL-OOP: Object-Oriented Programming
+
+CS Core:
+1. Imperative programming as a subset of object-oriented programming.
+2. Object-oriented design:
+a. Decomposition into objects carrying state and having behavior.
+b. Class-hierarchy design for modeling.
+3. Definition of classes: fields, methods, and constructors. (See also: SDF-Fundamentals)
+4. Subclasses, inheritance (including multiple inheritance), and method overriding.
+5. Dynamic dispatch: definition of method-call.
+6. Exception handling. (See also: SDF-Fundamentals, PDC-Coordination, SE-Construction)
+7. Object-oriented idioms for encapsulation:
+a. Privacy, data hiding, and visibility of class members.
+b. Interfaces revealing only method signatures.
+c. Abstract base classes, traits and mixins.
+130
+8. Dynamic vs static properties.
+9. Composition vs inheritance.
+10. Subtyping:
+a. Subtype polymorphism; implicit upcasts in typed languages.
+b. Notion of behavioral replacement: subtypes acting like supertype.
+c. Relationship between subtyping and inheritance.

@@ -1,0 +1,35 @@
+Title: PDC-Communication: Communication
+
+KA Core:
+5. One or more of the following properties and extensions
+a. Topologies: Unicast, Multicast, Mailboxes, Switches; Routing via hardware and software
+interconnection networks
+b. Media concurrency properties: Ordering, consistency, idempotency, overlapping
+communication with computation
+c. Media performance: Latency, bandwidth (throughput) contention (congestion),
+responsiveness (liveness), reliability (error and drop rates), protocol-based progress (acks,
+timeouts, mediation)
+d. Media security properties: integrity, privacy, authentication, authorization (See also: SEC-
+Secure Coding)
+e. Data formats: Marshaling, validation, encryption, compression
+f. Channel policies: Endpoints, sessions, buffering, saturation response (waiting vs dropping),
+rate control
+g. Multiplexing and demultiplexing many relatively slow I/O devices or parties; completion-
+based and scheduler-based techniques; async-await, select and polling APIs
+h. Formalization and analysis of channel communication; for example, CSP
+i. Applications of queuing theory to model and predict performance.
+j. Memory models: sequential and release/acquire consistency
+k. Memory management; including reclamation of shared data; reference counts and
+alternatives
+l. Bulk data placement and transfer; reducing message traffic and improving locality;
+overlapping data transfer and computation; impact of data layout such as array-of-structs vs
+struct-of-arrays
+m. Emulating shared memory: distributed shared memory, Remote Direct Memory Access
+(RDMA)
+n. Data store consistency: Atomicity, linearizability, transactionality, coherence, causal
+ordering, conflict resolution, eventual consistency, blockchains
+o. Faults, partitioning, and partial failures; voting; protocols such as Paxos and Raft.
+p. Design tradeoffs among consistency, availability, partition (fault) tolerance; impossibility of
+meeting all at once
+q. Security and trust: Byzantine failures, proof of work and alternatives
+221

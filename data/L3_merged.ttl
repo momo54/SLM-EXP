@@ -1,0 +1,108 @@
+@prefix ex: <http://example.org/course/> .
+
+ex:X31I020_ASD3 ex:description "This course covers advanced topics in algorithmic and data structures, focusing on the design and analysis of efficient solutions to complex problems. The course emphasizes the development of problem-solving skills, critical thinking, and mathematical rigor." ;
+    ex:hasObjective "Analyze and design efficient solutions to complex algorithmic problems",
+        "Apply mathematical concepts (e.g., graph theory, combinatorics) to solve computational problems",
+        "Develop problem-solving skills and critical thinking in the context of algorithmic and data structures.",
+        "Implement and evaluate the performance of various data structures and algorithms" ;
+    ex:hasTopic "AVL trees and balancing algorithms",
+        "Graph algorithms (e.g., Kruskal's algorithm)",
+        "Huffman coding and decoding",
+        "R-trees and spatial data structures",
+        "Skip lists and search algorithms",
+        "Union-Find data structures and algorithms" ;
+    ex:level "L3" ;
+    ex:track "Info, Math-Info Algorithmique et structures de données 3" .
+
+ex:X31I030_LA ex:description "This course covers the fundamentals of languages and automata theory, with a focus on formal languages, grammars, and automata. The course includes topics such as language recognition, grammar types, and finite automata, as well as their applications in computer science." ;
+    ex:hasObjective "Analyze and design grammars for specific languages",
+        "Apply automata theory to solve problems in computer science",
+        "Recognize and work with finite automata and regular languages",
+        "Understand the basics of formal language theory and its applications in computer science" ;
+    ex:hasTopic "Applications of automata theory in computer science",
+        "Finite automata and regular languages",
+        "Formal languages and grammars",
+        "Language recognition and parsing",
+        "Types of grammars (Chomsky hierarchy)" ;
+    ex:level "L3" ;
+    ex:track "Informatique - X31I030" .
+
+ex:X31I040_Réseau ex:description "This course covers the fundamental concepts and techniques of computer networks and telecommunications. It focuses on the different layers of the OSI model, including network, transport, and application layers. The course also explores network security, including confidentiality, integrity, and authentication. Students will learn how to analyze and design network architectures, as well as understand the principles of network protocols and their applications." ;
+    ex:hasObjective "Analyze network architectures and protocols",
+        "Apply network security principles and protocols",
+        "Design and implement network solutions",
+        "Understand the principles of telecommunications and network performance" ;
+    ex:hasTopic "Network fundamentals and architecture",
+        "Network layers (OSI model)",
+        "Network protocols (TCP/IP, HTTP, FTP)",
+        "Network security (confidentiality, integrity, authentication)",
+        "Telecommunications and network performance" ;
+    ex:level "L3" ;
+    ex:track "Informatique et Miage" .
+
+ex:X31I050_architecture ex:description "This course covers the fundamental concepts of computer architecture, focusing on the design and implementation of digital systems. Students will learn to analyze and design digital systems, including the development of control units, arithmetic logic units, and memory management units. The course also covers the basics of programming in assembly language, including the MIPS instruction set architecture." ;
+    ex:hasObjective "Analyze and design digital systems",
+        "Develop control units and arithmetic logic units",
+        "Implement memory management units",
+        "Program in assembly language (MIPS)",
+        "Understand the basics of computer architecture" ;
+    ex:hasTopic "Arithmetic Logic Units (ALU)",
+        "Assembly language programming (MIPS)",
+        "Computer architecture",
+        "Control Units",
+        "Digital system design",
+        "Memory Management Units" ;
+    ex:level "L3" ;
+    ex:track "Nantes Université - X31I050" .
+
+ex:X32I010_IF ex:description "" ;
+    ex:hasObjective "Analyze and solve decision problems using graph theory and NP-completeness",
+        "Design and analyze Turing machines for language decidability",
+        "Understand and apply formal language theory and automata" ;
+    ex:hasTopic "Formal languages and automata theory",
+        "Graph theory and decision problems",
+        "Turing machines and language decidability" ;
+    ex:level "L3" ;
+    ex:track "Informatique Fondamentale 2nd-year undergraduate program in Computer Science" .
+
+ex:X32I020_PF ex:description "This course covers the fundamentals of functional programming, with a focus on the lambda-calculus, type systems, and programming techniques. The course is assessed through a written exam that tests students' ability to write functional programs, reason about their correctness, and analyze their complexity." ;
+    ex:hasObjective "Analyze the correctness and complexity of functional programs",
+        "Apply functional programming principles to solve problems in various domains, including sound processing.",
+        "Write functional programs using lambda-calculus and type systems" ;
+    ex:hasTopic "Eratosthenes' sieve algorithm",
+        "Functional programming principles",
+        "Lambda-calculus",
+        "Programming with lists and streams",
+        "Sound processing and filtering techniques",
+        "Type systems and type inference" ;
+    ex:level "L3" ;
+    ex:track "Informatique/Math-Info" .
+
+ex:X32I030_RO ex:description "This course, Recherche Opérationnelle (Operational Research), is designed to introduce students to the concepts and methods of operational research, including linear programming, graph theory, and sensitivity analysis. The course covers various topics, such as modeling, resolution, and analysis of linear programs, as well as the application of these concepts to real-world problems in fields such as production planning, resource allocation, and project management." ;
+    ex:hasObjective "Analyze and interpret the results of linear programming models",
+        "Apply graph theory to model and solve problems",
+        "Develop and analyze models for production planning and resource allocation",
+        "Formulate and solve linear programming problems",
+        "Use operational research techniques to manage projects and make informed decisions." ;
+    ex:hasTopic "Graph Theory",
+        "Linear Programming",
+        "Modeling and Resolution of Linear Programs",
+        "Production Planning and Resource Allocation",
+        "Project Management" ;
+    ex:level "L3" ;
+    ex:track "Informatique (Computer Science)" .
+
+ex:X32I040_BD ex:description "This course covers the fundamentals of database systems, including data modeling, database design, and query optimization. Students will learn how to design and implement databases, ensuring data consistency and integrity. The course also covers transaction management, concurrency control, and indexing techniques." ;
+    ex:hasObjective "Design and implement a database system",
+        "Ensure data consistency and integrity",
+        "Manage transactions and concurrency control",
+        "Optimize database queries and design efficient indexing schemes",
+        "Understand database systems architecture and components" ;
+    ex:hasTopic "Data modeling and normalization",
+        "Database design and implementation",
+        "Database systems architecture",
+        "Query optimization and indexing",
+        "Transaction management and concurrency control" ;
+    ex:level "M1" ;
+    ex:track "Database Systems (BD)" .
+

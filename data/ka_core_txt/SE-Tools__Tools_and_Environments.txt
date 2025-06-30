@@ -1,0 +1,16 @@
+Title: SE-Tools: Tools and Environments
+
+KA Core:
+2. Release management.
+3. Testing tools including static and dynamic analysis tools. (See also: SDF-Practices, SEC-Coding)
+4. Software process automation:
+a. Build systems – the value of fast, hermetic, reproducible builds, compare/contrast approaches
+to building a project.
+b. Continuous Integration (CI) – the use of automation and automated tests to do preliminary
+validation that the current head/trunk revision builds and passes (basic) tests.
+c. Dependency management – updating external/upstream dependencies, package management,
+SemVer.
+5. Design and communication tools (docs, diagrams, common forms of design diagrams like UML).
+6. Tool integration concepts and mechanisms. (See also: SDF-Practices)
+7. Use of modern IDE facilities – debugging, refactoring, searching/indexing, ML-powered code
+assistants, etc. (See also: SDF-Practices)

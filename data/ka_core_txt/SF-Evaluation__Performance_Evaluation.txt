@@ -1,0 +1,8 @@
+Title: SF-Evaluation: Performance Evaluation
+
+KA Core:
+7. Analytical tools to guide quantitative evaluation
+8. Understanding layered systems, workloads, and platforms, their implications for performance, and
+the challenges they represent for evaluation
+9. Microbenchmark pitfalls
+295

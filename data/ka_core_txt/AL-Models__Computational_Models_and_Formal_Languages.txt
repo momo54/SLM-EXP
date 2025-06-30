@@ -1,0 +1,16 @@
+Title: AL-Models: Computational Models and Formal Languages
+
+KA Core:
+7. Deterministic and nondeterministic automata
+8. Pumping Lemma proofs
+a. Proof of Finite State/Regular-Language limitation
+b. Pushdown Automata/Context-Free-Language limitation
+9. Decidability
+a. Arithmetization and diagonalization
+10. Reducibility and reductions
+11. Time complexity based on Turing Machine
+12. Space complexity (e.g., Pspace, Savitch’s Theorem)
+13. Equivalent models of algorithmic computation
+a. Turing Machines and Variations (e.g., multi-tape, non-deterministic)
+b. Lambda Calculus (See also: FPL-Functional)
+c. Mu-Recursive Functions

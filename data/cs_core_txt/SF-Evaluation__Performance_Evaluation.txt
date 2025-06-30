@@ -1,0 +1,15 @@
+Title: SF-Evaluation: Performance Evaluation
+
+CS Core:
+1. Performance figures of merit (See also: AR-Performance-Energy, PDC-Evaluation)
+2. Workloads and representative benchmarks, and methods of collecting and analyzing performance
+figures of merit (See also: AR-Performance-Energy, PDC-Evaluation)
+3. CPI (Cycles per Instruction) equation as a tool for understanding tradeoffs in the design of
+instruction sets, processor pipelines, and memory system organizations (See also: AR-
+Performance-Energy, PDC-Evaluation)
+4. Amdahl’s Law: the part of the computation that cannot be sped up limits the effect of the parts that
+can (See also: AR-Performance-Energy, PDC-Evaluation)
+5. Order of magnitude analysis (Big O notation) (See also: AL-Complexity)
+6. Analysis of slow and fast paths of a system (See also: AR-Organization)
+7. Events on their effect on performance (e.g., instruction stalls, cache misses, page faults) (See also:
+OS-Memory, AR-Organization)

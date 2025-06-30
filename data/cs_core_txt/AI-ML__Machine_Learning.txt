@@ -1,0 +1,46 @@
+Title: AI-ML: Machine Learning
+
+CS Core:
+1. Definition and examples of a broad variety of machine learning tasks
+a. Supervised learning
+i. Classification
+ii. Regression
+b. Reinforcement learning
+c. Unsupervised learning
+i. Clustering
+2. Fundamental ideas:
+a. No free lunch theorem: no one learner can solve all problems; representational design decisions
+have consequences.
+b. Sources of error and undecidability in machine learning
+3. A simple statistical-based supervised learning such as linear regression or decision trees
+a. Focus on how they work without going into mathematical or optimization details; enough to
+understand and use existing implementations correctly
+4. The overfitting problem/controlling solution complexity (regularization, pruning – intuition only)
+a. The bias (underfitting) – variance (overfitting) tradeoff
+5. Working with Data
+a. Data preprocessing
+i. Importance and pitfalls of preprocessing choices
+b. Handling missing values (imputing, flag-as-missing)
+i. Implications of imputing vs flag-as-missing
+c. Encoding categorical variables, encoding real-valued data
+d. Normalization/standardization
+e. Emphasis on real data, not textbook examples
+6. Representations
+a. Hypothesis spaces and complexity
+b. Simple basis feature expansion, such as squaring univariate features
+c. Learned feature representations
+7. Machine learning evaluation
+a. Separation of train, validation, and test sets
+b. Performance metrics for classifiers
+c. Estimation of test performance on held-out data
+d. Tuning the parameters of a machine learning model with a validation set
+e. Importance of understanding what a model is doing, where its pitfalls/shortcomings are, and the
+implications of its decisions
+8. Basic neural networks
+a. Fundamentals of understanding how neural networks work and their training process, without
+details of the calculations
+b. Basic introduction to generative neural networks (e.g., large language models)
+9. Ethics for Machine Learning (See also: SEP-Context)
+a. Focus on real data, real scenarios, and case studies
+b. Dataset/algorithmic/evaluation bias and unintended consequences
+71

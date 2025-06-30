@@ -1,0 +1,10 @@
+Title: SF-Reliability: System Reliability
+
+CS Core:
+1. Distinction between bugs, faults, and failures (See also: PDC-Coordination, SE-Reliability)
+2. Reliability vs availability
+3. Reliability through redundancy
+a. check and retry (See also: OS-Faults, NC-Reliability)
+b. redundant encoding (error correction codes, CRC, FEC, RAID) (See also: AR-Memory, NC-
+Reliability, DM-Distributed)
+c. duplication/mirroring/replicas (See also: DM-Distributed)

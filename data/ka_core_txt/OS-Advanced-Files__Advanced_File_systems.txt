@@ -1,0 +1,14 @@
+Title: OS-Advanced-Files: Advanced File systems
+
+KA Core:
+1. File systems: partitioning, mount/unmount, virtual file systems
+2. In-depth implementation techniques
+3. Memory-mapped files (See also: AR-IO )
+4. Special-purpose file systems
+5. Naming, searching, access, backups
+6. Journaling and log-structured file systems (See also: SF-Reliability)
+212
+Non-Core: (including emerging topics)
+1. Distributed file systems
+2. Encrypted file systems
+3. Fault tolerance

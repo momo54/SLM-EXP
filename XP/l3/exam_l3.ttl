@@ -1,0 +1,517 @@
+@prefix ns1: <http://example.org/course/> .
+@prefix ns2: <http://align.org/> .
+@prefix ns3: <http://provo.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ns1:X31I020_ASD3 ns2:to [ ns2:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Mathematical_and_Statistical_Foundations_MSF/MSF-Discrete_Discrete_Mathematics.txt> ;
+            ns2:score "0.70210403"^^xsd:float ;
+            ns1:answer "0" ;
+            ns1:explain "Lecture focuses on algorithms/data structures, not discrete math foundations (proofs, combinatorics, logic) emphasized in KU." ;
+            ns1:ka "Mathematical_and_Statistical_Foundations_MSF" ;
+            ns1:ku "MSF-Discrete_Discrete_Mathematics" ;
+            ns3:wasGeneratedBy [ ns3:used "qwen-qwq-32b" ] ],
+        [ ns2:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Algorithmic_Foundations_AL/AL-Foundational_Foundational_Data_Structures_and_Algorithms.txt> ;
+            ns2:score "0.686795"^^xsd:float ;
+            ns1:answer "1" ;
+            ns1:explain "The lecture covers a large subset of the KU, focusing on key data structures and algorithms." ;
+            ns1:ka "Algorithmic_Foundations_AL" ;
+            ns1:ku "AL-Foundational_Foundational_Data_Structures_and_Algorithms" ;
+            ns3:wasGeneratedBy [ ns3:used "deepseek-r1-distill-llama-70b" ] ],
+        [ ns2:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Algorithmic_Foundations_AL/AL-Foundational_Foundational_Data_Structures_and_Algorithms.txt> ;
+            ns2:score "0.7094047"^^xsd:float ;
+            ns1:answer "0" ;
+            ns1:explain "Lecture covers specific topics (AVL, Kruskal's, etc.) but lacks broader KU core elements like hash tables, sorting algorithms, and foundational ADTs." ;
+            ns1:ka "Algorithmic_Foundations_AL" ;
+            ns1:ku "AL-Foundational_Foundational_Data_Structures_and_Algorithms" ;
+            ns3:wasGeneratedBy [ ns3:used "qwen-qwq-32b" ] ],
+        [ ns2:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Algorithmic_Foundations_AL/AL-Foundational_Foundational_Data_Structures_and_Algorithms.txt> ;
+            ns2:score "0.686795"^^xsd:float ;
+            ns1:answer "0" ;
+            ns1:explain "Lecture covers specific topics (AVL, Kruskal's, etc.) but lacks broader KU core elements like hash tables, sorting algorithms, and foundational ADTs." ;
+            ns1:ka "Algorithmic_Foundations_AL" ;
+            ns1:ku "AL-Foundational_Foundational_Data_Structures_and_Algorithms" ;
+            ns3:wasGeneratedBy [ ns3:used "qwen-qwq-32b" ] ],
+        [ ns2:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Algorithmic_Foundations_AL/AL-Foundational_Foundational_Data_Structures_and_Algorithms.txt> ;
+            ns2:score "0.686795"^^xsd:float ;
+            ns1:answer "1" ;
+            ns1:explain "The lecture covers a significant portion of the KU, focusing on data structures and algorithms, with some overlap in topics such as graph algorithms and sorting." ;
+            ns1:ka "Algorithmic_Foundations_AL" ;
+            ns1:ku "AL-Foundational_Foundational_Data_Structures_and_Algorithms" ;
+            ns3:wasGeneratedBy [ ns3:used "llama3-8b-8192" ] ],
+        [ ns2:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Algorithmic_Foundations_AL/AL-Foundational_Foundational_Data_Structures_and_Algorithms.txt> ;
+            ns2:score "0.7094047"^^xsd:float ;
+            ns1:answer "1" ;
+            ns1:explain "The lecture covers a significant portion of the KU, focusing on data structures and algorithms, with some overlap in topics such as graph algorithms and sorting." ;
+            ns1:ka "Algorithmic_Foundations_AL" ;
+            ns1:ku "AL-Foundational_Foundational_Data_Structures_and_Algorithms" ;
+            ns3:wasGeneratedBy [ ns3:used "llama3-8b-8192" ] ],
+        [ ns2:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Algorithmic_Foundations_AL/AL-Foundational_Foundational_Data_Structures_and_Algorithms.txt> ;
+            ns2:score "0.7094047"^^xsd:float ;
+            ns1:answer "1" ;
+            ns1:explain "The lecture covers a large subset of the KU, focusing on key data structures and algorithms." ;
+            ns1:ka "Algorithmic_Foundations_AL" ;
+            ns1:ku "AL-Foundational_Foundational_Data_Structures_and_Algorithms" ;
+            ns3:wasGeneratedBy [ ns3:used "deepseek-r1-distill-llama-70b" ] ],
+        [ ns2:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Mathematical_and_Statistical_Foundations_MSF/MSF-Discrete_Discrete_Mathematics.txt> ;
+            ns2:score "0.70210403"^^xsd:float ;
+            ns1:answer "1" ;
+            ns1:explain "The lecture covers a large subset of the KU, focusing on key areas like data structures and graph theory." ;
+            ns1:ka "Mathematical_and_Statistical_Foundations_MSF" ;
+            ns1:ku "MSF-Discrete_Discrete_Mathematics" ;
+            ns3:wasGeneratedBy [ ns3:used "deepseek-r1-distill-llama-70b" ] ],
+        [ ns2:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Mathematical_and_Statistical_Foundations_MSF/MSF-Discrete_Discrete_Mathematics.txt> ;
+            ns2:score "0.70210403"^^xsd:float ;
+            ns1:answer "1" ;
+            ns1:explain "The lecture covers a significant portion of the KU, including topics such as algorithmic and data structures, graph algorithms, and mathematical concepts. The lecture's emphasis on problem-solving skills, critical thinking, and mathematical rigor aligns with the KU's focus on discrete mathematics and computer science." ;
+            ns1:ka "Mathematical_and_Statistical_Foundations_MSF" ;
+            ns1:ku "MSF-Discrete_Discrete_Mathematics" ;
+            ns3:wasGeneratedBy [ ns3:used "llama3-8b-8192" ] ] .
+
+ns1:X31I030_LA ns2:to [ ns2:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Foundations_of_Programming_Languages_FPL/FPL-Syntax_Syntax_Analysis.txt> ;
+            ns2:score "0.7349985"^^xsd:float ;
+            ns1:answer "0" ;
+            ns1:explain "Lecture covers basics (grammars, automata, Chomsky hierarchy) but lacks specifics on parsing strategies, tools, error recovery, and syntax issues." ;
+            ns1:ka "Foundations_of_Programming_Languages_FPL" ;
+            ns1:ku "FPL-Syntax_Syntax_Analysis" ;
+            ns3:wasGeneratedBy [ ns3:used "qwen-qwq-32b" ] ],
+        [ ns2:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Algorithmic_Foundations_AL/AL-Models_Computational_Models_and_Formal_Languages.txt> ;
+            ns2:score "0.73731834"^^xsd:float ;
+            ns1:answer "0" ;
+            ns1:explain "The lecture covers some basic topics but lacks depth and advanced subjects like Turing Machines and decidability." ;
+            ns1:ka "Algorithmic_Foundations_AL" ;
+            ns1:ku "AL-Models_Computational_Models_and_Formal_Languages" ;
+            ns3:wasGeneratedBy [ ns3:used "deepseek-r1-distill-llama-70b" ] ],
+        [ ns2:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Algorithmic_Foundations_AL/AL-Models_Computational_Models_and_Formal_Languages.txt> ;
+            ns2:score "0.73731834"^^xsd:float ;
+            ns1:answer "1" ;
+            ns1:explain "Covers core automata, grammars, Chomsky hierarchy, decidability, and Church-Turing, missing some proofs/reductions but aligns with main topics." ;
+            ns1:ka "Algorithmic_Foundations_AL" ;
+            ns1:ku "AL-Models_Computational_Models_and_Formal_Languages" ;
+            ns3:wasGeneratedBy [ ns3:used "qwen-qwq-32b" ] ],
+        [ ns2:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Algorithmic_Foundations_AL/AL-Models_Computational_Models_and_Formal_Languages.txt> ;
+            ns2:score "0.81713116"^^xsd:float ;
+            ns1:answer "0" ;
+            ns1:explain "The lecture covers some basic topics but lacks depth and advanced subjects like Turing Machines and decidability." ;
+            ns1:ka "Algorithmic_Foundations_AL" ;
+            ns1:ku "AL-Models_Computational_Models_and_Formal_Languages" ;
+            ns3:wasGeneratedBy [ ns3:used "deepseek-r1-distill-llama-70b" ] ],
+        [ ns2:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Foundations_of_Programming_Languages_FPL/FPL-Syntax_Syntax_Analysis.txt> ;
+            ns2:score "0.7349985"^^xsd:float ;
+            ns1:answer "1" ;
+            ns1:explain "The lecture covers key topics like grammars, automata, and formal languages, which are central to the KU, but lacks depth in specific parsing strategies and tools." ;
+            ns1:ka "Foundations_of_Programming_Languages_FPL" ;
+            ns1:ku "FPL-Syntax_Syntax_Analysis" ;
+            ns3:wasGeneratedBy [ ns3:used "deepseek-r1-distill-llama-70b" ] ],
+        [ ns2:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Foundations_of_Programming_Languages_FPL/FPL-Syntax_Syntax_Analysis.txt> ;
+            ns2:score "0.7349985"^^xsd:float ;
+            ns1:answer "1" ;
+            ns1:explain "The lecture covers a significant portion of the KU, including topics such as formal languages, grammars, automata theory, and parsing strategies." ;
+            ns1:ka "Foundations_of_Programming_Languages_FPL" ;
+            ns1:ku "FPL-Syntax_Syntax_Analysis" ;
+            ns3:wasGeneratedBy [ ns3:used "llama3-8b-8192" ] ],
+        [ ns2:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Algorithmic_Foundations_AL/AL-Models_Computational_Models_and_Formal_Languages.txt> ;
+            ns2:score "0.81713116"^^xsd:float ;
+            ns1:answer "1" ;
+            ns1:explain "The lecture covers a significant portion of the KU, including topics such as formal languages, grammars, automata theory, and applications in computer science." ;
+            ns1:ka "Algorithmic_Foundations_AL" ;
+            ns1:ku "AL-Models_Computational_Models_and_Formal_Languages" ;
+            ns3:wasGeneratedBy [ ns3:used "llama3-8b-8192" ] ],
+        [ ns2:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Algorithmic_Foundations_AL/AL-Models_Computational_Models_and_Formal_Languages.txt> ;
+            ns2:score "0.81713116"^^xsd:float ;
+            ns1:answer "1" ;
+            ns1:explain "Covers core automata, grammars, Chomsky hierarchy, decidability, and Church-Turing, missing some proofs/reductions but aligns with main topics." ;
+            ns1:ka "Algorithmic_Foundations_AL" ;
+            ns1:ku "AL-Models_Computational_Models_and_Formal_Languages" ;
+            ns3:wasGeneratedBy [ ns3:used "qwen-qwq-32b" ] ],
+        [ ns2:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Algorithmic_Foundations_AL/AL-Models_Computational_Models_and_Formal_Languages.txt> ;
+            ns2:score "0.73731834"^^xsd:float ;
+            ns1:answer "1" ;
+            ns1:explain "The lecture covers a significant portion of the KU, including topics such as formal languages, grammars, automata theory, and applications in computer science." ;
+            ns1:ka "Algorithmic_Foundations_AL" ;
+            ns1:ku "AL-Models_Computational_Models_and_Formal_Languages" ;
+            ns3:wasGeneratedBy [ ns3:used "llama3-8b-8192" ] ] .
+
+ns1:X31I040_Réseau ns2:to [ ns2:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Networking_and_Communication_NC/NC-Security_Network_Security.txt> ;
+            ns2:score "0.7415455"^^xsd:float ;
+            ns1:answer "1" ;
+            ns1:explain "The lecture covers a significant portion of the KU, including network fundamentals, architecture, protocols, and security, but lacks specific details on cryptography, network monitoring, and intrusion detection." ;
+            ns1:ka "Networking_and_Communication_NC" ;
+            ns1:ku "NC-Security_Network_Security" ;
+            ns3:wasGeneratedBy [ ns3:used "llama3-8b-8192" ] ],
+        [ ns2:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Networking_and_Communication_NC/NC-Security_Network_Security.txt> ;
+            ns2:score "0.719345"^^xsd:float ;
+            ns1:answer "0" ;
+            ns1:explain "Lecture covers general security principles but lacks specifics on attack types (e.g., routing attacks, ransomware) and advanced countermeasures (BGP Sec, Zero Trust)." ;
+            ns1:ka "Networking_and_Communication_NC" ;
+            ns1:ku "NC-Security_Network_Security" ;
+            ns3:wasGeneratedBy [ ns3:used "qwen-qwq-32b" ] ],
+        [ ns2:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Networking_and_Communication_NC/NC-Security_Network_Security.txt> ;
+            ns2:score "0.7415455"^^xsd:float ;
+            ns1:answer "0" ;
+            ns1:explain "Lecture covers general security principles but lacks specifics on attack types (e.g., routing attacks, ransomware) and advanced countermeasures (BGP Sec, Zero Trust)." ;
+            ns1:ka "Networking_and_Communication_NC" ;
+            ns1:ku "NC-Security_Network_Security" ;
+            ns3:wasGeneratedBy [ ns3:used "qwen-qwq-32b" ] ],
+        [ ns2:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Networking_and_Communication_NC/NC-Security_Network_Security.txt> ;
+            ns2:score "0.7415455"^^xsd:float ;
+            ns1:answer "0" ;
+            ns1:explain "The lecture covers some security aspects but lacks depth on specific threats and detailed countermeasures outlined in the KU." ;
+            ns1:ka "Networking_and_Communication_NC" ;
+            ns1:ku "NC-Security_Network_Security" ;
+            ns3:wasGeneratedBy [ ns3:used "deepseek-r1-distill-llama-70b" ] ],
+        [ ns2:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Networking_and_Communication_NC/NC-Security_Network_Security.txt> ;
+            ns2:score "0.72424483"^^xsd:float ;
+            ns1:answer "0" ;
+            ns1:explain "The lecture covers some security aspects but lacks depth on specific threats and detailed countermeasures outlined in the KU." ;
+            ns1:ka "Networking_and_Communication_NC" ;
+            ns1:ku "NC-Security_Network_Security" ;
+            ns3:wasGeneratedBy [ ns3:used "deepseek-r1-distill-llama-70b" ] ],
+        [ ns2:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Networking_and_Communication_NC/NC-Security_Network_Security.txt> ;
+            ns2:score "0.72424483"^^xsd:float ;
+            ns1:answer "1" ;
+            ns1:explain "The lecture covers a significant portion of the KU, including network fundamentals, architecture, protocols, and security, but lacks specific details on cryptography, network monitoring, and intrusion detection." ;
+            ns1:ka "Networking_and_Communication_NC" ;
+            ns1:ku "NC-Security_Network_Security" ;
+            ns3:wasGeneratedBy [ ns3:used "llama3-8b-8192" ] ],
+        [ ns2:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Networking_and_Communication_NC/NC-Security_Network_Security.txt> ;
+            ns2:score "0.719345"^^xsd:float ;
+            ns1:answer "1" ;
+            ns1:explain "The lecture covers a significant portion of the KU, including network fundamentals, architecture, protocols, and security, but lacks specific details on cryptography, network monitoring, and intrusion detection." ;
+            ns1:ka "Networking_and_Communication_NC" ;
+            ns1:ku "NC-Security_Network_Security" ;
+            ns3:wasGeneratedBy [ ns3:used "llama3-8b-8192" ] ],
+        [ ns2:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Networking_and_Communication_NC/NC-Security_Network_Security.txt> ;
+            ns2:score "0.719345"^^xsd:float ;
+            ns1:answer "0" ;
+            ns1:explain "The lecture covers some security aspects but lacks depth on specific threats and detailed countermeasures outlined in the KU." ;
+            ns1:ka "Networking_and_Communication_NC" ;
+            ns1:ku "NC-Security_Network_Security" ;
+            ns3:wasGeneratedBy [ ns3:used "deepseek-r1-distill-llama-70b" ] ],
+        [ ns2:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Networking_and_Communication_NC/NC-Security_Network_Security.txt> ;
+            ns2:score "0.72424483"^^xsd:float ;
+            ns1:answer "0" ;
+            ns1:explain "Lecture covers general security principles but lacks specifics on attack types (e.g., routing attacks, ransomware) and advanced countermeasures (BGP Sec, Zero Trust)." ;
+            ns1:ka "Networking_and_Communication_NC" ;
+            ns1:ku "NC-Security_Network_Security" ;
+            ns3:wasGeneratedBy [ ns3:used "qwen-qwq-32b" ] ] .
+
+ns1:X31I050_architecture ns2:to [ ns2:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Architecture_and_Organization_AR/AR-Logic_Digital_Logic_and_Digital_Systems.txt> ;
+            ns2:score "0.6750207"^^xsd:float ;
+            ns1:answer "1" ;
+            ns1:explain "The lecture covers a significant portion of the KU, including topics such as computer architecture, digital systems, arithmetic logic units, and assembly language programming. The lecture's focus on the design and implementation of digital systems aligns with the KU's emphasis on computer-aided design tools and system-on-chip design flow." ;
+            ns1:ka "Architecture_and_Organization_AR" ;
+            ns1:ku "AR-Logic_Digital_Logic_and_Digital_Systems" ;
+            ns3:wasGeneratedBy [ ns3:used "llama3-8b-8192" ] ],
+        [ ns2:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Architecture_and_Organization_AR/AR-Logic_Digital_Logic_and_Digital_Systems.txt> ;
+            ns2:score "0.67134035"^^xsd:float ;
+            ns1:answer "1" ;
+            ns1:explain "The lecture covers a significant portion of the KU, including topics such as computer architecture, digital systems, arithmetic logic units, and assembly language programming. The lecture's focus on the design and implementation of digital systems aligns with the KU's emphasis on computer-aided design tools and system-on-chip design flow." ;
+            ns1:ka "Architecture_and_Organization_AR" ;
+            ns1:ku "AR-Logic_Digital_Logic_and_Digital_Systems" ;
+            ns3:wasGeneratedBy [ ns3:used "llama3-8b-8192" ] ],
+        [ ns2:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Architecture_and_Organization_AR/AR-Logic_Digital_Logic_and_Digital_Systems.txt> ;
+            ns2:score "0.6750207"^^xsd:float ;
+            ns1:answer "0" ;
+            ns1:explain "The lecture covers some aspects like ALUs and digital system design but lacks coverage of design tools, high-level synthesis, and physical constraints." ;
+            ns1:ka "Architecture_and_Organization_AR" ;
+            ns1:ku "AR-Logic_Digital_Logic_and_Digital_Systems" ;
+            ns3:wasGeneratedBy [ ns3:used "deepseek-r1-distill-llama-70b" ] ],
+        [ ns2:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Architecture_and_Organization_AR/AR-Assembly_Assembly_Level_Machine_Organization.txt> ;
+            ns2:score "0.6969922"^^xsd:float ;
+            ns1:answer "0" ;
+            ns1:explain "The lecture covers some aspects like digital systems design and assembly programming but lacks detailed coverage of KU topics like von Neumann architecture, Flynn taxonomy, and specific ISA details." ;
+            ns1:ka "Architecture_and_Organization_AR" ;
+            ns1:ku "AR-Assembly_Assembly_Level_Machine_Organization" ;
+            ns3:wasGeneratedBy [ ns3:used "deepseek-r1-distill-llama-70b" ] ],
+        [ ns2:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Architecture_and_Organization_AR/AR-Assembly_Assembly_Level_Machine_Organization.txt> ;
+            ns2:score "0.6969922"^^xsd:float ;
+            ns1:answer "1" ;
+            ns1:explain "Covers ALU, control units, MIPS assembly, memory management, and ISA basics but lacks explicit Flynn taxonomy and detailed memory segment discussion." ;
+            ns1:ka "Architecture_and_Organization_AR" ;
+            ns1:ku "AR-Assembly_Assembly_Level_Machine_Organization" ;
+            ns3:wasGeneratedBy [ ns3:used "qwen-qwq-32b" ] ],
+        [ ns2:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Architecture_and_Organization_AR/AR-Assembly_Assembly_Level_Machine_Organization.txt> ;
+            ns2:score "0.6969922"^^xsd:float ;
+            ns1:answer "1" ;
+            ns1:explain "The lecture covers a significant portion of the KU, including topics such as computer architecture, control units, arithmetic logic units, and assembly language programming. The lecture's focus on digital system design and memory management units also aligns with the KU's objectives." ;
+            ns1:ka "Architecture_and_Organization_AR" ;
+            ns1:ku "AR-Assembly_Assembly_Level_Machine_Organization" ;
+            ns3:wasGeneratedBy [ ns3:used "llama3-8b-8192" ] ],
+        [ ns2:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Architecture_and_Organization_AR/AR-Logic_Digital_Logic_and_Digital_Systems.txt> ;
+            ns2:score "0.6750207"^^xsd:float ;
+            ns1:answer "0" ;
+            ns1:explain "Lecture lacks coverage of CAD tools, HDLs, physical constraints, and historical progression emphasized in KU." ;
+            ns1:ka "Architecture_and_Organization_AR" ;
+            ns1:ku "AR-Logic_Digital_Logic_and_Digital_Systems" ;
+            ns3:wasGeneratedBy [ ns3:used "qwen-qwq-32b" ] ],
+        [ ns2:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Architecture_and_Organization_AR/AR-Logic_Digital_Logic_and_Digital_Systems.txt> ;
+            ns2:score "0.67134035"^^xsd:float ;
+            ns1:answer "0" ;
+            ns1:explain "Lecture lacks coverage of CAD tools, HDLs, physical constraints, and historical progression emphasized in KU." ;
+            ns1:ka "Architecture_and_Organization_AR" ;
+            ns1:ku "AR-Logic_Digital_Logic_and_Digital_Systems" ;
+            ns3:wasGeneratedBy [ ns3:used "qwen-qwq-32b" ] ],
+        [ ns2:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Architecture_and_Organization_AR/AR-Logic_Digital_Logic_and_Digital_Systems.txt> ;
+            ns2:score "0.67134035"^^xsd:float ;
+            ns1:answer "0" ;
+            ns1:explain "The lecture covers some aspects like ALUs and digital system design but lacks coverage of design tools, high-level synthesis, and physical constraints." ;
+            ns1:ka "Architecture_and_Organization_AR" ;
+            ns1:ku "AR-Logic_Digital_Logic_and_Digital_Systems" ;
+            ns3:wasGeneratedBy [ ns3:used "deepseek-r1-distill-llama-70b" ] ] .
+
+ns1:X32I010_IF ns2:to [ ns2:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Algorithmic_Foundations_AL/AL-Models_Computational_Models_and_Formal_Languages.txt> ;
+            ns2:score "0.7922925"^^xsd:float ;
+            ns1:answer "1" ;
+            ns1:explain "Lecture covers core topics like Turing machines, formal languages, decidability, and NP-completeness, aligning with KU's CS/KA Core areas." ;
+            ns1:ka "Algorithmic_Foundations_AL" ;
+            ns1:ku "AL-Models_Computational_Models_and_Formal_Languages" ;
+            ns3:wasGeneratedBy [ ns3:used "qwen-qwq-32b" ] ],
+        [ ns2:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Algorithmic_Foundations_AL/AL-Models_Computational_Models_and_Formal_Languages.txt> ;
+            ns2:score "0.8004019"^^xsd:float ;
+            ns1:answer "1" ;
+            ns1:explain "The lecture covers core topics of the KU, including formal languages, automata, Turing machines, and decidability." ;
+            ns1:ka "Algorithmic_Foundations_AL" ;
+            ns1:ku "AL-Models_Computational_Models_and_Formal_Languages" ;
+            ns3:wasGeneratedBy [ ns3:used "deepseek-r1-distill-llama-70b" ] ],
+        [ ns2:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Algorithmic_Foundations_AL/AL-Models_Computational_Models_and_Formal_Languages.txt> ;
+            ns2:score "0.8095159"^^xsd:float ;
+            ns1:answer "1" ;
+            ns1:explain "The lecture covers core topics of the KU, including formal languages, automata, Turing machines, and decidability." ;
+            ns1:ka "Algorithmic_Foundations_AL" ;
+            ns1:ku "AL-Models_Computational_Models_and_Formal_Languages" ;
+            ns3:wasGeneratedBy [ ns3:used "deepseek-r1-distill-llama-70b" ] ],
+        [ ns2:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Algorithmic_Foundations_AL/AL-Models_Computational_Models_and_Formal_Languages.txt> ;
+            ns2:score "0.8095159"^^xsd:float ;
+            ns1:answer "1" ;
+            ns1:explain "Lecture covers core topics like Turing machines, formal languages, decidability, and NP-completeness, aligning with KU's CS/KA Core areas." ;
+            ns1:ka "Algorithmic_Foundations_AL" ;
+            ns1:ku "AL-Models_Computational_Models_and_Formal_Languages" ;
+            ns3:wasGeneratedBy [ ns3:used "qwen-qwq-32b" ] ],
+        [ ns2:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Algorithmic_Foundations_AL/AL-Models_Computational_Models_and_Formal_Languages.txt> ;
+            ns2:score "0.8004019"^^xsd:float ;
+            ns1:answer "1" ;
+            ns1:explain "Lecture covers core topics like Turing machines, formal languages, decidability, and NP-completeness, aligning with KU's CS/KA Core areas." ;
+            ns1:ka "Algorithmic_Foundations_AL" ;
+            ns1:ku "AL-Models_Computational_Models_and_Formal_Languages" ;
+            ns3:wasGeneratedBy [ ns3:used "qwen-qwq-32b" ] ],
+        [ ns2:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Algorithmic_Foundations_AL/AL-Models_Computational_Models_and_Formal_Languages.txt> ;
+            ns2:score "0.8095159"^^xsd:float ;
+            ns1:answer "1" ;
+            ns1:explain "The lecture covers a significant portion of the KU, including topics such as formal languages, automata theory, graph theory, and NP-completeness, indicating a substantial coverage of the knowledge described in the KU." ;
+            ns1:ka "Algorithmic_Foundations_AL" ;
+            ns1:ku "AL-Models_Computational_Models_and_Formal_Languages" ;
+            ns3:wasGeneratedBy [ ns3:used "llama3-8b-8192" ] ],
+        [ ns2:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Algorithmic_Foundations_AL/AL-Models_Computational_Models_and_Formal_Languages.txt> ;
+            ns2:score "0.7922925"^^xsd:float ;
+            ns1:answer "1" ;
+            ns1:explain "The lecture covers core topics of the KU, including formal languages, automata, Turing machines, and decidability." ;
+            ns1:ka "Algorithmic_Foundations_AL" ;
+            ns1:ku "AL-Models_Computational_Models_and_Formal_Languages" ;
+            ns3:wasGeneratedBy [ ns3:used "deepseek-r1-distill-llama-70b" ] ],
+        [ ns2:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Algorithmic_Foundations_AL/AL-Models_Computational_Models_and_Formal_Languages.txt> ;
+            ns2:score "0.8004019"^^xsd:float ;
+            ns1:answer "1" ;
+            ns1:explain "The lecture covers a significant portion of the KU, including topics such as formal languages, automata theory, graph theory, and NP-completeness, indicating a substantial coverage of the knowledge described in the KU." ;
+            ns1:ka "Algorithmic_Foundations_AL" ;
+            ns1:ku "AL-Models_Computational_Models_and_Formal_Languages" ;
+            ns3:wasGeneratedBy [ ns3:used "llama3-8b-8192" ] ],
+        [ ns2:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Algorithmic_Foundations_AL/AL-Models_Computational_Models_and_Formal_Languages.txt> ;
+            ns2:score "0.7922925"^^xsd:float ;
+            ns1:answer "1" ;
+            ns1:explain "The lecture covers a significant portion of the KU, including topics such as formal languages, automata theory, graph theory, and NP-completeness, indicating a substantial coverage of the knowledge described in the KU." ;
+            ns1:ka "Algorithmic_Foundations_AL" ;
+            ns1:ku "AL-Models_Computational_Models_and_Formal_Languages" ;
+            ns3:wasGeneratedBy [ ns3:used "llama3-8b-8192" ] ] .
+
+ns1:X32I020_PF ns2:to [ ns2:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Foundations_of_Programming_Languages_FPL/FPL-Logic_Logic_Programming.txt> ;
+            ns2:score "0.72967297"^^xsd:float ;
+            ns1:answer "0" ;
+            ns1:explain "Lecture focuses on functional programming (lambda-calculus, type systems), while KU emphasizes logic programming (unification, Horn clauses, backtracking) not covered in lecture content." ;
+            ns1:ka "Foundations_of_Programming_Languages_FPL" ;
+            ns1:ku "FPL-Logic_Logic_Programming" ;
+            ns3:wasGeneratedBy [ ns3:used "qwen-qwq-32b" ] ],
+        [ ns2:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Foundations_of_Programming_Languages_FPL/FPL-Logic_Logic_Programming.txt> ;
+            ns2:score "0.72967297"^^xsd:float ;
+            ns1:answer "1" ;
+            ns1:explain "The lecture covers a significant portion of the KU, including functional programming principles, lambda-calculus, programming with lists and streams, and type systems, which aligns with the KU's topics." ;
+            ns1:ka "Foundations_of_Programming_Languages_FPL" ;
+            ns1:ku "FPL-Logic_Logic_Programming" ;
+            ns3:wasGeneratedBy [ ns3:used "llama3-8b-8192" ] ],
+        [ ns2:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Foundations_of_Programming_Languages_FPL/FPL-Logic_Logic_Programming.txt> ;
+            ns2:score "0.72967297"^^xsd:float ;
+            ns1:answer "0" ;
+            ns1:explain "The lecture focuses on functional programming, while the KU covers logic programming." ;
+            ns1:ka "Foundations_of_Programming_Languages_FPL" ;
+            ns1:ku "FPL-Logic_Logic_Programming" ;
+            ns3:wasGeneratedBy [ ns3:used "deepseek-r1-distill-llama-70b" ] ],
+        [ ns2:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Foundations_of_Programming_Languages_FPL/FPL-Formalism_Formal_Semantics.txt> ;
+            ns2:score "0.7308879"^^xsd:float ;
+            ns1:answer "0" ;
+            ns1:explain "The lecture covers some aspects like lambda-calculus and type systems but lacks coverage of formal semantics approaches and deeper theoretical elements." ;
+            ns1:ka "Foundations_of_Programming_Languages_FPL" ;
+            ns1:ku "FPL-Formalism_Formal_Semantics" ;
+            ns3:wasGeneratedBy [ ns3:used "deepseek-r1-distill-llama-70b" ] ],
+        [ ns2:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Foundations_of_Programming_Languages_FPL/FPL-Formalism_Formal_Semantics.txt> ;
+            ns2:score "0.7308879"^^xsd:float ;
+            ns1:answer "0" ;
+            ns1:explain "Lecture focuses on programming and application, while KU emphasizes formal semantics, proofs, and type theory in depth." ;
+            ns1:ka "Foundations_of_Programming_Languages_FPL" ;
+            ns1:ku "FPL-Formalism_Formal_Semantics" ;
+            ns3:wasGeneratedBy [ ns3:used "qwen-qwq-32b" ] ],
+        [ ns2:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Foundations_of_Programming_Languages_FPL/FPL-Functional_Functional_Programming.txt> ;
+            ns2:score "0.75914264"^^xsd:float ;
+            ns1:answer "1" ;
+            ns1:explain "The lecture covers the fundamental concepts of functional programming, including lambda-calculus, type systems, and programming techniques, which aligns with the Knowledge Unit's topics." ;
+            ns1:ka "Foundations_of_Programming_Languages_FPL" ;
+            ns1:ku "FPL-Functional_Functional_Programming" ;
+            ns3:wasGeneratedBy [ ns3:used "llama3-8b-8192" ] ],
+        [ ns2:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Foundations_of_Programming_Languages_FPL/FPL-Functional_Functional_Programming.txt> ;
+            ns2:score "0.75914264"^^xsd:float ;
+            ns1:answer "1" ;
+            ns1:explain "Lecture covers lambda-calculus, functional programming principles, recursion, higher-order functions, and type systems, aligning with CS Core topics. KA Core elements like closures and metaprogramming are partially addressed through functional programming applications." ;
+            ns1:ka "Foundations_of_Programming_Languages_FPL" ;
+            ns1:ku "FPL-Functional_Functional_Programming" ;
+            ns3:wasGeneratedBy [ ns3:used "qwen-qwq-32b" ] ],
+        [ ns2:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Foundations_of_Programming_Languages_FPL/FPL-Functional_Functional_Programming.txt> ;
+            ns2:score "0.75914264"^^xsd:float ;
+            ns1:answer "0" ;
+            ns1:explain "The lecture covers some aspects of functional programming but lacks coverage of key KU topics like metaprogramming and function closures." ;
+            ns1:ka "Foundations_of_Programming_Languages_FPL" ;
+            ns1:ku "FPL-Functional_Functional_Programming" ;
+            ns3:wasGeneratedBy [ ns3:used "deepseek-r1-distill-llama-70b" ] ],
+        [ ns2:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Foundations_of_Programming_Languages_FPL/FPL-Formalism_Formal_Semantics.txt> ;
+            ns2:score "0.7308879"^^xsd:float ;
+            ns1:answer "1" ;
+            ns1:explain "The lecture covers the fundamentals of functional programming, lambda-calculus, type systems, and programming techniques, which aligns with the knowledge unit's topics." ;
+            ns1:ka "Foundations_of_Programming_Languages_FPL" ;
+            ns1:ku "FPL-Formalism_Formal_Semantics" ;
+            ns3:wasGeneratedBy [ ns3:used "llama3-8b-8192" ] ] .
+
+ns1:X32I030_RO ns2:to [ ns2:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Mathematical_and_Statistical_Foundations_MSF/MSF-Linear_Linear_Algebra.txt> ;
+            ns2:score "0.6789106"^^xsd:float ;
+            ns1:answer "0" ;
+            ns1:explain "Lecture focuses on operational research applications (LP, graph theory, project management), while KU emphasizes linear algebra theory (matrices, eigenvalues, PCA/SVD) not substantially covered." ;
+            ns1:ka "Mathematical_and_Statistical_Foundations_MSF" ;
+            ns1:ku "MSF-Linear_Linear_Algebra" ;
+            ns3:wasGeneratedBy [ ns3:used "qwen-qwq-32b" ] ],
+        [ ns2:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Mathematical_and_Statistical_Foundations_MSF/MSF-Linear_Linear_Algebra.txt> ;
+            ns2:score "0.6789106"^^xsd:float ;
+            ns1:answer "1" ;
+            ns1:explain "The lecture covers a significant portion of the KU, including topics such as linear programming, graph theory, and sensitivity analysis, which align with the KU's focus on operational research and its applications." ;
+            ns1:ka "Mathematical_and_Statistical_Foundations_MSF" ;
+            ns1:ku "MSF-Linear_Linear_Algebra" ;
+            ns3:wasGeneratedBy [ ns3:used "llama3-8b-8192" ] ],
+        [ ns2:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Algorithmic_Foundations_AL/AL-SEP_Society_Ethics_and_the_Profession.txt> ;
+            ns2:score "0.6656099"^^xsd:float ;
+            ns1:answer "0" ;
+            ns1:explain "Lecture focuses on technical OR methods (LP, graph theory), while KU requires ethics, privacy, sustainability, and algorithmic fairness not covered." ;
+            ns1:ka "Algorithmic_Foundations_AL" ;
+            ns1:ku "AL-SEP_Society_Ethics_and_the_Profession" ;
+            ns3:wasGeneratedBy [ ns3:used "qwen-qwq-32b" ] ],
+        [ ns2:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Mathematical_and_Statistical_Foundations_MSF/MSF-Linear_Linear_Algebra.txt> ;
+            ns2:score "0.67927516"^^xsd:float ;
+            ns1:answer "0" ;
+            ns1:explain "The lecture focuses on operational research and linear programming, missing key linear algebra topics like vectors, matrices, and eigenvectors covered in the KU." ;
+            ns1:ka "Mathematical_and_Statistical_Foundations_MSF" ;
+            ns1:ku "MSF-Linear_Linear_Algebra" ;
+            ns3:wasGeneratedBy [ ns3:used "deepseek-r1-distill-llama-70b" ] ],
+        [ ns2:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Mathematical_and_Statistical_Foundations_MSF/MSF-Linear_Linear_Algebra.txt> ;
+            ns2:score "0.67927516"^^xsd:float ;
+            ns1:answer "1" ;
+            ns1:explain "The lecture covers a significant portion of the KU, including topics such as linear programming, graph theory, and sensitivity analysis, which align with the KU's focus on operational research and its applications." ;
+            ns1:ka "Mathematical_and_Statistical_Foundations_MSF" ;
+            ns1:ku "MSF-Linear_Linear_Algebra" ;
+            ns3:wasGeneratedBy [ ns3:used "llama3-8b-8192" ] ],
+        [ ns2:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Mathematical_and_Statistical_Foundations_MSF/MSF-Linear_Linear_Algebra.txt> ;
+            ns2:score "0.67927516"^^xsd:float ;
+            ns1:answer "0" ;
+            ns1:explain "Lecture focuses on operational research applications (LP, graph theory, project management), while KU emphasizes linear algebra theory (matrices, eigenvalues, PCA/SVD) not substantially covered." ;
+            ns1:ka "Mathematical_and_Statistical_Foundations_MSF" ;
+            ns1:ku "MSF-Linear_Linear_Algebra" ;
+            ns3:wasGeneratedBy [ ns3:used "qwen-qwq-32b" ] ],
+        [ ns2:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Algorithmic_Foundations_AL/AL-SEP_Society_Ethics_and_the_Profession.txt> ;
+            ns2:score "0.6656099"^^xsd:float ;
+            ns1:answer "0" ;
+            ns1:explain "The lecture does not cover societal, ethical, or sustainability aspects of algorithms." ;
+            ns1:ka "Algorithmic_Foundations_AL" ;
+            ns1:ku "AL-SEP_Society_Ethics_and_the_Profession" ;
+            ns3:wasGeneratedBy [ ns3:used "deepseek-r1-distill-llama-70b" ] ],
+        [ ns2:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Mathematical_and_Statistical_Foundations_MSF/MSF-Linear_Linear_Algebra.txt> ;
+            ns2:score "0.6789106"^^xsd:float ;
+            ns1:answer "0" ;
+            ns1:explain "The lecture focuses on operational research and linear programming, missing key linear algebra topics like vectors, matrices, and eigenvectors covered in the KU." ;
+            ns1:ka "Mathematical_and_Statistical_Foundations_MSF" ;
+            ns1:ku "MSF-Linear_Linear_Algebra" ;
+            ns3:wasGeneratedBy [ ns3:used "deepseek-r1-distill-llama-70b" ] ],
+        [ ns2:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Algorithmic_Foundations_AL/AL-SEP_Society_Ethics_and_the_Profession.txt> ;
+            ns2:score "0.6656099"^^xsd:float ;
+            ns1:answer "1" ;
+            ns1:explain "The lecture covers a significant portion of the KU, including topics such as linear programming, graph theory, and sensitivity analysis, which align with the KU's focus on operational research and its applications." ;
+            ns1:ka "Algorithmic_Foundations_AL" ;
+            ns1:ku "AL-SEP_Society_Ethics_and_the_Profession" ;
+            ns3:wasGeneratedBy [ ns3:used "llama3-8b-8192" ] ] .
+
+ns1:X32I040_BD ns2:to [ ns2:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Date_Management_DM/DM-Core_Core_Database_System_Concepts.txt> ;
+            ns2:score "0.65633583"^^xsd:float ;
+            ns1:answer "1" ;
+            ns1:explain "The lecture covers a significant portion of the Knowledge Unit, including database design, query optimization, transaction management, and data modeling, which aligns with the course topic and learning outcomes." ;
+            ns1:ka "Date_Management_DM" ;
+            ns1:ku "DM-Core_Core_Database_System_Concepts" ;
+            ns3:wasGeneratedBy [ ns3:used "llama3-8b-8192" ] ],
+        [ ns2:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Date_Management_DM/DM-Internals_DBMS_Internals.txt> ;
+            ns2:score "0.6694447"^^xsd:float ;
+            ns1:answer "1" ;
+            ns1:explain "The lecture covers the fundamental concepts of database systems, including data modeling, database design, query optimization, transaction management, and concurrency control, which aligns with the Knowledge Unit's topics." ;
+            ns1:ka "Date_Management_DM" ;
+            ns1:ku "DM-Internals_DBMS_Internals" ;
+            ns3:wasGeneratedBy [ ns3:used "llama3-8b-8192" ] ],
+        [ ns2:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Date_Management_DM/DM-Internals_DBMS_Internals.txt> ;
+            ns2:score "0.6694447"^^xsd:float ;
+            ns1:answer "1" ;
+            ns1:explain "Covers transactions, concurrency, and recovery but lacks buffer management details." ;
+            ns1:ka "Date_Management_DM" ;
+            ns1:ku "DM-Internals_DBMS_Internals" ;
+            ns3:wasGeneratedBy [ ns3:used "qwen-qwq-32b" ] ],
+        [ ns2:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Date_Management_DM/DM-Internals_DBMS_Internals.txt> ;
+            ns2:score "0.6694447"^^xsd:float ;
+            ns1:answer "0" ;
+            ns1:explain "The lecture covers some aspects of the KU but lacks detailed coverage of specific topics like ACID properties and recovery techniques." ;
+            ns1:ka "Date_Management_DM" ;
+            ns1:ku "DM-Internals_DBMS_Internals" ;
+            ns3:wasGeneratedBy [ ns3:used "deepseek-r1-distill-llama-70b" ] ],
+        [ ns2:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Date_Management_DM/DM-Core_Core_Database_System_Concepts.txt> ;
+            ns2:score "0.6446192"^^xsd:float ;
+            ns1:answer "1" ;
+            ns1:explain "Lecture covers core topics like transaction management, normalization, architecture, and query optimization, aligning with most KU requirements. Missing specifics on MapReduce/distributed systems but covers foundational areas thoroughly." ;
+            ns1:ka "Date_Management_DM" ;
+            ns1:ku "DM-Core_Core_Database_System_Concepts" ;
+            ns3:wasGeneratedBy [ ns3:used "qwen-qwq-32b" ] ],
+        [ ns2:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Date_Management_DM/DM-Core_Core_Database_System_Concepts.txt> ;
+            ns2:score "0.65633583"^^xsd:float ;
+            ns1:answer "1" ;
+            ns1:explain "The lecture covers a large subset of the KU, including database design, transactions, normalization, and query optimization, but lacks depth on some specific topics like MapReduce and distributed databases." ;
+            ns1:ka "Date_Management_DM" ;
+            ns1:ku "DM-Core_Core_Database_System_Concepts" ;
+            ns3:wasGeneratedBy [ ns3:used "deepseek-r1-distill-llama-70b" ] ],
+        [ ns2:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Date_Management_DM/DM-Core_Core_Database_System_Concepts.txt> ;
+            ns2:score "0.6446192"^^xsd:float ;
+            ns1:answer "1" ;
+            ns1:explain "The lecture covers a large subset of the KU, including database design, transactions, normalization, and query optimization, but lacks depth on some specific topics like MapReduce and distributed databases." ;
+            ns1:ka "Date_Management_DM" ;
+            ns1:ku "DM-Core_Core_Database_System_Concepts" ;
+            ns3:wasGeneratedBy [ ns3:used "deepseek-r1-distill-llama-70b" ] ],
+        [ ns2:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Date_Management_DM/DM-Core_Core_Database_System_Concepts.txt> ;
+            ns2:score "0.65633583"^^xsd:float ;
+            ns1:answer "1" ;
+            ns1:explain "Lecture covers core topics like transaction management, normalization, architecture, and query optimization, aligning with most KU requirements. Missing specifics on MapReduce/distributed systems but covers foundational areas thoroughly." ;
+            ns1:ka "Date_Management_DM" ;
+            ns1:ku "DM-Core_Core_Database_System_Concepts" ;
+            ns3:wasGeneratedBy [ ns3:used "qwen-qwq-32b" ] ],
+        [ ns2:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Date_Management_DM/DM-Core_Core_Database_System_Concepts.txt> ;
+            ns2:score "0.6446192"^^xsd:float ;
+            ns1:answer "1" ;
+            ns1:explain "The lecture covers a significant portion of the Knowledge Unit, including database design, query optimization, transaction management, and data modeling, which aligns with the course topic and learning outcomes." ;
+            ns1:ka "Date_Management_DM" ;
+            ns1:ku "DM-Core_Core_Database_System_Concepts" ;
+            ns3:wasGeneratedBy [ ns3:used "llama3-8b-8192" ] ] .
+

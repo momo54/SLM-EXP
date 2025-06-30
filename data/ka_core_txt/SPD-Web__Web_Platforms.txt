@@ -1,0 +1,10 @@
+Title: SPD-Web: Web Platforms
+
+KA Core:
+1. Web programming languages (e.g., HTML5, JavaScript, PHP, CSS)
+2. Web platforms, frameworks, or meta-frameworks
+a. Cloud services
+b. API, Web Components
+3. Software as a Service (SaaS)
+4. Web standards such as document object model, accessibility (See also: HCI-Accessibility)
+5. Security and Privacy Considerations (See also: SEP-Security)

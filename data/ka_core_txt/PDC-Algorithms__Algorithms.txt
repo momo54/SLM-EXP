@@ -1,0 +1,19 @@
+Title: PDC-Algorithms: Algorithms
+
+KA Core:
+3. One of more of the following algorithmic domains. (See also: AL-Strategies):
+a. Linear algebra: Vector and matrix operations, numerical precision/stability, applications in
+data analytics and machine learning.
+b. Data processing: sorting, searching and retrieval, concurrent data structures.
+c. Graphs, search, and combinatorics: Marking, edge-parallelization, bounding, speculation,
+network-based analytics.
+d. Modeling and simulation: differential equations; randomization, N-body problems, genetic
+algorithms.
+e. Computational logic: satisfiability (SAT), concurrent logic programming.
+f. Graphics and computational geometry: Transforms, rendering, ray-tracing.
+g. Resource management: Allocating, placing, recycling and scheduling processors, memory,
+channels, and hosts; exclusive vs shared resources; static, dynamic and elastic algorithms;
+Real-time constraints; Batching, prioritization, partitioning; decentralization via work-stealing
+and related techniques.
+h. Services: Implementing web APIs, electronic currency, transaction systems, multiplayer
+games.

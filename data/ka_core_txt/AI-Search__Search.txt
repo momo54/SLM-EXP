@@ -1,0 +1,11 @@
+Title: AI-Search: Search
+
+KA Core:
+5. Bidirectional search
+6. Beam search
+7. Two-player adversarial games
+a. Minimax search
+b. Alpha-beta pruning
+i. Ply cutoff
+8. Implementation of A* search
+9. Constraint satisfaction

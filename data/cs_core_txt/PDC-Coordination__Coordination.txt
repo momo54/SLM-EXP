@@ -1,0 +1,23 @@
+Title: PDC-Coordination: Coordination
+
+CS Core:
+1. Dependencies
+a. Initiation or progress of one activity may be dependent on other activities, so as to avoid
+race conditions, ensure termination, or meet other requirements
+b. Ensuring progress by avoiding dependency cycles, using monotonic conditions, removing
+inessential dependencies
+2. Control constructs and design patterns
+a. Completion-based: Barriers, joins, including termination control
+b. Data-enabled: Queues, producer-consumer designs
+c. Condition-based: Polling, retrying, backoffs, helping, suspension, signaling, timeouts
+d. Reactive: Enabling and triggering continuations
+3. Atomicity
+a. Atomic instructions, enforced local access orderings
+b. Locks and mutual exclusion; lock granularity
+c. Using locks in a specific language; maintaining liveness without introducing races
+222
+d. Deadlock avoidance: Ordering, coarsening, randomized retries; backoffs, encapsulation via
+lock managers
+e. Common errors: Failing to lock or unlock when necessary, holding locks while invoking
+unknown operations
+f. Avoiding locks: replication, read-only, ownership, and non-blocking constructions

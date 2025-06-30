@@ -1,0 +1,7 @@
+Title: SF-SEP: Society, Ethics, and the Profession
+
+KA Core:
+1. Intellectual property rights of computer systems (See also: SEP-IP)
+2. Common software licenses (See also: SEP-IP)
+3. Computer crimes (See also: SEP-Security)
+297

@@ -1,0 +1,17 @@
+Title: GIT-Interaction: Interaction
+
+KA Core:
+1. Event Driven Programming (See also: FPL-Event-Driven)
+a. Mouse or touch events
+b. Keyboard events
+c. Voice input
+d. Sensors
+e. Message passing communication
+f. Network events
+2. Graphical User Interface (Single Channel)
+a. Window
+b. Icons
+c. Menus
+d. Pointing Devices
+3. Accessibility (See also: SEP-DEIA)
+162

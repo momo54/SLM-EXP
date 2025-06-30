@@ -1,0 +1,7 @@
+Title: SF-Resource: Resource Management
+
+CS Core:
+1. Different types of resources (e.g., processor share, memory, disk, net bandwidth) (See also: OS-
+Scheduling, OS-Memory, OS-Files, NC-Fundamentals)
+2. Common resource allocation/scheduling algorithms (e.g., first-come-first-serve, priority-based
+scheduling, fair scheduling, and preemptive scheduling) (See also: OS-Scheduling)

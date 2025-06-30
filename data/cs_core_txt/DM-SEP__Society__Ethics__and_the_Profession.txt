@@ -1,0 +1,10 @@
+Title: DM-SEP: Society, Ethics, and the Profession
+
+CS Core:
+1. Issues related to scale (See also: SEP-Economies)
+2. Data privacy overall (See also: SEP-Privacy, SEP-Ethical-Analysis)
+a. Privacy compliance by design (See also: SEP-Privacy)
+3. Data anonymity (See also: SEP-Privacy)
+4. Data ownership/custodianship (See also: SEP-Professional-Ethics)
+5. Intended and unintended applications of stored data (See also: SEP-Professional-Ethics, SEC-
+Foundations)

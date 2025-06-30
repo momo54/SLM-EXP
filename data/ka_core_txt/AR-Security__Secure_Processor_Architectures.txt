@@ -1,0 +1,10 @@
+Title: AR-Security: Secure Processor Architectures
+
+KA Core:
+1. Discuss principles of secure hardware, exploring a framework for risk analysis and asset protection.
+2. Summarize how Physically Unclonable Functions (PUF) can be a unique device identifier in security
+applications.
+3. Distinguish a random number generator with dedicated hardware support from generators without
+hardware dedicated to generating entropy.
+4. List the advantages and disadvantages of memory protection at the ISA level.
+5. Describe key design issues of a trusted execution environment (TEE) to support virtual machines.

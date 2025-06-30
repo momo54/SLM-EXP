@@ -5594,6 +5594,9 @@ Bioinformatique/Biostatistique - Mention Bioinformatique,M1 Conception et réali
         "LABARBE LAURIE" ;
     ex:semester "1" .
 
+@prefix ex: <http://example.org/course/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
 ex:UE_XMS1AU010 a ex:UE ;
     rdfs:label "Anglais scientifique" ;
     ex:bibliography "" ;
@@ -7292,7 +7295,7 @@ ex:UE_XMS2IU200 a ex:UE ;
         "PRZYBYLSKI ANTHONY" ;
     ex:semester "2" .
 
-ex:UE_XMS2IU310 a ex:UE ;
+ex:UE_XMS2IU310 a ex:UE ; 
     rdfs:label "Programmation distribuée" ;
     ex:bibliography "" ;
     ex:code "XMS2IU310" ;

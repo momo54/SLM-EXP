@@ -1,0 +1,1538 @@
+course,courseName,kuList
+http://example.org/course/Advanced_Course,,"• AR-IO: Interfacing and Communication — 1. I/O fundamentals (See also: OS-Devices, PDC-Communication)
+a. Handshaking and buffering
+b. Programmed I/O
+c. Interrupt-driven I/O (See also: OS-Principles)
+2. Interrupt structures: vectored and prioritized, interrupt acknowledgment (See also: OS-Principles)
+3. I/O devices (e.g., mouse, keyboard, display, camera, sensors, actuators) (See also: GIT-
+Fundamentals, GIT-Interaction, OS-Advanced-Files, PDC-Programs)
+4. External storage, physical organization, and drives
+5. Buses fundamentals (See also: OS-Devices)
+a. Bus protocols
+b. Arbitration
+c. Direct-memory access (DMA)
+• NC-Fundamentals: Fundamentals — 1. Importance of networking in contemporary computing, and associated challenges. (See also: SEP-
+Context, SEP-Privacy)
+2. Organization of the internet (e.g., users, Internet Service Providers, autonomous systems, content
+providers, content delivery networks)
+3. Switching techniques (e.g., circuit and packet)
+4. Layers and their roles (application, transport, network, datalink, and physical)
+5. Layering principles (e.g., encapsulation and hourglass model) (See also: SF-Foundations)
+6. Network elements (e.g., routers, switches, hubs, access points, and hosts)
+7. Basic queueing concepts (e.g., relationship with latency, congestion, service levels, etc.)
+• OS-Purpose: Role and Purpose of Operating Systems — 1. Operating systems mediate between general purpose hardware and application-specific software.
+2. Universal operating system functions (e.g., process, user and device interfaces, persistence of
+data)
+3. Extended and/or specialized operating system functions (e.g., embedded systems, server types
+such as file, web, multimedia, boot loaders and boot security)
+4. Design issues (e.g., efficiency, robustness, flexibility, portability, security, compatibility, power,
+safety, tradeoffs between error checking and performance, flexibility and performance, and security
+and performance) (See also: SEC-Engineering)
+5. Influences of security, networking, multimedia, parallel and distributed computing
+6. Overarching concern of security/protection: Neglecting to consider security at every layer creates
+an opportunity to inappropriately access resources.
+Example concepts:
+a. Unauthorized access to files on an unencrypted drive can be achieved by moving the media to
+another computer.
+b. Operating systems enforced security can be defeated by infiltrating the boot layer before the
+operating system is loaded.
+c. Process isolation can be subverted by inadequate authorization checking at API boundaries.
+d. Vulnerabilities in system firmware can provide attack vectors that bypass the operating system
+entirely.
+e. Improper isolation of virtual machine memory, computing, and hardware can expose the host
+system to attacks from guest systems.
+f. The operating system may need to mitigate exploitation of hardware and firmware
+vulnerabilities, leading to potential performance reductions (e.g., Spectre and Meltdown
+mitigations).
+7. Exposure of operating systems functions in shells and systems programming. (See also: FPL-
+Scripting)
+206
+• PDC-Programs: Programs — 1. Graphically show (as a Directed Acyclic Graph (DAG)) how to parallelize a compound numerical
+expression; for example, a = (b + c) * (d + e).
+2. Explain why the concepts of consistency and fault tolerance do not arise in purely sequential
+programs.
+• SF-Design: System Design — 1. Common criteria of system design (e.g., liveness, safety, robustness, scalability, and security) (See
+also: PDC-Evaluation)
+• SF-Overview: Overview of Computer Systems — 1. Basic building blocks and components of a computer (gates, flip-flops, registers, interconnections;
+datapath + control + memory)
+2. Hardware as a computational paradigm: Fundamental logic building blocks; Logic expressions,
+minimization, sum of product forms (See also: AR-Logic)
+3. Programming abstractions, interfaces, use of libraries (See also: PDC-Programs)
+4. Distinction and interaction between application and OS services, remote procedure call (See also:
+OS-Purpose)
+5. Basic concept of pipelining, overlapped processing stages (See also: AR-Organization)
+6. Basic concept of scaling: performance vs problem size
+• SF-Performance: System Performance — 1. Latencies in computer systems
+a. Speed of light and computers (one foot per nanosecond vs one GHz clocks) (See also: AR-
+Organization)
+b. Memory vs disk latencies vs across-the-network memory (See also: AR-Memory, AR-
+Performance-Energy)
+2. Caches and the effects of spatial and temporal locality on performance in processors and systems
+(See also: AR-Memory, AR-Performance-Energy, OS-Memory)
+3. Caches and cache coherency in databases, operating systems, distributed systems, and computer
+architecture (See also: OS-Memory, AR-Memory, DM-Internals)
+4. Introduction to the processor memory hierarchy (See also: AR-Memory, AR-Performance-Energy)
+294
+• SF-Reliability: System Reliability — 1. Distinction between bugs, faults, and failures (See also: PDC-Coordination, SE-Reliability)
+2. Reliability vs availability
+3. Reliability through redundancy
+a. check and retry (See also: OS-Faults, NC-Reliability)
+b. redundant encoding (error correction codes, CRC, FEC, RAID) (See also: AR-Memory, NC-
+Reliability, DM-Distributed)
+c. duplication/mirroring/replicas (See also: DM-Distributed)
+• SF-SEP: Society, Ethics, and the Profession — N/A
+• SF-Security: System Security — 1. Common system security issues (e.g., viruses, denial-of-service attacks, and eavesdropping) (See
+also: OS-Protection, NC-Security, SEC-Foundations, SEC-Engineering)
+2. Countermeasures (See also: OS-Principles, OS-Protection, NC-Security)
+a. Cryptography (See also: SEC-Crypto)
+b. Security architecture (See also: SEC-Engineering)"
+http://example.org/course/Artificial_Intelligence,,"• AI-Introduction: Fundamental Issues — 1. Overview of AI problems, Examples of successful recent AI applications
+2. Definitions of agents with examples (e.g., reactive, deliberative)
+3. What is intelligent behavior?
+a. The Turing test and its flaws
+b. Multimodal input and output
+c. Simulation of intelligent behavior
+d. Rational versus non-rational reasoning
+4. Problem characteristics
+a. Fully versus partially observable
+b. Single versus multi-agent
+c. Deterministic versus stochastic
+d. Static versus dynamic
+e. Discrete versus continuous
+5. Nature of agents
+67
+a. Autonomous, semi-autonomous, mixed-initiative autonomy
+b. Reflexive, goal-based, and utility-based
+c. Decision making under uncertainty and with incomplete information
+d. The importance of perception and environmental interactions
+e. Learning-based agents
+f. Embodied agents
+i. sensors, dynamics, effectors
+6. Overview of AI Applications, growth, and impact (economic, societal, ethics)
+• AI-KRR: Fundamental Knowledge Representation and Reasoning — 1. Types of representations
+a. Symbolic, logical
+i. Creating a representation from a natural language problem statement
+b. Learned subsymbolic representations
+c. Graphical models (e.g., naive Bayes, Bayesian network)
+2. Review of probabilistic reasoning, Bayes theorem (See also: MSF-Probability)
+3. Bayesian reasoning
+a. Bayesian inference
+• AI-ML: Machine Learning — 1. Definition and examples of a broad variety of machine learning tasks
+a. Supervised learning
+i. Classification
+ii. Regression
+b. Reinforcement learning
+c. Unsupervised learning
+i. Clustering
+2. Fundamental ideas:
+a. No free lunch theorem: no one learner can solve all problems; representational design decisions
+have consequences.
+b. Sources of error and undecidability in machine learning
+3. A simple statistical-based supervised learning such as linear regression or decision trees
+a. Focus on how they work without going into mathematical or optimization details; enough to
+understand and use existing implementations correctly
+4. The overfitting problem/controlling solution complexity (regularization, pruning – intuition only)
+a. The bias (underfitting) – variance (overfitting) tradeoff
+5. Working with Data
+a. Data preprocessing
+i. Importance and pitfalls of preprocessing choices
+b. Handling missing values (imputing, flag-as-missing)
+i. Implications of imputing vs flag-as-missing
+c. Encoding categorical variables, encoding real-valued data
+d. Normalization/standardization
+e. Emphasis on real data, not textbook examples
+6. Representations
+a. Hypothesis spaces and complexity
+b. Simple basis feature expansion, such as squaring univariate features
+c. Learned feature representations
+7. Machine learning evaluation
+a. Separation of train, validation, and test sets
+b. Performance metrics for classifiers
+c. Estimation of test performance on held-out data
+d. Tuning the parameters of a machine learning model with a validation set
+e. Importance of understanding what a model is doing, where its pitfalls/shortcomings are, and the
+implications of its decisions
+8. Basic neural networks
+a. Fundamentals of understanding how neural networks work and their training process, without
+details of the calculations
+b. Basic introduction to generative neural networks (e.g., large language models)
+9. Ethics for Machine Learning (See also: SEP-Context)
+a. Focus on real data, real scenarios, and case studies
+b. Dataset/algorithmic/evaluation bias and unintended consequences
+71
+• AI-Probability: Probabilistic Representation and Reasoning — N/A
+• AI-SEP: Applications and Societal Impact — 1. At least one application of AI to a specific problem and field, such as medicine, health,
+sustainability, social media, economics, education, robotics, etc. (choose at least one for the CS
+Core).
+a. Formulating and evaluating a specific application as an AI problem
+i. How to deal with underspecified or ill-posed problems
+b. Data availability/scarcity and cleanliness
+i. Basic data cleaning and preprocessing
+ii. Data set bias
+c. Algorithmic bias
+d. Evaluation bias
+e. Assessment of societal implications of the application
+2. Deployed deep generative models
+a. High-level overview of deep image generative models (e.g., as of 2023, DALL-E, Midjourney,
+Stable Diffusion, etc.), their uses, and their shortcomings/pitfalls.
+b. High-level overview of large language models (e.g., as of 2023, ChatGPT, Bard, etc.), their
+uses, and their shortcomings/pitfalls.
+3. Overview of societal impact of AI
+75
+a. Ethics (See also: SEP-Context)
+b. Fairness (See also: SEP-Privacy, SEP-DEIA)
+c. Trust/explainability (See also: SEP-Context)
+d. Privacy and usage of training data (See also: SEP-Privacy)
+e. Human autonomy and oversight/regulations/legal requirements (See also: SEP-Context)
+f. Sustainability (See also: SEP-Sustainability)
+• AI-Search: Search — 1. State space representation of a problem
+a. Specifying states, goals, and operators
+b. Factoring states into representations (hypothesis spaces)
+c. Problem solving by graph search
+i. e.g., Graphs as a space, and tree traversals as exploration of that space
+ii. Dynamic construction of the graph (not given upfront)
+2. Uninformed graph search for problem solving (See also: AL-Foundational)
+a. Breadth-first search
+b. Depth-first search
+i. With iterative deepening
+c. Uniform cost search
+3. Heuristic graph search for problem solving (See also: AL-Strategies)
+a. Heuristic construction and admissibility
+b. Hill-climbing
+c. Local minima and the search landscape
+i. Local vs global solutions
+d. Greedy best-first search
+e. A* search
+68
+4. Space and time complexities of graph search algorithms"
+http://example.org/course/Computer_Animation,,"• GIT-Animation: Computer Animation — N/A
+• SEP-Privacy: Privacy and Civil Liberties — 1. Privacy implications of widespread data collection including but not limited to transactional
+databases, data warehouses, surveillance systems, cloud computing, and artificial intelligence
+2. Conceptions of anonymity, pseudonymity, and identity
+3. Technology-based solutions for privacy protection (e.g., end-to-end encryption and differential
+privacy)
+4. Civil liberties, privacy rights, and cultural differences"
+http://example.org/course/Computer_Architecture_-_Advanced_Topics_Course,,"• AR-Assembly: Assembly Level Machine Organization — 1. von Neumann machine architecture
+2. Control unit: instruction fetch, decode, and execution (See also: OS-Principles)
+3. Introduction to SIMD vs MIMD and the Flynn taxonomy (See also: PDC-Programs, OS-Scheduling,
+OS-Process)
+103
+4. Shared memory multiprocessors/multicore organization (See also: PDC-Programs, OS-Scheduling)
+• AR-Heterogeneity: Heterogeneous Architectures — N/A
+• AR-IO: Interfacing and Communication — 1. I/O fundamentals (See also: OS-Devices, PDC-Communication)
+a. Handshaking and buffering
+b. Programmed I/O
+c. Interrupt-driven I/O (See also: OS-Principles)
+2. Interrupt structures: vectored and prioritized, interrupt acknowledgment (See also: OS-Principles)
+3. I/O devices (e.g., mouse, keyboard, display, camera, sensors, actuators) (See also: GIT-
+Fundamentals, GIT-Interaction, OS-Advanced-Files, PDC-Programs)
+4. External storage, physical organization, and drives
+5. Buses fundamentals (See also: OS-Devices)
+a. Bus protocols
+b. Arbitration
+c. Direct-memory access (DMA)
+• AR-Logic: Digital Logic and Digital Systems — N/A
+• AR-Memory: Memory Hierarchy — 1. Memory hierarchy: the importance of temporal and spatial locality (See also: SF-Performance, OS-
+Memory)
+2. Main memory organization and operations (See also: OS-Memory)
+3. Persistent memory (e.g., SSD, standard disks)
+4. Latency, cycle time, bandwidth, and interleaving (See also: SF-Performance)
+5. Cache memories (See also: SF-Performance)
+a. Address mapping
+b. Block size
+104
+c. Replacement and store policy
+d. Prefetching
+6. Multiprocessor cache coherence (See also: OS-Scheduling)
+7. Virtual memory (hardware support) (See also: OS-Memory)
+8. Fault handling and reliability (See also: SF-Reliability)
+9. Reliability (See also: SF-Reliability, OS-Faults)
+a. Error coding
+b. Data compression
+c. Data integrity
+• /example.org/bok/AR-Performance — N/A
+• AR-Quantum: Quantum Architectures — N/A
+• AR-Representation: Machine-Level Data Representation — 1. Overview and history of computer architecture (See also: SPD-Game)
+2. Bits, bytes, and words
+3. Unsigned, signed and two’s complement representations
+4. Numeric data representation and number bases
+a. Fixed-point
+b. Floating-point
+5. Representation of non-numeric data
+6. Representation of records, arrays and UTF data types (See also: AL-Foundational)
+• AR-Security: Secure Processor Architectures — N/A
+• SF-Performance: System Performance — 1. Latencies in computer systems
+a. Speed of light and computers (one foot per nanosecond vs one GHz clocks) (See also: AR-
+Organization)
+b. Memory vs disk latencies vs across-the-network memory (See also: AR-Memory, AR-
+Performance-Energy)
+2. Caches and the effects of spatial and temporal locality on performance in processors and systems
+(See also: AR-Memory, AR-Performance-Energy, OS-Memory)
+3. Caches and cache coherency in databases, operating systems, distributed systems, and computer
+architecture (See also: OS-Memory, AR-Memory, DM-Internals)
+4. Introduction to the processor memory hierarchy (See also: AR-Memory, AR-Performance-Energy)
+294"
+http://example.org/course/Computer_Architecture_-_Introductory_Course,,"• AR-Assembly: Assembly Level Machine Organization — 1. von Neumann machine architecture
+2. Control unit: instruction fetch, decode, and execution (See also: OS-Principles)
+3. Introduction to SIMD vs MIMD and the Flynn taxonomy (See also: PDC-Programs, OS-Scheduling,
+OS-Process)
+103
+4. Shared memory multiprocessors/multicore organization (See also: PDC-Programs, OS-Scheduling)
+• AR-Heterogeneity: Heterogeneous Architectures — N/A
+• AR-IO: Interfacing and Communication — 1. I/O fundamentals (See also: OS-Devices, PDC-Communication)
+a. Handshaking and buffering
+b. Programmed I/O
+c. Interrupt-driven I/O (See also: OS-Principles)
+2. Interrupt structures: vectored and prioritized, interrupt acknowledgment (See also: OS-Principles)
+3. I/O devices (e.g., mouse, keyboard, display, camera, sensors, actuators) (See also: GIT-
+Fundamentals, GIT-Interaction, OS-Advanced-Files, PDC-Programs)
+4. External storage, physical organization, and drives
+5. Buses fundamentals (See also: OS-Devices)
+a. Bus protocols
+b. Arbitration
+c. Direct-memory access (DMA)
+• AR-Memory: Memory Hierarchy — 1. Memory hierarchy: the importance of temporal and spatial locality (See also: SF-Performance, OS-
+Memory)
+2. Main memory organization and operations (See also: OS-Memory)
+3. Persistent memory (e.g., SSD, standard disks)
+4. Latency, cycle time, bandwidth, and interleaving (See also: SF-Performance)
+5. Cache memories (See also: SF-Performance)
+a. Address mapping
+b. Block size
+104
+c. Replacement and store policy
+d. Prefetching
+6. Multiprocessor cache coherence (See also: OS-Scheduling)
+7. Virtual memory (hardware support) (See also: OS-Memory)
+8. Fault handling and reliability (See also: SF-Reliability)
+9. Reliability (See also: SF-Reliability, OS-Faults)
+a. Error coding
+b. Data compression
+c. Data integrity
+• AR-Representation: Machine-Level Data Representation — 1. Overview and history of computer architecture (See also: SPD-Game)
+2. Bits, bytes, and words
+3. Unsigned, signed and two’s complement representations
+4. Numeric data representation and number bases
+a. Fixed-point
+b. Floating-point
+5. Representation of non-numeric data
+6. Representation of records, arrays and UTF data types (See also: AL-Foundational)
+• OS-Memory: Memory Management — N/A
+• PDC-Programs: Programs — 1. Graphically show (as a Directed Acyclic Graph (DAG)) how to parallelize a compound numerical
+expression; for example, a = (b + c) * (d + e).
+2. Explain why the concepts of consistency and fault tolerance do not arise in purely sequential
+programs.
+• /example.org/bok/SEP-Ethical — N/A
+• SEP-History: Computing History — 1. The history of computing: hardware, software, and human/organizational.
+2. The role of history in the present including within different social contexts, and the relevance of this
+history on the future."
+http://example.org/course/Data_Visualization,,"• GIT-Fundamentals: Fundamental Concepts — 1. Uses of computer graphics and interactive techniques and their potential risks and abuses.
+a. Entertainment, business, and scientific applications: e.g., visual effects, generative imagery,
+computer vision, machine learning, user interfaces, video editing, games and game engines,
+computer-aided design and manufacturing, data visualization, and virtual/augmented/mixed
+reality
+b. Intellectual property, deep fakes, facial recognition, privacy (See also: SEP-DEIA, SEP-Privacy,
+SEP-IP, SEP-Professional-Ethics)
+2. Graphic output
+a. Displays (e.g., LCD)
+b. Printers
+c. Analog film
+d. Concepts
+i. Resolution (e.g., pixels, dots)
+ii. Aspect ratio
+iii. Frame rate
+3. Human vision system
+a. Tristimulus reception (RGB)
+b. Eye as a camera (projection)
+c. Persistence of vision (frame rate, motion blur)
+d. Contrast (detection, Mach banding, dithering/aliasing)
+e. Non-linear response (dynamic range, tone mapping)
+f. Binocular vision (stereo)
+g. Accessibility (color deficiency, strobing, monocular vision, etc.) (See also: SEP-DEIA, HCI-User)
+4. Standard image formats
+a. Raster
+i. Lossless (e.g., TIF)
+ii. Lossy (e.g., JPG, GIF, etc.)
+b. Vector (e.g., SVG, Adobe Illustrator)
+5. Digitization of analog data
+a. Rasterization
+b. Resolution
+c. Sampling and quantization
+6. Color models: additive (RGB), subtractive (CMYK), and color perception (HSV)
+7. Tradeoffs between storing image data and re-computing image data
+8. Spatialization: coordinate systems, absolute and relative positioning
+9. Animation as a sequence of still images
+155
+• GIT-Interaction: Interaction — N/A
+• GIT-Visualization: Visualization — N/A
+• HCI-Design: System Design — 1. Prototyping techniques and tools
+a. Low-fidelity prototyping
+b. Rapid prototyping
+c. Throw-away prototyping
+179
+d. Granularity of prototyping
+2. Design patterns
+a. Iterative design
+b. Universal design (See also: SEP-DEIA)
+c. Interaction design (e.g., data-driven design, event-driven design)
+3. Design constraints
+a. Platforms (See also: SPD-Game)
+b. Devices
+c. Resources
+d. Balance among usability, security and privacy (See also: SEC-Foundations)
+• HCI-User: Understanding the User: Individual goals and interactions with others — 1. User-centered design and evaluation methods. (See also: SEP-Context, SEP-Ethical-Analysis,
+SEP-Professional-Ethics)
+a. “You are not the users”
+b. User needs-finding
+c. Formative studies
+d. Interviews
+e. Surveys
+f. Usability tests
+• SEP-Privacy: Privacy and Civil Liberties — 1. Privacy implications of widespread data collection including but not limited to transactional
+databases, data warehouses, surveillance systems, cloud computing, and artificial intelligence
+2. Conceptions of anonymity, pseudonymity, and identity
+3. Technology-based solutions for privacy protection (e.g., end-to-end encryption and differential
+privacy)
+4. Civil liberties, privacy rights, and cultural differences"
+http://example.org/course/Game_Development_Course,,"• AL-Foundational: Foundational Data Structures and Algorithms — N/A
+• GIT-Interaction: Interaction — N/A
+• GIT-Rendering: Applied Rendering and Techniques — N/A
+• HCI-Design: System Design — 1. Prototyping techniques and tools
+a. Low-fidelity prototyping
+b. Rapid prototyping
+c. Throw-away prototyping
+179
+d. Granularity of prototyping
+2. Design patterns
+a. Iterative design
+b. Universal design (See also: SEP-DEIA)
+c. Interaction design (e.g., data-driven design, event-driven design)
+3. Design constraints
+a. Platforms (See also: SPD-Game)
+b. Devices
+c. Resources
+d. Balance among usability, security and privacy (See also: SEC-Foundations)
+• HCI-User: Understanding the User: Individual goals and interactions with others — 1. User-centered design and evaluation methods. (See also: SEP-Context, SEP-Ethical-Analysis,
+SEP-Professional-Ethics)
+a. “You are not the users”
+b. User needs-finding
+c. Formative studies
+d. Interviews
+e. Surveys
+f. Usability tests
+• SDF-Practices: Software Development Practices — N/A
+• SE-Design: Software Design — 1. System design principles. (See also: SF-Reliability)
+a. Levels of abstraction (e.g., architectural design and detailed design)
+b. Separation of concerns
+c. Information hiding
+d. Coupling and cohesion
+2. Software architecture. (See also: SF-Reliability)
+a. Design paradigms
+i. Top-down functional decomposition/layered design
+ii. Data-oriented architecture
+iii. Object-oriented analysis and design
+iv. Event-driven design
+b. Standard architectures (e.g., client-server and microservice architectures including REST
+discussions, n-layer, pipes-and-filters, Model View Controller)
+c. Identifying component boundaries and dependencies
+3. Programming in the large vs programming in the small. (See also: SF-Reliability)
+4. Code smells and other indications of code quality, distinct from correctness. (See also: SEC-
+Engineering)
+• SE-Tools: Tools and Environments — 1. Software configuration management and version control: (See also: SDF-Practices)
+a. Configuration in version control, reproducible builds/configuration.
+b. Version control branching strategies. Development branches vs release branches. Trunk-based
+development.
+c. Merging/rebasing strategies, when relevant.
+• SPD-Game: Game Platforms — N/A
+• /example.org/bok/SPD-SEP — N/A"
+http://example.org/course/Image_Processing,,"• GIT-Image: Image Processing — N/A
+• GIT-Interaction: Interaction — N/A
+• SEP-Privacy: Privacy and Civil Liberties — 1. Privacy implications of widespread data collection including but not limited to transactional
+databases, data warehouses, surveillance systems, cloud computing, and artificial intelligence
+2. Conceptions of anonymity, pseudonymity, and identity
+3. Technology-based solutions for privacy protection (e.g., end-to-end encryption and differential
+privacy)
+4. Civil liberties, privacy rights, and cultural differences"
+http://example.org/course/Interactive_Computer_Graphics,,"• GIT-Interaction: Interaction — N/A
+• GIT-Modeling: Geometric Modeling — N/A
+• GIT-Rendering: Applied Rendering and Techniques — N/A
+• /example.org/bok/SEP-Professional — N/A"
+http://example.org/course/Introduction_to_AR_and_VR,,"• GIT-Fundamentals: Fundamental Concepts — 1. Uses of computer graphics and interactive techniques and their potential risks and abuses.
+a. Entertainment, business, and scientific applications: e.g., visual effects, generative imagery,
+computer vision, machine learning, user interfaces, video editing, games and game engines,
+computer-aided design and manufacturing, data visualization, and virtual/augmented/mixed
+reality
+b. Intellectual property, deep fakes, facial recognition, privacy (See also: SEP-DEIA, SEP-Privacy,
+SEP-IP, SEP-Professional-Ethics)
+2. Graphic output
+a. Displays (e.g., LCD)
+b. Printers
+c. Analog film
+d. Concepts
+i. Resolution (e.g., pixels, dots)
+ii. Aspect ratio
+iii. Frame rate
+3. Human vision system
+a. Tristimulus reception (RGB)
+b. Eye as a camera (projection)
+c. Persistence of vision (frame rate, motion blur)
+d. Contrast (detection, Mach banding, dithering/aliasing)
+e. Non-linear response (dynamic range, tone mapping)
+f. Binocular vision (stereo)
+g. Accessibility (color deficiency, strobing, monocular vision, etc.) (See also: SEP-DEIA, HCI-User)
+4. Standard image formats
+a. Raster
+i. Lossless (e.g., TIF)
+ii. Lossy (e.g., JPG, GIF, etc.)
+b. Vector (e.g., SVG, Adobe Illustrator)
+5. Digitization of analog data
+a. Rasterization
+b. Resolution
+c. Sampling and quantization
+6. Color models: additive (RGB), subtractive (CMYK), and color perception (HSV)
+7. Tradeoffs between storing image data and re-computing image data
+8. Spatialization: coordinate systems, absolute and relative positioning
+9. Animation as a sequence of still images
+155
+• /example.org/bok/GIT-Immersive — N/A
+• /example.org/bok/GIT-Interactive — N/A
+• SEP-Privacy: Privacy and Civil Liberties — 1. Privacy implications of widespread data collection including but not limited to transactional
+databases, data warehouses, surveillance systems, cloud computing, and artificial intelligence
+2. Conceptions of anonymity, pseudonymity, and identity
+3. Technology-based solutions for privacy protection (e.g., end-to-end encryption and differential
+privacy)
+4. Civil liberties, privacy rights, and cultural differences"
+http://example.org/course/Introduction_to_Data_Science,,"• AI-ML: Machine Learning — 1. Definition and examples of a broad variety of machine learning tasks
+a. Supervised learning
+i. Classification
+ii. Regression
+b. Reinforcement learning
+c. Unsupervised learning
+i. Clustering
+2. Fundamental ideas:
+a. No free lunch theorem: no one learner can solve all problems; representational design decisions
+have consequences.
+b. Sources of error and undecidability in machine learning
+3. A simple statistical-based supervised learning such as linear regression or decision trees
+a. Focus on how they work without going into mathematical or optimization details; enough to
+understand and use existing implementations correctly
+4. The overfitting problem/controlling solution complexity (regularization, pruning – intuition only)
+a. The bias (underfitting) – variance (overfitting) tradeoff
+5. Working with Data
+a. Data preprocessing
+i. Importance and pitfalls of preprocessing choices
+b. Handling missing values (imputing, flag-as-missing)
+i. Implications of imputing vs flag-as-missing
+c. Encoding categorical variables, encoding real-valued data
+d. Normalization/standardization
+e. Emphasis on real data, not textbook examples
+6. Representations
+a. Hypothesis spaces and complexity
+b. Simple basis feature expansion, such as squaring univariate features
+c. Learned feature representations
+7. Machine learning evaluation
+a. Separation of train, validation, and test sets
+b. Performance metrics for classifiers
+c. Estimation of test performance on held-out data
+d. Tuning the parameters of a machine learning model with a validation set
+e. Importance of understanding what a model is doing, where its pitfalls/shortcomings are, and the
+implications of its decisions
+8. Basic neural networks
+a. Fundamentals of understanding how neural networks work and their training process, without
+details of the calculations
+b. Basic introduction to generative neural networks (e.g., large language models)
+9. Ethics for Machine Learning (See also: SEP-Context)
+a. Focus on real data, real scenarios, and case studies
+b. Dataset/algorithmic/evaluation bias and unintended consequences
+71
+• AI-SEP: Applications and Societal Impact — 1. At least one application of AI to a specific problem and field, such as medicine, health,
+sustainability, social media, economics, education, robotics, etc. (choose at least one for the CS
+Core).
+a. Formulating and evaluating a specific application as an AI problem
+i. How to deal with underspecified or ill-posed problems
+b. Data availability/scarcity and cleanliness
+i. Basic data cleaning and preprocessing
+ii. Data set bias
+c. Algorithmic bias
+d. Evaluation bias
+e. Assessment of societal implications of the application
+2. Deployed deep generative models
+a. High-level overview of deep image generative models (e.g., as of 2023, DALL-E, Midjourney,
+Stable Diffusion, etc.), their uses, and their shortcomings/pitfalls.
+b. High-level overview of large language models (e.g., as of 2023, ChatGPT, Bard, etc.), their
+uses, and their shortcomings/pitfalls.
+3. Overview of societal impact of AI
+75
+a. Ethics (See also: SEP-Context)
+b. Fairness (See also: SEP-Privacy, SEP-DEIA)
+c. Trust/explainability (See also: SEP-Context)
+d. Privacy and usage of training data (See also: SEP-Privacy)
+e. Human autonomy and oversight/regulations/legal requirements (See also: SEP-Context)
+f. Sustainability (See also: SEP-Sustainability)
+• DM-Analytics: Data Analytics — N/A
+• DM-Core: Core Database System Concepts — 1. Purpose and advantages of database systems
+2. Components of database systems
+115
+3. Design of core DBMS functions (e.g., query mechanisms, transaction management, buffer
+management, access methods)
+4. Database architecture, data independence, and data abstraction
+5. Transaction management
+6. Normalization
+7. Approaches for managing large volumes of data (e.g., NoSQL database systems, use of
+MapReduce) (See also: PDC-Algorithms)
+8. How to support CRUD-only applications
+9. Distributed databases/cloud-based systems
+10. Structured, semi-structured, and unstructured data
+11. Use of a declarative query language
+• DM-Modeling: Data Modeling — 1. Data modeling (See also: SE-Requirements)
+2. Relational data model (See also: MSF-Discrete)
+• DM-NoSQL: NoSQL Systems — N/A
+• DM-Querying: Query Construction — 1. SQL Query Formation
+a. Interactive SQL execution
+b. Programmatic execution of an SQL query
+• DM-SEP: Society, Ethics, and the Profession — 1. Issues related to scale (See also: SEP-Economies)
+2. Data privacy overall (See also: SEP-Privacy, SEP-Ethical-Analysis)
+a. Privacy compliance by design (See also: SEP-Privacy)
+3. Data anonymity (See also: SEP-Privacy)
+4. Data ownership/custodianship (See also: SEP-Professional-Ethics)
+5. Intended and unintended applications of stored data (See also: SEP-Professional-Ethics, SEC-
+Foundations)
+• DM-Security: Data Security and Privacy — 1. Differences between data security and data privacy (See also: SEC-Foundations)
+2. Protecting data and database systems from attacks, including injection attacks such as SQL
+injection (See also: SEC-Foundations)
+3. Personally identifying information (PII) and its protection (See also: SEC-Foundations, SEP-
+Security, SEP-Privacy)
+4. Ethical considerations in ensuring the security and privacy of data (See also: SEC-SEP, SEP-
+Ethical-Analysis, SEP-Security, SEP-Privacy)
+• GIT-SEP: Society, Ethics, and the Profession — N/A
+• GIT-Visualization: Visualization — N/A
+• MSF-Statistics: Statistics — 1. Basic definitions and concepts: populations, samples, measures of central tendency, variance
+2. Univariate data: point estimation, confidence intervals"
+http://example.org/course/Introduction_to_Data_Visualization,,"• GIT-Rendering: Applied Rendering and Techniques — N/A
+• GIT-Visualization: Visualization — N/A
+• HCI-User: Understanding the User: Individual goals and interactions with others — 1. User-centered design and evaluation methods. (See also: SEP-Context, SEP-Ethical-Analysis,
+SEP-Professional-Ethics)
+a. “You are not the users”
+b. User needs-finding
+c. Formative studies
+d. Interviews
+e. Surveys
+f. Usability tests
+• SEP-Privacy: Privacy and Civil Liberties — 1. Privacy implications of widespread data collection including but not limited to transactional
+databases, data warehouses, surveillance systems, cloud computing, and artificial intelligence
+2. Conceptions of anonymity, pseudonymity, and identity
+3. Technology-based solutions for privacy protection (e.g., end-to-end encryption and differential
+privacy)
+4. Civil liberties, privacy rights, and cultural differences"
+http://example.org/course/Introduction_to_Special_Platform_Development_Course,,"• FPL-Scripting: Shell Scripting — 1. Create and execute automated scripts to manage various system tasks.
+2. Solve various text processing problems through scripting.
+• SDF-Practices: Software Development Practices — N/A
+• SE-Design: Software Design — 1. System design principles. (See also: SF-Reliability)
+a. Levels of abstraction (e.g., architectural design and detailed design)
+b. Separation of concerns
+c. Information hiding
+d. Coupling and cohesion
+2. Software architecture. (See also: SF-Reliability)
+a. Design paradigms
+i. Top-down functional decomposition/layered design
+ii. Data-oriented architecture
+iii. Object-oriented analysis and design
+iv. Event-driven design
+b. Standard architectures (e.g., client-server and microservice architectures including REST
+discussions, n-layer, pipes-and-filters, Model View Controller)
+c. Identifying component boundaries and dependencies
+3. Programming in the large vs programming in the small. (See also: SF-Reliability)
+4. Code smells and other indications of code quality, distinct from correctness. (See also: SEC-
+Engineering)
+• SEP-Context: Social Context — 1. Social implications (e.g., political and cultural ideologies) in a hyper-networked world where the
+capabilities and impact of social media, artificial intelligence, and computing in general are rapidly
+evolving.
+2. Impact of computing applications (e.g., social media, artificial intelligence applications) on individual
+well-being, and safety of all kinds (e.g., physical, emotional, economic).
+3. Consequences of involving computing technologies, particularly artificial intelligence, biometric
+technologies, and algorithmic decision-making systems, in civic life (e.g., facial recognition
+technology, biometric tags, resource distribution algorithms, policing software) and how human
+agency and oversight is crucial.
+273
+4. How deficits in diversity and accessibility in computing affect society and what steps can be taken to
+improve equity in computing.
+• SPD-Common: Common Aspects/Shared Concerns — 1. Overview of development platforms (i.e., web, mobile, game, robotics, embedded, and interactive).
+a. Input/sensors/control devices/haptic devices
+b. Resource constraints
+i. Computational
+ii. Data storage
+iii. Memory
+iv. Communication
+c. Requirements – security, uptime availability, fault tolerance (See also: SE-Reliability, SEC-
+Engineering)
+d. Output/actuators/haptic devices
+2. Programming via platform-specific Application Programming Interface (API) vs traditional
+application construction
+3. Overview of platform Languages (e.g., Python, Swift, Lua, Kotlin)
+4. Programming under platform constraints and requirements (e.g., available development tools,
+development, security considerations) (See also: SEC-Foundations)
+5. Techniques for learning and mastering a platform-specific programming language
+• SPD-Embedded: Embedded Platforms — N/A
+• SPD-Game: Game Platforms — N/A
+• SPD-Mobile: Mobile Platforms — N/A
+• /example.org/bok/SPD-SEP — N/A
+• SPD-Web: Web Platforms — N/A"
+http://example.org/course/Introductory_Course,,"• /example.org/bok/OS-Advanced — N/A
+• /example.org/bok/OS-Advanced — N/A
+• OS-Concurrency: Concurrency — 1. Thread abstraction relative to concurrency
+2. Race conditions, critical regions (role of interrupts, if needed) (See also: PDC-Programs)
+3. Deadlocks and starvation (See also: PDC-Coordination)
+4. Multiprocessor issues (spin-locks, reentrancy).
+5. Multiprocess concurrency vs multithreading
+• OS-Concurrency: Concurrency — 1. Thread abstraction relative to concurrency
+2. Race conditions, critical regions (role of interrupts, if needed) (See also: PDC-Programs)
+3. Deadlocks and starvation (See also: PDC-Coordination)
+4. Multiprocessor issues (spin-locks, reentrancy).
+5. Multiprocess concurrency vs multithreading
+• OS-Devices: Device management — N/A
+• OS-Devices: Device management — N/A
+• OS-Faults: Fault tolerance — N/A
+• OS-Faults: Fault tolerance — N/A
+• OS-Files: File Systems API and Implementation — N/A
+• OS-Files: File Systems API and Implementation — N/A
+• OS-Memory: Memory Management — N/A
+• OS-Memory: Memory Management — N/A
+• OS-Principles: Principles of Operating System — 1. Operating system software design and approaches (e.g., monolithic, layered, modular, micro-
+kernel, unikernel)
+2. Abstractions, processes, and resources
+3. Concept of system calls and links to application program interfaces (e.g., Win32, Java, Posix). (See
+also: AR-Assembly)
+4. The evolution of the link between hardware architecture and the operating system functions
+5. Protection of resources means protecting some machine instructions/functions (See also: AR-
+Assembly)
+Example concepts:
+a. Applications cannot arbitrarily access memory locations or file storage device addresses.
+b. Protection of coprocessors and network devices
+6. Leveraging interrupts from hardware level: service routines and implementations. (See also: AR-
+Assembly)
+Example concepts:
+a. Timer interrupts for implementing time slices
+b. I/O interrupts for putting blocking threads to sleep without polling
+7. Concept of user/system state and protection, transition to kernel mode using system calls (See
+also: AR-Assembly)
+8. Mechanism for invoking system calls, the corresponding mode and context switch and return from
+interrupt (See also: AR-Assembly)
+9. Performance costs of context switches and associated cache flushes when performing process
+switches in Spectre-mitigated environments.
+• OS-Principles: Principles of Operating System — 1. Operating system software design and approaches (e.g., monolithic, layered, modular, micro-
+kernel, unikernel)
+2. Abstractions, processes, and resources
+3. Concept of system calls and links to application program interfaces (e.g., Win32, Java, Posix). (See
+also: AR-Assembly)
+4. The evolution of the link between hardware architecture and the operating system functions
+5. Protection of resources means protecting some machine instructions/functions (See also: AR-
+Assembly)
+Example concepts:
+a. Applications cannot arbitrarily access memory locations or file storage device addresses.
+b. Protection of coprocessors and network devices
+6. Leveraging interrupts from hardware level: service routines and implementations. (See also: AR-
+Assembly)
+Example concepts:
+a. Timer interrupts for implementing time slices
+b. I/O interrupts for putting blocking threads to sleep without polling
+7. Concept of user/system state and protection, transition to kernel mode using system calls (See
+also: AR-Assembly)
+8. Mechanism for invoking system calls, the corresponding mode and context switch and return from
+interrupt (See also: AR-Assembly)
+9. Performance costs of context switches and associated cache flushes when performing process
+switches in Spectre-mitigated environments.
+• OS-Process: Process Model — N/A
+• OS-Process: Process Model — N/A
+• OS-Protection: Protection and Safety — 1. Overview of operating system security mechanisms (See also: SEC-Foundations)
+2. Attacks and antagonism (scheduling, etc.) (See also: SEC-Foundations)
+3. Review of major vulnerabilities in real operating systems (See also: SEC-Foundations)
+4. Operating systems mitigation strategies such as backups (See also: SF-Reliability)
+• OS-Protection: Protection and Safety — 1. Overview of operating system security mechanisms (See also: SEC-Foundations)
+2. Attacks and antagonism (scheduling, etc.) (See also: SEC-Foundations)
+3. Review of major vulnerabilities in real operating systems (See also: SEC-Foundations)
+4. Operating systems mitigation strategies such as backups (See also: SF-Reliability)
+• OS-Purpose: Role and Purpose of Operating Systems — 1. Operating systems mediate between general purpose hardware and application-specific software.
+2. Universal operating system functions (e.g., process, user and device interfaces, persistence of
+data)
+3. Extended and/or specialized operating system functions (e.g., embedded systems, server types
+such as file, web, multimedia, boot loaders and boot security)
+4. Design issues (e.g., efficiency, robustness, flexibility, portability, security, compatibility, power,
+safety, tradeoffs between error checking and performance, flexibility and performance, and security
+and performance) (See also: SEC-Engineering)
+5. Influences of security, networking, multimedia, parallel and distributed computing
+6. Overarching concern of security/protection: Neglecting to consider security at every layer creates
+an opportunity to inappropriately access resources.
+Example concepts:
+a. Unauthorized access to files on an unencrypted drive can be achieved by moving the media to
+another computer.
+b. Operating systems enforced security can be defeated by infiltrating the boot layer before the
+operating system is loaded.
+c. Process isolation can be subverted by inadequate authorization checking at API boundaries.
+d. Vulnerabilities in system firmware can provide attack vectors that bypass the operating system
+entirely.
+e. Improper isolation of virtual machine memory, computing, and hardware can expose the host
+system to attacks from guest systems.
+f. The operating system may need to mitigate exploitation of hardware and firmware
+vulnerabilities, leading to potential performance reductions (e.g., Spectre and Meltdown
+mitigations).
+7. Exposure of operating systems functions in shells and systems programming. (See also: FPL-
+Scripting)
+206
+• OS-Purpose: Role and Purpose of Operating Systems — 1. Operating systems mediate between general purpose hardware and application-specific software.
+2. Universal operating system functions (e.g., process, user and device interfaces, persistence of
+data)
+3. Extended and/or specialized operating system functions (e.g., embedded systems, server types
+such as file, web, multimedia, boot loaders and boot security)
+4. Design issues (e.g., efficiency, robustness, flexibility, portability, security, compatibility, power,
+safety, tradeoffs between error checking and performance, flexibility and performance, and security
+and performance) (See also: SEC-Engineering)
+5. Influences of security, networking, multimedia, parallel and distributed computing
+6. Overarching concern of security/protection: Neglecting to consider security at every layer creates
+an opportunity to inappropriately access resources.
+Example concepts:
+a. Unauthorized access to files on an unencrypted drive can be achieved by moving the media to
+another computer.
+b. Operating systems enforced security can be defeated by infiltrating the boot layer before the
+operating system is loaded.
+c. Process isolation can be subverted by inadequate authorization checking at API boundaries.
+d. Vulnerabilities in system firmware can provide attack vectors that bypass the operating system
+entirely.
+e. Improper isolation of virtual machine memory, computing, and hardware can expose the host
+system to attacks from guest systems.
+f. The operating system may need to mitigate exploitation of hardware and firmware
+vulnerabilities, leading to potential performance reductions (e.g., Spectre and Meltdown
+mitigations).
+7. Exposure of operating systems functions in shells and systems programming. (See also: FPL-
+Scripting)
+206
+• /example.org/bok/OS-Real — N/A
+• /example.org/bok/OS-Real — N/A
+• OS-SEP: Society, Ethics, and the Profession — N/A
+• OS-SEP: Society, Ethics, and the Profession — N/A
+• OS-Scheduling: Scheduling — N/A
+• OS-Scheduling: Scheduling — N/A
+• OS-Virtualization: Virtualization — N/A
+• OS-Virtualization: Virtualization — N/A
+• SF-Design: System Design — 1. Common criteria of system design (e.g., liveness, safety, robustness, scalability, and security) (See
+also: PDC-Evaluation)
+• SF-Design: System Design — 1. Common criteria of system design (e.g., liveness, safety, robustness, scalability, and security) (See
+also: PDC-Evaluation)
+• SF-Evaluation: Performance Evaluation — 1. Performance figures of merit (See also: AR-Performance-Energy, PDC-Evaluation)
+2. Workloads and representative benchmarks, and methods of collecting and analyzing performance
+figures of merit (See also: AR-Performance-Energy, PDC-Evaluation)
+3. CPI (Cycles per Instruction) equation as a tool for understanding tradeoffs in the design of
+instruction sets, processor pipelines, and memory system organizations (See also: AR-
+Performance-Energy, PDC-Evaluation)
+4. Amdahl’s Law: the part of the computation that cannot be sped up limits the effect of the parts that
+can (See also: AR-Performance-Energy, PDC-Evaluation)
+5. Order of magnitude analysis (Big O notation) (See also: AL-Complexity)
+6. Analysis of slow and fast paths of a system (See also: AR-Organization)
+7. Events on their effect on performance (e.g., instruction stalls, cache misses, page faults) (See also:
+OS-Memory, AR-Organization)
+• SF-Evaluation: Performance Evaluation — 1. Performance figures of merit (See also: AR-Performance-Energy, PDC-Evaluation)
+2. Workloads and representative benchmarks, and methods of collecting and analyzing performance
+figures of merit (See also: AR-Performance-Energy, PDC-Evaluation)
+3. CPI (Cycles per Instruction) equation as a tool for understanding tradeoffs in the design of
+instruction sets, processor pipelines, and memory system organizations (See also: AR-
+Performance-Energy, PDC-Evaluation)
+4. Amdahl’s Law: the part of the computation that cannot be sped up limits the effect of the parts that
+can (See also: AR-Performance-Energy, PDC-Evaluation)
+5. Order of magnitude analysis (Big O notation) (See also: AL-Complexity)
+6. Analysis of slow and fast paths of a system (See also: AR-Organization)
+7. Events on their effect on performance (e.g., instruction stalls, cache misses, page faults) (See also:
+OS-Memory, AR-Organization)
+• SF-Foundations: Basic Concepts — 1. Digital vs Analog/Discrete vs Continuous Systems
+2. Simple logic gates, logical expressions, Boolean logic simplification
+3. Clocks, State, Sequencing
+4. State and state transition (e.g., starting state, final state, life cycle of states) (See also: AL-Models)
+5. Finite state machines (e.g., NFA, DFA) (See also: AL-Models)
+6. Combinational Logic, Sequential Logic, Registers, Memories (See also: AR-Logic)
+7. Computers and Network Protocols as examples of State Machines (See also: NC-Fundamentals)
+8. Sequential vs parallel processing. (See also: PDC-Programs, OS-Concurrency)
+9. Application-level sequential processing: single thread (See also: PDC-Programs, OS-Concurrency)
+10. Simple application-level parallel processing: request level (web services/client-server/distributed),
+single thread per server, multiple threads with multiple servers, pipelining (See also: PDC-
+Programs, OS-Concurrency)
+• SF-Foundations: Basic Concepts — 1. Digital vs Analog/Discrete vs Continuous Systems
+2. Simple logic gates, logical expressions, Boolean logic simplification
+3. Clocks, State, Sequencing
+4. State and state transition (e.g., starting state, final state, life cycle of states) (See also: AL-Models)
+5. Finite state machines (e.g., NFA, DFA) (See also: AL-Models)
+6. Combinational Logic, Sequential Logic, Registers, Memories (See also: AR-Logic)
+7. Computers and Network Protocols as examples of State Machines (See also: NC-Fundamentals)
+8. Sequential vs parallel processing. (See also: PDC-Programs, OS-Concurrency)
+9. Application-level sequential processing: single thread (See also: PDC-Programs, OS-Concurrency)
+10. Simple application-level parallel processing: request level (web services/client-server/distributed),
+single thread per server, multiple threads with multiple servers, pipelining (See also: PDC-
+Programs, OS-Concurrency)
+• SF-Overview: Overview of Computer Systems — 1. Basic building blocks and components of a computer (gates, flip-flops, registers, interconnections;
+datapath + control + memory)
+2. Hardware as a computational paradigm: Fundamental logic building blocks; Logic expressions,
+minimization, sum of product forms (See also: AR-Logic)
+3. Programming abstractions, interfaces, use of libraries (See also: PDC-Programs)
+4. Distinction and interaction between application and OS services, remote procedure call (See also:
+OS-Purpose)
+5. Basic concept of pipelining, overlapped processing stages (See also: AR-Organization)
+6. Basic concept of scaling: performance vs problem size
+• SF-Overview: Overview of Computer Systems — 1. Basic building blocks and components of a computer (gates, flip-flops, registers, interconnections;
+datapath + control + memory)
+2. Hardware as a computational paradigm: Fundamental logic building blocks; Logic expressions,
+minimization, sum of product forms (See also: AR-Logic)
+3. Programming abstractions, interfaces, use of libraries (See also: PDC-Programs)
+4. Distinction and interaction between application and OS services, remote procedure call (See also:
+OS-Purpose)
+5. Basic concept of pipelining, overlapped processing stages (See also: AR-Organization)
+6. Basic concept of scaling: performance vs problem size
+• SF-Performance: System Performance — 1. Latencies in computer systems
+a. Speed of light and computers (one foot per nanosecond vs one GHz clocks) (See also: AR-
+Organization)
+b. Memory vs disk latencies vs across-the-network memory (See also: AR-Memory, AR-
+Performance-Energy)
+2. Caches and the effects of spatial and temporal locality on performance in processors and systems
+(See also: AR-Memory, AR-Performance-Energy, OS-Memory)
+3. Caches and cache coherency in databases, operating systems, distributed systems, and computer
+architecture (See also: OS-Memory, AR-Memory, DM-Internals)
+4. Introduction to the processor memory hierarchy (See also: AR-Memory, AR-Performance-Energy)
+294
+• SF-Performance: System Performance — 1. Latencies in computer systems
+a. Speed of light and computers (one foot per nanosecond vs one GHz clocks) (See also: AR-
+Organization)
+b. Memory vs disk latencies vs across-the-network memory (See also: AR-Memory, AR-
+Performance-Energy)
+2. Caches and the effects of spatial and temporal locality on performance in processors and systems
+(See also: AR-Memory, AR-Performance-Energy, OS-Memory)
+3. Caches and cache coherency in databases, operating systems, distributed systems, and computer
+architecture (See also: OS-Memory, AR-Memory, DM-Internals)
+4. Introduction to the processor memory hierarchy (See also: AR-Memory, AR-Performance-Energy)
+294
+• SF-Reliability: System Reliability — 1. Distinction between bugs, faults, and failures (See also: PDC-Coordination, SE-Reliability)
+2. Reliability vs availability
+3. Reliability through redundancy
+a. check and retry (See also: OS-Faults, NC-Reliability)
+b. redundant encoding (error correction codes, CRC, FEC, RAID) (See also: AR-Memory, NC-
+Reliability, DM-Distributed)
+c. duplication/mirroring/replicas (See also: DM-Distributed)
+• SF-Reliability: System Reliability — 1. Distinction between bugs, faults, and failures (See also: PDC-Coordination, SE-Reliability)
+2. Reliability vs availability
+3. Reliability through redundancy
+a. check and retry (See also: OS-Faults, NC-Reliability)
+b. redundant encoding (error correction codes, CRC, FEC, RAID) (See also: AR-Memory, NC-
+Reliability, DM-Distributed)
+c. duplication/mirroring/replicas (See also: DM-Distributed)
+• SF-Resource: Resource Management — 1. Different types of resources (e.g., processor share, memory, disk, net bandwidth) (See also: OS-
+Scheduling, OS-Memory, OS-Files, NC-Fundamentals)
+2. Common resource allocation/scheduling algorithms (e.g., first-come-first-serve, priority-based
+scheduling, fair scheduling, and preemptive scheduling) (See also: OS-Scheduling)
+• SF-Resource: Resource Management — 1. Different types of resources (e.g., processor share, memory, disk, net bandwidth) (See also: OS-
+Scheduling, OS-Memory, OS-Files, NC-Fundamentals)
+2. Common resource allocation/scheduling algorithms (e.g., first-come-first-serve, priority-based
+scheduling, fair scheduling, and preemptive scheduling) (See also: OS-Scheduling)
+• SF-SEP: Society, Ethics, and the Profession — N/A
+• SF-SEP: Society, Ethics, and the Profession — N/A
+• SF-Security: System Security — 1. Common system security issues (e.g., viruses, denial-of-service attacks, and eavesdropping) (See
+also: OS-Protection, NC-Security, SEC-Foundations, SEC-Engineering)
+2. Countermeasures (See also: OS-Principles, OS-Protection, NC-Security)
+a. Cryptography (See also: SEC-Crypto)
+b. Security architecture (See also: SEC-Engineering)
+• SF-Security: System Security — 1. Common system security issues (e.g., viruses, denial-of-service attacks, and eavesdropping) (See
+also: OS-Protection, NC-Security, SEC-Foundations, SEC-Engineering)
+2. Countermeasures (See also: OS-Principles, OS-Protection, NC-Security)
+a. Cryptography (See also: SEC-Crypto)
+b. Security architecture (See also: SEC-Engineering)"
+http://example.org/course/Lighting_and_Shading,,"• GIT-Interaction: Interaction — N/A
+• GIT-Modeling: Geometric Modeling — N/A
+• GIT-Shading: Shading and Advanced Rendering — N/A
+• SEP-IP: Intellectual Property — 1. Intellectual property rights
+2. Intangible digital intellectual property (IDIP)
+3. Legal foundations for intellectual property protection
+4. Common software licenses (e.g., MIT, GPL and its variants, Apache, Mozilla, Creative Commons)
+5. Plagiarism and authorship"
+http://example.org/course/Machine_Learning,,"• AI-KRR: Fundamental Knowledge Representation and Reasoning — 1. Types of representations
+a. Symbolic, logical
+i. Creating a representation from a natural language problem statement
+b. Learned subsymbolic representations
+c. Graphical models (e.g., naive Bayes, Bayesian network)
+2. Review of probabilistic reasoning, Bayes theorem (See also: MSF-Probability)
+3. Bayesian reasoning
+a. Bayesian inference
+• AI-ML: Machine Learning — 1. Definition and examples of a broad variety of machine learning tasks
+a. Supervised learning
+i. Classification
+ii. Regression
+b. Reinforcement learning
+c. Unsupervised learning
+i. Clustering
+2. Fundamental ideas:
+a. No free lunch theorem: no one learner can solve all problems; representational design decisions
+have consequences.
+b. Sources of error and undecidability in machine learning
+3. A simple statistical-based supervised learning such as linear regression or decision trees
+a. Focus on how they work without going into mathematical or optimization details; enough to
+understand and use existing implementations correctly
+4. The overfitting problem/controlling solution complexity (regularization, pruning – intuition only)
+a. The bias (underfitting) – variance (overfitting) tradeoff
+5. Working with Data
+a. Data preprocessing
+i. Importance and pitfalls of preprocessing choices
+b. Handling missing values (imputing, flag-as-missing)
+i. Implications of imputing vs flag-as-missing
+c. Encoding categorical variables, encoding real-valued data
+d. Normalization/standardization
+e. Emphasis on real data, not textbook examples
+6. Representations
+a. Hypothesis spaces and complexity
+b. Simple basis feature expansion, such as squaring univariate features
+c. Learned feature representations
+7. Machine learning evaluation
+a. Separation of train, validation, and test sets
+b. Performance metrics for classifiers
+c. Estimation of test performance on held-out data
+d. Tuning the parameters of a machine learning model with a validation set
+e. Importance of understanding what a model is doing, where its pitfalls/shortcomings are, and the
+implications of its decisions
+8. Basic neural networks
+a. Fundamentals of understanding how neural networks work and their training process, without
+details of the calculations
+b. Basic introduction to generative neural networks (e.g., large language models)
+9. Ethics for Machine Learning (See also: SEP-Context)
+a. Focus on real data, real scenarios, and case studies
+b. Dataset/algorithmic/evaluation bias and unintended consequences
+71
+• AI-NLP: Natural Language Processing — N/A
+• AI-SEP: Applications and Societal Impact — 1. At least one application of AI to a specific problem and field, such as medicine, health,
+sustainability, social media, economics, education, robotics, etc. (choose at least one for the CS
+Core).
+a. Formulating and evaluating a specific application as an AI problem
+i. How to deal with underspecified or ill-posed problems
+b. Data availability/scarcity and cleanliness
+i. Basic data cleaning and preprocessing
+ii. Data set bias
+c. Algorithmic bias
+d. Evaluation bias
+e. Assessment of societal implications of the application
+2. Deployed deep generative models
+a. High-level overview of deep image generative models (e.g., as of 2023, DALL-E, Midjourney,
+Stable Diffusion, etc.), their uses, and their shortcomings/pitfalls.
+b. High-level overview of large language models (e.g., as of 2023, ChatGPT, Bard, etc.), their
+uses, and their shortcomings/pitfalls.
+3. Overview of societal impact of AI
+75
+a. Ethics (See also: SEP-Context)
+b. Fairness (See also: SEP-Privacy, SEP-DEIA)
+c. Trust/explainability (See also: SEP-Context)
+d. Privacy and usage of training data (See also: SEP-Privacy)
+e. Human autonomy and oversight/regulations/legal requirements (See also: SEP-Context)
+f. Sustainability (See also: SEP-Sustainability)"
+http://example.org/course/Media_Computation,,"• AL-Foundational: Foundational Data Structures and Algorithms — N/A
+• GIT-Fundamentals: Fundamental Concepts — 1. Uses of computer graphics and interactive techniques and their potential risks and abuses.
+a. Entertainment, business, and scientific applications: e.g., visual effects, generative imagery,
+computer vision, machine learning, user interfaces, video editing, games and game engines,
+computer-aided design and manufacturing, data visualization, and virtual/augmented/mixed
+reality
+b. Intellectual property, deep fakes, facial recognition, privacy (See also: SEP-DEIA, SEP-Privacy,
+SEP-IP, SEP-Professional-Ethics)
+2. Graphic output
+a. Displays (e.g., LCD)
+b. Printers
+c. Analog film
+d. Concepts
+i. Resolution (e.g., pixels, dots)
+ii. Aspect ratio
+iii. Frame rate
+3. Human vision system
+a. Tristimulus reception (RGB)
+b. Eye as a camera (projection)
+c. Persistence of vision (frame rate, motion blur)
+d. Contrast (detection, Mach banding, dithering/aliasing)
+e. Non-linear response (dynamic range, tone mapping)
+f. Binocular vision (stereo)
+g. Accessibility (color deficiency, strobing, monocular vision, etc.) (See also: SEP-DEIA, HCI-User)
+4. Standard image formats
+a. Raster
+i. Lossless (e.g., TIF)
+ii. Lossy (e.g., JPG, GIF, etc.)
+b. Vector (e.g., SVG, Adobe Illustrator)
+5. Digitization of analog data
+a. Rasterization
+b. Resolution
+c. Sampling and quantization
+6. Color models: additive (RGB), subtractive (CMYK), and color perception (HSV)
+7. Tradeoffs between storing image data and re-computing image data
+8. Spatialization: coordinate systems, absolute and relative positioning
+9. Animation as a sequence of still images
+155
+• GIT-Interaction: Interaction — N/A
+• GIT-Rendering: Applied Rendering and Techniques — N/A
+• GIT-SEP: Society, Ethics, and the Profession — N/A
+• HCI-User: Understanding the User: Individual goals and interactions with others — 1. User-centered design and evaluation methods. (See also: SEP-Context, SEP-Ethical-Analysis,
+SEP-Professional-Ethics)
+a. “You are not the users”
+b. User needs-finding
+c. Formative studies
+d. Interviews
+e. Surveys
+f. Usability tests
+• SDF-Fundamentals: Fundamental Programming Concepts and Practices — 1. Basic concepts such as variables, primitive data types, expressions, and their evaluation
+230
+2. How imperative programs work: state and state transitions on execution of statements, flow of
+control
+3. Basic constructs such as assignment statements, conditional and iterative statements, basic I/O
+4. Key modularity constructs such as functions (and methods and classes, if supported in the
+language) and related concepts like parameter passing, scope, abstraction, data encapsulation
+(See also: FPL-OOP)
+5. Input and output using files and APIs
+6. Structured data types available in the chosen programming language like sequences (e.g., arrays,
+lists), associative containers (e.g., dictionaries, maps), others (e.g., sets, tuples) and when and how
+to use them (See also: AL-Foundational)
+7. Libraries and frameworks provided by the language (when/where applicable)
+8. Recursion
+9. Dealing with runtime errors in programs (e.g., exception handling).
+10. Basic concepts of programming errors, testing, and debugging (See also: SE-Construction, SEC-
+Coding)
+11. Documenting/commenting code at the program and module level.(See also: SE-Construction)
+12. Develop a security mindset. (See also: SEC-Foundations)"
+http://example.org/course/Mobile_Development_Course,,"• SDF-Practices: Software Development Practices — N/A
+• SE-Construction: Software Construction — 1. Practical small-scale testing (See also: SDF-Practices)
+a. Unit testing
+b. Test-driven development – This is particularly valuable for students psychologically, as it is far
+easier to engage constructively with the challenge of identifying challenging inputs for a given
+API (edge cases, corner cases) a priori. If they implement first, the instinct is often to avoid
+trying to crash their new creation, while a test-first approach gives them the intellectual
+satisfaction of spotting the problem cases and then watching as more tests pass during the
+development process.
+2. Documentation (See also: SDF-Practices)
+a. Interface documentation – describe interface requirements, potentially including (formal or
+informal) contracts, pre and post conditions, invariants.
+b. Implementation documentation should focus on tricky and non-obvious pieces of code, whether
+because the code is using advanced language features, or the behavior of the code is complex.
+(Do not add comments that re-state common/obvious operations and simple language features.)
+i. Clarify dataflow, computation, etc., focusing on what the code is.
+ii. Identify subtle/tricky pieces of code and refactor to be self-explanatory if possible or provide
+appropriate comments to clarify.
+• SE-Design: Software Design — 1. System design principles. (See also: SF-Reliability)
+a. Levels of abstraction (e.g., architectural design and detailed design)
+b. Separation of concerns
+c. Information hiding
+d. Coupling and cohesion
+2. Software architecture. (See also: SF-Reliability)
+a. Design paradigms
+i. Top-down functional decomposition/layered design
+ii. Data-oriented architecture
+iii. Object-oriented analysis and design
+iv. Event-driven design
+b. Standard architectures (e.g., client-server and microservice architectures including REST
+discussions, n-layer, pipes-and-filters, Model View Controller)
+c. Identifying component boundaries and dependencies
+3. Programming in the large vs programming in the small. (See also: SF-Reliability)
+4. Code smells and other indications of code quality, distinct from correctness. (See also: SEC-
+Engineering)
+• SPD-Common: Common Aspects/Shared Concerns — 1. Overview of development platforms (i.e., web, mobile, game, robotics, embedded, and interactive).
+a. Input/sensors/control devices/haptic devices
+b. Resource constraints
+i. Computational
+ii. Data storage
+iii. Memory
+iv. Communication
+c. Requirements – security, uptime availability, fault tolerance (See also: SE-Reliability, SEC-
+Engineering)
+d. Output/actuators/haptic devices
+2. Programming via platform-specific Application Programming Interface (API) vs traditional
+application construction
+3. Overview of platform Languages (e.g., Python, Swift, Lua, Kotlin)
+4. Programming under platform constraints and requirements (e.g., available development tools,
+development, security considerations) (See also: SEC-Foundations)
+5. Techniques for learning and mastering a platform-specific programming language
+• SPD-Mobile: Mobile Platforms — N/A
+• /example.org/bok/SPD-SEP — N/A"
+http://example.org/course/Robotics,,"• AI-ML: Machine Learning — 1. Definition and examples of a broad variety of machine learning tasks
+a. Supervised learning
+i. Classification
+ii. Regression
+b. Reinforcement learning
+c. Unsupervised learning
+i. Clustering
+2. Fundamental ideas:
+a. No free lunch theorem: no one learner can solve all problems; representational design decisions
+have consequences.
+b. Sources of error and undecidability in machine learning
+3. A simple statistical-based supervised learning such as linear regression or decision trees
+a. Focus on how they work without going into mathematical or optimization details; enough to
+understand and use existing implementations correctly
+4. The overfitting problem/controlling solution complexity (regularization, pruning – intuition only)
+a. The bias (underfitting) – variance (overfitting) tradeoff
+5. Working with Data
+a. Data preprocessing
+i. Importance and pitfalls of preprocessing choices
+b. Handling missing values (imputing, flag-as-missing)
+i. Implications of imputing vs flag-as-missing
+c. Encoding categorical variables, encoding real-valued data
+d. Normalization/standardization
+e. Emphasis on real data, not textbook examples
+6. Representations
+a. Hypothesis spaces and complexity
+b. Simple basis feature expansion, such as squaring univariate features
+c. Learned feature representations
+7. Machine learning evaluation
+a. Separation of train, validation, and test sets
+b. Performance metrics for classifiers
+c. Estimation of test performance on held-out data
+d. Tuning the parameters of a machine learning model with a validation set
+e. Importance of understanding what a model is doing, where its pitfalls/shortcomings are, and the
+implications of its decisions
+8. Basic neural networks
+a. Fundamentals of understanding how neural networks work and their training process, without
+details of the calculations
+b. Basic introduction to generative neural networks (e.g., large language models)
+9. Ethics for Machine Learning (See also: SEP-Context)
+a. Focus on real data, real scenarios, and case studies
+b. Dataset/algorithmic/evaluation bias and unintended consequences
+71
+• AI-Robotics: Robotics — N/A
+• AI-SEP: Applications and Societal Impact — 1. At least one application of AI to a specific problem and field, such as medicine, health,
+sustainability, social media, economics, education, robotics, etc. (choose at least one for the CS
+Core).
+a. Formulating and evaluating a specific application as an AI problem
+i. How to deal with underspecified or ill-posed problems
+b. Data availability/scarcity and cleanliness
+i. Basic data cleaning and preprocessing
+ii. Data set bias
+c. Algorithmic bias
+d. Evaluation bias
+e. Assessment of societal implications of the application
+2. Deployed deep generative models
+a. High-level overview of deep image generative models (e.g., as of 2023, DALL-E, Midjourney,
+Stable Diffusion, etc.), their uses, and their shortcomings/pitfalls.
+b. High-level overview of large language models (e.g., as of 2023, ChatGPT, Bard, etc.), their
+uses, and their shortcomings/pitfalls.
+3. Overview of societal impact of AI
+75
+a. Ethics (See also: SEP-Context)
+b. Fairness (See also: SEP-Privacy, SEP-DEIA)
+c. Trust/explainability (See also: SEP-Context)
+d. Privacy and usage of training data (See also: SEP-Privacy)
+e. Human autonomy and oversight/regulations/legal requirements (See also: SEP-Context)
+f. Sustainability (See also: SEP-Sustainability)
+• AI-Search: Search — 1. State space representation of a problem
+a. Specifying states, goals, and operators
+b. Factoring states into representations (hypothesis spaces)
+c. Problem solving by graph search
+i. e.g., Graphs as a space, and tree traversals as exploration of that space
+ii. Dynamic construction of the graph (not given upfront)
+2. Uninformed graph search for problem solving (See also: AL-Foundational)
+a. Breadth-first search
+b. Depth-first search
+i. With iterative deepening
+c. Uniform cost search
+3. Heuristic graph search for problem solving (See also: AL-Strategies)
+a. Heuristic construction and admissibility
+b. Hill-climbing
+c. Local minima and the search landscape
+i. Local vs global solutions
+d. Greedy best-first search
+e. A* search
+68
+4. Space and time complexities of graph search algorithms
+• SPD-Robot: Robot Platforms — N/A"
+http://example.org/course/Simulation,,"• GIT-Rendering: Applied Rendering and Techniques — N/A
+• GIT-Shading: Shading and Advanced Rendering — N/A
+• GIT-Simulation: Simulation — N/A
+• /example.org/bok/SEP-Professional — N/A"
+http://example.org/course/Systems_Course,,"• AR-Assembly: Assembly Level Machine Organization — 1. von Neumann machine architecture
+2. Control unit: instruction fetch, decode, and execution (See also: OS-Principles)
+3. Introduction to SIMD vs MIMD and the Flynn taxonomy (See also: PDC-Programs, OS-Scheduling,
+OS-Process)
+103
+4. Shared memory multiprocessors/multicore organization (See also: PDC-Programs, OS-Scheduling)
+• AR-Heterogeneity: Heterogeneous Architectures — N/A
+• AR-IO: Interfacing and Communication — 1. I/O fundamentals (See also: OS-Devices, PDC-Communication)
+a. Handshaking and buffering
+b. Programmed I/O
+c. Interrupt-driven I/O (See also: OS-Principles)
+2. Interrupt structures: vectored and prioritized, interrupt acknowledgment (See also: OS-Principles)
+3. I/O devices (e.g., mouse, keyboard, display, camera, sensors, actuators) (See also: GIT-
+Fundamentals, GIT-Interaction, OS-Advanced-Files, PDC-Programs)
+4. External storage, physical organization, and drives
+5. Buses fundamentals (See also: OS-Devices)
+a. Bus protocols
+b. Arbitration
+c. Direct-memory access (DMA)
+• AR-Memory: Memory Hierarchy — 1. Memory hierarchy: the importance of temporal and spatial locality (See also: SF-Performance, OS-
+Memory)
+2. Main memory organization and operations (See also: OS-Memory)
+3. Persistent memory (e.g., SSD, standard disks)
+4. Latency, cycle time, bandwidth, and interleaving (See also: SF-Performance)
+5. Cache memories (See also: SF-Performance)
+a. Address mapping
+b. Block size
+104
+c. Replacement and store policy
+d. Prefetching
+6. Multiprocessor cache coherence (See also: OS-Scheduling)
+7. Virtual memory (hardware support) (See also: OS-Memory)
+8. Fault handling and reliability (See also: SF-Reliability)
+9. Reliability (See also: SF-Reliability, OS-Faults)
+a. Error coding
+b. Data compression
+c. Data integrity
+• /example.org/bok/AR-Performance — N/A
+• AR-Representation: Machine-Level Data Representation — 1. Overview and history of computer architecture (See also: SPD-Game)
+2. Bits, bytes, and words
+3. Unsigned, signed and two’s complement representations
+4. Numeric data representation and number bases
+a. Fixed-point
+b. Floating-point
+5. Representation of non-numeric data
+6. Representation of records, arrays and UTF data types (See also: AL-Foundational)
+• NC-Applications: Networked Applications — 1. Naming and address schemes (e.g., DNS, and Uniform Resource Identifiers)
+2. Distributed application paradigms (e.g., client/server, peer-to-peer, cloud, edge, and fog) (See also:
+PDC-Communication, PDC-Coordination)
+3. Diversity of networked application demands (e.g., latency, bandwidth, and loss tolerance) (See
+also: PDC-Communication, SEP-Sustainability, SEP-Context)
+4. Coverage of application-layer protocols (e.g., HTTP)
+5. Interactions with TCP, UDP, and Socket APIs (See also: PDC-Programs)
+• OS-Purpose: Role and Purpose of Operating Systems — 1. Operating systems mediate between general purpose hardware and application-specific software.
+2. Universal operating system functions (e.g., process, user and device interfaces, persistence of
+data)
+3. Extended and/or specialized operating system functions (e.g., embedded systems, server types
+such as file, web, multimedia, boot loaders and boot security)
+4. Design issues (e.g., efficiency, robustness, flexibility, portability, security, compatibility, power,
+safety, tradeoffs between error checking and performance, flexibility and performance, and security
+and performance) (See also: SEC-Engineering)
+5. Influences of security, networking, multimedia, parallel and distributed computing
+6. Overarching concern of security/protection: Neglecting to consider security at every layer creates
+an opportunity to inappropriately access resources.
+Example concepts:
+a. Unauthorized access to files on an unencrypted drive can be achieved by moving the media to
+another computer.
+b. Operating systems enforced security can be defeated by infiltrating the boot layer before the
+operating system is loaded.
+c. Process isolation can be subverted by inadequate authorization checking at API boundaries.
+d. Vulnerabilities in system firmware can provide attack vectors that bypass the operating system
+entirely.
+e. Improper isolation of virtual machine memory, computing, and hardware can expose the host
+system to attacks from guest systems.
+f. The operating system may need to mitigate exploitation of hardware and firmware
+vulnerabilities, leading to potential performance reductions (e.g., Spectre and Meltdown
+mitigations).
+7. Exposure of operating systems functions in shells and systems programming. (See also: FPL-
+Scripting)
+206
+• PDC-Algorithms: Algorithms — 1. Expressing and implementing algorithms in given languages and frameworks, to initiate activities
+(for example threads), use shared memory constructs, and channel, socket, and/or remote
+procedure call APIs. (See also: FPL-Parallel).
+a. Data parallel examples including map/reduce.
+b. Using channel, socket, and/or RPC APIs in a given language, with program control for
+sending (usually procedural) vs receiving. (usually reactive or RPC-based).
+c. Using locks, barriers, and/or synchronizers to maintain liveness without introducing races.
+2. Survey of common application domains across multicore, reactive, data parallel, cluster, cloud,
+open distributed systems, and frameworks (with reference to the following table).
+Category Typical Typical Typical Typical
+Execution agents Communication Algorithmic Engineering
+mechanisms domains goals
+Multicore Threads Shared memory, Resource Throughput,
+Atomics, locks management, latency,
+data processing energy
+Reactive Handlers, threads I/O Channels Services, real- Latency
+time
+Data parallel GPU, SIMD, Heterogeneous Linear algebra, Throughput,
+225
+accelerators, memory graphics, data energy
+hybrid analysis
+Cluster Managed hosts Sockets, channels Simulation, data Throughput
+analysis
+Cloud Provisioned hosts Service APIs Web Scalability
+applications
+Open Autonomous hosts Sockets, Data Fault tolerant Reliability
+distributed stores data stores and
+services
+• SEP-History: Computing History — 1. The history of computing: hardware, software, and human/organizational.
+2. The role of history in the present including within different social contexts, and the relevance of this
+history on the future.
+• SF-Design: System Design — 1. Common criteria of system design (e.g., liveness, safety, robustness, scalability, and security) (See
+also: PDC-Evaluation)
+• SF-Reliability: System Reliability — 1. Distinction between bugs, faults, and failures (See also: PDC-Coordination, SE-Reliability)
+2. Reliability vs availability
+3. Reliability through redundancy
+a. check and retry (See also: OS-Faults, NC-Reliability)
+b. redundant encoding (error correction codes, CRC, FEC, RAID) (See also: AR-Memory, NC-
+Reliability, DM-Distributed)
+c. duplication/mirroring/replicas (See also: DM-Distributed)"
+http://example.org/course/Tangible_Computing,,"• GIT-Interaction: Interaction — N/A
+• GIT-Physical: Tangible/Physical Computing — N/A
+• HCI-Design: System Design — 1. Prototyping techniques and tools
+a. Low-fidelity prototyping
+b. Rapid prototyping
+c. Throw-away prototyping
+179
+d. Granularity of prototyping
+2. Design patterns
+a. Iterative design
+b. Universal design (See also: SEP-DEIA)
+c. Interaction design (e.g., data-driven design, event-driven design)
+3. Design constraints
+a. Platforms (See also: SPD-Game)
+b. Devices
+c. Resources
+d. Balance among usability, security and privacy (See also: SEC-Foundations)
+• HCI-User: Understanding the User: Individual goals and interactions with others — 1. User-centered design and evaluation methods. (See also: SEP-Context, SEP-Ethical-Analysis,
+SEP-Professional-Ethics)
+a. “You are not the users”
+b. User needs-finding
+c. Formative studies
+d. Interviews
+e. Surveys
+f. Usability tests
+• SEP-Privacy: Privacy and Civil Liberties — 1. Privacy implications of widespread data collection including but not limited to transactional
+databases, data warehouses, surveillance systems, cloud computing, and artificial intelligence
+2. Conceptions of anonymity, pseudonymity, and identity
+3. Technology-based solutions for privacy protection (e.g., end-to-end encryption and differential
+privacy)
+4. Civil liberties, privacy rights, and cultural differences
+• SPD-Embedded: Embedded Platforms — N/A"
+http://example.org/course/User-Centered_Development,,"• GIT-Fundamentals: Fundamental Concepts — 1. Uses of computer graphics and interactive techniques and their potential risks and abuses.
+a. Entertainment, business, and scientific applications: e.g., visual effects, generative imagery,
+computer vision, machine learning, user interfaces, video editing, games and game engines,
+computer-aided design and manufacturing, data visualization, and virtual/augmented/mixed
+reality
+b. Intellectual property, deep fakes, facial recognition, privacy (See also: SEP-DEIA, SEP-Privacy,
+SEP-IP, SEP-Professional-Ethics)
+2. Graphic output
+a. Displays (e.g., LCD)
+b. Printers
+c. Analog film
+d. Concepts
+i. Resolution (e.g., pixels, dots)
+ii. Aspect ratio
+iii. Frame rate
+3. Human vision system
+a. Tristimulus reception (RGB)
+b. Eye as a camera (projection)
+c. Persistence of vision (frame rate, motion blur)
+d. Contrast (detection, Mach banding, dithering/aliasing)
+e. Non-linear response (dynamic range, tone mapping)
+f. Binocular vision (stereo)
+g. Accessibility (color deficiency, strobing, monocular vision, etc.) (See also: SEP-DEIA, HCI-User)
+4. Standard image formats
+a. Raster
+i. Lossless (e.g., TIF)
+ii. Lossy (e.g., JPG, GIF, etc.)
+b. Vector (e.g., SVG, Adobe Illustrator)
+5. Digitization of analog data
+a. Rasterization
+b. Resolution
+c. Sampling and quantization
+6. Color models: additive (RGB), subtractive (CMYK), and color perception (HSV)
+7. Tradeoffs between storing image data and re-computing image data
+8. Spatialization: coordinate systems, absolute and relative positioning
+9. Animation as a sequence of still images
+155
+• GIT-Interaction: Interaction — N/A
+• GIT-Rendering: Applied Rendering and Techniques — N/A
+• HCI-Accessibility: Accessibility and Inclusive Design — 1. Background (See also: SEP-DEIA, SEP-Security)
+a. Societal and legal support for and obligations to people with disabilities
+b. Accessible design benefits everyone
+2. Techniques
+a. Accessibility standards (e.g., Web Content Accessibility Guidelines) (See also: SPD-Web)
+3. Technologies (See also: SE-Tools)
+a. Features and products that enable accessibility and support inclusive development by
+designers and engineers
+4. IDFs (Inclusive Design Frameworks) (See also: SEP-DEIA)
+a. Recognizing differences
+5. Universal design
+• HCI-SEP: Society, Ethics, and the Profession — 1. Universal and user-centered design (See also: HCI-User, SEP-DEIA)
+2. Accountability (See also: HCI-Accountability)
+3. Accessibility and inclusive design (See also: SEP-DEIA, SEP-Security)
+4. Evaluating the design (See also: HCI-Evaluation)
+5. System design (See also: HCI-Design)
+• HCI-User: Understanding the User: Individual goals and interactions with others — 1. User-centered design and evaluation methods. (See also: SEP-Context, SEP-Ethical-Analysis,
+SEP-Professional-Ethics)
+a. “You are not the users”
+b. User needs-finding
+c. Formative studies
+d. Interviews
+e. Surveys
+f. Usability tests
+• SE-Construction: Software Construction — 1. Practical small-scale testing (See also: SDF-Practices)
+a. Unit testing
+b. Test-driven development – This is particularly valuable for students psychologically, as it is far
+easier to engage constructively with the challenge of identifying challenging inputs for a given
+API (edge cases, corner cases) a priori. If they implement first, the instinct is often to avoid
+trying to crash their new creation, while a test-first approach gives them the intellectual
+satisfaction of spotting the problem cases and then watching as more tests pass during the
+development process.
+2. Documentation (See also: SDF-Practices)
+a. Interface documentation – describe interface requirements, potentially including (formal or
+informal) contracts, pre and post conditions, invariants.
+b. Implementation documentation should focus on tricky and non-obvious pieces of code, whether
+because the code is using advanced language features, or the behavior of the code is complex.
+(Do not add comments that re-state common/obvious operations and simple language features.)
+i. Clarify dataflow, computation, etc., focusing on what the code is.
+ii. Identify subtle/tricky pieces of code and refactor to be self-explanatory if possible or provide
+appropriate comments to clarify.
+• SPD-Web: Web Platforms — N/A"
+http://example.org/course/Web_Development_Course,,"• DM-Querying: Query Construction — 1. SQL Query Formation
+a. Interactive SQL execution
+b. Programmatic execution of an SQL query
+• FPL-OOP: Object-Oriented Programming — 1. Imperative programming as a subset of object-oriented programming.
+2. Object-oriented design:
+a. Decomposition into objects carrying state and having behavior.
+b. Class-hierarchy design for modeling.
+3. Definition of classes: fields, methods, and constructors. (See also: SDF-Fundamentals)
+4. Subclasses, inheritance (including multiple inheritance), and method overriding.
+5. Dynamic dispatch: definition of method-call.
+6. Exception handling. (See also: SDF-Fundamentals, PDC-Coordination, SE-Construction)
+7. Object-oriented idioms for encapsulation:
+a. Privacy, data hiding, and visibility of class members.
+b. Interfaces revealing only method signatures.
+c. Abstract base classes, traits and mixins.
+130
+8. Dynamic vs static properties.
+9. Composition vs inheritance.
+10. Subtyping:
+a. Subtype polymorphism; implicit upcasts in typed languages.
+b. Notion of behavioral replacement: subtypes acting like supertype.
+c. Relationship between subtyping and inheritance.
+• FPL-Scripting: Shell Scripting — 1. Create and execute automated scripts to manage various system tasks.
+2. Solve various text processing problems through scripting.
+• SDF-Practices: Software Development Practices — N/A
+• SE-Construction: Software Construction — 1. Practical small-scale testing (See also: SDF-Practices)
+a. Unit testing
+b. Test-driven development – This is particularly valuable for students psychologically, as it is far
+easier to engage constructively with the challenge of identifying challenging inputs for a given
+API (edge cases, corner cases) a priori. If they implement first, the instinct is often to avoid
+trying to crash their new creation, while a test-first approach gives them the intellectual
+satisfaction of spotting the problem cases and then watching as more tests pass during the
+development process.
+2. Documentation (See also: SDF-Practices)
+a. Interface documentation – describe interface requirements, potentially including (formal or
+informal) contracts, pre and post conditions, invariants.
+b. Implementation documentation should focus on tricky and non-obvious pieces of code, whether
+because the code is using advanced language features, or the behavior of the code is complex.
+(Do not add comments that re-state common/obvious operations and simple language features.)
+i. Clarify dataflow, computation, etc., focusing on what the code is.
+ii. Identify subtle/tricky pieces of code and refactor to be self-explanatory if possible or provide
+appropriate comments to clarify.
+• SE-Design: Software Design — 1. System design principles. (See also: SF-Reliability)
+a. Levels of abstraction (e.g., architectural design and detailed design)
+b. Separation of concerns
+c. Information hiding
+d. Coupling and cohesion
+2. Software architecture. (See also: SF-Reliability)
+a. Design paradigms
+i. Top-down functional decomposition/layered design
+ii. Data-oriented architecture
+iii. Object-oriented analysis and design
+iv. Event-driven design
+b. Standard architectures (e.g., client-server and microservice architectures including REST
+discussions, n-layer, pipes-and-filters, Model View Controller)
+c. Identifying component boundaries and dependencies
+3. Programming in the large vs programming in the small. (See also: SF-Reliability)
+4. Code smells and other indications of code quality, distinct from correctness. (See also: SEC-
+Engineering)
+• SE-Tools: Tools and Environments — 1. Software configuration management and version control: (See also: SDF-Practices)
+a. Configuration in version control, reproducible builds/configuration.
+b. Version control branching strategies. Development branches vs release branches. Trunk-based
+development.
+c. Merging/rebasing strategies, when relevant.
+• /example.org/bok/SPD-SEP — N/A
+• SPD-Web: Web Platforms — N/A"

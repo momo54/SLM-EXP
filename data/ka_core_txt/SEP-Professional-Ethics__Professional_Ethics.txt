@@ -1,0 +1,11 @@
+Title: SEP-Professional-Ethics: Professional Ethics
+
+KA Core:
+8. The role of the computing professional and professional societies in public policy
+9. Maintaining awareness of consequences
+10. Ethical dissent and whistleblowing
+11. The relationship between regional culture and ethical dilemmas
+12. Dealing with harassment and discrimination
+13. Forms of professional credentialing
+14. Ergonomics and healthy computing environments
+15. Time-to-market and cost considerations versus quality professional standards

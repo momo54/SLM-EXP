@@ -1,0 +1,28 @@
+Title: GIT-Animation: Computer Animation
+
+KA Core:
+1. Principles of Animation: Squash and Stretch, Timing, Anticipation, Staging, Follow Through and
+Overlapping Action, Straight Ahead Action, and Pose-to-Pose Action, Slow In and Out, Arcs,
+Exaggeration, and Appeal
+2. Types of animation
+a. 2- and 3-dimensional animation
+b. Motion graphics
+c. Motion capture
+d. Motion graphics
+e. Stop animation
+3. Key-frame animation
+a. Keyframe Interpolation Methods: Lerp/Slerp/Spline
+4. Forward and inverse kinematics (See also: SPD-Robot, AI-Robotics)
+5. Skinning algorithms
+a. Capturing
+b. Linear blend, dual quaternion
+c. Rigging
+d. Blend shapes
+e. Pose space deformation
+6. Motion capture
+a. Set up and fundamentals
+b. Blending motion capture clips
+c. Blending motion capture and keyframe animation
+d. Ethical considerations (See also: SEP-DEIA, SEP-Privacy)
+i. Avoidance of “default” captures - there is no typical human walk cycle.
+ii. Accessibility

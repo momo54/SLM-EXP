@@ -1,0 +1,23 @@
+Title: HCI-Design: System Design
+
+KA Core:
+4. Design patterns and guidelines
+a. Software architecture patterns
+b. Cross-platform design
+c. Synchronization considerations
+5. Design processes (See also: SEP-Communication)
+a. Participatory design
+b. Co-design
+c. Double-diamond
+d. Convergence and divergence
+6. Interaction techniques (See also: GIT-Interaction)
+a. Input and output vectors (e.g., gesture, pose, touch, voice, force)
+b. Graphical user interfaces
+c. Controllers
+d. Haptics
+e. Hardware design
+f. Error handling
+7. Visual UI design (See also: GIT-Visualization)
+a. Color
+b. Layout
+c. Gestalt principles

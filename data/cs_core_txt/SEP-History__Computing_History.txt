@@ -1,0 +1,6 @@
+Title: SEP-History: Computing History
+
+CS Core:
+1. The history of computing: hardware, software, and human/organizational.
+2. The role of history in the present including within different social contexts, and the relevance of this
+history on the future.

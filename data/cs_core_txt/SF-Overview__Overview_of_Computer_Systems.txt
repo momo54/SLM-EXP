@@ -1,0 +1,12 @@
+Title: SF-Overview: Overview of Computer Systems
+
+CS Core:
+1. Basic building blocks and components of a computer (gates, flip-flops, registers, interconnections;
+datapath + control + memory)
+2. Hardware as a computational paradigm: Fundamental logic building blocks; Logic expressions,
+minimization, sum of product forms (See also: AR-Logic)
+3. Programming abstractions, interfaces, use of libraries (See also: PDC-Programs)
+4. Distinction and interaction between application and OS services, remote procedure call (See also:
+OS-Purpose)
+5. Basic concept of pipelining, overlapped processing stages (See also: AR-Organization)
+6. Basic concept of scaling: performance vs problem size

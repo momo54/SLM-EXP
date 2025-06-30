@@ -1,0 +1,20 @@
+Title: SEC-Foundations: Foundational Security
+
+KA Core:
+8. Access control models (e.g., discretionary, mandatory, role-based, and attribute-based)
+9. Security controls
+10. Concepts of trust and trustworthiness
+11. Applications of a security mindset: web, cloud, and mobile devices (See also: SF-System Design,
+SPD-Common)
+12. Protecting embedded and cyber-physical systems (See also: SPD-Embedded)
+13. Principles of usable security and human-centered computing (See also: HCI-Design, SEP-Security)
+14. Security and trust in AI/machine learning systems, e.g., fit for purpose, ethical operating
+boundaries, authoritative knowledge sources, verified training data, repeatable system evaluation
+tests, system attestation, independent validation/certification; unintended consequences from:
+adverse effect (See also: AI-Introduction, AI-ML, AI-SEP, SEP-Security)
+15. Security risks in building and operating AI/machine learning systems (e.g., algorithm bias,
+knowledge corpus bias, training corpus bias, copyright violation) (See also: AI-Introduction, AI-ML,
+AI-SEP)
+16. Hardware considerations in security, e.g., principles of secure hardware, secure processor
+architectures, cryptographic acceleration, compartmentalization, software-hardware interaction (See
+also: AR-Assembly, AR-Representation, OS-Purpose)

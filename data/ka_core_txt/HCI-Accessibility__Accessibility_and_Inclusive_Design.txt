@@ -1,0 +1,15 @@
+Title: HCI-Accessibility: Accessibility and Inclusive Design
+
+KA Core:
+6. Background
+a. Demographics and populations (permanent, temporary, and situational disability)
+b. International perspectives on disability (See also: SEP-DEIA)
+c. Attitudes towards people with disabilities (See also: SEP-DEIA)
+7. Techniques
+a. UX (user experience) design and research
+b. Software engineering practices that enable inclusion and accessibility. (See also: SEP-DEIA)
+8. Technologies
+a. Examples of accessibility-enabling features, such as conformance to screen readers
+9. Inclusive Design Frameworks
+a. Creating inclusive processes such as participatory design
+b. Designing for larger impact

@@ -1,0 +1,9 @@
+Title: OS-Protection: Protection and Safety
+
+KA Core:
+5. Policy/mechanism separation (See also: SEC-Governance)
+6. Security methods and devices (See also: SEC-Foundations)
+Example concepts:
+a. Rings of protection (history from Multics to virtualized x86)
+b. x86_64 rings -1 and -2 (hypervisor and ME/PSP)
+7. Protection, access control, and authentication (See also: SEC-Foundations, SEC-Crypto)

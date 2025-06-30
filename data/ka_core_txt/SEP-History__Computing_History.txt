@@ -1,0 +1,16 @@
+Title: SEP-History: Computing History
+
+KA Core:
+3. Age I (Pre-digital): Ancient analog computing (Stonehenge, Antikythera mechanism, Salisbury
+Cathedral clock, etc.), human-calculated number tables, Euclid, Lovelace, Babbage, Gödel,
+Church, Turing, pre-electronic (electro-mechanical and mechanical) hardware
+4. Age II (Early modern computing): ENIAC, UNIVAC, Bombes (Bletchley Park and codebreakers),
+computer companies (e.g., IBM), mainframes, etc.
+5. Age III (PC era): PCs, modern computer hardware and software, Moore’s Law
+6. Age IV (Internet): Networking, internet architecture, browsers and their evolution, standards, born-
+on-the-internet companies, and services (e.g., Google, Amazon, Microsoft, etc.), distributed
+computing
+7. Age V (Mobile & Cloud): Mobile computing and smartphones, cloud computing and models thereof
+(e.g., SaaS), remote servers, security and privacy, social media
+8. Age VI (AI): Decision making systems, recommender systems, generative AI and other machine
+learning driven tools and technologies

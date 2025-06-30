@@ -1,0 +1,15 @@
+Title: SE-Teamwork: Teamwork
+
+CS Core:
+1. Effective communication, including oral and written, as well as formal (email, docs, comments,
+presentations) and informal (team chat, meetings). (See also: SEP-Communication)
+2. Common causes of team conflict, and approaches for conflict resolution.
+3. Cooperative programming:
+a. Pair programming or Swarming
+b. Code review
+c. Collaboration through version control
+4. Roles and responsibilities in a software team: (See also: SEP-Professional-Ethics)
+a. Advantages of teamwork
+b. Risks and complexity of such collaboration
+5. Team processes – responsibilities for tasks, effort estimation, meeting structure, work schedule
+6. Importance of team diversity and inclusivity. (See also: SEP-Communication)

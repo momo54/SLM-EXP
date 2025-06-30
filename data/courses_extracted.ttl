@@ -1,0 +1,339 @@
+@prefix bok: <http://example.org/bok/> .
+@prefix ex: <http://example.org/course/> .
+
+ex:Advanced_Course a ex:Course ;
+    ex:includes bok:AR-IO,
+        bok:NC-Fundamentals,
+        bok:OS-Purpose,
+        bok:PDC-Programs,
+        bok:SF-Design,
+        bok:SF-Overview,
+        bok:SF-Performance,
+        bok:SF-Reliability,
+        bok:SF-SEP,
+        bok:SF-Security ;
+    ex:objectives "Students should be able to (1) have a deeper understanding in the key design principles of computer system design, (2) map such key principles to the designs of classic systems (e.g., Linux, SQL and TCP/IP network stack) as well as that of more recent systems (e.g., Hadoop, Spark and distributed storage systems), and (3) design and implement more complex computer systems (e.g., a file system and a high-performance web server)." ;
+    ex:prerequisite "Basic queueing theory and stochastic process (See also: MSF-Probability, MSF-Statistics)",
+        "Introductory course of the SF knowledge area" ;
+    ex:title "Advanced Course" .
+
+ex:Artificial_Intelligence a ex:Course ;
+    ex:includes bok:AI-Introduction,
+        bok:AI-KRR,
+        bok:AI-ML,
+        bok:AI-Probability,
+        bok:AI-SEP,
+        bok:AI-Search ;
+    ex:objectives "A student who completes this course should understand the basic areas of AI and be able to understand, develop, and apply techniques in each. They should be able to solve problems using search techniques, basic Bayesian reasoning, and simple machine learning methods. They should understand the various applications of AI and associated ethical and societal implications." ;
+    ex:prerequisite "MSF-Discrete",
+        "MSF-Probability",
+        "SDF-Algorithms",
+        "SDF-Data-Structures",
+        "SDF-Fundamentals" ;
+    ex:title "Artificial Intelligence" .
+
+ex:Computer_Animation a ex:Course ;
+    ex:includes bok:GIT-Animation,
+        bok:SEP-Privacy ;
+    ex:objectives "Students should understand and be able to create short animations employing the principles of animation." ;
+    ex:prerequisite "Interactive Computer Graphics course" ;
+    ex:title "Computer Animation" .
+
+ex:Computer_Architecture_-_Advanced_Topics_Course a ex:Course ;
+    ex:includes bok:AR-Assembly,
+        bok:AR-Heterogeneity,
+        bok:AR-IO,
+        bok:AR-Logic,
+        bok:AR-Memory,
+        bok:AR-Performance,
+        bok:AR-Quantum,
+        bok:AR-Representation,
+        bok:AR-Security,
+        bok:SF-Performance ;
+    ex:objectives "Students should understand how computer architectures evolved into today’s heterogeneous systems and to what extent choices made in the past can influence the design of future high-performance computing systems. Prerequisites: ● MSF-Discrete" ;
+    ex:prerequisite "MSF-Discrete" ;
+    ex:title "Computer Architecture - Advanced Topics Course" .
+
+ex:Computer_Architecture_-_Introductory_Course a ex:Course ;
+    ex:includes bok:AR-Assembly,
+        bok:AR-Heterogeneity,
+        bok:AR-IO,
+        bok:AR-Memory,
+        bok:AR-Representation,
+        bok:OS-Memory,
+        bok:PDC-Programs,
+        bok:SEP-Ethical,
+        bok:SEP-History ;
+    ex:objectives "Students should understand the fundamentals of modern computer architectures, including the challenges associated with memory caches, memory management, and pipelining. Prerequisites: ● MSF-Discrete" ;
+    ex:prerequisite "MSF-Discrete" ;
+    ex:title "Computer Architecture - Introductory Course" .
+
+ex:Data_Visualization a ex:Course ;
+    ex:includes bok:GIT-Fundamentals,
+        bok:GIT-Interaction,
+        bok:GIT-Visualization,
+        bok:HCI-Design,
+        bok:HCI-User,
+        bok:SEP-Privacy ;
+    ex:objectives "Students should understand how to select a dataset; ensure the data are accurate and appropriate; design, develop and test a usable visualization program that depicts the data; and be able to read and evaluate existing visualizations." ;
+    ex:prerequisite "AL-Foundational",
+        "AL-Strategies",
+        "MSF-Probability",
+        "MSF-Statistics",
+        "SDF-Algorithms",
+        "SDF-Data-Structures",
+        "SDF-Practices" ;
+    ex:title "Data Visualization" .
+
+ex:Game_Development_Course a ex:Course ;
+    ex:includes bok:AL-Foundational,
+        bok:GIT-Interaction,
+        bok:GIT-Rendering,
+        bok:HCI-Design,
+        bok:HCI-User,
+        bok:SDF-Practices,
+        bok:SE-Design,
+        bok:SE-Tools,
+        bok:SPD-Game,
+        bok:SPD-SEP ;
+    ex:objectives "Students should be able to master designing, developing, and deploying interactive games. The curriculum covers fundamental game design principles, proficiency in languages like C++, C#, or Python, and utilization of popular engines such as Unity or Unreal. Students gain 3D modeling and animation skills, implement physics and simulations for realism, and create AI algorithms for intelligent non-player characters. They design multiplatform games, optimize UI/UX for engagement, apply game-specific testing and debugging techniques, integrate audio effectively, and explore industry monetization models. The course emphasizes ethical considerations, ensuring students analyze and address content, diversity, and inclusivity in game development." ;
+    ex:title "Game Development Course" .
+
+ex:Image_Processing a ex:Course ;
+    ex:includes bok:GIT-Image,
+        bok:GIT-Interaction,
+        bok:SEP-Privacy ;
+    ex:objectives "Students should understand and be able to appropriately acquire, process, display, and save digital images." ;
+    ex:prerequisite "AL-Foundational",
+        "AL-Strategies",
+        "SDF-Algorithms",
+        "SDF-Data-Structures",
+        "SDF-Practices" ;
+    ex:title "Image Processing" .
+
+ex:Interactive_Computer_Graphics a ex:Course ;
+    ex:includes bok:GIT-Interaction,
+        bok:GIT-Modeling,
+        bok:GIT-Rendering,
+        bok:SEP-Professional ;
+    ex:objectives "Students should understand and be able to create basic computer graphics using an API. They should know how to position and orient models, the camera, and distant and local lights. Note: depending on the instructor, this course can be customized to include topics from another graphics knowledge unit, for example a two-week unit on image processing or advanced rendering." ;
+    ex:prerequisite "AL-Foundational",
+        "AL-Strategies",
+        "MSF-Linear as a prerequisite or cover relevant topics in class",
+        "SDF-Algorithms",
+        "SDF-Data-Structures",
+        "SDF-Practices" ;
+    ex:title "Interactive Computer Graphics" .
+
+ex:Introduction_to_AR_and_VR a ex:Course ;
+    ex:includes bok:GIT-Fundamentals,
+        bok:GIT-Immersive,
+        bok:GIT-Interactive,
+        bok:SEP-Privacy ;
+    ex:objectives "Students should understand and be able to develop VR and AR applications." ;
+    ex:title "Introduction to AR and VR" .
+
+ex:Introduction_to_Data_Science a ex:Course ;
+    ex:includes bok:AI-ML,
+        bok:AI-SEP,
+        bok:DM-Analytics,
+        bok:DM-Core,
+        bok:DM-Modeling,
+        bok:DM-NoSQL,
+        bok:DM-Querying,
+        bok:DM-SEP,
+        bok:DM-Security,
+        bok:GIT-SEP,
+        bok:GIT-Visualization,
+        bok:MSF-Statistics ;
+    ex:objectives "A student who completes this course should be able to formulate questions as data analysis problems, understand and use statistical techniques to achieve that analysis from real data, apply visualization techniques to convey the results, and analyze the ethical and societal implications of data science applications. Students should also be able to understand and effectively use data management techniques for preprocessing, storage, security, and retrieval of data in current systems." ;
+    ex:prerequisite "SDF-Fundamentals" ;
+    ex:title "Introduction to Data Science" .
+
+ex:Introduction_to_Data_Visualization a ex:Course ;
+    ex:includes bok:GIT-Rendering,
+        bok:GIT-Visualization,
+        bok:HCI-User,
+        bok:SEP-Privacy ;
+    ex:objectives "Students should understand how to select a dataset; ensure the data are accurate and appropriate; and design, develop and test a visualization program that depicts the data and is usable. Advanced Course: Usability Testing ● HCI-User (5 hours) ● HCI-Accountability (3 hours) ● HCI-Accessibility (4 hours) ● HCI-Evaluation (20 hours) ● HCI-Design (3 hours) ● HCI-SEP (5 hours) Prerequisites: ● Introductory/Foundation courses in HCI ● Research methods, MSF-Statistics Course objectives: Students should be able to formally evaluate products including the design and execution of usability test tasks, recruitment of appropriate users, design of test tasks, design of the test environment, test plan development and implementation, analysis and interpretation of the results, and documentation and presentation of results and recommendations. Students should be able to select appropriate techniques, procedures, and protocols to apply in various situations for usability testing with users. Students should also be able to design an appropriate evaluation plan, effectively conduct the usability test, collect data, and analyze results so that they can suggest improvements." ;
+    ex:prerequisite "CS2",
+        "MSF-Linear" ;
+    ex:title "Introduction to Data Visualization" .
+
+ex:Introduction_to_Special_Platform_Development_Course a ex:Course ;
+    ex:includes bok:FPL-Scripting,
+        bok:SDF-Practices,
+        bok:SE-Design,
+        bok:SEP-Context,
+        bok:SPD-Common,
+        bok:SPD-Embedded,
+        bok:SPD-Game,
+        bok:SPD-Mobile,
+        bok:SPD-SEP,
+        bok:SPD-Web ;
+    ex:objectives "Students should be able to grasp common aspects of platform development, acquire foundational knowledge in web development, and attain proficiency in web techniques. They will apply comprehensive mobile development skills and explore challenges in robotics platforms. 313 Expertise in developing platforms for embedded systems, along with skills in game development and creating interactive platforms, will be developed. Students will analyze societal, ethical, and professional implications of platform development, fostering a well-rounded understanding of this field within a concise curriculum." ;
+    ex:title "Introduction to Special Platform Development Course" .
+
+ex:Introductory_Course a ex:Course ;
+    ex:includes bok:OS-Advanced,
+        bok:OS-Concurrency,
+        bok:OS-Devices,
+        bok:OS-Faults,
+        bok:OS-Files,
+        bok:OS-Memory,
+        bok:OS-Principles,
+        bok:OS-Process,
+        bok:OS-Protection,
+        bok:OS-Purpose,
+        bok:OS-Real,
+        bok:OS-SEP,
+        bok:OS-Scheduling,
+        bok:OS-Virtualization,
+        bok:SF-Design,
+        bok:SF-Evaluation,
+        bok:SF-Foundations,
+        bok:SF-Overview,
+        bok:SF-Performance,
+        bok:SF-Reliability,
+        bok:SF-Resource,
+        bok:SF-SEP,
+        bok:SF-Security ;
+    ex:objectives "Students should be able to (1) understand the fundamental concepts in computer systems; (2) understand the key design principles, in terms of performance, reliability and security, when designing computer systems; (3) deploy and evaluate representative complex systems (e.g., MySQL and Spark) based on their documentations, and (4) design and implement simple computer systems (e.g., an interactive program, a simple web server, and a simple data storage system).",
+        "Students should understand the impact and implications of operating system resource management in terms of performance and security. They should understand and implement inter-process communication mechanisms safely. They should be able to differentiate between the use and evaluation of open-source and/or proprietary operating systems. They should understand virtualization as a feature of safe modern operating system implementation." ;
+    ex:prerequisite "AR-Assembly",
+        "AR-IO",
+        "AR-Memory",
+        "AR-Organization",
+        "AR-Reliability",
+        "Basic matrix operations from Linear Algebra (See also: MSF-Linear)",
+        "MSF-Discrete",
+        "Random variable, Bayes theorem, expectation and variation, cumulative distribution function",
+        "Sets and relations, basic graph theory and basic logic from Discrete Mathematics (See also:" ;
+    ex:title "Introductory Course" .
+
+ex:Lighting_and_Shading a ex:Course ;
+    ex:includes bok:GIT-Interaction,
+        bok:GIT-Modeling,
+        bok:GIT-Shading,
+        bok:SEP-IP ;
+    ex:objectives "Students should be able to create realistic and non-photorealistic lighting and understand the underlying theory of shading and lighting." ;
+    ex:prerequisite "Interactive Computer Graphics course" ;
+    ex:title "Lighting and Shading" .
+
+ex:Machine_Learning a ex:Course ;
+    ex:includes bok:AI-KRR,
+        bok:AI-ML,
+        bok:AI-NLP,
+        bok:AI-SEP ;
+    ex:objectives "A student who completes this course should be able to understand, develop, and apply mechanisms for supervised, unsupervised, and reinforcement learning. They should be able to select the proper machine learning algorithm for a problem, preprocess the data appropriately, apply proper evaluation techniques, and explain how to interpret the resulting models, including the model's shortcomings. They should be able to identify and compensate for biased data sets and other sources of error and be able to explain ethical and societal implications of their application of machine learning to practical problems." ;
+    ex:prerequisite "MSF-Discrete",
+        "MSF-Linear (optional)",
+        "MSF-Probability",
+        "MSF-Statistics",
+        "SDF-Algorithms",
+        "SDF-Data-Structures",
+        "SDF-Fundamentals" ;
+    ex:title "Machine Learning" .
+
+ex:Media_Computation a ex:Course ;
+    ex:includes bok:AL-Foundational,
+        bok:GIT-Fundamentals,
+        bok:GIT-Interaction,
+        bok:GIT-Rendering,
+        bok:GIT-SEP,
+        bok:HCI-User,
+        bok:SDF-Fundamentals ;
+    ex:objectives "In this introductory programming class, students should be able to explain, evaluate, and apply algorithms and arrays that use and produce digital media. 167" ;
+    ex:title "Media Computation" .
+
+ex:Mobile_Development_Course a ex:Course ;
+    ex:includes bok:SDF-Practices,
+        bok:SE-Construction,
+        bok:SE-Design,
+        bok:SPD-Common,
+        bok:SPD-Mobile,
+        bok:SPD-SEP ;
+    ex:objectives "Students should be able to design, develop, and deploy cross-platform mobile applications using languages like Java, Kotlin, Swift, or React Native. Proficiency in implementing user experience best practices, exploring cross-platform development tools, and utilizing platform-specific APIs for seamless integration is emphasized. The course covers security vulnerability identification, testing methodologies, and distribution/versioning of mobile applications. Students gain insights into user behavior and application performance through analytics tools. Additionally, they learn version control, release management, and ethical considerations relevant to mobile development, providing a well-rounded skill set for successful and responsible mobile application development across diverse platforms." ;
+    ex:title "Mobile Development Course" .
+
+ex:Robotics a ex:Course ;
+    ex:includes bok:AI-ML,
+        bok:AI-Robotics,
+        bok:AI-SEP,
+        bok:AI-Search,
+        bok:SPD-Robot ;
+    ex:objectives "A student who completes this course should be able to understand and use robotic techniques to perceive the world using sensors, localize the robot based on features and a map, and plan paths and navigate in the world in simple robot applications. They should understand and be able to apply simple computer vision, motion planning, and forward and inverse kinematics techniques." ;
+    ex:prerequisite "MSF-Linear",
+        "SDF-Algorithms",
+        "SDF-Data-Structures",
+        "SDF-Fundamentals" ;
+    ex:title "Robotics" .
+
+ex:Simulation a ex:Course ;
+    ex:includes bok:GIT-Rendering,
+        bok:GIT-Shading,
+        bok:GIT-Simulation,
+        bok:SEP-Professional ;
+    ex:objectives "Students should understand and be able to create directable simulations, both of physical and non-physical systems." ;
+    ex:prerequisite "AL-Foundational",
+        "AL-Strategies",
+        "MSF-Linear as a prerequisite or cover relevant topics in class",
+        "MSF-Probability",
+        "SDF-Algorithms",
+        "SDF-Data-Structures",
+        "SDF-Practices" ;
+    ex:title "Simulation" .
+
+ex:Systems_Course a ex:Course ;
+    ex:includes bok:AR-Assembly,
+        bok:AR-Heterogeneity,
+        bok:AR-IO,
+        bok:AR-Memory,
+        bok:AR-Performance,
+        bok:AR-Representation,
+        bok:NC-Applications,
+        bok:OS-Purpose,
+        bok:PDC-Algorithms,
+        bok:SEP-History,
+        bok:SF-Design,
+        bok:SF-Reliability ;
+    ex:objectives "Students should understand the advanced architectural aspects of modern computer systems, including heterogeneous architectures and the required hardware and software interfaces to improve the performance and energy footprint of applications. Prerequisites: ● MSF-Discrete, MSF-Statistics" ;
+    ex:prerequisite "MSF-Discrete, MSF-Statistics" ;
+    ex:title "Systems Course" .
+
+ex:Tangible_Computing a ex:Course ;
+    ex:includes bok:GIT-Interaction,
+        bok:GIT-Physical,
+        bok:HCI-Design,
+        bok:HCI-User,
+        bok:SEP-Privacy,
+        bok:SPD-Embedded ;
+    ex:objectives "Students should be able to use human-centered design to build circuits and program a networked microcontroller. Additionally, they will learn to work with real time sensors and understand polarity, Ohm’s law, and how to work with electronics safely." ;
+    ex:prerequisite "AL-Foundational" ;
+    ex:title "Tangible Computing" .
+
+ex:User-Centered_Development a ex:Course ;
+    ex:includes bok:GIT-Fundamentals,
+        bok:GIT-Interaction,
+        bok:GIT-Rendering,
+        bok:HCI-Accessibility,
+        bok:HCI-SEP,
+        bok:HCI-User,
+        bok:SE-Construction,
+        bok:SPD-Web ;
+    ex:objectives "" ;
+    ex:title "User-Centered Development" .
+
+ex:Web_Development_Course a ex:Course ;
+    ex:includes bok:DM-Querying,
+        bok:FPL-OOP,
+        bok:FPL-Scripting,
+        bok:SDF-Practices,
+        bok:SE-Construction,
+        bok:SE-Design,
+        bok:SE-Tools,
+        bok:SPD-SEP,
+        bok:SPD-Web ;
+    ex:objectives "Students should be able to gain expertise in designing, developing, and deploying modern web applications. The curriculum covers key concepts, ensuring proficiency in HTML, CSS, and JavaScript for responsive and visually appealing pages. Students explore and implement frontend frameworks (e.g., React, Angular) for efficient development, understand server-side languages (e.g., Node.js, Python) for dynamic applications, and design effective architectures prioritizing scalability and security. They learn version control (e.g., GIT), integrate APIs for enhanced functionality, implement responsive design, optimize for performance, and ensure security through best practices. Testing, debugging, accessibility, deployment, and staying current with industry trends are also emphasized." ;
+    ex:title "Web Development Course" .
+

@@ -1,0 +1,35 @@
+Title: SE-Design: Software Design
+
+KA Core:
+5. API design principles
+a. Consistency
+i. Consistent APIs are easier to learn and less error-prone
+ii. Consistency is both internal (between different portions of the API) and external (following
+common API patterns)
+b. Composability
+c. Documenting contracts
+i. API operations should describe their effect on the system, but not generally their
+implementation
+ii. Preconditions, postconditions, and invariants
+243
+d. Expandability
+e. Error reporting
+i. Errors should be clear, predictable, and actionable
+ii. Input that does not match the contract should produce an error
+iii. Errors that can be reliably managed without reporting should be managed
+6. Identifying and codifying data invariants and time invariants
+7. Structural and behavioral models of software designs
+8. Data design (See also: DM-Modeling)
+a. Data structures
+b. Storage systems
+9. Requirement traceability
+a. Understanding which requirements are satisfied by a design
+Non-Core:
+10. Design modeling, for instance with class diagrams, entity relationship diagrams, or sequence
+diagrams
+11. Measurement and analysis of design quality
+12. Principles of secure design and coding (See also: SEC-Engineering)
+a. Principle of least privilege
+b. Principle of fail-safe defaults
+c. Principle of psychological acceptability
+13. Evaluating design tradeoffs (e.g., efficiency vs reliability, security vs usability)

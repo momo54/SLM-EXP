@@ -1,0 +1,12 @@
+Title: SEP-Economies: Economies of Computing
+
+KA Core:
+1. Economic models: regulated and unregulated, monopolies, network effects, and open market;
+knowledge and attention economies
+2. Pricing and deployment strategies: planned obsolescence, subscriptions, freemium, software
+licensing, open-source, free software, adware
+3. Impacts of differences in access to computing resources, and the effect of skilled labor supply and
+demand on the quality of computing products
+4. Automation, AI, and their effects on job markets, developers, and users
+5. Ethical concerns surrounding the attention economy and other economies of computing (e.g.
+informed consent, data collection, use of verbose legalese in user agreements)

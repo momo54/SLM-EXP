@@ -1,0 +1,6 @@
+Title: SEP-Communication: Communication
+
+KA Core:
+7. Tradeoffs in competing factors that affect communication channels and choices
+8. Communicating to solve problems or make recommendations in the workplace, such as raising
+ethical concerns or addressing accessibility issues

@@ -1,0 +1,6 @@
+Title: DM-SEP: Society, Ethics, and the Profession
+
+KA Core:
+6. Reliability of data (See also: SEP-Security)
+7. Provenance, data lineage, and metadata management (See also: SEP-Professional-Ethics)
+8. Data security (See also: DM-Security, SEP-Security)

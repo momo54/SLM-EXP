@@ -1,0 +1,5 @@
+Title: GIT-Fundamentals: Fundamental Concepts
+
+KA Core:
+10. Applied interactive graphics (e.g., processing, python)
+11. Display characteristics (protocols and ports)

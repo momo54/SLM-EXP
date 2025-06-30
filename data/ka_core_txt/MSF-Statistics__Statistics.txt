@@ -1,0 +1,7 @@
+Title: MSF-Statistics: Statistics
+
+KA Core:
+3. Multivariate data: estimation, correlation, regression
+4. Data transformation: dimension reduction, smoothing
+5. Statistical models and algorithms
+6. Hypothesis testing

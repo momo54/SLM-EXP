@@ -1,0 +1,21 @@
+Title: SEP-Professional-Ethics: Professional Ethics
+
+CS Core:
+1. Community values and the laws by which we live
+2. The nature of being a professional including care, attention, discipline, fiduciary responsibility, and
+mentoring
+3. Keeping up to date as a computing professional in terms of familiarity, tools, skills, legal and
+professional frameworks as well as the ability and responsibility to self-assess and progress in the
+computing field
+4. Professional certification, codes of ethics, conduct, and practice, such as the ACM, IEEE, AAAI,
+and other international societies
+5. Accountability, responsibility, and liability (e.g., software correctness, reliability and safety,
+warranty, negligence, strict liability, ethical approaches to security vulnerability disclosures)
+including whether a product/service should be built, not just doing so because it is technically
+possible.
+6. Introduction to theories describing the human creation and use of technology including
+instrumentalism, sociology of technological systems, disability justice, neutrality thesis,
+pragmatism, and decolonial models, including developing and using technology to right wrongs and
+do good
+7. Strategies for recognizing and reporting designs, systems, software, and professional conduct (or
+their outcomes) that may violate law or professional codes of ethics

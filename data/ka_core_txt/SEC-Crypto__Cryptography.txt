@@ -1,0 +1,19 @@
+Title: SEC-Crypto: Cryptography
+
+KA Core:
+8. Additional mathematics: primality, factoring, and elliptic curve cryptography (See also: MSF-
+Discrete)
+260
+9. Private-key cryptosystems: substitution-permutation networks, linear cryptanalysis, differential
+cryptanalysis, DES, and AES (See also: MSF-Discrete, NC-Security)
+10. Public-key cryptosystems: Diffie-Hellman and RSA (See also: MSF-Discrete)
+11. Data integrity and authentication: hashing, and digital signatures (See also: MSF-Discrete, DM-
+Security)
+12. Cryptographic protocols: challenge-response authentication, zero-knowledge protocols,
+commitment, oblivious transfer, secure two- or multi-party computation, hash functions, secret
+sharing, and applications (See also: MSF-Discrete)
+13. Attacker capabilities: chosen-message attack (for signatures), birthday attacks, side channel
+attacks, and fault injection attacks (See also: NC-Security)
+14. Quantum cryptography; Post Quantum/Quantum resistant cryptography (See also: AL-
+Foundational, MSF-Discrete)
+15. Blockchain and cryptocurrencies (See also: MSF-Discrete, PDF-Communication)

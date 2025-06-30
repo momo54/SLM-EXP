@@ -1,0 +1,117 @@
+@prefix ex: <http://example.org/course/> .
+
+ex:ASD3 ex:description "This course covers advanced topics in algorithmics and data structures. The exam consists of 13 exercises that test the student's ability to analyze and solve complex problems in graph theory, tree data structures, and algorithm design. The exercises require a deep understanding of concepts such as AVL trees, skip lists, R-quadtrees, and graph algorithms." ;
+    ex:hasObjective "Analyze and solve complex problems in graph theory and tree data structures",
+        "Apply advanced data structures to solve real-world problems",
+        "Demonstrate a deep understanding of algorithmics and data structures",
+        "Design and analyze algorithms for efficient searching and sorting" ;
+    ex:hasTopic "Algorithm design and analysis",
+        "Data structures for efficient searching and sorting",
+        "Graph theory and graph algorithms",
+        "Tree data structures (AVL trees, skip lists, R-quadtrees)" ;
+    ex:level "L3" ;
+    ex:track "Info, Math-Info, CMI" .
+
+ex:BD ex:description "This course covers the fundamental concepts and techniques of database systems, data modeling, and database design. It focuses on the relational model, functional dependencies, and database normalization. The course also introduces database querying, indexing, and transaction management. Students will learn to design and implement a database system, ensuring data consistency and integrity." ;
+    ex:hasTopic "Database querying and indexing",
+        "Database system implementation and data consistency",
+        "Functional dependencies and database normalization",
+        "Relational model and database design",
+        "Transaction management and concurrency control" ;
+    ex:level "M1" ;
+    ex:track "Database Systems (X32I040)" .
+
+ex:IF ex:description "This course covers the fundamental concepts of computer science, and mathematics, focusing on formal languages, automata theory, and computational complexity. The course is designed to provide students with a solid understanding of the theoretical foundations of computer science." ;
+    ex:hasObjective "Analyze the decidability of languages using Turing machines",
+        "Apply the intersection of algebraic languages to solve problems",
+        "Identify and prove the NP-completeness of problems",
+        "Understand the basics of computational complexity theory and reducibility",
+        "Understand the concepts of formal languages, automata, and Turing machines" ;
+    ex:hasTopic "Computational complexity theory",
+        "Formal languages and automata theory",
+        "Intersection of algebraic languages and Post's Correspondence Problem",
+        "NP-completeness and reducibility",
+        "Turing machines and decidability" ;
+    ex:level "L3" ;
+    ex:track "Informatique & Math-Info Nantes University" .
+
+ex:LA ex:description "This course covers the fundamental concepts of languages and automata, including grammars, automata, and regular expressions. Students will learn to analyze and design languages, as well as recognize and generate strings in a language." ;
+    ex:hasObjective "Analyze a language using grammars and automata",
+        "Design a language using automata and regular expressions",
+        "Recognize and generate strings in a language",
+        "Understand the equivalence between grammars, automata, and regular expressions" ;
+    ex:hasTopic "Analysis of languages using grammars and automata",
+        "Automata and their equivalence with regular languages",
+        "Design of languages and automata and regular expressions",
+        "Grammars and their types (Chomsky hierarchy)",
+        "Regular expressions and their equivalence with automata" ;
+    ex:level "L3" ;
+    ex:track "Informatique - X31I030" .
+
+ex:PF ex:description "This course covers the fundamentals of functional programming, with a focus on the OCaml language. The course is divided into four main parts: typing, evaluation, functional programming, and lambda-calculus. Students will learn how to calculate the type of expressions, evaluate programs, and write functions using recursion and higher-order functions. The course also covers the implementation of the Sieve of Eratosthenes algorithm and the use of iterators on lists." ;
+    ex:hasObjective "Be able to calculate the type of expressions and evaluate OCaml programs",
+        "Implement the Sieve of Eratosthenes algorithm",
+        "Understand the basics of functional programming",
+        "Use iterators on lists effectively",
+        "Write functions using recursion and higher-order functions" ;
+    ex:hasTopic "Evaluation of OCaml programs",
+        "Implementation of the Sieve of Eratosthenes",
+        "Iterators on lists",
+        "Lambda-calculus",
+        "Recursion and higher-order functions",
+        "Typing and type inference" ;
+    ex:level "L3" ;
+    ex:track "Informatique / Math-Info" .
+
+ex:RO ex:description "This course in Operational Research is designed to equip students with the fundamental concepts and techniques to model and solve decision-making problems. The course covers the formulation and resolution of linear programming problems, including graphical and simplex methods. It also introduces integer programming, sensitivity analysis, and simple scheduling. Students will learn to model real-world problems and analyze the results to make informed decisions." ;
+    ex:hasObjective "Analyze and interpret the sensitivity of optimal solutions to changes in parameters",
+        "Apply operational research techniques to real-world decision-making problems",
+        "Formulate and solve linear and integer programming problems using graphical and simplex methods",
+        "Model and solve simple scheduling problems" ;
+    ex:hasTopic "Integer Programming: formulation and resolution",
+        "Linear Programming: graphical and simplex methods",
+        "Modeling of real-world problems: case studies",
+        "Sensitivity Analysis: interpretation of results",
+        "Simple Scheduling: graphical representation and analysis" ;
+    ex:level "L3" ;
+    ex:track "Informatique" .
+
+ex:Réseau ex:description "This course covers the fundamental concepts and techniques in computer networks and telecommunications. The course is designed to provide students with a comprehensive knowledge of network architectures, protocols, and security mechanisms. The course is divided into seven modules, each focusing on a specific aspect of computer networks, including network introduction, application layer, transport layer, network layer, data link layer, wireless networks, and security." ;
+    ex:hasObjective "Analyze and design network protocols and architectures",
+        "Apply network security principles and mechanisms to real-world scenarios",
+        "Evaluate and compare different network security mechanisms and protocols",
+        "Implement and configure network devices and protocols",
+        "Understand the fundamental concepts and protocols of computer networks" ;
+    ex:hasTopic "Application layer protocols",
+        "Data link layer protocols and local area networks",
+        "Network introduction and fundamentals",
+        "Network layer protocols and routing",
+        "Network security and cryptography",
+        "Transport layer protocols",
+        "Wireless networks and medium access control" ;
+    ex:level "L3" ;
+    ex:track "Informatique et Miage" .
+
+ex:algos ex:description "This course covers the study of algorithms, focusing on the theoretical foundations of computer science. The course is divided into four exercises that assess the students' knowledge of induction, semantics, rewriting systems, and order theory. The exercises cover various topics, including inductive definitions, semantic rules, and rewriting systems, as well as the study of orders and lattices." ;
+    ex:hasObjective "Analyze and prove the properties of rewriting systems",
+        "Understand and apply inductive definitions and semantic rules",
+        "Understand and apply order theory and lattice concepts" ;
+    ex:hasTopic "Inductive definitions and semantic rules",
+        "Order theory and lattices",
+        "Rewriting systems and termination" ;
+    ex:level "L3" ;
+    ex:track "Université de Nantes, X31I010" .
+
+ex:architecture ex:description "This course covers the fundamental concepts of computer architecture, focusing on the design and implementation of digital systems. Students will learn to analyze and design digital systems, including the development of controllers, implementation of algorithms, and evaluation of system performance. The course also covers the basics of assembly language programming, including the MIPS instruction set architecture." ;
+    ex:hasObjective "Analyze and design digital systems",
+        "Develop controllers using finite state machines",
+        "Implement algorithms in assembly language",
+        "Understand the performance metrics of digital systems" ;
+    ex:hasTopic "Algorithm implementation and performance evaluation",
+        "Assembly language programming",
+        "Controller development",
+        "Digital system design and implementation",
+        "MIPS programming" ;
+    ex:level "L3" ;
+    ex:track "Nantes Université - X31I050" .
+

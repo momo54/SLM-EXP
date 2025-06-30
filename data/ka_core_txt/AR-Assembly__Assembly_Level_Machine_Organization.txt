@@ -1,0 +1,13 @@
+Title: AR-Assembly: Assembly Level Machine Organization
+
+KA Core:
+5. Instruction set architecture (ISA) (e.g., x86, ARM and RISC-V)
+a. Fixed vs variable-width instruction sets
+b. Instruction formats
+c. Data manipulation, control, I/O
+d. Addressing modes
+e. Machine language programming
+f. Assembly language programming
+6. Subroutine call and return mechanisms (See also: FPL-Translation, OS-Principles)
+7. I/O and interrupts (See also: OS-Principles)
+8. Heap, static, stack, and code segments (See also: FPL-Translation, OS-Process)

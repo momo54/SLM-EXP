@@ -1,0 +1,31 @@
+Title: PDC-Algorithms: Algorithms
+
+CS Core:
+1. Expressing and implementing algorithms in given languages and frameworks, to initiate activities
+(for example threads), use shared memory constructs, and channel, socket, and/or remote
+procedure call APIs. (See also: FPL-Parallel).
+a. Data parallel examples including map/reduce.
+b. Using channel, socket, and/or RPC APIs in a given language, with program control for
+sending (usually procedural) vs receiving. (usually reactive or RPC-based).
+c. Using locks, barriers, and/or synchronizers to maintain liveness without introducing races.
+2. Survey of common application domains across multicore, reactive, data parallel, cluster, cloud,
+open distributed systems, and frameworks (with reference to the following table).
+Category Typical Typical Typical Typical
+Execution agents Communication Algorithmic Engineering
+mechanisms domains goals
+Multicore Threads Shared memory, Resource Throughput,
+Atomics, locks management, latency,
+data processing energy
+Reactive Handlers, threads I/O Channels Services, real- Latency
+time
+Data parallel GPU, SIMD, Heterogeneous Linear algebra, Throughput,
+225
+accelerators, memory graphics, data energy
+hybrid analysis
+Cluster Managed hosts Sockets, channels Simulation, data Throughput
+analysis
+Cloud Provisioned hosts Service APIs Web Scalability
+applications
+Open Autonomous hosts Sockets, Data Fault tolerant Reliability
+distributed stores data stores and
+services

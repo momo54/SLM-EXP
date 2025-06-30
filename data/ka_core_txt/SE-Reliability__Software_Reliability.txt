@@ -1,0 +1,24 @@
+Title: SE-Reliability: Software Reliability
+
+KA Core:
+1. Concept of reliability as probability of failure or mean time between failures, and faults as cause of
+failures
+2. Identifying reliability requirements for different kinds of software
+3. Software failures caused by defects/bugs, and so for high reliability the goal is to have minimum
+defects – by injecting fewer defects (better training, education, planning), and by removing most of
+the injected defects (testing, code review, etc.)
+4. Software reliability, system reliability and failure behavior
+5. Defect injection and removal cycle, and different approaches for defect removal
+6. Compare the “error budget” approach to reliability with the “error-free” approach and identify
+domains where each is relevant.
+Non-Core:
+7. Software reliability models
+8. Software fault tolerance techniques and models
+a. Contextual differences in fault tolerance (e.g., crashing a flight critical system is strongly
+avoided, crashing a data processing system before corrupt data is written to storage is highly
+valuable)
+9. Software reliability engineering practices – including reviews, testing, practical model checking
+10. Identification of dependent and independent failure domains, and their impact on system reliability
+11. Measurement-based analysis of software reliability – telemetry, monitoring and alerting,
+dashboards, release qualification metrics, etc.
+250

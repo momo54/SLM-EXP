@@ -1,0 +1,30 @@
+Title: DM-Processing: Query Processing
+
+KA Core:
+1. Page structures
+2. Index structures
+a. B+ trees (See also: AL-Foundational)
+118
+b. Hash indices: static and dynamic (See also: AL-Foundational, SEC-Foundations)
+c. Index creation in SQL
+3. File structures (See also: OS-Files)
+a. Heap files
+b. Hash files
+4. Algorithms for query operators
+a. External Sorting (See also: AL-Foundational)
+b. Selection
+c. Projection; with and without duplicate elimination
+d. Natural Joins: Nested loop, Sort-merge, Hash join
+e. Analysis of algorithm efficiency (See also: AL-Complexity)
+5. Query transformations
+6. Query optimization
+a. Access paths
+b. Query plan construction
+c. Selectivity estimation
+d. Index-only plans
+7. Parallel Query Processing (e.g., parallel scan, parallel join, parallel aggregation) (See also: PDC-
+Algorithms)
+8. Database tuning/performance
+a. Index selection
+b. Impact of indices on query performance (See also: SF-Performance, SEP-Sustainability)
+c. Denormalization

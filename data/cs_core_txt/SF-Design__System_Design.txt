@@ -1,0 +1,5 @@
+Title: SF-Design: System Design
+
+CS Core:
+1. Common criteria of system design (e.g., liveness, safety, robustness, scalability, and security) (See
+also: PDC-Evaluation)

@@ -1,0 +1,16 @@
+Title: SE-Requirements: Product Requirements
+
+KA Core:
+1. Describe functional requirements using, for example, use cases or user stories.
+a. Using at least one method of documenting and structuring functional requirements.
+b. Understanding how the method supports design and implementation.
+c. Strengths and weaknesses of using a specific approach.
+2. Properties of requirements including consistency, validity, completeness, and feasibility.
+3. Requirements elicitation.
+a. Sources of requirements, for example, users, administrators, or support personnel.
+b. Methods of requirement gathering, for example, surveys, interviews, or behavioral analysis.
+4. Non-functional requirements, for example, security, usability, or performance, also called as Quality
+Attributes. (See also: SEP-Sustainability)
+5. Risk identification and management, including ethical considerations surrounding the proposed
+product. (See also: SEP-Professional-Ethics)
+6. Communicating and/or formalizing requirement specifications.

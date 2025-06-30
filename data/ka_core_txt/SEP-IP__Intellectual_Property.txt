@@ -1,0 +1,13 @@
+Title: SEP-IP: Intellectual Property
+
+KA Core:
+6. Philosophical foundations of intellectual property
+277
+7. Forms of intellectual property (e.g., copyrights, patents, trade secrets, trademarks) and the rights
+they protect
+8. Limitations on copyright protections, including fair use and the first sale doctrine
+9. Intellectual property laws and treaties that impact the enforcement of copyrights
+10. Software piracy and technical methods for enforcing intellectual property rights, such as digital
+rights management and closed source software as a trade secret
+11. Moral and legal foundations of the open-source movement
+12. Systems that use others’ data (e.g., large language models)

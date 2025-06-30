@@ -1,0 +1,10 @@
+Title: FPL-Systems: Systems Execution and Memory Model
+
+CS Core:
+1. Explain how a core language construct, such as data abstractions and control abstractions, is
+executed.
+2. Explain how programming language implementations typically organize memory into global data,
+text, heap, and stack sections and how features such as recursion and memory management map
+to this memory model.
+3. Explain why memory leaks and dangling pointer problems occur, and what can be done by a
+programmer to avoid/fix them.

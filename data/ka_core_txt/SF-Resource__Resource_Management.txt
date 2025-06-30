@@ -1,0 +1,4 @@
+Title: SF-Resource: Resource Management
+
+KA Core:
+3. Advantages and disadvantages of common scheduling algorithms (See also: OS-Scheduling)

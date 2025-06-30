@@ -1,0 +1,10 @@
+Title: HCI-Accountability: Accountability and Responsibility in Design
+
+KA Core:
+4. Value-sensitive design (See also: SEP-Ethical-Analysis, SEP-Context, SEP-Communication)
+a. Identify direct and indirect stakeholders
+b. Determine and include diverse stakeholder values and value systems.
+5. Persuasion through design (See also: SEP-Communication)
+a. Assess the persuasive content of a design
+b. Employ persuasion as a design goal
+c. Distinguish persuasive interfaces from manipulative interfaces

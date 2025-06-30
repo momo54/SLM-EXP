@@ -1,0 +1,8 @@
+Title: SDF-SEP: Society, Ethics, and the Profession
+
+CS Core:
+1. Intellectual property rights of programmers for programs they develop.
+2. Plagiarism and academic integrity.
+3. Responsibility and liability of programmers regarding code they develop for solutions. (See also:
+SEC-Foundations)
+4. Basic professional work ethics of programmers.

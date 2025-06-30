@@ -1,0 +1,15 @@
+Title: AR-IO: Interfacing and Communication
+
+CS Core:
+1. I/O fundamentals (See also: OS-Devices, PDC-Communication)
+a. Handshaking and buffering
+b. Programmed I/O
+c. Interrupt-driven I/O (See also: OS-Principles)
+2. Interrupt structures: vectored and prioritized, interrupt acknowledgment (See also: OS-Principles)
+3. I/O devices (e.g., mouse, keyboard, display, camera, sensors, actuators) (See also: GIT-
+Fundamentals, GIT-Interaction, OS-Advanced-Files, PDC-Programs)
+4. External storage, physical organization, and drives
+5. Buses fundamentals (See also: OS-Devices)
+a. Bus protocols
+b. Arbitration
+c. Direct-memory access (DMA)

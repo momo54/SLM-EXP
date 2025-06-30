@@ -1,0 +1,9 @@
+Title: NC-SingleHop: Single Hop Communication
+
+KA Core:
+1. Introduction to modulation, bandwidth, and communication media
+2. Encoding and Framing
+3. Medium Access Control (MAC) (e.g., random access and scheduled access)
+4. Ethernet and WiFi
+5. Switching (e.g., spanning trees, VLANS).
+6. Local Area Network Topologies (e.g., data center, campus networks).

@@ -1,0 +1,11 @@
+Title: MSF-Linear: Linear Algebra
+
+KA Core:
+2. Matrices, matrix-vector equation, geometric interpretation, geometric transformations with matrices
+3. Solving equations, row-reduction
+4. Linear independence, span, basis
+5. Orthogonality, projection, least-squares, orthogonal bases
+6. Linear combinations of polynomials, Bezier curves
+7. Eigenvectors and eigenvalues
+8. Applications to computer science: Principal Components Analysis (PCA), Singular Value
+Decomposition (SVD), page-rank, graphics

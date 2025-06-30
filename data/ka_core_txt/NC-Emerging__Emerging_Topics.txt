@@ -1,0 +1,8 @@
+Title: NC-Emerging: Emerging Topics
+
+KA Core:
+1. Middleboxes (e.g., advances in usage of AI, intent-based networking, filtering, deep packet
+inspection, load balancing, NAT, CDN)
+2. Network Virtualization (e.g., SDN, Data Center Networks)
+3. Quantum Networking (e.g., Intro to the domain, teleportation, security, Quantum Internet)
+4. Satellite, mmWave, Visible Light

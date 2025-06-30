@@ -1,0 +1,11 @@
+Title: HCI-User: Understanding the User: Individual goals and interactions with others
+
+CS Core:
+1. User-centered design and evaluation methods. (See also: SEP-Context, SEP-Ethical-Analysis,
+SEP-Professional-Ethics)
+a. “You are not the users”
+b. User needs-finding
+c. Formative studies
+d. Interviews
+e. Surveys
+f. Usability tests

@@ -1,0 +1,10 @@
+Title: SEP-Privacy: Privacy and Civil Liberties
+
+KA Core:
+5. Philosophical and legal conceptions of the nature of privacy including the right to privacy
+6. Legal foundations of privacy protection in relevant jurisdictions (e.g., GDPR in the EU)
+7. Privacy legislation in areas of practice (e.g., HIPAA in the US, AI Act in the EU)
+8. Basic Principles of human-subjects research and principles beyond what the law requires (e.g.,
+Belmont Report, UN Universal Declaration on Human Rights and how this relates to technology)
+9. Freedom of expression and its limitations
+10. User-generated content, content moderation, and liability

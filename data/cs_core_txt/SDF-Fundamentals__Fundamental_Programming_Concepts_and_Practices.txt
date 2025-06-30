@@ -1,0 +1,22 @@
+Title: SDF-Fundamentals: Fundamental Programming Concepts and Practices
+
+CS Core:
+1. Basic concepts such as variables, primitive data types, expressions, and their evaluation
+230
+2. How imperative programs work: state and state transitions on execution of statements, flow of
+control
+3. Basic constructs such as assignment statements, conditional and iterative statements, basic I/O
+4. Key modularity constructs such as functions (and methods and classes, if supported in the
+language) and related concepts like parameter passing, scope, abstraction, data encapsulation
+(See also: FPL-OOP)
+5. Input and output using files and APIs
+6. Structured data types available in the chosen programming language like sequences (e.g., arrays,
+lists), associative containers (e.g., dictionaries, maps), others (e.g., sets, tuples) and when and how
+to use them (See also: AL-Foundational)
+7. Libraries and frameworks provided by the language (when/where applicable)
+8. Recursion
+9. Dealing with runtime errors in programs (e.g., exception handling).
+10. Basic concepts of programming errors, testing, and debugging (See also: SE-Construction, SEC-
+Coding)
+11. Documenting/commenting code at the program and module level.(See also: SE-Construction)
+12. Develop a security mindset. (See also: SEC-Foundations)

@@ -1,0 +1,7 @@
+Title: SEP-Security: Security Policies, Laws and Computer Crimes
+
+KA Core:
+7. Benefits and challenges of existing and proposed computer crime laws
+8. Security policies and the challenges of change and compliance
+9. Responsibility for security throughout the computing life cycle
+10. International and local laws and how they intersect

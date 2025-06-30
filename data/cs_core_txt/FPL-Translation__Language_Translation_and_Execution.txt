@@ -1,0 +1,16 @@
+Title: FPL-Translation: Language Translation and Execution
+
+CS Core:
+1. Explain and understand the differences between compiled, JIT, and interpreted language
+implementations, including the benefits and limitations of each.
+2. Differentiate syntax and parsing from semantics and evaluation.
+139
+3. Use BNF and extended BNF to specify the syntax of simple constructs such as if-then-else, type
+declaration and iterative constructs for known languages such as C++ or Python.
+4. Illustrate the parse tree using a simple sentence/arithmetic expression.
+5. Illustrate translation of syntax diagrams to BNF/extended BNF for simple constructs such as if-then-
+else, type declaration, iterative constructs, etc.
+6. Illustrate ambiguity in parsing using nested if-then-else/arithmetic expression and show resolution
+using precedence order.
+KA-Core:
+7. Discuss the benefits and limitations of garbage collection, including the notion of reachability.

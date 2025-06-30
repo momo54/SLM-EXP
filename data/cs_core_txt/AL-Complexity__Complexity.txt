@@ -1,0 +1,29 @@
+Title: AL-Complexity: Complexity
+
+CS Core:
+1. Complexity Analysis Framework
+a. Best, average, and worst-case performance of an algorithm
+b. Empirical and relative (Order of Growth) measurements
+c. Input size and primitive operations
+d. Time and space efficiency
+2. Asymptotic complexity analysis (average and worst-case bounds)
+a. Big-O, Big-Omega, and Big-Theta formal notations
+b. Foundational Complexity Classes and Representative Examples/Problems
+i. O(1) Constant (e.g., array access)
+ii. O(log n) Logarithmic (e.g., binary search)
+2
+iii. O(n) Linear (e.g., linear search)
+iv. O(n log n) Log Linear (e.g., mergesort)
+2
+v. O(n2) Quadratic (e.g., selection sort)
+vi. O(nc) Polynomial (e.g., O(n3) Gaussian elimination)
+vii. O(2n) Exponential (e.g., Knapsack, Satisfiability (SAT),
+Traveling Sales-Person (TSP), all subsets)
+viii. O(n!) Factorial (e.g., Hamiltonian circuit, all permutations)
+3. Empirical measurements of performance
+4. Tractability and intractability
+a. P, NP, and NP-Complete Complexity Classes
+b. NP-Complete Problems (e.g., SAT, Knapsack, TSP)
+c. Reductions
+5. Time and space tradeoffs in algorithms
+91

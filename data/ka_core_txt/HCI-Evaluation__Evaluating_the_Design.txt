@@ -1,0 +1,28 @@
+Title: HCI-Evaluation: Evaluating the Design
+
+KA Core:
+2. Methods for evaluation with users (See also: SE-Validation)
+a. Qualitative methods (qualitative coding and thematic analysis)
+b. Quantitative methods (statistical tests)
+c. Mixed methods (e.g., observation, think-aloud, interview, survey, experiment)
+d. Presentation requirements (e.g., reports, personas)
+e. User-centered testing
+f. Heuristic evaluation
+g. Challenges and shortcomings to effective evaluation (e.g., sampling, generalization)
+3. Study planning
+a. How to set study goals
+b. Hypothesis design
+c. Approvals from Institutional Research Boards and ethics committees (See also: SEP-Ethical-
+Analysis, SEP-Security, SEP-Privacy)
+d. How to pre-register a study
+e. Within-subjects vs between-subjects design
+4. Implications and impacts of design with respect to the environment, material, society, security,
+privacy, ethics, and broader impacts. (See also: SEC-Foundations)
+178
+a. The environment
+b. Material
+c. Society
+d. Security
+e. Privacy
+f. Ethics
+g. Broader impacts

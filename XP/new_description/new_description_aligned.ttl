@@ -1,0 +1,1436 @@
+@prefix ns1: <http://provo.org/> .
+@prefix ns2: <http://example.org/course/> .
+@prefix ns3: <http://align.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ns2:Advanced_Course ns3:to [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Operating_Systems_OS/OS-Purpose_Role_and_Purpose_of_Operating_Systems.txt> ;
+            ns3:score "0.7231116"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "The lecture covers the fundamental principles and concepts of operating systems, including their role, purpose, and design issues, which aligns with the knowledge unit's objectives." ;
+            ns2:ka "Operating_Systems_OS" ;
+            ns2:ku "OS-Purpose_Role_and_Purpose_of_Operating_Systems" ;
+            ns1:wasGeneratedBy [ ns1:used "llama3-8b-8192" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Operating_Systems_OS/OS-Purpose_Role_and_Purpose_of_Operating_Systems.txt> ;
+            ns3:score "0.7231116"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "Lecture covers OS role, design criteria, security, and system functions, aligning with KU's core topics." ;
+            ns2:ka "Operating_Systems_OS" ;
+            ns2:ku "OS-Purpose_Role_and_Purpose_of_Operating_Systems" ;
+            ns1:wasGeneratedBy [ ns1:used "qwen-qwq-32b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Operating_Systems_OS/OS-Principles_Principles_of_Operating_System.txt> ;
+            ns3:score "0.7420614"^^xsd:float ;
+            ns2:answer "0" ;
+            ns2:explain "The lecture covers some related topics but lacks depth in specific OS principles like design approaches and protection mechanisms." ;
+            ns2:ka "Operating_Systems_OS" ;
+            ns2:ku "OS-Principles_Principles_of_Operating_System" ;
+            ns1:wasGeneratedBy [ ns1:used "deepseek-r1-distill-llama-70b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Operating_Systems_OS/OS-Purpose_Role_and_Purpose_of_Operating_Systems.txt> ;
+            ns3:score "0.7231116"^^xsd:float ;
+            ns2:answer "0" ;
+            ns2:explain "The lecture covers some aspects of the KU but lacks depth on specific security and OS functions." ;
+            ns2:ka "Operating_Systems_OS" ;
+            ns2:ku "OS-Purpose_Role_and_Purpose_of_Operating_Systems" ;
+            ns1:wasGeneratedBy [ ns1:used "deepseek-r1-distill-llama-70b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Operating_Systems_OS/OS-Principles_Principles_of_Operating_System.txt> ;
+            ns3:score "0.7333914"^^xsd:float ;
+            ns2:answer "0" ;
+            ns2:explain "Lecture covers OS fundamentals and some topics (e.g., interrupts, security), but lacks depth on design approaches, system call mechanics, and specific KU details like kernel/user mode transitions or Spectre-related performance costs." ;
+            ns2:ka "Operating_Systems_OS" ;
+            ns2:ku "OS-Principles_Principles_of_Operating_System" ;
+            ns1:wasGeneratedBy [ ns1:used "qwen-qwq-32b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Operating_Systems_OS/OS-Principles_Principles_of_Operating_System.txt> ;
+            ns3:score "0.7333914"^^xsd:float ;
+            ns2:answer "0" ;
+            ns2:explain "The lecture covers some related topics but lacks depth in specific OS principles like design approaches and protection mechanisms." ;
+            ns2:ka "Operating_Systems_OS" ;
+            ns2:ku "OS-Principles_Principles_of_Operating_System" ;
+            ns1:wasGeneratedBy [ ns1:used "deepseek-r1-distill-llama-70b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Operating_Systems_OS/OS-Principles_Principles_of_Operating_System.txt> ;
+            ns3:score "0.7333914"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "The lecture covers key principles of advanced computer system design, including I/O fundamentals, networking concepts, operating systems, system design criteria, system performance, reliability, and security, which aligns with the knowledge unit's topics." ;
+            ns2:ka "Operating_Systems_OS" ;
+            ns2:ku "OS-Principles_Principles_of_Operating_System" ;
+            ns1:wasGeneratedBy [ ns1:used "llama3-8b-8192" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Operating_Systems_OS/OS-Principles_Principles_of_Operating_System.txt> ;
+            ns3:score "0.7420614"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "The lecture covers key principles of advanced computer system design, including I/O fundamentals, networking concepts, operating systems, system design criteria, system performance, reliability, and security, which aligns with the knowledge unit's topics." ;
+            ns2:ka "Operating_Systems_OS" ;
+            ns2:ku "OS-Principles_Principles_of_Operating_System" ;
+            ns1:wasGeneratedBy [ ns1:used "llama3-8b-8192" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Operating_Systems_OS/OS-Principles_Principles_of_Operating_System.txt> ;
+            ns3:score "0.7420614"^^xsd:float ;
+            ns2:answer "0" ;
+            ns2:explain "Lecture covers OS fundamentals and some topics (e.g., interrupts, security), but lacks depth on design approaches, system call mechanics, and specific KU details like kernel/user mode transitions or Spectre-related performance costs." ;
+            ns2:ka "Operating_Systems_OS" ;
+            ns2:ku "OS-Principles_Principles_of_Operating_System" ;
+            ns1:wasGeneratedBy [ ns1:used "qwen-qwq-32b" ] ] .
+
+ns2:Artificial_Intelligence ns3:to [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Artificial_Intelligence_AI/AI-Introduction_Fundamental_Issues.txt> ;
+            ns3:score "0.79574764"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "The lecture covers fundamental concepts, techniques, and applications of AI, including knowledge representation, machine learning, and societal impacts, which aligns with the KU's content." ;
+            ns2:ka "Artificial_Intelligence_AI" ;
+            ns2:ku "AI-Introduction_Fundamental_Issues" ;
+            ns1:wasGeneratedBy [ ns1:used "llama3-8b-8192" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Artificial_Intelligence_AI/AI-Introduction_Fundamental_Issues.txt> ;
+            ns3:score "0.7809315"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "The lecture covers most KU topics but lacks specific details like the Turing test and Chinese Room." ;
+            ns2:ka "Artificial_Intelligence_AI" ;
+            ns2:ku "AI-Introduction_Fundamental_Issues" ;
+            ns1:wasGeneratedBy [ ns1:used "deepseek-r1-distill-llama-70b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Artificial_Intelligence_AI/AI-Introduction_Fundamental_Issues.txt> ;
+            ns3:score "0.79574764"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "Lecture covers agents, problem characteristics, Turing test, applications, and societal impacts, aligning with KU's core topics." ;
+            ns2:ka "Artificial_Intelligence_AI" ;
+            ns2:ku "AI-Introduction_Fundamental_Issues" ;
+            ns1:wasGeneratedBy [ ns1:used "qwen-qwq-32b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Artificial_Intelligence_AI/AI-ML_Machine_Learning.txt> ;
+            ns3:score "0.77304614"^^xsd:float ;
+            ns2:answer "0" ;
+            ns2:explain "The lecture provides a broad introduction to AI and machine learning but lacks the depth and specificity required by the KU, which includes detailed algorithms and advanced topics." ;
+            ns2:ka "Artificial_Intelligence_AI" ;
+            ns2:ku "AI-ML_Machine_Learning" ;
+            ns1:wasGeneratedBy [ ns1:used "deepseek-r1-distill-llama-70b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Artificial_Intelligence_AI/AI-ML_Machine_Learning.txt> ;
+            ns3:score "0.77304614"^^xsd:float ;
+            ns2:answer "0" ;
+            ns2:explain "Lecture covers core concepts (e.g., learning types, overfitting, ethics) but lacks depth on specific algorithms, mathematical formulations (e.g., regularization math, VC dimension), and detailed evaluation techniques (e.g., cross-validation metrics)." ;
+            ns2:ka "Artificial_Intelligence_AI" ;
+            ns2:ku "AI-ML_Machine_Learning" ;
+            ns1:wasGeneratedBy [ ns1:used "qwen-qwq-32b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Artificial_Intelligence_AI/AI-Introduction_Fundamental_Issues.txt> ;
+            ns3:score "0.79574764"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "The lecture covers most KU topics but lacks specific details like the Turing test and Chinese Room." ;
+            ns2:ka "Artificial_Intelligence_AI" ;
+            ns2:ku "AI-Introduction_Fundamental_Issues" ;
+            ns1:wasGeneratedBy [ ns1:used "deepseek-r1-distill-llama-70b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Artificial_Intelligence_AI/AI-Introduction_Fundamental_Issues.txt> ;
+            ns3:score "0.7809315"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "The lecture covers fundamental concepts, techniques, and applications of AI, including knowledge representation, machine learning, and societal impacts, which aligns with the KU's content." ;
+            ns2:ka "Artificial_Intelligence_AI" ;
+            ns2:ku "AI-Introduction_Fundamental_Issues" ;
+            ns1:wasGeneratedBy [ ns1:used "llama3-8b-8192" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Artificial_Intelligence_AI/AI-Introduction_Fundamental_Issues.txt> ;
+            ns3:score "0.7809315"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "Lecture covers agents, problem characteristics, Turing test, applications, and societal impacts, aligning with KU's core topics." ;
+            ns2:ka "Artificial_Intelligence_AI" ;
+            ns2:ku "AI-Introduction_Fundamental_Issues" ;
+            ns1:wasGeneratedBy [ ns1:used "qwen-qwq-32b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Artificial_Intelligence_AI/AI-ML_Machine_Learning.txt> ;
+            ns3:score "0.77304614"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "The lecture provides a comprehensive introduction to Artificial Intelligence, covering fundamental concepts, techniques, and applications, which aligns with the KU's objectives and topics." ;
+            ns2:ka "Artificial_Intelligence_AI" ;
+            ns2:ku "AI-ML_Machine_Learning" ;
+            ns1:wasGeneratedBy [ ns1:used "llama3-8b-8192" ] ] .
+
+ns2:Computer_Animation ns3:to [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Society_Ethics_and_the_Profession_SEP/SEP-Privacy_and_Civil_Liberties.txt> ;
+            ns3:score "0.701808"^^xsd:float ;
+            ns2:answer "0" ;
+            ns2:explain "The lecture covers some privacy concepts but lacks coverage of legal aspects and detailed privacy mechanisms." ;
+            ns2:ka "Society_Ethics_and_the_Profession_SEP" ;
+            ns2:ku "SEP-Privacy_and_Civil_Liberties" ;
+            ns1:wasGeneratedBy [ ns1:used "deepseek-r1-distill-llama-70b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Graphics_and_Interactive_Techniques_GIT/GIT-Animation_and_Simulation.txt> ;
+            ns3:score "0.69217277"^^xsd:float ;
+            ns2:answer "0" ;
+            ns2:explain "Lecture covers basic animation principles but lacks depth on procedural/AI-driven animation, crowd simulation, and advanced physics in KU." ;
+            ns2:ka "Graphics_and_Interactive_Techniques_GIT" ;
+            ns2:ku "GIT-Animation_and_Simulation" ;
+            ns1:wasGeneratedBy [ ns1:used "qwen-qwq-32b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Society_Ethics_and_the_Profession_SEP/SEP-Privacy_and_Civil_Liberties.txt> ;
+            ns3:score "0.701808"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "Covers core privacy concepts, anonymity, tech solutions, and cultural differences, aligning with CS/KA cores." ;
+            ns2:ka "Society_Ethics_and_the_Profession_SEP" ;
+            ns2:ku "SEP-Privacy_and_Civil_Liberties" ;
+            ns1:wasGeneratedBy [ ns1:used "qwen-qwq-32b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Society_Ethics_and_the_Profession_SEP/SEP-Privacy_and_Civil_Liberties.txt> ;
+            ns3:score "0.7215916"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "The lecture covers the fundamental concepts of computer animation and privacy, aligning with the KU's objectives, but lacks specific details on data collection, surveillance, and privacy legislation." ;
+            ns2:ka "Society_Ethics_and_the_Profession_SEP" ;
+            ns2:ku "SEP-Privacy_and_Civil_Liberties" ;
+            ns1:wasGeneratedBy [ ns1:used "llama3-8b-8192" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Society_Ethics_and_the_Profession_SEP/SEP-Privacy_and_Civil_Liberties.txt> ;
+            ns3:score "0.7215916"^^xsd:float ;
+            ns2:answer "0" ;
+            ns2:explain "The lecture covers some privacy concepts but lacks coverage of legal aspects and detailed privacy mechanisms." ;
+            ns2:ka "Society_Ethics_and_the_Profession_SEP" ;
+            ns2:ku "SEP-Privacy_and_Civil_Liberties" ;
+            ns1:wasGeneratedBy [ ns1:used "deepseek-r1-distill-llama-70b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Society_Ethics_and_the_Profession_SEP/SEP-Privacy_and_Civil_Liberties.txt> ;
+            ns3:score "0.701808"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "The lecture covers the fundamental concepts of computer animation and privacy, aligning with the KU's objectives, but lacks specific details on data collection, surveillance, and privacy legislation." ;
+            ns2:ka "Society_Ethics_and_the_Profession_SEP" ;
+            ns2:ku "SEP-Privacy_and_Civil_Liberties" ;
+            ns1:wasGeneratedBy [ ns1:used "llama3-8b-8192" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Graphics_and_Interactive_Techniques_GIT/GIT-Animation_and_Simulation.txt> ;
+            ns3:score "0.69217277"^^xsd:float ;
+            ns2:answer "0" ;
+            ns2:explain "The lecture covers basic animation principles but lacks depth in procedural animation, physics-based modeling, and AI-driven animation as outlined in the KU." ;
+            ns2:ka "Graphics_and_Interactive_Techniques_GIT" ;
+            ns2:ku "GIT-Animation_and_Simulation" ;
+            ns1:wasGeneratedBy [ ns1:used "deepseek-r1-distill-llama-70b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Society_Ethics_and_the_Profession_SEP/SEP-Privacy_and_Civil_Liberties.txt> ;
+            ns3:score "0.7215916"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "Covers core privacy concepts, anonymity, tech solutions, and cultural differences, aligning with CS/KA cores." ;
+            ns2:ka "Society_Ethics_and_the_Profession_SEP" ;
+            ns2:ku "SEP-Privacy_and_Civil_Liberties" ;
+            ns1:wasGeneratedBy [ ns1:used "qwen-qwq-32b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Graphics_and_Interactive_Techniques_GIT/GIT-Animation_and_Simulation.txt> ;
+            ns3:score "0.69217277"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "The lecture covers the fundamental principles of computer animation, including key animation principles, and explores privacy and civil liberties, which aligns with the KU's core principles and learning outcomes." ;
+            ns2:ka "Graphics_and_Interactive_Techniques_GIT" ;
+            ns2:ku "GIT-Animation_and_Simulation" ;
+            ns1:wasGeneratedBy [ ns1:used "llama3-8b-8192" ] ] .
+
+ns2:Computer_Architecture_-_Advanced_Topics_Course ns3:to [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Architecture_and_Organization_AR/AR-Heterogeneity_Heterogeneous_Architectures.txt> ;
+            ns3:score "0.75193137"^^xsd:float ;
+            ns2:answer "0" ;
+            ns2:explain "Lecture covers SIMD/MIMD and memory hierarchy basics but lacks DSA specifics, coherence protocols, 3DIC, and AI in design" ;
+            ns2:ka "Architecture_and_Organization_AR" ;
+            ns2:ku "AR-Heterogeneity_Heterogeneous_Architectures" ;
+            ns1:wasGeneratedBy [ ns1:used "qwen-qwq-32b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Architecture_and_Organization_AR/AR-Heterogeneity_Heterogeneous_Architectures.txt> ;
+            ns3:score "0.75193137"^^xsd:float ;
+            ns2:answer "0" ;
+            ns2:explain "The lecture covers some aspects of the KU but lacks detailed coverage of domain-specific architectures, packaging solutions, and machine learning in design." ;
+            ns2:ka "Architecture_and_Organization_AR" ;
+            ns2:ku "AR-Heterogeneity_Heterogeneous_Architectures" ;
+            ns1:wasGeneratedBy [ ns1:used "deepseek-r1-distill-llama-70b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Architecture_and_Organization_AR/AR-Logic_Digital_Logic_and_Digital_Systems.txt> ;
+            ns3:score "0.7586747"^^xsd:float ;
+            ns2:answer "0" ;
+            ns2:explain "Lecture focuses on architecture evolution/memory/I/O, while KU emphasizes digital logic, HDLs, SoC design, and physical constraints not covered." ;
+            ns2:ka "Architecture_and_Organization_AR" ;
+            ns2:ku "AR-Logic_Digital_Logic_and_Digital_Systems" ;
+            ns1:wasGeneratedBy [ ns1:used "qwen-qwq-32b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Architecture_and_Organization_AR/AR-Assembly_Assembly_Level_Machine_Organization.txt> ;
+            ns3:score "0.7386689"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "The lecture covers a significant portion of the KU, including von Neumann architecture, control units, SIMD vs MIMD, Flynn taxonomy, shared memory multiprocessors, and machine-level data representation." ;
+            ns2:ka "Architecture_and_Organization_AR" ;
+            ns2:ku "AR-Assembly_Assembly_Level_Machine_Organization" ;
+            ns1:wasGeneratedBy [ ns1:used "llama3-8b-8192" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Architecture_and_Organization_AR/AR-Assembly_Assembly_Level_Machine_Organization.txt> ;
+            ns3:score "0.7386689"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "Lecture covers von Neumann, ISA, assembly programming, subroutines, I/O, and memory segments, aligning with KA Core topics." ;
+            ns2:ka "Architecture_and_Organization_AR" ;
+            ns2:ku "AR-Assembly_Assembly_Level_Machine_Organization" ;
+            ns1:wasGeneratedBy [ ns1:used "qwen-qwq-32b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Architecture_and_Organization_AR/AR-Assembly_Assembly_Level_Machine_Organization.txt> ;
+            ns3:score "0.7386689"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "The lecture covers all main topics and learning outcomes specified in the KU." ;
+            ns2:ka "Architecture_and_Organization_AR" ;
+            ns2:ku "AR-Assembly_Assembly_Level_Machine_Organization" ;
+            ns1:wasGeneratedBy [ ns1:used "deepseek-r1-distill-llama-70b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Architecture_and_Organization_AR/AR-Heterogeneity_Heterogeneous_Architectures.txt> ;
+            ns3:score "0.75193137"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "The lecture covers the evolution of computer architectures, including von Neumann architecture, control units, SIMD vs MIMD, and memory hierarchy, which aligns with the KU's topics on heterogeneous architectures, memory systems, and domain-specific architectures." ;
+            ns2:ka "Architecture_and_Organization_AR" ;
+            ns2:ku "AR-Heterogeneity_Heterogeneous_Architectures" ;
+            ns1:wasGeneratedBy [ ns1:used "llama3-8b-8192" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Architecture_and_Organization_AR/AR-Logic_Digital_Logic_and_Digital_Systems.txt> ;
+            ns3:score "0.7586747"^^xsd:float ;
+            ns2:answer "0" ;
+            ns2:explain "The lecture focuses on high-level architecture and evolution, while the KU covers foundational digital logic and design." ;
+            ns2:ka "Architecture_and_Organization_AR" ;
+            ns2:ku "AR-Logic_Digital_Logic_and_Digital_Systems" ;
+            ns1:wasGeneratedBy [ ns1:used "deepseek-r1-distill-llama-70b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Architecture_and_Organization_AR/AR-Logic_Digital_Logic_and_Digital_Systems.txt> ;
+            ns3:score "0.7586747"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "The lecture covers the evolution of computer architectures, machine organization, memory hierarchy, and system performance, which aligns with the KU's topics on computer architecture, digital logic, and system-on-chip design." ;
+            ns2:ka "Architecture_and_Organization_AR" ;
+            ns2:ku "AR-Logic_Digital_Logic_and_Digital_Systems" ;
+            ns1:wasGeneratedBy [ ns1:used "llama3-8b-8192" ] ] .
+
+ns2:Computer_Architecture_-_Introductory_Course ns3:to [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Architecture_and_Organization_AR/AR-Assembly_Assembly_Level_Machine_Organization.txt> ;
+            ns3:score "0.7313986"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "Lecture covers von Neumann, Flynn taxonomy, SIMD/MIMD, ISA, I/O, memory organization, and multiprocessors, aligning with most KU topics but lacks explicit focus on assembly programming examples and some ISA format details." ;
+            ns2:ka "Architecture_and_Organization_AR" ;
+            ns2:ku "AR-Assembly_Assembly_Level_Machine_Organization" ;
+            ns1:wasGeneratedBy [ ns1:used "qwen-qwq-32b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Architecture_and_Organization_AR/AR-Logic_Digital_Logic_and_Digital_Systems.txt> ;
+            ns3:score "0.7275909"^^xsd:float ;
+            ns2:answer "0" ;
+            ns2:explain "The lecture focuses on modern computer architectures, while the KU covers digital logic and design, with little overlap." ;
+            ns2:ka "Architecture_and_Organization_AR" ;
+            ns2:ku "AR-Logic_Digital_Logic_and_Digital_Systems" ;
+            ns1:wasGeneratedBy [ ns1:used "deepseek-r1-distill-llama-70b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Society_Ethics_and_the_Profession_SEP/SEP-History.txt> ;
+            ns3:score "0.7367183"^^xsd:float ;
+            ns2:answer "0" ;
+            ns2:explain "Lecture mentions historical context but lacks detailed coverage of specific historical eras, key events, and figures required by KU." ;
+            ns2:ka "Society_Ethics_and_the_Profession_SEP" ;
+            ns2:ku "SEP-History" ;
+            ns1:wasGeneratedBy [ ns1:used "qwen-qwq-32b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Architecture_and_Organization_AR/AR-Assembly_Assembly_Level_Machine_Organization.txt> ;
+            ns3:score "0.7313986"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "The lecture covers most KU topics but lacks detailed ISA and assembly aspects." ;
+            ns2:ka "Architecture_and_Organization_AR" ;
+            ns2:ku "AR-Assembly_Assembly_Level_Machine_Organization" ;
+            ns1:wasGeneratedBy [ ns1:used "deepseek-r1-distill-llama-70b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Architecture_and_Organization_AR/AR-Logic_Digital_Logic_and_Digital_Systems.txt> ;
+            ns3:score "0.7275909"^^xsd:float ;
+            ns2:answer "0" ;
+            ns2:explain "Lecture covers architectures, memory, and history but lacks digital logic, HDLs, CAD tools, and SoC design emphasized in KU." ;
+            ns2:ka "Architecture_and_Organization_AR" ;
+            ns2:ku "AR-Logic_Digital_Logic_and_Digital_Systems" ;
+            ns1:wasGeneratedBy [ ns1:used "qwen-qwq-32b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Architecture_and_Organization_AR/AR-Assembly_Assembly_Level_Machine_Organization.txt> ;
+            ns3:score "0.7313986"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "The lecture covers a comprehensive overview of modern computer architectures, including memory hierarchies, I/O systems, data representation, and historical context, which aligns with the majority of the Knowledge Unit's topics." ;
+            ns2:ka "Architecture_and_Organization_AR" ;
+            ns2:ku "AR-Assembly_Assembly_Level_Machine_Organization" ;
+            ns1:wasGeneratedBy [ ns1:used "llama3-8b-8192" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Society_Ethics_and_the_Profession_SEP/SEP-History.txt> ;
+            ns3:score "0.7367183"^^xsd:float ;
+            ns2:answer "0" ;
+            ns2:explain "The lecture covers some historical context but lacks the detailed historical progression and societal impact outlined in the KU." ;
+            ns2:ka "Society_Ethics_and_the_Profession_SEP" ;
+            ns2:ku "SEP-History" ;
+            ns1:wasGeneratedBy [ ns1:used "deepseek-r1-distill-llama-70b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Society_Ethics_and_the_Profession_SEP/SEP-History.txt> ;
+            ns3:score "0.7367183"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "The lecture covers the fundamental concepts of modern computer architectures, including memory hierarchies, I/O systems, data representation, and historical context, which aligns with the KU's focus on the history of computing and its relevance to current architectures." ;
+            ns2:ka "Society_Ethics_and_the_Profession_SEP" ;
+            ns2:ku "SEP-History" ;
+            ns1:wasGeneratedBy [ ns1:used "llama3-8b-8192" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Architecture_and_Organization_AR/AR-Logic_Digital_Logic_and_Digital_Systems.txt> ;
+            ns3:score "0.7275909"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "The lecture covers a comprehensive overview of modern computer architectures, including memory hierarchies, I/O systems, data representation, and historical context, which aligns with the topics listed in the KU." ;
+            ns2:ka "Architecture_and_Organization_AR" ;
+            ns2:ku "AR-Logic_Digital_Logic_and_Digital_Systems" ;
+            ns1:wasGeneratedBy [ ns1:used "llama3-8b-8192" ] ] .
+
+ns2:Data_Visualization ns3:to [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Society_Ethics_and_the_Profession_SEP/SEP-Privacy_and_Civil_Liberties.txt> ;
+            ns3:score "0.70910233"^^xsd:float ;
+            ns2:answer "0" ;
+            ns2:explain "Lecture addresses privacy/ethics broadly but lacks specific legal frameworks (e.g., GDPR, HIPAA), technical solutions (e.g., differential privacy), and detailed cultural/legal critiques required by KU." ;
+            ns2:ka "Society_Ethics_and_the_Profession_SEP" ;
+            ns2:ku "SEP-Privacy_and_Civil_Liberties" ;
+            ns1:wasGeneratedBy [ ns1:used "qwen-qwq-32b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Society_Ethics_and_the_Profession_SEP/SEP-Privacy_and_Civil_Liberties.txt> ;
+            ns3:score "0.70910233"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "The lecture covers the fundamental concepts of computer graphics, human-computer interaction, and data visualization, which aligns with the KU's focus on privacy implications, civil liberties, and ethical considerations in data collection and visualization." ;
+            ns2:ka "Society_Ethics_and_the_Profession_SEP" ;
+            ns2:ku "SEP-Privacy_and_Civil_Liberties" ;
+            ns1:wasGeneratedBy [ ns1:used "llama3-8b-8192" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Graphics_and_Interactive_Techniques_GIT/GIT-Fundamentals.txt> ;
+            ns3:score "0.7255231"^^xsd:float ;
+            ns2:answer "0" ;
+            ns2:explain "The lecture covers some aspects of the KU but lacks detailed coverage of key components like the graphics pipeline, transformations, and rendering techniques." ;
+            ns2:ka "Graphics_and_Interactive_Techniques_GIT" ;
+            ns2:ku "GIT-Fundamentals" ;
+            ns1:wasGeneratedBy [ ns1:used "deepseek-r1-distill-llama-70b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Date_Management_DM/DM-Analytics_Data_Analytics.txt> ;
+            ns3:score "0.73945504"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "The lecture covers the fundamental concepts of computer graphics, human-computer interaction, and data visualization, which aligns with the KU's focus on data exploration, visualization, and analytics." ;
+            ns2:ka "Date_Management_DM" ;
+            ns2:ku "DM-Analytics_Data_Analytics" ;
+            ns1:wasGeneratedBy [ ns1:used "llama3-8b-8192" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Graphics_and_Interactive_Techniques_GIT/GIT-Fundamentals.txt> ;
+            ns3:score "0.7255231"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "Covers pipeline, transformations, rasterization, and shading models from KU's CS Core." ;
+            ns2:ka "Graphics_and_Interactive_Techniques_GIT" ;
+            ns2:ku "GIT-Fundamentals" ;
+            ns1:wasGeneratedBy [ ns1:used "qwen-qwq-32b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Society_Ethics_and_the_Profession_SEP/SEP-Privacy_and_Civil_Liberties.txt> ;
+            ns3:score "0.70910233"^^xsd:float ;
+            ns2:answer "0" ;
+            ns2:explain "The lecture covers some ethical aspects but lacks depth on legal and privacy specifics." ;
+            ns2:ka "Society_Ethics_and_the_Profession_SEP" ;
+            ns2:ku "SEP-Privacy_and_Civil_Liberties" ;
+            ns1:wasGeneratedBy [ ns1:used "deepseek-r1-distill-llama-70b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Graphics_and_Interactive_Techniques_GIT/GIT-Fundamentals.txt> ;
+            ns3:score "0.7255231"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "The lecture covers most of the fundamental concepts and techniques mentioned in the KU, including graphics pipeline architecture, transformations, rasterization, and shading models." ;
+            ns2:ka "Graphics_and_Interactive_Techniques_GIT" ;
+            ns2:ku "GIT-Fundamentals" ;
+            ns1:wasGeneratedBy [ ns1:used "llama3-8b-8192" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Date_Management_DM/DM-Analytics_Data_Analytics.txt> ;
+            ns3:score "0.73945504"^^xsd:float ;
+            ns2:answer "0" ;
+            ns2:explain "The lecture covers some aspects of data visualization and ethics but lacks substantial coverage of core data analytics topics like machine learning algorithms and data governance." ;
+            ns2:ka "Date_Management_DM" ;
+            ns2:ku "DM-Analytics_Data_Analytics" ;
+            ns1:wasGeneratedBy [ ns1:used "deepseek-r1-distill-llama-70b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Date_Management_DM/DM-Analytics_Data_Analytics.txt> ;
+            ns3:score "0.73945504"^^xsd:float ;
+            ns2:answer "0" ;
+            ns2:explain "Covers visualization and ethics but lacks data mining algorithms, full lifecycle, and governance details." ;
+            ns2:ka "Date_Management_DM" ;
+            ns2:ku "DM-Analytics_Data_Analytics" ;
+            ns1:wasGeneratedBy [ ns1:used "qwen-qwq-32b" ] ] .
+
+ns2:Game_Development_Course ns3:to [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Specialized_Platform_Development_SPD/SPD-Game_Platforms.txt> ;
+            ns3:score "0.77483255"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "The lecture covers a significant portion of the KU, including game development principles, programming languages, game engines, and design considerations." ;
+            ns2:ka "Specialized_Platform_Development_SPD" ;
+            ns2:ku "SPD-Game_Platforms" ;
+            ns1:wasGeneratedBy [ ns1:used "llama3-8b-8192" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Specialized_Platform_Development_SPD/SPD-Game_Platforms.txt> ;
+            ns3:score "0.7745031"^^xsd:float ;
+            ns2:answer "0" ;
+            ns2:explain "The lecture covers some aspects of the KU but lacks depth in areas like real-time simulation, detailed GPU architectures, and specific development tools." ;
+            ns2:ka "Specialized_Platform_Development_SPD" ;
+            ns2:ku "SPD-Game_Platforms" ;
+            ns1:wasGeneratedBy [ ns1:used "deepseek-r1-distill-llama-70b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Specialized_Platform_Development_SPD/SPD-Game_Platforms.txt> ;
+            ns3:score "0.7745031"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "The lecture covers a significant portion of the KU, including game development principles, programming languages, game engines, and design considerations." ;
+            ns2:ka "Specialized_Platform_Development_SPD" ;
+            ns2:ku "SPD-Game_Platforms" ;
+            ns1:wasGeneratedBy [ ns1:used "llama3-8b-8192" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Specialized_Platform_Development_SPD/SPD-Game_Platforms.txt> ;
+            ns3:score "0.7701446"^^xsd:float ;
+            ns2:answer "0" ;
+            ns2:explain "The lecture covers some aspects of the KU but lacks depth in areas like real-time simulation, detailed GPU architectures, and specific development tools." ;
+            ns2:ka "Specialized_Platform_Development_SPD" ;
+            ns2:ku "SPD-Game_Platforms" ;
+            ns1:wasGeneratedBy [ ns1:used "deepseek-r1-distill-llama-70b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Specialized_Platform_Development_SPD/SPD-Game_Platforms.txt> ;
+            ns3:score "0.77483255"^^xsd:float ;
+            ns2:answer "0" ;
+            ns2:explain "The lecture covers some aspects of the KU but lacks depth in areas like real-time simulation, detailed GPU architectures, and specific development tools." ;
+            ns2:ka "Specialized_Platform_Development_SPD" ;
+            ns2:ku "SPD-Game_Platforms" ;
+            ns1:wasGeneratedBy [ ns1:used "deepseek-r1-distill-llama-70b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Specialized_Platform_Development_SPD/SPD-Game_Platforms.txt> ;
+            ns3:score "0.77483255"^^xsd:float ;
+            ns2:answer "0" ;
+            ns2:explain "Lecture covers general concepts but lacks depth on platform architectures, rendering pipelines, and specific technical constraints outlined in KU." ;
+            ns2:ka "Specialized_Platform_Development_SPD" ;
+            ns2:ku "SPD-Game_Platforms" ;
+            ns1:wasGeneratedBy [ ns1:used "qwen-qwq-32b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Specialized_Platform_Development_SPD/SPD-Game_Platforms.txt> ;
+            ns3:score "0.7701446"^^xsd:float ;
+            ns2:answer "0" ;
+            ns2:explain "Lecture covers general concepts but lacks depth on platform architectures, rendering pipelines, and specific technical constraints outlined in KU." ;
+            ns2:ka "Specialized_Platform_Development_SPD" ;
+            ns2:ku "SPD-Game_Platforms" ;
+            ns1:wasGeneratedBy [ ns1:used "qwen-qwq-32b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Specialized_Platform_Development_SPD/SPD-Game_Platforms.txt> ;
+            ns3:score "0.7701446"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "The lecture covers a significant portion of the KU, including game development principles, programming languages, game engines, and design considerations." ;
+            ns2:ka "Specialized_Platform_Development_SPD" ;
+            ns2:ku "SPD-Game_Platforms" ;
+            ns1:wasGeneratedBy [ ns1:used "llama3-8b-8192" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Specialized_Platform_Development_SPD/SPD-Game_Platforms.txt> ;
+            ns3:score "0.7745031"^^xsd:float ;
+            ns2:answer "0" ;
+            ns2:explain "Lecture covers general concepts but lacks depth on platform architectures, rendering pipelines, and specific technical constraints outlined in KU." ;
+            ns2:ka "Specialized_Platform_Development_SPD" ;
+            ns2:ku "SPD-Game_Platforms" ;
+            ns1:wasGeneratedBy [ ns1:used "qwen-qwq-32b" ] ] .
+
+ns2:Image_Processing ns3:to [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Society_Ethics_and_the_Profession_SEP/SEP-Privacy_and_Civil_Liberties.txt> ;
+            ns3:score "0.78362954"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "The lecture covers essential concepts in image processing, interaction techniques, and critical aspects of privacy and civil liberties, which aligns with the KU's focus on privacy implications, anonymity, pseudonymity, and technology-based solutions." ;
+            ns2:ka "Society_Ethics_and_the_Profession_SEP" ;
+            ns2:ku "SEP-Privacy_and_Civil_Liberties" ;
+            ns1:wasGeneratedBy [ ns1:used "llama3-8b-8192" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Society_Ethics_and_the_Profession_SEP/SEP-Privacy_and_Civil_Liberties.txt> ;
+            ns3:score "0.78362954"^^xsd:float ;
+            ns2:answer "0" ;
+            ns2:explain "Lecture covers CS Core topics (privacy tech, anonymity, encryption) but lacks detailed KA Core legal specifics (GDPR, HIPAA, Belmont Report, liability)" ;
+            ns2:ka "Society_Ethics_and_the_Profession_SEP" ;
+            ns2:ku "SEP-Privacy_and_Civil_Liberties" ;
+            ns1:wasGeneratedBy [ ns1:used "qwen-qwq-32b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Society_Ethics_and_the_Profession_SEP/SEP-Privacy_and_Civil_Liberties.txt> ;
+            ns3:score "0.7534673"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "The lecture covers essential concepts in image processing, interaction techniques, and critical aspects of privacy and civil liberties, which aligns with the KU's focus on privacy implications, anonymity, pseudonymity, and technology-based solutions." ;
+            ns2:ka "Society_Ethics_and_the_Profession_SEP" ;
+            ns2:ku "SEP-Privacy_and_Civil_Liberties" ;
+            ns1:wasGeneratedBy [ ns1:used "llama3-8b-8192" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Society_Ethics_and_the_Profession_SEP/SEP-Privacy_and_Civil_Liberties.txt> ;
+            ns3:score "0.72978294"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "The lecture covers essential concepts in image processing, interaction techniques, and critical aspects of privacy and civil liberties, which aligns with the KU's focus on privacy implications, anonymity, pseudonymity, and technology-based solutions." ;
+            ns2:ka "Society_Ethics_and_the_Profession_SEP" ;
+            ns2:ku "SEP-Privacy_and_Civil_Liberties" ;
+            ns1:wasGeneratedBy [ ns1:used "llama3-8b-8192" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Society_Ethics_and_the_Profession_SEP/SEP-Privacy_and_Civil_Liberties.txt> ;
+            ns3:score "0.7534673"^^xsd:float ;
+            ns2:answer "0" ;
+            ns2:explain "Lecture covers CS Core topics (privacy tech, anonymity, encryption) but lacks detailed KA Core legal specifics (GDPR, HIPAA, Belmont Report, liability)" ;
+            ns2:ka "Society_Ethics_and_the_Profession_SEP" ;
+            ns2:ku "SEP-Privacy_and_Civil_Liberties" ;
+            ns1:wasGeneratedBy [ ns1:used "qwen-qwq-32b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Society_Ethics_and_the_Profession_SEP/SEP-Privacy_and_Civil_Liberties.txt> ;
+            ns3:score "0.72978294"^^xsd:float ;
+            ns2:answer "0" ;
+            ns2:explain "The lecture covers some aspects of privacy and technology but lacks detailed coverage of legal and philosophical elements outlined in the KU." ;
+            ns2:ka "Society_Ethics_and_the_Profession_SEP" ;
+            ns2:ku "SEP-Privacy_and_Civil_Liberties" ;
+            ns1:wasGeneratedBy [ ns1:used "deepseek-r1-distill-llama-70b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Society_Ethics_and_the_Profession_SEP/SEP-Privacy_and_Civil_Liberties.txt> ;
+            ns3:score "0.78362954"^^xsd:float ;
+            ns2:answer "0" ;
+            ns2:explain "The lecture covers some aspects of privacy and technology but lacks detailed coverage of legal and philosophical elements outlined in the KU." ;
+            ns2:ka "Society_Ethics_and_the_Profession_SEP" ;
+            ns2:ku "SEP-Privacy_and_Civil_Liberties" ;
+            ns1:wasGeneratedBy [ ns1:used "deepseek-r1-distill-llama-70b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Society_Ethics_and_the_Profession_SEP/SEP-Privacy_and_Civil_Liberties.txt> ;
+            ns3:score "0.7534673"^^xsd:float ;
+            ns2:answer "0" ;
+            ns2:explain "The lecture covers some aspects of privacy and technology but lacks detailed coverage of legal and philosophical elements outlined in the KU." ;
+            ns2:ka "Society_Ethics_and_the_Profession_SEP" ;
+            ns2:ku "SEP-Privacy_and_Civil_Liberties" ;
+            ns1:wasGeneratedBy [ ns1:used "deepseek-r1-distill-llama-70b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Society_Ethics_and_the_Profession_SEP/SEP-Privacy_and_Civil_Liberties.txt> ;
+            ns3:score "0.72978294"^^xsd:float ;
+            ns2:answer "0" ;
+            ns2:explain "Lecture covers CS Core topics (privacy tech, anonymity, encryption) but lacks detailed KA Core legal specifics (GDPR, HIPAA, Belmont Report, liability)" ;
+            ns2:ka "Society_Ethics_and_the_Profession_SEP" ;
+            ns2:ku "SEP-Privacy_and_Civil_Liberties" ;
+            ns1:wasGeneratedBy [ ns1:used "qwen-qwq-32b" ] ] .
+
+ns2:Interactive_Computer_Graphics ns3:to [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Specialized_Platform_Development_SPD/SPD-Game_Platforms.txt> ;
+            ns3:score "0.75315624"^^xsd:float ;
+            ns2:answer "0" ;
+            ns2:explain "Lecture focuses on graphics/APIs but lacks coverage of game platforms, eSports, hardware architectures, and broader game design/engine topics in KU." ;
+            ns2:ka "Specialized_Platform_Development_SPD" ;
+            ns2:ku "SPD-Game_Platforms" ;
+            ns1:wasGeneratedBy [ ns1:used "qwen-qwq-32b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Specialized_Platform_Development_SPD/SPD-Game_Platforms.txt> ;
+            ns3:score "0.75251675"^^xsd:float ;
+            ns2:answer "0" ;
+            ns2:explain "Lecture focuses on graphics/APIs but lacks coverage of game platforms, eSports, hardware architectures, and broader game design/engine topics in KU." ;
+            ns2:ka "Specialized_Platform_Development_SPD" ;
+            ns2:ku "SPD-Game_Platforms" ;
+            ns1:wasGeneratedBy [ ns1:used "qwen-qwq-32b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Specialized_Platform_Development_SPD/SPD-Game_Platforms.txt> ;
+            ns3:score "0.75251675"^^xsd:float ;
+            ns2:answer "0" ;
+            ns2:explain "The lecture covers some elements like API usage and rendering but lacks the broader scope of the KU, including game engines, detailed design aspects, and extensive tools." ;
+            ns2:ka "Specialized_Platform_Development_SPD" ;
+            ns2:ku "SPD-Game_Platforms" ;
+            ns1:wasGeneratedBy [ ns1:used "deepseek-r1-distill-llama-70b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Graphics_and_Interactive_Techniques_GIT/GIT-Fundamentals.txt> ;
+            ns3:score "0.786712"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "The lecture covers the fundamental concepts of computer graphics, including graphics pipeline architecture, transformations, and rendering techniques, which aligns with the KU's content." ;
+            ns2:ka "Graphics_and_Interactive_Techniques_GIT" ;
+            ns2:ku "GIT-Fundamentals" ;
+            ns1:wasGeneratedBy [ ns1:used "llama3-8b-8192" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Specialized_Platform_Development_SPD/SPD-Game_Platforms.txt> ;
+            ns3:score "0.75315624"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "The lecture covers the fundamental concepts of computer graphics, API techniques, and game development, which aligns with the knowledge unit's objectives and topics." ;
+            ns2:ka "Specialized_Platform_Development_SPD" ;
+            ns2:ku "SPD-Game_Platforms" ;
+            ns1:wasGeneratedBy [ ns1:used "llama3-8b-8192" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Specialized_Platform_Development_SPD/SPD-Game_Platforms.txt> ;
+            ns3:score "0.75251675"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "The lecture covers the fundamental concepts of computer graphics, API techniques, and game development, which aligns with the knowledge unit's objectives and topics." ;
+            ns2:ka "Specialized_Platform_Development_SPD" ;
+            ns2:ku "SPD-Game_Platforms" ;
+            ns1:wasGeneratedBy [ ns1:used "llama3-8b-8192" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Graphics_and_Interactive_Techniques_GIT/GIT-Fundamentals.txt> ;
+            ns3:score "0.786712"^^xsd:float ;
+            ns2:answer "0" ;
+            ns2:explain "The lecture covers some aspects of the KU but lacks detailed coverage of the graphics pipeline, rasterization vs. ray tracing, and specific applications." ;
+            ns2:ka "Graphics_and_Interactive_Techniques_GIT" ;
+            ns2:ku "GIT-Fundamentals" ;
+            ns1:wasGeneratedBy [ ns1:used "deepseek-r1-distill-llama-70b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Specialized_Platform_Development_SPD/SPD-Game_Platforms.txt> ;
+            ns3:score "0.75315624"^^xsd:float ;
+            ns2:answer "0" ;
+            ns2:explain "The lecture covers some elements like API usage and rendering but lacks the broader scope of the KU, including game engines, detailed design aspects, and extensive tools." ;
+            ns2:ka "Specialized_Platform_Development_SPD" ;
+            ns2:ku "SPD-Game_Platforms" ;
+            ns1:wasGeneratedBy [ ns1:used "deepseek-r1-distill-llama-70b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Graphics_and_Interactive_Techniques_GIT/GIT-Fundamentals.txt> ;
+            ns3:score "0.786712"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "Covers graphics pipeline, transformations, rasterization, shading, and interaction methods (CS/KA Core fundamentals)" ;
+            ns2:ka "Graphics_and_Interactive_Techniques_GIT" ;
+            ns2:ku "GIT-Fundamentals" ;
+            ns1:wasGeneratedBy [ ns1:used "qwen-qwq-32b" ] ] .
+
+ns2:Introduction_to_AR_and_VR ns3:to [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Artificial_Intelligence_AI/AI_SEP_Applications_and_Societal_Impact.txt> ;
+            ns3:score "0.7090081"^^xsd:float ;
+            ns2:answer "0" ;
+            ns2:explain "Lecture covers ethics/privacy but lacks depth on AI applications, generative models, and specific societal impact analysis required by KU." ;
+            ns2:ka "Artificial_Intelligence_AI" ;
+            ns2:ku "AI_SEP_Applications_and_Societal_Impact" ;
+            ns1:wasGeneratedBy [ ns1:used "qwen-qwq-32b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Human_Computer_Interaction_HCI/HCI-Design_System_Design.txt> ;
+            ns3:score "0.7094813"^^xsd:float ;
+            ns2:answer "0" ;
+            ns2:explain "The lecture covers some aspects like VR/AR and privacy but misses core design patterns and prototyping." ;
+            ns2:ka "Human_Computer_Interaction_HCI" ;
+            ns2:ku "HCI-Design_System_Design" ;
+            ns1:wasGeneratedBy [ ns1:used "deepseek-r1-distill-llama-70b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Human_Computer_Interaction_HCI/HCI-Design_System_Design.txt> ;
+            ns3:score "0.7094813"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "The lecture covers fundamental concepts of computer graphics, interactive techniques, and technical aspects, which align with the KU's focus on system design, design patterns, and visual UI design." ;
+            ns2:ka "Human_Computer_Interaction_HCI" ;
+            ns2:ku "HCI-Design_System_Design" ;
+            ns1:wasGeneratedBy [ ns1:used "llama3-8b-8192" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Artificial_Intelligence_AI/AI_SEP_Applications_and_Societal_Impact.txt> ;
+            ns3:score "0.7090081"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "The lecture covers the fundamental concepts of computer graphics, interactive techniques, and ethical considerations, which aligns with the KU's focus on AI applications and societal impact." ;
+            ns2:ka "Artificial_Intelligence_AI" ;
+            ns2:ku "AI_SEP_Applications_and_Societal_Impact" ;
+            ns1:wasGeneratedBy [ ns1:used "llama3-8b-8192" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Artificial_Intelligence_AI/AI-Robotics_Robotics.txt> ;
+            ns3:score "0.71629393"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "The lecture covers fundamental concepts of computer graphics, interactive techniques, and technical aspects, which align with the KU's focus on robotics, sensors, and control architectures." ;
+            ns2:ka "Artificial_Intelligence_AI" ;
+            ns2:ku "AI-Robotics_Robotics" ;
+            ns1:wasGeneratedBy [ ns1:used "llama3-8b-8192" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Artificial_Intelligence_AI/AI_SEP_Applications_and_Societal_Impact.txt> ;
+            ns3:score "0.7090081"^^xsd:float ;
+            ns2:answer "0" ;
+            ns2:explain "The lecture covers some ethical and technical aspects but lacks depth in AI applications and generative models." ;
+            ns2:ka "Artificial_Intelligence_AI" ;
+            ns2:ku "AI_SEP_Applications_and_Societal_Impact" ;
+            ns1:wasGeneratedBy [ ns1:used "deepseek-r1-distill-llama-70b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Human_Computer_Interaction_HCI/HCI-Design_System_Design.txt> ;
+            ns3:score "0.7094813"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "Covers core areas like design, privacy, and interactive techniques, aligning with KU's main topics." ;
+            ns2:ka "Human_Computer_Interaction_HCI" ;
+            ns2:ku "HCI-Design_System_Design" ;
+            ns1:wasGeneratedBy [ ns1:used "qwen-qwq-32b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Artificial_Intelligence_AI/AI-Robotics_Robotics.txt> ;
+            ns3:score "0.71629393"^^xsd:float ;
+            ns2:answer "0" ;
+            ns2:explain "Lecture focuses on VR/AR/graphics; KU centers on robotics systems, sensors, control, and motion, which are not covered." ;
+            ns2:ka "Artificial_Intelligence_AI" ;
+            ns2:ku "AI-Robotics_Robotics" ;
+            ns1:wasGeneratedBy [ ns1:used "qwen-qwq-32b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Artificial_Intelligence_AI/AI-Robotics_Robotics.txt> ;
+            ns3:score "0.71629393"^^xsd:float ;
+            ns2:answer "0" ;
+            ns2:explain "The lecture focuses on VR/AR and graphics, not covering robotics topics." ;
+            ns2:ka "Artificial_Intelligence_AI" ;
+            ns2:ku "AI-Robotics_Robotics" ;
+            ns1:wasGeneratedBy [ ns1:used "deepseek-r1-distill-llama-70b" ] ] .
+
+ns2:Introduction_to_Data_Science ns3:to [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Date_Management_DM/DM-Analytics_Data_Analytics.txt> ;
+            ns3:score "0.79456276"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "The lecture covers most KU elements like machine learning algorithms, data preprocessing, ethical considerations, and visualization, but lacks some specific components such as data acquisition governance and entity resolution." ;
+            ns2:ka "Date_Management_DM" ;
+            ns2:ku "DM-Analytics_Data_Analytics" ;
+            ns1:wasGeneratedBy [ ns1:used "deepseek-r1-distill-llama-70b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Artificial_Intelligence_AI/AI-ML_Machine_Learning.txt> ;
+            ns3:score "0.80897015"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "Covers core ML types, overfitting, preprocessing, evaluation, ethics, and neural networks but lacks depth on advanced topics like SVMs, learning theory, and specific algorithms." ;
+            ns2:ka "Artificial_Intelligence_AI" ;
+            ns2:ku "AI-ML_Machine_Learning" ;
+            ns1:wasGeneratedBy [ ns1:used "qwen-qwq-32b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Date_Management_DM/DM-Analytics_Data_Analytics.txt> ;
+            ns3:score "0.79456276"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "The lecture covers a significant portion of the KU, including data exploration, machine learning, data security, and ethical considerations." ;
+            ns2:ka "Date_Management_DM" ;
+            ns2:ku "DM-Analytics_Data_Analytics" ;
+            ns1:wasGeneratedBy [ ns1:used "llama3-8b-8192" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Artificial_Intelligence_AI/AI-ML_Machine_Learning.txt> ;
+            ns3:score "0.7938965"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "The lecture covers a significant portion of the KU, including machine learning tasks, supervised and unsupervised learning, neural networks, and ethics. However, it does not cover all topics in the KU, such as graph analysis, semi-supervised learning, and hardware for machine learning." ;
+            ns2:ka "Artificial_Intelligence_AI" ;
+            ns2:ku "AI-ML_Machine_Learning" ;
+            ns1:wasGeneratedBy [ ns1:used "llama3-8b-8192" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Date_Management_DM/DM-Analytics_Data_Analytics.txt> ;
+            ns3:score "0.79456276"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "Covers core topics like data exploration, ML algorithms, ethics, bias, and security, aligning with KU's learning outcomes." ;
+            ns2:ka "Date_Management_DM" ;
+            ns2:ku "DM-Analytics_Data_Analytics" ;
+            ns1:wasGeneratedBy [ ns1:used "qwen-qwq-32b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Artificial_Intelligence_AI/AI-ML_Machine_Learning.txt> ;
+            ns3:score "0.80897015"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "The lecture covers a significant portion of the KU, including machine learning tasks, supervised and unsupervised learning, neural networks, and ethics. However, it does not cover all topics in the KU, such as graph analysis, semi-supervised learning, and hardware for machine learning." ;
+            ns2:ka "Artificial_Intelligence_AI" ;
+            ns2:ku "AI-ML_Machine_Learning" ;
+            ns1:wasGeneratedBy [ ns1:used "llama3-8b-8192" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Artificial_Intelligence_AI/AI-ML_Machine_Learning.txt> ;
+            ns3:score "0.7938965"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "Covers core ML types, overfitting, preprocessing, evaluation, ethics, and neural networks but lacks depth on advanced topics like SVMs, learning theory, and specific algorithms." ;
+            ns2:ka "Artificial_Intelligence_AI" ;
+            ns2:ku "AI-ML_Machine_Learning" ;
+            ns1:wasGeneratedBy [ ns1:used "qwen-qwq-32b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Artificial_Intelligence_AI/AI-ML_Machine_Learning.txt> ;
+            ns3:score "0.7938965"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "The lecture covers a large subset of the KU, including key topics like machine learning tasks, overfitting, regularization, and ethical considerations, but misses some advanced topics." ;
+            ns2:ka "Artificial_Intelligence_AI" ;
+            ns2:ku "AI-ML_Machine_Learning" ;
+            ns1:wasGeneratedBy [ ns1:used "deepseek-r1-distill-llama-70b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Artificial_Intelligence_AI/AI-ML_Machine_Learning.txt> ;
+            ns3:score "0.80897015"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "The lecture covers a large subset of the KU, including key topics like machine learning tasks, overfitting, regularization, and ethical considerations, but misses some advanced topics." ;
+            ns2:ka "Artificial_Intelligence_AI" ;
+            ns2:ku "AI-ML_Machine_Learning" ;
+            ns1:wasGeneratedBy [ ns1:used "deepseek-r1-distill-llama-70b" ] ] .
+
+ns2:Introduction_to_Data_Visualization ns3:to [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Human_Computer_Interaction_HCI/HCI-Evaluation_Evaluating_the_Design.txt> ;
+            ns3:score "0.756507"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "The lecture covers the overall objective and key concepts of the KU, including usability testing, evaluation, and user-centered design, but does not provide detailed information on specific methods and tools." ;
+            ns2:ka "Human_Computer_Interaction_HCI" ;
+            ns2:ku "HCI-Evaluation_Evaluating_the_Design" ;
+            ns1:wasGeneratedBy [ ns1:used "llama3-8b-8192" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Human_Computer_Interaction_HCI/HCI-Accessibility_Accessibility_and_Inclusive_Design.txt> ;
+            ns3:score "0.74047524"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "The lecture covers the overall objective and key concepts of the KU, including usability testing, user-centered design, accessibility, and evaluation, but does not delve into specific techniques, technologies, and frameworks mentioned in the KU." ;
+            ns2:ka "Human_Computer_Interaction_HCI" ;
+            ns2:ku "HCI-Accessibility_Accessibility_and_Inclusive_Design" ;
+            ns1:wasGeneratedBy [ ns1:used "llama3-8b-8192" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Human_Computer_Interaction_HCI/HCI-Evaluation_Evaluating_the_Design.txt> ;
+            ns3:score "0.77153325"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "The lecture covers formative/summative evaluation, ethical considerations, user testing methods, and study planning, aligning with core KU topics like evaluation methods, ethics, and study design." ;
+            ns2:ka "Human_Computer_Interaction_HCI" ;
+            ns2:ku "HCI-Evaluation_Evaluating_the_Design" ;
+            ns1:wasGeneratedBy [ ns1:used "qwen-qwq-32b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Human_Computer_Interaction_HCI/HCI-Evaluation_Evaluating_the_Design.txt> ;
+            ns3:score "0.77153325"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "The lecture covers the overall objective and key concepts of the KU, including usability testing, evaluation, and user-centered design, but does not provide detailed information on specific methods and tools." ;
+            ns2:ka "Human_Computer_Interaction_HCI" ;
+            ns2:ku "HCI-Evaluation_Evaluating_the_Design" ;
+            ns1:wasGeneratedBy [ ns1:used "llama3-8b-8192" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Human_Computer_Interaction_HCI/HCI-Evaluation_Evaluating_the_Design.txt> ;
+            ns3:score "0.756507"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "The lecture covers core aspects of usability testing and evaluation, including user-centered design, ethical considerations, and study planning, which aligns with the KU's core sections." ;
+            ns2:ka "Human_Computer_Interaction_HCI" ;
+            ns2:ku "HCI-Evaluation_Evaluating_the_Design" ;
+            ns1:wasGeneratedBy [ ns1:used "deepseek-r1-distill-llama-70b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Human_Computer_Interaction_HCI/HCI-Evaluation_Evaluating_the_Design.txt> ;
+            ns3:score "0.77153325"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "The lecture covers core aspects of usability testing and evaluation, including user-centered design, ethical considerations, and study planning, which aligns with the KU's core sections." ;
+            ns2:ka "Human_Computer_Interaction_HCI" ;
+            ns2:ku "HCI-Evaluation_Evaluating_the_Design" ;
+            ns1:wasGeneratedBy [ ns1:used "deepseek-r1-distill-llama-70b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Human_Computer_Interaction_HCI/HCI-Evaluation_Evaluating_the_Design.txt> ;
+            ns3:score "0.756507"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "The lecture covers formative/summative evaluation, ethical considerations, user testing methods, and study planning, aligning with core KU topics like evaluation methods, ethics, and study design." ;
+            ns2:ka "Human_Computer_Interaction_HCI" ;
+            ns2:ku "HCI-Evaluation_Evaluating_the_Design" ;
+            ns1:wasGeneratedBy [ ns1:used "qwen-qwq-32b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Human_Computer_Interaction_HCI/HCI-Accessibility_Accessibility_and_Inclusive_Design.txt> ;
+            ns3:score "0.74047524"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "Lecture covers accessibility, inclusive design, ethics, and usability testing aligned with KU's CS Core, but lacks explicit mention of KA Core frameworks (e.g., universal design for UIs) and non-core topics." ;
+            ns2:ka "Human_Computer_Interaction_HCI" ;
+            ns2:ku "HCI-Accessibility_Accessibility_and_Inclusive_Design" ;
+            ns1:wasGeneratedBy [ ns1:used "qwen-qwq-32b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Human_Computer_Interaction_HCI/HCI-Accessibility_Accessibility_and_Inclusive_Design.txt> ;
+            ns3:score "0.74047524"^^xsd:float ;
+            ns2:answer "0" ;
+            ns2:explain "The lecture partially covers accessibility but lacks depth on inclusive design frameworks and detailed accessibility standards." ;
+            ns2:ka "Human_Computer_Interaction_HCI" ;
+            ns2:ku "HCI-Accessibility_Accessibility_and_Inclusive_Design" ;
+            ns1:wasGeneratedBy [ ns1:used "deepseek-r1-distill-llama-70b" ] ] .
+
+ns2:Introduction_to_Special_Platform_Development_Course ns3:to [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Specialized_Platform_Development_SPD/SPD-Embedded_Platforms.txt> ;
+            ns3:score "0.7232053"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "The lecture covers a comprehensive understanding of platform development, including web, mobile, embedded systems, robotics, and game development, which aligns with the KU's focus on embedded systems, real-time systems, and software architecture." ;
+            ns2:ka "Specialized_Platform_Development_SPD" ;
+            ns2:ku "SPD-Embedded_Platforms" ;
+            ns1:wasGeneratedBy [ ns1:used "llama3-8b-8192" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Specialized_Platform_Development_SPD/SPD-Robot_Platforms.txt> ;
+            ns3:score "0.72490823"^^xsd:float ;
+            ns2:answer "0" ;
+            ns2:explain "Lecture mentions robotics but lacks depth on ROS, specific algorithms (e.g., kinematics), and Arduino implementation details required by KU." ;
+            ns2:ka "Specialized_Platform_Development_SPD" ;
+            ns2:ku "SPD-Robot_Platforms" ;
+            ns1:wasGeneratedBy [ ns1:used "qwen-qwq-32b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Specialized_Platform_Development_SPD/SPD-Embedded_Platforms.txt> ;
+            ns3:score "0.7232053"^^xsd:float ;
+            ns2:answer "0" ;
+            ns2:explain "Lecture mentions embedded systems briefly but lacks depth on real-time scheduling, memory management, FPGA/GPU APIs, and specific KU outcomes." ;
+            ns2:ka "Specialized_Platform_Development_SPD" ;
+            ns2:ku "SPD-Embedded_Platforms" ;
+            ns1:wasGeneratedBy [ ns1:used "qwen-qwq-32b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Specialized_Platform_Development_SPD/SPD-Common_Aspects.txt> ;
+            ns3:score "0.7683898"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "The lecture covers a comprehensive understanding of platform development, including web, mobile, embedded systems, robotics, and game development, which aligns with the KU's focus on development platforms." ;
+            ns2:ka "Specialized_Platform_Development_SPD" ;
+            ns2:ku "SPD-Common_Aspects" ;
+            ns1:wasGeneratedBy [ ns1:used "llama3-8b-8192" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Specialized_Platform_Development_SPD/SPD-Common_Aspects.txt> ;
+            ns3:score "0.7683898"^^xsd:float ;
+            ns2:answer "0" ;
+            ns2:explain "The lecture partially covers some aspects of the KU but lacks detailed coverage of specific topics like sensors, actuators, and the three-tier web model." ;
+            ns2:ka "Specialized_Platform_Development_SPD" ;
+            ns2:ku "SPD-Common_Aspects" ;
+            ns1:wasGeneratedBy [ ns1:used "deepseek-r1-distill-llama-70b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Specialized_Platform_Development_SPD/SPD-Embedded_Platforms.txt> ;
+            ns3:score "0.7232053"^^xsd:float ;
+            ns2:answer "0" ;
+            ns2:explain "The lecture introduces embedded systems but lacks the detailed coverage of the KU's specific topics." ;
+            ns2:ka "Specialized_Platform_Development_SPD" ;
+            ns2:ku "SPD-Embedded_Platforms" ;
+            ns1:wasGeneratedBy [ ns1:used "deepseek-r1-distill-llama-70b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Specialized_Platform_Development_SPD/SPD-Robot_Platforms.txt> ;
+            ns3:score "0.72490823"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "The lecture covers a significant portion of the KU, including platform development, web, mobile, embedded systems, and robotics, with a focus on software architecture, programming languages, and constraints." ;
+            ns2:ka "Specialized_Platform_Development_SPD" ;
+            ns2:ku "SPD-Robot_Platforms" ;
+            ns1:wasGeneratedBy [ ns1:used "llama3-8b-8192" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Specialized_Platform_Development_SPD/SPD-Robot_Platforms.txt> ;
+            ns3:score "0.72490823"^^xsd:float ;
+            ns2:answer "0" ;
+            ns2:explain "The lecture covers some related topics but lacks detailed robotics specifics." ;
+            ns2:ka "Specialized_Platform_Development_SPD" ;
+            ns2:ku "SPD-Robot_Platforms" ;
+            ns1:wasGeneratedBy [ ns1:used "deepseek-r1-distill-llama-70b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Specialized_Platform_Development_SPD/SPD-Common_Aspects.txt> ;
+            ns3:score "0.7683898"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "Covers platforms, constraints, languages, and web/mobile development but lacks explicit API vs traditional app distinction." ;
+            ns2:ka "Specialized_Platform_Development_SPD" ;
+            ns2:ku "SPD-Common_Aspects" ;
+            ns1:wasGeneratedBy [ ns1:used "qwen-qwq-32b" ] ] .
+
+ns2:Introductory_Course ns3:to [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Operating_Systems_OS/OS-Principles_Principles_of_Operating_System.txt> ;
+            ns3:score "0.73385954"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "The lecture covers fundamental concepts in computer systems, including design principles, concurrency, memory management, and security mechanisms, which aligns with the KU's topics on operating system software design, abstractions, system calls, and protection of resources." ;
+            ns2:ka "Operating_Systems_OS" ;
+            ns2:ku "OS-Principles_Principles_of_Operating_System" ;
+            ns1:wasGeneratedBy [ ns1:used "llama3-8b-8192" ] ] .
+
+ns2:Lighting_and_Shading ns3:to [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Specialized_Platform_Development_SPD/SPD-Game_Platforms.txt> ;
+            ns3:score "0.7104115"^^xsd:float ;
+            ns2:answer "0" ;
+            ns2:explain "Lecture focuses on lighting/shading theory and legal aspects, while KU covers broader game tech, platforms, engines, and design—overlapping only partially." ;
+            ns2:ka "Specialized_Platform_Development_SPD" ;
+            ns2:ku "SPD-Game_Platforms" ;
+            ns1:wasGeneratedBy [ ns1:used "qwen-qwq-32b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Specialized_Platform_Development_SPD/SPD-Game_Platforms.txt> ;
+            ns3:score "0.7104115"^^xsd:float ;
+            ns2:answer "0" ;
+            ns2:explain "The lecture focuses on lighting and shading, missing most KU topics." ;
+            ns2:ka "Specialized_Platform_Development_SPD" ;
+            ns2:ku "SPD-Game_Platforms" ;
+            ns1:wasGeneratedBy [ ns1:used "deepseek-r1-distill-llama-70b" ] ] .
+
+ns2:Machine_Learning ns3:to [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Artificial_Intelligence_AI/AI-ML_Machine_Learning.txt> ;
+            ns3:score "0.8013876"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "Lecture covers core topics like supervised/unsupervised learning, overfitting, preprocessing, ethics, neural networks, and evaluation, aligning with KU's core areas." ;
+            ns2:ka "Artificial_Intelligence_AI" ;
+            ns2:ku "AI-ML_Machine_Learning" ;
+            ns1:wasGeneratedBy [ ns1:used "qwen-qwq-32b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Artificial_Intelligence_AI/AI-ML_Machine_Learning.txt> ;
+            ns3:score "0.84428394"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "The lecture covers a significant portion of the KU, including machine learning fundamentals, supervised and unsupervised learning, neural networks, and ethics." ;
+            ns2:ka "Artificial_Intelligence_AI" ;
+            ns2:ku "AI-ML_Machine_Learning" ;
+            ns1:wasGeneratedBy [ ns1:used "llama3-8b-8192" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Artificial_Intelligence_AI/AI-ML_Machine_Learning.txt> ;
+            ns3:score "0.84428394"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "The lecture covers core concepts like supervised, unsupervised, and reinforcement learning, data preprocessing, model evaluation, neural networks, and ethics, which are central to the KU. However, it lacks detailed coverage of specific algorithms and advanced topics like deep learning architectures and ensemble methods." ;
+            ns2:ka "Artificial_Intelligence_AI" ;
+            ns2:ku "AI-ML_Machine_Learning" ;
+            ns1:wasGeneratedBy [ ns1:used "deepseek-r1-distill-llama-70b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Artificial_Intelligence_AI/AI-ML_Machine_Learning.txt> ;
+            ns3:score "0.84428394"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "Lecture covers core topics like supervised/unsupervised learning, overfitting, preprocessing, ethics, neural networks, and evaluation, aligning with KU's core areas." ;
+            ns2:ka "Artificial_Intelligence_AI" ;
+            ns2:ku "AI-ML_Machine_Learning" ;
+            ns1:wasGeneratedBy [ ns1:used "qwen-qwq-32b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Artificial_Intelligence_AI/AI-ML_Machine_Learning.txt> ;
+            ns3:score "0.7967193"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "The lecture covers a significant portion of the KU, including machine learning fundamentals, supervised and unsupervised learning, neural networks, and ethics." ;
+            ns2:ka "Artificial_Intelligence_AI" ;
+            ns2:ku "AI-ML_Machine_Learning" ;
+            ns1:wasGeneratedBy [ ns1:used "llama3-8b-8192" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Artificial_Intelligence_AI/AI-ML_Machine_Learning.txt> ;
+            ns3:score "0.8013876"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "The lecture covers core concepts like supervised, unsupervised, and reinforcement learning, data preprocessing, model evaluation, neural networks, and ethics, which are central to the KU. However, it lacks detailed coverage of specific algorithms and advanced topics like deep learning architectures and ensemble methods." ;
+            ns2:ka "Artificial_Intelligence_AI" ;
+            ns2:ku "AI-ML_Machine_Learning" ;
+            ns1:wasGeneratedBy [ ns1:used "deepseek-r1-distill-llama-70b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Artificial_Intelligence_AI/AI-ML_Machine_Learning.txt> ;
+            ns3:score "0.7967193"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "The lecture covers core concepts like supervised, unsupervised, and reinforcement learning, data preprocessing, model evaluation, neural networks, and ethics, which are central to the KU. However, it lacks detailed coverage of specific algorithms and advanced topics like deep learning architectures and ensemble methods." ;
+            ns2:ka "Artificial_Intelligence_AI" ;
+            ns2:ku "AI-ML_Machine_Learning" ;
+            ns1:wasGeneratedBy [ ns1:used "deepseek-r1-distill-llama-70b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Artificial_Intelligence_AI/AI-ML_Machine_Learning.txt> ;
+            ns3:score "0.8013876"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "The lecture covers a significant portion of the KU, including machine learning fundamentals, supervised and unsupervised learning, neural networks, and ethics." ;
+            ns2:ka "Artificial_Intelligence_AI" ;
+            ns2:ku "AI-ML_Machine_Learning" ;
+            ns1:wasGeneratedBy [ ns1:used "llama3-8b-8192" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Artificial_Intelligence_AI/AI-ML_Machine_Learning.txt> ;
+            ns3:score "0.7967193"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "Lecture covers core topics like supervised/unsupervised learning, overfitting, preprocessing, ethics, neural networks, and evaluation, aligning with KU's core areas." ;
+            ns2:ka "Artificial_Intelligence_AI" ;
+            ns2:ku "AI-ML_Machine_Learning" ;
+            ns1:wasGeneratedBy [ ns1:used "qwen-qwq-32b" ] ] .
+
+ns2:Media_Computation ns3:to [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Software_Development_Fundamentals_SDF/SDF-Fundamental_Programming_Concepts_and_Practices.txt> ;
+            ns3:score "0.7055192"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "The lecture covers a significant portion of the KU, including foundational programming concepts, data structures, and programming constructs, but does not exhaustively cover all aspects of the KU." ;
+            ns2:ka "Software_Development_Fundamentals_SDF" ;
+            ns2:ku "SDF-Fundamental_Programming_Concepts_and_Practices" ;
+            ns1:wasGeneratedBy [ ns1:used "llama3-8b-8192" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Foundations_of_Programming_Languages_FPL/FPL-Functional_Functional_Programming.txt> ;
+            ns3:score "0.71418643"^^xsd:float ;
+            ns2:answer "0" ;
+            ns2:explain "Lecture covers functional programming basics (e.g., recursion, higher-order functions) but lacks explicit treatment of closures, metaprogramming, and evaluation models (e.g., SECD machine) central to KU's core/KA core." ;
+            ns2:ka "Foundations_of_Programming_Languages_FPL" ;
+            ns2:ku "FPL-Functional_Functional_Programming" ;
+            ns1:wasGeneratedBy [ ns1:used "qwen-qwq-32b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Software_Development_Fundamentals_SDF/SDF-Fundamental_Programming_Concepts_and_Practices.txt> ;
+            ns3:score "0.7055192"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "Covers variables, control flow, functions, data structures, I/O, and error handling but lacks explicit mention of recursion and security mindset." ;
+            ns2:ka "Software_Development_Fundamentals_SDF" ;
+            ns2:ku "SDF-Fundamental_Programming_Concepts_and_Practices" ;
+            ns1:wasGeneratedBy [ ns1:used "qwen-qwq-32b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Specialized_Platform_Development_SPD/SPD-Common_Aspects.txt> ;
+            ns3:score "0.7152969"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "The lecture covers foundational programming concepts, data structures, and programming languages, which align with the KU's topics on development platforms, programming, and platform languages." ;
+            ns2:ka "Specialized_Platform_Development_SPD" ;
+            ns2:ku "SPD-Common_Aspects" ;
+            ns1:wasGeneratedBy [ ns1:used "llama3-8b-8192" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Specialized_Platform_Development_SPD/SPD-Common_Aspects.txt> ;
+            ns3:score "0.7152969"^^xsd:float ;
+            ns2:answer "0" ;
+            ns2:explain "The lecture focuses on foundational programming concepts and digital media, not covering the detailed platform-specific development and constraints outlined in the KU." ;
+            ns2:ka "Specialized_Platform_Development_SPD" ;
+            ns2:ku "SPD-Common_Aspects" ;
+            ns1:wasGeneratedBy [ ns1:used "deepseek-r1-distill-llama-70b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Foundations_of_Programming_Languages_FPL/FPL-Functional_Functional_Programming.txt> ;
+            ns3:score "0.71418643"^^xsd:float ;
+            ns2:answer "0" ;
+            ns2:explain "The lecture covers basic programming concepts but lacks in-depth coverage of functional programming specifics like lambda expressions, closures, and higher-order functions detailed in the KU." ;
+            ns2:ka "Foundations_of_Programming_Languages_FPL" ;
+            ns2:ku "FPL-Functional_Functional_Programming" ;
+            ns1:wasGeneratedBy [ ns1:used "deepseek-r1-distill-llama-70b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Foundations_of_Programming_Languages_FPL/FPL-Functional_Functional_Programming.txt> ;
+            ns3:score "0.71418643"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "The lecture covers a significant portion of the KU, including foundational programming concepts, data structures, and programming paradigms, but does not delve into advanced topics such as graph reduction and concurrency constructs." ;
+            ns2:ka "Foundations_of_Programming_Languages_FPL" ;
+            ns2:ku "FPL-Functional_Functional_Programming" ;
+            ns1:wasGeneratedBy [ ns1:used "llama3-8b-8192" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Specialized_Platform_Development_SPD/SPD-Common_Aspects.txt> ;
+            ns3:score "0.7152969"^^xsd:float ;
+            ns2:answer "0" ;
+            ns2:explain "Lecture focuses on digital media programming basics, while KU emphasizes platform-specific constraints, APIs, and system-level requirements not explicitly covered." ;
+            ns2:ka "Specialized_Platform_Development_SPD" ;
+            ns2:ku "SPD-Common_Aspects" ;
+            ns1:wasGeneratedBy [ ns1:used "qwen-qwq-32b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Software_Development_Fundamentals_SDF/SDF-Fundamental_Programming_Concepts_and_Practices.txt> ;
+            ns3:score "0.7055192"^^xsd:float ;
+            ns2:answer "0" ;
+            ns2:explain "The lecture covers some foundational concepts but lacks detailed coverage of key areas like recursion, file I/O, and security." ;
+            ns2:ka "Software_Development_Fundamentals_SDF" ;
+            ns2:ku "SDF-Fundamental_Programming_Concepts_and_Practices" ;
+            ns1:wasGeneratedBy [ ns1:used "deepseek-r1-distill-llama-70b" ] ] .
+
+ns2:Mobile_Development_Course ns3:to [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Specialized_Platform_Development_SPD/SPD-Common_Aspects.txt> ;
+            ns3:score "0.7676041"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "The lecture covers a significant portion of the KU, including topics such as cross-platform development, user experience, security, testing, and analytics, which align with the KU's focus on development platforms, programming languages, and constraints." ;
+            ns2:ka "Specialized_Platform_Development_SPD" ;
+            ns2:ku "SPD-Common_Aspects" ;
+            ns1:wasGeneratedBy [ ns1:used "llama3-8b-8192" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Specialized_Platform_Development_SPD/SPD-Common_Aspects.txt> ;
+            ns3:score "0.7676041"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "The lecture covers a large subset of the KU, focusing on mobile development, platform-specific APIs, and constraints, but lacks coverage of other platforms like game or robotics." ;
+            ns2:ka "Specialized_Platform_Development_SPD" ;
+            ns2:ku "SPD-Common_Aspects" ;
+            ns1:wasGeneratedBy [ ns1:used "deepseek-r1-distill-llama-70b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Specialized_Platform_Development_SPD/SPD-Mobile_Platforms.txt> ;
+            ns3:score "0.7819828"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "The lecture covers most KU topics but misses some specifics." ;
+            ns2:ka "Specialized_Platform_Development_SPD" ;
+            ns2:ku "SPD-Mobile_Platforms" ;
+            ns1:wasGeneratedBy [ ns1:used "deepseek-r1-distill-llama-70b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Specialized_Platform_Development_SPD/SPD-Common_Aspects.txt> ;
+            ns3:score "0.7676041"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "Course covers platform constraints, APIs, languages (Swift/Kotlin), security, and programming under constraints, aligning with KU's core topics." ;
+            ns2:ka "Specialized_Platform_Development_SPD" ;
+            ns2:ku "SPD-Common_Aspects" ;
+            ns1:wasGeneratedBy [ ns1:used "qwen-qwq-32b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Specialized_Platform_Development_SPD/SPD-Mobile_Platforms.txt> ;
+            ns3:score "0.7819828"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "Course covers mobile languages, cross-platform tools, APIs, security, and native vs cross-platform comparisons, aligning with KU's core areas." ;
+            ns2:ka "Specialized_Platform_Development_SPD" ;
+            ns2:ku "SPD-Mobile_Platforms" ;
+            ns1:wasGeneratedBy [ ns1:used "qwen-qwq-32b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Specialized_Platform_Development_SPD/SPD-Mobile_Platforms.txt> ;
+            ns3:score "0.7700044"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "Course covers mobile languages, cross-platform tools, APIs, security, and native vs cross-platform comparisons, aligning with KU's core areas." ;
+            ns2:ka "Specialized_Platform_Development_SPD" ;
+            ns2:ku "SPD-Mobile_Platforms" ;
+            ns1:wasGeneratedBy [ ns1:used "qwen-qwq-32b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Specialized_Platform_Development_SPD/SPD-Mobile_Platforms.txt> ;
+            ns3:score "0.7700044"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "The lecture covers most KU topics but misses some specifics." ;
+            ns2:ka "Specialized_Platform_Development_SPD" ;
+            ns2:ku "SPD-Mobile_Platforms" ;
+            ns1:wasGeneratedBy [ ns1:used "deepseek-r1-distill-llama-70b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Specialized_Platform_Development_SPD/SPD-Mobile_Platforms.txt> ;
+            ns3:score "0.7819828"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "The lecture covers a comprehensive range of topics in cross-platform mobile application development, including user experience, security, testing, and platform-specific APIs, which aligns with the key topics in the KU." ;
+            ns2:ka "Specialized_Platform_Development_SPD" ;
+            ns2:ku "SPD-Mobile_Platforms" ;
+            ns1:wasGeneratedBy [ ns1:used "llama3-8b-8192" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Specialized_Platform_Development_SPD/SPD-Mobile_Platforms.txt> ;
+            ns3:score "0.7700044"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "The lecture covers a comprehensive range of topics in cross-platform mobile application development, including user experience, security, testing, and platform-specific APIs, which aligns with the key topics in the KU." ;
+            ns2:ka "Specialized_Platform_Development_SPD" ;
+            ns2:ku "SPD-Mobile_Platforms" ;
+            ns1:wasGeneratedBy [ ns1:used "llama3-8b-8192" ] ] .
+
+ns2:Robotics ns3:to [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Specialized_Platform_Development_SPD/SPD-Society_Ethics_and_the_Profession.txt> ;
+            ns3:score "0.76018655"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "The lecture covers advanced topics in robotics and AI, including machine learning, robotics, and societal impact, which aligns with the KU's focus on ethics, fairness, privacy, and sustainability in AI." ;
+            ns2:ka "Specialized_Platform_Development_SPD" ;
+            ns2:ku "SPD-Society_Ethics_and_the_Profession" ;
+            ns1:wasGeneratedBy [ ns1:used "llama3-8b-8192" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Specialized_Platform_Development_SPD/SPD-Robot_Platforms.txt> ;
+            ns3:score "0.806"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "Covers robotics, navigation, ROS, and ethics, aligning with KU's core topics like path planning and societal impact." ;
+            ns2:ka "Specialized_Platform_Development_SPD" ;
+            ns2:ku "SPD-Robot_Platforms" ;
+            ns1:wasGeneratedBy [ ns1:used "qwen-qwq-32b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Artificial_Intelligence_AI/AI-Robotics_Robotics.txt> ;
+            ns3:score "0.76094556"^^xsd:float ;
+            ns2:answer "0" ;
+            ns2:explain "The lecture covers some aspects but lacks the breadth and depth of the KU." ;
+            ns2:ka "Artificial_Intelligence_AI" ;
+            ns2:ku "AI-Robotics_Robotics" ;
+            ns1:wasGeneratedBy [ ns1:used "deepseek-r1-distill-llama-70b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Artificial_Intelligence_AI/AI-Robotics_Robotics.txt> ;
+            ns3:score "0.76094556"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "Lecture covers robotics core topics (sensors, localization, navigation, ethics) and aligns with KU's key areas like motion planning, control architectures, and societal impact." ;
+            ns2:ka "Artificial_Intelligence_AI" ;
+            ns2:ku "AI-Robotics_Robotics" ;
+            ns1:wasGeneratedBy [ ns1:used "qwen-qwq-32b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Artificial_Intelligence_AI/AI-Robotics_Robotics.txt> ;
+            ns3:score "0.76094556"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "The lecture covers advanced topics in robotics and AI, including machine learning, robotics, and societal impact, which aligns with the KU's focus on robotics, sensors, and control architectures." ;
+            ns2:ka "Artificial_Intelligence_AI" ;
+            ns2:ku "AI-Robotics_Robotics" ;
+            ns1:wasGeneratedBy [ ns1:used "llama3-8b-8192" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Specialized_Platform_Development_SPD/SPD-Society_Ethics_and_the_Profession.txt> ;
+            ns3:score "0.76018655"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "Lecture covers ethics, privacy, fairness, and societal impact of AI/robotics, aligning with Robotics and some Interactive KU topics." ;
+            ns2:ka "Specialized_Platform_Development_SPD" ;
+            ns2:ku "SPD-Society_Ethics_and_the_Profession" ;
+            ns1:wasGeneratedBy [ ns1:used "qwen-qwq-32b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Specialized_Platform_Development_SPD/SPD-Robot_Platforms.txt> ;
+            ns3:score "0.806"^^xsd:float ;
+            ns2:answer "0" ;
+            ns2:explain "The lecture covers some aspects like machine learning and robot platforms but lacks detailed coverage of robotic software architecture, sensors, and specific algorithms." ;
+            ns2:ka "Specialized_Platform_Development_SPD" ;
+            ns2:ku "SPD-Robot_Platforms" ;
+            ns1:wasGeneratedBy [ ns1:used "deepseek-r1-distill-llama-70b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Specialized_Platform_Development_SPD/SPD-Robot_Platforms.txt> ;
+            ns3:score "0.806"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "The lecture covers advanced topics in robotics and AI, including machine learning, robotics, and societal impact, which aligns with the KU's focus on robotic platforms, sensors, and algorithms." ;
+            ns2:ka "Specialized_Platform_Development_SPD" ;
+            ns2:ku "SPD-Robot_Platforms" ;
+            ns1:wasGeneratedBy [ ns1:used "llama3-8b-8192" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Specialized_Platform_Development_SPD/SPD-Society_Ethics_and_the_Profession.txt> ;
+            ns3:score "0.76018655"^^xsd:float ;
+            ns2:answer "0" ;
+            ns2:explain "The lecture covers some related topics but does not substantially address the detailed KU content across various SEP areas." ;
+            ns2:ka "Specialized_Platform_Development_SPD" ;
+            ns2:ku "SPD-Society_Ethics_and_the_Profession" ;
+            ns1:wasGeneratedBy [ ns1:used "deepseek-r1-distill-llama-70b" ] ] .
+
+ns2:Simulation ns3:to [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Graphics_and_Interactive_Techniques_GIT/GIT-Fundamentals.txt> ;
+            ns3:score "0.7557465"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "The lecture covers essential rendering and shading techniques, advanced simulation methods, and professional practices in software development, which aligns with the KU's focus on fundamental concepts, advanced rendering techniques, and applications of visualization." ;
+            ns2:ka "Graphics_and_Interactive_Techniques_GIT" ;
+            ns2:ku "GIT-Fundamentals" ;
+            ns1:wasGeneratedBy [ ns1:used "llama3-8b-8192" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Graphics_and_Interactive_Techniques_GIT/GIT-Fundamentals.txt> ;
+            ns3:score "0.7557465"^^xsd:float ;
+            ns2:answer "0" ;
+            ns2:explain "The lecture covers some aspects like rendering and shading but lacks detailed coverage of graphics pipeline, transformations, and interaction methods." ;
+            ns2:ka "Graphics_and_Interactive_Techniques_GIT" ;
+            ns2:ku "GIT-Fundamentals" ;
+            ns1:wasGeneratedBy [ ns1:used "deepseek-r1-distill-llama-70b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Specialized_Platform_Development_SPD/SPD-Game_Platforms.txt> ;
+            ns3:score "0.7555604"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "The lecture covers the fundamental concepts of simulation and rendering techniques, which aligns with the KU's focus on game development, rendering, and simulation." ;
+            ns2:ka "Specialized_Platform_Development_SPD" ;
+            ns2:ku "SPD-Game_Platforms" ;
+            ns1:wasGeneratedBy [ ns1:used "llama3-8b-8192" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Graphics_and_Interactive_Techniques_GIT/GIT-Fundamentals.txt> ;
+            ns3:score "0.7557465"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "Lecture covers rendering/shading fundamentals (transformations, rasterization, shading models) and advanced techniques aligned with KU's CS/KA Core topics." ;
+            ns2:ka "Graphics_and_Interactive_Techniques_GIT" ;
+            ns2:ku "GIT-Fundamentals" ;
+            ns1:wasGeneratedBy [ ns1:used "qwen-qwq-32b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Specialized_Platform_Development_SPD/SPD-Game_Platforms.txt> ;
+            ns3:score "0.7555604"^^xsd:float ;
+            ns2:answer "0" ;
+            ns2:explain "The lecture focuses on simulation and rendering techniques, overlapping partially with KU's rendering/simulation pipelines and tools. However, the KU's broader coverage of game platforms, eSports, design taxonomies, and cross-platform challenges are not substantially addressed in the lecture." ;
+            ns2:ka "Specialized_Platform_Development_SPD" ;
+            ns2:ku "SPD-Game_Platforms" ;
+            ns1:wasGeneratedBy [ ns1:used "qwen-qwq-32b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Specialized_Platform_Development_SPD/SPD-Game_Platforms.txt> ;
+            ns3:score "0.8103825"^^xsd:float ;
+            ns2:answer "0" ;
+            ns2:explain "The lecture focuses on simulation and rendering techniques, overlapping partially with KU's rendering/simulation pipelines and tools. However, the KU's broader coverage of game platforms, eSports, design taxonomies, and cross-platform challenges are not substantially addressed in the lecture." ;
+            ns2:ka "Specialized_Platform_Development_SPD" ;
+            ns2:ku "SPD-Game_Platforms" ;
+            ns1:wasGeneratedBy [ ns1:used "qwen-qwq-32b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Specialized_Platform_Development_SPD/SPD-Game_Platforms.txt> ;
+            ns3:score "0.7555604"^^xsd:float ;
+            ns2:answer "0" ;
+            ns2:explain "The lecture covers simulation and rendering but lacks game platforms, engines, and design." ;
+            ns2:ka "Specialized_Platform_Development_SPD" ;
+            ns2:ku "SPD-Game_Platforms" ;
+            ns1:wasGeneratedBy [ ns1:used "deepseek-r1-distill-llama-70b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Specialized_Platform_Development_SPD/SPD-Game_Platforms.txt> ;
+            ns3:score "0.8103825"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "The lecture covers the fundamental concepts of simulation and rendering techniques, which aligns with the KU's focus on game development, rendering, and simulation." ;
+            ns2:ka "Specialized_Platform_Development_SPD" ;
+            ns2:ku "SPD-Game_Platforms" ;
+            ns1:wasGeneratedBy [ ns1:used "llama3-8b-8192" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Specialized_Platform_Development_SPD/SPD-Game_Platforms.txt> ;
+            ns3:score "0.8103825"^^xsd:float ;
+            ns2:answer "0" ;
+            ns2:explain "The lecture covers simulation and rendering but lacks game platforms, engines, and design." ;
+            ns2:ka "Specialized_Platform_Development_SPD" ;
+            ns2:ku "SPD-Game_Platforms" ;
+            ns1:wasGeneratedBy [ ns1:used "deepseek-r1-distill-llama-70b" ] ] .
+
+ns2:Systems_Course ns3:to [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Architecture_and_Organization_AR/AR-Heterogeneity_Heterogeneous_Architectures.txt> ;
+            ns3:score "0.74608654"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "The lecture covers a large subset of the KU, including SIMD vs MIMD architectures, shared memory multiprocessors, memory hierarchy, cache coherence, and virtual memory, but lacks detailed coverage of domain-specific architectures and machine learning in design." ;
+            ns2:ka "Architecture_and_Organization_AR" ;
+            ns2:ku "AR-Heterogeneity_Heterogeneous_Architectures" ;
+            ns1:wasGeneratedBy [ ns1:used "deepseek-r1-distill-llama-70b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Architecture_and_Organization_AR/AR-Heterogeneity_Heterogeneous_Architectures.txt> ;
+            ns3:score "0.74608654"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "The lecture covers a significant portion of the KU, including topics such as heterogeneous architectures, hardware-software interfaces, and performance optimization, which align with the KU's focus on SIMD and MIMD architectures, shared memory multiprocessors, and memory hierarchy." ;
+            ns2:ka "Architecture_and_Organization_AR" ;
+            ns2:ku "AR-Heterogeneity_Heterogeneous_Architectures" ;
+            ns1:wasGeneratedBy [ ns1:used "llama3-8b-8192" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Architecture_and_Organization_AR/AR-Heterogeneity_Heterogeneous_Architectures.txt> ;
+            ns3:score "0.74608654"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "Covers SIMD/MIMD, heterogeneous architectures, memory systems, and DSAs aligning with KA Core topics." ;
+            ns2:ka "Architecture_and_Organization_AR" ;
+            ns2:ku "AR-Heterogeneity_Heterogeneous_Architectures" ;
+            ns1:wasGeneratedBy [ ns1:used "qwen-qwq-32b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Architecture_and_Organization_AR/AR-Logic_Digital_Logic_and_Digital_Systems.txt> ;
+            ns3:score "0.7386445"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "The lecture covers advanced computer architecture, including heterogeneous architectures, hardware-software interfaces, and performance optimization, which aligns with the KU's topics on computer-aided design tools, system-on-chip design flow, and physical constraints." ;
+            ns2:ka "Architecture_and_Organization_AR" ;
+            ns2:ku "AR-Logic_Digital_Logic_and_Digital_Systems" ;
+            ns1:wasGeneratedBy [ ns1:used "llama3-8b-8192" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Architecture_and_Organization_AR/AR-Logic_Digital_Logic_and_Digital_Systems.txt> ;
+            ns3:score "0.7386445"^^xsd:float ;
+            ns2:answer "0" ;
+            ns2:explain "The lecture covers high-level architecture topics but lacks detailed coverage of digital logic, hardware synthesis, and physical design constraints central to the KU." ;
+            ns2:ka "Architecture_and_Organization_AR" ;
+            ns2:ku "AR-Logic_Digital_Logic_and_Digital_Systems" ;
+            ns1:wasGeneratedBy [ ns1:used "deepseek-r1-distill-llama-70b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Architecture_and_Organization_AR/AR-Assembly_Assembly_Level_Machine_Organization.txt> ;
+            ns3:score "0.73550737"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "The lecture covers a significant portion of the KU, including topics such as machine organization, SIMD vs MIMD architectures, shared memory multiprocessors, I/O fundamentals, and interrupts, which are all key components of the KU." ;
+            ns2:ka "Architecture_and_Organization_AR" ;
+            ns2:ku "AR-Assembly_Assembly_Level_Machine_Organization" ;
+            ns1:wasGeneratedBy [ ns1:used "llama3-8b-8192" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Architecture_and_Organization_AR/AR-Logic_Digital_Logic_and_Digital_Systems.txt> ;
+            ns3:score "0.7386445"^^xsd:float ;
+            ns2:answer "0" ;
+            ns2:explain "Lecture covers architecture topics but lacks focus on digital logic (FPGAs, HDLs, SoC design) and physical constraints emphasized in KU." ;
+            ns2:ka "Architecture_and_Organization_AR" ;
+            ns2:ku "AR-Logic_Digital_Logic_and_Digital_Systems" ;
+            ns1:wasGeneratedBy [ ns1:used "qwen-qwq-32b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Architecture_and_Organization_AR/AR-Assembly_Assembly_Level_Machine_Organization.txt> ;
+            ns3:score "0.73550737"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "The lecture covers most KU topics but lacks detailed ISA and assembly programming aspects." ;
+            ns2:ka "Architecture_and_Organization_AR" ;
+            ns2:ku "AR-Assembly_Assembly_Level_Machine_Organization" ;
+            ns1:wasGeneratedBy [ ns1:used "deepseek-r1-distill-llama-70b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Architecture_and_Organization_AR/AR-Assembly_Assembly_Level_Machine_Organization.txt> ;
+            ns3:score "0.73550737"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "Lecture covers von Neumann, ISA, assembly, SIMD/MIMD, I/O, memory segments, and related topics aligning with KU core areas." ;
+            ns2:ka "Architecture_and_Organization_AR" ;
+            ns2:ku "AR-Assembly_Assembly_Level_Machine_Organization" ;
+            ns1:wasGeneratedBy [ ns1:used "qwen-qwq-32b" ] ] .
+
+ns2:Tangible_Computing ns3:to [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Human_Computer_Interaction_HCI/HCI-SEP_Society_Ethics_and_the_Profession.txt> ;
+            ns3:score "0.7012828"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "The lecture covers a significant portion of the KU, including human-centered design principles, electronics fundamentals, and user-centered design methods, which align with the KU's objectives." ;
+            ns2:ka "Human_Computer_Interaction_HCI" ;
+            ns2:ku "HCI-SEP_Society_Ethics_and_the_Profession" ;
+            ns1:wasGeneratedBy [ ns1:used "llama3-8b-8192" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Specialized_Platform_Development_SPD/SPD-Embedded_Platforms.txt> ;
+            ns3:score "0.70553446"^^xsd:float ;
+            ns2:answer "0" ;
+            ns2:explain "Lecture covers embedded systems basics and design but lacks depth on real-time systems, memory management, FPGAs, and formal verification emphasized in KU." ;
+            ns2:ka "Specialized_Platform_Development_SPD" ;
+            ns2:ku "SPD-Embedded_Platforms" ;
+            ns1:wasGeneratedBy [ ns1:used "qwen-qwq-32b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Human_Computer_Interaction_HCI/HCI-Accessibility_Accessibility_and_Inclusive_Design.txt> ;
+            ns3:score "0.7028844"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "The lecture covers human-centered design principles, electronics fundamentals, and user-centered design methods, which align with the KU's focus on accessibility, inclusive design, and universal design." ;
+            ns2:ka "Human_Computer_Interaction_HCI" ;
+            ns2:ku "HCI-Accessibility_Accessibility_and_Inclusive_Design" ;
+            ns1:wasGeneratedBy [ ns1:used "llama3-8b-8192" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Human_Computer_Interaction_HCI/HCI-Accessibility_Accessibility_and_Inclusive_Design.txt> ;
+            ns3:score "0.7028844"^^xsd:float ;
+            ns2:answer "0" ;
+            ns2:explain "The lecture covers some aspects of universal design but lacks detailed coverage of accessibility standards, laws, and specific assistive technologies as outlined in the KU." ;
+            ns2:ka "Human_Computer_Interaction_HCI" ;
+            ns2:ku "HCI-Accessibility_Accessibility_and_Inclusive_Design" ;
+            ns1:wasGeneratedBy [ ns1:used "deepseek-r1-distill-llama-70b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Human_Computer_Interaction_HCI/HCI-SEP_Society_Ethics_and_the_Profession.txt> ;
+            ns3:score "0.7012828"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "The lecture covers substantial aspects of the KU, particularly user-centered design, privacy, and universal design, aligning with multiple core points." ;
+            ns2:ka "Human_Computer_Interaction_HCI" ;
+            ns2:ku "HCI-SEP_Society_Ethics_and_the_Profession" ;
+            ns1:wasGeneratedBy [ ns1:used "deepseek-r1-distill-llama-70b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Human_Computer_Interaction_HCI/HCI-Accessibility_Accessibility_and_Inclusive_Design.txt> ;
+            ns3:score "0.7028844"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "Course covers universal design, user-centered methods, and legal/privacy aspects aligning with KU's core topics, though specifics like WCAG are less explicit." ;
+            ns2:ka "Human_Computer_Interaction_HCI" ;
+            ns2:ku "HCI-Accessibility_Accessibility_and_Inclusive_Design" ;
+            ns1:wasGeneratedBy [ ns1:used "qwen-qwq-32b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Specialized_Platform_Development_SPD/SPD-Embedded_Platforms.txt> ;
+            ns3:score "0.70553446"^^xsd:float ;
+            ns2:answer "0" ;
+            ns2:explain "The lecture covers some related topics like sensors and microcontrollers but lacks substantial coverage of the KU's technical depth." ;
+            ns2:ka "Specialized_Platform_Development_SPD" ;
+            ns2:ku "SPD-Embedded_Platforms" ;
+            ns1:wasGeneratedBy [ ns1:used "deepseek-r1-distill-llama-70b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Specialized_Platform_Development_SPD/SPD-Embedded_Platforms.txt> ;
+            ns3:score "0.70553446"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "The lecture covers a significant portion of the KU, focusing on human-centered design principles, electronics fundamentals, and embedded systems, which aligns with the KU's objectives." ;
+            ns2:ka "Specialized_Platform_Development_SPD" ;
+            ns2:ku "SPD-Embedded_Platforms" ;
+            ns1:wasGeneratedBy [ ns1:used "llama3-8b-8192" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Human_Computer_Interaction_HCI/HCI-SEP_Society_Ethics_and_the_Profession.txt> ;
+            ns3:score "0.7012828"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "Covers user-centered design, privacy, inclusive design, and evaluation, aligning with core KU topics." ;
+            ns2:ka "Human_Computer_Interaction_HCI" ;
+            ns2:ku "HCI-SEP_Society_Ethics_and_the_Profession" ;
+            ns1:wasGeneratedBy [ ns1:used "qwen-qwq-32b" ] ] .
+
+ns2:User-Centered_Development ns3:to [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Graphics_and_Interactive_Techniques_GIT/GIT-Fundamentals.txt> ;
+            ns3:score "0.72171926"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "Covers graphics pipeline, transformations, rasterization, and shading models from KU's CS Core." ;
+            ns2:ka "Graphics_and_Interactive_Techniques_GIT" ;
+            ns2:ku "GIT-Fundamentals" ;
+            ns1:wasGeneratedBy [ ns1:used "qwen-qwq-32b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Human_Computer_Interaction_HCI/HCI-Accessibility_Accessibility_and_Inclusive_Design.txt> ;
+            ns3:score "0.7288399"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "The lecture covers fundamental concepts of computer graphics, human vision system, color models, digitization of analog data, and standard image formats, which aligns with the KU's topics on computer graphics and human-computer interaction." ;
+            ns2:ka "Human_Computer_Interaction_HCI" ;
+            ns2:ku "HCI-Accessibility_Accessibility_and_Inclusive_Design" ;
+            ns1:wasGeneratedBy [ ns1:used "llama3-8b-8192" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Human_Computer_Interaction_HCI/HCI-Accessibility_Accessibility_and_Inclusive_Design.txt> ;
+            ns3:score "0.7288399"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "Lecture covers accessibility, inclusive design, legal obligations, and design practices aligning with KU's core topics." ;
+            ns2:ka "Human_Computer_Interaction_HCI" ;
+            ns2:ku "HCI-Accessibility_Accessibility_and_Inclusive_Design" ;
+            ns1:wasGeneratedBy [ ns1:used "qwen-qwq-32b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Society_Ethics_and_the_Profession_SEP/SEP-Social_Context.txt> ;
+            ns3:score "0.7298406"^^xsd:float ;
+            ns2:answer "0" ;
+            ns2:explain "The lecture partially covers the KU, focusing on accessibility and ethics but not the broader societal and ethical implications." ;
+            ns2:ka "Society_Ethics_and_the_Profession_SEP" ;
+            ns2:ku "SEP-Social_Context" ;
+            ns1:wasGeneratedBy [ ns1:used "deepseek-r1-distill-llama-70b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Society_Ethics_and_the_Profession_SEP/SEP-Social_Context.txt> ;
+            ns3:score "0.7298406"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "The lecture covers fundamental concepts of computer graphics, human vision system, color models, digitization of analog data, and standard image formats, which aligns with the KU's focus on computer graphics and human-computer interaction." ;
+            ns2:ka "Society_Ethics_and_the_Profession_SEP" ;
+            ns2:ku "SEP-Social_Context" ;
+            ns1:wasGeneratedBy [ ns1:used "llama3-8b-8192" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Graphics_and_Interactive_Techniques_GIT/GIT-Fundamentals.txt> ;
+            ns3:score "0.72171926"^^xsd:float ;
+            ns2:answer "0" ;
+            ns2:explain "The lecture covers some foundational concepts but lacks specific technical details and advanced topics outlined in the KU." ;
+            ns2:ka "Graphics_and_Interactive_Techniques_GIT" ;
+            ns2:ku "GIT-Fundamentals" ;
+            ns1:wasGeneratedBy [ ns1:used "deepseek-r1-distill-llama-70b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Society_Ethics_and_the_Profession_SEP/SEP-Social_Context.txt> ;
+            ns3:score "0.7298406"^^xsd:float ;
+            ns2:answer "0" ;
+            ns2:explain "Lecture covers some ethics/accessibility but lacks focus on internet governance, digital divide, context-aware systems, and socio-technical history" ;
+            ns2:ka "Society_Ethics_and_the_Profession_SEP" ;
+            ns2:ku "SEP-Social_Context" ;
+            ns1:wasGeneratedBy [ ns1:used "qwen-qwq-32b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Human_Computer_Interaction_HCI/HCI-Accessibility_Accessibility_and_Inclusive_Design.txt> ;
+            ns3:score "0.7288399"^^xsd:float ;
+            ns2:answer "0" ;
+            ns2:explain "The lecture covers some aspects of accessibility and inclusive design but lacks the depth and specific details outlined in the KU." ;
+            ns2:ka "Human_Computer_Interaction_HCI" ;
+            ns2:ku "HCI-Accessibility_Accessibility_and_Inclusive_Design" ;
+            ns1:wasGeneratedBy [ ns1:used "deepseek-r1-distill-llama-70b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Graphics_and_Interactive_Techniques_GIT/GIT-Fundamentals.txt> ;
+            ns3:score "0.72171926"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "The lecture covers fundamental concepts of computer graphics, human vision system, color models, digitization of analog data, and standard image formats, which aligns with the KU's topics." ;
+            ns2:ka "Graphics_and_Interactive_Techniques_GIT" ;
+            ns2:ku "GIT-Fundamentals" ;
+            ns1:wasGeneratedBy [ ns1:used "llama3-8b-8192" ] ] .
+
+ns2:Web_Development_Course ns3:to [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Specialized_Platform_Development_SPD/SPD-Web_Platforms.txt> ;
+            ns3:score "0.7170352"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "Course covers web languages, frameworks, security, and microservices aligning with KU's core areas." ;
+            ns2:ka "Specialized_Platform_Development_SPD" ;
+            ns2:ku "SPD-Web_Platforms" ;
+            ns1:wasGeneratedBy [ ns1:used "qwen-qwq-32b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Specialized_Platform_Development_SPD/SPD-Web_Platforms.txt> ;
+            ns3:score "0.71184963"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "Course covers web languages, frameworks, security, and microservices aligning with KU's core areas." ;
+            ns2:ka "Specialized_Platform_Development_SPD" ;
+            ns2:ku "SPD-Web_Platforms" ;
+            ns1:wasGeneratedBy [ ns1:used "qwen-qwq-32b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Specialized_Platform_Development_SPD/SPD-Common_Aspects.txt> ;
+            ns3:score "0.7454879"^^xsd:float ;
+            ns2:answer "0" ;
+            ns2:explain "Lecture covers web-specific topics but lacks coverage of other platforms (mobile, embedded) and platform constraints beyond web development." ;
+            ns2:ka "Specialized_Platform_Development_SPD" ;
+            ns2:ku "SPD-Common_Aspects" ;
+            ns1:wasGeneratedBy [ ns1:used "qwen-qwq-32b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Specialized_Platform_Development_SPD/SPD-Web_Platforms.txt> ;
+            ns3:score "0.71184963"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "The lecture covers most core and non-core KU topics." ;
+            ns2:ka "Specialized_Platform_Development_SPD" ;
+            ns2:ku "SPD-Web_Platforms" ;
+            ns1:wasGeneratedBy [ ns1:used "deepseek-r1-distill-llama-70b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Specialized_Platform_Development_SPD/SPD-Web_Platforms.txt> ;
+            ns3:score "0.71184963"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "The lecture covers a significant portion of the KU, including web programming languages, frameworks, and security considerations, as well as software architecture and design principles." ;
+            ns2:ka "Specialized_Platform_Development_SPD" ;
+            ns2:ku "SPD-Web_Platforms" ;
+            ns1:wasGeneratedBy [ ns1:used "llama3-8b-8192" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Specialized_Platform_Development_SPD/SPD-Web_Platforms.txt> ;
+            ns3:score "0.7170352"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "The lecture covers a significant portion of the KU, including web programming languages, frameworks, and security considerations, as well as software architecture and design principles." ;
+            ns2:ka "Specialized_Platform_Development_SPD" ;
+            ns2:ku "SPD-Web_Platforms" ;
+            ns1:wasGeneratedBy [ ns1:used "llama3-8b-8192" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Specialized_Platform_Development_SPD/SPD-Common_Aspects.txt> ;
+            ns3:score "0.7454879"^^xsd:float ;
+            ns2:answer "0" ;
+            ns2:explain "The lecture covers web development but not the broader range of platforms and their specific constraints as outlined in the KU." ;
+            ns2:ka "Specialized_Platform_Development_SPD" ;
+            ns2:ku "SPD-Common_Aspects" ;
+            ns1:wasGeneratedBy [ ns1:used "deepseek-r1-distill-llama-70b" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Specialized_Platform_Development_SPD/SPD-Common_Aspects.txt> ;
+            ns3:score "0.7454879"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "The lecture covers a significant portion of the KU, including topics such as web application development, frontend and backend frameworks, and software design principles." ;
+            ns2:ka "Specialized_Platform_Development_SPD" ;
+            ns2:ku "SPD-Common_Aspects" ;
+            ns1:wasGeneratedBy [ ns1:used "llama3-8b-8192" ] ],
+        [ ns3:ku_source <file:///home/ilefm/SLM-EXP/data/BodyOfKnowledge/Specialized_Platform_Development_SPD/SPD-Web_Platforms.txt> ;
+            ns3:score "0.7170352"^^xsd:float ;
+            ns2:answer "1" ;
+            ns2:explain "The lecture covers most core and non-core KU topics." ;
+            ns2:ka "Specialized_Platform_Development_SPD" ;
+            ns2:ku "SPD-Web_Platforms" ;
+            ns1:wasGeneratedBy [ ns1:used "deepseek-r1-distill-llama-70b" ] ] .
+

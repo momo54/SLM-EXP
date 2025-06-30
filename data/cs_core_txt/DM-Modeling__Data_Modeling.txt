@@ -1,0 +1,5 @@
+Title: DM-Modeling: Data Modeling
+
+CS Core:
+1. Data modeling (See also: SE-Requirements)
+2. Relational data model (See also: MSF-Discrete)

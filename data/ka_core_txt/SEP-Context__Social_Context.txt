@@ -1,0 +1,11 @@
+Title: SEP-Context: Social Context
+
+KA Core:
+5. Growth and control of the internet, data, computing, and artificial intelligence
+6. Often referred to as the digital divide, differences in access to digital technology resources and its
+resulting ramifications for gender, class, ethnicity, geography, and/or developing countries,
+including consideration of responsibility to those who might be less wealthy, under threat, or who
+would struggle to have their voices heard.
+7. Accessibility issues, including legal requirements such as Web Content Accessibility Guidelines
+(www.w3.org/TR/WCAG21)
+8. Context-aware computing

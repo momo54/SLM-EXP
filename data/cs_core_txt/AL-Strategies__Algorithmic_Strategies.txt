@@ -1,0 +1,19 @@
+Title: AL-Strategies: Algorithmic Strategies
+
+CS Core:
+1. Paradigms
+a. Brute-Force (e.g., linear search, selection sort, traveling salesperson, knapsack)
+b. Decrease-and-Conquer
+i. By a Constant (e.g., insertion sort, topological sort),
+ii. By a Constant Factor (e.g., binary search),
+iii. By a Variable Size (e.g., Euclid’s)
+c. Divide-and-Conquer (e.g., binary search, quicksort, mergesort, Strassen’s)
+d. Greedy (e.g., Dijkstra’s, Kruskal’s, Knapsack)
+e. Transform-and-Conquer
+i. Instance simplification (e.g., find duplicates via list presort)
+ii. Representation change (e.g., heapsort)
+iii. Problem reduction (e.g., least-common-multiple, linear programming)
+iv. Dynamic programming (e.g., Floyd’s, Warshall, Bellman-Ford)
+f. Space vs time tradeoffs (e.g., hashing)
+2. Handling exponential growth (e.g., heuristic A*, branch-and-bound, backtracking)
+3. Iteration vs recursion (e.g., factorial, tree search)

@@ -1,0 +1,20 @@
+Title: PDC-Coordination: Coordination
+
+KA Core:
+4. One or more of the following properties and extensions
+a. Progress properties including lock-free, wait-free, fairness, priority scheduling, interactions
+with consistency, reliability
+b. Performance with respect to contention, granularity, convoying, scaling
+c. Non-blocking data structures and algorithms
+d. Ownership and resource control
+e. Lock variants and alternatives: sequence locks, read-write locks; Read-Copy-Update (RCU),
+reentrancy; tickets; controlling spinning versus blocking
+f. Transaction-based control: Optimistic and conservative
+g. Distributed locking: reliability
+h. Alternatives to barriers: Clocks; counters, virtual clocks; dataflow and continuations; futures
+and RPC; consensus-based, gathering results with reducers and collectors
+i. Speculation, selection, cancellation; observability and security consequences
+j. Resource control using semaphores and condition variables
+k. Control flow: Scheduling computations, series-parallel loops with (possibly elected) leaders,
+pipelines and streams, nested parallelism
+l. Exceptions and failures. Handlers, detection, timeouts, fault tolerance, voting

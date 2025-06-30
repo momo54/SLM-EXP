@@ -1,0 +1,6 @@
+Title: FPL-Event-Driven: Event-Driven and Reactive Programming
+
+CS Core:
+1. Implement event handlers for use in reactive systems, such as GUIs.
+2. Examine why an event-driven programming style is natural in domains where programs react to
+external events.

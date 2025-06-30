@@ -1,0 +1,5 @@
+Title: MSF-Linear: Linear Algebra
+
+CS Core:
+1. Vectors: definitions, vector operations, geometric interpretation, angles: Matrices: definition, matrix
+operations, meaning of Ax=b.

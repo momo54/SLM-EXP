@@ -1,0 +1,11 @@
+Title: SEC-Governance: Security Governance
+
+KA Core:
+1. Protecting critical assets from threats
+2. Security governance: organizational objectives and general risk assessment
+3. Security management: achieve and maintain appropriate levels of confidentiality, integrity,
+availability, accountability, authenticity, and reliability (See also: SE-Validation)
+4. Security policy: organizational policies, issue-specific policies, system-specific policies
+5. Approaches to identifying and mitigating risks to computing infrastructure
+6. Data lifecycle management policies: data collection, backups, and retention; cloud storage and
+services; breach disclosure (See also: DM-Security)

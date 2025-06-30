@@ -1,0 +1,15 @@
+Title: SEP-Context: Social Context
+
+CS Core:
+1. Social implications (e.g., political and cultural ideologies) in a hyper-networked world where the
+capabilities and impact of social media, artificial intelligence, and computing in general are rapidly
+evolving.
+2. Impact of computing applications (e.g., social media, artificial intelligence applications) on individual
+well-being, and safety of all kinds (e.g., physical, emotional, economic).
+3. Consequences of involving computing technologies, particularly artificial intelligence, biometric
+technologies, and algorithmic decision-making systems, in civic life (e.g., facial recognition
+technology, biometric tags, resource distribution algorithms, policing software) and how human
+agency and oversight is crucial.
+273
+4. How deficits in diversity and accessibility in computing affect society and what steps can be taken to
+improve equity in computing.

@@ -1,0 +1,20 @@
+Title: SE-Construction: Software Construction
+
+CS Core:
+1. Practical small-scale testing (See also: SDF-Practices)
+a. Unit testing
+b. Test-driven development – This is particularly valuable for students psychologically, as it is far
+easier to engage constructively with the challenge of identifying challenging inputs for a given
+API (edge cases, corner cases) a priori. If they implement first, the instinct is often to avoid
+trying to crash their new creation, while a test-first approach gives them the intellectual
+satisfaction of spotting the problem cases and then watching as more tests pass during the
+development process.
+2. Documentation (See also: SDF-Practices)
+a. Interface documentation – describe interface requirements, potentially including (formal or
+informal) contracts, pre and post conditions, invariants.
+b. Implementation documentation should focus on tricky and non-obvious pieces of code, whether
+because the code is using advanced language features, or the behavior of the code is complex.
+(Do not add comments that re-state common/obvious operations and simple language features.)
+i. Clarify dataflow, computation, etc., focusing on what the code is.
+ii. Identify subtle/tricky pieces of code and refactor to be self-explanatory if possible or provide
+appropriate comments to clarify.

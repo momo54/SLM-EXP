@@ -1,0 +1,6 @@
+Title: DM-Querying: Query Construction
+
+CS Core:
+1. SQL Query Formation
+a. Interactive SQL execution
+b. Programmatic execution of an SQL query

@@ -1,0 +1,7 @@
+Title: NC-Mobility: Mobility
+
+KA Core:
+1. Principles of cellular communication (e.g., 4G, 5G)
+2. Principles of Wireless LANs (mainly 802.11)
+3. Device to device communication (e.g., IoT communication)
+4. Multi-hop wireless networks (e.g., ad hoc networks, opportunistic, delay tolerant)

@@ -1,0 +1,12 @@
+Title: MSF-Discrete: Discrete Mathematics
+
+CS Core:
+1. Sets, relations, functions, cardinality
+2. Recursive mathematical definitions
+3. Proof techniques (induction, proof by contradiction)
+4. Permutations, combinations, counting, pigeonhole principle
+5. Modular arithmetic
+6. Logic: truth tables, connectives (operators), inference rules, formulas, normal forms, simple
+predicate logic
+7. Graphs: basic definitions
+8. Order notation

@@ -1,0 +1,8 @@
+Title: SF-Security: System Security
+
+CS Core:
+1. Common system security issues (e.g., viruses, denial-of-service attacks, and eavesdropping) (See
+also: OS-Protection, NC-Security, SEC-Foundations, SEC-Engineering)
+2. Countermeasures (See also: OS-Principles, OS-Protection, NC-Security)
+a. Cryptography (See also: SEC-Crypto)
+b. Security architecture (See also: SEC-Engineering)

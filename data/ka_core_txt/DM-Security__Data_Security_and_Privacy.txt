@@ -1,0 +1,9 @@
+Title: DM-Security: Data Security and Privacy
+
+KA Core:
+5. Need for, and different approaches to securing data at rest, in transit, and during processing (See
+also: SEC-Foundations, SEC-Crypto)
+6. Database auditing and its role in digital forensics (See also: SEC-Forensics)
+7. Data inferencing and preventing attacks (See also: SEC-Crypto)
+8. Laws and regulations governing data security and data privacy (See also: SEP-Security, SEP-
+Privacy, SEC-Foundations, SEC-Governance)

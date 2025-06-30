@@ -1,0 +1,29 @@
+Title: SEC-Foundations: Foundational Security
+
+CS Core:
+22
+1. Developing a security mindset incorporating crosscutting concepts: confidentiality, integrity,
+33
+availability, SSrisk assessment, systems thinking, adversarial thinking, human-centered thinking
+2. Basic conceEEpts of authentication and authorization/access control
+CC
+3. Vulnerabilities, threats, attack surfaces, and attack vectors (See also: OS-Protection)
+..
+4. Denial of Service (DoS) and Distributed Denial of Service (DDoS) (See also: OS-Protection)
+((
+5. Principles aOOnd practices of protection, e.g., least privilege, open design, fail-safe defaults, defense
+in depth, anttd zero trust; and how they can be implemented (See also: OS-Principles, OS-
+hh
+Protection, SE-Construction, SEP-Security)
+ee
+rr
+kk 257
+nn
+oo
+ww
+ll
+ee
+6. Optimization considerations between security, privacy, performance, and other design goals (See
+also: SDF-Practices, SE-Validation, HCI-Design)
+7. Impact of AI on security and privacy: using AI to bolster defenses as well as address increased
+adversarial capabilities due to AI (See also: AI-SEP, HCI-Design, HCI-SEP)

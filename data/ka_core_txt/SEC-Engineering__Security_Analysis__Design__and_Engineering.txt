@@ -1,0 +1,21 @@
+Title: SEC-Engineering: Security Analysis, Design, and Engineering
+
+KA Core:
+261
+5. Security design and engineering, including functional requirements, security subsystems,
+information protection, security testing, security assessment, and evaluation (See also: PDC-
+Evaluation, SE-Requirements, SE-Validation)
+6. Security analysis, covering security requirements analysis; security controls analysis; threat
+analysis; and vulnerability analysis (See also: FPL-Analysis, PDC-Evaluation)
+7. Security attack domains and attack surfaces, e.g., communications and networking, hardware,
+physical, social engineering, software, and supply chain (See also: NC-Security)
+8. Security attack modes, techniques, and tactics, e.g., authentication abuse; brute force; buffer
+manipulation; code injection; content insertion; denial of service; eavesdropping; function bypass;
+impersonation; integrity attack; interception; phishing; protocol analysis; privilege abuse; spoofing;
+and traffic injection (See also: NC-Security, OS-Protection, SE-Validation)
+9. Attestation of software products with respect to their specification and adaptiveness (See also: SE-
+Requirements, SE-Validation)
+10. Design and development of cyber-physical systems
+11. Considerations for trustworthy computing, e.g., tamper resistant packaging, trusted boot, trusted
+kernel, hardware root of trust, software signing and verification, hardware-based cryptography,
+virtualization, and containers (See also: SE-Construction, SE-Validation)

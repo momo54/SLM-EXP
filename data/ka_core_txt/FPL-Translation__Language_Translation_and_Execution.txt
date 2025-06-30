@@ -1,0 +1,7 @@
+Title: FPL-Translation: Language Translation and Execution
+
+KA Core:
+9. Run-time representation of core language constructs such as objects (method tables) and functions
+that can be passed as parameters to and returned from functions (closures)
+10. Secure compiler development (See also: SEC-Foundations, SEC-Coding)
+Illustrative learning outcomes:

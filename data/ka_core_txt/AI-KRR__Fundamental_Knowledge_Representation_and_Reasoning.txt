@@ -1,0 +1,12 @@
+Title: AI-KRR: Fundamental Knowledge Representation and Reasoning
+
+KA Core:
+4. Random variables and probability distributions
+a. Axioms of probability
+b. Probabilistic inference
+c. Bayes’ Rule (derivation)
+d. Bayesian inference (more complex examples)
+5. Independence
+6. Conditional Independence
+7. Markov chains and Markov models
+8. Utility and decision making

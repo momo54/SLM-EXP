@@ -1,0 +1,25 @@
+Title: PDC-Communication: Communication
+
+CS Core:
+1. Media
+a. Varieties: channels (message passing or I/O), shared memory, heterogeneous, data stores
+b. Reliance on the availability and nature of underlying hardware, connectivity, and protocols;
+language support, emulation (See also: AR-IO)
+2. Channels
+a. Explicit (usually named) party-to-party communication media
+b. APIs: Sockets, architectural, language-based, and toolkit constructs, such as Message
+Passing Interface (MPI), and layered constructs such as Remote Procedure Call (RPC) (See
+also: NC-Fundamentals)
+c. I/O channel APIs
+3. Memory
+220
+a. Shared memory architectures in which parties directly communicate only with memory at
+given addresses, with extensions to heterogeneous memory supporting multiple memory
+stores with explicit data transfer across them; for example, GPU local and shared memory,
+Direct Memory Access (DMA)
+b. Memory hierarchies: Multiple layers of sharing domains, scopes, and caches; locality:
+latency, false-sharing
+c. Consistency properties: Bitwise atomicity limits, coherence, local ordering
+4. Data Stores
+a. Cooperatively maintained data structures implementing maps and related ADTs
+b. Varieties: Owned, shared, sharded, replicated, immutable, versioned

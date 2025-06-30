@@ -1,0 +1,30 @@
+Title: AI-ML: Machine Learning
+
+KA Core:
+10. Formulation of simple machine learning as an optimization problem, such as least squares linear
+regression or logistic regression
+a. Objective function
+b. Gradient descent
+c. Regularization to avoid overfitting (mathematical formulation)
+11. Ensembles of models
+a. Simple weighted majority combination
+12. Deep learning
+a. Deep feed-forward networks (intuition only, no mathematics)
+b. Convolutional neural networks (intuition only, no mathematics)
+c. Visualization of learned feature representations from deep nets
+d. Other architectures (generative NN, recurrent NN, transformers, etc.)
+13. Performance evaluation
+a. Other metrics for classification (e.g., error, precision, recall)
+b. Performance metrics for regressors
+c. Confusion matrix
+d. Cross-validation
+i. Parameter tuning (grid/random search, via cross-validation)
+14. Overview of reinforcement learning methods
+15. Two or more applications of machine learning algorithms
+a. E.g., medicine and health, economics, vision, natural language, robotics, game play
+16. Ethics for Machine Learning
+a. Continued focus on real data, real scenarios, and case studies (See also: SEP-Context)
+b. Privacy (See also: SEP-Privacy)
+c. Fairness (See also: SEP-Privacy)
+d. Intellectual property
+e. Explainability

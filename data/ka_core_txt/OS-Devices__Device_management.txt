@@ -1,0 +1,12 @@
+Title: OS-Devices: Device management
+
+KA Core:
+1. Buffering strategies (See also: AR-IO)
+2. Direct Memory Access (DMA) and polled I/O, Memory-mapped I/O (See also: AR-IO)
+Example concept: DMA communication protocols (e.g., ring buffers etc.)
+3. Historical and contextual - Persistent storage device management (e.g., magnetic, Solid State
+Device (SSD)) (See also: SEP-History)
+Non-Core:
+4. Device interface abstractions, hardware abstraction layer
+5. Device driver purpose, abstraction, implementation, and testing challenges
+6. High-level fault tolerance in device communication

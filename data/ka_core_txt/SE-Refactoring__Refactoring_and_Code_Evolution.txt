@@ -1,0 +1,26 @@
+Title: SE-Refactoring: Refactoring and Code Evolution
+
+KA Core:
+1. Hyrum’s Law/The Law of Implicit Interfaces
+2. Backward compatibility
+a. Compatibility is not a property of a single entity, it’s a property of a relationship.
+b. Backward compatibility needs to be evaluated in terms of provider + consumer(s) or with a well-
+specified model of what forms of compatibility a provider aspires to/promises.
+3. Refactoring
+a. Standard refactoring patterns (rename, inline, outline, etc.)
+b. Use of refactoring tools in IDE
+c. Application of static-analysis tools (to identify code in need of refactoring, generate changes,
+etc.)
+d. Value of refactoring as a remedy for technical debt
+4. Versioning
+a. Semantic Versioning (SemVer)
+b. Trunk-based development
+Non-Core:
+5. “Large Scale” Refactoring – techniques when a refactoring change is too large to commit safely
+(large projects), or when it is impossible to synchronize change between provider + all consumers
+(multiple repositories, consumers with private code).
+a. Express both old and new APIs so that they can co-exist.
+b. Minimize the size of behavior changes.
+249
+c. Why these techniques are required, (e.g., “API consumers I can see” vs “consumers I can’t
+see”).

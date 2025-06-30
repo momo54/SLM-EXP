@@ -1,0 +1,16 @@
+Title: SEC-Coding: Secure Coding
+
+KA Core:
+8. Principles of noninterference and nondeducibility
+9. Preventing information flow attacks
+10. Offensive security techniques as a defense
+11. AI-assisted malware detection techniques
+12. Ransomware: creation, prevention, and mitigation
+13. Secure use of third-party components (See also: SE-Construction, SE-Validation)
+14. Malware: varieties, creation, reverse engineering, and defense against them (See also: FPL-
+Systems, FPL-Translation)
+15. Assurance: testing (including fuzzing and penetration testing), verification, and validation (See also:
+OS-Protection, SDF-Fundamentals, SE-Construction, SE-Validation)
+16. Static and dynamic analyses (See also: FPL-Analysis, MSF-Protection, PDC-Evaluation, SE-
+Validation)
+17. Secure compilers and secure code generation (See also: FPL-Runtime, FPL-Translation)

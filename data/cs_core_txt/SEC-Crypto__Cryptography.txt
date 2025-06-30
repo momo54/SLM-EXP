@@ -1,0 +1,17 @@
+Title: SEC-Crypto: Cryptography
+
+CS Core:
+1. Differences between algorithmic, applied, and mathematical views of cryptography
+2. Mathematical preliminaries: modular arithmetic, Euclidean algorithm, probabilistic independence,
+linear algebra basics, number theory, finite fields, complexity, asymptotic analysis (See also: MSF-
+Discrete, MSF-Linear)
+3. Basic cryptography: symmetric key and public key cryptography (See also: AL-Foundational, MSF-
+Discrete)
+4. Basic cryptographic building blocks, including symmetric encryption, asymmetric encryption,
+hashing, and message authentication (See also: MSF-Discrete)
+5. Classical cryptosystems, such as shift, substitution, transposition ciphers, code books, and
+machines (See also: MSF-Discrete)
+6. Kerckhoff’s principle and use of vetted libraries (See also: SE-Construction)
+7. Usage of cryptography in real-world applications, e.g., electronic cash, secure channels between
+clients and servers, secure electronic mail, entity authentication, device pairing, steganography, and
+voting systems (See also: NC-Security, GIT-Image)

@@ -1,0 +1,8 @@
+Title: SE-Tools: Tools and Environments
+
+CS Core:
+1. Software configuration management and version control: (See also: SDF-Practices)
+a. Configuration in version control, reproducible builds/configuration.
+b. Version control branching strategies. Development branches vs release branches. Trunk-based
+development.
+c. Merging/rebasing strategies, when relevant.

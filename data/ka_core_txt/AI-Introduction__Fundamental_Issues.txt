@@ -1,0 +1,6 @@
+Title: AI-Introduction: Fundamental Issues
+
+KA Core:
+7. Practice identifying problem characteristics in example environments
+8. Additional depth on nature of agents with examples
+9. Additional depth on AI Applications, Growth, and Impact (economic, societal, ethics, security)

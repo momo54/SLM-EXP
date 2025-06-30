@@ -1,0 +1,11 @@
+Title: SEP-DEIA: Diversity, Equity, Inclusion, and Accessibility
+
+CS Core:
+1. How identity impacts and is impacted by computing technologies and environments (academic and
+professional)
+2. The benefits of diverse development teams and the impacts of teams that are not diverse
+3. Inclusive language and charged terminology, and why their use matters
+4. Inclusive behaviors and why they matter
+5. Designing and developing technology with accessibility in mind
+6. How computing professionals can influence and impact diversity, equity, inclusion and accessibility,
+including but not only through the software they create

@@ -1,0 +1,10 @@
+Title: DM-Security: Data Security and Privacy
+
+CS Core:
+1. Differences between data security and data privacy (See also: SEC-Foundations)
+2. Protecting data and database systems from attacks, including injection attacks such as SQL
+injection (See also: SEC-Foundations)
+3. Personally identifying information (PII) and its protection (See also: SEC-Foundations, SEP-
+Security, SEP-Privacy)
+4. Ethical considerations in ensuring the security and privacy of data (See also: SEC-SEP, SEP-
+Ethical-Analysis, SEP-Security, SEP-Privacy)

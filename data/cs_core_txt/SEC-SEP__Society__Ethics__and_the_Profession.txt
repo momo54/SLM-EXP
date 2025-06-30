@@ -1,0 +1,17 @@
+Title: SEC-SEP: Society, Ethics, and the Profession
+
+CS Core:
+1. Principles and practices of privacy (See also: SEP-Security)
+2. Societal impacts on breakdowns in security and privacy (See also: SEP-Context, SEP-Privacy,
+SEP-Security)
+3. Applicability of laws and regulations on security and privacy (See also: SEP-Security)
+4. Professional ethical considerations when designing secure systems and maintaining privacy; ethical
+hacking (See also: SEP-Professional-Ethics, SEP-Privacy, SEP-Security)
+KA-Core:
+258
+5. Security by design (See also: SF-Security, SF-Design)
+6. Privacy by design and privacy engineering (See also: SEP-Privacy, SEP-Security)
+7. Security and privacy implications of malicious AI/machine learning actors, e.g., identifying deep
+fakes (See also: AI-Introduction, AI-ML, SEP-Privacy, SEP-Security)
+8. Societal impacts of Internet of Things (IoT) devices and other emerging technologies on security
+and privacy (See also: SEP-Privacy, SEP-Security)

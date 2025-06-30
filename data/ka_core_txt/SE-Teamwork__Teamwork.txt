@@ -1,0 +1,9 @@
+Title: SE-Teamwork: Teamwork
+
+KA Core:
+7. Interfacing with stakeholders, as a team:
+a. Management & other non-technical teams
+b. Customers
+c. Users
+8. Risks associated with physical, distributed, hybrid, and virtual teams – including communication,
+perception, structure, points of failure, mitigation, and recovery, etc.

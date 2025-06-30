@@ -1,0 +1,5 @@
+Title: FPL-OOP: Object-Oriented Programming
+
+KA Core:
+11. Collection classes, iterators, and other common library components.
+12. Metaprogramming and reflection.

@@ -1,0 +1,5 @@
+Title: DM-Modeling: Data Modeling
+
+KA Core:
+3. Conceptual models (e.g., entity-relationship, UML diagrams)
+4. Semi-structured data models (expressed using DTD, XML, or JSON Schema, for example)

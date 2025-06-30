@@ -1,0 +1,7 @@
+Title: PDC-Programs: Programs
+
+CS Core:
+1. Graphically show (as a Directed Acyclic Graph (DAG)) how to parallelize a compound numerical
+expression; for example, a = (b + c) * (d + e).
+2. Explain why the concepts of consistency and fault tolerance do not arise in purely sequential
+programs.

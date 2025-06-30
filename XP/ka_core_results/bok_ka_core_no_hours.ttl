@@ -1,0 +1,347 @@
+@prefix ns1: <http://example.org/bok/> .
+
+"AI-Introduction__Fundamental_Issues" ns1:part_of "ka_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/ka_core_txt/AI-Introduction__Fundamental_Issues.txt> .
+
+"AI-KRR__Fundamental_Knowledge_Representation_and_Reasoning" ns1:part_of "ka_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/ka_core_txt/AI-KRR__Fundamental_Knowledge_Representation_and_Reasoning.txt> .
+
+"AI-ML__Machine_Learning" ns1:part_of "ka_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/ka_core_txt/AI-ML__Machine_Learning.txt> .
+
+"AI-SEP__Applications_and_Societal_Impact" ns1:part_of "ka_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/ka_core_txt/AI-SEP__Applications_and_Societal_Impact.txt> .
+
+"AI-Search__Search" ns1:part_of "ka_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/ka_core_txt/AI-Search__Search.txt> .
+
+"AL-Complexity__Complexity" ns1:part_of "ka_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/ka_core_txt/AL-Complexity__Complexity.txt> .
+
+"AL-Foundational__Foundational_Data_Structures_and_Algorithms" ns1:part_of "ka_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/ka_core_txt/AL-Foundational__Foundational_Data_Structures_and_Algorithms.txt> .
+
+"AL-Models__Computational_Models_and_Formal_Languages" ns1:part_of "ka_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/ka_core_txt/AL-Models__Computational_Models_and_Formal_Languages.txt> .
+
+"AL-SEP__Society__Ethics__and_the_Profession" ns1:part_of "ka_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/ka_core_txt/AL-SEP__Society__Ethics__and_the_Profession.txt> .
+
+"AL-Strategies__Algorithmic_Strategies" ns1:part_of "ka_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/ka_core_txt/AL-Strategies__Algorithmic_Strategies.txt> .
+
+"AR-Assembly__Assembly_Level_Machine_Organization" ns1:part_of "ka_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/ka_core_txt/AR-Assembly__Assembly_Level_Machine_Organization.txt> .
+
+"AR-Heterogeneity__Heterogeneous_Architectures" ns1:part_of "ka_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/ka_core_txt/AR-Heterogeneity__Heterogeneous_Architectures.txt> .
+
+"AR-Logic__Digital_Logic_and_Digital_Systems" ns1:part_of "ka_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/ka_core_txt/AR-Logic__Digital_Logic_and_Digital_Systems.txt> .
+
+"AR-Memory__Memory_Hierarchy" ns1:part_of "ka_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/ka_core_txt/AR-Memory__Memory_Hierarchy.txt> .
+
+"AR-Organization__Functional_Organization" ns1:part_of "ka_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/ka_core_txt/AR-Organization__Functional_Organization.txt> .
+
+"AR-Performance-Energy__Performance_and_Energy_Efficiency" ns1:part_of "ka_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/ka_core_txt/AR-Performance-Energy__Performance_and_Energy_Efficiency.txt> .
+
+"AR-Quantum__Quantum_Architectures" ns1:part_of "ka_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/ka_core_txt/AR-Quantum__Quantum_Architectures.txt> .
+
+"AR-Security__Secure_Processor_Architectures" ns1:part_of "ka_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/ka_core_txt/AR-Security__Secure_Processor_Architectures.txt> .
+
+"DM-Analytics__Data_Analytics" ns1:part_of "ka_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/ka_core_txt/DM-Analytics__Data_Analytics.txt> .
+
+"DM-Core__Core_Database_System_Concepts" ns1:part_of "ka_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/ka_core_txt/DM-Core__Core_Database_System_Concepts.txt> .
+
+"DM-Internals__DBMS_Internals" ns1:part_of "ka_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/ka_core_txt/DM-Internals__DBMS_Internals.txt> .
+
+"DM-Modeling__Data_Modeling" ns1:part_of "ka_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/ka_core_txt/DM-Modeling__Data_Modeling.txt> .
+
+"DM-NoSQL__NoSQL_Systems" ns1:part_of "ka_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/ka_core_txt/DM-NoSQL__NoSQL_Systems.txt> .
+
+"DM-Processing__Query_Processing" ns1:part_of "ka_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/ka_core_txt/DM-Processing__Query_Processing.txt> .
+
+"DM-Querying__Query_Construction" ns1:part_of "ka_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/ka_core_txt/DM-Querying__Query_Construction.txt> .
+
+"DM-Relational__Relational_Databases" ns1:part_of "ka_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/ka_core_txt/DM-Relational__Relational_Databases.txt> .
+
+"DM-SEP__Society__Ethics__and_the_Profession" ns1:part_of "ka_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/ka_core_txt/DM-SEP__Society__Ethics__and_the_Profession.txt> .
+
+"DM-Security__Data_Security_and_Privacy" ns1:part_of "ka_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/ka_core_txt/DM-Security__Data_Security_and_Privacy.txt> .
+
+"FPL-Abstraction__Program_Abstraction_and_Representation" ns1:part_of "ka_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/ka_core_txt/FPL-Abstraction__Program_Abstraction_and_Representation.txt> .
+
+"FPL-Event-Driven__Event-Driven_and_Reactive_Programming" ns1:part_of "ka_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/ka_core_txt/FPL-Event-Driven__Event-Driven_and_Reactive_Programming.txt> .
+
+"FPL-Functional__Functional_Programming" ns1:part_of "ka_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/ka_core_txt/FPL-Functional__Functional_Programming.txt> .
+
+"FPL-Logic__Logic_Programming" ns1:part_of "ka_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/ka_core_txt/FPL-Logic__Logic_Programming.txt> .
+
+"FPL-OOP__Object-Oriented_Programming" ns1:part_of "ka_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/ka_core_txt/FPL-OOP__Object-Oriented_Programming.txt> .
+
+"FPL-Parallel__Parallel_and_Distributed_Computing" ns1:part_of "ka_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/ka_core_txt/FPL-Parallel__Parallel_and_Distributed_Computing.txt> .
+
+"FPL-Translation__Language_Translation_and_Execution" ns1:part_of "ka_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/ka_core_txt/FPL-Translation__Language_Translation_and_Execution.txt> .
+
+"FPL-Types__Type_Systems" ns1:part_of "ka_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/ka_core_txt/FPL-Types__Type_Systems.txt> .
+
+"GIT-Animation__Computer_Animation" ns1:part_of "ka_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/ka_core_txt/GIT-Animation__Computer_Animation.txt> .
+
+"GIT-Fundamentals__Fundamental_Concepts" ns1:part_of "ka_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/ka_core_txt/GIT-Fundamentals__Fundamental_Concepts.txt> .
+
+"GIT-Interaction__Interaction" ns1:part_of "ka_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/ka_core_txt/GIT-Interaction__Interaction.txt> .
+
+"GIT-Modeling__Geometric_Modeling" ns1:part_of "ka_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/ka_core_txt/GIT-Modeling__Geometric_Modeling.txt> .
+
+"GIT-Physical__Tangible_Physical_Computing" ns1:part_of "ka_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/ka_core_txt/GIT-Physical__Tangible_Physical_Computing.txt> .
+
+"GIT-SEP__Society__Ethics__and_the_Profession" ns1:part_of "ka_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/ka_core_txt/GIT-SEP__Society__Ethics__and_the_Profession.txt> .
+
+"GIT-Shading__Shading_and_Advanced_Rendering" ns1:part_of "ka_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/ka_core_txt/GIT-Shading__Shading_and_Advanced_Rendering.txt> .
+
+"GIT-Simulation__Simulation" ns1:part_of "ka_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/ka_core_txt/GIT-Simulation__Simulation.txt> .
+
+"GIT-Visualization__Visualization" ns1:part_of "ka_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/ka_core_txt/GIT-Visualization__Visualization.txt> .
+
+"HCI-Accessibility__Accessibility_and_Inclusive_Design" ns1:part_of "ka_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/ka_core_txt/HCI-Accessibility__Accessibility_and_Inclusive_Design.txt> .
+
+"HCI-Accountability__Accountability_and_Responsibility_in_Design" ns1:part_of "ka_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/ka_core_txt/HCI-Accountability__Accountability_and_Responsibility_in_Design.txt> .
+
+"HCI-Design__System_Design" ns1:part_of "ka_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/ka_core_txt/HCI-Design__System_Design.txt> .
+
+"HCI-Evaluation__Evaluating_the_Design" ns1:part_of "ka_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/ka_core_txt/HCI-Evaluation__Evaluating_the_Design.txt> .
+
+"HCI-SEP__Society__Ethics__and_the_Profession" ns1:part_of "ka_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/ka_core_txt/HCI-SEP__Society__Ethics__and_the_Profession.txt> .
+
+"HCI-User__Understanding_the_User__Individual_goals_and_interactions_with_others" ns1:part_of "ka_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/ka_core_txt/HCI-User__Understanding_the_User__Individual_goals_and_interactions_with_others.txt> .
+
+"MSF-Calculus" ns1:part_of "ka_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/ka_core_txt/MSF-Calculus.txt> .
+
+"MSF-Linear__Linear_Algebra" ns1:part_of "ka_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/ka_core_txt/MSF-Linear__Linear_Algebra.txt> .
+
+"MSF-Probability__Probability" ns1:part_of "ka_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/ka_core_txt/MSF-Probability__Probability.txt> .
+
+"MSF-Statistics__Statistics" ns1:part_of "ka_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/ka_core_txt/MSF-Statistics__Statistics.txt> .
+
+"NC-Emerging__Emerging_Topics" ns1:part_of "ka_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/ka_core_txt/NC-Emerging__Emerging_Topics.txt> .
+
+"NC-Mobility__Mobility" ns1:part_of "ka_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/ka_core_txt/NC-Mobility__Mobility.txt> .
+
+"NC-Reliability__Reliability_Support" ns1:part_of "ka_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/ka_core_txt/NC-Reliability__Reliability_Support.txt> .
+
+"NC-Routing__Routing_and_Forwarding" ns1:part_of "ka_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/ka_core_txt/NC-Routing__Routing_and_Forwarding.txt> .
+
+"NC-Security__Network_Security" ns1:part_of "ka_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/ka_core_txt/NC-Security__Network_Security.txt> .
+
+"NC-SingleHop__Single_Hop_Communication" ns1:part_of "ka_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/ka_core_txt/NC-SingleHop__Single_Hop_Communication.txt> .
+
+"OS-Advanced-Files__Advanced_File_systems" ns1:part_of "ka_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/ka_core_txt/OS-Advanced-Files__Advanced_File_systems.txt> .
+
+"OS-Concurrency__Concurrency" ns1:part_of "ka_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/ka_core_txt/OS-Concurrency__Concurrency.txt> .
+
+"OS-Devices__Device_management" ns1:part_of "ka_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/ka_core_txt/OS-Devices__Device_management.txt> .
+
+"OS-Faults__Fault_tolerance" ns1:part_of "ka_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/ka_core_txt/OS-Faults__Fault_tolerance.txt> .
+
+"OS-Files__File_Systems_API_and_Implementation" ns1:part_of "ka_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/ka_core_txt/OS-Files__File_Systems_API_and_Implementation.txt> .
+
+"OS-Memory__Memory_Management" ns1:part_of "ka_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/ka_core_txt/OS-Memory__Memory_Management.txt> .
+
+"OS-Process__Process_Model" ns1:part_of "ka_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/ka_core_txt/OS-Process__Process_Model.txt> .
+
+"OS-Protection__Protection_and_Safety" ns1:part_of "ka_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/ka_core_txt/OS-Protection__Protection_and_Safety.txt> .
+
+"OS-Real-time__Real-time_and_Embedded_Systems" ns1:part_of "ka_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/ka_core_txt/OS-Real-time__Real-time_and_Embedded_Systems.txt> .
+
+"OS-SEP__Society__Ethics__and_the_Profession" ns1:part_of "ka_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/ka_core_txt/OS-SEP__Society__Ethics__and_the_Profession.txt> .
+
+"OS-Scheduling__Scheduling" ns1:part_of "ka_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/ka_core_txt/OS-Scheduling__Scheduling.txt> .
+
+"OS-Virtualization__Virtualization" ns1:part_of "ka_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/ka_core_txt/OS-Virtualization__Virtualization.txt> .
+
+"PDC-Algorithms__Algorithms" ns1:part_of "ka_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/ka_core_txt/PDC-Algorithms__Algorithms.txt> .
+
+"PDC-Communication__Communication" ns1:part_of "ka_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/ka_core_txt/PDC-Communication__Communication.txt> .
+
+"PDC-Coordination__Coordination" ns1:part_of "ka_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/ka_core_txt/PDC-Coordination__Coordination.txt> .
+
+"PDC-Evaluation__Evaluation" ns1:part_of "ka_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/ka_core_txt/PDC-Evaluation__Evaluation.txt> .
+
+"PDC-Programs__Programs" ns1:part_of "ka_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/ka_core_txt/PDC-Programs__Programs.txt> .
+
+"SE-Construction__Software_Construction" ns1:part_of "ka_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/ka_core_txt/SE-Construction__Software_Construction.txt> .
+
+"SE-Design__Software_Design" ns1:part_of "ka_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/ka_core_txt/SE-Design__Software_Design.txt> .
+
+"SE-Refactoring__Refactoring_and_Code_Evolution" ns1:part_of "ka_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/ka_core_txt/SE-Refactoring__Refactoring_and_Code_Evolution.txt> .
+
+"SE-Reliability__Software_Reliability" ns1:part_of "ka_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/ka_core_txt/SE-Reliability__Software_Reliability.txt> .
+
+"SE-Requirements__Product_Requirements" ns1:part_of "ka_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/ka_core_txt/SE-Requirements__Product_Requirements.txt> .
+
+"SE-Teamwork__Teamwork" ns1:part_of "ka_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/ka_core_txt/SE-Teamwork__Teamwork.txt> .
+
+"SE-Tools__Tools_and_Environments" ns1:part_of "ka_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/ka_core_txt/SE-Tools__Tools_and_Environments.txt> .
+
+"SE-Validation__Software_Verification_and_Validation" ns1:part_of "ka_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/ka_core_txt/SE-Validation__Software_Verification_and_Validation.txt> .
+
+"SEC-Coding__Secure_Coding" ns1:part_of "ka_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/ka_core_txt/SEC-Coding__Secure_Coding.txt> .
+
+"SEC-Crypto__Cryptography" ns1:part_of "ka_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/ka_core_txt/SEC-Crypto__Cryptography.txt> .
+
+"SEC-Engineering__Security_Analysis__Design__and_Engineering" ns1:part_of "ka_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/ka_core_txt/SEC-Engineering__Security_Analysis__Design__and_Engineering.txt> .
+
+"SEC-Forensics__Digital_Forensics" ns1:part_of "ka_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/ka_core_txt/SEC-Forensics__Digital_Forensics.txt> .
+
+"SEC-Foundations__Foundational_Security" ns1:part_of "ka_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/ka_core_txt/SEC-Foundations__Foundational_Security.txt> .
+
+"SEC-Governance__Security_Governance" ns1:part_of "ka_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/ka_core_txt/SEC-Governance__Security_Governance.txt> .
+
+"SEP-Communication__Communication" ns1:part_of "ka_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/ka_core_txt/SEP-Communication__Communication.txt> .
+
+"SEP-Context__Social_Context" ns1:part_of "ka_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/ka_core_txt/SEP-Context__Social_Context.txt> .
+
+"SEP-DEIA__Diversity__Equity__Inclusion__and_Accessibility" ns1:part_of "ka_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/ka_core_txt/SEP-DEIA__Diversity__Equity__Inclusion__and_Accessibility.txt> .
+
+"SEP-Economies__Economies_of_Computing" ns1:part_of "ka_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/ka_core_txt/SEP-Economies__Economies_of_Computing.txt> .
+
+"SEP-Ethical-Analysis__Methods_for_Ethical_Analysis" ns1:part_of "ka_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/ka_core_txt/SEP-Ethical-Analysis__Methods_for_Ethical_Analysis.txt> .
+
+"SEP-History__Computing_History" ns1:part_of "ka_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/ka_core_txt/SEP-History__Computing_History.txt> .
+
+"SEP-IP__Intellectual_Property" ns1:part_of "ka_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/ka_core_txt/SEP-IP__Intellectual_Property.txt> .
+
+"SEP-Privacy__Privacy_and_Civil_Liberties" ns1:part_of "ka_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/ka_core_txt/SEP-Privacy__Privacy_and_Civil_Liberties.txt> .
+
+"SEP-Professional-Ethics__Professional_Ethics" ns1:part_of "ka_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/ka_core_txt/SEP-Professional-Ethics__Professional_Ethics.txt> .
+
+"SEP-Security__Security_Policies__Laws_and_Computer_Crimes" ns1:part_of "ka_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/ka_core_txt/SEP-Security__Security_Policies__Laws_and_Computer_Crimes.txt> .
+
+"SEP-Sustainability__Sustainability" ns1:part_of "ka_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/ka_core_txt/SEP-Sustainability__Sustainability.txt> .
+
+"SF-Design__System_Design" ns1:part_of "ka_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/ka_core_txt/SF-Design__System_Design.txt> .
+
+"SF-Evaluation__Performance_Evaluation" ns1:part_of "ka_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/ka_core_txt/SF-Evaluation__Performance_Evaluation.txt> .
+
+"SF-Performance__System_Performance" ns1:part_of "ka_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/ka_core_txt/SF-Performance__System_Performance.txt> .
+
+"SF-Reliability__System_Reliability" ns1:part_of "ka_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/ka_core_txt/SF-Reliability__System_Reliability.txt> .
+
+"SF-Resource__Resource_Management" ns1:part_of "ka_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/ka_core_txt/SF-Resource__Resource_Management.txt> .
+
+"SF-SEP__Society__Ethics__and_the_Profession" ns1:part_of "ka_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/ka_core_txt/SF-SEP__Society__Ethics__and_the_Profession.txt> .
+
+"SF-Security__System_Security" ns1:part_of "ka_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/ka_core_txt/SF-Security__System_Security.txt> .
+
+"SPD-Embedded__Embedded_Platforms" ns1:part_of "ka_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/ka_core_txt/SPD-Embedded__Embedded_Platforms.txt> .
+
+"SPD-Game__Game_Platforms" ns1:part_of "ka_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/ka_core_txt/SPD-Game__Game_Platforms.txt> .
+
+"SPD-Mobile__Mobile_Platforms" ns1:part_of "ka_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/ka_core_txt/SPD-Mobile__Mobile_Platforms.txt> .
+
+"SPD-Robot__Robot_Platforms" ns1:part_of "ka_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/ka_core_txt/SPD-Robot__Robot_Platforms.txt> .
+
+"SPD-Web__Web_Platforms" ns1:part_of "ka_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/ka_core_txt/SPD-Web__Web_Platforms.txt> .
+

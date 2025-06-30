@@ -1,0 +1,27 @@
+Title: AI-SEP: Applications and Societal Impact
+
+CS Core:
+1. At least one application of AI to a specific problem and field, such as medicine, health,
+sustainability, social media, economics, education, robotics, etc. (choose at least one for the CS
+Core).
+a. Formulating and evaluating a specific application as an AI problem
+i. How to deal with underspecified or ill-posed problems
+b. Data availability/scarcity and cleanliness
+i. Basic data cleaning and preprocessing
+ii. Data set bias
+c. Algorithmic bias
+d. Evaluation bias
+e. Assessment of societal implications of the application
+2. Deployed deep generative models
+a. High-level overview of deep image generative models (e.g., as of 2023, DALL-E, Midjourney,
+Stable Diffusion, etc.), their uses, and their shortcomings/pitfalls.
+b. High-level overview of large language models (e.g., as of 2023, ChatGPT, Bard, etc.), their
+uses, and their shortcomings/pitfalls.
+3. Overview of societal impact of AI
+75
+a. Ethics (See also: SEP-Context)
+b. Fairness (See also: SEP-Privacy, SEP-DEIA)
+c. Trust/explainability (See also: SEP-Context)
+d. Privacy and usage of training data (See also: SEP-Privacy)
+e. Human autonomy and oversight/regulations/legal requirements (See also: SEP-Context)
+f. Sustainability (See also: SEP-Sustainability)

@@ -1,0 +1,5 @@
+Title: MSF-Statistics: Statistics
+
+CS Core:
+1. Basic definitions and concepts: populations, samples, measures of central tendency, variance
+2. Univariate data: point estimation, confidence intervals

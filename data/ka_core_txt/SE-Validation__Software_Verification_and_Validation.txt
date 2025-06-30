@@ -1,0 +1,58 @@
+Title: SE-Validation: Software Verification and Validation
+
+KA Core:
+6. Test planning and generation
+a. Test case generation, from formal models, specifications, etc.
+b. Test coverage
+i. Test matrices
+ii. Code coverage – how much of the code is tested?
+iii. Environment coverage – how many hardware architectures, operating systems, browsers,
+etc. are tested?
+c. Test data and inputs
+7. Test development
+a. Test-driven development
+b. Object oriented testing, mocking, and dependency injection
+c. Opaque-box (previously, black-box) and transparent-box (previously, white-box) testing
+techniques
+d. Test tooling, including code coverage, static analysis, and fuzzing
+8. Verification and validation in the development cycle
+a. Code reviews
+b. Test automation, including automation of tooling
+c. Pre-commit and post-commit testing
+d. Tradeoffs between test coverage and throughput/latency of testing
+e. Defect tracking and prioritization: reproducibility of reported defects
+9. Domain specific verification and validation challenges
+a. Performance testing and benchmarking
+b. Asynchrony, parallelism, and concurrency
+c. Safety-critical
+d. Numeric
+Non-Core:
+10. Verification and validation tooling and automation
+a. Static analysis
+b. Code coverage
+c. Fuzzing
+d. Dynamic analysis and fault containment (sanitizers, etc.)
+e. Fault logging and fault tracking
+11. Test planning and generation
+247
+a. Fault estimation and testing termination including defect seeding
+b. Use of random and pseudo random numbers in testing
+12. Performance testing and benchmarking
+a. Throughput and latency
+b. Degradation under load (stress testing, FIFO vs LIFO handling of requests)
+c. Speedup and scaling
+i. Amdahl’s law
+ii. Gustafson's law
+iii. Soft and weak scaling
+d. Identifying and measuring figures of merits
+e. Common performance bottlenecks
+i. Compute-bound
+ii. Memory-bandwidth bound
+iii. Latency-bound
+f. Statistical methods and best practices for benchmarking
+i. Estimation of uncertainty
+ii. Confidence intervals
+g. Analysis and presentation (graphs, etc.)
+h. Timing techniques
+13. Testing asynchronous, parallel, and concurrent systems
+14. Verification and validation of non-code artifacts (documentation, training materials)

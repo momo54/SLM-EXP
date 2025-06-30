@@ -4,7 +4,7 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX ex: <http://example.org/>
 
 SELECT DISTINCT ?s ?label ?ku_source ?score ?parcours ?ka ?ku ?answer ?explain WHERE {
-    BIND(ex:SLM-FILE("./data/master2025/M1/CMI_M1.ttl") AS ?input)
+    BIND(ex:SLM-FILE("./data/new_description.ttl") AS ?input)
     BIND(ex:SLM-RDF(?input,"turtle") AS ?ginput)
     graph ?ginput {
         {select * where    {

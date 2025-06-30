@@ -1,0 +1,11 @@
+Title: FPL-Abstraction: Program Abstraction and Representation
+
+KA Core:
+1. Illustrate the scope of variables and visibility using simple programs.
+2. Illustrate different types of parameter-passing using simple pseudo programming language.
+3. Explain side-effect using global and nonlocal variables and how to fix such programs.
+4. Explain how programs that process other programs treat the other programs as their input data.
+5. Describe a grammar and an abstract syntax tree for a small language.
+6. Describe the benefits of having program representations other than strings of source code.
+7. Implement a program to process some representation of code for some purpose, such as an
+interpreter, an expression optimizer, or a documentation generator.

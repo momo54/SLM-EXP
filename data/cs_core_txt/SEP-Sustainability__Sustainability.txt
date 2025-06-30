@@ -1,0 +1,12 @@
+Title: SEP-Sustainability: Sustainability
+
+CS Core:
+1. Environmental, social, and cultural impacts of implementation decisions (e.g., sustainability goals,
+algorithmic bias/outcomes, economic viability, and resource consumption)
+2. Local/regional/global social and environmental impacts of computing systems and their use (e.g.,
+carbon footprints, resource usage, e-waste) due to hardware (e.g., e-waste, data centers, rare
+element and resource utilization, recycling) and software (e.g., cloud-based services, blockchain,
+AI model training and use). This includes everyday use of hardware (cheap hardware replaced
+frequently) and software (web-browsing, email, and other services with hidden/remote
+computational demands).
+3. Guidelines for sustainable design standards.

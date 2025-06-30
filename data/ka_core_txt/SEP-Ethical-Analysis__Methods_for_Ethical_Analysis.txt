@@ -1,0 +1,10 @@
+Title: SEP-Ethical-Analysis: Methods for Ethical Analysis
+
+KA Core:
+5. Professional checklists
+6. Evaluation rubrics
+7. Stakeholder analysis
+8. Standpoint theory
+9. Introduction to ethical frameworks (e.g., consequentialism such as utilitarianism, non-
+consequentialism such as duty, rights, or justice, agent-centered such as virtue or feminism,
+contractarianism, ethics of care) and their use for analyzing an ethical dilemma

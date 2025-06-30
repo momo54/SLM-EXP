@@ -1,0 +1,12 @@
+Title: SEC-Coding: Secure Coding
+
+CS Core:
+1. Common vulnerabilities and weaknesses
+2. SQL injection and other injection attacks
+3. Cross-site scripting techniques and mitigations
+4. Input validation and data sanitization (See also: OS-Protection, SDF-Fundamentals, SE-Validation)
+5. Type safety and type-safe languages (See also: FPL-Types, FPL-Systems, OS-Protection, SDF-
+Fundamentals, SE-Validation)
+6. Buffer overflows, stack smashing, and integer overflows (See also: AR-Assembly, FPL-Systems,
+OS-Protection)
+7. Security issues due to race conditions (See also: FPL-Parallel, PDC-Evaluation)

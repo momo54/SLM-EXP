@@ -1,0 +1,7 @@
+Title: DM-Querying: Query Construction
+
+KA Core:
+2. Relational Algebra
+3. SQL
+a. Data definition including integrity and other constraint specifications
+b. Update sublanguage

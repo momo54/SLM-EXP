@@ -1,0 +1,13 @@
+Title: AL-Foundational: Foundational Data Structures and Algorithms
+
+KA Core:
+14. Sorting algorithms
+a. O(n log n) complexity heapsort
+b. Pseudo O(n) complexity (e.g., bucket, counting, radix)
+15. Graph algorithms
+a. Transitive closure (e.g., Warshall’s)
+b. Topological sort
+16. Matching
+a. Efficient string matching (e.g., Boyer-Moore, Knuth-Morris-Pratt)
+b. Longest common subsequence matching
+c. Regular expression matching

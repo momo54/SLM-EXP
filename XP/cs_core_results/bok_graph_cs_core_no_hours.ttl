@@ -1,0 +1,239 @@
+@prefix ns1: <http://example.org/bok/> .
+
+"AI-Introduction__Fundamental_Issues" ns1:part_of "cs_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/cs_core_txt/AI-Introduction__Fundamental_Issues.txt> .
+
+"AI-KRR__Fundamental_Knowledge_Representation_and_Reasoning" ns1:part_of "cs_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/cs_core_txt/AI-KRR__Fundamental_Knowledge_Representation_and_Reasoning.txt> .
+
+"AI-ML__Machine_Learning" ns1:part_of "cs_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/cs_core_txt/AI-ML__Machine_Learning.txt> .
+
+"AI-SEP__Applications_and_Societal_Impact" ns1:part_of "cs_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/cs_core_txt/AI-SEP__Applications_and_Societal_Impact.txt> .
+
+"AI-Search__Search" ns1:part_of "cs_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/cs_core_txt/AI-Search__Search.txt> .
+
+"AL-Complexity__Complexity" ns1:part_of "cs_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/cs_core_txt/AL-Complexity__Complexity.txt> .
+
+"AL-Models__Computational_Models_and_Formal_Languages" ns1:part_of "cs_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/cs_core_txt/AL-Models__Computational_Models_and_Formal_Languages.txt> .
+
+"AL-Strategies__Algorithmic_Strategies" ns1:part_of "cs_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/cs_core_txt/AL-Strategies__Algorithmic_Strategies.txt> .
+
+"AR-Assembly__Assembly_Level_Machine_Organization" ns1:part_of "cs_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/cs_core_txt/AR-Assembly__Assembly_Level_Machine_Organization.txt> .
+
+"AR-IO__Interfacing_and_Communication" ns1:part_of "cs_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/cs_core_txt/AR-IO__Interfacing_and_Communication.txt> .
+
+"AR-Memory__Memory_Hierarchy" ns1:part_of "cs_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/cs_core_txt/AR-Memory__Memory_Hierarchy.txt> .
+
+"AR-Representation__Machine-Level_Data_Representation" ns1:part_of "cs_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/cs_core_txt/AR-Representation__Machine-Level_Data_Representation.txt> .
+
+"DM-Core__Core_Database_System_Concepts" ns1:part_of "cs_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/cs_core_txt/DM-Core__Core_Database_System_Concepts.txt> .
+
+"DM-Data__The_Role_of_Data_and_the_Data_Life_Cycle" ns1:part_of "cs_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/cs_core_txt/DM-Data__The_Role_of_Data_and_the_Data_Life_Cycle.txt> .
+
+"DM-Modeling__Data_Modeling" ns1:part_of "cs_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/cs_core_txt/DM-Modeling__Data_Modeling.txt> .
+
+"DM-Querying__Query_Construction" ns1:part_of "cs_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/cs_core_txt/DM-Querying__Query_Construction.txt> .
+
+"DM-Relational__Relational_Databases" ns1:part_of "cs_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/cs_core_txt/DM-Relational__Relational_Databases.txt> .
+
+"DM-SEP__Society__Ethics__and_the_Profession" ns1:part_of "cs_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/cs_core_txt/DM-SEP__Society__Ethics__and_the_Profession.txt> .
+
+"DM-Security__Data_Security_and_Privacy" ns1:part_of "cs_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/cs_core_txt/DM-Security__Data_Security_and_Privacy.txt> .
+
+"FPL-Event-Driven__Event-Driven_and_Reactive_Programming" ns1:part_of "cs_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/cs_core_txt/FPL-Event-Driven__Event-Driven_and_Reactive_Programming.txt> .
+
+"FPL-Functional__Functional_Programming" ns1:part_of "cs_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/cs_core_txt/FPL-Functional__Functional_Programming.txt> .
+
+"FPL-OOP__Object-Oriented_Programming" ns1:part_of "cs_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/cs_core_txt/FPL-OOP__Object-Oriented_Programming.txt> .
+
+"FPL-Parallel__Parallel_and_Distributed_Computing" ns1:part_of "cs_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/cs_core_txt/FPL-Parallel__Parallel_and_Distributed_Computing.txt> .
+
+"FPL-Scripting__Shell_Scripting" ns1:part_of "cs_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/cs_core_txt/FPL-Scripting__Shell_Scripting.txt> .
+
+"FPL-Systems__Systems_Execution_and_Memory_Model" ns1:part_of "cs_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/cs_core_txt/FPL-Systems__Systems_Execution_and_Memory_Model.txt> .
+
+"FPL-Translation__Language_Translation_and_Execution" ns1:part_of "cs_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/cs_core_txt/FPL-Translation__Language_Translation_and_Execution.txt> .
+
+"FPL-Types__Type_Systems" ns1:part_of "cs_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/cs_core_txt/FPL-Types__Type_Systems.txt> .
+
+"GIT-Fundamentals__Fundamental_Concepts" ns1:part_of "cs_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/cs_core_txt/GIT-Fundamentals__Fundamental_Concepts.txt> .
+
+"HCI-Accessibility__Accessibility_and_Inclusive_Design" ns1:part_of "cs_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/cs_core_txt/HCI-Accessibility__Accessibility_and_Inclusive_Design.txt> .
+
+"HCI-Design__System_Design" ns1:part_of "cs_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/cs_core_txt/HCI-Design__System_Design.txt> .
+
+"HCI-Evaluation__Evaluating_the_Design" ns1:part_of "cs_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/cs_core_txt/HCI-Evaluation__Evaluating_the_Design.txt> .
+
+"HCI-SEP__Society__Ethics__and_the_Profession" ns1:part_of "cs_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/cs_core_txt/HCI-SEP__Society__Ethics__and_the_Profession.txt> .
+
+"HCI-User__Understanding_the_User__Individual_goals_and_interactions_with_others" ns1:part_of "cs_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/cs_core_txt/HCI-User__Understanding_the_User__Individual_goals_and_interactions_with_others.txt> .
+
+"MSF-Discrete__Discrete_Mathematics" ns1:part_of "cs_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/cs_core_txt/MSF-Discrete__Discrete_Mathematics.txt> .
+
+"MSF-Linear__Linear_Algebra" ns1:part_of "cs_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/cs_core_txt/MSF-Linear__Linear_Algebra.txt> .
+
+"MSF-Probability__Probability" ns1:part_of "cs_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/cs_core_txt/MSF-Probability__Probability.txt> .
+
+"MSF-Statistics__Statistics" ns1:part_of "cs_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/cs_core_txt/MSF-Statistics__Statistics.txt> .
+
+"NC-Applications__Networked_Applications" ns1:part_of "cs_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/cs_core_txt/NC-Applications__Networked_Applications.txt> .
+
+"NC-Fundamentals__Fundamentals" ns1:part_of "cs_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/cs_core_txt/NC-Fundamentals__Fundamentals.txt> .
+
+"OS-Concurrency__Concurrency" ns1:part_of "cs_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/cs_core_txt/OS-Concurrency__Concurrency.txt> .
+
+"OS-Principles__Principles_of_Operating_System" ns1:part_of "cs_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/cs_core_txt/OS-Principles__Principles_of_Operating_System.txt> .
+
+"OS-Protection__Protection_and_Safety" ns1:part_of "cs_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/cs_core_txt/OS-Protection__Protection_and_Safety.txt> .
+
+"OS-Purpose__Role_and_Purpose_of_Operating_Systems" ns1:part_of "cs_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/cs_core_txt/OS-Purpose__Role_and_Purpose_of_Operating_Systems.txt> .
+
+"PDC-Algorithms__Algorithms" ns1:part_of "cs_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/cs_core_txt/PDC-Algorithms__Algorithms.txt> .
+
+"PDC-Communication__Communication" ns1:part_of "cs_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/cs_core_txt/PDC-Communication__Communication.txt> .
+
+"PDC-Coordination__Coordination" ns1:part_of "cs_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/cs_core_txt/PDC-Coordination__Coordination.txt> .
+
+"PDC-Evaluation__Evaluation" ns1:part_of "cs_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/cs_core_txt/PDC-Evaluation__Evaluation.txt> .
+
+"PDC-Programs__Programs" ns1:part_of "cs_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/cs_core_txt/PDC-Programs__Programs.txt> .
+
+"SDF-Fundamentals__Fundamental_Programming_Concepts_and_Practices" ns1:part_of "cs_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/cs_core_txt/SDF-Fundamentals__Fundamental_Programming_Concepts_and_Practices.txt> .
+
+"SDF-SEP__Society__Ethics__and_the_Profession" ns1:part_of "cs_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/cs_core_txt/SDF-SEP__Society__Ethics__and_the_Profession.txt> .
+
+"SE-Construction__Software_Construction" ns1:part_of "cs_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/cs_core_txt/SE-Construction__Software_Construction.txt> .
+
+"SE-Design__Software_Design" ns1:part_of "cs_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/cs_core_txt/SE-Design__Software_Design.txt> .
+
+"SE-Teamwork__Teamwork" ns1:part_of "cs_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/cs_core_txt/SE-Teamwork__Teamwork.txt> .
+
+"SE-Tools__Tools_and_Environments" ns1:part_of "cs_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/cs_core_txt/SE-Tools__Tools_and_Environments.txt> .
+
+"SE-Validation__Software_Verification_and_Validation" ns1:part_of "cs_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/cs_core_txt/SE-Validation__Software_Verification_and_Validation.txt> .
+
+"SEC-Coding__Secure_Coding" ns1:part_of "cs_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/cs_core_txt/SEC-Coding__Secure_Coding.txt> .
+
+"SEC-Crypto__Cryptography" ns1:part_of "cs_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/cs_core_txt/SEC-Crypto__Cryptography.txt> .
+
+"SEC-Engineering__Security_Analysis__Design__and_Engineering" ns1:part_of "cs_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/cs_core_txt/SEC-Engineering__Security_Analysis__Design__and_Engineering.txt> .
+
+"SEC-Foundations__Foundational_Security" ns1:part_of "cs_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/cs_core_txt/SEC-Foundations__Foundational_Security.txt> .
+
+"SEC-SEP__Society__Ethics__and_the_Profession" ns1:part_of "cs_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/cs_core_txt/SEC-SEP__Society__Ethics__and_the_Profession.txt> .
+
+"SEP-Communication__Communication" ns1:part_of "cs_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/cs_core_txt/SEP-Communication__Communication.txt> .
+
+"SEP-Context__Social_Context" ns1:part_of "cs_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/cs_core_txt/SEP-Context__Social_Context.txt> .
+
+"SEP-DEIA__Diversity__Equity__Inclusion__and_Accessibility" ns1:part_of "cs_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/cs_core_txt/SEP-DEIA__Diversity__Equity__Inclusion__and_Accessibility.txt> .
+
+"SEP-Ethical-Analysis__Methods_for_Ethical_Analysis" ns1:part_of "cs_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/cs_core_txt/SEP-Ethical-Analysis__Methods_for_Ethical_Analysis.txt> .
+
+"SEP-History__Computing_History" ns1:part_of "cs_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/cs_core_txt/SEP-History__Computing_History.txt> .
+
+"SEP-IP__Intellectual_Property" ns1:part_of "cs_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/cs_core_txt/SEP-IP__Intellectual_Property.txt> .
+
+"SEP-Privacy__Privacy_and_Civil_Liberties" ns1:part_of "cs_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/cs_core_txt/SEP-Privacy__Privacy_and_Civil_Liberties.txt> .
+
+"SEP-Professional-Ethics__Professional_Ethics" ns1:part_of "cs_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/cs_core_txt/SEP-Professional-Ethics__Professional_Ethics.txt> .
+
+"SEP-Security__Security_Policies__Laws_and_Computer_Crimes" ns1:part_of "cs_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/cs_core_txt/SEP-Security__Security_Policies__Laws_and_Computer_Crimes.txt> .
+
+"SEP-Sustainability__Sustainability" ns1:part_of "cs_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/cs_core_txt/SEP-Sustainability__Sustainability.txt> .
+
+"SF-Design__System_Design" ns1:part_of "cs_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/cs_core_txt/SF-Design__System_Design.txt> .
+
+"SF-Evaluation__Performance_Evaluation" ns1:part_of "cs_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/cs_core_txt/SF-Evaluation__Performance_Evaluation.txt> .
+
+"SF-Foundations__Basic_Concepts" ns1:part_of "cs_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/cs_core_txt/SF-Foundations__Basic_Concepts.txt> .
+
+"SF-Overview__Overview_of_Computer_Systems" ns1:part_of "cs_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/cs_core_txt/SF-Overview__Overview_of_Computer_Systems.txt> .
+
+"SF-Performance__System_Performance" ns1:part_of "cs_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/cs_core_txt/SF-Performance__System_Performance.txt> .
+
+"SF-Reliability__System_Reliability" ns1:part_of "cs_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/cs_core_txt/SF-Reliability__System_Reliability.txt> .
+
+"SF-Resource__Resource_Management" ns1:part_of "cs_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/cs_core_txt/SF-Resource__Resource_Management.txt> .
+
+"SF-Security__System_Security" ns1:part_of "cs_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/cs_core_txt/SF-Security__System_Security.txt> .
+
+"SPD-Common__Common_Aspects_Shared_Concerns" ns1:part_of "cs_core_txt" ;
+    ns1:path <file:///home/ilefm/SLM-EXP/data/cs_core_txt/SPD-Common__Common_Aspects_Shared_Concerns.txt> .
+
